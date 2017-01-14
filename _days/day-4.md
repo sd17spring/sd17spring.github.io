@@ -1,6 +1,6 @@
 ---
-date: '2016-02-01'
-description: 'String formatting'
+date: '2017-01-26'
+description: String formatting
 title: Day 4
 ---
 

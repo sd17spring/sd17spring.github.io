@@ -1,6 +1,6 @@
 ---
-date: '2016-01-28'
-description: 'Gene finder bio content, loops, fruitful functions, and more unit testing'
+date: '2017-01-24'
+description: Gene finder bio content, loops, fruitful functions, and more unit testing
 title: Day 3
 ---
 

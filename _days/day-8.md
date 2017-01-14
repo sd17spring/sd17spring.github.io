@@ -1,6 +1,6 @@
 ---
-date: '2016-02-17'
-description: '(Olin Monday) - Recursion practice, computational art gallery show'
+date: '2017-02-09'
+description: Recursion practice, computational art gallery show
 title: Day 8
 ---
 

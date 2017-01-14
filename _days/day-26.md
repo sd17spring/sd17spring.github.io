@@ -1,6 +1,6 @@
 ---
-date: '2016-04-28'
-description: 'Final deliverables, where to go next'
+date: '2017-04-27'
+description: Final deliverables, where to go next
 title: Day 26
 ---
 

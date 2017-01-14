@@ -1,6 +1,6 @@
 ---
-date: '2016-01-21'
-description: 'The case for interdisciplinary computer science, course overview'
+date: '2017-01-19'
+description: The case for interdisciplinary computer science, course overview
 title: Day 1
 ---
 

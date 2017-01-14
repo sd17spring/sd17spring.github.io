@@ -1,6 +1,6 @@
 ---
-date: '2016-02-18'
-description: 'Dictionaries, tuples, saving data sets with pickle'
+date: '2017-02-13'
+description: Dictionaries, tuples, saving data sets with pickle
 title: Day 9
 ---
 

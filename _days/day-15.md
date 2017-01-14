@@ -1,6 +1,6 @@
 ---
-date: '2016-03-21'
-description: 'Final project ideation and team formation'
+date: '2017-03-09'
+description: Final project ideation and team formation
 title: Day 15
 ---
 

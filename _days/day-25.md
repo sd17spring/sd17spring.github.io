@@ -1,6 +1,6 @@
 ---
-date: '2016-04-25'
-description: 'Project presentations'
+date: '2017-04-24'
+description: Project presentations
 title: Day 25
 ---
 

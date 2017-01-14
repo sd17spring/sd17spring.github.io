@@ -1,6 +1,6 @@
 ---
-date: '2016-04-04'
-description: 'Debugging and profiling'
+date: '2017-03-30'
+description: Debugging and profiling
 title: Day 19
 ---
 

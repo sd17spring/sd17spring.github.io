@@ -1,6 +1,6 @@
 ---
-date: '2016-04-21'
-description: 'Technical Review 2'
+date: '2017-04-20'
+description: Technical Review 2
 title: Day 24
 ---
 

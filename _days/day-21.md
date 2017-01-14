@@ -1,6 +1,6 @@
 ---
-date: '2016-04-11'
-description: 'Project website/README, organizing large projects'
+date: '2017-04-06'
+description: Project website/README, organizing large projects
 title: Day 21
 ---
 

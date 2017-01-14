@@ -1,6 +1,6 @@
 ---
-date: '2016-02-04'
-description: 'State diagrams, aliasing, scope. and iteration techniques.'
+date: '2017-01-30'
+description: State diagrams, aliasing, scope. and iteration techniques.
 title: Day 5
 ---
 

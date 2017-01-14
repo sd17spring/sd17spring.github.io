@@ -1,6 +1,6 @@
 ---
-date: '2016-02-11'
-description: 'Recursion, fractals in TurtleWorld'
+date: '2017-02-06'
+description: Recursion, fractals in TurtleWorld
 title: Day 7
 ---
 

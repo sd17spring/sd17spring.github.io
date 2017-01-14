@@ -1,6 +1,6 @@
 ---
-date: '2016-03-28'
-description: 'Analysis of algorithms'
+date: '2017-03-23'
+description: Analysis of algorithms
 title: Day 17
 ---
 

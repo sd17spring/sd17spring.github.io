@@ -1,6 +1,6 @@
 ---
-date: '2016-01-25'
-description: 'Exploring modular design, intro to unit testing'
+date: '2017-01-23'
+description: Exploring modular design, intro to unit testing
 title: Day 2
 ---
 

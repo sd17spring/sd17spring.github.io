@@ -1,6 +1,6 @@
 ---
-date: '2016-03-24'
-description: 'Review project proposals'
+date: '2017-03-20'
+description: Review project proposals
 title: Day 16
 ---
 

@@ -1,6 +1,6 @@
 ---
-date: '2016-04-07'
-description: 'Exceptions and assertions'
+date: '2017-04-03'
+description: Exceptions and assertions
 title: Day 20
 ---
 

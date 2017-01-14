@@ -1,6 +1,6 @@
 ---
-date: '2016-02-22'
-description: 'Text mining mini project work'
+date: '2017-02-16'
+description: Text mining mini project work
 title: Day 10
 ---
 
