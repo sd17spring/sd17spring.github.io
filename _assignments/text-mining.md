@@ -3,7 +3,7 @@ date: '2016-12-29T18:26:01'
 description: ''
 title: 'Mini Project 3: Text Mining and Analysis'
 toc: true
-due_date: '2016-02-25'
+due_date: '2017-02-22'
 ---
 
 {% include toc %}

@@ -2,7 +2,7 @@
 date: '2016-12-29T18:26:01'
 description: ''
 title: 'Mini Project 2: Computational Art'
-due_date: '2016-02-17'
+due_date: '2017-02-09'
 ---
 
 {% include toc %}
