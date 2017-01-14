@@ -2,34 +2,22 @@ title: "Spring 2017 Software Design"
 number: ENGR3520
 
 instructors:
-- name: Paul Ruvolo
-  email: Paul.Ruvolo@olin.edu
-  office: MH357
-  website: http://occam.olin.edu
-- name: Ben Hill
-  email: Benjamin.Hill@olin.edu
-  office: MH329
+- name: Amon Millner
+  email: amon.millner@olin.edu
+  office: MH323
 - name: Oliver Steele
   email: Oliver.Steele@olin.edu
-  office: MH353
+  office: MH262
 
 assistants:
-- name: Sophia Li
-- name: Rocco DiVerdi
-- name: Pratool Gadtaula
-- name: Yuzhong Huang
-- name: Patrick Huston
-- name: Kai Levy
-- name: Franton Lin
-- name: Jennifer Wei
-- name: Lucy Wilcox
-github_owner: sd16spring
+- name: TBD
 
+github_owner: sd17spring
 
 sections:
   - number: 1
     when: "Mon/Thu 1:30-3:10pm"
     where: "AC326"
   - number: 2
-    when: "Mon/Thu 3:20-5:00pm"
-    where: "AC326"
+    when: "Mon/Thu 1:30-3:10pm"
+    where: "AC328"
