@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Activities"
+    url: /days/
+  - title: "Assignments"
+    url: /assignments/
+  - title: "Calendar"
+    url: /calendar/
+  - title: "Toolboxes"
+    url: /toolboxes/
+  - title: "Resources"
+    url: /resources/
+  - title: "Policies"
+    url: /policies/
+  - title: "Git Help"
+    url: /git-help/
