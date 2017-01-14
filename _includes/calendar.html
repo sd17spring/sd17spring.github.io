@@ -1,0 +1,11 @@
+<iframe id="course-calendar" src="{{site.course.calendar_url}}"></iframe>
+
+<script type="application/javascript">
+window.addEventListener('DOMContentReady', function(e) {
+    var id = 'course-calendar'
+    var iFrame = document.getElementById(id);
+    iFrame.width = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+    console.info('size', iFrame.width, iFrame.height);
+});
+</script>
