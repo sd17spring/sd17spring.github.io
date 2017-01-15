@@ -2,7 +2,7 @@
 date: '2016-12-29T18:26:01'
 description: ''
 title: 'Mini Project 5: Feedback and Revision'
-due_date: '2016-04-19'
+due_date: '2017-04-23'
 ---
 
 ## Introduction
@@ -66,4 +66,3 @@ Complete your revision and improvement and push your work to GitHub.
 Create a pull request from your master branch to your release branch. Submit
 your work by [filling out this form](http://goo.gl/forms/joIEF3IZjP) with the
 URL of your pull request.
-
