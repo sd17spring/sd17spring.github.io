@@ -11,9 +11,9 @@ type: index
 ## Overview
 
 From now until the end of the semester you will be working with a team of
-students on a group software project. The project will culminate on Thursday,
+students on a group software project. <!--The project will culminate on Thursday,
 May 5th with EXPO style demo / poster session (8am-11am). Both sections will
-be present concurrently for this session.
+be present concurrently for this session.-->
 
 ## Project Topic
 
