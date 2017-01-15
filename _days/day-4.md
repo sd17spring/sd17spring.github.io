@@ -65,8 +65,7 @@ square root table!
 There are two main ways to format strings in Python, and you're likely to see
 both in code you read.
 
-The [older method](https://docs.python.org/2/library/stdtypes.html#string-
-formatting) uses a format string and the percent character (same as the modulo
+The [older method](https://docs.python.org/2/library/stdtypes.html#string-formatting) uses a format string and the percent character (same as the modulo
 operator) to replace pieces of the format string. For example, to insert an
 integer, you could use:
 
@@ -75,8 +74,7 @@ integer, you could use:
 Your number is 52
 ```
 
-The [newer method](https://docs.python.org/2/library/string.html#format-
-string-syntax) also uses a (similar) format string, but uses an explicit
+The [newer method](https://docs.python.org/2/library/string.html#format-string-syntax) also uses a (similar) format string, but uses an explicit
 format method:
 
 ```
@@ -112,5 +110,3 @@ What helper functions would be useful in creating this receipt program?
 Hint: the [built-in 'ord' and
 'chr'](https://docs.python.org/2/library/functions.html) functions may be
 useful. If you use these, pay attention to how case affects the result.
-
-

@@ -57,8 +57,7 @@ reading!
 ## Step 1: Install and Configure Ubuntu
 
 The officially supported OS for SoftDes is Ubuntu 14.04.3 64-bit (ISO
-available [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.3-desktop-
-amd64.iso)). The preferred method for installation is to use one of the
+available [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.3-desktop-amd64.iso)). The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
 bootable installer for Ubuntu 14.04.3. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
@@ -73,8 +72,7 @@ Linux, so you can just follow the default "Install Linux alongside Windows"
 instructions. If you have an older laptop or otherwise don't have room for the
 Linux install, you will need to adjust your hard drive partition sizes to make
 room. Detailed instructions on how to complete the partitioning process can be
-found [here](http://askubuntu.com/questions/343268/how-to-use-manual-
-partitioning-during-installation/343370#343370). When in doubt ask for help as
+found [here](http://askubuntu.com/questions/343268/how-to-use-manual-partitioning-during-installation/343370#343370). When in doubt ask for help as
 this part is a bit tricky.
 
 Another option is to use a [virtual
@@ -339,8 +337,7 @@ please do the following:
 ## Step 5: Play a game?!?
 
 President Obama recently made
-[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-
-president-write-line-code) for being the first U.S. president to write a line
+[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code) for being the first U.S. president to write a line
 of code. The code he wrote was part of the "[Hour of
 Code](http://hourofcode.com/us)" initiative which seeks to get more people to
 try programming. There are many different hour of code tutorials, but a really

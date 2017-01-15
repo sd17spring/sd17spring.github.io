@@ -111,8 +111,7 @@ graphical user-interface that makes the process of debugging more scaffolded.
 You can install winpdb by running: `sudo apt-get install winpdb`
 
 Alternate installation from source: First, download the source
-[here](https://storage.googleapis.com/google-code-archive-
-downloads/v2/code.google.com/winpdb/winpdb-1.4.8.tar.gz). Next, extract it, cd
+[here](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/winpdb/winpdb-1.4.8.tar.gz). Next, extract it, cd
 to the extracted folder, and run `sudo python setup.py install -f`.
 
 Once you have installed winpdb, try it out by running the following command:
@@ -142,8 +141,7 @@ sys 0m0.012s
 
 2) To measure at a finer granularity, you can use [Python time
 module](https://docs.python.org/2/library/time.html) to measure the time
-before and after a function call as we did in the [Day 17](/in-class-
-exercises/day-17) exercises.
+before and after a function call as we did in the [Day 17](/in-class-exercises/day-17) exercises.
 
 3) You may have noticed some variability in your results on the Day 17
 exercises. To run many experimental trials of a small snippet of code, you can

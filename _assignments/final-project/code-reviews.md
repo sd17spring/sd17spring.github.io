@@ -17,8 +17,7 @@ improve your code.
 Code Review day will be divided into three review periods. During one period,
 you will present code from your project for classmates to review. During the
 other two periods, you will review code from other projects in your [team
-group](/assignments/final-project/technical-reviews#TOC-
-Team-groupings-and-schedule). Each team member (or, in some cases, _pair_  of
+group](/assignments/final-project/technical-reviews#TOC-Team-groupings-and-schedule). Each team member (or, in some cases, _pair_  of
 members) will present code separately from the rest of their team.
 
 Code review has many benefits, and is broadly used in the software industry.
@@ -133,8 +132,4 @@ Also posted on the [course calendar](/calendar).
 
 ### Team groupings
 
-Logistics details are fully explained on the [Day 22 page](/in-class-
-exercises/day-22)
-
-
-
+Logistics details are fully explained on the [Day 22 page](/in-class-exercises/day-22)

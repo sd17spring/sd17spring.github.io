@@ -44,8 +44,7 @@ convention for their Python script.
 
 To get started, make sure that you can grab video frames from your webcam and
 display them to the screen. A great place to start is by looking at the OpenCV
-[tutorial on video capture](http://opencv-python-
-tutroals.readthedocs.org/en/latest/py_tutorials/py_ gui/py_video_ display/py_video_ display.html).
+[tutorial on video capture](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_ gui/py_video_ display/py_video_ display.html).
 Note that the tutorial shows you how to grab frames from the webcam and from a
 video file.
 

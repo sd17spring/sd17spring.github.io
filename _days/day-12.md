@@ -22,17 +22,13 @@ Model-View-Controller is what is known as a [software design
 pattern](https://en.wikipedia.org/wiki/Software_design_ pattern).
 
 
-> In [software engineering](https://en.wikipedia.org/wiki/Software_engineering
-"Software engineering" ), a **[design
+> In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a **[design
 pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern" )**  is
 a general reusable solution to a commonly occurring problem within a given
-context in [software design](https://en.wikipedia.org/wiki/Software_design
-"Software design" ). A design pattern is not a finished design that can be
-transformed directly into [source](https://en.wikipedia.org/wiki/Source_ code
-"Source code" ) or [machine](https://en.wikipedia.org/wiki/Machine_code
-"Machine code" ) code. It is a description or template for how to solve a
+context in [software design](https://en.wikipedia.org/wiki/Software_design). A design pattern is not a finished design that can be
+transformed directly into [source](https://en.wikipedia.org/wiki/Source_ code) or [machine](https://en.wikipedia.org/wiki/Machine_code) code. It is a description or template for how to solve a
 problem that can be used in many different situations. Patterns are formalized
-[best practices](https://en.wikipedia.org/wiki/Best_ practice "Best practice" )
+[best practices](https://en.wikipedia.org/wiki/Best_practice)
 that the programmer can use to solve common problems when designing an
 application or system.
 >
@@ -45,10 +41,7 @@ importantly it is ideally suited to the projects that you all will be doing
 for this mini-project. Here is a figure that shows the basic principles of the
 MVC design pattern.
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-
-Process.svg/500px-MVC-
-Process.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-
-Process.svg/500px-MVC-Process.svg.png)
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png)
 
 > * A _controller_  can send commands to the model to update the model's state
 (e.g. editing a document). It can also send commands to its associated view to
@@ -81,4 +74,3 @@ controller last.
 It will help to have a [pygame cheat
 sheet](http://inventwithpython.com/blogstatic/pygamecheatsheet.png?27f655)
 handy so that you can better follow along with the tutorial.
-

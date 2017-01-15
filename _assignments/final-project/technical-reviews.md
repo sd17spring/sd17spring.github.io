@@ -63,8 +63,7 @@ the peer teams in your group a reasonable amount of "homework" (~10-20 minutes
 of reading) by emailing them at least 24 hours before your technical review.
 
 The Preparation and Framing document must be posted as
-[Markdown](https://help.github.com/articles/getting-started-with-writing-and-
-formatting-on-github/) to your team GitHub repository before the review takes
+[Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/) to your team GitHub repository before the review takes
 place. You should also post any additional materials (e.g. slides, handouts)
 that you use during the technical review.
 
@@ -274,4 +273,3 @@ Also posted on the [course calendar](/calendar).
 **Group E**  \- Course Paths, Data Analysis/Visualization, Data Vis, NewsBox
 
 **Group F**  \- BACLaudio, Big Chickens, computer generated sculptures, Procedurally generated terrain
-

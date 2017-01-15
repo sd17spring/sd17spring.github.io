@@ -68,8 +68,7 @@ Python:
 
 If Pattern is installed correctly, you should see the HTML from Google's front
 page. If you'd like to learn more about what is going on behind the scenes,
-check out the [Web APIs Project Toolbox](/project-toolbox/geocoding-and-web-
-apis) assignment.
+check out the [Web APIs Project Toolbox](/project-toolbox/geocoding-and-web-apis) assignment.
 
 By default, Pattern uses a common license key for every user. If you use the
 common license keys, then you will be subject to service denials if the a
@@ -116,8 +115,7 @@ Project Gutenberg is that they impose a limit on how many texts you can
 download in a 24-hour period (which lead to me getting banned the other day).
 So, if you are analyzing say 10 texts, you might want to download them once
 and load them off disk rather than fetching them off of Project Gutenberg's
-servers every time you run your program (see the [Pickling Data](/assignments-
-and-mini-projects/text-mining#TOC-Pickling-Data) section for some relevant
+servers every time you run your program (see the [Pickling Data](/assignments/text-mining#TOC-Pickling-Data) section for some relevant
 information on doing this). However, there are
 [many](http://www.gutenberg.org/MIRRORS.ALL)
 [mirrors](http://onlinebooks.library.upenn.edu/) of the Project Gutenberg site
@@ -264,8 +262,7 @@ Christmas', u'Ad\xe3o e Eva', u'G\xe9nesis Carmona']
 
 The interaction between Pattern and Facebook is a bit more complex since you
 actually have to use an access key to allow Pattern to access your Facebook
-data through Python. Use [this link](http://www.clips.ua.ac.be/pattern-
-facebook) to authorize Pattern to access your Facebook account. Once you have
+data through Python. Use [this link](http://www.clips.ua.ac.be/pattern-facebook) to authorize Pattern to access your Facebook account. Once you have
 your access key (I won't include mine here to maintain my privacy!). You can
 start digging through your and your friend's Facebook content. This program
 examines my profile and prints out my basic information:
@@ -543,8 +540,7 @@ paper).
 ![](http://newsroom.unl.edu/releases/downloadables/photo/20120828macro-american.jpg)
 
 In order to apply MDS to your data, you can use the machine learning toolkit
-scikit-learn (to install it consult the [machine learning toolbox)](/project-
-toolbox/machine-learning).
+scikit-learn (to install it consult the [machine learning toolbox)](/project-toolbox/machine-learning).
 
 Here is some code that uses the similarity matrix defined in the previous
 section to create a 2-dimensional embedding of the four Charles Dickens and 1
@@ -638,4 +634,3 @@ you succeed?
   * a PDF document pushed to GitHub, or
   * a [project webpage](https://pages.github.com/) (in this case make sure to include a link to this webpage in the README.md file in your repository (otherwise, we won't be able to find your website).
 * Create a pull request to the upstream repository
-

@@ -15,5 +15,4 @@ During class we will be going through the steps necessary to do the pre-class
 exercises for the course. Specifically, we will be having everyone signup for
 a GitHub account, and then find and fork the reading journal repository. In
 case you want to refer back to these instructions, they are available
-[here](/assignments/setup-your-environment#TOC-Step-3:-Get-
-Started-with-Git).
+[here](/assignments/setup-your-environment#TOC-Step-3:-Get-Started-with-Git).

@@ -11,8 +11,7 @@ composition". You may think that this idea is relatively new, but the history
 of algorithmic music composition actually [goes back
 to](http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) Mozart! For a
 more recent discussion of algorithmic composition, check out ["The Triumph of
-the Cyborg Composer"](http://www.psmag.com/books-and-culture/triumph-of-the-
-cyborg-composer-8507).
+the Cyborg Composer"](http://www.psmag.com/books-and-culture/triumph-of-the-cyborg-composer-8507).
 
 For this exercise you will create a computer program that improvises a blues
 solo! You will also be able to experiment with adding a backing track to your

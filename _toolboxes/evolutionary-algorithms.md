@@ -46,8 +46,7 @@ details about how new cars are generated and selected.
 
 ### Example 3: Evolving FPGAs
 
-Read: [On the Origin of Circuits](http://www.damninteresting.com/on-the-
-origin-of-circuits/) (1500 words)
+Read: [On the Origin of Circuits](http://www.damninteresting.com/on-the-origin-of-circuits/) (1500 words)
 
 This example brings evolutionary algorithms into the hardware world: a
 researcher was able to evolve a [Field Programmable Gate
@@ -223,4 +222,3 @@ your experimentation to GitHub and submit a pull request to get checked off.
 
 * _Evolutionary Computation_ , by David Fogel, Thomas Bèack, and Zbigniew Michalewicz [[Olin College library ebook]](http://web.b.ebscohost.com/ehost/detail/detail?sid=3086a330-6951-4213-8e0b-b4ccc62f3035%40sessionmgr110&vid=1&hid=109&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=nlebk&AN=32720)
 * [Rosetta Code](http://rosettacode.org/wiki/Evolutionary_algorithm) \- Evolving strings in every programming language you can think of
-

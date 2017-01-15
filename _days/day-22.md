@@ -80,8 +80,7 @@ period, you are a Reviewer.
 Reviews](/assignments/final-project/code-reviews) pages.
 You can find the URLs for the Pull Request/Bounce page for each Presenter on
 the [Code Review prep
-spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-
-bJapA/edit#gid=0).
+spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit#gid=0).
 
 
 4\. Your instructor will signal you when the review period is over. At this
@@ -97,4 +96,3 @@ point move to your assigned Review Board for period #2. Rinse, and repeat.
 4:20-4:40 PM: Review Period #3
 
 4:40-5:00 PM: Discussion
-

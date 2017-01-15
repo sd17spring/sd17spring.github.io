@@ -554,8 +554,7 @@ The types of things you might want to touch on in the artist statement are:
 
 A much better and more extensive list of guidance around producing an artist's
 statement can be found
-[here](http://www.saic.edu/media/saic/pdfs/lifesaic/careerco-
-opcenter/workingartistsseries/Handout_WorkingArtist_ WritingYourArtistStatement.pdf).
+[here](http://www.saic.edu/media/saic/pdfs/lifesaic/careerco-opcenter/workingartistsseries/Handout_WorkingArtist_ WritingYourArtistStatement.pdf).
 
 In order to make it into the exhibition you should have your content there no
 later than the night before the assignment is due.

@@ -157,7 +157,6 @@ The call graphs of the memoized nchoosek and Levenshtein functions are
 ## Mini-Project 3 Launch
 
 We'll do a quick slide deck on cool applications of text mining. Then, we'll
-have you get started on the project by doing the [Pickling toolbox](/project-
-toolbox/pickling). This toolbox will be especially useful in this mini-
+have you get started on the project by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-
 project, and it counts towards the 5 that you have to do by the end of Spring
 break (and the 3 you have to do before Spring break starts).

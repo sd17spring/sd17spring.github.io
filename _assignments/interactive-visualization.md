@@ -109,8 +109,7 @@ If you want to use an input modality other than keyboard and mouse, you may
 find the computer vision library OpenCV useful. The idea here would be to
 capture images from a camera (probably the webcam on your laptop) and use
 those to control some aspect of your program. To get started check out the
-SoftDes [project toolbox exercise on OpenCV](/project-toolbox/image-
-processing). Next, read through the [OpenCV Python
+SoftDes [project toolbox exercise on OpenCV](/project-toolbox/image-processing). Next, read through the [OpenCV Python
 tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_ tutorials.html)
 and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
@@ -148,8 +147,7 @@ visualization and user input to explore the data. To get your creative juices
 flowing here are some cool examples of data visualization:
 
 We will show a bunch of these examples below, but check out [the full
-listing](http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-
-storytelling/#dataviz) from the New York Times Year in Interactive
+listing](http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/#dataviz) from the New York Times Year in Interactive
 Storytelling. This link is for 2013, but other years are available.
 
 _Exploring How People Talk in Different Parts of the U.S. (source: New York
@@ -188,8 +186,7 @@ screen. Here are some examples:_ Missile Command:_
 _ Pacman:_ _ Skyroads (considerably more complex than the others, but maybe a simple
 version could be constructed):_
 _ Asteroids (this version was created in another computing class. Check out
-[this video](http://nifty.stanford.edu/2008/leyzberg-simon-
-asteroids/asteroids.avi) for the game in action place some cool
+[this video](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/asteroids.avi) for the game in action place some cool
 enhancements)._
 
 ![](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/game.jpg)
@@ -217,8 +214,7 @@ Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
 Here is a diagram (from Wikipedia) that shows the various components of Model-
 View-Controller and how they interact:
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-
-Process.svg/1000px-MVC-Process.svg.png)
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1000px-MVC-Process.svg.png)
 
 To make things concrete, let's think about how we might implement a Pacman
 clone. Here are the classes and the functions that you might use to implement
