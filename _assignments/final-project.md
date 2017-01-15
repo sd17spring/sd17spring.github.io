@@ -1,6 +1,6 @@
 ---
 date: '2017-01-13T20:53:18'
-due_date: '2016-05-05'
+due_date: '2017-03-20'
 description: ''
 title: Final Project
 type: index
@@ -45,7 +45,9 @@ be present concurrently for this session.
 
 ## Project Activities / Deliverables
 
-#### Project Proposal (due 3/24)
+### Project Proposal
+
+_Due {{site.data.dates.final_proposal | date: '%B %d' }}_
 
 **The project proposal is worth 5% of the project grade ([rubric](/assignments/final-project/project-proposal-rubric))** .
 
@@ -67,7 +69,9 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-#### Technical Reviews (3/31 and 4/21)
+### Technical Reviews (3/31 and 4/21)
+
+_Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
 **Each technical review is worth 10% of the project grade (20% for both together) ([rubric](/assignments/final-project/technical-reviews)).**
 
@@ -81,7 +85,9 @@ reflection/synthesis document due after.
 
 See the [Technical Reviews](/assignments/final-project/technical-reviews) page for full details about the assignment.
 
-#### Code Review (4/14)
+### Code Review
+
+_Due: 4/14_
 
 **The code review is worth 10% of the project grade**
 
@@ -91,17 +97,21 @@ about ways to improve your project code.
 
 See the [Code Reviews](/assignments/final-project/code-reviews) page for full details about the assignment.
 
-### Not-Quite-Mid-Project Presentation (4/25)
+### Not-Quite-Mid-Project Presentation
+
+_Date: {{site.data.dates.mid_project_presentation | date: '%B %d' }}_
 
 **The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric](/assignments/final-project/project-presentation-rubric))**
 
-On April 25th your team will present the progress with the project to the
+On {{site.data.dates.mid_project_presentation | date: '%B %d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
 this activity will be around successful and professional communication. There
 will be limited time for feedback in class, but you can communicate your
 feedback using the online form.
 
-### Project Website (due 5/5)
+### Project Website
+
+_Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
 **The final website is worth 10% of the project grade**
 
@@ -165,7 +175,9 @@ project website from your GitHub repository. Remember that this is part of
 your professional portfolio as you select a platform - choose something that
 will still be around in the future!
 
-### Demo Session Poster (printed before 5/5 at 8am)
+### Demo Session Poster
+
+_Printed before {{site.data.dates.final_deliverables | date: '%B %d' }} at 8am_
 
 **The poster is worth 5% of the project grade.**
 
@@ -179,7 +191,9 @@ and selectively edited for a different context:
 Posters must be submitted electronically via GitHub or project website, and
 printed in time for the May 5th expo.
 
-#### Code submission (due 5/5)
+#### Code submission
+
+_Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
 **Project code is worth 40% of the project grade (see code rubric on the [course policy page](/policies))**
 
@@ -203,9 +217,11 @@ Make sure that your code gives appropriate attribution to external resources
 used, as per the [course policy page](/policies). If you have any questions
 about this, just ask.
 
-### Final Demo / Presentation Session (5/5 9am-11am)
+### Final Demo / Presentation Session
 
-On Tuesday, May 5th from 9-11 AM, both sections of SoftDes will meet in AC326
+_Date: TBD_
+
+During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is
 for everyone to share what they've created, and will not be evaluated. We will
 be inviting other members of the Olin community to check out your fantastic
