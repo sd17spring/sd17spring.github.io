@@ -16,7 +16,7 @@ to collect those resources that have already been mentioned into one place.
 
 ## Linux (Ubuntu)
 
-  * [Get Set (this site): Install and Configure Ubuntu](/assignments/setup-your-environment#TOC-Step-1:-Install-and-Configure-Ubuntu)
+  * [Get Set (this site): Install and Configure Ubuntu](/assignments/setup-your-environment#step-1-install-and-configure-ubuntu)
   * [Linux at Olin (downloadable PDF)](/assignments/setup-your-environment/linux.pdf)
   * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
 
@@ -74,4 +74,3 @@ in other projects too.
   * [Sublime Text official documentation](https://www.sublimetext.com/docs/3/)
   * [Sublime Text unofficial documentation](http://docs.sublimetext.info/en/latest/index.html)
   * Piazza post: [Live Reload of tests during development](https://piazza.com/class/ijkborva8jk70v?cid=85)
-

@@ -30,7 +30,7 @@ final project.
 
 ## Project websites
 
-Each team will be creating a [project website](/assets/assignments/final-project#TOC-Project-Website-due-5-5-) as part of the final
+Each team will be creating a [project website](/assets/assignments/final-project#project-website) as part of the final
 project. Today in class, we'll help you get started building your website
 using [GitHub pages](https://pages.github.com/).
 
@@ -69,4 +69,3 @@ do the same thing from the command line.
 3. Explore around the project history.  Commands you should definitely practice include `git log`, ``git diff`, `git history`, `git whatchanged`, and `git checkout`
 
 **Exercise:**  (optional) Refactor and organize your code for mini project 5 into separate classes, files, and modules.
-

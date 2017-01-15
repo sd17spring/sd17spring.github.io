@@ -33,10 +33,10 @@ on your computer.
 
 You should read this document in a somewhat non-linear/spiral fashion:
 
-1. Scan through [Part 1](/assignments/text-mining#TOC-Part-1:-Harvesting-text-from-the-Internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
-2. Scan through [Part 2](/assignments/text-mining#TOC-Part-2:-Analyzing-Your-Text) to see a bunch of cool examples for what you can do with your text.
+1. Scan through [Part 1](/assignments/text-mining#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
+2. Scan through [Part 2](/assignments/text-mining#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
 3. Choose (at least) one data source from Part 1 or elsewhere and analyze/manipulate/transform that text using technique(s) from Part 2 or elsewhere.
-4. Write a brief document about what you did ([Part 3](/assignments/text-mining#TOC-Part-3:-Project-Writeup-and-Reflection))
+4. Write a brief document about what you did ([Part 3](/assignments/text-mining#part-3-project-writeup-and-reflection))
 
 ## Part 1: Harvesting text from the Internet
 
@@ -115,7 +115,7 @@ Project Gutenberg is that they impose a limit on how many texts you can
 download in a 24-hour period (which lead to me getting banned the other day).
 So, if you are analyzing say 10 texts, you might want to download them once
 and load them off disk rather than fetching them off of Project Gutenberg's
-servers every time you run your program (see the [Pickling Data](/assignments/text-mining#TOC-Pickling-Data) section for some relevant
+servers every time you run your program (see the [Pickling Data](/assignments/text-mining#pickling-data) section for some relevant
 information on doing this). However, there are
 [many](http://www.gutenberg.org/MIRRORS.ALL)
 [mirrors](http://onlinebooks.library.upenn.edu/) of the Project Gutenberg site
@@ -475,7 +475,7 @@ each tweet that comes by in the stream? There are tons of cool options here!
 
 It is potentially quite useful to be able to compute the similarity of two
 texts. Suppose that we have characterized some texts from Project Gutenberg
-using [word frequency analysis](/assignments/text-mining#TOC-Characterizing-by-Word-Frequencies). One way to compute the
+using [word frequency analysis](/assignments/text-mining#characterizing-by-word-frequencies). One way to compute the
 similarity of two texts is to test to what extent when one text has a high
 count for a particular word the other text also a high count for a particular
 word. Specifically, we can compute the [cosine

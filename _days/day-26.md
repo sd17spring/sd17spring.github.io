@@ -27,14 +27,14 @@ audiences.
 _Due date_ : Must be printed and posted electronically to your GitHub and/or
 website before the SoftDes final project Expo 5/5
 
-[Guidelines](/assignments/final-project#TOC-Demo-Session-Poster-printed-before-5-5-at-8am-)
+[Guidelines](/assignments/final-project#demo-session-poster)
 
 
 **Website**
 
 _Due date_ : End of day Thursday 5/5
 
-[Guidelines](/assignments/final-project#TOC-Project-Website-due-5-5-)
+[Guidelines](/assignments/final-project#project-website)
 
 
 **Code**
@@ -42,7 +42,7 @@ _Due date_ : End of day Thursday 5/5
 _Due date_ : End of day Thursday 5/5. Be sure to update your README file as
 well.
 
-[Guidelines](/assignments/final-project#TOC-Code-submission-due-5-5-)
+[Guidelines](/assignments/final-project#code-submission)
 
 
 ### Communicating with your audience

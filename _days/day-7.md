@@ -15,7 +15,7 @@ title: Day 7
 
 * Computational Art mini project due Wednesday 2/17
 * Reading journal, Think Python 11, 12 due Thursday 2/18 (but starting earlier is great)
-* [Submit images](/assignments/mini-project-2-computational-art#TOC-Turning-in-your-assignment) by Tuesday midnight to be included in the gallery show (fun but optional)
+* [Submit images](/assignments/mini-project-2-computational-art#turning-in-your-assignment) by Tuesday midnight to be included in the gallery show (fun but optional)
 * [Project toolbox](/project-toolbox) exercises have been launched. You will do at least five in total, at least three of which must be completed before spring break.
 
 

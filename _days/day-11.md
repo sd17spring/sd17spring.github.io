@@ -15,8 +15,8 @@ title: Day 11
 **For next time**
 
 * Reading journal, review Think Python 15-17
-* [Choose MP4 topic and partner](/assignments/interactive-visualization#TOC-Getting-Started) (before Saturday)
-* [MP4 project proposal](/assignments/interactive-visualization#TOC-Project-Proposal)
+* [Choose MP4 topic and partner](/assignments/interactive-visualization#getting-started) (before Saturday)
+* [MP4 project proposal](/assignments/interactive-visualization#project-proposal)
 
 
 ## Text mining project presentations
