@@ -1,6 +1,7 @@
 ---
 date: '2017-03-09'
 description: Final project ideation and team formation
+published: false
 title: Day 15
 ---
 

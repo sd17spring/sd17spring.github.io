@@ -1,6 +1,7 @@
 ---
 date: '2017-02-13'
 description: Dictionaries, tuples, saving data sets with pickle
+published: false
 title: Day 9
 ---
 

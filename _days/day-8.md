@@ -1,6 +1,7 @@
 ---
 date: '2017-02-09'
 description: Recursion practice, computational art gallery show
+published: false
 title: Day 8
 ---
 

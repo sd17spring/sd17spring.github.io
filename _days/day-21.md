@@ -1,6 +1,7 @@
 ---
 date: '2017-04-06'
 description: Project website/README, organizing large projects
+published: false
 title: Day 21
 ---
 

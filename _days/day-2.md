@@ -1,6 +1,7 @@
 ---
 date: '2017-01-23'
 description: Exploring modular design, intro to unit testing
+published: false
 title: Day 2
 ---
 

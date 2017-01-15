@@ -1,6 +1,7 @@
 ---
 date: '2017-04-20'
 description: Technical Review 2
+published: false
 title: Day 24
 ---
 

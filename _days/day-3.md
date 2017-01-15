@@ -1,6 +1,7 @@
 ---
 date: '2017-01-24'
 description: Gene finder bio content, loops, fruitful functions, and more unit testing
+published: false
 title: Day 3
 ---
 
@@ -22,5 +23,3 @@ title: Day 3
 We'll be going over the [reading
 journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day2_ reading_journal_ responses.ipynb)
 as a class.
-
-

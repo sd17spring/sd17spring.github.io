@@ -1,6 +1,7 @@
 ---
 date: '2017-02-06'
 description: Recursion, fractals in TurtleWorld
+published: false
 title: Day 7
 ---
 
