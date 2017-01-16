@@ -57,13 +57,13 @@ reading!
 ## Step 1: Install and Configure Ubuntu
 
 The officially supported OS for SoftDes is Ubuntu 14.04.3 64-bit (ISO
-available [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.3-desktop-
-amd64.iso)). The preferred method for installation is to use one of the
+available [here](http://releases.ubuntu.com/xenial/ubuntu-16.04.1-desktop-amd64.iso)).
+The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
 bootable installer for Ubuntu 14.04.3. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
 hold the F12 key before your computer starts to load Windows. You will now be
-at your computer's BIOS menu. Use the arrow keys to select book from "USB
+at your computer's BIOS menu. Use the arrow keys to select boot from "USB
 Storage Device". If everything has gone properly, the Ubuntu installer will
 start. You may find IT's [instructions](http://wikis.olin.edu/linux/doku.php)
 useful for completing the installation steps.
@@ -73,9 +73,8 @@ Linux, so you can just follow the default "Install Linux alongside Windows"
 instructions. If you have an older laptop or otherwise don't have room for the
 Linux install, you will need to adjust your hard drive partition sizes to make
 room. Detailed instructions on how to complete the partitioning process can be
-found [here](http://askubuntu.com/questions/343268/how-to-use-manual-
-partitioning-during-installation/343370#343370). When in doubt ask for help as
-this part is a bit tricky.
+found [here](http://askubuntu.com/questions/343268/how-to-use-manual-partitioning-during-installation/343370#343370).
+When in doubt ask for help as this part is a bit tricky.
 
 Another option is to use a [virtual
 machine](http://en.wikipedia.org/wiki/Virtual_machine). In this variant you
@@ -106,9 +105,9 @@ $ sudo apt-get install git python-pip python-tk python-dev build-essential
 
 Note, that the preceding command installs three key pieces of software:
 
-* Git is the version control system we will use this semester.
-* python-pip is a Python package installer.
-* python-tk is a GUI toolkit for Python.
+* **Git** is the version control system we will use this semester.
+* **python-pip** is a Python package installer.
+* **python-tk** is a GUI toolkit for Python.
 
 Next, we'll install Jupyter notebook which you'll be using for pre-class
 exercises:
@@ -155,6 +154,7 @@ To see if Atom is installed, run
 $ atom
 ```
 
+
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
@@ -174,8 +174,7 @@ To setup Floobits, first you should create an account on Github (this is
 something you will have to do for your next assignment, so you might as well
 get a jump on it!).
 
-Finally, follow
-[these](https://floobits.com/help/plugins/atom) (brief)
+Finally, follow [these](https://floobits.com/help/plugins/atom) (brief)
 instructions to configure the plugin.
 
 
@@ -269,28 +268,28 @@ repo, copy the URL that points to your fork of that repo. For me, the URL
 looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. I got this
 link by copying the highlighted text in the screenshot below.
 
-[![](/assets/assignments/setup-your-environment/Screenshot.png)](/assets/assignments/setup-your-environment/Screenshot.png)
+[![](/assets/assignments/setup-your-environment/screenshot.png)](/assets/assignments/setup-your-environment/screenshot.png)
 
 Next, open up a terminal and clone the repo by running the following command
-(be sure to replace the pointer to my ReadingJournal with your own!). These
+(be sure to replace the pointer to Paul's ReadingJournal with your own!). These
 instructions assume that you want to put the Reading Journal in your home
 directory. If not, make sure to modify the first line to change to the
 directory where you want your reading journal to reside.
 
 ``` bash
 $ cd ~
-$ git clone ``https://github.com/osteele/ReadingJournal.git
+$ git clone ``https://github.com/paulruvolo/ReadingJournal.git
 ```
 
-Next, you can fire ipython notebook and load the reading journal for today.
+Next, you can fire up Jupyter notebook and load the reading journal for today.
 
 ``` bash
 $ cd ~/ReadingJournal
-$ ipython notebook day1_ reading_journal.ipynb
+$ jupyter notebook day1_reading_journal.ipynb
 ```
 
-If all goes well, this should bring up a web-browser with the reading
-questions as well as an ipython notebook you can use for taking your own notes
+If all goes well, this should bring up a web browser with the reading
+questions as well as an Jupyter notebook you can use for taking your own notes
 on the reading.
 
 Once you have completed your reading journal (not just the reading exercises,
@@ -299,7 +298,7 @@ turn in your work by running the following commands:
 
 ``` bash
 $ cd ~/ReadingJournal
-$ git add day1_ reading_journal.ipynb
+$ git add day1_reading_journal.ipynb
 $ git commit -m "Turning in my reading journal for day 1"
 $ git push
 ```
@@ -316,13 +315,14 @@ If you are having trouble getting your environment setup for whatever reason,
 please do the following:
 
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
-2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the ipython journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
+2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
 
 
 ## Step 5: Play a game?!?
 
 President Obama made
-[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code) for being the first U.S. president to write a line
+[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code)
+for being the first U.S. president to write a line
 of code. The code he wrote was part of the "[Hour of
 Code](http://hourofcode.com/us)" initiative which seeks to get more people to
 try programming. There are many different hour of code tutorials, but a really
@@ -339,9 +339,10 @@ might want to ponder as you play the game:
 * Did your approach to the previous two events change as you got more experience playing the game?
 * Any other interesting observations?
 
-
+{% if site.course.entrance_survey_url %}
 ## Tell Us More About Yourself!
 
 As a final step for both turning in your reading journal, and so that we can
 learn more about you, your background, and your learning goals, please fill
-out the [course entrance survey](https://goo.gl/forms/3rQ28I5mdIaARrSJ2).
+out the [course entrance survey]({{site.course.entrance_survey_url}}).
+{% endif %}
