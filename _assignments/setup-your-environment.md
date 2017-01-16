@@ -1,8 +1,7 @@
 ---
-date: '2016-12-29T18:26:01'
+date: '2017-01-05T08:45:51'
 description: ''
-title: Get Set
-due_date: '2017-01-23'
+title: Get Set - Software Design Fall 2016
 layout: single
 ---
 
@@ -57,7 +56,8 @@ reading!
 ## Step 1: Install and Configure Ubuntu
 
 The officially supported OS for SoftDes is Ubuntu 14.04.3 64-bit (ISO
-available [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.3-desktop-amd64.iso)). The preferred method for installation is to use one of the
+available [here](http://releases.ubuntu.com/14.04/ubuntu-14.04.3-desktop-
+amd64.iso)). The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
 bootable installer for Ubuntu 14.04.3. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
@@ -72,7 +72,8 @@ Linux, so you can just follow the default "Install Linux alongside Windows"
 instructions. If you have an older laptop or otherwise don't have room for the
 Linux install, you will need to adjust your hard drive partition sizes to make
 room. Detailed instructions on how to complete the partitioning process can be
-found [here](http://askubuntu.com/questions/343268/how-to-use-manual-partitioning-during-installation/343370#343370). When in doubt ask for help as
+found [here](http://askubuntu.com/questions/343268/how-to-use-manual-
+partitioning-during-installation/343370#343370). When in doubt ask for help as
 this part is a bit tricky.
 
 Another option is to use a [virtual
@@ -87,13 +88,11 @@ Once you have finished installing Ubuntu, you can configure it using
 [these](http://wikis.olin.edu/linux/doku.php) instructions provided by Dave
 Carver in IT (start from the "Configure Your System" section).
 
-**Update 1/27:**  The issue with the "Configure apt" step has been resolved, so feel free to follow those instructions to add the local Olin mirrors.
-
 Once everything is configured, executing the following commands at the Linux
 terminal:
 
 ``` bash
-$ sudo add-apt-repository ppa:webupd8team/sublime-text-3
+$ sudo add-apt-repository ppa:webupd8team/atom
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
@@ -123,15 +122,15 @@ Next, install Allen's Python package swampy.
 $ sudo pip install swampy
 ```
 
-Finally, install Sublime Text 3:
+Finally, install Atom:
 
 ``` bash
-$ sudo apt-get install sublime-text-installer
+$ sudo apt-get install atom
 ```
 
-To see if Python and Swampy are installed, run
+To see if Python and Swampy are installed, run:
 
-``` bash
+```
 $ python
 ```
 
@@ -142,32 +141,18 @@ from swampy.TurmiteWorld import *
 world = TurmiteWorld()
 ```
 
-Exit the TermuteWorld by pressing the Quit button, and then typing (to
+Exit the TurmiteWorld by pressing the Quit button, and then typing (to
 Python):
 
 ``` python
 quit()
 ```
 
-To see if Sublime Text 3 is installed, run
+To see if Atom is installed, run
 
 ``` bash
-$ subl
+$ atom
 ```
-
-## Optional: Setup Your Integrated Development Environment (IDE)
-
-You've now got all you need to start editing code. When your code contains
-errors, you'll discover this when you run it. Certain trivial but frequent
-errors (incorrect indentation, certain misspelled names) can be detected
-earlier. If you'd like to see these errors in the editor as you type, install
-a _plugin manager_  (Package Control), and install the
-[Anaconda](http://damnwidget.github.io/anaconda/#) plugin. This plugin can
-also provide additional programming aids; for more information, see the web
-site.
-
-1. Install Package Control using [these instructions](https://packagecontrol.io/installation#st3).
-2. Install Anaconda using [these instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation).
 
 ## Optional: Setup Floobits
 
@@ -188,20 +173,15 @@ To setup Floobits, first you should create an account on Github (this is
 something you will have to do for your next assignment, so you might as well
 get a jump on it!).
 
-Install Package Control using [these
-instructions](https://packagecontrol.io/installation#st3). (If you've already
-followed the instructions under “Set Up Your Integrated Development
-Environment”, this is already set up.) Once this is done, follow the
-instructions [here](https://floobits.com/help/plugins/sublime) under
-Recommended: Installation.
-
 Finally, follow
-[these](https://floobits.com/help/plugins/sublime#configuration) (brief)
+[these](https://floobits.com/help/plugins/atom) (brief)
 instructions to configure the plugin.
+
 
 ## Step 2: Learn About Linux
 
-Read Chapter 1 of Linux at Olin (available [here](/assets/assignments/setup-your-environment/linux.pdf)).
+Read Chapter 1 of Linux at Olin (available [here](//linux.pdf?attredirects=0&d=1)).
+
 
 ## Step 3: Get Started with Git
 
@@ -212,6 +192,7 @@ Git? That's totally fine (and totally expected)! Before we do some course
 specific Git stuff, take some time to read [Chapter
 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown)
 of Allen's excellent online book called AmGit.
+
 
 ### Create a Github Account
 
@@ -229,16 +210,16 @@ Git repositories and tools for interacting with them.
 popular. It is so popular that people sometimes say "GitHub" when they mean
 "Git", so just to be clear:
 >
->  * Git is an application that runs on your computer and helps you manage
+> * Git is an application that runs on your computer and helps you manage
 repositories.
 >
->  * You can use Git to manage repos stored on your own computer or on any
+> * You can use Git to manage repos stored on your own computer or on any
 computer configured as a Git server.
 >
->  * Anybody can set up and run a Git server. A company that runs Git servers
+> * Anybody can set up and run a Git server. A company that runs Git servers
 professionally is a Git hosting service.
 >
->  * GitHub is one of many Git hosting services.
+> * GitHub is one of many Git hosting services.
 >
 > Ok, go to <http://github.com>. If you already have an account, log in.
 Otherwise, you will have to create one.
@@ -246,14 +227,14 @@ Otherwise, you will have to create one.
 >  You can choose any available username you like, but there are a few things
 you might want to think about:
 >
->  1. Working on GitHub involves interacting with other people. They will see
+> 1. Working on GitHub involves interacting with other people. They will see
 your username, so choose wisely.
->  2. Some people, like `AllenDowney`, use their full names, but the most
+> 2. Some people, like `AllenDowney`, use their full names, but the most
 common schema seems to be one-word lower-case usernames. For example, Scott
 Chacon is `schacon`.
->  3. If you want to be anonymous, you can choose a username unrelated to
+> 3. If you want to be anonymous, you can choose a username unrelated to
 your real name; however,
->  4. Many software engineers use GitHub as part of their professional
+> 4. Many software engineers use GitHub as part of their professional
 portfolio. If a potential employer wants to check out your skills, they might
 look at your GitHub repositories.
 >
@@ -273,20 +254,21 @@ Since there's reading due next class, you will need to perform the steps below
 to setup your personal `ReadingJournal` repository.
 
 Navigate to the SoftDes reading journal base repository by clicking on this
-[link](https://github.com//{{site.course.github_owner}})/ReadingJournal). Next, click the "Fork"
+[link](https://github.com/{{site.course.github_owner}}/ReadingJournal). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
 Github, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
+
 
 ## Step 4: Do Some Reading (and write Some Python)!
 
 Now that you've created a fork of the ReadingJournal repo, you should clone it
 to your desktop. In the web browser window that you used to fork the base
 repo, copy the URL that points to your fork of that repo. For me, the URL
-looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. I got
-this link by copy the highlighted text in the screenshot below.
+looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. I got this
+link by copying the highlighted text in the screenshot below.
 
-[![](/assets/assignments/setup-your-environment/Screen%20Shot%202016-01-21%20at%2012.07.29%20AM.png?height=167&width=600)](/assets/assignments/setup-your-environment/Screen%20Shot%202016-01-21%20at%2012.07.29%20AM.png)
+[![](/assets/assignments/setup-your-environment/Screenshot.png)](/assets/assignments/setup-your-environment/Screenshot.png)
 
 Next, open up a terminal and clone the repo by running the following command
 (be sure to replace the pointer to my ReadingJournal with your own!). These
@@ -296,7 +278,7 @@ directory where you want your reading journal to reside.
 
 ``` bash
 $ cd ~
-$ git clone ``https://github.com/paulruvolo/ReadingJournal.git
+$ git clone ``https://github.com/osteele/ReadingJournal.git
 ```
 
 Next, you can fire ipython notebook and load the reading journal for today.
@@ -326,6 +308,7 @@ you followed all of the instructions outlined above, that's it!
 
 **Note: just for this time, there is one last step to turning in your reading assignment. This additional step will happen when you fill out the course entrance survey (see below).**
 
+
 ### Contingency Plan if You Are Having Problems With Your Setup
 
 If you are having trouble getting your environment setup for whatever reason,
@@ -334,9 +317,10 @@ please do the following:
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
 2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the ipython journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
 
+
 ## Step 5: Play a game?!?
 
-President Obama recently made
+President Obama made
 [headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code) for being the first U.S. president to write a line
 of code. The code he wrote was part of the "[Hour of
 Code](http://hourofcode.com/us)" initiative which seeks to get more people to
@@ -354,8 +338,9 @@ might want to ponder as you play the game:
 * Did your approach to the previous two events change as you got more experience playing the game?
 * Any other interesting observations?
 
-### Tell Us More About Yourself!
+
+## Tell Us More About Yourself!
 
 As a final step for both turning in your reading journal, and so that we can
 learn more about you, your background, and your learning goals, please fill
-out the [course entrance survey]({{site.course.entrance_survey_url}}).
+out the [course entrance survey](https://goo.gl/forms/3rQ28I5mdIaARrSJ2).
