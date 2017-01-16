@@ -14,7 +14,7 @@ title: Day 8
 
 **For Next Time**
 
-* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}})/ReadingJournal/blob/master/day7_reading_ journal.ipynb) to original on Github)
+* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_ journal.ipynb) to original on Github)
 * Come up with your text mining and analysis project idea
 
 ### More Recursion
@@ -151,7 +151,7 @@ def recursive_ function(input1, input2):
 Next, as a class we'll modify our function `nchoosek` to use memoization.
 
 The call graphs of the memoized nchoosek and Levenshtein functions are
-[here](https://github.com//{{site.course.github_owner}})/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
+[here](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
 
 
 ## Mini-Project 3 Launch

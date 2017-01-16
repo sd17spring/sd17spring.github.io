@@ -41,7 +41,7 @@ install NSound
     $ sudo python setup.py install
 
 Grab the starter code for this toolbox via the normal fork-and-clone method
-from <https://github.com//{{site.course.github_owner}})/ToolBox-AlgorithmicMusic>
+from <https://github.com//{{site.course.github_owner}}/ToolBox-AlgorithmicMusic>
 
 ## Synthesizing Your First Note
 

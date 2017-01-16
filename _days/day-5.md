@@ -10,7 +10,7 @@ title: Day 5
 * Reading journal debrief
 * State diagrams, aliasing, and scope
 * [Live reload of test cases (“split-screen development”)](https://piazza.com/class/ijkborva8jk70v?cid=85)
-* Map and filter, iteration strategies – [Notebook](https://github.com//{{site.course.github_owner}})/ClassNotes/blob/master/Day5_Iteration.ipynb)
+* Map and filter, iteration strategies – [Notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 
 **For next time**
 
@@ -40,7 +40,7 @@ creating and returning a new list, so they generally return `None`.
 Submitting your Gene Finder mini project is a two step process:
 
 1. Complete the work and push it to your GitHub repository
-2. Submit a pull request to the upstream {{site.course.github_owner}}) repository that you originally forked from
+2. Submit a pull request to the upstream {{site.course.github_owner}} repository that you originally forked from
 
 Pull requests are typically used to contribute code to someone else's project
 in the open source world. They let you send changes you've made, which the

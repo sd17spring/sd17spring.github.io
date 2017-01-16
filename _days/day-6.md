@@ -22,7 +22,7 @@ latest changes from the `GeneFinder` upstream repository. If you never added
 the upstream repository as a remote, you'll need to run:
 
 ``` bash
-git remote add upstream https://github.com//{{site.course.github_owner}})/GeneFinder.git
+git remote add upstream https://github.com//{{site.course.github_owner}}/GeneFinder.git
 ```
 
 You can check your list of remotes by running:

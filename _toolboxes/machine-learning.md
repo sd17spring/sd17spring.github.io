@@ -47,7 +47,7 @@ commands:
     $ sudo pip install -U scikit-learn
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}})/ToolBox-MachineLearning>
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>
 
 ## Classification Using Scikit-Learn
 

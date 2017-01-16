@@ -58,7 +58,7 @@ would ever come up with.
 ## Get set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}})/ToolBox-EvolutionaryAlgorithms>
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-EvolutionaryAlgorithms>
 
 You should see `evolve_text.py` within the toolbox folder.
 
@@ -124,7 +124,7 @@ Message and the target text.
 **Implement the `levenshtein_distance` function.**
 
 **Note:**  Check out the [Day
-9](https://sites.google.com/site/{{site.course.github_owner}})/last-year-in-class/day-9)
+9](https://sites.google.com/site/{{site.course.github_owner}}/last-year-in-class/day-9)
 exercises. You will need the memoized version to get any reasonable
 performance.
 

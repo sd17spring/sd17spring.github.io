@@ -34,7 +34,7 @@ the Python bindings.
 `$ sudo apt-get install python-opencv`
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}})/ToolBox-ComputerVision>
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-ComputerVision>
 
 The starter code will be in `face_detect.py` and is very minimal for this
 toolbox, but it will be good for making sure everyone uses a standard naming

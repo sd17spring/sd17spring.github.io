@@ -39,7 +39,7 @@ In this exercise, you will define methods for `Line` and `Rect` geometry
 classes.
 
 Save the file
-[geometry.py](https://raw.githubusercontent.com/{{site.course.github_owner}})/ClassNotes/master/geometry.py)
+[geometry.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry.py)
 to your file system, and modify it so that the doctests pass:
 
 ``` bash
@@ -81,7 +81,7 @@ directions. Any of these can be done independently of the others.
 typing”)._
 
 Save the file
-[geometry_ beyond_1.py](https://raw.githubusercontent.com/{{site.course.github_owner}})/ClassNotes/master/geometry_ beyond_1.py),implement
+[geometry_ beyond_1.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_ beyond_1.py),implement
 the methods of the `Circle` class, and implement the function stochastic_ area.
 `stochastic_area` should work on either a Rect or a Circle.
 
@@ -95,7 +95,7 @@ Some things to think about:
 ### Going Beyond 2: PyGame_ Skill emphasized: computer graphics._
 
 Save the file
-[geometry_ beyond_2.py](https://raw.githubusercontent.com/{{site.course.github_owner}})/ClassNotes/master/geometry_ beyond_2.py),
+[geometry_ beyond_2.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_ beyond_2.py),
 and modify the implementation of `draw_ shapes` to attend to its argument (a
 list of shapes).
 

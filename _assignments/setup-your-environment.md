@@ -332,7 +332,7 @@ If you are having trouble getting your environment setup for whatever reason,
 please do the following:
 
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
-2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the ipython journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}})/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
+2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the ipython journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
 
 ## Step 5: Play a game?!?
 

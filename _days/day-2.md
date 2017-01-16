@@ -190,7 +190,7 @@ at the bottom.
 
 In order to work on the reading journal for Day 2, you'll need to pull in the
 new notebook assignment from the upstream class repositories. Instructions are
-posted at <https://github.com//{{site.course.github_owner}})/ReadingJournal>.
+posted at <https://github.com//{{site.course.github_owner}}/ReadingJournal>.
 
 
 ## Gene Finder Mini-Project Kickoff

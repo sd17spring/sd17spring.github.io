@@ -157,7 +157,7 @@ $ python -m timeit '"-".join([str(n) for n in range(100)])'
 ```
 
 It can also be run from within a Python program (there is an example at
-<https://github.com//{{site.course.github_owner}})/ClassNotes> in the profiling folder).
+<https://github.com//{{site.course.github_owner}}/ClassNotes> in the profiling folder).
 
 `timeit` is best used for testing very small sections of code (e.g. a single
 line). For understanding larger programs, you should consider code profiling.
@@ -225,7 +225,7 @@ user 0m10.866s
 sys 0m0.042s
 ```
 
-Download the starter code from <https://github.com//{{site.course.github_owner}})/ClassNotes>, in
+Download the starter code from <https://github.com//{{site.course.github_owner}}/ClassNotes>, in
 the profiling folder. Use cProfile to determine the bottleneck(s) in execution
 and fix them.
 

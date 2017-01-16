@@ -248,7 +248,7 @@ working with. There is also a section where you can look for a teammate if you
 don't have one already.
 
 As part of filling out this spreadsheet, and starting the project, you should
-fork and clone the [base repo](https://github.com//{{site.course.github_owner}})/InteractiveProgramming) for this project.
+fork and clone the [base repo](https://github.com//{{site.course.github_owner}}/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
 and then the other member should be added as a collaborator on Github for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.
