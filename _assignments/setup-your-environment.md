@@ -35,10 +35,10 @@ more difficult for us to help you debug problems with your setup if you have a
 nonstandard environment.
 
 
-### A note about "$"
+### A note about "`$`"
 
-In these instructions we will use a "$" to indicate that a command should be
-performed at the Linux command prompt. If a command is not preceded with a "$"
+In these instructions we will use a "`$``" to indicate that a command should be
+performed at the Linux command prompt. If a command is not preceded with a "`$`"
 then it is understood that it is a Python statement (even without this marker,
 the context should make it clear whether a command is a Linux command or a
 Python command). For instance, we might instruct you to run the following
@@ -264,8 +264,8 @@ downloading and then turning in your reading exercises.
 
 Now that you've created a fork of the ReadingJournal repo, you should clone it
 to your desktop. In the web browser window that you used to fork the base
-repo, copy the URL that points to your fork of that repo. For me, the URL
-looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. I got this
+repo, copy the URL that points to your fork of that repo. For Paul, the URL
+looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. He got this
 link by copying the highlighted text in the screenshot below.
 
 [![](/assets/assignments/setup-your-environment/screenshot.png)](/assets/assignments/setup-your-environment/screenshot.png)
@@ -278,7 +278,7 @@ directory where you want your reading journal to reside.
 
 ``` bash
 $ cd ~
-$ git clone ``https://github.com/paulruvolo/ReadingJournal.git
+$ git clone https://github.com/paulruvolo/ReadingJournal.git
 ```
 
 Next, you can fire up Jupyter notebook and load the reading journal for today.
