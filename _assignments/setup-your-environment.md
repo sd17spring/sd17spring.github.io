@@ -1,7 +1,8 @@
 ---
 date: '2017-01-05T08:45:51'
 description: ''
-title: Get Set - Software Design Fall 2016
+title: Get Set
+due_date: '2017-01-23'
 layout: single
 ---
 
