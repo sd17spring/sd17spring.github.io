@@ -69,8 +69,7 @@ in other projects too.
 * [Performance strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
 * [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
 
-## Sublime Text
+## Atom Text Editor
 
-* [Sublime Text official documentation](https://www.sublimetext.com/docs/3/)
-* [Sublime Text unofficial documentation](http://docs.sublimetext.info/en/latest/index.html)
-* Piazza post: [Live Reload of tests during development](https://piazza.com/class/ijkborva8jk70v?cid=85)
+* [Atom documentation](https://atom.io/docs)
+* [Atom flight manual](http://flight-manual.atom.io)
