@@ -2,7 +2,7 @@
 date: '2016-12-29T18:26:01'
 description: ''
 title: Software Design Spring 2016
-layout: splash
+layout: single
 permalink: /
 ---
 
@@ -74,8 +74,3 @@ Several [useful resources](/resources) for the class are collected
 [tutorials](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
 were also created by the NINJAs for the Spring 2014 class.[
 ](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
-
-
-
-
-
