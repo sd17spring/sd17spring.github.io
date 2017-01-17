@@ -155,6 +155,28 @@ $ atom
 ```
 
 
+## Optional: Setup Your Integrated Development Environment (IDE)
+
+You've now got all you need to start editing code.
+
+When your code contains errors, you'll discover this when you run it.
+Certain trivial but frequent errors (incorrect indentation, certain misspelled names) can be detected earlier.
+If you'd like to see these errors in the editor as you type, install the following packages:
+
+``` bash
+$ sudo pip install pyflakes jedi
+$ apm install Hydrogen atom-beautify autocomplete autocomplete-python hyperclick
+$ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
+```
+
+If you prefer to use Sublime Text, install a _plugin manager_ (Package Control) using [these
+instructions](https://packagecontrol.io/installation#st3), and install the
+[Anaconda](http://damnwidget.github.io/anaconda/#) plugin using [these
+instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation).
+This plugin can also provide additional programming aids; for more information, see the
+[Anaconda](http://damnwidget.github.io/anaconda/#) web site.
+
+
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
