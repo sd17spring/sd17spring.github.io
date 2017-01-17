@@ -176,7 +176,7 @@ instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation)
 This plugin can also provide additional programming aids; for more information, see the
 [Anaconda](http://damnwidget.github.io/anaconda/#) web site.
 
-
+{% if https://floobits.com/sd17spring %}
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
@@ -198,7 +198,7 @@ get a jump on it!).
 
 Finally, follow [these](https://floobits.com/help/plugins/atom) (brief)
 instructions to configure the plugin.
-
+{% endif %}
 
 ## Step 2: Learn About Linux
 
