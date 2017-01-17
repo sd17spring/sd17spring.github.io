@@ -176,7 +176,7 @@ instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation)
 This plugin can also provide additional programming aids; for more information, see the
 [Anaconda](http://damnwidget.github.io/anaconda/#) web site.
 
-{% if https://floobits.com/sd17spring %}
+{% if site.course.flootbits_url %}
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
