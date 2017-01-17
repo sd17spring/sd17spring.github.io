@@ -46,7 +46,7 @@ list.
 ## GitHub
 
 Assignments will be distributed and submitted via
-[GitHub](https://github.com/{{site.course.github_owner}}.
+[GitHub](https://github.com/{{site.course.github_owner}}).
 
 
 {% if site.course.flootbits_url %}
