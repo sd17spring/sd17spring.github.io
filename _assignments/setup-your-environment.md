@@ -100,14 +100,18 @@ $ sudo apt-get upgrade
 Next, install some additional Python packages using the following commands:
 
 ``` bash
-$ sudo apt-get install git python3 python3-pip python3-tk python3-dev build-essential
+$ sudo apt-get install -y python python-pip python-tk python-dev git build-essential
+$ sudo apt-get install -y python3 python3-pip python3-tk python3-dev
 ```
 
-Note, that the preceding command installs three key pieces of software:
+Note, that the preceding command installs these key pieces of software:
 
 * **Git** is the version control system we will use this semester.
 * **python3-pip** is a Python package installer.
 * **python3-tk** is a GUI toolkit for Python.
+* **python-pip** and **python-pip** are the package installers and GUI for Python 2.
+We won't be coding in Python 2 in this course, but we may use it to run student projects
+from previous years.
 
 Next, we'll install Jupyter notebook which you'll be using for pre-class
 exercises:
