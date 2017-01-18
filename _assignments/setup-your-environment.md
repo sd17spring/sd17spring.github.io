@@ -123,29 +123,26 @@ Finally, install Atom:
 $ sudo apt-get install atom
 ```
 
-To see if Python is installed, run:
+To verify that Python 3 is installed, run:
 
 ```
 $ python3
 ```
 
-Then at the Python prompt run (don't type the `>>>`s):
+Then type the following at the Python prompt:
 
 ``` python
 >>> import turtle
->>> bob = turtle.Turtle()
->>> bob.forward(50)
->>> turtle.done()
+>>> turtle.Turtle()
+>>> quit()
 ```
 
-Exit the TurmiteWorld by pressing the Quit button, and then typing (to
-Python):
+Notes:
+* Don't type the `>>>`. (`>>>` is to Python as `$` is to bash.)
+* The `turtle.Turtle()` line will cause a white window to appear in front of the terminal window.
+You'll need to switch back to the terminal window to continue interacting with the Python prompt.
 
-``` python
-quit()
-```
-
-To see if Atom is installed, run
+To verify that Atom is installed, run
 
 ``` bash
 $ atom
