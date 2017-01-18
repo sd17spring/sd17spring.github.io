@@ -37,7 +37,7 @@ nonstandard environment.
 
 ### A note about "`$`"
 
-In these instructions we will use a "`$``" to indicate that a command should be
+In these instructions we will use a "`$`" to indicate that a command should be
 performed at the Linux command prompt. If a command is not preceded with a "`$`"
 then it is understood that it is a Python statement (even without this marker,
 the context should make it clear whether a command is a Linux command or a
@@ -48,8 +48,8 @@ command.
 $ ls ~
 ```
 
-In this case you would open a Linux terminal and type the characters "ls ~"
-and then hit the enter key (notice that you don't actually type the "$" at any
+In this case you would open a Linux terminal and type the characters "`ls ~`"
+and then hit the enter key (notice that you don't actually type the "`$`" at any
 time). If you don't know what a Linux terminal is yet, that is okay! Keep
 reading!
 
