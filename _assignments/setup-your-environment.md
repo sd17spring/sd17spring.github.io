@@ -88,15 +88,15 @@ Once you have finished installing Ubuntu, you can configure it using
 [these](http://wikis.olin.edu/linux/doku.php) instructions provided by Dave
 Carver in IT (start from the "Configure Your System" section).
 
-The steps that are necessary are:
--Configure apt
--Install the proprietary NVIDIA driver
--Enable your firewall
--Configure wireless
+The steps that are most important are:
+* Configure apt
+* Install the proprietary NVIDIA driver
+* Enable your firewall
+* Configure wireless
 
-You can set up printing, the mail client, or Matlab later if you want to.
+You can set up the other things later if you want to.
 
-Once everything is configured, executing the following commands at the Linux
+Once everything is configured, execute the following commands at the Linux
 terminal:
 
 ``` bash
@@ -126,10 +126,10 @@ exercises:
 
 ``` bash
 $ pip3 install --upgrade pip
-$ sudo pip3 jupyter
+$ sudo pip3 install jupyter
 ```
 
-Finally, install Atom:
+We'll be using Atom as default text editor for the course. Go ahead and install Atom it:
 
 ``` bash
 $ sudo apt-get install atom
@@ -152,7 +152,7 @@ Then type the following at the Python prompt:
 Notes:
 * Don't type the `>>>`. (`>>>` is to Python as `$` is to bash.)
 * The `turtle.Turtle()` line will cause a white window to appear in front of the terminal window.
-You'll need to switch back to the terminal window to continue interacting with the Python prompt.
+Since you'll need to switch back to the terminal window to continue interacting with the Python prompt, you can close the white window.
 
 To verify that Atom is installed, run
 
@@ -163,15 +163,14 @@ $ atom
 
 ## Optional: Set Up Your Integrated Development Environment (IDE)
 
-You've now got all you need to start editing code.
+You've now got all you need to start editing code with Atom, but you may want your development environment to be a little fancier. For example, being able to compile/run and debug your code inside the editor is pretty helpful while writing code. An IDE is just that, as it contains a suite of tools that will help you debug while you code instead of discovering the errors at runtime.
 
-When your code contains errors, you'll discover this when you run it.
 Certain trivial but frequent errors (incorrect indentation, certain misspelled names) can be detected earlier.
 If you'd like to see these errors in the editor as you type, install the following packages:
 
 ``` bash
 $ sudo pip3 install pyflakes jedi
-$ apm install Hydrogen atom-beautify autocomplete autocomplete-python hyperclick
+$ apm install Hydrogen atom-beautify autocomplete autocomplete-python
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
 ```
 
