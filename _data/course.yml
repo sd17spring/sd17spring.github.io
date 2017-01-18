@@ -10,7 +10,24 @@ instructors:
   office: MH262
 
 assistants:
-- name: TBD
+- name: Hannah Twigg-Smith
+  email: Hannah.Twigg-Smith@students.olin.edu
+- name: Margaret Crawford
+  email: Margaret.Crawford@students.olin.edu
+- name: Matthew Ruehle
+  email: Matthew.Ruehle@students.olin.edu
+- name: Philip Seger
+  email: Philip.Seger@students.olin.edu
+- name: Samuel Myers
+  email: Samuel.Myers@students.olin.edu
+- name: Sawyer Vaughan
+  email: Sawyer.Vaughan@students.olin.edu
+- name: Serena Chen
+  email: Serena.Chen@students.olin.edu
+- name: Sophia Li
+  email: Sophia.Li@students.olin.edu
+- name: Sungwoo Park
+  email: Sungwoo.Park@students.olin.edu
 
 github_owner: sd17spring
 
