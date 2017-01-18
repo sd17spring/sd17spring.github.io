@@ -82,11 +82,19 @@ will run Ubuntu inside of a window inside of the Windows operating system (or
 Mac OS X if that is what you have). We will also have thumb drives on hand
 that can be used to install Ubuntu as a virtual machine. We recommend the
 freely available program [Virtual Box](https://www.virtualbox.org/) if you are
-running a VM.
+running a VM. Ask for help if you find you need help on setting this up.
 
 Once you have finished installing Ubuntu, you can configure it using
 [these](http://wikis.olin.edu/linux/doku.php) instructions provided by Dave
 Carver in IT (start from the "Configure Your System" section).
+
+The steps that are necessary are:
+-Configure apt
+-Install the proprietary NVIDIA driver
+-Enable your firewall
+-Configure wireless
+
+You can set up printing, the mail client, or Matlab later if you want to.
 
 Once everything is configured, executing the following commands at the Linux
 terminal:
