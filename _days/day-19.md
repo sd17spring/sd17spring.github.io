@@ -152,7 +152,7 @@ repeatedly to get an average result.
 `timeit` can be run from the command line (like the Linux time utility):
 
 ``` bash
-$ python -m timeit '"-".join([str(n) for n in range(100)])'
+$ python3 -m timeit '"-".join([str(n) for n in range(100)])'
 10000 loops, best of 3: 33.4 usec per loop
 ```
 
@@ -179,7 +179,7 @@ modules](https://docs.python.org/2/library/profile.html). For our purposes
 these are equivalent, so we will use the faster cProfile module.
 
 ``` bash
-$ python -m cProfile gene_finder.py
+$ python3 -m cProfile gene_finder.py
  35206053 function calls (35205065 primitive calls) in 18.516 seconds
 
  Ordered by: standard name

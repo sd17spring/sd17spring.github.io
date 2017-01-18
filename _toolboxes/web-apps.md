@@ -68,7 +68,7 @@ Write this, save it as something like `hello.py`, and run it in terminal. Make
 sure to not call your application flask.py because this would conflict with
 Flask itself.
 
-    $ python hello.py
+    $ python3 hello.py
      * Running on http://127.0.0.1:5000/
 
 Now head over to <http://127.0.0.1:5000/>, and you should see your hello world
@@ -193,7 +193,7 @@ if_ _name_ _ == '_ _main_ _':
 And that's it! Again, follow the instructions
 
 
-    $ python hello.py
+    $ python3 hello.py
      * Running on http://127.0.0.1:5000/
 
 

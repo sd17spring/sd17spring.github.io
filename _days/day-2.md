@@ -93,7 +93,7 @@ There are many ways to run the Python code you write:
 ### Method 1: Interactive Python interpreter
 
 ``` bash
-$ python
+$ python3
 Python 2.7.6 (default, Jun 22 2015, 17:58:13)
 [GCC 4.8.2] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
@@ -129,7 +129,7 @@ Finally, you can save your program as a text file (with a .py extension by
 convention) and run it at the command line:
 
 ``` bash
-$ python my_ script.py`
+$ python3 my_ script.py`
 `"Hello, SoftDes!"`
 ```
 
@@ -169,7 +169,7 @@ If you've written a program called `my_prog.py`, you can test it from the
 command line by running
 
 ``` bash
-$ python -m doctest [-v] my_ prog.py
+$ python3 -m doctest [-v] my_ prog.py
 ```
 
 where the `[-v]` means you can either include the `-v` verbose flag or not.

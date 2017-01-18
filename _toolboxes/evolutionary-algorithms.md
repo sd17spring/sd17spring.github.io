@@ -166,7 +166,7 @@ of mutation possible in this exercise are:
 Once you've made the modifications in the previous section, it's time to
 evolve some text! To call your program, run:
 
-    $ python evolve_text.py [goal_ message]
+    $ python3 evolve_text.py [goal_ message]
 
 where `goal_message` is an optional argument specifying the target text.
 Excerpts from a sample execution of the program are given below.

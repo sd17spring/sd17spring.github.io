@@ -52,7 +52,7 @@ documentation](http://nsound.sourceforge.net/users_guide/basics.html). When
 you are comfortable with the given starter code, go ahead and run the Python
 script. To playback your composition, open a terminal and execute:
 
-    $ python blues_ solo.py
+    $ python3 blues_ solo.py
     $ cvlc blues_solo.wav
 
 You should hear a _very_  short blues "solo" that consists of one very low note
