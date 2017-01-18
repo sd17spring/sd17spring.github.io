@@ -31,9 +31,13 @@ to collect those resources that have already been mentioned into one place.
 
 * [Git Help (this site)](/github-help) – contains links to additional resources
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
+{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [Github merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
 * Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
+{% endif %}
+{% if site.course.github_url == 'sd17spring' %}
 * [SoftDes16 Github page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
+{% endif %}
 * [Spring 2014 NINJA tutorial: Github Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
 * [Spring 2014 NINJA tutorial: Introduction to Version Control](https://docs.google.com/presentation/d/15UsxsUBIDA78iplWfKsX0yZAoYIf5ofpEr7PRUE2Y28/edit#slide=id.p)
 * [Spring 2014 NINJA tutorial: Pushing to your Github repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
@@ -46,8 +50,10 @@ to collect those resources that have already been mentioned into one place.
 * Python Style
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
+{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
+{% endif %}
 
 ### Python Libraries
 
@@ -65,9 +71,11 @@ in other projects too.
 
 ### IPython Notebooks
 
+{% if site.course.github_url == 'sd17spring' %}
 * [Iteration strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 * [Performance strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
 * [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
+{% endif %}
 
 ## Atom Text Editor
 
