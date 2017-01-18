@@ -23,7 +23,7 @@ to collect those resources that have already been mentioned into one place.
 ## Classroom collaboration tools
 
 {% if site.course.flootbits_url %}* [Floobits]({{site.course.flootbits_url}}) – code sharing{% endif %}
-* [Piazza](https://piazza.com/class/ijkborva8jk70v) – message board
+* [Piazza]({{site.course.piazza_url}}) – message board
 * [Github](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
 * [Github reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
 

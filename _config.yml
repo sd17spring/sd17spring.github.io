@@ -40,7 +40,7 @@ defaults:
 course:
   github_owner: sd17spring
   calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
-  # piazza_url: 'https://piazza.com/olin/spring2016/engr2510'
+  piazza_url: 'https://piazza.com/olin/spring2017/engr2510'
   # flootbits_url: https://floobits.com/sd17spring
   # entrance_survey_url: https://docs.google.com/forms/d/1at_33buuXdUyJ_ AFogNdZW02gJvZBtYGwB7hPR0IEzY/viewform
   # mid_course_feedback_survey_url: http://goo.gl/forms/n2L9ESBpCU
