@@ -44,7 +44,7 @@ commands:
     $ sudo apt-get install build-essential python-dev python-setuptools python-
     numpy python-scipy libatlas-dev libatlas3gf-base
     $ sudo apt-get install python-matplotlib
-    $ sudo pip install -U scikit-learn
+    $ sudo pip3 install -U scikit-learn
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
 method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>

@@ -143,7 +143,7 @@ fork](https://pillow.readthedocs.org/index.html) of the Python Imaging Library
 ("PIL"). To do so, execute the following command at the Linux terminal:
 
 ``` bash
-$ sudo pip install Pillow
+$ sudo pip3 install Pillow
 ```
 
 The starter code includes a function called `test_ image` that uses PIL to
@@ -472,7 +472,7 @@ libraries that it depends on. Here are the install commands:
 
 ``` bash
 $ sudo apt-get install`` libasound2-dev
-$ sudo pip install pyalsaaudio
+$ sudo pip3 install pyalsaaudio
 ```
 
 Here is some simple code for getting audio from the mic and displaying the
@@ -500,7 +500,7 @@ checkout the images after you have saved them to a file), I recommend using
 **pygame** .
 
 ```
-$ sudo pip install pygame
+$ sudo pip3 install pygame
 ```
 
 We are not including detailed instructions on this, but it shouldn't be too

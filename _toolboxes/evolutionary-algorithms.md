@@ -67,8 +67,8 @@ in Python](http://deap.readthedocs.org/) (DEAP) framework, as well as
 [NumPy](http://www.numpy.org/) for collecting some statistics. Install them
 both by running:
 
-    $ sudo pip install deap
-    $ sudo pip install numpy
+    $ sudo pip3 install deap
+    $ sudo pip3 install numpy
 
 **Note:**  The problem we will tackle in this exercise is simple enough that
 we could implement it from scratch with no framework, but DEAP is a powerful

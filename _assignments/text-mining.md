@@ -57,7 +57,7 @@ you utilize. This is the fantastic web-mining tool called
 [Pattern](http://www.clips.ua.ac.be/pattern) by Tom de Smedt. To get the
 package, run:
 
-`$ sudo pip install pattern`
+`$ sudo pip3 install pattern`
 
 To make sure that Pattern is installed correctly, try these commands in
 Python:
@@ -314,7 +314,7 @@ At the terminal command line, install the Python
 [PRAW](https://pypi.python.org/pypi/praw) package:
 
 ``` bash
-sudo pip install praw
+sudo pip3 install praw
 ````
 
 Here's an example from the [PRAW docs page](https://praw.readthedocs.org/en/stable/):

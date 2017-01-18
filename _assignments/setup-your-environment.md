@@ -100,26 +100,21 @@ $ sudo apt-get upgrade
 Next, install some additional Python packages using the following commands:
 
 ``` bash
-$ sudo apt-get install git python-pip python-tk python-dev build-essential
+$ sudo apt-get install git python3 python3-pip python3-tk python3-dev build-essential
 ```
 
 Note, that the preceding command installs three key pieces of software:
 
-* **Git** is the version control system we will use this semester.
-* **python-pip** is a Python package installer.
-* **python-tk** is a GUI toolkit for Python.
+* *gGit** is the version control system we will use this semester.
+* **python3-pip** is a Python package installer.
+* **python3-tk** is a GUI toolkit for Python.
 
 Next, we'll install Jupyter notebook which you'll be using for pre-class
 exercises:
 
 ``` bash
-$ sudo pip install path.py markupsafe jupyter singledispatch backports_abc certifi jsonschema
-```
-
-Next, install Allen's Python package swampy.
-
-``` bash
-$ sudo pip install swampy
+$ pip3 install --upgrade pip
+$ sudo pip3 jupyter
 ```
 
 Finally, install Atom:
@@ -128,17 +123,19 @@ Finally, install Atom:
 $ sudo apt-get install atom
 ```
 
-To see if Python and Swampy are installed, run:
+To see if Python is installed, run:
 
 ```
-$ python
+$ python3
 ```
 
-Then at the Python prompt run:
+Then at the Python prompt run (don't type the `>>>`s):
 
 ``` python
-from swampy.TurmiteWorld import *
-world = TurmiteWorld()
+>>> import turtle
+>>> bob = turtle.Turtle()
+>>> bob.forward(50)
+>>> turtle.done()
 ```
 
 Exit the TurmiteWorld by pressing the Quit button, and then typing (to
@@ -155,7 +152,7 @@ $ atom
 ```
 
 
-## Optional: Setup Your Integrated Development Environment (IDE)
+## Optional: Set Up Your Integrated Development Environment (IDE)
 
 You've now got all you need to start editing code.
 
@@ -164,7 +161,7 @@ Certain trivial but frequent errors (incorrect indentation, certain misspelled n
 If you'd like to see these errors in the editor as you type, install the following packages:
 
 ``` bash
-$ sudo pip install pyflakes jedi
+$ sudo pip3 install pyflakes jedi
 $ apm install Hydrogen atom-beautify autocomplete autocomplete-python hyperclick
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
 ```
