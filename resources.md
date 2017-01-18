@@ -40,9 +40,9 @@ to collect those resources that have already been mentioned into one place.
 
 ## Python
 
-* [Think Python, by Allen Downey](http://greenteapress.com/wp/think-python/) – the class text
-* [Python 2.7 Documentation](https://docs.python.org/2.7/)
-* [Python 2.7 Standard Library](https://docs.python.org/2.7/library/index.html)
+* [Think Python, by Allen Downey](http://greenteapress.com/wp/think-python-2e/) – the class text
+* [Python 3.5 Documentation](https://docs.python.org/3.5/)
+* [Python 3.5 Standard Library](https://docs.python.org/3.5/library/index.html)
 * Python Style
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
