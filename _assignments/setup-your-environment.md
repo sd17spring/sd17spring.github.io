@@ -105,7 +105,7 @@ $ sudo apt-get install git python3 python3-pip python3-tk python3-dev build-esse
 
 Note, that the preceding command installs three key pieces of software:
 
-* *gGit** is the version control system we will use this semester.
+* **Git** is the version control system we will use this semester.
 * **python3-pip** is a Python package installer.
 * **python3-tk** is a GUI toolkit for Python.
 
