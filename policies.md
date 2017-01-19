@@ -10,11 +10,11 @@ layout: single
 
 Your evaluated work in this course will include:
 
-Activity | Weight
+Activity | Approx Weight
 ---------- | ----
-Active Reading|  15%
+Active Reading|  10%
 Mini-Projects|  40%
-Project Toolbox|  10%
+Project Toolbox|  15%
 Final Project|  30%
 Participation and Professionalism|  5%
 
