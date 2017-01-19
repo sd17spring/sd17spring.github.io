@@ -4,7 +4,7 @@ description: The case for interdisciplinary computer science, course overview
 title: Day 1
 ---
 
-**Today**
+## Today
 
 1. The case for interdisciplinary computer science ([pdf](https://drive.google.com/file/d/0B0UHkPLHsgyoeWFQRkViT0tvREE/view?usp=sharing), [pptx](https://drive.google.com/file/d/0B0UHkPLHsgyodHlnLV9uVjkyUEk/view?usp=sharing))
 2. Course overview
@@ -16,3 +16,10 @@ exercises for the course. Specifically, we will be having everyone signup for
 a GitHub account, and then find and fork the reading journal repository. In
 case you want to refer back to these instructions, they are available
 [here](/assignments/setup-your-environment#step-3-get-started-with-git).
+
+## For Next Time
+
+1. Read [Think Python](http://greenteapress.com/wp/think-python-2e/) Ch. 1-3, 5.1-5.7;
+Linux at Olin Chapter 1 ([PDF download](https://sites.google.com/site/sd16spring/home/assignments-and-mini-projects/setup-your-environment/linux.pdf));
+and [Amgit Chapter 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown).
+2. Submit the [Day 1 Reading Journal](step-4-do-some-reading-and-write-some-python).
