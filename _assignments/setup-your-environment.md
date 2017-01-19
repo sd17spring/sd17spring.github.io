@@ -56,11 +56,11 @@ reading!
 
 ## Step 1: Install and Configure Ubuntu
 
-The officially supported OS for SoftDes is Ubuntu 14.04.3 64-bit (ISO
+The officially supported OS for SoftDes is Ubuntu 16.04.1 64-bit (ISO
 available [here](http://releases.ubuntu.com/xenial/ubuntu-16.04.1-desktop-amd64.iso)).
 The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
-bootable installer for Ubuntu 14.04.3. In order to go forward with the
+bootable installer for Ubuntu 16.04.1. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
 hold the F12 key before your computer starts to load Windows. You will now be
 at your computer's BIOS menu. Use the arrow keys to select boot from "USB
