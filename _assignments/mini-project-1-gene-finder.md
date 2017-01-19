@@ -126,7 +126,7 @@ The first step to getting started on this assignment is to fork the
 The steps to do this are the same as the ones you went through to create your
 reading journal. For your reference, here are the steps again:
 
-1. Open up a new browser window, and navigate to [github.com](http://github.com)
+1. Open up a new browser window, and navigate to <https://github.com>
 2. If you are not already logged in, login to your Github account by clicking the "sign in" button at the top left of the page
 3. Copy and paste the following URL into the URL bar of the window that you used to login to Github [https://github.com//{{site.course.github_owner}}/GeneFinder](https://github.com//{{site.course.github_owner}}/GeneFinder)
 4. Fork the `GeneFinder` repository by clicking on the "Fork" button in the upper right of the window. If prompted for where you should fork the repository, select @yourgithubusername.
@@ -499,4 +499,3 @@ this longest match.
 Read more about other approaches to [gene-finding in
 prokaryotes](http://www.researchgate.net/profile/Ljupco_Kocarev/publication/228856410_Computational_Methods_for_Gene_Finding_in_Prokaryotes/links/004635244f8d1c7267000000.pdf).
 If you are really gung-ho, pick one, and implement it!
-
