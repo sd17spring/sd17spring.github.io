@@ -14,7 +14,7 @@ title: Day 8
 
 **For Next Time**
 
-* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_ journal.ipynb) to original on Github)
+* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_ journal.ipynb) to original on GitHub)
 * Come up with your text mining and analysis project idea
 
 ### More Recursion

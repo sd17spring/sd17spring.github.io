@@ -24,23 +24,23 @@ to collect those resources that have already been mentioned into one place.
 
 {% if site.course.flootbits_url %}* [Floobits]({{site.course.flootbits_url}}) – code sharing{% endif %}
 * [Piazza]({{site.course.piazza_url}}) – message board
-* [Github](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
-* [Github reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
+* [GitHub](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
+* [GitHub reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
 
 ## Git
 
 * [Git Help (this site)](/github-help) – contains links to additional resources
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
-* Piazza post: [Github merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
+* Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
 * Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
 {% endif %}
 {% if site.course.github_url == 'sd17spring' %}
-* [SoftDes16 Github page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
+* [SoftDes16 GitHub page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 {% endif %}
-* [Spring 2014 NINJA tutorial: Github Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
+* [Spring 2014 NINJA tutorial: GitHub Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
 * [Spring 2014 NINJA tutorial: Introduction to Version Control](https://docs.google.com/presentation/d/15UsxsUBIDA78iplWfKsX0yZAoYIf5ofpEr7PRUE2Y28/edit#slide=id.p)
-* [Spring 2014 NINJA tutorial: Pushing to your Github repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
+* [Spring 2014 NINJA tutorial: Pushing to your GitHub repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
 
 ## Python
 

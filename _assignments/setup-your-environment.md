@@ -198,7 +198,7 @@ development environment. The cool thing is that if you follow along in your
 favorite development environment then you will be able to run the code on your
 computer as we go.
 
-To setup Floobits, first you should create an account on Github (this is
+To setup Floobits, first you should create an account on GitHub (this is
 something you will have to do for your next assignment, so you might as well
 get a jump on it!).
 
@@ -215,19 +215,19 @@ Read Chapter 1 of Linux at Olin (available [here](//linux.pdf?attredirects=0&d=1
 
 ### The Basic Idea
 
-We will make heavy use of Git (and Github in this class). Haven't heard of
+We will make heavy use of Git (and GitHub in this class). Haven't heard of
 Git? That's totally fine (and totally expected)! Before we do some course
 specific Git stuff, take some time to read [Chapter
 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown)
 of Allen's excellent online book called AmGit.
 
 
-### Create a Github Account
+### Create a GitHub Account
 
 Now that you have the basic idea of what version control is and what it is
 good for, you are going to take the next step and sign up for an account on a
-website called [Github](https://github.com/). The second chapter of Allen's
-book has a nice description of Github, and how to make an account.
+website called [GitHub](https://github.com/). The second chapter of Allen's
+book has a nice description of GitHub, and how to make an account.
 
 > GitHub is a web-based hosting service for Git users. In general a hosting
 service provides storage space on remote servers, network access, and tools
@@ -281,7 +281,7 @@ to setup your personal `ReadingJournal` repository.
 Navigate to the SoftDes reading journal base repository by clicking on this
 [link](https://github.com/{{site.course.github_owner}}/ReadingJournal). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
-Github, you will be prompted to sign in. Read on for instructions on
+GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
 
 

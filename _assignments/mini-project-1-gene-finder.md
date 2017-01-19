@@ -127,8 +127,8 @@ The steps to do this are the same as the ones you went through to create your
 reading journal. For your reference, here are the steps again:
 
 1. Open up a new browser window, and navigate to <https://github.com>
-2. If you are not already logged in, login to your Github account by clicking the "sign in" button at the top left of the page
-3. Copy and paste the following URL into the URL bar of the window that you used to login to Github [https://github.com//{{site.course.github_owner}}/GeneFinder](https://github.com//{{site.course.github_owner}}/GeneFinder)
+2. If you are not already logged in, login to your GitHub account by clicking the "sign in" button at the top left of the page
+3. Copy and paste the following URL into the URL bar of the window that you used to login to GitHub [https://github.com//{{site.course.github_owner}}/GeneFinder](https://github.com//{{site.course.github_owner}}/GeneFinder)
 4. Fork the `GeneFinder` repository by clicking on the "Fork" button in the upper right of the window. If prompted for where you should fork the repository, select @yourgithubusername.
 5. You should now be at the page that shows your fork of the SoftDes repository. Copy the URL in the box labeled "HTTPS Clone URL".
 6. Open up a terminal and execute the following commands (note: these commands will clone your `GeneFinder` repository in your home directory, please modify the first line to cd to a different directory if you'd rather clone somewhere else).

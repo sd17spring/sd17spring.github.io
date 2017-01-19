@@ -49,7 +49,7 @@ Teaming Logistics:
 
 * You must work in a team of exactly two students (given an odd number of students we may have one team of three per section).
 * Your partner must be in your section (no exceptions).
-* Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on Github for that repo.
+* Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on GitHub for that repo.
 
 Teaming Guidance:
 
@@ -250,7 +250,7 @@ don't have one already.
 As part of filling out this spreadsheet, and starting the project, you should
 fork and clone the [base repo](https://github.com//{{site.course.github_owner}}/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
-and then the other member should be added as a collaborator on Github for that
+and then the other member should be added as a collaborator on GitHub for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.
 
 There are three deliverables for this project.
@@ -342,7 +342,7 @@ and how did you address them? What would you do differently next time?
 * Push your completed code to the "master" Git repository (depending on which team member's repository is being used to work on the project).
 * Submit your Project Writeup/Reflection (1 per team, not 1 per person). This can be in the form of either:
   * a PDF document pushed to GitHub, or
-  * a [project webpage](https://pages.github.com/) (if you choose this route, make sure there is a link to your webpage in your **README.md**  file in your Github repo)
+  * a [project webpage](https://pages.github.com/) (if you choose this route, make sure there is a link to your webpage in your **README.md**  file in your GitHub repo)
 * Open a pull request to the base InteractiveProgramming repo.
 
 Your code must be adequately documented. This includes:

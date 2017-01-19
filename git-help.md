@@ -16,13 +16,13 @@ permalink: /git-help/
 
 ## Git Tutorials From Past Semesters
 
-[Git &amp; Github
+[Git &amp; GitHub
 presentation](https://docs.google.com/presentation/d/1NpeHiQKs-y2PKp_XrUgzhSSXXBrhTv5DHU4vjQoF99Y/edit?usp=sharing)
 (thanks: Chris)
 
 [One-page cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) (PDF, thanks: Celine)
 
-## How to get the stuff from my computer to Github
+## How to get the stuff from my computer to GitHub
 
 ``` bash
 $ git add <filename>
@@ -54,7 +54,7 @@ course repository, and will merge the changes in upstream to your own
 repository.
 
 
-## How to pull changes from Github
+## How to pull changes from GitHub
 
 `$ git pull`
 
