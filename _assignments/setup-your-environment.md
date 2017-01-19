@@ -169,7 +169,7 @@ Certain trivial but frequent errors (incorrect indentation, certain misspelled n
 If you'd like to see these errors in the editor as you type, install the following packages:
 
 ``` bash
-$ sudo pip3 install pyflakes jedi
+$ sudo pip3 install pyflakes jedi flake8 isort
 $ apm install Hydrogen atom-beautify autocomplete autocomplete-python
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
 ```
