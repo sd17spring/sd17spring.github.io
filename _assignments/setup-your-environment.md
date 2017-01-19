@@ -89,7 +89,8 @@ Once you have finished installing Ubuntu, you can configure it using
 Carver in IT (start from the "Configure Your System" section).
 
 The steps that are most important are:
-* Configure apt
+
+* Configure [apt](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
 * Install the proprietary NVIDIA driver
 * Enable your firewall
 * Configure wireless
@@ -150,11 +151,12 @@ Then type the following at the Python prompt:
 ```
 
 Notes:
+
 * Don't type the `>>>`. (`>>>` is to Python as `$` is to bash.)
 * The `turtle.Turtle()` line will cause a white window to appear in front of the terminal window.
 Since you'll need to switch back to the terminal window to continue interacting with the Python prompt, you can close the white window.
 
-To verify that Atom is installed, run
+To verify that Atom is installed, run:
 
 ``` bash
 $ atom
@@ -238,19 +240,16 @@ popular. It is so popular that people sometimes say "GitHub" when they mean
 >
 > * Git is an application that runs on your computer and helps you manage
 repositories.
->
 > * You can use Git to manage repos stored on your own computer or on any
 computer configured as a Git server.
->
 > * Anybody can set up and run a Git server. A company that runs Git servers
 professionally is a Git hosting service.
->
 > * GitHub is one of many Git hosting services.
 >
-> Ok, go to <http://github.com>. If you already have an account, log in.
+> Ok, go to <https://github.com>. If you already have an account, log in.
 Otherwise, you will have to create one.
 >
->  You can choose any available username you like, but there are a few things
+> You can choose any available username you like, but there are a few things
 you might want to think about:
 >
 > 1. Working on GitHub involves interacting with other people. They will see
