@@ -91,7 +91,6 @@ Carver in IT (start from the "Configure Your System" section).
 The steps that are most important are:
 
 * Configure [apt](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
-* Install the proprietary NVIDIA driver
 * Enable your firewall
 * Configure wireless
 
