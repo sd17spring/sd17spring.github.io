@@ -84,13 +84,9 @@ that can be used to install Ubuntu as a virtual machine. We recommend the
 freely available program [Virtual Box](https://www.virtualbox.org/) if you are
 running a VM. Ask for help if you find you need help on setting this up.
 
-Once you have finished installing Ubuntu, you can configure it using
-[these](http://wikis.olin.edu/linux/doku.php) instructions provided by Dave
-Carver in IT (start from the "Configure Your System" section).
-
 The steps that are most important are:
 
-* Configure [apt](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
+* Configure apt
 * Install the proprietary NVIDIA driver
 * Enable your firewall
 * Configure wireless
