@@ -129,7 +129,7 @@ $ pip3 install --upgrade pip
 $ sudo pip3 install jupyter
 ```
 
-We'll be using Atom as default text editor for the course. Go ahead and install Atom it:
+We'll be using Atom as default text editor for the course. Go ahead and install it:
 
 ``` bash
 $ sudo apt-get install atom
@@ -163,10 +163,9 @@ $ atom
 
 ## Optional: Set Up Your Integrated Development Environment (IDE)
 
-You've now got all you need to start editing code with Atom, but you may want your development environment to be a little fancier. For example, being able to compile/run and debug your code inside the editor is pretty helpful while writing code. An IDE is just that, as it contains a suite of tools that will help you debug while you code instead of discovering the errors at runtime.
+You've now got all you need to start editing code with Atom, but you may want your development environment to be a little fancier. Beyond a simple text editor, an IDE also contains a suite of tools that will help you debug while you code instead of discovering the errors at runtime.
 
-Certain trivial but frequent errors (incorrect indentation, certain misspelled names) can be detected earlier.
-If you'd like to see these errors in the editor as you type, install the following packages:
+Certain trivial but frequent errors (incorrect indentation, certain misspelled names) can be detected earlier. We'll transform Atom into a pseudo-IDE by installing some development tools that let you see these errors in the editor as you type.
 
 ``` bash
 $ sudo pip3 install pyflakes jedi flake8 isort
