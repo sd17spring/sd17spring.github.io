@@ -109,7 +109,7 @@ If you want to use an input modality other than keyboard and mouse, you may
 find the computer vision library OpenCV useful. The idea here would be to
 capture images from a camera (probably the webcam on your laptop) and use
 those to control some aspect of your program. To get started check out the
-SoftDes [project toolbox exercise on OpenCV](/project-toolbox/image-processing). Next, read through the [OpenCV Python
+SoftDes [project toolbox exercise on OpenCV\]({% link _toolboxes/image-processing.md %}). Next, read through the [OpenCV Python
 tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_ tutorials.html)
 and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
@@ -153,28 +153,28 @@ Storytelling. This link is for 2013, but other years are available.
 _Exploring How People Talk in Different Parts of the U.S. (source: New York
 Times Year in Interactive Storytelling 2013):_
 
-![]{% link /assets/assignments/interactive-visualization/dialect-screenshot.png %}{:width="400px" height="363px"}
+![]({% link assets/assignments/interactive-visualization/dialect-screenshot.png %}{:width="400px" height="363px"}
 
 [Exploring movie trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _Examining Box Office Hits:_
-![]{% link /assets/assignments/interactive-visualization/4.png %}{:width="400px" height="222px"}
+![]({% link assets/assignments/interactive-visualization/4.png %}{:width="400px" height="222px"}
 
 _Where did my harddrive space go???_
 
-![]{% link /assets/assignments/interactive-visualization/29.png %}{:width="304px" height="400px"}
+![]({% link assets/assignments/interactive-visualization/29.png %}{:width="304px" height="400px"}
 
 
 _ Examining the Group Debates:_
-![]{% link /assets/assignments/interactive-visualization/37.png %}{:width="400px" height="229px"}
+![]({% link assets/assignments/interactive-visualization/37.png %}{:width="400px" height="229px"}
 
 _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](http://www.nytimes.com/interactive/2013/10/02/us/uninsured-americans-map.html)_
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/):
 
-![]{% link /assets/assignments/interactive-visualization/4th-down-bot.png %}{:width="400px" height="295px"}
+![]({% link assets/assignments/interactive-visualization/4th-down-bot.png %}{:width="400px" height="295px"}
 
 
 ### Arcade Games

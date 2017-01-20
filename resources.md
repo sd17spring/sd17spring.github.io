@@ -16,8 +16,8 @@ to collect those resources that have already been mentioned into one place.
 
 ## Linux (Ubuntu)
 
-* [Get Set (this site): Install and Configure Ubuntu](/assignments/setup-your-environment#step-1-install-and-configure-ubuntu)
-* [Linux at Olin (downloadable PDF)](/assignments/setup-your-environment/linux.pdf)
+* [Get Set (this site): Install and Configure Ubuntu\]({% link _assignments/setup-your-environment.md %}#step-1-install-and-configure-ubuntu)
+* [Linux at Olin (downloadable PDF)\]({% link assets/assignments/setup-your-environment/linux.pdf %})
 * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
 
 ## Classroom collaboration tools
@@ -29,7 +29,7 @@ to collect those resources that have already been mentioned into one place.
 
 ## Git
 
-* [Git Help (this site)](/github-help) – contains links to additional resources
+* [Git Help (this site)\]({% link git-help.md %}) – contains links to additional resources
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)

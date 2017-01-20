@@ -33,10 +33,10 @@ on your computer.
 
 You should read this document in a somewhat non-linear/spiral fashion:
 
-1. Scan through [Part 1](/assignments/text-mining#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
-2. Scan through [Part 2](/assignments/text-mining#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
+1. Scan through [Part 1\]({% link _assignments/mini-project-3-text-mining.md %}#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
+2. Scan through [Part 2\]({% link _assignments/mini-project-3-text-mining.md %}#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
 3. Choose (at least) one data source from Part 1 or elsewhere and analyze/manipulate/transform that text using technique(s) from Part 2 or elsewhere.
-4. Write a brief document about what you did ([Part 3](/assignments/text-mining#part-3-project-writeup-and-reflection))
+4. Write a brief document about what you did ([Part 3\]({% link _assignments/mini-project-3-text-mining.md %}#part-3-project-writeup-and-reflection))
 
 ## Part 1: Harvesting text from the Internet
 
@@ -68,7 +68,7 @@ Python:
 
 If Pattern is installed correctly, you should see the HTML from Google's front
 page. If you'd like to learn more about what is going on behind the scenes,
-check out the [Web APIs Project Toolbox](/project-toolbox/geocoding-and-web-apis) assignment.
+check out the [Web APIs Project Toolbox\]({% link _toolboxes/geocoding-and-web-apis.md %}) assignment.
 
 By default, Pattern uses a common license key for every user. If you use the
 common license keys, then you will be subject to service denials if the a
@@ -115,7 +115,7 @@ Project Gutenberg is that they impose a limit on how many texts you can
 download in a 24-hour period (which lead to me getting banned the other day).
 So, if you are analyzing say 10 texts, you might want to download them once
 and load them off disk rather than fetching them off of Project Gutenberg's
-servers every time you run your program (see the [Pickling Data](/assignments/text-mining#pickling-data) section for some relevant
+servers every time you run your program (see the [Pickling Data\]({% link _assignments/mini-project-3-text-mining.md %}#pickling-data) section for some relevant
 information on doing this). However, there are
 [many](http://www.gutenberg.org/MIRRORS.ALL)
 [mirrors](http://onlinebooks.library.upenn.edu/) of the Project Gutenberg site
@@ -378,7 +378,7 @@ processing the data that will read the pickle file to get the data loaded into
 Python so you can perform some analysis on it.
 
 For more details and practice, check out the [Pickling Project
-Toolbox](/project-toolbox/pickling) assignment.
+Toolbox\]({% link _toolboxes/pickling.md %}) assignment.
 
 
 ### Troubleshooting Pattern
@@ -475,7 +475,7 @@ each tweet that comes by in the stream? There are tons of cool options here!
 
 It is potentially quite useful to be able to compute the similarity of two
 texts. Suppose that we have characterized some texts from Project Gutenberg
-using [word frequency analysis](/assignments/text-mining#characterizing-by-word-frequencies). One way to compute the
+using [word frequency analysis\]({% link _assignments/mini-project-3-text-mining.md %}#characterizing-by-word-frequencies). One way to compute the
 similarity of two texts is to test to what extent when one text has a high
 count for a particular word the other text also a high count for a particular
 word. Specifically, we can compute the [cosine
@@ -540,7 +540,7 @@ paper).
 ![](http://newsroom.unl.edu/releases/downloadables/photo/20120828macro-american.jpg)
 
 In order to apply MDS to your data, you can use the machine learning toolkit
-scikit-learn (to install it consult the [machine learning toolbox)](/project-toolbox/machine-learning).
+scikit-learn (to install it consult the [machine learning toolbox)\]({% link _toolboxes/machine-learning.md %}).
 
 Here is some code that uses the similarity matrix defined in the previous
 section to create a 2-dimensional embedding of the four Charles Dickens and 1
@@ -578,7 +578,7 @@ meaning, but the embedding tries to maintain the similarity relationships that
 we computed via comparing word frequencies. Keep in mind that the point
 labeled 4 is the work by Charles Darwin.
 
-![]{% link /assets/assignments/text-mining/figure_1.png %}{:width="400px" height="300px"}
+![]({% link assets/assignments/text-mining/figure_1.png %}{:width="400px" height="300px"}
 
 
 ### Markov Text Synthesis

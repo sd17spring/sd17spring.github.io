@@ -109,7 +109,7 @@ The podcast discusses a number of topics, but the first segment of the podcast
 is about Typhoid Mary (although, you really should listen to the whole thing;
 you will not be disappointed).
 
-![]{% link /assets/assignments/gene-finder/mary-nyamerican.jpg %}
+![]({% link assets/assignments/gene-finder/mary-nyamerican.jpg %}
 
 Image source: <http://en.wikipedia.org/wiki/Typhoid_Mary>
 
@@ -173,7 +173,7 @@ start).
 Now that you have a good sense of the functions you will be filling out, take
 a look at this function diagram.
 
-![]{% link /assets/assignments/gene-finder/mary-nyamerican.jpg %}
+![]({% link assets/assignments/gene-finder/mary-nyamerican.jpg %}
 
 This diagram shows all of the functions in the program, and uses a directed
 arrow to indicate that the function on the "from" side of the arrow calls the
@@ -218,7 +218,7 @@ functions described below:
 
 * `get_complement`: this function should take a nucleotide as input and return the complementary nucleotide
 To help you get started here are some unit tests (make sure you have read the
-[Unit Testing Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+[Unit Testing Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> get_complement("A")
@@ -229,7 +229,7 @@ To help you get started here are some unit tests (make sure you have read the
 
 * `get_reverse_ complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
 To help you get started here are some unit tests (make sure you have read the
-[Unit Testing Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+[Unit Testing Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> get_reverse_ complement("ATGCCCGCTTT")
@@ -241,7 +241,7 @@ To help you get started here are some unit tests (make sure you have read the
 * `rest_of_ ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
 
 Some unit tests (make sure you have read the [Unit Testing
-Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> rest_of_ ORF("ATGTGAA")
@@ -253,7 +253,7 @@ Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
 * `find_all_ ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a _while_  loop to be useful for this purpose. Make sure to utilize your rest_of_ ORF function when coding this part.
 
 A unit test (make sure you have read the [Unit Testing
-Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> find_all_ ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
@@ -273,7 +273,7 @@ As in above, don't include ORFs that are nested within other ORFs. Your
 function should heavily utilize `find_all_ ORFs_oneframe` .
 
 A unit test (make sure you have read the [Unit Testing
-Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> find_all_ ORFs("ATGCATGAATGTAG")
@@ -282,7 +282,7 @@ Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
 
 * `find_all_ ORFs_both_ strands`: this should do exactly the same thing as `find_all_ ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
 
-A unit test (make sure you have read the [Unit Testing Instructions](/assignments/gene finder#a_note_ about_unit_ testing)):
+A unit test (make sure you have read the [Unit Testing Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> find_all_ ORFs_both_ strands("ATGCGAATGTAGCATCAAA")
@@ -316,7 +316,7 @@ to analyze a real DNA sequence suspected to play a role in Typhoid fever.
 
 * `longest_ORF`: Finds the longest open reading frame on either strand of the DNA. Make sure you leverage code from previous parts of the assignment.
 
-A unit test (make sure you have read the [Unit Testing Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+A unit test (make sure you have read the [Unit Testing Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> longest_ORF("ATGCGAATGTAGCATCAAA")
@@ -356,7 +356,7 @@ If you wanted to implement your own lookup, you could use the lists `aa` and
 `codons[i]` contains a list of codons that code for the amino acid stored in
 `aa[i]`.
 
-Some unit tests (make sure you have read the [Unit Testing Instructions](/assignments/gene-finder#a_note_ about_unit_ testing)):
+Some unit tests (make sure you have read the [Unit Testing Instructions\]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
 
 ```
 >>> coding_strand_ to_AA("ATGCGA")

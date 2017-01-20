@@ -13,5 +13,4 @@ against topics that are currently at the forefront of computational science.
 The aim of this section of the website is to provide interested students with
 some pointers to recent research papers that build on the course material. You
 may find that these papers also provide ideas for the [final
-project](/project).
-
+project\]({% link _assignments/final-project.md %}).
