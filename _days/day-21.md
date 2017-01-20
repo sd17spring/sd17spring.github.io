@@ -30,7 +30,7 @@ final project.
 
 ## Project websites
 
-Each team will be creating a [project website](/assets/assignments/final-project#project-website) as part of the final
+Each team will be creating a [project website]{% link /assets/assignments/final-project#project-website %} as part of the final
 project. Today in class, we'll help you get started building your website
 using [GitHub pages](https://pages.github.com/).
 
