@@ -153,28 +153,28 @@ Storytelling. This link is for 2013, but other years are available.
 _Exploring How People Talk in Different Parts of the U.S. (source: New York
 Times Year in Interactive Storytelling 2013):_
 
-![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2011.53.13%20AM.png?height=363&width=400)
+![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2011.53.13%20AM.png){:width="400px" height="363px"}
 
 [Exploring movie trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _Examining Box Office Hits:_
-![](/assets/assignments/interactive-visualization/4.png?height=222&width=400)
+![](/assets/assignments/interactive-visualization/4.png){:width="400px" height="222px"}
 
 _Where did my harddrive space go???_
 
-![](/assets/assignments/interactive-visualization/29.png?height=400&width=304)
+![](/assets/assignments/interactive-visualization/29.png){:width="304px" height="400px"}
 
 
 _ Examining the Group Debates:_
-![](/assets/assignments/interactive-visualization/37.png?height=229&width=400)
+![](/assets/assignments/interactive-visualization/37.png){:width="400px" height="229px"}
 
 _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](http://www.nytimes.com/interactive/2013/10/02/us/uninsured-americans-map.html)_
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/):
 
-![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2012.04.46%20PM.png?height=295&width=400)
+![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2012.04.46%20PM.png){:width="400px" height="295px"}
 
 
 ### Arcade Games
