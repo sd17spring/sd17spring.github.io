@@ -578,7 +578,7 @@ meaning, but the embedding tries to maintain the similarity relationships that
 we computed via comparing word frequencies. Keep in mind that the point
 labeled 4 is the work by Charles Darwin.
 
-![]({% link assets/assignments/text-mining/figure_1.png %}{:width="400px" height="300px"}
+![]({% link images/assignments/text-mining/figure_1.png %}{:width="400px" height="300px"}
 
 
 ### Markov Text Synthesis

@@ -19,7 +19,7 @@ so that our game AI can make more complex moves and decisions.
 The game is simple: Paul wants cake, and he needs to find a way to get to the
 cake!
 
-[![]({% link assets/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %}{:width="309px" height="320px"}]({% link assets/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %}
+[![]({% link images/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %}{:width="309px" height="320px"}]({% link images/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %}
 
 Thanks to Dennis Chen [2015 NINJA] for writing this toolbox.
 

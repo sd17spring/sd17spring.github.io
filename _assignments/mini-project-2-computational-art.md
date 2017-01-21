@@ -34,7 +34,7 @@ auditory signals.
 At some point in your mathematical career you have probably seen a figure that
 looks like this:
 
-![]({% link assets/homeworks/homework-4/simple_surface.png %}{:width="320px" height="249px"}
+![]({% link images/homeworks/homework-4/simple_surface.png %}{:width="320px" height="249px"}
 
 This is a graphical representation of the function f(x,y) = 2x + y where the
 brightness of each position in the figure above represents the value of the
@@ -45,14 +45,14 @@ From a visual point of view, this figure doesn't look particularly rich.
 However, for more complex functions things start to get more interesting. Here
 is a plot of the function f(x,y) = sin(10pi*xy)
 
-![]({% link assets/homeworks/homework-4/medium_surface.png %}{:width="320px" height="243px"}
+![]({% link images/homeworks/homework-4/medium_surface.png %}{:width="320px" height="243px"}
 
 Things get even more interesting when we use the power of computation to
 generate functions by randomly composing elementary functions with each other.
 Here is a plot of the randomly generated function f(x,y) =
 cos(pi*((cos(pi*sin(pi*(((x+y)/2.0*cos(pi*y))+cos(pi*cos(pi*y)))/2.0))*((((cos(pi*y)+(x*y))/2.0*(cos(pi*y)*sin(pi*x)))+sin(pi*((x+x)/2.0+cos(pi*y))/2.0))/2.0*sin(pi*sin(pi*sin(pi*(y+y)/2.0)))))+sin(pi*(cos(pi*cos(pi*cos(pi*sin(pi*x))))+sin(pi*sin(pi*((x*x)*sin(pi*y)))))/2.0))/2.0)
 
-![]({% link assets/homeworks/homework-4/complex_singlechannel_surface.png %}{:width="320px" height="244px"}
+![]({% link images/homeworks/homework-4/complex_singlechannel_surface.png %}{:width="320px" height="244px"}
 
 Cool! Next, we bring in the idea of color. Instead of generating one random
 function, we generate three (one for each of the color channels red, green,
@@ -60,7 +60,7 @@ and blue). Here are 3 figures representing randomly generated functions for
 each of the color channels. (Note: in a slight change of notation we are now
 using the function avg(x,y) instead of (x+y)/2.0)
 
-![]({% link assets/homeworks/homework-4/complex_red_surface.png %}{:width="320px" height="239px"}
+![]({% link images/homeworks/homework-4/complex_red_surface.png %}{:width="320px" height="239px"}
 
 ```
 red(x,y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
@@ -72,7 +72,7 @@ cos(pi * cos(pi * avg(sin(pi * sin(pi * avg((x * x), (x * x)))), sin(pi *
 sin(pi * sin(pi * sin(pi * y)))))))))
 ```
 
-![]({% link assets/homeworks/homework-4/complex_green_surface.png %}{:width="320px" height="237px"}
+![]({% link images/homeworks/homework-4/complex_green_surface.png %}{:width="320px" height="237px"}
 
 ```
 green(x,y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
@@ -89,7 +89,7 @@ avg(((cos(pi * y) * (y * y)) * avg(sin(pi * y), cos(pi * y))), (((x * x) *
 avg(y, x)) * cos(pi * sin(pi * x)))))))))
 ```
 
-![]({% link assets/homeworks/homework-4/complex_blue_surface.png %}{:width="320px" height="240px"}
+![]({% link images/homeworks/homework-4/complex_blue_surface.png %}{:width="320px" height="240px"}
 
 ```
 blue(x,y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
@@ -117,7 +117,7 @@ x))), cos(pi * avg((y * y), avg(y, y)))))))))
 Of course the real fun is when we put all of these individual color channel
 images together into a single image.
 
-![]({% link assets/homeworks/homework-4/extra2.png %}
+![]({% link images/homeworks/homework-4/extra2.png %}
 
 Voila! Computational creativity (there are some deep philosophical issues
 behind whether this can be called creativity... We don't pretend to know the
@@ -153,7 +153,7 @@ will implement later, and it should save an image file named `noise.png` in
 your run directory. You can view `noise.png` using the built-in tool
 `image_viewer`.
 
-[![Random pixel noise]({% link assets/assignments/mini-project-2-computational-art/noise.png %}{:width="320px" height="320px"}]({% link assets/assignments/mini-project-2-computational-art/noise.png %}
+[![Random pixel noise]({% link images/assignments/mini-project-2-computational-art/noise.png %}{:width="320px" height="320px"}]({% link images/assignments/mini-project-2-computational-art/noise.png %}
 
 While this looks pretty cool (and it might be fun to convince your gullible
 friends it is a Magic Eye picture), I wouldn't call it **art** . In the rest of
@@ -275,7 +275,7 @@ any doctest failure messages and an image file will show up in your
 **computational_art**  folder called **myart.png** . The image should look like
 this:
 
-[![]({% link assets/assignments/mini-project-2-computational-art/myart.png %}]({% link assets/assignments/mini-project-2-computational-art/myart.png %}
+[![]({% link images/assignments/mini-project-2-computational-art/myart.png %}]({% link images/assignments/mini-project-2-computational-art/myart.png %}
 
 
 ## **Part 2:**  Generating and evaluating random recursive functions
@@ -352,7 +352,7 @@ the function that you generate (the depth of the preceding examples are 2 and
 of the function that you generate. To help better understand the idea of the
 depth of the function the following diagram might help:
 
-[![Depth tree diagram]({% link assets/assignments/mini-project-2-computational-art/treediagram.jpg %}\]({% link assets/assignments/mini-project-2-computational-art/treediagram.jpg %})
+[![Depth tree diagram]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %}\]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})
 
 **Click image to enlarge**
 

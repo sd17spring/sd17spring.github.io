@@ -17,7 +17,7 @@ to collect those resources that have already been mentioned into one place.
 ## Linux (Ubuntu)
 
 * [Get Set (this site): Install and Configure Ubuntu\]({% link _assignments/setup-your-environment.md %}#step-1-install-and-configure-ubuntu)
-* [Linux at Olin (downloadable PDF)\]({% link assets/assignments/setup-your-environment/linux.pdf %})
+* [Linux at Olin (downloadable PDF)\]({% link files/assignments/setup-your-environment/linux.pdf %})
 * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
 
 ## Classroom collaboration tools

@@ -204,7 +204,7 @@ instructions to configure the plugin.
 
 ## Step 2: Learn About Linux
 
-Read Chapter 1 of Linux at Olin (available [here]({% link assets/assignments/setup-your-environment/linux.pdf %})).
+Read Chapter 1 of Linux at Olin (available [here]({% link files/assignments/setup-your-environment/linux.pdf %})).
 
 
 ## Step 3: Get Started with Git
@@ -289,7 +289,7 @@ repo, copy the URL that points to your fork of that repo. For Paul, the URL
 looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. He got this
 link by copying the highlighted text in the screenshot below.
 
-[![]({% link assets/assignments/setup-your-environment/screenshot.png %}]({% link assets/assignments/setup-your-environment/screenshot.png %}
+[![]({% link images/assignments/setup-your-environment/screenshot.png %}]({% link images/assignments/setup-your-environment/screenshot.png %}
 
 Next, open up a terminal and clone the repo by running the following command
 (be sure to replace the pointer to Paul's ReadingJournal with your own!). These
