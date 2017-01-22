@@ -47,14 +47,14 @@ ways to manipulate strings:
 
 ```
 >>> excited = "Software " + "Design" + "!"*10
->>> print excited
+>>> print(excited)
 Software Design!!!!!!!!!!
 >>> bored = excited.rstrip("!")
->>> print bored
+>>> print(bored)
 Software Design
->>> print bored[-6:]
+>>> print(bored[-6:])
 Design
->>> print bored.split()
+>>> print(bored.split())
 ['Software', 'Design']
 ```
 

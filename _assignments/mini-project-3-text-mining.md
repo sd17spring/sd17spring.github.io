@@ -63,7 +63,7 @@ To make sure that Pattern is installed correctly, try these commands in
 Python:
 
     >>> from pattern.web import *
-    >>> print URL('http://google.com').download()
+    >>> print(URL('http://google.com').download())
 
 
 If Pattern is installed correctly, you should see the HTML from Google's front
@@ -104,7 +104,7 @@ inside Python, I would use the following code:
 ``` python
 from pattern.web import *
 oliver_twist_full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
-print oliver_twist_full_text
+print(oliver_twist_full_text)
 ```
 
 Note, that there is a preamble (boiler plate on Project Gutenberg, table of
@@ -130,8 +130,8 @@ Here is an example of searching for Olin College using Google:
 from pattern.web import *
 g = Google()
 for result in g.search('Olin College'):
-print result.url
-print result.text
+print(result.url)
+print(result.text)
 ```
 
 The first two lines printed out by this Python program are:
@@ -145,8 +145,7 @@ Official site provides news and information about the campus, academics,
 Notice that the second line of output has an HTML tag (in this case `<br>`)
 mixed in (if you don't know what an HTML tag is, don't worry). If you want to
 remove HTML from any string with Pattern you can use the `plaintext` function.
-For instance, if you change the line of code `print result.text` to `print
-plaintext(result.text)` you will get:
+For instance, if you change the line of code `print(result.text)` to `print(plaintext(result.text))` you will get:
 
 ```
 http://www.olin.edu/
@@ -172,7 +171,7 @@ Here is a Python program to print out the title of every Wikipedia article:
 from pattern.web import *
 w = Wikipedia()
 for article_title in w.index():
-    print article_title`
+    print(article_title`)
 ```
 
 Given that you know the particular title of the article you would like to
@@ -183,7 +182,7 @@ following Python program:
 from pattern.web import *
 w = Wikipedia()
 olin_article = w.search('Olin College')
-print olin_article.sections
+print(olin_article.sections)
 ```
 
 Which yields the output:
@@ -220,7 +219,7 @@ s = Twitter().stream('#fail')
 for i in range(10):
     time.sleep(1)
     s.update(bytes=1024)
-    print s[-1].text if s else ''
+    print(s[-1].text if s else '')
 ```
 
 When I ran this program the other day I got the following output:
@@ -245,7 +244,7 @@ currently trending on twitter using this Python program:
 
 ``` python
 from pattern.web import *
-print Twitter().trends()
+print(Twitter().trends())
 ```
 
 Which produced the following output when I tried running the code:
@@ -271,7 +270,7 @@ examines my profile and prints out my basic information:
 from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
-print me
+print(me)
 ```
 
 Which generates the output:
@@ -285,7 +284,7 @@ Facebook:
 from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
-print len(f.search(me[0], type=FRIENDS, count=10000))
+print(len(f.search(me[0], type=FRIENDS, count=10000)))
 ```
 
 Note that `count = 10000` simply specifies the maximum number of results that
@@ -301,8 +300,8 @@ my_friends = f.search(me[0], type=FRIENDS, count=10000)
 for friend in my_friends:
     friend_news = f.search(friend.id, type=NEWS, count=10000)
     for news in friend_news:
-        print news.text
-        print news.author
+        print(news.text)
+        print(news.author)
 ```
 
 You can also check out your friends' comments and likes.
@@ -414,8 +413,8 @@ for friend in my_friends:
     except:
         time.sleep(5) # sleep a little bit before retry
     for news in friend_news:
-        print news.text
-        print news.author
+        print(news.text)
+        print(news.author)
 ```
 
 
@@ -450,7 +449,7 @@ analysis](http://en.wikipedia.org/wiki/Sentiment_analysis):
 
 ``` python
 from pattern.en import *
-print sentiment('Software Design is my favorite class!')
+print(sentiment('Software Design is my favorite class!'))
 ```
 
 This program will print out:

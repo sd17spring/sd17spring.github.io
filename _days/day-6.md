@@ -56,7 +56,7 @@ separate variables:
 ```
 >>> name = contigs[5][0]
 >>> dna_sequence = contigs[5][1]
->>> print name
+>>> print(name)
 Contig_ 37
 ```
 

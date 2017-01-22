@@ -76,7 +76,7 @@ def factorial(n):
  return return_val
 
 if_ _name_ _ == '_ _main_ _':
- print factorial(5)
+ print(factorial(5))
 ```
 
 Let's debug this one together.

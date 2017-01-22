@@ -38,7 +38,7 @@ Let's grab some data from the Internet!
 
     >>> import urllib2
     >>> f = urllib2.urlopen("http://www.olin.edu")
-    >>> print f.read(400)
+    >>> print(f.read(400))
     <!DOCTYPE html>
     <html>
     <head profile="http://www.w3.org/1999/xhtml/vocab">
@@ -122,7 +122,7 @@ response data structure:
 
 * It is built from nested dictionaries and lists, and you can step through it to access the fields you want.
 
-      >>> print response_data["results"][0]["formatted_ address"]
+      >>> print(response_data["results"][0]["formatted_ address"])
       Fenway Park, 4 Yawkey Way, Boston, MA 02215, USA
 
 * The strings (e.g. `u'results'`) are [Unicode](https://docs.python.org/2/howto/unicode.html), which for the purposes of this assignment should behave like normal strings.

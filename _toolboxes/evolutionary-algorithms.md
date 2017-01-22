@@ -137,7 +137,7 @@ technique, which has the following (pseudocode) behavior:
 
       >>> parent1 = "ABCDEF"
       >>> parent2 = "UVWXYZ"
-      >>> print TwoPointCrossover(parent1, parent2)
+      >>> print(TwoPointCrossover(parent1, parent2))
       ("ABWXYF", "UVCDEZ")
 
 This crossover is intended to model [homologous
