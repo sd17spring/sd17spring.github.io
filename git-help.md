@@ -1,9 +1,9 @@
 ---
-date: '2017-01-13T20:53:18'
+date: 2017-01-14 10:36:07 -0500
 description: ''
-title: Git Help
 layout: single
 permalink: /git-help/
+title: Git Help
 ---
 
 {% include toc %}

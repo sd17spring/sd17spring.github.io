@@ -1,9 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
-title: Policies
-layout: default
-permalink: /policies/
+date: 2017-01-19 13:27:25 -0500
 layout: single
+permalink: /policies/
+title: Policies
 ---
 
 ## Course Components

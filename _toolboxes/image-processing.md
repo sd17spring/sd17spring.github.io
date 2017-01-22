@@ -1,5 +1,5 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-14 10:36:22 -0500
 description: ''
 title: Image Processing
 toc: true

@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-15 12:36:16 -0500
 description: ''
-title: 'Mini Project 5: Feedback and Revision'
 due_date: '2017-04-23'
+title: 'Mini Project 5: Feedback and Revision'
 ---
 
 ## Introduction

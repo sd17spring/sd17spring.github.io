@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-18 21:02:02 -0500
 description: ''
-title: Resources
 layout: single
 permalink: /resources/
+title: Resources
 ---
 
 {% include toc %}

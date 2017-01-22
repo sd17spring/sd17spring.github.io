@@ -1,7 +1,7 @@
 ---
-date: '2017-01-13T20:53:18'
-due_date: '2017-03-20'
+date: 2017-01-15 13:01:52 -0500
 description: ''
+due_date: '2017-03-20'
 title: Final Project
 type: index
 ---

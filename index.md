@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-21 20:46:57 -0500
 description: ''
-title: Software Design Spring 2017
 layout: single
 permalink: /
+title: Software Design Spring 2017
 ---
 
 {% include toc %}

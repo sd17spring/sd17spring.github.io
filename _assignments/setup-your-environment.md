@@ -1,9 +1,9 @@
 ---
-date: '2017-01-18'
+date: 2017-01-19 14:22:37 -0500
 description: ''
-title: Get Set
 due_date: '2017-01-23'
 layout: single
+title: Get Set
 ---
 
 {% include toc %}

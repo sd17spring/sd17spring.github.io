@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-20 07:38:35 -0500
 description: ''
-title: 'Mini Project 4: Interactive Programming'
 due_date: '2017-03-14'
+title: 'Mini Project 4: Interactive Programming'
 ---
 
 {% include toc %}
