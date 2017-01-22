@@ -21,12 +21,13 @@ title: 'Mini Project 1: Gene Finder'
 
 **Biology Skills Emphasized:**
 
-  * Gene detection in arbitrary DNA sequences (also known as "ab initio gene finding")
-  * Understanding protein coding
-  * Using Protein BLAST and interpreting its results
-  * [for the "going beyond" part] Learning how to read research papers, regulatory mechanisms for protein synthesis
+* Gene detection in arbitrary DNA sequences (also known as "ab initio gene finding")
+* Understanding protein coding
+* Using Protein BLAST and interpreting its results
+* [for the "going beyond" part] Learning how to read research papers, regulatory mechanisms for protein synthesis
 
-**Acknowledgments:**  this assignment was originally created by Professors Ran Libeskind-Hadas, Eliot C. Bush, and their [collaborators](https://www.cs.hmc.edu/twiki/bin/view/CS6/GreenAcknowledgements) at Harvey Mudd. Special thanks to Ran for allowing us to use this assignment and adapt it for this course.
+**Acknowledgments:** this assignment was originally created by Professors Ran Libeskind-Hadas, Eliot C. Bush, and their [collaborators](https://www.cs.hmc.edu/twiki/bin/view/CS6/GreenAcknowledgements) at Harvey Mudd.
+Special thanks to Ran for allowing us to use this assignment and adapt it for this course.
 
 **Some Notes on the Assignment Structure:** in contrast to some of the mini-projects that will come later in this course, this project is much more scaffolded. This is by design. One of the principal goals of this course is to teach you how to write good code. Good code can mean lots of things: fast code, readable code, debuggable code, modular code, etc. One of the best ways to learn how to design and structure your own code is to see examples of well-designed software. In this assignment, you will have the opportunity to see a good example of modular code design. By modular we mean that the functions and their interactions have been carefully designed to create a concise, readable, and maintainable program.
 
@@ -149,7 +150,7 @@ next section explains the purpose of each of these files.
 
 ## Week 1
 
-**Getting the Lay of the Land**
+### Getting the Lay of the Land
 
 The last step of the previous section had you listing the contents of the
 gene_finder subdirectory of your SoftDes repo. Here is a description each of
@@ -184,16 +185,20 @@ necessarily understand every aspect of the design before you start on the
 assignment. The idea is that the motivation for the design will become
 apparent as you implement parts of it.
 
-**Implementation Strategy:** We could start by trying to implement any particular box in this diagram. However, we are going to be doing our implementation in a bottom-up ordering. That is, we are going to be implementing the functions that are called by other functions before we implement the calling functions. The motivation for this is that once you have had the experience of implementing the called function (on the "to" side of the arrow), it should be more clear how it can be utilized in the calling function (on the "from" side of the arrow).
+### Implementation Strategy
 
-**Basic manipulation of DNA snippets and Open Reading Frames (ORFs)**
+We could start by trying to implement any particular box in this diagram. However, we are going to be doing our implementation in a bottom-up ordering. That is, we are going to be implementing the functions that are called by other functions before we implement the calling functions. The motivation for this is that once you have had the experience of implementing the called function (on the "to" side of the arrow), it should be more clear how it can be utilized in the calling function (on the "from" side of the arrow).
+
+### Basic manipulation of DNA snippets and Open Reading Frames (ORFs)
 
 For the first part of the assignment you will be creating some utility
 functions that will help you build your gene finder. Open up
 `gene_finder.py`  and fill in your own implementations of the functions
 described below.
 
-**Unit Testing Instruction:** For each function we have given you some unit tests (using [doctest](https://docs.python.org/2/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
+### Unit Testing Instruction
+
+For each function we have given you some unit tests (using [doctest](https://docs.python.org/2/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
 
 Also, if you want to test a specific function (in this example we will test
 `get_complement`) rather than running all of the unit tests you can modify the
@@ -216,9 +221,9 @@ and extends up to (but not including) the first in frame stop codon (TAG, TAA,
 or TGA). Open up `gene_finder.py`  and fill in your own implementation of the
 functions described below:
 
-* `get_complement`: this function should take a nucleotide as input and return the complementary nucleotide
+* `get_complement`: this function should take a nucleotide as input and return the complementary nucleotide.
 To help you get started here are some unit tests (make sure you have read the
-[Unit Testing Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+[Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> get_complement("A")
@@ -229,7 +234,7 @@ To help you get started here are some unit tests (make sure you have read the
 
 * `get_reverse_ complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
 To help you get started here are some unit tests (make sure you have read the
-[Unit Testing Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+[Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> get_reverse_ complement("ATGCCCGCTTT")
@@ -241,7 +246,7 @@ To help you get started here are some unit tests (make sure you have read the
 * `rest_of_ ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
 
 Some unit tests (make sure you have read the [Unit Testing
-Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+Instructions](#unit-testing-instruction)):
 
 ```
 >>> rest_of_ ORF("ATGTGAA")
@@ -253,7 +258,7 @@ Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ abou
 * `find_all_ ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a _while_  loop to be useful for this purpose. Make sure to utilize your rest_of_ ORF function when coding this part.
 
 A unit test (make sure you have read the [Unit Testing
-Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+Instructions](#unit-testing-instruction)):
 
 ```
 >>> find_all_ ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
@@ -272,8 +277,7 @@ ATGTGAAGATTA
 As in above, don't include ORFs that are nested within other ORFs. Your
 function should heavily utilize `find_all_ ORFs_oneframe` .
 
-A unit test (make sure you have read the [Unit Testing
-Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> find_all_ ORFs("ATGCATGAATGTAG")
@@ -282,14 +286,14 @@ Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ abou
 
 * `find_all_ ORFs_both_ strands`: this should do exactly the same thing as `find_all_ ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
 
-A unit test (make sure you have read the [Unit Testing Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> find_all_ ORFs_both_ strands("ATGCGAATGTAGCATCAAA")
 ['ATGCGAATG', 'ATGCTACATTCGCAT']
 ```
 
-**Going Beyond**
+### Going Beyond
 
 List comprehensions! Many of these functions can be written more succinctly
 using list comprehensions (see Section 5.1.4
@@ -298,7 +302,7 @@ list comprehensions to rewrite some of your code. Were any of the functions
 particularly hard (or impossible) to rewrite using list comprehensions? If so,
 how come?
 
-**Turning in Week 1 Assignment**
+### Turning in Week 1 Assignment
 
 You will not be turning in your code for this assignment. However, you are required to check in with a NINJA before the class when the week 1 assignment is due. This check in can either be done in person or via Piazza note. If you are very confident with the material, the online version is probably fine (send a link to your pushed code). If you are having difficulty, an in-person check in is certainly the way to go. The check in is not designed to be big and scary; it is primarily an opportunity for you to get help from your NINJA. All that being said, the check ins will not be productive if you haven't done the necessary preparation before the check in. We hope that adding a bit of a formal assessment component to the check in will help ensure that people put in the appropriate time. The check in grading rubric will be as follows:
 
@@ -316,7 +320,7 @@ to analyze a real DNA sequence suspected to play a role in Typhoid fever.
 
 * `longest_ORF`: Finds the longest open reading frame on either strand of the DNA. Make sure you leverage code from previous parts of the assignment.
 
-A unit test (make sure you have read the [Unit Testing Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> longest_ORF("ATGCGAATGTAGCATCAAA")
@@ -356,7 +360,7 @@ If you wanted to implement your own lookup, you could use the lists `aa` and
 `codons[i]` contains a list of codons that code for the amino acid stored in
 `aa[i]`.
 
-Some unit tests (make sure you have read the [Unit Testing Instructions]({% link _assignments/mini-project-1-gene-finder.md %}#a_note_ about_unit_ testing)):
+Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> coding_strand_ to_AA("ATGCGA")
@@ -396,7 +400,7 @@ state-of-the art one, you can try out one called Glimmer3
 [here](http://www.ncbi.nlm.nih.gov/genomes/MICROBES/glimmer_ 3.cgi).
 
 
-**Turning in Week 2 Assignment**
+### Turning in Week 2 Assignment
 
 Submitting your assignment is a two step process:
 
@@ -418,7 +422,7 @@ your code for that portion.
 
 ## Going Beyond
 
-### _Suggestion 1: Analyzing a meta-genome._
+### Suggestion 1: Analyzing a meta-genome.
 
 For this assignment you will be analyzing a [meta-genome](https://en.wikipedia.org/wiki/Metagenomics). In metagenomics,
 communities of microbes are analyzed using samples directly collected from the
@@ -488,13 +492,13 @@ find corresponding characters that don't match. Keep track of the longest
 substring found so far, and after you have checked all possibilities, return
 this longest match.
 
-**Tips for speeding up your program:**
+#### Tips for speeding up your program
 
 1. Use [pypy](http://pypy.org) to execute your program (a modified Python interpreter that excels when executing Python programs that depend heavily on loops). To install this run `sudo apt-get install pypy`. I got a 30 fold speedup when using the simple approach to longest common substring described above.
 2. Implement a smarter algorithm for longest common substring (the [dynamic programming solution](https://en.wikipedia.org/wiki/Longest_common_ substring_problem#Dynamic_ programming) is the next logical one to try).
 
 
-### _Suggestion 2: Building a better gene finder_
+### Suggestion 2: Building a better gene finder
 
 Read more about other approaches to [gene-finding in
 prokaryotes](http://www.researchgate.net/profile/Ljupco_Kocarev/publication/228856410_Computational_Methods_for_Gene_Finding_in_Prokaryotes/links/004635244f8d1c7267000000.pdf).
