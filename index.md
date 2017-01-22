@@ -35,11 +35,11 @@ various online retailers)
 
 
 {% if site.course.piazza_url %}
-## Piazza
+## Communication
 
-All communication for this class will be through
-[Piazza]({{site.course.piazza_url}}). There is no mailing
-list.
+All communication for this class will be through [Piazza]({{site.course.piazza_url}})
+and the #softdes17spring channel of the [Olin Slack team](https://olin.slack.edu).
+There is no mailing list.
 {% endif %}
 
 
