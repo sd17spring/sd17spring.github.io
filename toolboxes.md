@@ -42,7 +42,7 @@ them for a lifetime!
 * [Image Processing and Computer Vision]({% link _toolboxes/image-processing.md %})
 * [Machine Learning]({% link _toolboxes/machine-learning.md %})
 * [Persistent Data Storage with `pickle`]({% link _toolboxes/pickling.md %})
-* [Web Apps using Flask]({% link _toolboxes/web-apps.md %}) **[new]**
+* [Web Apps using Flask]({% link _toolboxes/web-apps.md %})
 * [Word Frequency Analysis]({% link _toolboxes/word-frequency-analysis.md %})
 
 
