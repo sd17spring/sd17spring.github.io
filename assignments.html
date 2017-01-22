@@ -1,14 +1,14 @@
 ---
 permalink: assignments/
 title: Assignments
-layout: default
+layout: single
 ---
 
 <ul>
 {% assign assignments = (site.assignments | filter: 'due_date' | sort: 'due_date') %}
 {% for assignment in assignments %}
-{% if assignment.due_date %}
-  <li><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %d' }}</a></li>
-{% endif %}
+  {% if assignment.due_date %}
+    <li><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %d' }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
