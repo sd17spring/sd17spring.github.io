@@ -1,8 +1,7 @@
 ---
-date: 2017-01-14 10:36:22 -0500
+date: 2017-01-22
 description: ''
 title: Image Processing
-toc: true
 ---
 
 {% include toc %}
@@ -44,7 +43,7 @@ convention for their Python script.
 
 To get started, make sure that you can grab video frames from your webcam and
 display them to the screen. A great place to start is by looking at the OpenCV
-[tutorial on video capture](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_ gui/py_video_ display/py_video_ display.html).
+[tutorial on video capture](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html).
 Note that the tutorial shows you how to grab frames from the webcam and from a
 video file.
 
@@ -56,7 +55,7 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
-while(True):
+while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
 
@@ -92,36 +91,37 @@ out [the research
 paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)
 that introduced the method if you'd like to learn more.
 
-In order to load the face detector, you will have to find out where the file** haarcascade_frontalface_ alt.xml. **Given the new instructions for SoftDes
+In order to load the face detector, you will have to find out where the file `haarcascade_frontalface_alt.xml`.
+**Given the new instructions for SoftDes
 machine setup I was unable to find this file on my computer. Instead you will
 probably want to download the file directly
-[here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_ alt.xml)).
+[here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_alt.xml)).
 The instructions from last year were to first look in this path.
 
-`/usr/share/opencv/haarcascades/haarcascade_frontalface_ alt.xml`
+`/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml`
 
 If it is not there, use the following command to try and track it down:
 
-    $ sudo find / -name haarcascade_frontalface_ alt.xml
+    $ sudo find / -name haarcascade_frontalface_alt.xml
 
 Once you have figured out where the xml file is, make sure you note the full
 path to the file. (Note: if for some reason you can't find the file on your
 hard drive, you can download it
-[here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_ alt.xml)).
+[here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_alt.xml)).
 
 To detect faces, before you start grabbing frames from the video, instantiate
 the face detector (where you would use the path to the xml file as you found
 above rather than the installed location on my computer as in the example
 below).
 
-    face_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_ frontalface_alt.xml')
+    face_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml')
 
 After grabbing each frame, run the face detector to get a list of faces in the
 image and then draw a red box around each detected face:
 
 ``` python
 ret, frame = cap.read()
-faces = face_ cascade.detectMultiScale(frame, scaleFactor=1.2,
+faces = face cascade.detectMultiScale(frame, scaleFactor=1.2,
 minSize=(20,20))
 for (x,y,w,h) in faces:
     cv2.rectangle(frame,(x,y),(x+w,y+h),(0,0,255))
@@ -171,7 +171,7 @@ that draw the rectangle at this point.
 As a final step, you should add a second loop over the detected faces to draw
 a cartoon face on top of the original face. A few tips:
 
-1. Make use of OpenCV [drawing primitives](http://docs.opencv.org/modules/core/doc/drawing_ functions.html)
+1. Make use of OpenCV [drawing primitives](http://docs.opencv.org/modules/core/doc/drawing_functions.html)
 2. Each shape you draw should be positioned and sized relative to the bounding box of the face.
 3. In the example above I drew the mouth using `cv2.ellipse` which allows you to draw portions of an ellipse rather than the full ellipse (this is is useful for generating curves).
 4. All arguments to the drawing commands should be in terms of pixels. The functions will complain if you specify floating point values, so be sure to convert your values to integers using the `int` command.

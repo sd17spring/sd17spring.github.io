@@ -1,9 +1,10 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
 title: Word Frequency Analysis
-toc: true
 ---
+
+{% include toc %}
 
 This exercise has been adapted from Think Python Ch. 13.1. The goal of this
 toolbox exercise will be to write a Python program that can automatically
@@ -21,10 +22,10 @@ The starter code will be in `frequency.py`.
 
 Go to Project Gutenberg (`<http://gutenberg.org>`) and download your favorite
 out-of-copyright book in plain text format. The file `pg32325.txt` has
-been placed in the word_frequency_ analysis directory to give you an example of
+been placed in the `word_frequency_analysis` directory to give you an example of
 the type of file you should download.
 
-## Complete the declared function `get_word_ list`
+## Complete the declared function `get_word_list`
 
 The function should read the specified Project Gutenberg text file, strip out
 whitespace, header comments, and punctuation and return a list of all words in
@@ -52,28 +53,28 @@ variable called `lines`. Make sure you understand what it is doing, and modify
 it if you need to:
 
 ``` python
-f = open(file_ name,'r')
+f = open(file_name,'r')
 lines = f.readlines()
 curr_line = 0
-while lines[curr_ line].find('START OF THIS PROJECT GUTENBERG EBOOK') == -1:
+while lines[curr_line].find('START OF THIS PROJECT GUTENBERG EBOOK') == -1:
   curr_line += 1
-  lines = lines[curr_ line+1:]
+  lines = lines[curr_line+1:]
 ```
 
 ## Get Top 100 Words
 
-Next, fill out the implementation of the function `get_top_ n_words` that takes
-as input the list of words computed in by your `get_ word_list function` and
+Next, fill out the implementation of the function `get_top_n_words` that takes
+as input the list of words computed in by your `get_word_list function` and
 searches for the n most frequently used words and returns a list of these
 words in order of frequency from most to least frequently occurring.
 
 Hints: you will probably want to process the raw list of words into a
 dictionary where the key is a particular word and the value is the number of
-times it occurs in the input `word_ list`. Suppose you have created such a
+times it occurs in the input `word_list`. Suppose you have created such a
 dictionary and its name is `word_counts`. You can sort the words by frequency
 of occurrence using the Python code:
 
-`ordered_ by_frequency = sorted(word_ counts, key=word_counts.get, reverse=True)`
+`ordered_by_frequency = sorted(word_counts, key=word_counts.get, reverse=True)`
 
 ## Finishing your program
 

@@ -27,8 +27,7 @@ defaults:
     values:
       layout: single
   - scope:
-      path: ""
-      type: assignments
+      path: _toolboxes
     values:
       layout: single
   - scope:

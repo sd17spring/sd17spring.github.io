@@ -1,9 +1,10 @@
 ---
-date: 2017-01-14 10:36:22 -0500
+date: 2017-01-22
 description: ''
 title: Geocoding and Web APIs
-toc: true
 ---
+
+{% include toc %}
 
 ## Introduction
 
@@ -19,7 +20,7 @@ write a tool that takes an address or place name and prints the closest MBTA
 stop and the distance from the given place to that stop. For example:
 
     >>> import mbta_finder
-    >>> mbta_ finder.find_stop_ near("Fenway Park")
+    >>> mbta_finder.find_stop_near("Fenway Park")
     Yawkey is 0.13 miles from Fenway Park
 
 **Note** : There are already [a few Python packages](https://wiki.python.org/moin/GIS/Web_services) that interface with mapping services, but part of this exercise is seeing how you might write your own such package from scratch.
@@ -27,9 +28,9 @@ stop and the distance from the given place to that stop. For example:
 ## Get Set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from_ <https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>_
+method from _<https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>_
 
-You should see `mbta_ finder.py` within the toolbox folder, which has some
+You should see `mbta_finder.py` within the toolbox folder, which has some
 optional scaffolding for this exercise.
 
 ## Getting data from the web
@@ -50,9 +51,9 @@ Let's grab some data from the Internet!
     <title>Olin College</title>
 
 Here we're using [urllib2](https://docs.python.org/2/library/urllib2.html) to
-open a [URL](http://en.wikipedia.org/wiki/Uniform_resource_ locator) and get
+open a [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) and get
 its contents over
-[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_ Protocol). For a nice
+[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). For a nice
 introduction to how HTTP works, check out this [olin.js
 lesson](https://github.com/olinjs/olinjs/tree/master/classes/class01#http).
 
@@ -111,8 +112,8 @@ in JSON format, which we can decode using Python's
     >>> url = "https://maps.googleapis.com/maps/api/geocode/json?address=Fenway%20Park"
     >>> f = urllib2.urlopen(url)
     >>> response_text = f.read()
-    >>> response_ data = json.loads(response_text)
-    >>> pprint(response_ data)
+    >>> response_data = json.loads(response_text)
+    >>> pprint(response_data)
 
 We used the [pprint](https://docs.python.org/2/library/pprint.html) module to
 "pretty print" the response data structure with indentation so it's easier to
@@ -122,7 +123,7 @@ response data structure:
 
 * It is built from nested dictionaries and lists, and you can step through it to access the fields you want.
 
-      >>> print(response_data["results"][0]["formatted_ address"])
+      >>> print(response_data["results"][0]["formatted_address"])
       Fenway Park, 4 Yawkey Way, Boston, MA 02215, USA
 
 * The strings (e.g. `u'results'`) are [Unicode](https://docs.python.org/2/howto/unicode.html), which for the purposes of this assignment should behave like normal strings.
@@ -142,7 +143,7 @@ helpful guide to URL components and encoding.
 You can build up the URL string manually, but it's probably helpful to check
 out
 [urlencode](https://docs.python.org/2/library/urllib.html#urllib.urlencode)
-from urllib (**_not_ **  urllib2) and its examples.
+from urllib (**_not_** urllib2) and its examples.
 
 **Write a function that takes an address or place name as input and returns a properly encoded URL to make a Google Maps geocode request.**
 

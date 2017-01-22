@@ -1,9 +1,10 @@
 ---
-date: 2017-01-18 11:31:18 -0500
+date: 2017-01-22
 description: ''
 title: Algorithmic Music Composition
-toc: true
 ---
+
+{% include toc %}
 
 For this toolbox exercise you will be creating a computer program that
 composes music! This type of programming is also known as "algorithmic music
@@ -52,7 +53,7 @@ documentation](http://nsound.sourceforge.net/users_guide/basics.html). When
 you are comfortable with the given starter code, go ahead and run the Python
 script. To playback your composition, open a terminal and execute:
 
-    $ python3 blues_ solo.py
+    $ python3 blues_solo.py
     $ cvlc blues_solo.wav
 
 You should hear a _very_  short blues "solo" that consists of one very low note
@@ -81,13 +82,13 @@ in the following way:
 
 ``` python
 curr_note = 0
-add_ note(solo, bass, blues_scale[curr_ note], 1.0, beats_per_ minute, 1.0)
+add_note(solo, bass, blues_scale[curr_note], 1.0, beats_per_minute, 1.0)
 licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ] ]
 for i in range(4):
     lick = licks[0]
 for note in lick:
     curr_note += note[0]
-    add_ note(solo, bass, blues_scale[curr_ note], note[1], beats_per_ minute,
+    add_note(solo, bass, blues_scale[curr_note], note[1], beats_per_minute,
 1.0)
 solo >> "blues_solo.wav"
 ```
@@ -111,7 +112,7 @@ function random.choice has already been imported for you in the starter code
 as `choice`). Before running your code, you will want to make sure that the
 variable `curr_note` doesn't get too high or too low. Make sure you create a
 series of if statements to keep the variable from getting less than `0` or
-greater than `len(blues_ scale) - 1`.
+greater than `len(blues_scale) - 1`.
 
 Once you have made these changes, you should make the number of licks larger
 (if you followed the code above this number will be at 4) so you can get a
@@ -120,7 +121,7 @@ longer solo.
 ## Tips to Make it Cooler
 
 _Make it
-[swing](http://en.wikipedia.org/wiki/Swing_ %28jazz_performance_ style%29#Rhythm):_
+[swing](http://en.wikipedia.org/wiki/Swing_%28jazz_performance_style%29#Rhythm):_
 alternate slightly longer and slightly shorter notes in your blues lick to
 give it a swing feel (e.g. `[ [1, 0.5*1.1], [1, 0.5*0.9], [1, 0.5*1.1], [1,
 0.5*0.9] ]` )
@@ -129,15 +130,15 @@ _Avoid hammering the lowest or highest note:_ the code we added to avoid going
 out of bounds of the list `blues_scale` has the effect of sometimes hammering
 the notes at the boundaries repeatedly. The solo may sound better if you
 simply hold the note to the end of the lick if you reach the beginning or end
-of the list `blues_ scale`.
+of the list `blues_scale`.
 
-_Add a backing track_: _**NSound** can mix together various audio streams.
+_Add a backing track_: **NSound** can mix together various audio streams.
 In order to add a backing track to your solo, replace the line of your program
 that writes the solo to a WAV file (`solo >> "blues_solo.wav"`) with:
 
 ``` python
-backing_ track = AudioStream(sampling_rate, 1)
-Wavefile.read('backing.wav', backing_ track)
+backing_track = AudioStream(sampling_rate, 1)
+Wavefile.read('backing.wav', backing_track)
 
 m = Mixer()
 
@@ -147,12 +148,12 @@ backing_track *= 2.0
 m.add(2.25, 0, solo) # delay the solo to match up with backing track
 m.add(0, 0, backing_track)
 
-m.getStream(500.0) >> "slow_ blues.wav"
+m.getStream(500.0) >> "slow_blues.wav"
 ```
 
 The solo should stay on the beat of the backing track, but won't really do a
 good job tracking chord changes. Note that the name of the output has been
-changed from `blues_solo.wav` to `slow_ blues.wav`.
+changed from `blues_solo.wav` to `slow_blues.wav`.
 
 _Add some dynamics:_ in the basic version of the code, we always use the same
 volume. You may want to play around with adding licks with increasing or
@@ -168,7 +169,7 @@ scale. It may sound cool for the lick to start on these notes.
 ## Completing the Toolbox Exercise
 
 To complete the toolbox exercise, you should complete all of the steps up to
-**Make it Cooler** , and then at least one of the extensions suggested in the
-**Make it Cooler**  section. When you are done, push your code to your repo and
+**Make it Cooler**, and then at least one of the extensions suggested in the
+**Make it Cooler** section. When you are done, push your code to your repo and
 submit a pull request. You should schedule a quick meeting to play your sweet
 tunes for a NINJA and get checked off.

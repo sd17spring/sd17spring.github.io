@@ -1,11 +1,10 @@
 ---
-date: 2017-01-14 10:36:22 -0500
+date: 2017-01-22
 description: ''
 title: Al and Algorithms
-toc: true
 ---
 
-Contents
+{% include toc %}
 
 In this toolbox exercise you will learn about the A star search algorithm that
 game AI often use to plan their paths. Ever wondered how your game avatar
@@ -26,8 +25,7 @@ Thanks to Dennis Chen [2015 NINJA] for writing this toolbox.
 ## Get Set
 
 Before getting started, make sure you have pygame installed. The following
-apt-get line will install the pygame library.**
-**
+apt-get line will install the pygame library.
 
     $ sudo apt-get install python-pygame
 
@@ -102,8 +100,8 @@ moving adjacent one square costs 1 point, and the swamp adds 3. Moving into a
 diagonal swamp tile will cost 6 points. A swamp.jpg file has been provided for
 you in the /images folder. You will probably have to make some changes to
 pygame's main_loop to detect key presses, and you'll have to implement the
-empty _add_swamp() function. Take a look at _add_lava() for inspiration, and
-note the terrain_cost and is_unpassable arguments that are passed to the
+empty `_add_swamp()` function. Take a look at `_add_lava()` for inspiration, and
+note the `terrain_cost` and `is_unpassable` arguments that are passed to the
 ObstacleTile constructor when a lava tile is made!
 
 ## Completing the Toolbox Exercise

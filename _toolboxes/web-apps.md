@@ -1,9 +1,10 @@
 ---
-date: 2017-01-18 11:31:18 -0500
+date: 2017-01-22
 description: ''
 title: Web Apps
-toc: true
 ---
+
+{% include toc %}
 
 ## Introduction
 
@@ -54,13 +55,13 @@ be as simple as this:
 
 ``` python
 from flask import Flask
-app = Flask(__name_ _)
+app = Flask(__name__)
 
 @app.route('/')
-def hello_ world():
+def hello_world():
     return 'Hello World!'
 
-if __name_ _ == '_ _main_ _':
+if __name__ == '__main__':
     app.run()
 ```
 
@@ -80,10 +81,10 @@ is the port it's listening on.
 What did that actually do? Let's walk through the steps.
 
 1. First we imported the Flask class.
-2. Next we create an instance of this class. The first argument is the name of the application’s module or package. If you are using a single module (as in this example), you should use `__name_ _` because depending on if it’s started as application or imported as module the name will be different ('`_ _main_ _'` versus the actual import name). This is needed so that Flask knows where to look for templates, static files, and so on.
-3. We then use the `route()` [decorator](https://en.wikipedia.org/wiki/Python_ syntax_and_ semantics#Decorators) to tell Flask what URL should trigger our function. In this case our route is `/`, commonly referred to as the `index` of a page.
+2. Next we create an instance of this class. The first argument is the name of the application’s module or package. If you are using a single module (as in this example), you should use `__name__` because depending on if it’s started as application or imported as module the name will be different ('`__main__'` versus the actual import name). This is needed so that Flask knows where to look for templates, static files, and so on.
+3. We then use the `route()` [decorator](https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators) to tell Flask what URL should trigger our function. In this case our route is `/`, commonly referred to as the `index` of a page.
 4. The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
-5. Finally we use the `run()` function to run the local server with our application. The if __name_ _ == '_ _main_ _': makes sure the server only runs if the script is executed directly from the Python interpreter and not used as an imported module.
+5. Finally we use the `run()` function to run the local server with our application. The `if __name__== '__main__'` makes sure the server only runs if the script is executed directly from the Python interpreter and not used as an imported module.
 
 To stop the server, hit `ctrl+c`
 
@@ -92,7 +93,7 @@ To stop the server, hit `ctrl+c`
 In our hello world, example, we had one route denoted by the decorator
 `@app.route('/')`. Again, this 'decorator' tells the Flask app that any
 incoming requests for `GET /` will run the function we called
-`hello_ world()`.
+`hello_world()`.
 
 Here are a couple more quick examples -
 
@@ -106,7 +107,7 @@ def hello():
     return 'Hello World'
 ```
 
-Pretty simple, right? What happens when we want to do something _useful_  \-
+Pretty simple, right? What happens when we want to do something _useful_ \-
 *e.g.* display something other than text?
 
 ## Let's serve some HTML!
@@ -146,7 +147,7 @@ to the template engine as keyword arguments. Here’s a simple example of how to
 render a template:
 
 ``` python
-from flask import render_ template
+from flask import render_template
 
 @app.route('/hello/')
 @app.route('/hello/<name>')
@@ -169,7 +170,7 @@ And here is an example template that will work with the above snippet:
 You may have noticed something really cool that happened here. In our route
 `/hello/<name>`, we're allowing someone to make a request with an additional
 'name' parameter that can be anything. We can then use this `name` and render
-it in our html template `hello.html`. We use the {_ __} syntax to insert
+it in our html template `hello.html`. We use the {___} syntax to insert
 outside variables into the template. Additionally, we can insert pythonic flow
 logic directly into our html page - see `{ if name }`. We could go on for
 years about all of the power of jinja templating, but I'll leave that joy to
@@ -180,13 +181,13 @@ our `index.html` we created above.
 
 ``` python
 from flask import Flask
-app = Flask(_ _name_ _)
+app = Flask(__name__)
 
 @app.route('/')
-def hello_ world():
+def hello_world():
     return render_template('index.html')
 
-if_ _name_ _ == '_ _main_ _':
+if __name__ == '__main__':
     app.run()
 ```
 
@@ -225,7 +226,7 @@ documentation](http://flask.pocoo.org/docs/0.10/#user-s-guide) and the
 [quickstart guide](http://flask.pocoo.org/docs/0.10/quickstart/), both of
 should be pretty helpful.
 
-1. _Html Forms_  To make forms in HTML, check out [this resource](http://www.w3schools.com/html/html_forms.asp). For even more information, check [this](http://tinyurl.com/htmlforms) out.
+1. _HTML Forms_  To make forms in HTML, check out [this resource](http://www.w3schools.com/html/html_forms.asp). For even more information, check [this](http://tinyurl.com/htmlforms) out.
 2. _Sending POST Requests_ To send the data from the form in a POST request, use an input with type `submit`, and set the action of the form to reflect the destination in your routes.
 3. _Handling POST Requests_ To learn more about handling post requests in Flask, check this resource from the [Flask documentation](http://flask.pocoo.org/docs/0.10/quickstart/#http-methods) out.
 4. \+ 5. _Accessing the Form Data_ To access the form data, check out [this documentation](http://flask.pocoo.org/docs/0.10/quickstart/#the-request-object) on using the Flask `request` utility.
