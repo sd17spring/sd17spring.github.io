@@ -1,7 +1,7 @@
 ---
 date: '2016-12-29T18:26:01'
 description: ''
-title: Software Design Spring 2016
+title: Software Design Spring 2017
 layout: single
 permalink: /
 ---
