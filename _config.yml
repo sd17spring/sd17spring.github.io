@@ -23,16 +23,17 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: assignment
-    values:
-      layout: single
-  - scope:
-      path: _toolboxes
+      type: assignments
     values:
       layout: single
   - scope:
       path: ""
       type: days
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: toolboxes
     values:
       layout: single
 
