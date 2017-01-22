@@ -352,7 +352,7 @@ the function that you generate (the depth of the preceding examples are 2 and
 of the function that you generate. To help better understand the idea of the
 depth of the function the following diagram might help:
 
-[![Depth tree diagram]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %}\]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})
+[![Depth tree diagram]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %}]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})
 
 **Click image to enlarge**
 

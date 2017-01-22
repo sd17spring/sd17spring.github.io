@@ -35,15 +35,15 @@ them for a lifetime!
 
 ## Exercise List
 
-* [AI and Algorithms\]({% link _toolboxes/algorithms-and-ai.md %})
-* [Algorithmic Music Composition\]({% link _toolboxes/algorithmic-music-composition.md %})
-* [Evolutionary Algorithms\]({% link _toolboxes/evolutionary-algorithms.md %})
-* [Geocoding and Web APIs\]({% link _toolboxes/geocoding-and-web-apis.md %})
-* [Image Processing and Computer Vision\]({% link _toolboxes/image-processing.md %})
-* [Machine Learning\]({% link _toolboxes/machine-learning.md %})
-* [Persistent Data Storage with `pickle`\]({% link _toolboxes/pickling.md %})
-* [Web Apps using Flask\]({% link _toolboxes/web-apps.md %}) **[new]**
-* [Word Frequency Analysis\]({% link _toolboxes/word-frequency-analysis.md %})
+* [AI and Algorithms]({% link _toolboxes/algorithms-and-ai.md %})
+* [Algorithmic Music Composition]({% link _toolboxes/algorithmic-music-composition.md %})
+* [Evolutionary Algorithms]({% link _toolboxes/evolutionary-algorithms.md %})
+* [Geocoding and Web APIs]({% link _toolboxes/geocoding-and-web-apis.md %})
+* [Image Processing and Computer Vision]({% link _toolboxes/image-processing.md %})
+* [Machine Learning]({% link _toolboxes/machine-learning.md %})
+* [Persistent Data Storage with `pickle`]({% link _toolboxes/pickling.md %})
+* [Web Apps using Flask]({% link _toolboxes/web-apps.md %}) **[new]**
+* [Word Frequency Analysis]({% link _toolboxes/word-frequency-analysis.md %})
 
 
 ## Submitting exercises

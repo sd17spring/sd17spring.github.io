@@ -49,7 +49,7 @@ be present concurrently for this session.-->
 
 _Due {{site.data.dates.final_proposal | date: '%B %d' }}_
 
-**The project proposal is worth 5% of the project grade ([rubric\]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
+**The project proposal is worth 5% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
 
 You should come to class with a document that describes the main idea of your
 project. We will have about 10 minutes to meet with each team, so we ask that
@@ -73,7 +73,7 @@ team (both during our face-to-face meeting and after the fact):
 
 _Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
-**Each technical review is worth 10% of the project grade (20% for both together) ([rubric\]({% link _assignments/final-project/technical-reviews.md %})).**
+**Each technical review is worth 10% of the project grade (20% for both together) ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
 
 We will be holding two technical reviews during class time. Each review will
 have groups of three or four teams taking turns presenting their plans for
@@ -83,7 +83,7 @@ In addition to the in-person component of this activity, there will be a
 framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
-See the [Technical Reviews\]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
+See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
 
 ### Code Review
 
@@ -95,13 +95,13 @@ On April 14th we will hold an in-class code review session. This is an
 opportunity for you to give and receive detailed feedback from your peer teams
 about ways to improve your project code.
 
-See the [Code Reviews\]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
+See the [Code Reviews]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
 
 ### Not-Quite-Mid-Project Presentation
 
 _Date: {{site.data.dates.mid_project_presentation | date: '%B %d' }}_
 
-**The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric\]({% link _assignments/final-project/project-presentation-rubric.md %}))**
+**The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
 On {{site.data.dates.mid_project_presentation | date: '%B %d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
@@ -138,7 +138,7 @@ video, or story boarding.
 
 * **User instructions/README**
 Information to help users download, install, and get started running your
-software ([README rubric\]({% link _assignments/final-project/readme-rubric.md %}))
+software ([README rubric]({% link _assignments/final-project/readme-rubric.md %}))
 
 * **Implementation information**
 Code doesn't tell a story by itself. Use more effective methods such as
@@ -195,11 +195,11 @@ printed in time for the May 5th expo.
 
 _Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
-**Project code is worth 40% of the project grade (see code rubric on the [course policy page\]({% link policies.md %}))**
+**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link policies.md %}))**
 
 Project code must be submitted via GitHub by May 5th. You must include a
 README describing how to run your code, including any required dependencies
-(e.g. libraries to install) and any input files ([README rubric\]({% link _assignments/final-project/readme-rubric.md %})).
+(e.g. libraries to install) and any input files ([README rubric]({% link _assignments/final-project/readme-rubric.md %})).
 
 Proper documentation is important to your final submission, and one way to
 ensure you have adequate docstrings is to generate documentation from them.
@@ -214,7 +214,7 @@ truly beautiful documentation, check out [Sphinx](http://sphinx-doc.org/) (the
 tool used to generate the [Python documentation](https://docs.python.org/2/)).
 
 Make sure that your code gives appropriate attribution to external resources
-used, as per the [course policy page\]({% link policies.md %}). If you have any questions
+used, as per the [course policy page]({% link policies.md %}). If you have any questions
 about this, just ask.
 
 ### Final Demo / Presentation Session
