@@ -289,7 +289,7 @@ repo, copy the URL that points to your fork of that repo. For Paul, the URL
 looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. He got this
 link by copying the highlighted text in the screenshot below.
 
-[![]({% link images/assignments/setup-your-environment/screenshot.png %}]({% link images/assignments/setup-your-environment/screenshot.png %}
+[![]({% link images/assignments/setup-your-environment/screenshot.png %}]({% link images/assignments/setup-your-environment/screenshot.png %})
 
 Next, open up a terminal and clone the repo by running the following command
 (be sure to replace the pointer to Paul's ReadingJournal with your own!). These

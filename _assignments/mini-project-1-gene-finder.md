@@ -51,7 +51,7 @@ computation, math, and statistics:
 which bioinformatics is growing as a field is staggering. New Ph.D. granting
 departments are being formed annually, millions of dollars in research grants
 are awarded to push the boundaries of the field, and new
-[companies](http://en.wikipedia.org/wiki/List_of_ bioinformatics_companies) are
+[companies](http://en.wikipedia.org/wiki/List_of_bioinformatics_companies) are
 springing up around these techniques.
 
 There are many grand challenge problems in the field of bioinformatics. In
@@ -90,7 +90,7 @@ the bacterium _Salmonella Enterica._ We suspect that this particular DNA
 sequence is related to Salmonella's role in the pathogenesis of various
 diseases such as Typhoid fever. Finally, you will use the genetic search
 engine [protein-
-BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_ LOC=blasthome)
+BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 to confirm whether or not the genes predicted by your program are in fact
 genes, and if so what their functional role might be. This assignment is
 essentially the Biological equivalent of a mystery novel, and your primary
@@ -168,7 +168,7 @@ functions you will need to complete the assignment. Start reading through the
 functions declared in the file, if you do so before we have had a chance to
 talk about the biological mechanisms of protein synthesis you may need to
 consult some other sources (the Wikipedia article for [Open-reading
-Frame](http://en.wikipedia.org/wiki/Open_reading_ frame) is a good place to
+Frame](http://en.wikipedia.org/wiki/Open_reading_frame) is a good place to
 start).
 
 Now that you have a good sense of the functions you will be filling out, take
@@ -211,7 +211,7 @@ doctest.testmod()
 to be:
 
 ``` python
-doctest.run_ docstring_examples(get_ complement, globals())
+doctest.run_docstring_examples(get_complement, globals())
 ```
 
 For this part of the assignment you will write code that takes a DNA sequence
@@ -228,44 +228,44 @@ To help you get started here are some unit tests (make sure you have read the
 ```
 >>> get_complement("A")
  'T'
->>> get_ complement("C")
+>>> get_complement("C")
  'G'
 ```
 
-* `get_reverse_ complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
+* `get_reverse_complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
->>> get_reverse_ complement("ATGCCCGCTTT")
+>>> get_reverse_complement("ATGCCCGCTTT")
  'AAAGCGGGCAT'
->>> get_reverse_ complement("CCGCGTTCA")
+>>> get_reverse_complement("CCGCGTTCA")
  'TGAACGCGG'
 ```
 
-* `rest_of_ ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
+* `rest_of_ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
 
 Some unit tests (make sure you have read the [Unit Testing
 Instructions](#unit-testing-instruction)):
 
 ```
->>> rest_of_ ORF("ATGTGAA")
+>>> rest_of_ORF("ATGTGAA")
  'ATG'
->>> rest_of_ ORF("ATGAGATAGG")
+>>> rest_of_ORF("ATGAGATAGG")
  'ATGAGA'
 ```
 
-* `find_all_ ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a _while_  loop to be useful for this purpose. Make sure to utilize your rest_of_ ORF function when coding this part.
+* `find_all_ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a `while` loop to be useful for this purpose. Make sure to utilize your `rest_of_ORF` function when coding this part.
 
 A unit test (make sure you have read the [Unit Testing
 Instructions](#unit-testing-instruction)):
 
 ```
->>> find_all_ ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
+>>> find_all_ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
  ['ATGCATGAATGTAGA', 'ATGTGCCC']
 ```
 
-* `find_all_ ORFs`: this function should find all open reading frames in any of the 3 possible frames in a given sequence of DNA and return them as a list of strings. Note that this means that you need to check for ORFs in all three possible frames (i.e. with 0, 1, and 2 offset from the beginning of the sequence). For example, you would want to consider the following codon groupings when looking for all ORFs (groups of +++ or --- indicate that the nucleotides above are considered as a single codon).
+* `find_all_ORFs`: this function should find all open reading frames in any of the 3 possible frames in a given sequence of DNA and return them as a list of strings. Note that this means that you need to check for ORFs in all three possible frames (i.e. with 0, 1, and 2 offset from the beginning of the sequence). For example, you would want to consider the following codon groupings when looking for all ORFs (groups of +++ or --- indicate that the nucleotides above are considered as a single codon).
 
 ```
 ATGTGAAGATTA
@@ -275,21 +275,21 @@ ATGTGAAGATTA
 ```
 
 As in above, don't include ORFs that are nested within other ORFs. Your
-function should heavily utilize `find_all_ ORFs_oneframe` .
+function should heavily utilize `find_all_ORFs_oneframe` .
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
->>> find_all_ ORFs("ATGCATGAATGTAG")
+>>> find_all_ORFs("ATGCATGAATGTAG")
  ['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 ```
 
-* `find_all_ ORFs_both_ strands`: this should do exactly the same thing as `find_all_ ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
+* `find_all_ORFs_both_strands`: this should do exactly the same thing as `find_all_ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
->>> find_all_ ORFs_both_ strands("ATGCGAATGTAGCATCAAA")
+>>> find_all_ORFs_both_strands("ATGCGAATGTAGCATCAAA")
 ['ATGCGAATG', 'ATGCTACATTCGCAT']
 ```
 
@@ -327,7 +327,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
  'ATGCTACATTCGCAT'
 ```
 
-* `longest_ORF_ noncoding` : this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length**  of the longest ORF that was found across all random trials (that is the output of `longest_ORF_ noncoding`  is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
+* `longest_ORF_noncoding` : this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length**  of the longest ORF that was found across all random trials (that is the output of `longest_ORF_noncoding` is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
 
 Note 1: in order to randomly shuffle a string you should use the provided
 `shuffle_string`  function. If you wanted to implement this function
@@ -342,17 +342,17 @@ this function? Are there any other methods you might use to build confidence
 that your implementation is correct?
 
 
-* `coding_strand_ to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in **amino_acids.py**  or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
+* `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in **amino_acids.py**  or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
 
 You can convert a three nucleotide string (also called a triplet codon) into
 the appropriate amino acid in the following manner.
 
 ``` python
-amino_acid = aa_ table['CGA']`
+amino_acid = aa_table['CGA']`
 ```
 
 `amino_acid` will now be the string 'R' (which stands for Arginine). Note that
-`aa_ table` is actually a dictionary which we haven't learned about yet, so
+`aa_table` is actually a dictionary which we haven't learned about yet, so
 consider this a sneak peek of a powerful Python feature you will learn soon.
 
 If you wanted to implement your own lookup, you could use the lists `aa` and
@@ -363,21 +363,21 @@ If you wanted to implement your own lookup, you could use the lists `aa` and
 Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
->>> coding_strand_ to_AA("ATGCGA")
+>>> coding_strand_to_AA("ATGCGA")
  'MR'
->>> coding_ strand_to_ AA("ATGCCCGCTTT")
+>>> coding_strand_to_AA("ATGCCCGCTTT")
  'MPA
 ```
 
-* `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_ noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_ noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
+* `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
 
 ``` python
-threshold = longest_ORF_ noncoding(dna, 1500)`
+threshold = longest_ORF_noncoding(dna, 1500)`
 ```
 
 Next, find all open reading frames on both strands, and then return a list
 containing the amino acid sequence encoded by any open reading frames that are
-longer than the threshold computed above using `longest_ORF_ noncoding` .
+longer than the threshold computed above using `longest_ORF_noncoding` .
 
 To tie it all together you will actually be applying the gene_finder program
 that you wrote to some real DNA! It is this type of computational sleuthing
@@ -388,7 +388,7 @@ load the sequence as a FASTA file, use the provided `load_seq`  function.
 
 ``` python
 >>> from load import load_seq
->>> dna = load_ seq("./data/X73525.fa")
+>>> dna = load_seq("./data/X73525.fa")
 ```
 
 Use your `gene_finder` function on the Salmonella DNA sequence to get a list
@@ -397,7 +397,7 @@ during a scaffolded in-class activity.
 
 Also, if you are interested in comparing the results of your gene finder to a
 state-of-the art one, you can try out one called Glimmer3
-[here](http://www.ncbi.nlm.nih.gov/genomes/MICROBES/glimmer_ 3.cgi).
+[here](http://www.ncbi.nlm.nih.gov/genomes/MICROBES/glimmer_3.cgi).
 
 
 ### Turning in Week 2 Assignment
@@ -440,8 +440,8 @@ known to code for Nitrogenase (an enzyme crucial in the Nitrogen fixation
 process).
 
 ```
->>> from load import load_nitrogenase_ seq
->>> nitrogenase = load_nitrogenase_ seq()
+>>> from load import load_nitrogenase_seq
+>>> nitrogenase = load_nitrogenase_seq()
 >>> print nitrogenase
 
 'ATGGGAAAACTCCGGCAGATCGCTTTCTACGGCAAGGGCGGGATCGGCAAGTCGACGACCTCGCAGAACACCCTCGCGGCACTGGTCGAGATGGGTCAGAAGATCCTCATCGTCGGCTGCGATCCCAAGGCCGACTCGACCCGCCTGATCCTGAACACCAAGCTGCAGGACACCGTGCTTCACCTCGCCGCCGAAGCGGGCTCCGTCGAGGATCTCGAACTCGAGGATGTGGTCAAGATCGGCTACAAGGGCATCAAATGCACCGAAGCCGGCGGGCCGGAGCCGGGCGTGGGCTGCGCGGGCCGCGGCGTCATCACCGCCATCAACTTCCTGGAAGAGAACGGCGCCTATGACGACGTCGACTACGTCTCCTACGACGTGCTGGGCGACGTGGTCTGCGGCGGCTTCGCCATGCCGATCCGCGAGAACAAGGCGCAGGAAATCTACATCGTCATGTCGGGCGAGATGATGGCGCTCTATGCGGCCAACAACATCGCCAAGGGCATCCTGAAATACGCGAACTCGGGCGGCGTGCGCCTCGGCGGCCTGATCTGCAACGAGCGCAAGACCGACCGCGAGCTGGAACTGGCCGAGGCCCTCGCCGCGCGTCTGGGCTGCAAGATGATCCACTTCGTTCCGCGCGACAATATCGTGCAGCACGCCGAGCTCCGCCGCGAGACGGTCATCCAGTATGCGCCCGAGAGCAAGCAGGCGCAGGAATATCGCGAACTGGCCCGCAAGATCCACGAGAACTCGGGCAAGGGCGTGATCCCGACCCCGATCACCATGGAAGAGCTGGAAGAGATGCTGATGGATTTCGGCATCATGCAGTCCGAGGAAGACCGGCTCGCCGCCATCGCCGCCGCCGAGGCCTGA'
@@ -452,7 +452,7 @@ The second step is to load the meta-genome. Again, there is a function in the
 
 ```
 >>> from load import load_metagenome
->>> metagenome = load_ metagenome()
+>>> metagenome = load_metagenome()
 >>> print metagenome[0]
 
 ('Incfw_1000001',
@@ -477,14 +477,14 @@ sequence in our metagenome.
 
 Your program should loop through all of the snippets in the metagenome and
 compute the [longest common
-substring](https://en.wikipedia.org/wiki/Longest_ common_substring_ problem)
+substring](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
 between the snippet and the Nitrogenase sequence. The snippets that have the
 longest common substrings with the Nitrogenase reference sequence are likely
 to code for Nitrogenase. Which are these? What are the longest common
 substrings?
 
 There are several ways to solve the [longest common substring
-problem](https://en.wikipedia.org/wiki/Longest_common_ substring_problem). The
+problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem). The
 most straightforward is to use a nested for loop over all possible start
 positions in both the Nitrogenase and the DNA snippet. For each possible
 combination of start positions, you then loop through both strings until you
@@ -495,7 +495,7 @@ this longest match.
 #### Tips for speeding up your program
 
 1. Use [pypy](http://pypy.org) to execute your program (a modified Python interpreter that excels when executing Python programs that depend heavily on loops). To install this run `sudo apt-get install pypy`. I got a 30 fold speedup when using the simple approach to longest common substring described above.
-2. Implement a smarter algorithm for longest common substring (the [dynamic programming solution](https://en.wikipedia.org/wiki/Longest_common_ substring_problem#Dynamic_ programming) is the next logical one to try).
+2. Implement a smarter algorithm for longest common substring (the [dynamic programming solution](https://en.wikipedia.org/wiki/Longest_common_substring_problem#Dynamic_programming) is the next logical one to try).
 
 
 ### Suggestion 2: Building a better gene finder

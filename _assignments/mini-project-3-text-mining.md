@@ -77,7 +77,7 @@ particular search engine gets hit with the same license key too many times.
 After you have chosen which data source you would like to use, follow the
 directions [here](http://www.clips.ua.ac.be/pages/pattern-web#license) to get
 personal license keys. When you make a Pattern query you can provide your
-personal key as an argument, e.g. `license='123ABC_MY_ LICENCE...'`. To default
+personal key as an argument, e.g. `license='123ABC_MY_LICENCE...'`. To default
 to using your personal keys, you can edit `/usr/local/lib/python2.7/dist-
 packages/pattern/web/api.py` (assuming you installed with `pip`). Make sure to
 start a new Python interpreter for your changes to take effect.
@@ -103,8 +103,8 @@ inside Python, I would use the following code:
 
 ``` python
 from pattern.web import *
-oliver_twist_ full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
-print oliver_ twist_full_ text
+oliver_twist_full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
+print oliver_twist_full_text
 ```
 
 Note, that there is a preamble (boiler plate on Project Gutenberg, table of
@@ -172,7 +172,7 @@ Here is a Python program to print out the title of every Wikipedia article:
 from pattern.web import *
 w = Wikipedia()
 for article_title in w.index():
-    print article_ title`
+    print article_title`
 ```
 
 Given that you know the particular title of the article you would like to
@@ -183,7 +183,7 @@ following Python program:
 from pattern.web import *
 w = Wikipedia()
 olin_article = w.search('Olin College')
-print olin_ article.sections
+print olin_article.sections
 ```
 
 Which yields the output:
@@ -298,9 +298,9 @@ from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
 my_friends = f.search(me[0], type=FRIENDS, count=10000)
-for friend in my_ friends:
+for friend in my_friends:
     friend_news = f.search(friend.id, type=NEWS, count=10000)
-    for news in friend_ news:
+    for news in friend_news:
         print news.text
         print news.author
 ```
@@ -321,8 +321,8 @@ Here's an example from the [PRAW docs page](https://praw.readthedocs.org/en/stab
 
 ``` python
 import praw
-r = praw.Reddit(user_agent='my_ cool_application')
-submissions = r.get_ subreddit('opensource').get_hot(limit=5)
+r = praw.Reddit(user_agent='my_cool_application')
+submissions = r.get_subreddit('opensource').get_hot(limit=5)
 [str(x) for x in submissions]
 ```
 
@@ -351,7 +351,7 @@ For several of these data sources you might find that the API calls take a
 pretty long time to return, or that you run into various API limits. To deal
 with this, you will want to save the data that you collect from these services
 so that the data can be loaded back at a later point in time. Suppose you have
-a bunch of Project Gutenberg texts in a list called `charles_dickens_ texts`.
+a bunch of Project Gutenberg texts in a list called `charles_dickens_texts`.
 You can save this list to disk and then reload it using the following code:
 
 
@@ -360,17 +360,17 @@ import pickle
 
 # Save data to a file (will be part of your data fetching script)
 f = open('dickens_texts.pickle','w')
-pickle.dump(charles_ dickens_texts,f)
+pickle.dump(charles_dickens_texts,'f')
 f.close()
 
 # Load data from a file (will be part of your data processing script)
-input_ file = open('dickens_texts.pickle','r')
-reloaded_ copy_of_ texts = pickle.load(input_file)
+input_file = open('dickens_texts.pickle','r')
+reloaded_copy_of_texts = pickle.load(input_file)
 ```
 
 The result of running this code is that all of the texts in the list variable
-`charles_ dickens_texts` will now be in the list variable
-`reloaded_ copy_of_ texts`. In the code that you write for this project you
+`charles_dickens_texts` will now be in the list variable
+`reloaded_copy_of_texts`. In the code that you write for this project you
 won't want to pickle and then unpickle in the same Python script. Instead, you
 might want to have a script that pulls data from the web using Pattern's APIs
 and then pickles them to disk. You can then create another program for
@@ -386,7 +386,7 @@ Toolbox]({% link _toolboxes/pickling.md %}) assignment.
 _**Problem** _: I am able to execute Pattern API calls, however, when I execute
 a lot of them in sequence I sometimes run into errors (e.g. SSLError).
 
-**_Solution 1_** : Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_ HERE", throttle=0.5))`. If that doesn't work try solution 2.
+**_Solution 1_** : Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_HERE", throttle=0.5))`. If that doesn't work try solution 2.
 
 **_Solution 2_** : I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
 
@@ -405,7 +405,7 @@ while retry:
     except:
         time.sleep(5) # sleep a little bit before retry
 
-for friend in my_ friends:
+for friend in my_friends:
     retry = True
     while retry:
     try:
@@ -413,7 +413,7 @@ for friend in my_ friends:
         retry = False # we have achieved success, don't retry
     except:
         time.sleep(5) # sleep a little bit before retry
-    for news in friend_ news:
+    for news in friend_news:
         print news.text
         print news.author
 ```
@@ -529,7 +529,7 @@ compares each work with all other works.
 
 If you can generate pairwise similarities (say using the technique above), you
 can Metric Multi-dimensional Scaling
-([MDS](http://en.wikipedia.org/wiki/Multidimensional_ scaling)) to visualize
+([MDS](http://en.wikipedia.org/wiki/Multidimensional_scaling)) to visualize
 the texts in a two dimensional space. This can help identify clusters of
 similar texts (for instance, which of your friends on Facebook are most
 similar to each other). Here is a particularly inspiring example by Matthew
@@ -583,7 +583,7 @@ labeled 4 is the work by Charles Darwin.
 
 ### Markov Text Synthesis
 
-You can use [Markov](http://en.wikipedia.org/wiki/Markov_ chain) analysis to
+You can use [Markov](http://en.wikipedia.org/wiki/Markov_chain) analysis to
 learn a generative model of the text that you collect from the web and use it
 to generate new texts. You can even use it to create mashups of multiple
 texts. Two possibilities in this space would be to imitate Facebook posts by

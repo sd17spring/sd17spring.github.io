@@ -110,7 +110,7 @@ find the computer vision library OpenCV useful. The idea here would be to
 capture images from a camera (probably the webcam on your laptop) and use
 those to control some aspect of your program. To get started check out the
 SoftDes [project toolbox exercise on OpenCV]({% link _toolboxes/image-processing.md %}). Next, read through the [OpenCV Python
-tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_ tutorials.html)
+tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_tutorials.html)
 and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
 ### To Implement, or not to Implement, that is the question!
@@ -182,8 +182,8 @@ _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/)
 If you decide to create a game, you should probably choose one that has
 relatively simple physics. Depending on how ambitious you are, you might want
 to stick to a game where all of the action is contained within a single
-screen. Here are some examples:_ Missile Command:_
-_ Pacman:_ _ Skyroads (considerably more complex than the others, but maybe a simple
+screen. Here are some examples:_Missile Command:_
+_ Pacman:__ Skyroads (considerably more complex than the others, but maybe a simple
 version could be constructed):_
 _ Asteroids (this version was created in another computing class. Check out
 [this video](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/asteroids.avi) for the game in action place some cool

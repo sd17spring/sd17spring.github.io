@@ -146,7 +146,7 @@ fork](https://pillow.readthedocs.org/index.html) of the Python Imaging Library
 $ sudo pip3 install Pillow
 ```
 
-The starter code includes a function called `test_ image` that uses PIL to
+The starter code includes a function called `test_image` that uses PIL to
 generate an image where each pixel has a random color value. When you run the
 starter code, you should see several unit test failures from functions you
 will implement later, and it should save an image file named `noise.png` in
@@ -161,7 +161,7 @@ the assignment, you will combine randomness with structure to produce more
 compelling images.
 
 Once you've verified that PIL is working correctly, comment out the line that
-calls `test_image` and un-comment the line that calls `generate_ art`. If you
+calls `test_image` and un-comment the line that calls `generate_art`. If you
 run into errors installing Pillow or generating the test image, talk to a
 NINJA.
 
@@ -174,28 +174,28 @@ the PIL library to generate a simple image. The relevant code is in the
 
 ``` python
 # Functions for red, green, and blue channels - where the magic happens!
- red_ function = ["x"]
+ red_function = ["x"]
  green_function = ["y"]
- blue_ function = ["x"]
+ blue_function = ["x"]
 
  # Create image and loop over all pixels
-im = Image.new("RGB", (x_size, y_ size))
+im = Image.new("RGB", (x_size, y_size))
 pixels = im.load()
 for i in range(x_size):
-    for j in range(y_ size):
-        x = remap_interval(i, 0, x_ size, -1, 1)
-        y = remap_interval(j, 0, y_ size, -1, 1)
+    for j in range(y_size):
+        x = remap_interval(i, 0, x_size, -1, 1)
+        y = remap_interval(j, 0, y_size, -1, 1)
         pixels[i, j] = (
-            color_map(evaluate_ random_function(red_ function, x, y)),
-            color_map(evaluate_ random_function(green_ function, x, y)),
-            color_map(evaluate_ random_function(blue_ function, x, y))
+            color_map(evaluate_random_function(red_function, x, y)),
+            color_map(evaluate_random_function(green_function, x, y)),
+            color_map(evaluate_random_function(blue_function, x, y))
             )
 
 im.save(filename)
 ```
 
 The arguments to this function are a string `filename` where the image file
-will be saved, and two optional arguments `x_size` and `y_ size` which set the
+will be saved, and two optional arguments `x_size` and `y_size` which set the
 image dimensions in pixels. If the size arguments are not given, they default
 to 350.
 
@@ -204,7 +204,7 @@ happening
 
 ``` python
 red_function = ["x"]
-green_ function = ["y"]
+green_function = ["y"]
 blue_function = ["x"]
 ```
 
@@ -214,7 +214,7 @@ the function x. Eventually we will do more complex things as in the examples
 above, but this will allow us to get started.
 
 ``` python
-im = Image.new("RGB", (x_ size, y_size))
+im = Image.new("RGB", (x_size, y_size))
 `pixels = im.load()
 ```
 
@@ -224,7 +224,7 @@ indicates that the image has three color channels which are in order "red",
 we can use to set the color values in our new image.
 
 ``` python
-for i in range(x_ size):
+for i in range(x_size):
     for j in range(y_size):
 ```
 
@@ -232,28 +232,28 @@ These lines create a nested loop in which we will set each pixel value based
 on evaluating the red, green, and blue channel functions.
 
 ``` python
-        x = remap_ interval(i, 0, x_size, -1, 1)
-        y = remap_ interval(j, 0, y_size, -1, 1)
+        x = remap_interval(i, 0, x_size, -1, 1)
+        y = remap_interval(j, 0, y_size, -1, 1)
 ```
 
 These lines are necessary because the functions we will be generating (as in
 the examples above) have inputs in the interval [-1,+1] and outputs in the
 interval [-1,+1]. If we were to simply input the raw pixel coordinates, these
-would go from [0,349]. The `remap_ interval function` (which you will
+would go from [0,349]. The `remap_interval` function (which you will
 implement) transforms the pixel index (which is in [0,349]) to the interval we
 want ([-1,+1]).
 
 ``` python
         pixels[i, j] = (
-            color_map(evaluate_ random_function(red_ function, x, y)),
-            color_map(evaluate_ random_function(green_ function, x, y)),
-            color_map(evaluate_ random_function(blue_ function, x, y))
+            color_map(evaluate_random_function(red_function, x, y)),
+            color_map(evaluate_random_function(green_function, x, y)),
+            color_map(evaluate_random_function(blue_function, x, y))
             )
 ```
 
 This code evaluates each the red, green, and blue channel functions to obtain
 the intensity for each color channel for the pixel (i,j). We need to use the
-`color_map` function (which calls your `remap_ interval` function) since the
+`color_map` function (which calls your `remap_interval` function) since the
 color channel function outputs are floats in [-1,+1], but PIL expects the
 color intensity values to be integers in the range [0,255].
 
@@ -268,22 +268,22 @@ built-in tool image_viewer.
 **The initial starter code will not work without modification.**  To get started and generate your first image, you will need to make the following modifications:
 
 1. Implement `remap_interval`. To help you get started we have defined several doctests and filled out the docstring.
-2. Modify the function `evaluate_ random_function` so that if the function ["x"] is passed in, the input argument x is returned, and if the function ["y"] is passed in, the input argument y is returned. To help you understand this, we have added two doctests demonstrating the behavior your function should have.
+2. Modify the function `evaluate_random_function` so that if the function ["x"] is passed in, the input argument x is returned, and if the function ["y"] is passed in, the input argument y is returned. To help you understand this, we have added two doctests demonstrating the behavior your function should have.
 
 If you have done everything properly, when you run your code you shouldn't get
 any doctest failure messages and an image file will show up in your
 **computational_art**  folder called **myart.png** . The image should look like
 this:
 
-[![]({% link images/assignments/mini-project-2-computational-art/myart.png %}]({% link images/assignments/mini-project-2-computational-art/myart.png %}
+[![]({% link images/assignments/mini-project-2-computational-art/myart.png %}]({% link images/assignments/mini-project-2-computational-art/myart.png %})
 
 
 ## **Part 2:**  Generating and evaluating random recursive functions
 
 Now that you have created your first image, you should start filling out the
-function `build_random_ function`. As you fill in this function, you will also
-want to modify your `evaluate_random_ function` method so that it can handle
-the recursive functions that build_random_ function is generating.
+function `build_random_function`. As you fill in this function, you will also
+want to modify your `evaluate_random_function` method so that it can handle
+the recursive functions that `build_random_function` is generating.
 
 In order to be able to see the images your code is generating as you make
 these changes, you should overwrite the simple function values for red, green,
@@ -292,9 +292,9 @@ minimum depth 7 and maximum depth 9 (definitely play around with other depths
 for really cool effects though). The modified code should look like this:
 
 ``` python
-red_ function = build_random_ function(7, 9)
-green_function = build_ random_function(7, 9)
-blue_ function = build_random_ function(7, 9)
+red_function = build_random_function(7, 9)
+green_function = build_random_function(7, 9)
+blue_function = build_random_function(7, 9)
 ```
 
 We will be representing function composition using nested lists. Here is a
@@ -324,7 +324,7 @@ f(x,y) = sin(pi*x)
 ```
 
 In contrast to the function f(x,y) = x, here we use the second list element to
-specify the function that we are going to compose with "sin_ pi".
+specify the function that we are going to compose with "sin_pi".
 
 Next, consider the following representation of the function f(x,y) = xy
 
@@ -339,14 +339,14 @@ To create more complex functions we use more deeply-nested lists. For
 instance, f(x,y) = sin(pi*x)*cos(pi*x) would be represented as:
 
 ``` python
-["prod",["sin_pi",["x"]],["cos_ pi",["x"]]]
+["prod",["sin_pi",["x"]],["cos_pi",["x"]]]
 ```
 
-Implement the function `build_random_ function` in the provided Python file
+Implement the function `build_random_function` in the provided Python file
 `r``ecursive``_art.py`.
 
-The two input arguments to `build_ random_function` are `min_ depth` and
-`max_depth`. The input `min_ depth` specifies the minimum amount of nesting for
+The two input arguments to `build_random_function` are `min_depth` and
+`max_depth`. The input `min_depth` specifies the minimum amount of nesting for
 the function that you generate (the depth of the preceding examples are 2 and
 3 respectively). The input `max_depth` specifies the maximum amount of nesting
 of the function that you generate. To help better understand the idea of the
@@ -363,10 +363,10 @@ to the function represented by box i. To the left of each box is the list
 representation of the function (notice that the list representation includes
 the function representation of the functions that it points to). Also to the
 left of the box is the depth of the function (i.e. the degree of nestedness of
-the list representation). The `min_depth` and `max_ depth` inputs, refer to the
+the list representation). The `min_depth` and `max_depth` inputs, refer to the
 depths listed in the figure above.
 
-Your `build_random_ function` implementation should create random functions
+Your `build_random_function` implementation should create random functions
 from the following required building blocks:
 
 * `prod(a,b) = ab`
@@ -382,15 +382,15 @@ of the function will also be in the range [-1,1]. In addition to the required
 functions above, **add two additional function building blocks**  that have the
 crucial property that if the inputs to the function are between [-1,1] the
 output will also be in the interval [-1,1]. As part of creating
-`build_random_ function` you should add an appropriate docstring. You may also
+`build_random_function` you should add an appropriate docstring. You may also
 want to add additional doctests. Your implementation of
-`build_random_ function` should make heavy use of the principle of
+`build_random_function` should make heavy use of the principle of
 [recursion](http://en.wikipedia.org/wiki/Recursion).
 
-As stated before, as you modify `build_random_ function` you will also want to
-modify the implementation of `evaluate_random_ function` that you created in **Part 1** . In order to complete the required part of the assignment, your
-`evaluate_random_ function` must be able to evaluate any random function
-generated by `build_random_ function`.
+As stated before, as you modify `build_random_function` you will also want to
+modify the implementation of `evaluate_random_function` that you created in **Part 1** . In order to complete the required part of the assignment, your
+`evaluate_random_function` must be able to evaluate any random function
+generated by `build_random_function`.
 
 
 ## Going Beyond
@@ -402,7 +402,7 @@ There are a number of interesting directions to take this assignment.
 Explore the use of [lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk) to
 represent deeply nested compositions of functions. For this extension you
 should replace the list representation of nested functions with lambda
-functions. For instance, ["cos_ pi", ["prod", ["x", "y"] ] ] would be
+functions. For instance, ["cos_pi", ["prod", ["x", "y"] ] ] would be
 represented as the lambda function:
 
 ``` python
@@ -410,14 +410,14 @@ lambda x,y: cos(pi*(lambda x,y: (lambda x,y: x)(x,y)*(lambda x,y: y)(x,y))(x,y))
 ````
 
 Using lambda functions will allow you to return a variable of type function
-from your **build_random_ function**  code. In order to evaluate the function at
+from your `build_random_function`  code. In order to evaluate the function at
 a particular (x,y) pair all you have to do is pass (x,y) into your function
-variable (this obviates the need for **evaluate_random_ function** ). For
+variable (this obviates the need for **evaluate_random_function** ). For
 instance,
 
 ``` python
-green = build_random_ function(7,9)
-green_channel_ pixel_for_ x_y = green(x,y)
+green = build_random_function(7,9)
+green_channel_pixel_for_x_y = green(x,y)
 ```
 
 
@@ -485,7 +485,7 @@ import audioop
 inp = alsaaudio.PCM(alsaaudio.PCM_CAPTURE,0)
 inp.setchannels(1)
 inp.setrate(16000)
-inp.setformat(alsaaudio.PCM_ FORMAT_S16_ LE)
+inp.setformat(alsaaudio.PCM_FORMAT_S16_LE)
 inp.setperiodsize(160)
 
 while True:
@@ -554,7 +554,7 @@ The types of things you might want to touch on in the artist statement are:
 
 A much better and more extensive list of guidance around producing an artist's
 statement can be found
-[here](http://www.saic.edu/media/saic/pdfs/lifesaic/careerco-opcenter/workingartistsseries/Handout_WorkingArtist_ WritingYourArtistStatement.pdf).
+[here](http://www.saic.edu/media/saic/pdfs/lifesaic/careerco-opcenter/workingartistsseries/Handout_WorkingArtist_WritingYourArtistStatement.pdf).
 
 In order to make it into the exhibition you should have your content there no
 later than the night before the assignment is due.
