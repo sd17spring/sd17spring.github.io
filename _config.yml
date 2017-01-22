@@ -1,9 +1,9 @@
 # Site settings
 title: "Software Design Spring 2017"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description
+  This course is an introduction to software design. It focuses on a model of computation as a set of simultaneous
+  ongoing entities embedded in and interacting with a dynamic environment, for example: computation as it occurs in
+  spreadsheets, video games, web applications, and robots.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://sd17spring.github.io/" # the base hostname & protocol for your site
 timezone: America/New_York
