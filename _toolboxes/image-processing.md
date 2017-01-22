@@ -22,7 +22,7 @@ face detector. When a face is found your program will blur it out using OpenCV
 image filtering functions. Finally, you will draw a funny cartoon face on top
 of the blurred out face. The end-result will look something like this:
 
-![]({% link images/toolboxes/image-processing/paulface.png %}{:width="320px" height="250px"}
+![]({% link images/toolboxes/image-processing/paulface.png %}){:width="320px" height="250px"}
 
 ## Get Set
 

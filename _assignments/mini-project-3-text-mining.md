@@ -1,5 +1,5 @@
 ---
-date: 2017-01-18 08:44:07 -0500
+date: 2017-01-22
 description: ''
 due_date: '2017-02-22'
 title: 'Mini Project 3: Text Mining and Analysis'
@@ -382,12 +382,12 @@ Toolbox]({% link _toolboxes/pickling.md %}) assignment.
 
 ### Troubleshooting Pattern
 
-_**Problem** _: I am able to execute Pattern API calls, however, when I execute
+_**Problem**_: I am able to execute Pattern API calls, however, when I execute
 a lot of them in sequence I sometimes run into errors (e.g. SSLError).
 
-**_Solution 1_** : Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_HERE", throttle=0.5))`. If that doesn't work try solution 2.
+**_Solution 1_**: Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_HERE", throttle=0.5))`. If that doesn't work try solution 2.
 
-**_Solution 2_** : I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
+**_Solution 2_**: I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
 
 ``` python
 from pattern.web import *
@@ -577,7 +577,7 @@ meaning, but the embedding tries to maintain the similarity relationships that
 we computed via comparing word frequencies. Keep in mind that the point
 labeled 4 is the work by Charles Darwin.
 
-![]({% link images/assignments/text-mining/figure_1.png %}{:width="400px" height="300px"}
+![]({% link images/assignments/text-mining/figure_1.png %}){:width="400px" height="300px"}
 
 
 ### Markov Text Synthesis
