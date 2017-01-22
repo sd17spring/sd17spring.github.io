@@ -32,7 +32,7 @@ Your instructor will direct you where to sit for Review Board #3.
 
 
 3\. Follow the Presenter or Reviewer instructions on the [Code
-Reviews](/assignments/final-project/code-reviews) pages.
+Reviews]({% link _assignments/final-project/code-reviews.md %}) pages.
 You can find the URLs for the Pull Request/Bounce page for each Presenter on
 the [Code Review prep
 spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit#gid=0).
@@ -77,7 +77,7 @@ period, you are a Reviewer.
 
 
 3\. Follow the Presenter or Reviewer instructions on the [Code
-Reviews](/assignments/final-project/code-reviews) pages.
+Reviews]({% link _assignments/final-project/code-reviews.md %}) pages.
 You can find the URLs for the Pull Request/Bounce page for each Presenter on
 the [Code Review prep
 spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit#gid=0).

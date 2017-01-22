@@ -11,7 +11,7 @@ title: Day 20
 
 **For next time**
 
-* [MP5 details](/assignments/mini-project-5-feedback-and-revision) posted, due 4/19
+* [MP5 details]({% link _assignments/mini-project-5-feedback-and-revision.md %}) posted, due 4/19
 * Code review in class next Thursday
 * No reading journal assigned
 

@@ -15,8 +15,8 @@ title: Day 11
 **For next time**
 
 * Reading journal, review Think Python 15-17
-* [Choose MP4 topic and partner](/assignments/interactive-visualization#getting-started) (before Saturday)
-* [MP4 project proposal](/assignments/interactive-visualization#project-proposal)
+* [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before Saturday)
+* [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}#project-proposal)
 
 
 ## Text mining project presentations
@@ -51,13 +51,13 @@ In order to run the doctests for a _single method, comment out
 the file:
 
 ``` python
- doctest.testmod()
- # doctest.run_docstringexamples(Line.__repr_, globals())
+doctest.testmod()
+# doctest.run_docstringexamples(Line.__repr_, globals())
 ```
 →
 ``` python
- # doctest.testmod()
- doctest.rundocstring_examples(Line._repr_, globals())
+# doctest.testmod()
+doctest.rundocstring_examples(Line._repr_, globals())
 ```
 
 You can use the `Point` class from the reading, but you are not required to.

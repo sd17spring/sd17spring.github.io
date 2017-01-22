@@ -20,7 +20,7 @@ Groups C+F: AC126
 **For next time**
 
 * TR #2 reflection document due Monday
-* Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details](/assignments/final-project/project-presentation-rubric).
+* Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details]({% link _assignments/final-project/project-presentation-rubric.md %}).
 
 
 

@@ -18,7 +18,7 @@ title: Day 2
 
 * Fill out the [course entrance survey]({{site.course.entrance_survey_url}}) if you haven't already
 * Complete Day 2 (and Day 1) Reading Journal before noon on 1/28
-* Finish [setting up your environment](/assignments/setup-your-environment)
+* Finish [setting up your environment]({% link _assignments/setup-your-environment.md %})
 * Start on mini-project 1
 
 ## Reading Journal Day 1 Debrief

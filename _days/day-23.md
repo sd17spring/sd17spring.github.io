@@ -12,5 +12,5 @@ title: Day 23
 
 **For next time**
 
-* Thursday: [Technical Review #2](/assignments/final-project/technical-reviews). Go directly to same room as last time: A+D in AC326; B+E in AC113; C+F in AC126.
-* Monday: [Project Presentations](/assignments/final-project/project-presentation-rubric)
+* Thursday: [Technical Review #2]({% link _assignments/final-project/technical-reviews.md %}). Go directly to same room as last time: A+D in AC326; B+E in AC113; C+F in AC126.
+* Monday: [Project Presentations]({% link _assignments/final-project/project-presentation-rubric.md %})

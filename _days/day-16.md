@@ -19,7 +19,7 @@ title: Day 16
 **Project proposal review**
 
 We will be reviewing final project proposals with each team today. If you
-don't have a printed out copy of your [project proposal](/assignments/final-project-1#project-proposal), you should run
+don't have a printed out copy of your [project proposal]({% link _assignments/final-project.md %}#project-proposal), you should run
 do that!
 
 Make sure your team, including project idea and working GitHub repo, are

@@ -24,7 +24,7 @@ title: Day 21
 Every project should have a README file explaining what it does, how to run
 it, etc. Today in class we'll discuss what makes a good README file. The
 guidelines that we generated together formed the basis of the [README
-rubric](/assignments/final-project/readme-rubric) for the
+rubric]({% link _assignments/final-project/readme-rubric.md %}) for the
 final project.
 
 
@@ -35,7 +35,7 @@ project. Today in class, we'll help you get started building your website
 using [GitHub pages](https://pages.github.com/).
 
 For inspiration, you can look at some of the [project websites from last
-year](/assignments/final-project/2015-project-websites).
+year]({% link _assignments/final-project/2015-project-websites.md %}).
 
 The example Rocco developed in class can be found at
 <http://rdiverdi.github.io/GitExample> and
