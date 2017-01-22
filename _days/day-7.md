@@ -22,7 +22,7 @@ title: Day 7
 ## Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day6_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day6_ reading_journal_ responses.ipynb).
 
 
 ## Recursion Practice

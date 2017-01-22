@@ -31,6 +31,9 @@ assistants:
 
 github_owner: sd17spring
 
+urls:
+  reading_journal_response_prefix: 'https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/'
+
 sections:
   - number: 1
     when: "Mon/Thu 1:30-3:10pm"

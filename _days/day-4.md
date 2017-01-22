@@ -21,7 +21,7 @@ title: Day 4
 ## Reading Journal Debrief
 
 We'll be going over your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day3_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_ reading_journal_ responses.ipynb).
 
 
 ## Sharing Lessons Learned on Unit Testing

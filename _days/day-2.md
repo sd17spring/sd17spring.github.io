@@ -24,8 +24,7 @@ title: Day 2
 ## Reading Journal Day 1 Debrief
 
 We'll go over some of the take homes from [the reading
-journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day1_ reading_journal_ responses.ipynb)
-that we collected from the class.
+journals]({{ site.data.course.urls.reading_journal_response_prefix }}day1_reading_journal_responses.ipynb) that we collected from the class.
 
 ## Exploring Modular Design
 

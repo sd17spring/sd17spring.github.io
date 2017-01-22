@@ -21,9 +21,9 @@ title: Day 5
 ### Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day4_reading_journal_responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day4_reading_journal_responses.ipynb).
 Here is a condensed summary of the [main
-takeaways](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/Day%204%20Reading%20Journal%20Notes.ipynb).
+takeaways]({{ site.data.course.urls.reading_journal_response_prefix }}Day%204%20Reading%20Journal%20Notes.ipynb).
 
 
 ### More List Methods
