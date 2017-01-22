@@ -1,5 +1,5 @@
 ---
-date: 2017-01-20 07:38:35 -0500
+date: 2017-01-22
 description: ''
 due_date: '2017-02-09'
 title: 'Mini Project 2: Computational Art'
@@ -9,10 +9,10 @@ title: 'Mini Project 2: Computational Art'
 
 ## Preliminaries
 
-**Acknowledgments:**  this assignment has been adapted from Harvey Mudd Professor Chris Stone's assignment posted at the [Stanford Nifty Assignments ](http://nifty.stanford.edu/)collection.
+**Acknowledgments:**  this assignment has been adapted from Harvey Mudd Professor Chris Stone's assignment posted at the
+[Stanford Nifty Assignments ](http://nifty.stanford.edu/) collection.
 
-
-**Skills Emphasized:**
+### Skills Emphasized
 
 * Recursion
 * Working with color
@@ -34,7 +34,7 @@ auditory signals.
 At some point in your mathematical career you have probably seen a figure that
 looks like this:
 
-![]({% link images/homeworks/homework-4/simple_surface.png %}{:width="320px" height="249px"}
+![]({% link images/homeworks/homework-4/simple_surface.png %}){:width="320px" height="249px"}
 
 This is a graphical representation of the function f(x,y) = 2x + y where the
 brightness of each position in the figure above represents the value of the
@@ -45,14 +45,14 @@ From a visual point of view, this figure doesn't look particularly rich.
 However, for more complex functions things start to get more interesting. Here
 is a plot of the function f(x,y) = sin(10pi*xy)
 
-![]({% link images/homeworks/homework-4/medium_surface.png %}{:width="320px" height="243px"}
+![]({% link images/homeworks/homework-4/medium_surface.png %}){:width="320px" height="243px"}
 
 Things get even more interesting when we use the power of computation to
 generate functions by randomly composing elementary functions with each other.
 Here is a plot of the randomly generated function f(x,y) =
 cos(pi*((cos(pi*sin(pi*(((x+y)/2.0*cos(pi*y))+cos(pi*cos(pi*y)))/2.0))*((((cos(pi*y)+(x*y))/2.0*(cos(pi*y)*sin(pi*x)))+sin(pi*((x+x)/2.0+cos(pi*y))/2.0))/2.0*sin(pi*sin(pi*sin(pi*(y+y)/2.0)))))+sin(pi*(cos(pi*cos(pi*cos(pi*sin(pi*x))))+sin(pi*sin(pi*((x*x)*sin(pi*y)))))/2.0))/2.0)
 
-![]({% link images/homeworks/homework-4/complex_singlechannel_surface.png %}{:width="320px" height="244px"}
+![]({% link images/homeworks/homework-4/complex_singlechannel_surface.png %}){:width="320px" height="244px"}
 
 Cool! Next, we bring in the idea of color. Instead of generating one random
 function, we generate three (one for each of the color channels red, green,
@@ -60,7 +60,7 @@ and blue). Here are 3 figures representing randomly generated functions for
 each of the color channels. (Note: in a slight change of notation we are now
 using the function avg(x,y) instead of (x+y)/2.0)
 
-![]({% link images/homeworks/homework-4/complex_red_surface.png %}{:width="320px" height="239px"}
+![]({% link images/homeworks/homework-4/complex_red_surface.png %}){:width="320px" height="239px"}
 
 ```
 red(x,y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
@@ -72,7 +72,7 @@ cos(pi * cos(pi * avg(sin(pi * sin(pi * avg((x * x), (x * x)))), sin(pi *
 sin(pi * sin(pi * sin(pi * y)))))))))
 ```
 
-![]({% link images/homeworks/homework-4/complex_green_surface.png %}{:width="320px" height="237px"}
+![]({% link images/homeworks/homework-4/complex_green_surface.png %}){:width="320px" height="237px"}
 
 ```
 green(x,y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
@@ -89,7 +89,7 @@ avg(((cos(pi * y) * (y * y)) * avg(sin(pi * y), cos(pi * y))), (((x * x) *
 avg(y, x)) * cos(pi * sin(pi * x)))))))))
 ```
 
-![]({% link images/homeworks/homework-4/complex_blue_surface.png %}{:width="320px" height="240px"}
+![]({% link images/homeworks/homework-4/complex_blue_surface.png %}){:width="320px" height="240px"}
 
 ```
 blue(x,y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
@@ -117,7 +117,7 @@ x))), cos(pi * avg((y * y), avg(y, y)))))))))
 Of course the real fun is when we put all of these individual color channel
 images together into a single image.
 
-![]({% link images/homeworks/homework-4/extra2.png %}
+![]({% link images/homeworks/homework-4/extra2.png %})
 
 Voila! Computational creativity (there are some deep philosophical issues
 behind whether this can be called creativity... We don't pretend to know the
@@ -131,7 +131,7 @@ at Harvey Mudd:
 ![](http://nifty.stanford.edu/2009/stone-random-art/moconnell.png)![](http://nifty.stanford.edu/2009/stone-random-art/dmarley.jpg)
 
 
-## **Part 0:**  Install and test Python Imaging Library
+## Part 0: Install and test Python Imaging Library
 
 In order to get started on the assignment, you should fork the [base
 repository](https://github.com//{{site.course.github_owner}}/ComputationalArt) for the
@@ -153,10 +153,10 @@ will implement later, and it should save an image file named `noise.png` in
 your run directory. You can view `noise.png` using the built-in tool
 `image_viewer`.
 
-[![Random pixel noise]({% link images/assignments/mini-project-2-computational-art/noise.png %}{:width="320px" height="320px"}]({% link images/assignments/mini-project-2-computational-art/noise.png %}
+[![Random pixel noise]({% link images/assignments/mini-project-2-computational-art/noise.png %}){:width="320px" height="320px"}]({% link images/assignments/mini-project-2-computational-art/noise.png %})
 
 While this looks pretty cool (and it might be fun to convince your gullible
-friends it is a Magic Eye picture), I wouldn't call it **art** . In the rest of
+friends it is a Magic Eye picture), I wouldn't call it _art_. In the rest of
 the assignment, you will combine randomness with structure to produce more
 compelling images.
 
@@ -166,7 +166,7 @@ run into errors installing Pillow or generating the test image, talk to a
 NINJA.
 
 
-## **Part 1:**  Understanding the structure of the starter code and making your first image
+## Part 1: Understanding the structure of the starter code and making your first image
 
 First, make sure you are familiar with the starter code and how it utilizes
 the PIL library to generate a simple image. The relevant code is in the
@@ -265,20 +265,20 @@ This final line saves your image to disk as the specified filename (which will
 be `"myart.png"` if you don't change it). You can view `myart.png` using the
 built-in tool image_viewer.
 
-**The initial starter code will not work without modification.**  To get started and generate your first image, you will need to make the following modifications:
+**The initial starter code will not work without modification.**
+To get started and generate your first image, you will need to make the following modifications:
 
 1. Implement `remap_interval`. To help you get started we have defined several doctests and filled out the docstring.
 2. Modify the function `evaluate_random_function` so that if the function ["x"] is passed in, the input argument x is returned, and if the function ["y"] is passed in, the input argument y is returned. To help you understand this, we have added two doctests demonstrating the behavior your function should have.
 
 If you have done everything properly, when you run your code you shouldn't get
 any doctest failure messages and an image file will show up in your
-**computational_art**  folder called **myart.png** . The image should look like
-this:
+`computational_art`  folder called `myart.png`. The image should look like this:
 
-[![]({% link images/assignments/mini-project-2-computational-art/myart.png %}]({% link images/assignments/mini-project-2-computational-art/myart.png %})
+[![]({% link images/assignments/mini-project-2-computational-art/myart.png %})]({% link images/assignments/mini-project-2-computational-art/myart.png %})
 
 
-## **Part 2:**  Generating and evaluating random recursive functions
+## Part 2: Generating and evaluating random recursive functions
 
 Now that you have created your first image, you should start filling out the
 function `build_random_function`. As you fill in this function, you will also
@@ -343,7 +343,7 @@ instance, f(x,y) = sin(pi*x)*cos(pi*x) would be represented as:
 ```
 
 Implement the function `build_random_function` in the provided Python file
-`r``ecursive``_art.py`.
+`recursive_art.py`.
 
 The two input arguments to `build_random_function` are `min_depth` and
 `max_depth`. The input `min_depth` specifies the minimum amount of nesting for
@@ -352,7 +352,7 @@ the function that you generate (the depth of the preceding examples are 2 and
 of the function that you generate. To help better understand the idea of the
 depth of the function the following diagram might help:
 
-[![Depth tree diagram]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %}]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})
+[![Depth tree diagram]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})]({% link images/assignments/mini-project-2-computational-art/treediagram.jpg %})
 
 **Click image to enlarge**
 
@@ -388,7 +388,8 @@ want to add additional doctests. Your implementation of
 [recursion](http://en.wikipedia.org/wiki/Recursion).
 
 As stated before, as you modify `build_random_function` you will also want to
-modify the implementation of `evaluate_random_function` that you created in **Part 1** . In order to complete the required part of the assignment, your
+modify the implementation of `evaluate_random_function` that you created in **Part 1** .
+In order to complete the required part of the assignment, your
 `evaluate_random_function` must be able to evaluate any random function
 generated by `build_random_function`.
 
@@ -397,7 +398,7 @@ generated by `build_random_function`.
 
 There are a number of interesting directions to take this assignment.
 
-### **Extension 1:**  Lambda Functions!
+### Extension 1: Lambda Functions!
 
 Explore the use of [lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk) to
 represent deeply nested compositions of functions. For this extension you
@@ -421,7 +422,7 @@ green_channel_pixel_for_x_y = green(x,y)
 ```
 
 
-### **Extension 2:** Movies!!!
+### Extension 2: Movies!!!
 
 Instead of building random functions of two variables (x,y) build random
 function of three variables (x,y,t) where t represents the frame number in a
@@ -459,7 +460,7 @@ from 1 to -1):
 <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/e-2wziW2T4k?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
 <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/yZ47xxH64WE?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
 
-#### **Extension 3:** Pulsating Music Visualizer!!!!!
+#### Extension 3: Pulsating Music Visualizer!!!!!
 
 The idea here will be to have a visualization that responds in real-time to
 loudness changes as picked up by your computer's microphone. This can be used
@@ -471,7 +472,7 @@ library you will need to install both the **pyalsaaudio**  package and some
 libraries that it depends on. Here are the install commands:
 
 ``` bash
-$ sudo apt-get install`` libasound2-dev
+$ sudo apt-get install libasound2-dev
 $ sudo pip3 install pyalsaaudio
 ```
 

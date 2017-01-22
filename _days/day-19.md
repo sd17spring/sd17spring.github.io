@@ -97,7 +97,7 @@ For more practice, pull the latest changes from the `ClassNotes` repo.
 
 `git pull upstream master`
 
-Navigate to the directory `ClassNotes/``pdb_practice` and try to use the
+Navigate to the directory `ClassNotes/pdb_practice` and try to use the
 Python debugger to debug each of the four Python programs. The goal is not
 only to find the bugs (you can probably do that without the debugger), but
 instead to practice using the debugger as one of the debugging tools in your

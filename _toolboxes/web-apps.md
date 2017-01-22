@@ -91,23 +91,23 @@ To stop the server, hit `ctrl+c`
 
 In our hello world, example, we had one route denoted by the decorator
 `@app.route('/')`. Again, this 'decorator' tells the Flask app that any
-incoming requests for `GET`` ``/` will run the function we called
-`hello_ world()`
+incoming requests for `GET /` will run the function we called
+`hello_ world()`.
 
 Here are a couple more quick examples -
 
 ``` python
-    @app.route('/')
-    def index():
-        return 'Index Page'
+@app.route('/')
+def index():
+    return 'Index Page'
 
-    @app.route('/hello')
-    def hello():
-        return 'Hello World'
+@app.route('/hello')
+def hello():
+    return 'Hello World'
 ```
 
-Pretty simple, right? What happens when we want to do something **useful**  \-
-e.g. display something other than text?
+Pretty simple, right? What happens when we want to do something _useful_  \-
+*e.g.* display something other than text?
 
 ## Let's serve some HTML!
 
@@ -241,5 +241,3 @@ pull request to get checked off.
 2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Laugage](https://www.codecademy.com/learn/learn-sql) to manipulate all stored, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDb, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
 3. **But HTML is so ugly!**  HTML alone **is**  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
 4. **What about making my website dynamic?**  SoftDes may be a class in Python, but we can venture out a little and use some [jQuery](http://www.w3schools.com/jquery/jquery_intro.asp). jQuery might seem scary, but you use it in a way similar to adding/linking CSS styling to your HTML. You write scripts in JavaScript (which isn't too difficult), which can allow you to add beautiful responsive and dynamic content to your web app.
-
-

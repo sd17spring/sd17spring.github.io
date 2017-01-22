@@ -20,7 +20,7 @@ The starter code will be in `frequency.py`.
 ## Download your favorite book
 
 Go to Project Gutenberg (`<http://gutenberg.org>`) and download your favorite
-out-of-copyright book in plain text format. The file `pg32``3``2``5.txt` has
+out-of-copyright book in plain text format. The file `pg32325.txt` has
 been placed in the word_frequency_ analysis directory to give you an example of
 the type of file you should download.
 
