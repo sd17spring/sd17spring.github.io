@@ -5,13 +5,13 @@ published: false
 title: Day 14
 ---
 
-**Today**
+## Today
 
 * Interactive Programming project demos
 * Final project kickoff
 
 
-**For next time**
+## For Next Time
 
 * Think of final project ideas
 * Spring break woo

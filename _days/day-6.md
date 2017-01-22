@@ -5,13 +5,13 @@ published: false
 title: Day 6
 ---
 
-**Today**
+## Today
 
 * Making sense of your gene finder's output on the Salmonella data
 * Exploring some new DNA!
 * Computational art project kickoff
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python 5.8-5.14, 6.5-6.11
 

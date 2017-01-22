@@ -5,11 +5,11 @@ published: false
 title: Day 15
 ---
 
-**Today**
+## Today
 
 * Project ideation and team formation
 
-**For Next Time**
+## For Next Time
 
 * Project proposal
 * [Fill out the mid-course feedback survey]({{site.course.mid_course_feedback_survey_url}})

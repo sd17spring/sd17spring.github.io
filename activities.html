@@ -6,6 +6,6 @@ layout: single
 
 <ul>
 {% for day in site.days %}
-  <li><a href="{{ day.url }}">{{ day.title }} – {{ day.date | date: '%B %d' }}</a></li>
+  <li><a href="{{ day.url }}">{{ day.title }} – {{ day.description}}</a> ({{ day.date | date: '%B %d' }})</li>
 {% endfor %}
 </ul>

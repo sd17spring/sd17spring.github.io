@@ -5,12 +5,12 @@ published: false
 title: Day 10
 ---
 
-**Today**
+## Today
 
   * Studio work time on text mining mini project
   * Optional review of previous reading journal concepts
 
-**For next time**
+## For Next Time
 
   * Reading journal, Think Python 16 and 17
   * Mini Project 3 due Thursday

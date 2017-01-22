@@ -9,7 +9,7 @@ title: 'Mini Project 1: Gene Finder'
 
 ## Preliminaries
 
-**Computing Skills Emphasized:**
+### Computing Skills Emphasized
 
 * Modular design
 * Unit testing
@@ -19,17 +19,21 @@ title: 'Mini Project 1: Gene Finder'
 * String processing
 * [for the "going beyond" part] list comprehensions.
 
-**Biology Skills Emphasized:**
+### Biology Skills Emphasized
 
 * Gene detection in arbitrary DNA sequences (also known as "ab initio gene finding")
 * Understanding protein coding
 * Using Protein BLAST and interpreting its results
 * [for the "going beyond" part] Learning how to read research papers, regulatory mechanisms for protein synthesis
 
-**Acknowledgments:** this assignment was originally created by Professors Ran Libeskind-Hadas, Eliot C. Bush, and their [collaborators](https://www.cs.hmc.edu/twiki/bin/view/CS6/GreenAcknowledgements) at Harvey Mudd.
+### Acknowledgments
+
+This assignment was originally created by Professors Ran Libeskind-Hadas, Eliot C. Bush, and their [collaborators](https://www.cs.hmc.edu/twiki/bin/view/CS6/GreenAcknowledgements) at Harvey Mudd.
 Special thanks to Ran for allowing us to use this assignment and adapt it for this course.
 
-**Some Notes on the Assignment Structure:** in contrast to some of the mini-projects that will come later in this course, this project is much more scaffolded. This is by design. One of the principal goals of this course is to teach you how to write good code. Good code can mean lots of things: fast code, readable code, debuggable code, modular code, etc. One of the best ways to learn how to design and structure your own code is to see examples of well-designed software. In this assignment, you will have the opportunity to see a good example of modular code design. By modular we mean that the functions and their interactions have been carefully designed to create a concise, readable, and maintainable program.
+### Some Notes on the Assignment Structure
+
+In contrast to some of the mini-projects that will come later in this course, this project is much more scaffolded. This is by design. One of the principal goals of this course is to teach you how to write good code. Good code can mean lots of things: fast code, readable code, debuggable code, modular code, etc. One of the best ways to learn how to design and structure your own code is to see examples of well-designed software. In this assignment, you will have the opportunity to see a good example of modular code design. By modular we mean that the functions and their interactions have been carefully designed to create a concise, readable, and maintainable program.
 
 SoftDes is one of those courses where there is a wide range of prior-
 programming experience level among students. This class is designed to provide

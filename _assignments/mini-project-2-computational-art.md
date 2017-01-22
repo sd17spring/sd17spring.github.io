@@ -9,7 +9,9 @@ title: 'Mini Project 2: Computational Art'
 
 ## Preliminaries
 
-**Acknowledgments:**  this assignment has been adapted from Harvey Mudd Professor Chris Stone's assignment posted at the
+## Acknowledgments
+
+This assignment has been adapted from Harvey Mudd Professor Chris Stone's assignment posted at the
 [Stanford Nifty Assignments ](http://nifty.stanford.edu/) collection.
 
 ### Skills Emphasized

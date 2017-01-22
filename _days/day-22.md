@@ -5,7 +5,7 @@ published: false
 title: Day 22
 ---
 
-**Today**
+## Today
 
 * What is code review?
 * Code review activity

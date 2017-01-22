@@ -5,7 +5,7 @@ published: false
 title: Day 2
 ---
 
-**Today**
+## Today
 
 * Reading journal day 1 debrief
 * Exploring modular design
@@ -14,7 +14,7 @@ title: Day 2
 * How to get started with day 2 reading
 * Overview of mini-project 1
 
-**For next time**
+## For Next Time
 
 * Fill out the [course entrance survey]({{site.course.entrance_survey_url}}) if you haven't already
 * Complete Day 2 (and Day 1) Reading Journal before noon on 1/28

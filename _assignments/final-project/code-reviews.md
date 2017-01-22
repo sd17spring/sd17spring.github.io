@@ -31,6 +31,7 @@ The benefits we are hoping for in this class are:
 ## Before the Code Review
 
 **_1._** Your GitHub repository should contain a README that follows the [README rubric](/assignments/final-project/readme-rubric).
+
 **_2._** Your team should select _three_ code sections for code review. Each section will be presented by a different team member or members.
 
 Each code section should be a function, class, or set of functions, that sum
@@ -42,7 +43,6 @@ code that you want to show off; code that you suspect may be fragile or buggy;
 code that is particularly complicated.
 
 **_3._**  Assure that each code section has sufficient documentation for a reviewer to figure out when it's called, what it does, and how it does it. Documentation can include comments, unit tests, and descriptive function and variable names. If there is global information about the program's operation that doesn't make sense here, you may want to add it the README instead.
-
 
 **_4._**  For each code section, prepare a **_Review URL_** . We are giving you a choice of review mechanisms:
 
@@ -58,7 +58,7 @@ evaluate_random_function”.
 In either case, paste the Pull Request URL into the [SoftDes Code Review URL
 spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit?usp=sharing).
 
-**_5._ **  Decide which team member(s) are presenting which code segments. Each team member should be prepared to introduce the code segment to the reviewers. (See below.)
+**_5._** Decide which team member(s) are presenting which code segments. Each team member should be prepared to introduce the code segment to the reviewers. (See below.)
 
 ## Day of the Code Review
 

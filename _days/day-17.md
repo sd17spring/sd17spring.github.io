@@ -5,7 +5,7 @@ published: false
 title: Day 17
 ---
 
-**Today**
+## Today
 
 * Analysis of algorithms
 

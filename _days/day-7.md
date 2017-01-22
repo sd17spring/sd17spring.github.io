@@ -5,13 +5,13 @@ published: false
 title: Day 7
 ---
 
-**Today**
+## Today
 
 * Reading Journal debrief
 * Recursion
 * Fractal drawing in Turtle World
 
-**For next time**
+## For Next Time
 
 * Computational Art mini project due Wednesday 2/17
 * Reading journal, Think Python 11, 12 due Thursday 2/18 (but starting earlier is great)

@@ -5,13 +5,13 @@ published: false
 title: Day 12
 ---
 
-**Today**
+## Today
 
 * Model-view-controller
 * In-class game implementation
 * Review project proposals
 
-**For Next Time**
+## For Next Time
 
 * Reading journal day 12 (ThinkPython Chapter 18)
 * Mid-project checkin with a NINJA due this Thursday (remember there is no class that day)

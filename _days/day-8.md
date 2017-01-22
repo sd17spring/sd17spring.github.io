@@ -5,19 +5,19 @@ published: false
 title: Day 8
 ---
 
-**Today**
+## Today
 
 * Gallery show
 * More recursion (Levenshtein distance and memoization).
 * Text mining mini-project launch
 * Work on [pickling](/project-toolbox/pickling) toolbox
 
-**For Next Time**
+## For Next Time
 
 * Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_journal.ipynb) to original on GitHub)
 * Come up with your text mining and analysis project idea
 
-### More Recursion
+## More Recursion
 
 Let's circle back on some of the recursion practice problems from last time.
 We'll start by implementing Levenshtein distance together as a class. Here is
@@ -66,13 +66,13 @@ To get a better handle on this, let's consider some more examples.
 4. bett -&gt; bet (delete t)
 
 
-**Base Cases**
+### Base Cases
 
 Let's consider the base cases when one of the two strings is empty. What
 should the Levenshtein distance be in this case?
 
 
-**Recursive Step**
+### Recursive Step
 
 Let's consider the different ways in which we can make the first character of
 string `a` equal to the first character of string `b`. Here are the possible

@@ -5,12 +5,12 @@ published: false
 title: Day 25
 ---
 
-**Today**
+## Today
 
   * Project presentations
 
 
-**Project presentation guidelines**
+## Project presentation guidelines
 
 Presentations will all happen on a single shared laptop. Each team will have
 approximately 7 minutes to present. Your slides should have been posted to the
@@ -23,8 +23,3 @@ to the presenting team using the online survey forms below.
 
 * [Section 1](http://goo.gl/forms/KJkpyJh784)
 * [Section 2](http://goo.gl/forms/0Ctf0A1IbR)
-
-
-
-
-

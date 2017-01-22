@@ -5,13 +5,13 @@ published: false
 title: Day 13
 ---
 
-**Today**
+## Today
 
 * Object oriented reading journals review
 * UML diagrams
 * MP3 open studio work time
 
-**For next time**
+## For Next Time
 
 * MP3 due
 * No new reading journal assigned

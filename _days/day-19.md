@@ -5,19 +5,21 @@ published: false
 title: Day 19
 ---
 
-**Today**
+{% include toc %}
+
+## Today
 
 * Python debugger
 * Code profiling in Python
 
-### Getting to "Good Code" (TM)
+## Getting to "Good Code" (TM)
 
 For today's purposes, we'll define "good code" to be correct and fast. There
 are other equally important considerations, such as good documentation and
 organization, but these are harder to measure quantitatively.
 
 
-**Is the code correct?**
+### Is the code correct?
 
 If your code doesn't do what it is supposed to, then nothing else matters.
 We've discussed and practiced strategies for ensuring this, such as unit
@@ -25,7 +27,7 @@ testing. In situations when getting to "correct" proves difficult, it may be
 helpful to employ more advance debugging strategies.
 
 
-**Is the code fast enough?**
+### Is the code fast enough?
 
 If the code is doing what it should, the next question is whether it runs fast
 enough. There are several tools we can use to probe execution performance. The
@@ -33,7 +35,7 @@ answer to this question depends on context, but if the answer is "no" then we
 need to dig deeper.
 
 
-**Why not?**
+### Why not?
 
 For code with performance issues, it is important to understand precisely what
 makes it slow. For this, we often turn to profiling to pinpoint bottlenecks in
@@ -119,7 +121,7 @@ Once you have installed winpdb, try it out by running the following command:
 `$ winpdb ~/ClassNotes/pdb_practice/debugging_exercise_1.py`
 
 
-### Fast enough? Tools for benchmarking execution
+## Fast enough? Tools for benchmarking execution
 
 Performance is always relative - 30 seconds is great for analyzing a huge
 research data set and terrible for processing a credit card sale. It is also
@@ -163,7 +165,7 @@ It can also be run from within a Python program (there is an example at
 line). For understanding larger programs, you should consider code profiling.
 
 
-**Exercise**
+### Exercise
 
 Use `timeit` to compare `reverse_complement_1` and `reverse_complement_2` from
 Day 17. Do the results match your analytical understanding?
@@ -208,7 +210,7 @@ leisure. Full details are at the [profile
 documentation.](https://docs.python.org/2/library/profile.html)
 
 
-**Exercise**
+### Exercise
 
 I've started writing a palindromic phrase generator, but I'm struggling with
 performance issues. I've started by searching for "mirror pairs" - words that
@@ -235,7 +237,7 @@ B.3 and B.4. You do not need to keep the architecture/functional organization
 of the original code if it is slowing things down.
 
 
-**Exercise**
+### Exercise
 
 Go back and profile your code for GeneFinder (and the other mini projects).
 Where does your program spend most of its time? Are there bottlenecks you can

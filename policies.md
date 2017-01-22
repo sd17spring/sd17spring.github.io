@@ -46,7 +46,6 @@ work from journals in the next class, so it is not practical to get behind.
 You are allowed one "free pass" missed submission with no questions asked.
 
 
-
 ### Mini-Projects
 
 There will be four mini-projects over the course of the semester. The first
@@ -61,8 +60,8 @@ extend your previous work. This revision exercise accounts for 5% of your
 final grade.
 
 
+### Late Submissions
 
-**Late Submissions**
 The late penalty is 20% per day. However, if you find you are struggling to
 keep up, the worst thing you can do is to suffer in silence. Please come talk
 to an instructor or a NINJA. Also, see the bottom of this document for the
@@ -73,24 +72,18 @@ such as project proposals). The one exception to this rule is that if you are
 5 days late with an assignment (so you would receive a 0% without late penalty
 forgiveness), you will still receive a 0% on that assignment.
 
-
-
 _Example 1:_  All mini-projects are on time except mini-project 1 which was 2
 days late and mini-project 2 which was 3 days late. When we calculate your
 final grade the fact that you were 3 days late on mini-project 2 will be
 disregarded.
 
-
 _Example 2:_ All mini-projects are on time except mini-project 4 which is 7
 days late. You will receive a 0% for mini-project 4. You do not benefit from
 late penalty forgiveness.
 
-
-
 Every file you turn in must have a top-level comment identifying you as the
 author and listing anyone who made a substantial contribution. This comment is
 your assertion that the mini-project represents your own work.
-
 
 
 ### Project Toolbox
@@ -118,7 +111,6 @@ project to the class and turn in your code and a final report. We will provide
 details as we go along.
 
 
-
 ### Participation and Professionalism
 
 We will do lots of fun and useful things during class time. You should plan to
@@ -129,21 +121,18 @@ classroom atmosphere that is conducive to everyone's learning and enjoyment. I
 hope you will think about how your participation contributes to the learning
 environment.
 
-
-
 Some things you can do to help:
 
-  1. Come to class on time! I will do my best to use class time effectively. Late arrivals are disruptive.
-  2. Come to class prepared. Make sure you have always completed your reading journal.
-  3. Try not to fall behind. If we are all working on the same stuff at the same time, everything works better.
-  4. Be active on Piazza discussions, both asking and answering questions.
-  5. Take care of your brain. Eat well, sleep well, get some exercises. Come to class ready to work.
-  6. Be professional.
-  7. Be respectful.
-  8. Be generous with your ideas and your time. Help each other.
-  9. Be reflective. Think about what's working and what's not, and take responsibility for making the class work for you.
-  10. Have fun!
-
+1. Come to class on time! I will do my best to use class time effectively. Late arrivals are disruptive.
+2. Come to class prepared. Make sure you have always completed your reading journal.
+3. Try not to fall behind. If we are all working on the same stuff at the same time, everything works better.
+4. Be active on Piazza discussions, both asking and answering questions.
+5. Take care of your brain. Eat well, sleep well, get some exercises. Come to class ready to work.
+6. Be professional.
+7. Be respectful.
+8. Be generous with your ideas and your time. Help each other.
+9. Be reflective. Think about what's working and what's not, and take responsibility for making the class work for you.
+10. Have fun!
 
 
 ## Use of Code From External Sources
@@ -152,31 +141,21 @@ In general, you are encouraged to search for and use code from external
 resources, with appropriate attribution. Guidelines for using external code
 depend on the context and your use of the code.
 
-
-
 For example, if you find snippets of code that make up a small part of an
 assignment, and assemble them into a solution, that's perfectly fine. If the
 snippets demonstrate common use of Python features, you can use them without
 attribution. Something more substantial or unusual should be attributed.
 
-
-
 The goal of the mini-projects is to give you an opportunity to develop
 programming skills, so you should avoid using online solutions that undermine
 that goal.
 
-
-
 One goal of the reading journals is to evaluate your progress, so you should
 not use external resources in a way that undermines that goal.
-
-
 
 All material that you turn in, is presumed to be your own work, unless you
 explicitly attribute it to another source. Representing someone else's work as
 your own is a violation of engineering ethics and Olin's Honor Code.
-
-
 
 Every code example you turn in must have a top-level comment identifying you
 as the author and listing anyone who made a substantial contribution. This
@@ -225,15 +204,8 @@ comment is your assertion that the code represents your own work.
 
   * Style: no comments or docstrings. Code is not “readable”. Poor choice of variable and function names.
 
-
-
 0: they have not turned anything in.
-
-
 
 Each assignment should be graded on each of these 3 axes. The final assignment
 grade will be based on a weighted average of each of these 3 grades with
 weights as follows: functionality 60%, documentation 20%, style 20%.
-
-
-

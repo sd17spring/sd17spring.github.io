@@ -5,12 +5,12 @@ published: false
 title: Day 9
 ---
 
-**Today**
+## Today
 
 * Reading journal debrief
 * Walkthrough of pickling a dataset
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python 13 (optional) and 15
 

@@ -5,14 +5,14 @@ published: false
 title: Day 11
 ---
 
-**Today**
+## Today
 
 * Mini project 4 kick off
 * Classes - defining your own Python types
 * Text mining project presentations
 * In-class exercise: define geometry classes
 
-**For next time**
+## For Next Time
 
 * Reading journal, review Think Python 15-17
 * [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before Saturday)

@@ -5,13 +5,13 @@ published: false
 title: Day 21
 ---
 
-**Today**
+## Today
 
 * README files
 * Project websites
 * Organizing large Python projects
 
-**For next time**
+## For Next Time
 
 * Start your project website and link to it from your GitHub repository
 * Create/update your README file

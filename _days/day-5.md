@@ -5,14 +5,14 @@ published: false
 title: Day 5
 ---
 
-**Today**
+## Today
 
 * Reading journal debrief
 * State diagrams, aliasing, and scope
 * [Live reload of test cases (“split-screen development”)](https://piazza.com/class/ijkborva8jk70v?cid=85)
 * Map and filter, iteration strategies – [Notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python chapter 4
 * Gene Finder due before class
