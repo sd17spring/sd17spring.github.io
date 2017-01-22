@@ -14,7 +14,7 @@ title: Day 8
 
 **For Next Time**
 
-* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_ journal.ipynb) to original on GitHub)
+* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_journal.ipynb) to original on GitHub)
 * Come up with your text mining and analysis project idea
 
 ### More Recursion
@@ -25,7 +25,7 @@ the description of the problem from last time.
 
 > Write a function called `levenshtein_distance` that takes as input two
 strings and returns the [Levenshtein
-distance](https://en.wikipedia.org/wiki/Levenshtein_ distance) between the two
+distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the two
 strings. Intuitively, the Levenshtein distance is the minimum number of edit
 operations to transform one string into the other (for this reason Levenshtein
 distance is sometimes called "edit distance"). These edits can either be
@@ -51,7 +51,7 @@ To get a better handle on this, let's consider some more examples.
 2. sitten -&gt; smitten (insert between s and i)
 
 
-`levenshtein_ distance('beta', 'pedal')` -> 3 (see below for steps)
+`levenshtein_distance('beta', 'pedal')` -> 3 (see below for steps)
 
 1. beta -&gt; peta (b gets replaced by p)
 2. peta -&gt; petal (l gets inserted at the end)
@@ -121,7 +121,7 @@ def nchoosek(n, k):`
         return 1
     return nchoosek(n - 1, k - 1) + nchoosek(n - 1, k)
 
-if_ _name_ _ == '_ _main_ _':
+if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose=True)
 ```
@@ -140,7 +140,7 @@ loose with the mixing pseudo code and Python, but this should become clear
 when we do a concrete example.
 
 ``` python
-def recursive_ function(input1, input2):
+def recursive_function(input1, input2):
     if input1, input2 is a base case:
         return base case result
     if input1, input2 is in the list of already computed answers

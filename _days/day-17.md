@@ -24,14 +24,14 @@ At your table, discuss the following questions:
 
 ## Practice with Order of Growth
 
-Suppose we are given two python functions **do_procedure_ f1**  and
-**do_procedure_ f2** . Each function processes a list **L**  in some fashion
+Suppose we are given two python functions `do_procedure_f1` and
+`do_procedure_f2`. Each function processes a list `L`  in some fashion
 (what these programs do is unimportant for this exercise). We are told that
 the order of growth of these procedures is:
 
-* **do_procedure_ f1**  is **O(n)** (where n is the length of the input list **L** )
+* `do_procedure_f1`  is `O(n)` (where n is the length of the input list `L`)
 
-* **do_procedure_ f2**  is **O(1)**  (where n is the length of the input list **L)**
+* `do_procedure_f2`  is `O(1)` (where n is the length of the input list `L`)
 
 What are the order of growths of the following computations?
 

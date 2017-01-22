@@ -17,9 +17,9 @@ title: Day 9
 ### Reading Journal Debrief
 
 We'll be going over your compiled answers ([full
-version,](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_ reading_journal_ responses.ipynb)
+version,](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_reading_journal_responses.ipynb)
 [abridged
-version](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_ reading_journal_ responses_abridged.ipynb)).
+version](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_reading_journal_responses_abridged.ipynb)).
 
 ### Walkthrough of Creating a Pickled Dataset
 

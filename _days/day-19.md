@@ -61,7 +61,7 @@ documentation](https://docs.python.org/2/library/pdb.html) under "analyzing a
 crashed program").
 
 There are a variety of approaches to using PDB in this capacity. One method is
-to add the **pdb.set_trace**  command to your program to tell the debugger to
+to add the `pdb.set_trace` command to your program to tell the debugger to
 pause execution at a particular location and enter interactive mode.
 
 ``` python
@@ -70,12 +70,12 @@ import pdb
 def factorial(n):
  """ Computes the factorial of the non-negative input integer n """
  return_val = 1
- pdb.set_ trace()
+ pdb.set_trace()
  for i in range(n):
  return_val *= i
  return return_val
 
-if_ _name_ _ == '_ _main_ _':
+if __name__ == '__main__':
  print(factorial(5))
 ```
 
@@ -83,15 +83,15 @@ Let's debug this one together.
 
 Some important commands for pdb:
 
-  * c - continue until next set_trace or breakpoint
-  * n - next line in current function
-  * s - step until first opportunity to stop (either in current function or a called function)
-  * l - source code listing
-  * a - arguments of function
-  * d - down a level in the stack diagram
-  * u - up a level in the stack diagram
-  * p - print the value of an expression
-  * w - where are you in the stack
+* c - continue until next set_trace or breakpoint
+* n - next line in current function
+* s - step until first opportunity to stop (either in current function or a called function)
+* l - source code listing
+* a - arguments of function
+* d - down a level in the stack diagram
+* u - up a level in the stack diagram
+* p - print the value of an expression
+* w - where are you in the stack
 
 For more practice, pull the latest changes from the `ClassNotes` repo.
 
@@ -116,7 +116,7 @@ to the extracted folder, and run `sudo python setup.py install -f`.
 
 Once you have installed winpdb, try it out by running the following command:
 
-`$ winpdb ~/ClassNotes/pdb_ practice/debugging_exercise_ 1.py`
+`$ winpdb ~/ClassNotes/pdb_practice/debugging_exercise_1.py`
 
 
 ### Fast enough? Tools for benchmarking execution
@@ -165,7 +165,7 @@ line). For understanding larger programs, you should consider code profiling.
 
 **Exercise**
 
-Use `timeit` to compare `reverse_complement_ 1` and `reverse_complement_ 2` from
+Use `timeit` to compare `reverse_complement_1` and `reverse_complement_2` from
 Day 17. Do the results match your analytical understanding?
 
 

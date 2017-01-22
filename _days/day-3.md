@@ -21,5 +21,5 @@ title: Day 3
 ### Reading Journal Day 2 Review
 
 We'll be going over the [reading
-journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day2_ reading_journal_ responses.ipynb)
+journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day2_reading_journal_responses.ipynb)
 as a class.

@@ -19,14 +19,14 @@ title: Day 12
 ### Model-View-Controller
 
 Model-View-Controller is what is known as a [software design
-pattern](https://en.wikipedia.org/wiki/Software_design_ pattern).
+pattern](https://en.wikipedia.org/wiki/Software_design_pattern).
 
 
 > In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a **[design
-pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern" )**  is
+pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern")**  is
 a general reusable solution to a commonly occurring problem within a given
 context in [software design](https://en.wikipedia.org/wiki/Software_design). A design pattern is not a finished design that can be
-transformed directly into [source](https://en.wikipedia.org/wiki/Source_ code) or [machine](https://en.wikipedia.org/wiki/Machine_code) code. It is a description or template for how to solve a
+transformed directly into [source](https://en.wikipedia.org/wiki/Source_code) or [machine](https://en.wikipedia.org/wiki/Machine_code) code. It is a description or template for how to solve a
 problem that can be used in many different situations. Patterns are formalized
 [best practices](https://en.wikipedia.org/wiki/Best_practice)
 that the programmer can use to solve common problems when designing an
@@ -43,15 +43,15 @@ MVC design pattern.
 
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/500px-MVC-Process.svg.png)
 
-> * A _controller_  can send commands to the model to update the model's state
+> * A _controller_ can send commands to the model to update the model's state
 (e.g. editing a document). It can also send commands to its associated view to
 change the view's presentation of the model (e.g. by scrolling through a
 document).
 >
-> * A _model_  stores data that is retrieved according to commands from the
+> * A _model_ stores data that is retrieved according to commands from the
 controller and displayed in the view.
 >
-> * A _view_  generates an output presentation to the user based on changes in
+> * A _view_ generates an output presentation to the user based on changes in
 the model.
 >
 > \-- Wikipedia article on Software Design Pattern

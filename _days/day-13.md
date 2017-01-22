@@ -16,10 +16,8 @@ title: Day 13
 * MP3 due
 * No new reading journal assigned
 
-
 ## Collected reading journal responses
 
-* [Day 10](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day10_ reading_journal_ responses.ipynb)
-* [Day 11](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day11_ reading_journal_ responses.ipynb)
-* [Day 12](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day12_ reading_journal_ responses.ipynb)
-
+* [Day 10](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day10_reading_journal_responses.ipynb)
+* [Day 11](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day11_reading_journal_responses.ipynb)
+* [Day 12](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day12_reading_journal_responses.ipynb)

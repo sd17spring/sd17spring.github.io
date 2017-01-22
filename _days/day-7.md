@@ -45,7 +45,7 @@ strings. Intuitively, the Levenshtein distance is the minimum number of edit
 operations to transform one string into the other (for this reason Levenshtein
 distance is sometimes called "edit distance"). These edits can either be
 insertions, deletions, or substitutions. Note that Levenshtein distance is
-similar to [Hamming distance](https://en.wikipedia.org/wiki/Hamming_ distance),
+similar to [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance),
 but works for strings of differing lengths
 
 Here are some examples of these operations:

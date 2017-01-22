@@ -29,9 +29,8 @@ that we collected from the class.
 
 ## Exploring Modular Design
 
-In groups of 3, review the [solutions from the
-class](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day1_ reading_journal_ responses.ipynb)
-to the Chapter 3 Exercise 5.
+In groups of 3, review the solutions from the
+class to the Chapter 3 Exercise 5.
 
 What aspects of these different designs:
 

@@ -21,7 +21,7 @@ title: Day 5
 ### Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day4_ reading_journal_ responses.ipynb).
+answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day4_reading_journal_responses.ipynb).
 Here is a condensed summary of the [main
 takeaways](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/Day%204%20Reading%20Journal%20Notes.ipynb).
 
@@ -50,4 +50,3 @@ your pull requests. Instead, we use them as:
 
 1. Your way to tell us when you're done and we should look at your assignment, and
 2. A mechanism for us to provide written feedback on your code
-
