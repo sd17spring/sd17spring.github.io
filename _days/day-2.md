@@ -92,8 +92,8 @@ There are many ways to run the Python code you write:
 
 ``` bash
 $ python3
-Python 2.7.6 (default, Jun 22 2015, 17:58:13)
-[GCC 4.8.2] on linux2
+Python 3.4.3 (default, Sep 14 2016, 12:36:27)
+[GCC 4.8.4] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Hello, SoftDes!")
 Hello, SoftDes!
