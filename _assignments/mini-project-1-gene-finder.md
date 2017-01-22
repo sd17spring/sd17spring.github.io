@@ -110,7 +110,7 @@ The podcast discusses a number of topics, but the first segment of the podcast
 is about Typhoid Mary (although, you really should listen to the whole thing;
 you will not be disappointed).
 
-![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %}
+![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %})
 
 Image source: <http://en.wikipedia.org/wiki/Typhoid_Mary>
 
@@ -174,7 +174,7 @@ start).
 Now that you have a good sense of the functions you will be filling out, take
 a look at this function diagram.
 
-![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %}
+![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %})
 
 This diagram shows all of the functions in the program, and uses a directed
 arrow to indicate that the function on the "from" side of the arrow calls the
