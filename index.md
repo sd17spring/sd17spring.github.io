@@ -38,7 +38,8 @@ various online retailers)
 ## Communication
 
 All communication for this class will be through [Piazza]({{site.course.piazza_url}})
-and the #softdes17spring channel of the [Olin Slack team](https://olin.slack.edu).
+and the [#softdes17spring channel](https://olin.slack.com/messages/softdes17spring/) of the
+[Olin Slack team](https://olin.slack.edu).
 There is no mailing list.
 {% endif %}
 
