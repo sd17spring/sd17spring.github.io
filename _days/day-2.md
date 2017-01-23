@@ -88,7 +88,7 @@ print("Hello, world!")
 In order to execute our new program we open a terminal, navigate (using Linux commands such as `cd` and `ls`) to the directory (folder) where we saved `hello.py`, and then execute the command:
 
 ```
-$ python hello.py
+$ python3 hello.py
 ```
 
 Executing this command should produce the following output.
