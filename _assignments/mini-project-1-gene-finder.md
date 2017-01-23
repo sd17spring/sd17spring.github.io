@@ -135,8 +135,7 @@ reading journal. For your reference, here are the steps again:
 
 ``` bash
 $ cd ~
-$ git clone https://github.com/yourgithubusernamehere/GeneFinder.git # the
-https URL will be the URL copied in step 5)
+$ git clone https://github.com/yourgithubusernamehere/GeneFinder.git # the https URL will be the URL copied in step 5)
 $ cd GeneFinder
 $ git remote add upstream https://github.com//{{site.course.github_owner}}/GeneFinder.git
 $ ls *
@@ -499,4 +498,3 @@ this longest match.
 Read more about other approaches to [gene-finding in
 prokaryotes](http://www.researchgate.net/profile/Ljupco_Kocarev/publication/228856410_Computational_Methods_for_Gene_Finding_in_Prokaryotes/links/004635244f8d1c7267000000.pdf).
 If you are really gung-ho, pick one, and implement it!
-
