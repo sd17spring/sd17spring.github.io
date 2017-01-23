@@ -1,6 +1,6 @@
 ---
 date: '2017-01-23'
-description: Exploring modular design, intro to unit testing
+description: Ramping up in Python
 title: Day 2
 ---
 
