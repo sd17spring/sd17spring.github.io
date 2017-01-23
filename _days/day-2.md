@@ -110,7 +110,7 @@ runs that command.
 You can execute Python scripts from within the Python interpreter (when running in interactive mode).  To do so execute the following command from the Python prompt.
 
 ```
->>> execfile('hello.py')
+>>> exec(open('hello.py').read())
 ```
 
 ### Method 4: inside the iPython interpreter
