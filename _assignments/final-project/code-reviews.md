@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-14 10:36:07 -0500
 description: ''
-title: Code Reviews
 parent: final-project
+title: Code Reviews
 ---
 
 {% include toc %}
@@ -17,7 +17,7 @@ improve your code.
 Code Review day will be divided into three review periods. During one period,
 you will present code from your project for classmates to review. During the
 other two periods, you will review code from other projects in your [team
-group](/assignments/final-project/technical-reviews#team-groupings-and-schedule). Each team member (or, in some cases, _pair_  of
+group](/assignments/final-project/technical-reviews#team-groupings-and-schedule). Each team member (or, in some cases, _pair_ of
 members) will present code separately from the rest of their team.
 
 Code review has many benefits, and is broadly used in the software industry.
@@ -31,7 +31,8 @@ The benefits we are hoping for in this class are:
 ## Before the Code Review
 
 **_1._** Your GitHub repository should contain a README that follows the [README rubric](/assignments/final-project/readme-rubric).
-**_2._** Your team should select _three_  code sections for code review. Each section will be presented by a different team member or members.
+
+**_2._** Your team should select _three_ code sections for code review. Each section will be presented by a different team member or members.
 
 Each code section should be a function, class, or set of functions, that sum
 to 50 to 200 lines of code. If the code is complex, Bias towards the shorter
@@ -43,22 +44,21 @@ code that is particularly complicated.
 
 **_3._**  Assure that each code section has sufficient documentation for a reviewer to figure out when it's called, what it does, and how it does it. Documentation can include comments, unit tests, and descriptive function and variable names. If there is global information about the program's operation that doesn't make sense here, you may want to add it the README instead.
 
-
-**_4._**  For each code section, prepare a **_Review URL_ ** . We are giving you a choice of review mechanisms:
+**_4._**  For each code section, prepare a **_Review URL_** . We are giving you a choice of review mechanisms:
 
 _Option 1_ : Take a screenshot of your code, and upload it to
 <http://bounceapp.com>.
 
-_Option 2_ : Create a whole-project GitHub Pull Request for your entire
+_Option 2_: Create a whole-project GitHub Pull Request for your entire
 project. (The instructions for this will be posted in Piazza.) The Pull
 Request should describe the code section that is being submitted for review;
 for example, “file recursive_art.py, functions build_ random_function and
-evaluate_ random_function”.
+evaluate_random_function”.
 
 In either case, paste the Pull Request URL into the [SoftDes Code Review URL
-spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_ PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit?usp=sharing).
+spreadsheet](https://docs.google.com/spreadsheets/d/1wMGPpfNCHD_PmlquK3ffDJjZdtsxi49nz0BCG-bJapA/edit?usp=sharing).
 
-**_5._ **  Decide which team member(s) are presenting which code segments. Each team member should be prepared to introduce the code segment to the reviewers. (See below.)
+**_5._** Decide which team member(s) are presenting which code segments. Each team member should be prepared to introduce the code segment to the reviewers. (See below.)
 
 ## Day of the Code Review
 

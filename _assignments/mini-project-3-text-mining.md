@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
+due_date: '2017-02-22'
 title: 'Mini Project 3: Text Mining and Analysis'
 toc: true
-due_date: '2017-02-22'
 ---
 
 {% include toc %}
@@ -33,10 +33,10 @@ on your computer.
 
 You should read this document in a somewhat non-linear/spiral fashion:
 
-1. Scan through [Part 1](/assignments/text-mining#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
-2. Scan through [Part 2](/assignments/text-mining#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
+1. Scan through [Part 1](#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
+2. Scan through [Part 2](#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
 3. Choose (at least) one data source from Part 1 or elsewhere and analyze/manipulate/transform that text using technique(s) from Part 2 or elsewhere.
-4. Write a brief document about what you did ([Part 3](/assignments/text-mining#part-3-project-writeup-and-reflection))
+4. Write a brief document about what you did ([Part 3](#part-3-project-writeup-and-reflection))
 
 ## Part 1: Harvesting text from the Internet
 
@@ -63,12 +63,12 @@ To make sure that Pattern is installed correctly, try these commands in
 Python:
 
     >>> from pattern.web import *
-    >>> print URL('http://google.com').download()
+    >>> print(URL('http://google.com').download())
 
 
 If Pattern is installed correctly, you should see the HTML from Google's front
 page. If you'd like to learn more about what is going on behind the scenes,
-check out the [Web APIs Project Toolbox](/project-toolbox/geocoding-and-web-apis) assignment.
+check out the [Web APIs Project Toolbox]({% link _toolboxes/geocoding-and-web-apis.md %}) assignment.
 
 By default, Pattern uses a common license key for every user. If you use the
 common license keys, then you will be subject to service denials if the a
@@ -77,7 +77,7 @@ particular search engine gets hit with the same license key too many times.
 After you have chosen which data source you would like to use, follow the
 directions [here](http://www.clips.ua.ac.be/pages/pattern-web#license) to get
 personal license keys. When you make a Pattern query you can provide your
-personal key as an argument, e.g. `license='123ABC_MY_ LICENCE...'`. To default
+personal key as an argument, e.g. `license='123ABC_MY_LICENCE...'`. To default
 to using your personal keys, you can edit `/usr/local/lib/python2.7/dist-
 packages/pattern/web/api.py` (assuming you installed with `pip`). Make sure to
 start a new Python interpreter for your changes to take effect.
@@ -103,8 +103,8 @@ inside Python, I would use the following code:
 
 ``` python
 from pattern.web import *
-oliver_twist_ full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
-print oliver_ twist_full_ text
+oliver_twist_full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
+print(oliver_twist_full_text)
 ```
 
 Note, that there is a preamble (boiler plate on Project Gutenberg, table of
@@ -115,7 +115,7 @@ Project Gutenberg is that they impose a limit on how many texts you can
 download in a 24-hour period (which lead to me getting banned the other day).
 So, if you are analyzing say 10 texts, you might want to download them once
 and load them off disk rather than fetching them off of Project Gutenberg's
-servers every time you run your program (see the [Pickling Data](/assignments/text-mining#pickling-data) section for some relevant
+servers every time you run your program (see the [Pickling Data](#pickling-data) section for some relevant
 information on doing this). However, there are
 [many](http://www.gutenberg.org/MIRRORS.ALL)
 [mirrors](http://onlinebooks.library.upenn.edu/) of the Project Gutenberg site
@@ -130,8 +130,8 @@ Here is an example of searching for Olin College using Google:
 from pattern.web import *
 g = Google()
 for result in g.search('Olin College'):
-print result.url
-print result.text
+print(result.url)
+print(result.text)
 ```
 
 The first two lines printed out by this Python program are:
@@ -145,8 +145,7 @@ Official site provides news and information about the campus, academics,
 Notice that the second line of output has an HTML tag (in this case `<br>`)
 mixed in (if you don't know what an HTML tag is, don't worry). If you want to
 remove HTML from any string with Pattern you can use the `plaintext` function.
-For instance, if you change the line of code `print result.text` to `print
-plaintext(result.text)` you will get:
+For instance, if you change the line of code `print(result.text)` to `print(plaintext(result.text))` you will get:
 
 ```
 http://www.olin.edu/
@@ -172,7 +171,7 @@ Here is a Python program to print out the title of every Wikipedia article:
 from pattern.web import *
 w = Wikipedia()
 for article_title in w.index():
-    print article_ title`
+    print(article_title`)
 ```
 
 Given that you know the particular title of the article you would like to
@@ -183,7 +182,7 @@ following Python program:
 from pattern.web import *
 w = Wikipedia()
 olin_article = w.search('Olin College')
-print olin_ article.sections
+print(olin_article.sections)
 ```
 
 Which yields the output:
@@ -220,7 +219,7 @@ s = Twitter().stream('#fail')
 for i in range(10):
     time.sleep(1)
     s.update(bytes=1024)
-    print s[-1].text if s else ''
+    print(s[-1].text if s else '')
 ```
 
 When I ran this program the other day I got the following output:
@@ -245,7 +244,7 @@ currently trending on twitter using this Python program:
 
 ``` python
 from pattern.web import *
-print Twitter().trends()
+print(Twitter().trends())
 ```
 
 Which produced the following output when I tried running the code:
@@ -271,7 +270,7 @@ examines my profile and prints out my basic information:
 from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
-print me
+print(me)
 ```
 
 Which generates the output:
@@ -285,7 +284,7 @@ Facebook:
 from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
-print len(f.search(me[0], type=FRIENDS, count=10000))
+print(len(f.search(me[0], type=FRIENDS, count=10000)))
 ```
 
 Note that `count = 10000` simply specifies the maximum number of results that
@@ -298,11 +297,11 @@ from pattern.web import *
 f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
 me = f.profile()
 my_friends = f.search(me[0], type=FRIENDS, count=10000)
-for friend in my_ friends:
+for friend in my_friends:
     friend_news = f.search(friend.id, type=NEWS, count=10000)
-    for news in friend_ news:
-        print news.text
-        print news.author
+    for news in friend_news:
+        print(news.text)
+        print(news.author)
 ```
 
 You can also check out your friends' comments and likes.
@@ -321,8 +320,8 @@ Here's an example from the [PRAW docs page](https://praw.readthedocs.org/en/stab
 
 ``` python
 import praw
-r = praw.Reddit(user_agent='my_ cool_application')
-submissions = r.get_ subreddit('opensource').get_hot(limit=5)
+r = praw.Reddit(user_agent='my_cool_application')
+submissions = r.get_subreddit('opensource').get_hot(limit=5)
 [str(x) for x in submissions]
 ```
 
@@ -351,7 +350,7 @@ For several of these data sources you might find that the API calls take a
 pretty long time to return, or that you run into various API limits. To deal
 with this, you will want to save the data that you collect from these services
 so that the data can be loaded back at a later point in time. Suppose you have
-a bunch of Project Gutenberg texts in a list called `charles_dickens_ texts`.
+a bunch of Project Gutenberg texts in a list called `charles_dickens_texts`.
 You can save this list to disk and then reload it using the following code:
 
 
@@ -360,17 +359,17 @@ import pickle
 
 # Save data to a file (will be part of your data fetching script)
 f = open('dickens_texts.pickle','w')
-pickle.dump(charles_ dickens_texts,f)
+pickle.dump(charles_dickens_texts,'f')
 f.close()
 
 # Load data from a file (will be part of your data processing script)
-input_ file = open('dickens_texts.pickle','r')
-reloaded_ copy_of_ texts = pickle.load(input_file)
+input_file = open('dickens_texts.pickle','r')
+reloaded_copy_of_texts = pickle.load(input_file)
 ```
 
 The result of running this code is that all of the texts in the list variable
-`charles_ dickens_texts` will now be in the list variable
-`reloaded_ copy_of_ texts`. In the code that you write for this project you
+`charles_dickens_texts` will now be in the list variable
+`reloaded_copy_of_texts`. In the code that you write for this project you
 won't want to pickle and then unpickle in the same Python script. Instead, you
 might want to have a script that pulls data from the web using Pattern's APIs
 and then pickles them to disk. You can then create another program for
@@ -378,17 +377,17 @@ processing the data that will read the pickle file to get the data loaded into
 Python so you can perform some analysis on it.
 
 For more details and practice, check out the [Pickling Project
-Toolbox](/project-toolbox/pickling) assignment.
+Toolbox]({% link _toolboxes/pickling.md %}) assignment.
 
 
 ### Troubleshooting Pattern
 
-_**Problem** _: I am able to execute Pattern API calls, however, when I execute
+_**Problem**_: I am able to execute Pattern API calls, however, when I execute
 a lot of them in sequence I sometimes run into errors (e.g. SSLError).
 
-**_Solution 1_** : Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_ HERE", throttle=0.5))`. If that doesn't work try solution 2.
+**_Solution 1_**: Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_HERE", throttle=0.5))`. If that doesn't work try solution 2.
 
-**_Solution 2_** : I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
+**_Solution 2_**: I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
 
 ``` python
 from pattern.web import *
@@ -405,7 +404,7 @@ while retry:
     except:
         time.sleep(5) # sleep a little bit before retry
 
-for friend in my_ friends:
+for friend in my_friends:
     retry = True
     while retry:
     try:
@@ -413,9 +412,9 @@ for friend in my_ friends:
         retry = False # we have achieved success, don't retry
     except:
         time.sleep(5) # sleep a little bit before retry
-    for news in friend_ news:
-        print news.text
-        print news.author
+    for news in friend_news:
+        print(news.text)
+        print(news.author)
 ```
 
 
@@ -450,7 +449,7 @@ analysis](http://en.wikipedia.org/wiki/Sentiment_analysis):
 
 ``` python
 from pattern.en import *
-print sentiment('Software Design is my favorite class!')
+print(sentiment('Software Design is my favorite class!'))
 ```
 
 This program will print out:
@@ -475,7 +474,7 @@ each tweet that comes by in the stream? There are tons of cool options here!
 
 It is potentially quite useful to be able to compute the similarity of two
 texts. Suppose that we have characterized some texts from Project Gutenberg
-using [word frequency analysis](/assignments/text-mining#characterizing-by-word-frequencies). One way to compute the
+using [word frequency analysis](#characterizing-by-word-frequencies). One way to compute the
 similarity of two texts is to test to what extent when one text has a high
 count for a particular word the other text also a high count for a particular
 word. Specifically, we can compute the [cosine
@@ -529,7 +528,7 @@ compares each work with all other works.
 
 If you can generate pairwise similarities (say using the technique above), you
 can Metric Multi-dimensional Scaling
-([MDS](http://en.wikipedia.org/wiki/Multidimensional_ scaling)) to visualize
+([MDS](http://en.wikipedia.org/wiki/Multidimensional_scaling)) to visualize
 the texts in a two dimensional space. This can help identify clusters of
 similar texts (for instance, which of your friends on Facebook are most
 similar to each other). Here is a particularly inspiring example by Matthew
@@ -540,7 +539,7 @@ paper).
 ![](http://newsroom.unl.edu/releases/downloadables/photo/20120828macro-american.jpg)
 
 In order to apply MDS to your data, you can use the machine learning toolkit
-scikit-learn (to install it consult the [machine learning toolbox)](/project-toolbox/machine-learning).
+scikit-learn (to install it consult the [machine learning toolbox)]({% link _toolboxes/machine-learning.md %}).
 
 Here is some code that uses the similarity matrix defined in the previous
 section to create a 2-dimensional embedding of the four Charles Dickens and 1
@@ -578,12 +577,12 @@ meaning, but the embedding tries to maintain the similarity relationships that
 we computed via comparing word frequencies. Keep in mind that the point
 labeled 4 is the work by Charles Darwin.
 
-![](/assets/assignments/text-mining/figure_1.png?height=300&width=400)
+![]({% link images/assignments/text-mining/figure_1.png %}){:width="400px" height="300px"}
 
 
 ### Markov Text Synthesis
 
-You can use [Markov](http://en.wikipedia.org/wiki/Markov_ chain) analysis to
+You can use [Markov](http://en.wikipedia.org/wiki/Markov_chain) analysis to
 learn a generative model of the text that you collect from the web and use it
 to generate new texts. You can even use it to create mashups of multiple
 texts. Two possibilities in this space would be to imitate Facebook posts by

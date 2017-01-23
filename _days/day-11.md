@@ -5,18 +5,18 @@ published: false
 title: Day 11
 ---
 
-**Today**
+## Today
 
 * Mini project 4 kick off
 * Classes - defining your own Python types
 * Text mining project presentations
 * In-class exercise: define geometry classes
 
-**For next time**
+## For Next Time
 
 * Reading journal, review Think Python 15-17
-* [Choose MP4 topic and partner](/assignments/interactive-visualization#getting-started) (before Saturday)
-* [MP4 project proposal](/assignments/interactive-visualization#project-proposal)
+* [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before Saturday)
+* [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}#project-proposal)
 
 
 ## Text mining project presentations
@@ -46,30 +46,30 @@ to your file system, and modify it so that the doctests pass:
 python geometry.py
 ```
 
-In order to run the doctests for a _single method_ , comment out
-`doctest.testmod` and uncomment `doctest.run_docstring_ examples` at the end of
+In order to run the doctests for a _single method, comment out
+`doctest.testmod` and uncomment `doctest.run_docstringexamples` at the end of
 the file:
 
 ``` python
- doctest.testmod()
- # doctest.run_docstring_ examples(Line.__repr_ _, globals())
+doctest.testmod()
+# doctest.run_docstringexamples(Line.__repr_, globals())
 ```
 →
 ``` python
- # doctest.testmod()
- doctest.run_ docstring_examples(Line._ _repr_ _, globals())
+# doctest.testmod()
+doctest.rundocstring_examples(Line._repr_, globals())
 ```
 
 You can use the `Point` class from the reading, but you are not required to.
 
 Two of the methods in this file, `Line.intersection` and `Rect.intersection`,
 have their doc tests commented out. (Yes, they're commented out within a
-comment.) You don't need to implement these. They're the subject of the third_ Going Beyond_ exercise, below.
+comment.) You don't need to implement these. They're the subject of the third _Going Beyond_ exercise, below.
 
 Think about:
 
-1. A rectangle conceptually has_ left_,_ right_,_ top_, and_ bottom_ coordinates, as well as_ width_ and_ height_. How many of these do you need to store, and how many can be calculated? Which ones will make the implementation of the class methods simpler?
-2. Line's initialization method takes two_ x_ coordinates in either order (x0 &lt; x1, or x1 &lt; x0). Is there work you could do when you initialize the object, that would make it easier to implement the methods.
+1. A rectangle conceptually has _left_, _right_, _top_, and _bottom_ coordinates, as well as _width_ and _height_. How many of these do you need to store, and how many can be calculated? Which ones will make the implementation of the class methods simpler?
+2. Line's initialization method takes two _x_ coordinates in either order (x0 &lt; x1, or x1 &lt; x0). Is there work you could do when you initialize the object, that would make it easier to implement the methods.
 3. What are the pros and cons of adding a `Square` class?
 
 [You're encouraged to think about the first two questions before or while you
@@ -77,12 +77,11 @@ perform this exercise. Think about the last question afterwards, if you have
 time.]_ If you have time_, you can extend your work in any of the following
 directions. Any of these can be done independently of the others.
 
-### Going Beyond 1: Duck Typing_ Skills emphasized: object-oriented programming (classes); polymorphism (“duck
-typing”)._
+### Going Beyond 1: Duck Typing Skills emphasized: object-oriented programming (classes); polymorphism (“duck typing”).
 
 Save the file
-[geometry_ beyond_1.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_ beyond_1.py),implement
-the methods of the `Circle` class, and implement the function stochastic_ area.
+[geometry_beyond_1.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_beyond_1.py),implement
+the methods of the `Circle` class, and implement the function `stochastic_area`.
 `stochastic_area` should work on either a Rect or a Circle.
 
 Some things to think about:
@@ -92,11 +91,11 @@ Some things to think about:
 * Are there additional classes that would be simple to implement, that you could apply stochastic_area to?
 * When would you use stochastic_area instead of just `area`?
 
-### Going Beyond 2: PyGame_ Skill emphasized: computer graphics._
+### Going Beyond 2: PyGame – Skill emphasized: computer graphics
 
 Save the file
-[geometry_ beyond_2.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_ beyond_2.py),
-and modify the implementation of `draw_ shapes` to attend to its argument (a
+[geometry_beyond_2.py](https://raw.githubusercontent.com/{{site.course.github_owner}}/ClassNotes/master/geometry_beyond_2.py),
+and modify the implementation of `draw_shapes` to attend to its argument (a
 list of shapes).
 
 

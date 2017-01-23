@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
-title: 'Mini Project 4: Interactive Programming'
 due_date: '2017-03-14'
+title: 'Mini Project 4: Interactive Programming'
 ---
 
 {% include toc %}
@@ -49,7 +49,7 @@ Teaming Logistics:
 
 * You must work in a team of exactly two students (given an odd number of students we may have one team of three per section).
 * Your partner must be in your section (no exceptions).
-* Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on Github for that repo.
+* Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on GitHub for that repo.
 
 Teaming Guidance:
 
@@ -109,8 +109,8 @@ If you want to use an input modality other than keyboard and mouse, you may
 find the computer vision library OpenCV useful. The idea here would be to
 capture images from a camera (probably the webcam on your laptop) and use
 those to control some aspect of your program. To get started check out the
-SoftDes [project toolbox exercise on OpenCV](/project-toolbox/image-processing). Next, read through the [OpenCV Python
-tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_ tutorials.html)
+SoftDes [project toolbox exercise on OpenCV]({% link _toolboxes/image-processing.md %}). Next, read through the [OpenCV Python
+tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_tutorials.html)
 and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
 ### To Implement, or not to Implement, that is the question!
@@ -150,31 +150,31 @@ We will show a bunch of these examples below, but check out [the full
 listing](http://www.nytimes.com/newsgraphics/2013/12/30/year-in-interactive-storytelling/#dataviz) from the New York Times Year in Interactive
 Storytelling. This link is for 2013, but other years are available.
 
-_Exploring How People Talk in Different Parts of the U.S. (source: New York
+_Exploring How People Talk in Different Parts of the U.S._ (source: _New York
 Times Year in Interactive Storytelling 2013):_
 
-![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2011.53.13%20AM.png?height=363&width=400)
+![]({% link images/assignments/interactive-visualization/dialect-screenshot.png %}){:width="400px" height="363px"}
 
 [Exploring movie trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _Examining Box Office Hits:_
-![](/assets/assignments/interactive-visualization/4.png?height=222&width=400)
+![]({% link images/assignments/interactive-visualization/4.png %}){:width="400px" height="222px"}
 
 _Where did my harddrive space go???_
 
-![](/assets/assignments/interactive-visualization/29.png?height=400&width=304)
+![]({% link images/assignments/interactive-visualization/29.png %}){:width="304px" height="400px"}
 
 
 _ Examining the Group Debates:_
-![](/assets/assignments/interactive-visualization/37.png?height=229&width=400)
+![]({% link images/assignments/interactive-visualization/37.png %}){:width="400px" height="229px"}
 
 _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](http://www.nytimes.com/interactive/2013/10/02/us/uninsured-americans-map.html)_
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
-_[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/):
+_[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/)_:
 
-![](/assets/assignments/interactive-visualization/Screen%20Shot%202015-02-26%20at%2012.04.46%20PM.png?height=295&width=400)
+![]({% link images/assignments/interactive-visualization/4th-down-bot.png %}){:width="400px" height="295px"}
 
 
 ### Arcade Games
@@ -182,17 +182,41 @@ _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/)
 If you decide to create a game, you should probably choose one that has
 relatively simple physics. Depending on how ambitious you are, you might want
 to stick to a game where all of the action is contained within a single
-screen. Here are some examples:_ Missile Command:_
-_ Pacman:_ _ Skyroads (considerably more complex than the others, but maybe a simple
-version could be constructed):_
-_ Asteroids (this version was created in another computing class. Check out
-[this video](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/asteroids.avi) for the game in action place some cool
-enhancements)._
+screen. Here are some examples:
+
+Missile Command ([Wikipedia](https://en.wikipedia.org/wiki/Missile_Command)).
+This is the game John Connor plays in _Terminator 2_.
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/Z4zF790DzyQ?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
+
+Pac-Man ([Wikipedia](https://en.wikipedia.org/wiki/Pac-Man))
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/3-C7lHLFLU8?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
+
+Skyroads ([Wikipedia](https://en.wikipedia.org/wiki/SkyRoads_(video_game))).
+Considerably more complex than the others, but maybe a simple version could be constructed.
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/F6Rovi9QSDk?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
+
+Asteroids ([Wikipedia](https://en.wikipedia.org/wiki/Asteroids_(video_game))).
+This version was created in another computing class. Check out
+[this video](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/asteroids.avi) for the game in action plus some cool
+enhancements).
 
 ![](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/game.jpg)
 
+Q*Bert ([Wikipedia](https://en.wikipedia.org/wiki/Q*bert)).
+A popular arcade game in the 80's; referenced in the movies _[Wreck it Ralph](https://www.youtube.com/watch?v=0yrhee8W7II)_
+and Pixel.
 
-#### **Interactive Art**
+<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/karPYs22ACc?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
+
+Pogo Joe ([Wikipedia](https://en.wikipedia.org/wiki/Pogo_Joe)).
+A Q*Bert “derivative”; written by someone you know.
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/XpNBGqwPXuo?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
+
+#### Interactive Art
 
 There is a big universe out there. The pulsating music visualizer from the
 last assignment was one example. Hooking up simple color tracking using OpenCV
@@ -209,8 +233,7 @@ design does not have any classes or just one, then there is probably something
 wrong. We will not be dictating / enforcing that you use any particular
 object-oriented design pattern. However, we are going to be explicitly
 scaffolding the use of a very powerful object-oriented design pattern called
-[Model-View-
-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
+[Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
 Here is a diagram (from Wikipedia) that shows the various components of Model-
 View-Controller and how they interact:
 
@@ -250,7 +273,7 @@ don't have one already.
 As part of filling out this spreadsheet, and starting the project, you should
 fork and clone the [base repo](https://github.com//{{site.course.github_owner}}/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
-and then the other member should be added as a collaborator on Github for that
+and then the other member should be added as a collaborator on GitHub for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.
 
 There are three deliverables for this project.
@@ -342,7 +365,7 @@ and how did you address them? What would you do differently next time?
 * Push your completed code to the "master" Git repository (depending on which team member's repository is being used to work on the project).
 * Submit your Project Writeup/Reflection (1 per team, not 1 per person). This can be in the form of either:
   * a PDF document pushed to GitHub, or
-  * a [project webpage](https://pages.github.com/) (if you choose this route, make sure there is a link to your webpage in your **README.md**  file in your Github repo)
+  * a [project webpage](https://pages.github.com/) (if you choose this route, make sure there is a link to your webpage in your **README.md**  file in your GitHub repo)
 * Open a pull request to the base InteractiveProgramming repo.
 
 Your code must be adequately documented. This includes:

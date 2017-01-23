@@ -1,9 +1,9 @@
 ---
-date: '2017-01-05T08:45:51'
+date: 2017-01-19 14:22:37 -0500
 description: ''
-title: Get Set
 due_date: '2017-01-23'
 layout: single
+title: Get Set
 ---
 
 {% include toc %}
@@ -56,11 +56,11 @@ reading!
 
 ## Step 1: Install and Configure Ubuntu
 
-The officially supported OS for SoftDes is Ubuntu 14.04.3 64-bit (ISO
+The officially supported OS for SoftDes is Ubuntu 16.04.1 64-bit (ISO
 available [here](http://releases.ubuntu.com/xenial/ubuntu-16.04.1-desktop-amd64.iso)).
 The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
-bootable installer for Ubuntu 14.04.3. In order to go forward with the
+bootable installer for Ubuntu 16.04.1. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
 hold the F12 key before your computer starts to load Windows. You will now be
 at your computer's BIOS menu. Use the arrow keys to select boot from "USB
@@ -84,11 +84,8 @@ that can be used to install Ubuntu as a virtual machine. We recommend the
 freely available program [Virtual Box](https://www.virtualbox.org/) if you are
 running a VM. Ask for help if you find you need help on setting this up.
 
-Once you have finished installing Ubuntu, you can configure it using
-[these](http://wikis.olin.edu/linux/doku.php) instructions provided by Dave
-Carver in IT (start from the "Configure Your System" section).
-
 The steps that are most important are:
+
 * Configure apt
 * Install the proprietary NVIDIA driver
 * Enable your firewall
@@ -150,11 +147,12 @@ Then type the following at the Python prompt:
 ```
 
 Notes:
+
 * Don't type the `>>>`. (`>>>` is to Python as `$` is to bash.)
 * The `turtle.Turtle()` line will cause a white window to appear in front of the terminal window.
 Since you'll need to switch back to the terminal window to continue interacting with the Python prompt, you can close the white window.
 
-To verify that Atom is installed, run
+To verify that Atom is installed, run:
 
 ``` bash
 $ atom
@@ -196,7 +194,7 @@ development environment. The cool thing is that if you follow along in your
 favorite development environment then you will be able to run the code on your
 computer as we go.
 
-To setup Floobits, first you should create an account on Github (this is
+To setup Floobits, first you should create an account on GitHub (this is
 something you will have to do for your next assignment, so you might as well
 get a jump on it!).
 
@@ -206,26 +204,26 @@ instructions to configure the plugin.
 
 ## Step 2: Learn About Linux
 
-Read Chapter 1 of Linux at Olin (available [here](//linux.pdf?attredirects=0&d=1)).
+Read Chapter 1 of Linux at Olin (available [here]({% link files/assignments/setup-your-environment/linux.pdf %})).
 
 
 ## Step 3: Get Started with Git
 
 ### The Basic Idea
 
-We will make heavy use of Git (and Github in this class). Haven't heard of
+We will make heavy use of Git (and GitHub in this class). Haven't heard of
 Git? That's totally fine (and totally expected)! Before we do some course
 specific Git stuff, take some time to read [Chapter
 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown)
 of Allen's excellent online book called AmGit.
 
 
-### Create a Github Account
+### Create a GitHub Account
 
 Now that you have the basic idea of what version control is and what it is
 good for, you are going to take the next step and sign up for an account on a
-website called [Github](https://github.com/). The second chapter of Allen's
-book has a nice description of Github, and how to make an account.
+website called [GitHub](https://github.com/). The second chapter of Allen's
+book has a nice description of GitHub, and how to make an account.
 
 > GitHub is a web-based hosting service for Git users. In general a hosting
 service provides storage space on remote servers, network access, and tools
@@ -238,19 +236,16 @@ popular. It is so popular that people sometimes say "GitHub" when they mean
 >
 > * Git is an application that runs on your computer and helps you manage
 repositories.
->
 > * You can use Git to manage repos stored on your own computer or on any
 computer configured as a Git server.
->
 > * Anybody can set up and run a Git server. A company that runs Git servers
 professionally is a Git hosting service.
->
 > * GitHub is one of many Git hosting services.
 >
-> Ok, go to <http://github.com>. If you already have an account, log in.
+> Ok, go to <https://github.com>. If you already have an account, log in.
 Otherwise, you will have to create one.
 >
->  You can choose any available username you like, but there are a few things
+> You can choose any available username you like, but there are a few things
 you might want to think about:
 >
 > 1. Working on GitHub involves interacting with other people. They will see
@@ -282,7 +277,7 @@ to setup your personal `ReadingJournal` repository.
 Navigate to the SoftDes reading journal base repository by clicking on this
 [link](https://github.com/{{site.course.github_owner}}/ReadingJournal). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
-Github, you will be prompted to sign in. Read on for instructions on
+GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
 
 
@@ -294,7 +289,7 @@ repo, copy the URL that points to your fork of that repo. For Paul, the URL
 looks like this: `https://github.com/paulruvolo/ReadingJournal.git`. He got this
 link by copying the highlighted text in the screenshot below.
 
-[![](/assets/assignments/setup-your-environment/screenshot.png)](/assets/assignments/setup-your-environment/screenshot.png)
+[![]({% link images/assignments/setup-your-environment/screenshot.png %})]({% link images/assignments/setup-your-environment/screenshot.png %})
 
 Next, open up a terminal and clone the repo by running the following command
 (be sure to replace the pointer to Paul's ReadingJournal with your own!). These

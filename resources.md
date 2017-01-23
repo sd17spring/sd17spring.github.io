@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-18 21:02:02 -0500
 description: ''
-title: Resources
 layout: single
 permalink: /resources/
+title: Resources
 ---
 
 {% include toc %}
@@ -16,27 +16,31 @@ to collect those resources that have already been mentioned into one place.
 
 ## Linux (Ubuntu)
 
-* [Get Set (this site): Install and Configure Ubuntu](/assignments/setup-your-environment#step-1-install-and-configure-ubuntu)
-* [Linux at Olin (downloadable PDF)](/assignments/setup-your-environment/linux.pdf)
+* [Get Set (this site): Install and Configure Ubuntu]({% link _assignments/setup-your-environment.md %}#step-1-install-and-configure-ubuntu)
+* [Linux at Olin (downloadable PDF)]({% link files/assignments/setup-your-environment/linux.pdf %})
 * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
 
 ## Classroom collaboration tools
 
 {% if site.course.flootbits_url %}* [Floobits]({{site.course.flootbits_url}}) – code sharing{% endif %}
-* [Piazza](https://piazza.com/class/ijkborva8jk70v) – message board
-* [Github](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
-* [Github reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
+* [Piazza]({{site.course.piazza_url}}) – message board
+* [GitHub](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
+* [GitHub reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
 
 ## Git
 
-* [Git Help (this site)](/github-help) – contains links to additional resources
+* [Git Help (this site)]({% link git-help.md %}) – contains links to additional resources
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
-* Piazza post: [Github merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
+{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
+* Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
 * Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
-* [SoftDes16 Github page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
-* [Spring 2014 NINJA tutorial: Github Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
+{% endif %}
+{% if site.course.github_url == 'sd17spring' %}
+* [SoftDes16 GitHub page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
+{% endif %}
+* [Spring 2014 NINJA tutorial: GitHub Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
 * [Spring 2014 NINJA tutorial: Introduction to Version Control](https://docs.google.com/presentation/d/15UsxsUBIDA78iplWfKsX0yZAoYIf5ofpEr7PRUE2Y28/edit#slide=id.p)
-* [Spring 2014 NINJA tutorial: Pushing to your Github repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
+* [Spring 2014 NINJA tutorial: Pushing to your GitHub repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
 
 ## Python
 
@@ -46,8 +50,10 @@ to collect those resources that have already been mentioned into one place.
 * Python Style
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
+{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
+{% endif %}
 
 ### Python Libraries
 
@@ -65,9 +71,11 @@ in other projects too.
 
 ### IPython Notebooks
 
+{% if site.course.github_url == 'sd17spring' %}
 * [Iteration strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 * [Performance strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
 * [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
+{% endif %}
 
 ## Atom Text Editor
 

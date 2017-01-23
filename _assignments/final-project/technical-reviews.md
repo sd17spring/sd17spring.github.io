@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-14 10:36:07 -0500
 description: ''
-title: Technical Reviews
 parent: final-project
+title: Technical Reviews
 ---
 
 {% include toc %}
@@ -25,7 +25,7 @@ by the second you will be able to get more into detailed code architecture.
 * One-way presentation
 
 For more tips and guidelines, check out the [information on SCOPE Technical
-Reviews](/project/Technical_Review_ Deliverable_and_ Rubric.pdf)
+Reviews](/project/Technical_Review_Deliverable_and_Rubric.pdf)
 given to students at the beginning of the year.
 
 ## Before the Technical Review
@@ -132,7 +132,7 @@ team GitHub repository before the review takes place.
 * Provided background gives sufficient context for audience to engage with questions effectively
 * Key questions are selected appropriately for the audience and time limitations
 * Clear agenda and plan for the review session are included
-* [_Optional_ ] Appropriate amount of useful pre-reading provided to peer teams 24 hours before review
+* [_Optional_] Appropriate amount of useful pre-reading provided to peer teams 24 hours before review
 
 
 ---|---

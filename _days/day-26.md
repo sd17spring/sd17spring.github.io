@@ -5,47 +5,44 @@ published: false
 title: Day 26
 ---
 
-**Today**
+## Today
 
 * Final project deliverables
 * Where to go next
 
-**For next time**
+## For Next Time
 
 * SoftDes final project expo, ~~8~~ 9-11am Thursday 5/5
 
-### Final project deliverables
+## Final project deliverables
 
 We're at the end of the semester! You've done great work, implemented some
 cool code, and worked together with your peers to help each other improve. The
 remaining deliverables are intended for you to share that work with various
 audiences.
 
-
-**Poster**
+### Poster
 
 _Due date_ : Must be printed and posted electronically to your GitHub and/or
 website before the SoftDes final project Expo 5/5
 
-[Guidelines](/assignments/final-project#demo-session-poster)
+[Guidelines]({% link _assignments/final-project.md %}#demo-session-poster)
 
-
-**Website**
+### Website
 
 _Due date_ : End of day Thursday 5/5
 
-[Guidelines](/assignments/final-project#project-website)
+[Guidelines]({% link _assignments/final-project.md %}#project-website)
 
+### Code
 
-**Code**
-
-_Due date_ : End of day Thursday 5/5. Be sure to update your README file as
+_Due date_: End of day Thursday 5/5. Be sure to update your README file as
 well.
 
-[Guidelines](/assignments/final-project#code-submission)
+[Guidelines]({% link _assignments/final-project.md %}#code-submission)
 
 
-### Communicating with your audience
+## Communicating with your audience
 
 The work you've done in this class is potentially of interest to several
 different groups of people. This exercise is intended to help you select what

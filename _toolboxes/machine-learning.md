@@ -1,9 +1,10 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
 title: Machine Learning
-toc: true
 ---
+
+{% include toc %}
 
 ## Introduction
 
@@ -76,7 +77,7 @@ digits = load_digits()
 print digits.DESCR
 fig = plt.figure()
 for i in range(10):
-    subplot = fig.add_ subplot(5,2,i+1)
+    subplot = fig.add_subplot(5,2,i+1)
     subplot.matshow(numpy.reshape(digits.data[i],(8,8)),cmap='gray')
 
 plt.show()
@@ -91,7 +92,7 @@ by leveraging this database.
 
 To get started, we will use a very simple classification algorithm called[
 Multinomial Logistic
-Regression](http://en.wikipedia.org/wiki/Multinomial_ logistic_regression).
+Regression](http://en.wikipedia.org/wiki/Multinomial_logistic_regression).
 The basic idea will be to partition our data into two sets. The first set,
 known as the training set, will be used to train our classifier (that is, we
 will use it to infer the relationship between the appearance of an 8x8 patch
@@ -106,46 +107,46 @@ classification accuracy on the testing set.
 
 ``` python
 from sklearn.datasets import *
-from sklearn.cross_validation import train_ test_split
+from sklearn.cross_validation import train_test_split
 
-from sklearn.linear_ model import LogisticRegression
+from sklearn.linear_model import LogisticRegression
 
 data = load_digits()
-X_ train, X_test, y_ train, y_test = train_ test_split(data.data, data.target,
-train_ size=0.5)
+X_train, X_test, y_train, y_test = train_test_split(data.data, data.target,
+train_size=0.5)
 model = LogisticRegression(C=10**-10)
-model.fit(X_train, y_ train)
-print "Train accuracy %f" %model.score(X_train,y_ train)
-print "Test accuracy %f"%model.score(X_test,y_ test)
+model.fit(X_train, y_train)
+print "Train accuracy %f" %model.score(X_train,y_train)
+print "Test accuracy %f"%model.score(X_test,y_test)
 ```
 
-### Learning Curves
+## Learning Curves
 
 Next, you will explore how the amount of training data influences the
 performance of the learned model. In the previous example we used 50% of the
 data for the training set and 50% for the testing set (we can see this since
-we set `train_size = 0.5` when calling `train_ test_split`). For this toolbox
+we set `train_size = 0.5` when calling `train_test_split`). For this toolbox
 you will be writing code to systematically vary the training set size versus
 the testing set size and plot the curve of the resultant performance. You will
-be repeating each value of `train_ size` 10 times to smooth out variability. We
-have given you starter code for this at `machine_learning/learning_ curve.py`.
+be repeating each value of `train_size` 10 times to smooth out variability. We
+have given you starter code for this at `machine_learning/learning_curve.py`.
 The starter code is reproduced below:
 
 ``` python
 import matplotlib.pyplot as plt
 import numpy
 from sklearn.datasets import *
-from sklearn.cross_validation import train_ test_split
-from sklearn.linear_ model import LogisticRegression
+from sklearn.cross_validation import train_test_split
+from sklearn.linear_model import LogisticRegression
 
 data = load_digits()
 print data.DESCR
-num_ trials = 10
+num_trials = 10
 train_percentages = range(5,95,5)
-test_ accuracies = numpy.zeros(len(train_percentages))
+test_accuracies = numpy.zeros(len(train_percentages))
 
 # train a model with training percentages between 5 and 90 (see
-train_ percentages) and evaluate
+train_percentages) and evaluate
 
 # the resultant accuracy.
 
@@ -158,7 +159,7 @@ LogisticRegression(C=10**-10) for your learner
 # TODO: your code here
 
 fig = plt.figure()
-plt.plot(train_percentages, test_ accuracies)
+plt.plot(train_percentages, test_accuracies)
 plt.xlabel('Percentage of Data Used for Training')
 plt.ylabel('Accuracy on Test Set')
 plt.show()
@@ -170,7 +171,7 @@ them in a text file called `questions.txt` in your `machine_learning` folder:
 1. What is the general trend in the curve?
 2. Are there parts of the curve that appear to be noisier than others? Why?
 3. How many trials do you need to get a smooth curve?
-4. Try different values for C (by changing `LogisticRegression(C=10** -10)`). What happens? If you want to know why this happens, see [this](http://en.wikipedia.org/wiki/Tikhonov_regularization) Wikipedia page as well as [the documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_ model.LogisticRegression.html) for `LogisticRegression` in **scikit-learn** .
+4. Try different values for C (by changing `LogisticRegression(C=10** -10)`). What happens? If you want to know why this happens, see [this](http://en.wikipedia.org/wiki/Tikhonov_regularization) Wikipedia page as well as [the documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) for `LogisticRegression` in **scikit-learn** .
 
 ## Turning in Your Toolbox Exercise
 
@@ -182,6 +183,6 @@ notify your friendly neighborhood NINJA to take a look.
 
 If you want to explore more of the features of **scikit-learn**  and of machine
 learning in general. I recommend you take a look at this [ipython
-notebook](https://github.com/paulruvolo/DataScienceMaterials/tree/master/machine_learning_ lecture_2).
+notebook](https://github.com/paulruvolo/DataScienceMaterials/tree/master/machine_learning_lecture_2).
 If you are still interested, please contact the teaching team... we will be
 happy to give more pointers.

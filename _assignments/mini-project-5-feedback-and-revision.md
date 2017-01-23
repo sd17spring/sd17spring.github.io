@@ -1,8 +1,8 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-15 12:36:16 -0500
 description: ''
-title: 'Mini Project 5: Feedback and Revision'
 due_date: '2017-04-23'
+title: 'Mini Project 5: Feedback and Revision'
 ---
 
 ## Introduction
@@ -22,12 +22,13 @@ make some technical improvement. This could take many forms, but examples
 include:
 
 * re-writing an older mini project using an object-oriented style
-* finding and improving performance bottlenecks using [algorithm analysis](/in-class-exercises/day-17) and/or [code profiling](/in-class-exercises/day-19)
+* finding and improving performance bottlenecks using [algorithm analysis\]
+{% comment %}({% link _days/day-17.md %}) and/or [code profiling]({% link _days/day-19.md %}){% endcomment %}
 * pursuing one of the "Going Beyond" options
 * something else awesome
 
 This exercise should not take as long as the other mini projects, and it is
-[worth about half as much](/policies).
+[worth about half as much]({% link policies.md %}).
 
 ## How to proceed
 

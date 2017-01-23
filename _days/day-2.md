@@ -5,7 +5,7 @@ published: false
 title: Day 2
 ---
 
-**Today**
+## Today
 
 * Reading journal day 1 debrief
 * Exploring modular design
@@ -14,24 +14,22 @@ title: Day 2
 * How to get started with day 2 reading
 * Overview of mini-project 1
 
-**For next time**
+## For Next Time
 
 * Fill out the [course entrance survey]({{site.course.entrance_survey_url}}) if you haven't already
 * Complete Day 2 (and Day 1) Reading Journal before noon on 1/28
-* Finish [setting up your environment](/assignments/setup-your-environment)
+* Finish [setting up your environment]({% link _assignments/setup-your-environment.md %})
 * Start on mini-project 1
 
 ## Reading Journal Day 1 Debrief
 
 We'll go over some of the take homes from [the reading
-journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day1_ reading_journal_ responses.ipynb)
-that we collected from the class.
+journals]({{ site.data.course.urls.reading_journal_response_prefix }}day1_reading_journal_responses.ipynb) that we collected from the class.
 
 ## Exploring Modular Design
 
-In groups of 3, review the [solutions from the
-class](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day1_ reading_journal_ responses.ipynb)
-to the Chapter 3 Exercise 5.
+In groups of 3, review the solutions from the
+class to the Chapter 3 Exercise 5.
 
 What aspects of these different designs:
 
@@ -94,10 +92,10 @@ There are many ways to run the Python code you write:
 
 ``` bash
 $ python3
-Python 2.7.6 (default, Jun 22 2015, 17:58:13)
-[GCC 4.8.2] on linux2
+Python 3.4.3 (default, Sep 14 2016, 12:36:27)
+[GCC 4.8.4] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> print "Hello, SoftDes!"
+>>> print("Hello, SoftDes!")
 Hello, SoftDes!
 ```
 

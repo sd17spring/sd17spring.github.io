@@ -5,24 +5,24 @@ published: false
 title: Day 7
 ---
 
-**Today**
+## Today
 
 * Reading Journal debrief
 * Recursion
 * Fractal drawing in Turtle World
 
-**For next time**
+## For Next Time
 
 * Computational Art mini project due Wednesday 2/17
 * Reading journal, Think Python 11, 12 due Thursday 2/18 (but starting earlier is great)
-* [Submit images](/assignments/mini-project-2-computational-art#turning-in-your-assignment) by Tuesday midnight to be included in the gallery show (fun but optional)
+* [Submit images]({% link _assignments/mini-project-2-computational-art.md %}#turning-in-your-assignment) by Tuesday midnight to be included in the gallery show (fun but optional)
 * [Project toolbox](/project-toolbox) exercises have been launched. You will do at least five in total, at least three of which must be completed before spring break.
 
 
 ## Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day6_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day6_ reading_journal_ responses.ipynb).
 
 
 ## Recursion Practice
@@ -45,7 +45,7 @@ strings. Intuitively, the Levenshtein distance is the minimum number of edit
 operations to transform one string into the other (for this reason Levenshtein
 distance is sometimes called "edit distance"). These edits can either be
 insertions, deletions, or substitutions. Note that Levenshtein distance is
-similar to [Hamming distance](https://en.wikipedia.org/wiki/Hamming_ distance),
+similar to [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance),
 but works for strings of differing lengths
 
 Here are some examples of these operations:
@@ -69,7 +69,6 @@ denominations of some coins, d, and outputs the number of unique ways that
 change can be made for n cents using the coins d.
 
 For example:
-
 
 ```
 make_change(10,[1, 5, 10]) -> 4
@@ -190,12 +189,12 @@ signature:
 ``` python
 def snow_ flake_side(turtle, length, level):`
     """ Draw a side of the snowflake curve with side length length and recursion
-    depth of level """`
+    depth of level """
 ```
 
 The `snow_ flake_side` function should have a base case that draws the
 following image:
-![](https://sites.google.com/site/sd14sp/_ /rsrc/1392697696044/home/in-class-exercises/day-8/Screen%20Shot%202014-02-17%20at%2011.27.44%20PM.png?height=171&width=320)The
+![]({% link images/activities/turtle-graphics/snow_flake_1.png %})The
 recursive step should replace each of the line segments above with a
 `snow_flake_ side` with size `length/3.0` and recursion depth `level - 1`. Take
 some time to work on this and then we'll discuss as a group.
@@ -219,8 +218,9 @@ def recursive_tree(turtle, branch_ length, level):
 
 The base case is:
 
-![](https://sites.google.com/site/sd14sp/_ /rsrc/1392698478798/home/in-class-exercises/day-8/Screen%20Shot%202014-02-17%20at%2011.41.04%20PM.png?height=320&width=153)This
-structure is given by moving forward `branch_length` steps (assuming the
+![]({% link images/activities/turtle-graphics/snow_flake_2.png %})
+
+This structure is given by moving forward `branch_length` steps (assuming the
 turtle has the correct orientation).
 
 For the recursive step, you should:
@@ -239,7 +239,8 @@ For the recursive step, you should:
 After implementing the recursive step, if you set `level` to 1 more than the
 base case (which will either be 1 or 2 depending on what level you consider
 the base case), you will get the following picture:
-![](https://sites.google.com/site/sd14sp/_/rsrc/1392698259073/home/in-class-exercises/day-8/Screen%20Shot%202014-02-17%20at%2011.37.22%20PM.png?height=320&width=185)
+
+![]({% link images/activities/turtle-graphics/snow_flake_3.png %})
 
 Once you've built your `recursive_ tree` function, try making a few
 enhancements:

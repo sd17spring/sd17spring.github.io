@@ -1,7 +1,7 @@
 ---
-date: '2017-01-13T20:53:18'
-due_date: '2017-03-20'
+date: 2017-01-15 13:01:52 -0500
 description: ''
+due_date: '2017-03-20'
 title: Final Project
 type: index
 ---
@@ -49,7 +49,7 @@ be present concurrently for this session.-->
 
 _Due {{site.data.dates.final_proposal | date: '%B %d' }}_
 
-**The project proposal is worth 5% of the project grade ([rubric](/assignments/final-project/project-proposal-rubric))** .
+**The project proposal is worth 5% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
 
 You should come to class with a document that describes the main idea of your
 project. We will have about 10 minutes to meet with each team, so we ask that
@@ -65,7 +65,7 @@ team (both during our face-to-face meeting and after the fact):
 2. **Learning Goals:** What are your individual learning goals for this project?
 3. **Implementation Plan:** This will probably be pretty vague initially. Perhaps at this early juncture you will have identified a library or a framework that you think will be useful for your project**.**  If you don't have any idea how you will implement your project, provide a rough plan for how you will determine this information.
 4. **Project schedule:** You have 6 weeks (roughly) to finish the project. Sketch out a rough schedule for completing the project. Depending on your project, you may be able to do this in great specificity or you may only be able to give a broad outline. Additionally, longer projects come with increased uncertainty, and this schedule will likely need to be refined along the way.
-5. **Collaboration plan:** How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. [agile development](http://en.wikipedia.org/wiki/Agile_software_ development)). Make sure to make clear why you are choosing this particular organizational structure.
+5. **Collaboration plan:** How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. [agile development](http://en.wikipedia.org/wiki/Agile_software_development)). Make sure to make clear why you are choosing this particular organizational structure.
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
@@ -73,7 +73,7 @@ team (both during our face-to-face meeting and after the fact):
 
 _Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
-**Each technical review is worth 10% of the project grade (20% for both together) ([rubric](/assignments/final-project/technical-reviews)).**
+**Each technical review is worth 10% of the project grade (20% for both together) ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
 
 We will be holding two technical reviews during class time. Each review will
 have groups of three or four teams taking turns presenting their plans for
@@ -83,7 +83,7 @@ In addition to the in-person component of this activity, there will be a
 framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
-See the [Technical Reviews](/assignments/final-project/technical-reviews) page for full details about the assignment.
+See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
 
 ### Code Review
 
@@ -95,13 +95,13 @@ On April 14th we will hold an in-class code review session. This is an
 opportunity for you to give and receive detailed feedback from your peer teams
 about ways to improve your project code.
 
-See the [Code Reviews](/assignments/final-project/code-reviews) page for full details about the assignment.
+See the [Code Reviews]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
 
 ### Not-Quite-Mid-Project Presentation
 
 _Date: {{site.data.dates.mid_project_presentation | date: '%B %d' }}_
 
-**The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric](/assignments/final-project/project-presentation-rubric))**
+**The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
 On {{site.data.dates.mid_project_presentation | date: '%B %d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
@@ -138,7 +138,7 @@ video, or story boarding.
 
 * **User instructions/README**
 Information to help users download, install, and get started running your
-software ([README rubric](/assignments/final-project/readme-rubric))
+software ([README rubric]({% link _assignments/final-project/readme-rubric.md %}))
 
 * **Implementation information**
 Code doesn't tell a story by itself. Use more effective methods such as
@@ -195,11 +195,11 @@ printed in time for the May 5th expo.
 
 _Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
-**Project code is worth 40% of the project grade (see code rubric on the [course policy page](/policies))**
+**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link policies.md %}))**
 
 Project code must be submitted via GitHub by May 5th. You must include a
 README describing how to run your code, including any required dependencies
-(e.g. libraries to install) and any input files ([README rubric](/assignments/final-project/readme-rubric)).
+(e.g. libraries to install) and any input files ([README rubric]({% link _assignments/final-project/readme-rubric.md %})).
 
 Proper documentation is important to your final submission, and one way to
 ensure you have adequate docstrings is to generate documentation from them.
@@ -214,7 +214,7 @@ truly beautiful documentation, check out [Sphinx](http://sphinx-doc.org/) (the
 tool used to generate the [Python documentation](https://docs.python.org/2/)).
 
 Make sure that your code gives appropriate attribution to external resources
-used, as per the [course policy page](/policies). If you have any questions
+used, as per the [course policy page]({% link policies.md %}). If you have any questions
 about this, just ask.
 
 ### Final Demo / Presentation Session

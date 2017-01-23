@@ -1,13 +1,13 @@
 # Site settings
 title: "Software Design Spring 2017"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description
+  This course is an introduction to software design. It focuses on a model of computation as a set of simultaneous
+  ongoing entities embedded in and interacting with a dynamic environment, for example: computation as it occurs in
+  spreadsheets, video games, web applications, and robots.
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://" # the base hostname & protocol for your site
+url: "https://sd17spring.github.io/" # the base hostname & protocol for your site
 timezone: America/New_York
-github_username:  olin-computing
+author: github
 
 collections:
   assignments:
@@ -23,11 +23,6 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: assignment
-    values:
-      layout: single
-  - scope:
-      path: ""
       type: assignments
     values:
       layout: single
@@ -36,13 +31,18 @@ defaults:
       type: days
     values:
       layout: single
+  - scope:
+      path: ""
+      type: toolboxes
+    values:
+      layout: single
 
 course:
   github_owner: sd17spring
   calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
-  # piazza_url: 'https://piazza.com/olin/spring2016/engr2510'
+  piazza_url: 'https://piazza.com/olin/spring2017/engr2510'
   # flootbits_url: https://floobits.com/sd17spring
-  # entrance_survey_url: https://docs.google.com/forms/d/1at_33buuXdUyJ_ AFogNdZW02gJvZBtYGwB7hPR0IEzY/viewform
+  entrance_survey_url: https://goo.gl/forms/6MsKDGVf5SGFyIg22
   # mid_course_feedback_survey_url: http://goo.gl/forms/n2L9ESBpCU
   # visualization_teaming_spreadsheet: https://docs.google.com/spreadsheets/d/1gPIOu22NUhF_qKQERgW3SVuFnC-rYKbUBxw43U7N7QQ/edit?usp=sharing
   # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_ GRWZN4/edit?usp=sharing

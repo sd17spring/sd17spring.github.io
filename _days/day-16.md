@@ -5,21 +5,21 @@ published: false
 title: Day 16
 ---
 
-**Today**
+## Today
 
 * Review project proposals
 
-**For Next Time**
+## For Next Time
 
 * Reading journal day 16 (Think Python Appendix B)
 * All 5 project toolboxes due Monday
 * Collaboration in git tutorial: Sunday 6-8 office hours and Wednesday at SLAC
 
 
-**Project proposal review**
+## Project proposal review
 
 We will be reviewing final project proposals with each team today. If you
-don't have a printed out copy of your [project proposal](/assignments/final-project-1#project-proposal), you should run
+don't have a printed out copy of your [project proposal]({% link _assignments/final-project.md %}#project-proposal), you should run
 do that!
 
 Make sure your team, including project idea and working GitHub repo, are

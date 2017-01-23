@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-21 20:46:57 -0500
 description: ''
-title: Software Design Spring 2016
 layout: single
 permalink: /
+title: Software Design Spring 2017
 ---
 
 {% include toc %}
@@ -35,11 +35,12 @@ various online retailers)
 
 
 {% if site.course.piazza_url %}
-## Piazza
+## Communication
 
-All communication for this class will be through
-[Piazza]({{site.course.piazza_url}}). There is no mailing
-list.
+All communication for this class will be through [Piazza]({{site.course.piazza_url}})
+and the [#softdes17spring channel](https://olin.slack.com/messages/softdes17spring/) of the
+[Olin Slack team](https://olin.slack.edu).
+There is no mailing list.
 {% endif %}
 
 
@@ -69,8 +70,8 @@ out!
 
 ## Useful Resources
 
-Several [useful resources](/resources) for the class are collected
-[here](/resources). A few
+Several [useful resources]({% link resources.md %}) for the class are collected
+[here]({% link resources.md %}). A few
 [tutorials](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
 were also created by the NINJAs for the Spring 2014 class.[
 ](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)

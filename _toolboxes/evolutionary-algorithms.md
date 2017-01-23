@@ -1,9 +1,10 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
 title: Evolutionary Algorithms
-toc: true
 ---
+
+{% include toc %}
 
 ## Background
 
@@ -15,7 +16,7 @@ proceeding.
 [Evolutionary algorithms](http://en.wikipedia.org/wiki/Evolutionary_algorithm)
 use techniques inspired by biological evolution to find approximate solutions
 to complex optimization problems. In brief, these
-[heuristic](http://en.wikipedia.org/wiki/Heuristic_ %28computer_science%29)
+[heuristic](http://en.wikipedia.org/wiki/Heuristic_%28computer_science%29)
 algorithms represent potential solutions as individuals within a population.
 New solutions are generated from the population via mutation and reproduction,
 and the fittest survive to form the next generation.
@@ -50,7 +51,7 @@ Read: [On the Origin of Circuits](http://www.damninteresting.com/on-the-origin-o
 
 This example brings evolutionary algorithms into the hardware world: a
 researcher was able to evolve a [Field Programmable Gate
-Array](http://en.wikipedia.org/wiki/Field-programmable_gate_ array) (a type of
+Array](http://en.wikipedia.org/wiki/Field-programmable_gate_array) (a type of
 reprogrammable logic chip) to distinguish between two audio tones. The
 resulting circuits were radically different from anything a human designer
 would ever come up with.
@@ -137,7 +138,7 @@ technique, which has the following (pseudocode) behavior:
 
       >>> parent1 = "ABCDEF"
       >>> parent2 = "UVWXYZ"
-      >>> print TwoPointCrossover(parent1, parent2)
+      >>> print(TwoPointCrossover(parent1, parent2))
       ("ABWXYF", "UVCDEZ")
 
 This crossover is intended to model [homologous
@@ -145,7 +146,7 @@ recombination](http://en.wikipedia.org/wiki/Homologous_recombination) of
 chromosomes that occurs during sexual reproduction.
 
 **Skills check:**  We are using the
-`[tools.cxTwoPoints](http://deap.readthedocs.org/en/master/api/tools.html#deap.tools.cxTwoPoint)`
+[`tools.cxTwoPoints`](http://deap.readthedocs.org/en/master/api/tools.html#deap.tools.cxTwoPoint)
 function built into DEAP. Implement your own crossover function, and update
 the "mate" alias in `get_toolbox` to use your version.
 
@@ -166,7 +167,7 @@ of mutation possible in this exercise are:
 Once you've made the modifications in the previous section, it's time to
 evolve some text! To call your program, run:
 
-    $ python3 evolve_text.py [goal_ message]
+    $ python3 evolve_text.py [goal_message]
 
 where `goal_message` is an optional argument specifying the target text.
 Excerpts from a sample execution of the program are given below.
@@ -199,7 +200,7 @@ genetic operators used, as well as the parameters selected. A few suggestions
 for things to try:
 
 * Change the population size or number or generations to run (in `evolve_string`)
-* Change the probabilities for crossover and mating (`evolve_string`) or the various mutation probabilities (alter when you register the "mutate" toolbox alias in `get_ toolbox`)
+* Change the probabilities for crossover and mating (`evolve_string`) or the various mutation probabilities (alter when you register the "mutate" toolbox alias in `get_toolbox`)
 * Rather than randomizing the population, start with a monoculture of individuals with the same initial string
 * Modify your distance function to account for the distance between letters, e.g. A -&gt; B is closer than A -&gt; Z (use `ord` function)
 * Try a different [evolutionary algorithm](http://deap.readthedocs.org/en/master/api/algo.html#module-deap.algorithms) from DEAP, e.g. `eaMuPlusLambda` instead of `eaSimple`

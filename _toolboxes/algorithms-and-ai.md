@@ -1,11 +1,10 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
-title: 'Al and Algorithms'
-toc: true
+title: Al and Algorithms
 ---
 
-Contents
+{% include toc %}
 
 In this toolbox exercise you will learn about the A star search algorithm that
 game AI often use to plan their paths. Ever wondered how your game avatar
@@ -19,15 +18,14 @@ so that our game AI can make more complex moves and decisions.
 The game is simple: Paul wants cake, and he needs to find a way to get to the
 cake!
 
-[![](/assets/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png?height=320&width=309)](/assets/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png)
+[![]({% link images/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %}){:width="309px" height="320px"}]({% link images/toolboxes/home-project-toolbox-algorithms-and-ai/2015-02-23-140812_1600x900_scrot.png %})
 
 Thanks to Dennis Chen [2015 NINJA] for writing this toolbox.
 
 ## Get Set
 
 Before getting started, make sure you have pygame installed. The following
-apt-get line will install the pygame library.**
-**
+apt-get line will install the pygame library.
 
     $ sudo apt-get install python-pygame
 
@@ -102,8 +100,8 @@ moving adjacent one square costs 1 point, and the swamp adds 3. Moving into a
 diagonal swamp tile will cost 6 points. A swamp.jpg file has been provided for
 you in the /images folder. You will probably have to make some changes to
 pygame's main_loop to detect key presses, and you'll have to implement the
-empty _add_swamp() function. Take a look at _add_lava() for inspiration, and
-note the terrain_cost and is_unpassable arguments that are passed to the
+empty `_add_swamp()` function. Take a look at `_add_lava()` for inspiration, and
+note the `terrain_cost` and `is_unpassable` arguments that are passed to the
 ObstacleTile constructor when a lava tile is made!
 
 ## Completing the Toolbox Exercise

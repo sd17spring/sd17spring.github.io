@@ -5,14 +5,14 @@ published: false
 title: Day 5
 ---
 
-**Today**
+## Today
 
 * Reading journal debrief
 * State diagrams, aliasing, and scope
 * [Live reload of test cases (“split-screen development”)](https://piazza.com/class/ijkborva8jk70v?cid=85)
 * Map and filter, iteration strategies – [Notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python chapter 4
 * Gene Finder due before class
@@ -21,9 +21,9 @@ title: Day 5
 ### Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day4_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day4_reading_journal_responses.ipynb).
 Here is a condensed summary of the [main
-takeaways](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/Day%204%20Reading%20Journal%20Notes.ipynb).
+takeaways]({{ site.data.course.urls.reading_journal_response_prefix }}Day%204%20Reading%20Journal%20Notes.ipynb).
 
 
 ### More List Methods
@@ -50,4 +50,3 @@ your pull requests. Instead, we use them as:
 
 1. Your way to tell us when you're done and we should look at your assignment, and
 2. A mechanism for us to provide written feedback on your code
-

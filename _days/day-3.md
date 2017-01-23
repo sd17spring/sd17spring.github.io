@@ -5,13 +5,13 @@ published: false
 title: Day 3
 ---
 
-**Today**
+## Today
 
 * Gene Finder guest lecture by Jean Huang
 * Reading Journal day 2 review
 * Loops, fruitful functions, and testing
 
-**For next time**
+## For Next Time
 
 * Gene Finder week 1 check in with NINJA
 * Reading Journal, Think Python chapters 8 and 10.1-10.6
@@ -21,5 +21,5 @@ title: Day 3
 ### Reading Journal Day 2 Review
 
 We'll be going over the [reading
-journals](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day2_ reading_journal_ responses.ipynb)
+journals]({{ site.data.course.urls.reading_journal_response_prefix }}day2_reading_journal_responses.ipynb)
 as a class.

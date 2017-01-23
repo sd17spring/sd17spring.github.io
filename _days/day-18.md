@@ -5,11 +5,11 @@ published: false
 title: Day 18
 ---
 
-**Today**
+## Today
 
 * Technical review 1
 
-**For Next Time**
+## For Next Time
 
 * Post technical review 1 reflection document
 

@@ -5,21 +5,21 @@ published: false
 title: Day 9
 ---
 
-**Today**
+## Today
 
 * Reading journal debrief
 * Walkthrough of pickling a dataset
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python 13 (optional) and 15
 
 ### Reading Journal Debrief
 
 We'll be going over your compiled answers ([full
-version,](https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_ reading_journal_ responses.ipynb)
+version,]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses.ipynb)
 [abridged
-version](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day7_ reading_journal_ responses_abridged.ipynb)).
+version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses_abridged.ipynb)).
 
 ### Walkthrough of Creating a Pickled Dataset
 

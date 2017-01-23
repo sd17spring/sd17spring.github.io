@@ -5,14 +5,14 @@ published: false
 title: Day 4
 ---
 
-**Today**
+## Today
 
 * Reading journal debrief
 * Sharing lessons learned on unit testing
 * String formatting
 * Open studio time
 
-**For next time**
+## For Next Time
 
 * Reading Journal, Think Python chapter 10
 * Read [AmGit Chapter 3](https://github.com/AllenDowney/amgit/blob/master/en/03-git-branching/01-chapter3.markdown) and [Chapter 4](https://github.com/AllenDowney/amgit/blob/master/en/04-git-server/01-chapter4.markdown)
@@ -21,7 +21,7 @@ title: Day 4
 ## Reading Journal Debrief
 
 We'll be going over your [compiled
-answers](http://nbviewer.jupyter.org/github/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/day3_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_ reading_journal_ responses.ipynb).
 
 
 ## Sharing Lessons Learned on Unit Testing
@@ -47,14 +47,14 @@ ways to manipulate strings:
 
 ```
 >>> excited = "Software " + "Design" + "!"*10
->>> print excited
+>>> print(excited)
 Software Design!!!!!!!!!!
 >>> bored = excited.rstrip("!")
->>> print bored
+>>> print(bored)
 Software Design
->>> print bored[-6:]
+>>> print(bored[-6:])
 Design
->>> print bored.split()
+>>> print(bored.split())
 ['Software', 'Design']
 ```
 

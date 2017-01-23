@@ -1,8 +1,7 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
 title: Unittest
-toc: true
 ---
 
 Warning: This toolbox exercise involves OOP (Object Oriented Programming), and

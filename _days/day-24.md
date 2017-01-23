@@ -5,7 +5,7 @@ published: false
 title: Day 24
 ---
 
-**Today**
+## Today
 
 * Technical Review #2. Please report directly to your assigned rooms.
 
@@ -17,10 +17,10 @@ Groups C+F: AC126
 
 
 
-**For next time**
+## For Next Time
 
 * TR #2 reflection document due Monday
-* Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details](/assignments/final-project/project-presentation-rubric).
+* Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details]({% link _assignments/final-project/project-presentation-rubric.md %}).
 
 
 

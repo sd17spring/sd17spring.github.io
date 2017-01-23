@@ -5,13 +5,13 @@ published: false
 title: Day 6
 ---
 
-**Today**
+## Today
 
 * Making sense of your gene finder's output on the Salmonella data
 * Exploring some new DNA!
 * Computational art project kickoff
 
-**For next time**
+## For Next Time
 
 * Reading journal, Think Python 5.8-5.14, 6.5-6.11
 
@@ -42,7 +42,7 @@ Once you have the latest changes, you can load the new DNA using:
 
 ```
 >>> from load import load_contigs
->>> contigs = load_ contigs()
+>>> contigs = load_contigs()
 ```
 
 The variable contigs will be a list of
@@ -56,8 +56,8 @@ separate variables:
 ```
 >>> name = contigs[5][0]
 >>> dna_sequence = contigs[5][1]
->>> print name
-Contig_ 37
+>>> print(name)
+Contig_37
 ```
 
 Once we've loaded the raw DNA sequence, we still have some cleanup to do. In

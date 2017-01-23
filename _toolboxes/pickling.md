@@ -1,9 +1,10 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2017-01-22
 description: ''
 title: Pickling
-toc: true
 ---
+
+{% include toc %}
 
 In this project toolbox exercise you will be learning how to write Python data
 to disk and retrieve them later. This structure will be very useful for any
@@ -29,7 +30,7 @@ these resources:
 
 * [The Python documentation](https://docs.python.org/2/tutorial/inputoutput.html)
 * [Think Python Chapter 14](http://www.greenteapress.com/thinkpython/html/thinkpython015.html)
-* [This tutorial](http://www.tutorialspoint.com/python/python_files_ io.htm) at TutorialsPoint
+* [This tutorial](http://www.tutorialspoint.com/python/python_files_io.htm) at TutorialsPoint
 
 ## Learn About Pickle
 
