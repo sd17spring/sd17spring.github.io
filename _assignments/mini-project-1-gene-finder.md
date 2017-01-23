@@ -114,7 +114,7 @@ The podcast discusses a number of topics, but the first segment of the podcast
 is about Typhoid Mary (although, you really should listen to the whole thing;
 you will not be disappointed).
 
-![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %}
+![](images/assignments/gene-finder/mary-nyamerican.jpg)
 
 Image source: <http://en.wikipedia.org/wiki/Typhoid_Mary>
 
@@ -140,7 +140,7 @@ reading journal. For your reference, here are the steps again:
 
 ``` bash
 $ cd ~
-$ git clone https://github.com/yourgithubusernamehere/GeneFinder.git # the https URL will be the URL copied in step 5)
+$ git clone https://github.com/yourgithubusernamehere/GeneFinder.git #the https URL will be the URL copied in step 5)
 $ cd GeneFinder
 $ git remote add upstream https://github.com//{{site.course.github_owner}}/GeneFinder.git
 $ ls *
@@ -177,7 +177,7 @@ start).
 Now that you have a good sense of the functions you will be filling out, take
 a look at this function diagram.
 
-![]({% link images/assignments/gene-finder/FunctionDiagram.png %}
+![](images/assignments/gene-finder/FunctionDiagram.png)
 
 This diagram shows all of the functions in the program, and uses a directed
 arrow to indicate that the function on the "from" side of the arrow calls the
