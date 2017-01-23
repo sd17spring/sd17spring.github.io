@@ -58,6 +58,19 @@ _Python as a Calculator_
 
 Learning how to write our first Python program is easy (in fact, all you have to do is read the XKCD comic and the code for Hello World is right there!).  What we need to do next is to understand how to run (or execute our Python code).  There are quite a few methods for executing Python code, and it helps to be familiar with all of them.  Depending on the situation, you may choose a different route for running your program.
 
+### Method 0: In the browser as a Jupyter Notebook
+
+This is what you've been using for the reading journals.
+
+In the bash command line, enter:
+
+```
+$ jupyter notebook
+```
+
+This opens a browser window where you can open existing notebook files in the current directory,
+or create new ones.
+
 ### Method 1: from the command line (usually in a "terminal" program)
 
 First, we'll create a simple Python script and save it in a file called `hello.py`.
@@ -86,7 +99,11 @@ Hello, world!
 
 ### Method 2: through your IDE
 
-The instructions for doing this will depend on which IDE you are using, but if you are following along with Atom and the Hydrogen plug-in, all you need to do to run your program is hit control-command-return).  Doing so will produce the same output as in method 1.
+The instructions for doing this will depend on which IDE you are using, but if you are following along with Atom and the Hydrogen plug-in, all you need to do to run your program is press Control+Command+Return).
+
+You can use the Atom [Command Palette](http://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette) to find this command. Press Cmd+Shift+P to open the command palette, and type "hydrogen" to look for list
+of [Hydrogen](https://atom.io/packages/hydrogen) commands.  "Hydrogen: Run All" is shown with its keyboard shortcut. This means that pressing
+runs that command.
 
 ### Method 3: inside the Python interpreter
 
