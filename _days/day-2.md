@@ -7,20 +7,10 @@ title: Day 2
 ## Today
 
 * Reading journal day 1 debrief
-* Exploring modular design
 * Ways to run Python code
-* Intro to unit testing
 * How to get started with day 2 reading
-* Overview of mini-project 1
-
-## Today
-
-* The Little Hater and the Rockstar Issue in Computing
-  * <https://www.youtube.com/watch?v=hIJdFxYlEKE>
-  * We will view 3:30 -> 6:30 and 8:30 -> 13:15 in class
-* discuss survey Responses
-* introduce **git***
-* do the work below on this page
+* Crash Course in Bio / Overview of mini-project 1
+* Going Beyond: do the work below on this page
 
 ## For Next time you Should
 * Read TP Ch. 6.1-6.4 and Ch. 7
