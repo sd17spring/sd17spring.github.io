@@ -114,7 +114,7 @@ The podcast discusses a number of topics, but the first segment of the podcast
 is about Typhoid Mary (although, you really should listen to the whole thing;
 you will not be disappointed).
 
-![](images/assignments/gene-finder/mary-nyamerican.jpg)
+![](/images/assignments/gene-finder/mary-nyamerican.jpg)
 
 Image source: <http://en.wikipedia.org/wiki/Typhoid_Mary>
 
@@ -177,7 +177,7 @@ start).
 Now that you have a good sense of the functions you will be filling out, take
 a look at this function diagram.
 
-![](images/assignments/gene-finder/FunctionDiagram.png)
+![](/images/assignments/gene-finder/FunctionDiagram.png)
 
 This diagram shows all of the functions in the program, and uses a directed
 arrow to indicate that the function on the "from" side of the arrow calls the
@@ -205,17 +205,24 @@ For each function we have given you some unit tests (using [doctest](https://doc
 
 Also, if you want to test a specific function (in this example we will test
 `get_complement`) rather than running all of the unit tests you can modify the
-line at the end of the program:
+line at the end of the program from:
 
 ``` python
 doctest.testmod()
 ```
 
-to be:
+to:
 
 ``` python
 doctest.run_docstring_examples(get_complement, globals())
 ```
+
+If you want to see verbose output of your doctests, set the verbose flag to True:
+
+``` python
+doctest.run_docstring_examples(get_complement, globals(), verbose=True)
+```
+
 
 For this part of the assignment you will write code that takes a DNA sequence
 and returns a list of all open reading frames in that sequence. Recall that an
@@ -225,6 +232,7 @@ or TGA). Open up `gene_finder.py`  and fill in your own implementation of the
 functions described below:
 
 * `get_complement`: this function should take a nucleotide as input and return the complementary nucleotide.
+
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
@@ -236,6 +244,7 @@ To help you get started here are some unit tests (make sure you have read the
 ```
 
 * `get_reverse_complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
+
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
@@ -248,8 +257,7 @@ To help you get started here are some unit tests (make sure you have read the
 
 * `rest_of_ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
 
-Some unit tests (make sure you have read the [Unit Testing
-Instructions](#unit-testing-instruction)):
+Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> rest_of_ORF("ATGTGAA")
@@ -260,8 +268,7 @@ Instructions](#unit-testing-instruction)):
 
 * `find_all_ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a `while` loop to be useful for this purpose. Make sure to utilize your `rest_of_ORF` function when coding this part.
 
-A unit test (make sure you have read the [Unit Testing
-Instructions](#unit-testing-instruction)):
+A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
 ```
 >>> find_all_ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
@@ -289,7 +296,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 * `find_all_ORFs_both_strands`: this should do exactly the same thing as `find_all_ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
 
-A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
+A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruction)?) ;-)
 
 ```
 >>> find_all_ORFs_both_strands("ATGCGAATGTAGCATCAAA")
@@ -332,17 +339,17 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 * `longest_ORF_noncoding` : this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length**  of the longest ORF that was found across all random trials (that is the output of `longest_ORF_noncoding` is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
 
-Note 1: in order to randomly shuffle a string you should use the provided
+Note 1: In order to randomly shuffle a string you should use the provided
 `shuffle_string`  function. If you wanted to implement this function
 yourself, you could take the following approach: First convert the string to a
 list using the `list`  function. Once you have a list, you can shuffle the
 list using the built-in python function `list.shuffle` . To reassemble the
 shuffled list back to a string you can use string `join`  function.
 
-Note 2: we are not going to create unit tests for this function. Why not? Can
+Note 2: We are not going to create unit tests for this function. Why not? Can
 you think of a different method of unit testing that would be appropriate for
 this function? Are there any other methods you might use to build confidence
-that your implementation is correct?
+that your implementation is correct? (These are rhetorical questions.)
 
 
 * `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in **amino_acids.py**  or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
@@ -351,7 +358,7 @@ You can convert a three nucleotide string (also called a triplet codon) into
 the appropriate amino acid in the following manner.
 
 ``` python
-amino_acid = aa_table['CGA']`
+amino_acid = aa_table['CGA']
 ```
 
 `amino_acid` will now be the string 'R' (which stands for Arginine). Note that
@@ -375,7 +382,7 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 * `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
 
 ``` python
-threshold = longest_ORF_noncoding(dna, 1500)`
+threshold = longest_ORF_noncoding(dna, 1500)
 ```
 
 Next, find all open reading frames on both strands, and then return a list
