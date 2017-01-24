@@ -1,6 +1,10 @@
 ---
 date: 2017-01-19 14:22:37 -0500
-description: ''
+description: >
+  Before we can get down to the business, we need to make sure we have the right
+  tools for the job. If you follow these instructions (with help from our
+  amazing NINJA team), your computer will be primed and ready to do some serious
+  computational work.
 due_date: '2017-01-23'
 layout: single
 title: Get Set

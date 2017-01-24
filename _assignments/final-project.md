@@ -1,6 +1,9 @@
 ---
 date: 2017-01-15 13:01:52 -0500
-description: ''
+description: >
+  From now until the end of the semester you will be working with a team of
+  students on a group software project. The project will culminate during the
+  Final Event period for this class,  with EXPO style demo / poster session.
 due_date: '2017-04-27'
 parts:
   - name: Project Proposal
@@ -24,9 +27,8 @@ type: index
 ## Overview
 
 From now until the end of the semester you will be working with a team of
-students on a group software project. <!--The project will culminate on Thursday,
-May 5th with EXPO style demo / poster session (8am-11am). Both sections will
-be present concurrently for this session.-->
+students on a group software project. The project will culminate during the
+Final Event period for this class,  with EXPO style demo / poster session.
 
 ## Project Topic
 

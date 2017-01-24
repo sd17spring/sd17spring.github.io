@@ -4,19 +4,26 @@ title: Assignments
 layout: single
 ---
 
-<ul>
+<dl>
 {% assign assignments = (site.assignments | filter: 'due_date' | sort: 'due_date') %}
 {% for assignment in assignments %}
   {% if assignment.due_date %}
     {% if assignment.parts %}
-      <li><a href="{{ assignment.url }}">{{ assignment.title }}</a><ul>
+      <dt><a href="{{ assignment.url }}">{{ assignment.title }} – parts due
+        {% for part in assignment.parts %}
+          <b>{{ part.due_date | date: '%a, %b %d' }}</b>{% if forloop.rindex > 1 %}; {% endif %}
+          {% if forloop.rindex == 2 %}and{% endif %}
+        {% endfor %}
+      </a></dt>
+      <dd>{{ assignment.description }}<ul>
       {% for part in assignment.parts %}
-        <li>{{ part.name }} – due {{ part.due_date | date: '%A, %B %d' }}</li>
+        <li>{{ part.name }} – due <b>{{ part.due_date | date: '%A, %B %d' }}</b></li>
       {% endfor %}
-      </ul>
+      </ul></dd>
     {% else %}
-      <li><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %d' }}</a></li>
+      <dt><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%a, %B %d' }}</a></dt>
+      <dd>{{ assignment.description }}</dd>
     {% endif %}
   {% endif %}
 {% endfor %}
-</ul>
+</dl>

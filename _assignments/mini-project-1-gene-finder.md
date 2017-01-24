@@ -1,11 +1,15 @@
 ---
 date: 2017-01-21
-description: ''
+description: >
+  In this assignment you will be writing a Python program that analyzes a DNA
+  sequence and outputs snippets of DNA that are likely to be protein-coding
+  genes. You will then use your program to find genes in a sequence of DNA from
+  the bacterium Salmonella Enterica.
 due_date: '2017-02-06'
 parts:
-  - name: part 1
+  - name: Week 1
     due_date: 2017-01-30
-  - name: part 2
+  - name: Week 2
     due_date: 2017-02-06
 title: 'Mini Project 1: Gene Finder'
 ---
@@ -95,7 +99,7 @@ this understanding better treatments).
 In this assignment you will be writing a Python program that analyzes a DNA
 sequence and outputs snippets of DNA that are likely to be protein-coding
 genes. You will then use your program to find genes in a sequence of DNA from
-the bacterium _Salmonella Enterica._ We suspect that this particular DNA
+the bacterium _Salmonella Enterica_. We suspect that this particular DNA
 sequence is related to Salmonella's role in the pathogenesis of various
 diseases such as Typhoid fever. Finally, you will use the genetic search
 engine [protein-

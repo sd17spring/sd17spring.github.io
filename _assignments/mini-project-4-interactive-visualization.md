@@ -1,6 +1,10 @@
 ---
 date: 2017-01-22
-description: ''
+description: >
+  The big idea of this project will be to move from static programs (ones that
+  are run, do some computations, and spit out a result) to interactive programs
+  (ones that allow the user to perform actions that change the state of the
+  program).
 due_date: '2017-03-14'
 title: 'Mini Project 4: Interactive Programming'
 ---
@@ -21,6 +25,7 @@ program). The dance of user input and program response, will enable us to
 write some very powerful software. Here are some ideas:
 
 1. **Interactive data visualization:** as the amount of information available on the net explodes, there is an increasing need for tools that allow people to explore and understand the patterns in this data. During this exploratory stage, it is invaluable to have a tool that enables the user to rapidly explore various aspects and views of the data. Interactive visualization is an emerging and highly interdisciplinary field that straddles many disciplines including computer science, art, statistics, and even journalism. A potential SoftDes project in this space would be to write a program to download some data (or possibly acquire data in real-time, say from some sensor or a web API), display the data to the user in a clear and compelling format, and allow the user to dynamically explore various aspects of the data through a user interface.
+
 2. **Video games:** video games are a clear example of an interactive program. A possible project in this space would be to develop a Python-based adaptation of your favorite game (classic arcade games or smartphone apps make ideal candidates). We encourage you to think broadly about using non-traditional input modalities (beyond keyboard and mouse). For instance, why not control a video game based on images captured by your laptop's webcam?
 
 3. **Interactive art:**  a potential project in this space could be to create visuals or audio that is in some way responsive to the observer. The possibilities in this space are huge. One specific idea would be to create a computerized musical instrument that can be controlled through hand motions (where movements would be detected using computer vision).
