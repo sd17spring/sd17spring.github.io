@@ -1,7 +1,20 @@
 ---
 date: 2017-01-15 13:01:52 -0500
 description: ''
-due_date: '2017-03-20'
+due_date: '2017-04-27'
+parts:
+  - name: Project Proposal
+    due_date: 2017-03-20
+  - name: TR1 Preparation Document
+    due_date: 2017-03-27
+  - name: TR1 Reflection Document
+    due_date: 2017-03-30
+  - name: TR2 Preparation Document
+    due_date: 2017-04-20
+  - name: TR2 Reflection Document
+    due_date: 2017-04-24
+  - name: Final Deliverables
+    due_date: 2017-04-27
 title: Final Project
 type: index
 ---

@@ -8,7 +8,15 @@ layout: single
 {% assign assignments = (site.assignments | filter: 'due_date' | sort: 'due_date') %}
 {% for assignment in assignments %}
   {% if assignment.due_date %}
-    <li><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %d' }}</a></li>
+    {% if assignment.parts %}
+      <li><a href="{{ assignment.url }}">{{ assignment.title }}</a><ul>
+      {% for part in assignment.parts %}
+        <li>{{ part.name }} – due {{ part.due_date | date: '%A, %B %d' }}</li>
+      {% endfor %}
+      </ul>
+    {% else %}
+      <li><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %d' }}</a></li>
+    {% endif %}
   {% endif %}
 {% endfor %}
 </ul>
