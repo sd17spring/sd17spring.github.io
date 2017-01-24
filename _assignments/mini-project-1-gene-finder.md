@@ -158,6 +158,8 @@ next section explains the purpose of each of these files.
 
 ## Week 1
 
+**Due {{ page.parts[0].due_date | date: '%A, %B %d' }}**
+
 ### Getting the Lay of the Land
 
 The last step of the previous section had you listing the contents of the
@@ -227,7 +229,6 @@ If you want to see verbose output of your doctests, set the verbose flag to True
 ``` python
 doctest.run_docstring_examples(get_complement, globals(), verbose=True)
 ```
-
 
 For this part of the assignment you will write code that takes a DNA sequence
 and returns a list of all open reading frames in that sequence. Recall that an
@@ -328,6 +329,8 @@ You will not be turning in your code for this assignment. However, you are requi
 The check in will be worth 20% of the final grade for this assignment.
 
 ## Week 2
+
+**Due {{ page.parts[1].due_date | date: '%A, %B %d' }}**
 
 This week you will be implementing the rest of the functions necessary to
 create your gene finder. Once you have done that, you will be using your code
