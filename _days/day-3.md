@@ -20,6 +20,9 @@ title: Day 3
 We'll go over some of the take homes from [the reading
 journals]({{site.data.course.urls.reading_journal_response_prefix}}day1_reading_journal_responses.ipynb) that we collected from the class.
 
+The [day 2 reading
+journal responses]({{site.data.course.urls.reading_journal_response_prefix}}day2_reading_journal_responses.ipynb) are also now available.
+
 ## Exploring Modular Design
 
 In groups of 3, review the [solutions from the class]({{site.data.course.urls.reading_journal_response_prefix}}day1_reading_journal_responses.ipynb##Exercise-3.3) to the Exercise 3.3.
