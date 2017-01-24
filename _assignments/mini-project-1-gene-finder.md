@@ -1,7 +1,7 @@
 ---
 date: 2017-01-21
 description: ''
-due_date: '2017-01-26'
+due_date: '2017-01-30 part 1, 2017-02-06 part 2'
 title: 'Mini Project 1: Gene Finder'
 ---
 
