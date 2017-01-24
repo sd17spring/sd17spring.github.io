@@ -14,6 +14,8 @@ title: Day 3
 ## For Next Time
 
 * Start on mini-project 1
+* Read _Think Python_ Ch. 8, 10.1-10.6.
+* Do the reading journal.
 
 ## Reading Journal Day 1 Debrief
 
