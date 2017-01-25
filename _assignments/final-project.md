@@ -106,18 +106,6 @@ reflection/synthesis document due after.
 
 See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
 
-### Code Review
-
-_Due: 4/14_
-
-**The code review is worth 10% of the project grade**
-
-On April 14th we will hold an in-class code review session. This is an
-opportunity for you to give and receive detailed feedback from your peer teams
-about ways to improve your project code.
-
-See the [Code Reviews]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
-
 ### Not-Quite-Mid-Project Presentation
 
 _Date: {{site.data.dates.mid_project_presentation | date: '%B %d' }}_
