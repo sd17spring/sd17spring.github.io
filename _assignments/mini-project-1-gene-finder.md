@@ -5,7 +5,7 @@ description: >
   sequence and outputs snippets of DNA that are likely to be protein-coding
   genes. You will then use your program to find genes in a sequence of DNA from
   the bacterium Salmonella Enterica.
-due_date: '2017-02-06'
+due_date: 2017-02-06
 parts:
   - name: Week 1
     due_date: 2017-01-30

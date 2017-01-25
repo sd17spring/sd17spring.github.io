@@ -11,7 +11,7 @@ layout: single
     {% if assignment.parts %}
       <dt><a href="{{ assignment.url }}">{{ assignment.title }} – parts due
         {% for part in assignment.parts %}
-          <b>{{ part.due_date | date: '%a, %b %d' }}</b>{% if forloop.rindex > 1 %}; {% endif %}
+          <b>{{ part.due_date | date: '%a %b %-d' }}</b>{% if forloop.rindex > 1 %}; {% endif %}
           {% if forloop.rindex == 2 %}and{% endif %}
         {% endfor %}
       </a></dt>
@@ -21,7 +21,7 @@ layout: single
       {% endfor %}
       </ul></dd>
     {% else %}
-      <dt><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%a, %B %d' }}</a></dt>
+      <dt><a href="{{ assignment.url }}">{{ assignment.title }} – due {{ assignment.due_date | date: '%A, %B %-d' }}</a></dt>
       <dd>{{ assignment.description }}</dd>
     {% endif %}
   {% endif %}

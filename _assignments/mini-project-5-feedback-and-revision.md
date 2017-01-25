@@ -4,7 +4,7 @@ description: >
   Reflection and revision is an important part of the iterative feedback
   process. In this mini project, you will select one of your first four mini
   projects to revise/extend and resubmit.
-due_date: '2017-04-23'
+due_date: 2017-04-23
 title: 'Mini Project 5: Feedback and Revision'
 ---
 
