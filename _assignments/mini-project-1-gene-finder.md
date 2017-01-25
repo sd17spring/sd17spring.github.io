@@ -8,8 +8,10 @@ description: >
 due_date: 2017-02-06
 parts:
   - name: Week 1
+    tag: week-1
     due_date: 2017-01-30
   - name: Week 2
+    tag: week-2
     due_date: 2017-02-06
 title: 'Mini Project 1: Gene Finder'
 ---

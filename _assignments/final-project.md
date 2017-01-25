@@ -8,16 +8,22 @@ due_date: 2017-04-27
 parts:
   - name: Project Proposal
     due_date: 2017-03-20
+    tag: project-proposal
   - name: TR1 Preparation Document
     due_date: 2017-03-27
+    tag: technical-reviews
   - name: TR1 Reflection Document
     due_date: 2017-03-30
+    tag: technical-reviews
   - name: TR2 Preparation Document
     due_date: 2017-04-20
+    tag: technical-reviews
   - name: TR2 Reflection Document
     due_date: 2017-04-24
+    tag: technical-reviews
   - name: Final Deliverables
     due_date: 2017-04-27
+    tag: project-website
 title: Final Project
 type: index
 ---
@@ -84,7 +90,7 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-### Technical Reviews (3/31 and 4/21)
+### Technical Reviews
 
 _Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
