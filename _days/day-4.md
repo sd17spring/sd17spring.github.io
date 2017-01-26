@@ -1,7 +1,6 @@
 ---
 date: '2017-01-26'
 description: String formatting
-published: false
 title: Day 4
 ---
 
@@ -20,10 +19,12 @@ title: Day 4
 
 ## Reading Journal Debrief
 
-We'll be going over your [compiled
-answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_ reading_journal_ responses.ipynb).
+We'll be available to go over the
+[day 3]({{ site.data.course.urls.reading_journal_response_prefix }}day3_reading_journal_responses.ipynb)
+and [day 4]({{ site.data.course.urls.reading_journal_response_prefix }}day4_reading_journal_responses.ipynb)
+compiled reading journal answers.
 
-
+{% comment %}
 ## Sharing Lessons Learned on Unit Testing
 
 As a class, we will have a discussion on unit testing.
@@ -32,6 +33,7 @@ As a class, we will have a discussion on unit testing.
 2. What role does unit testing play in determining whether or not your program is correct? This may vary depending on the program.
 3. Any aspects of unit testing that you find unwieldy?
 4. Any lessons or best practices to share with the class?
+{% nocomment %}
 
 
 ## String Formatting
