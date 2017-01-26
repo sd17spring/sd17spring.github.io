@@ -35,6 +35,7 @@ As a class, we will have a discussion on unit testing.
 3. Any aspects of unit testing that you find unwieldy?
 4. Any lessons or best practices to share with the class?
 {% nocomment %}
+{% endcomment %}
 
 
 ## String Formatting
