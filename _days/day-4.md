@@ -20,9 +20,8 @@ title: Day 4
 ## Reading Journal Debrief
 
 We'll be available to go over the
-[day 3]({{ site.data.course.urls.reading_journal_response_prefix }}day3_reading_journal_responses.ipynb)
-and [day 4]({{ site.data.course.urls.reading_journal_response_prefix }}day4_reading_journal_responses.ipynb)
-compiled reading journal answers.
+[compiled reading journal answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_reading_journal_responses.ipynb).
+.
 
 {% comment %}
 ## Sharing Lessons Learned on Unit Testing
