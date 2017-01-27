@@ -27,7 +27,7 @@ Thanks to Dennis Chen [2015 NINJA] for writing this toolbox.
 Before getting started, make sure you have pygame installed. The following
 apt-get line will install the pygame library.
 
-    $ sudo apt-get install python-pygame
+    $ sudo pip3 install pygame
 
 Grab the A star search starter code via the normal fork-and-clone method from
 <https://github.com//{{site.course.github_owner}}/ToolBox-AI>
