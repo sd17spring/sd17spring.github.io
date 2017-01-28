@@ -32,7 +32,7 @@ assistants:
 github_owner: sd17spring
 
 urls:
-  reading_journal_response_prefix: 'https://github.com/paulruvolo/SoftDesSp16Prep/blob/master/processed_notebooks/'
+  reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
 
 sections:
   - number: 1

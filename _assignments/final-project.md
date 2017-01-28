@@ -1,7 +1,29 @@
 ---
 date: 2017-01-15 13:01:52 -0500
-description: ''
-due_date: '2017-03-20'
+description: >
+  From now until the end of the semester you will be working with a team of
+  students on a group software project. The project will culminate during the
+  Final Event period for this class,  with EXPO style demo / poster session.
+due_date: 2017-04-27
+parts:
+  - name: Project Proposal
+    due_date: 2017-03-20
+    tag: project-proposal
+  - name: TR1 Preparation Document
+    due_date: 2017-03-27
+    tag: technical-reviews
+  - name: TR1 Reflection Document
+    due_date: 2017-03-30
+    tag: technical-reviews
+  - name: TR2 Preparation Document
+    due_date: 2017-04-20
+    tag: technical-reviews
+  - name: TR2 Reflection Document
+    due_date: 2017-04-24
+    tag: technical-reviews
+  - name: Final Deliverables
+    due_date: 2017-04-27
+    tag: project-website
 title: Final Project
 type: index
 ---
@@ -11,9 +33,8 @@ type: index
 ## Overview
 
 From now until the end of the semester you will be working with a team of
-students on a group software project. <!--The project will culminate on Thursday,
-May 5th with EXPO style demo / poster session (8am-11am). Both sections will
-be present concurrently for this session.-->
+students on a group software project. The project will culminate during the
+Final Event period for this class,  with EXPO style demo / poster session.
 
 ## Project Topic
 
@@ -69,7 +90,7 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-### Technical Reviews (3/31 and 4/21)
+### Technical Reviews
 
 _Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
@@ -84,18 +105,6 @@ framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
 See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
-
-### Code Review
-
-_Due: 4/14_
-
-**The code review is worth 10% of the project grade**
-
-On April 14th we will hold an in-class code review session. This is an
-opportunity for you to give and receive detailed feedback from your peer teams
-about ways to improve your project code.
-
-See the [Code Reviews]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
 
 ### Not-Quite-Mid-Project Presentation
 

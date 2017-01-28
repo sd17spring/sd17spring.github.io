@@ -1,7 +1,6 @@
 ---
 date: '2017-01-26'
 description: String formatting
-published: false
 title: Day 4
 ---
 
@@ -18,12 +17,15 @@ title: Day 4
 * Read [AmGit Chapter 3](https://github.com/AllenDowney/amgit/blob/master/en/03-git-branching/01-chapter3.markdown) and [Chapter 4](https://github.com/AllenDowney/amgit/blob/master/en/04-git-server/01-chapter4.markdown)
 * Review [Linux at Olin](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzZDE1c3ByaW5nfGd4OmMyNzcyOTBjYThlMTM1Mg) if you didn't get a chance previously
 
+{% comment %}
 ## Reading Journal Debrief
 
-We'll be going over your [compiled
-answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_ reading_journal_ responses.ipynb).
+We'll be available to go over the
+[compiled reading journal answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_reading_journal_responses.ipynb).
+{% endcomment %}
 
 
+{% comment %}
 ## Sharing Lessons Learned on Unit Testing
 
 As a class, we will have a discussion on unit testing.
@@ -32,6 +34,8 @@ As a class, we will have a discussion on unit testing.
 2. What role does unit testing play in determining whether or not your program is correct? This may vary depending on the program.
 3. Any aspects of unit testing that you find unwieldy?
 4. Any lessons or best practices to share with the class?
+{% nocomment %}
+{% endcomment %}
 
 
 ## String Formatting
@@ -70,7 +74,7 @@ operator) to replace pieces of the format string. For example, to insert an
 integer, you could use:
 
 ```
->>> print "Your number is %d" % 52
+>>> print("Your number is %d" % 52)
 Your number is 52
 ```
 
@@ -78,7 +82,7 @@ The [newer method](https://docs.python.org/2/library/string.html#format-string-s
 format method:
 
 ```
->>> print "Your number is {:d}".format(52)
+>>> print("Your number is {:d}".format(52))
 Your number is 52
 ```
 
@@ -108,5 +112,5 @@ Total $237
 What helper functions would be useful in creating this receipt program?
 
 Hint: the [built-in 'ord' and
-'chr'](https://docs.python.org/2/library/functions.html) functions may be
+'chr'](https://docs.python.org/3/library/functions.html) functions may be
 useful. If you use these, pay attention to how case affects the result.

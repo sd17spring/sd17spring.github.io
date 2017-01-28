@@ -1,7 +1,18 @@
 ---
 date: 2017-01-21
-description: ''
-due_date: '2017-01-26'
+description: >
+  In this assignment you will be writing a Python program that analyzes a DNA
+  sequence and outputs snippets of DNA that are likely to be protein-coding
+  genes. You will then use your program to find genes in a sequence of DNA from
+  the bacterium Salmonella Enterica.
+due_date: 2017-02-06
+parts:
+  - name: Week 1
+    tag: week-1
+    due_date: 2017-01-30
+  - name: Week 2
+    tag: week-2
+    due_date: 2017-02-06
 title: 'Mini Project 1: Gene Finder'
 ---
 
@@ -90,7 +101,7 @@ this understanding better treatments).
 In this assignment you will be writing a Python program that analyzes a DNA
 sequence and outputs snippets of DNA that are likely to be protein-coding
 genes. You will then use your program to find genes in a sequence of DNA from
-the bacterium _Salmonella Enterica._ We suspect that this particular DNA
+the bacterium _Salmonella Enterica_. We suspect that this particular DNA
 sequence is related to Salmonella's role in the pathogenesis of various
 diseases such as Typhoid fever. Finally, you will use the genetic search
 engine [protein-
@@ -152,6 +163,8 @@ command will show you all of the files in the `GeneFinder` repository. The
 next section explains the purpose of each of these files.
 
 ## Week 1
+
+**Due {{ page.parts[0].due_date | date: '%A, %B %d' }}**
 
 ### Getting the Lay of the Land
 
@@ -222,7 +235,6 @@ If you want to see verbose output of your doctests, set the verbose flag to True
 ``` python
 doctest.run_docstring_examples(get_complement, globals(), verbose=True)
 ```
-
 
 For this part of the assignment you will write code that takes a DNA sequence
 and returns a list of all open reading frames in that sequence. Recall that an
@@ -323,6 +335,8 @@ You will not be turning in your code for this assignment. However, you are requi
 The check in will be worth 20% of the final grade for this assignment.
 
 ## Week 2
+
+**Due {{ page.parts[1].due_date | date: '%A, %B %d' }}**
 
 This week you will be implementing the rest of the functions necessary to
 create your gene finder. Once you have done that, you will be using your code
