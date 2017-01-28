@@ -91,9 +91,9 @@ out [the research
 paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)
 that introduced the method if you'd like to learn more.
 
-In order to load the face detector, you will have to load an XML file that describes the faces the detector is looking for: `haarcascade_frontalface_alt.xml`. You can download the file directly [here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_alt.xml)).
+In order to load the face detector, you will have to load `haarcascade_frontalface_alt.xml`, an XML file that describes the faces the detector is looking for. You can download the file directly [here](https://raw.githubusercontent.com/Itseez/opencv/master/data/haarcascades/haarcascade_frontalface_alt.xml).
 
-To detect faces, before you start grabbing frames from the video, instantiate
+To detect faces, *before you start grabbing frames from the video*, instantiate
 the face detector. Use the filepath of where you put the XML file, the location below would be in your Downloads folder.
 
     face_cascade = cv2.CascadeClassifier('~/Downloads/haarcascade_frontalface_alt.xml')
