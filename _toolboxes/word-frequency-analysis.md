@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-01-29
 description: ''
 title: Word Frequency Analysis
 ---
@@ -39,7 +39,7 @@ space, tab, newline, etc., and `punctuation` which contains the punctuation
 characters. Let’s see if we can make Python swear:
 ```
     >>> import string
-    >>> print string.punctuation
+    >>> print(string.punctuation)
     !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 Also, you might consider using the string methods `strip`, `replace`,
