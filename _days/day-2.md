@@ -1,6 +1,8 @@
 ---
+activity_date: '2017-01-23'
 date: 2017-01-29
 description: Ramping up in Python
+published: true
 title: Day 2
 ---
 

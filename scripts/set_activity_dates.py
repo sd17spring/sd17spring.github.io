@@ -41,7 +41,7 @@ for day_no, activity_date in instr_day_df['Date'].iteritems():
         fm0 = yaml.load(fm_s)
 
     fm1 = deepcopy(fm0)
-    fm1['date'] = activity_date.strftime('%Y-%m-%d')
+    fm1['activity_date'] = activity_date.strftime('%Y-%m-%d')
     fm1['published'] = publication_date >= activity_date
 
     if fm0 == fm1:

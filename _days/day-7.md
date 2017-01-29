@@ -1,4 +1,5 @@
 ---
+activity_date: '2017-02-06'
 date: '2017-02-06'
 description: Recursion, fractals in TurtleWorld
 published: false

@@ -1,4 +1,5 @@
 ---
+activity_date: '2017-02-02'
 date: '2017-02-02'
 description: Dictionaries, tuples, saving data sets with pickle
 published: false

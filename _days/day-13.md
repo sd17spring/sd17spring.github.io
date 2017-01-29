@@ -1,4 +1,5 @@
 ---
+activity_date: '2017-02-27'
 date: '2017-02-27'
 description: Classes, UML diagrams
 published: false
