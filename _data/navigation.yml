@@ -20,6 +20,8 @@ docs:
     children:
       - title: "Get Set"
         url: /assignments/setup-your-environment/
+      - title: Reading Journal
+        url: https://github.com//sd17spring/ReadingJournal
       - title: "MP1: Gene Finder"
         url: /assignments/mini-project-1-gene-finder/
 
@@ -52,8 +54,6 @@ docs:
         url: https://piazza.com/class/iy3bgqkraq97c0
       - title: SoftDes GitHub Repo
         url: https://github.com//sd17spring/
-      - title: Reading Journal
-        url: https://github.com//sd17spring/ReadingJournal
       - title: Think Python
         url: http://greenteapress.com/wp/think-python-2e/
 
