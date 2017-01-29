@@ -3,7 +3,7 @@ date: '2016-12-29T18:26:01'
 description: ''
 title: Toolboxes
 permalink: /toolboxes/
-layout: single
+layout: archive
 ---
 
 Software Design and Python are wide worlds, and we'll only explore part of
