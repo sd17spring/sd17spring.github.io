@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-01-26
-date: '2017-01-26'
+date: 2017-01-26
 description: String formatting
 published: true
 title: Day 4

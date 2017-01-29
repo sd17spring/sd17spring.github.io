@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-03-27
-date: '2017-03-27'
+date: 2017-03-27
 description: Technical Review 1
 published: false
 title: Day 18

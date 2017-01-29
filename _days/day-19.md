@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-03-30
-date: '2017-03-30'
+date: 2017-03-30
 description: Debugging and profiling
 published: false
 title: Day 19

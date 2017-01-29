@@ -1,5 +1,5 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2016-12-29T18:26:01
 description: ''
 title: Project Proposal Rubric
 ---
@@ -26,4 +26,3 @@ title: Project Proposal Rubric
 0%
 
   * You didn't turn in anything, or you clearly didn't put any effort into creating your proposal
-

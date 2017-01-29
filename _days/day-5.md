@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-01-30
-date: '2017-01-30'
+date: 2017-01-30
 description: State diagrams, aliasing, scope. and iteration techniques.
 published: false
 title: Day 5

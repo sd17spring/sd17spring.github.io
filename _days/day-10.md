@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-02-16
-date: '2017-02-16'
+date: 2017-02-16
 description: Text mining mini project work
 published: false
 title: Day 10

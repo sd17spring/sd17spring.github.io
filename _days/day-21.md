@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-04-06
-date: '2017-04-06'
+date: 2017-04-06
 description: Project website/README, organizing large projects
 published: false
 title: Day 21
