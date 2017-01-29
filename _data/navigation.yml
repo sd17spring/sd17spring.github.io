@@ -52,10 +52,16 @@ docs:
     children:
       - title: Piazza
         url: https://piazza.com/class/iy3bgqkraq97c0
+      - title: Slack
+        url: https://olin.slack.com/messages/softdes17spring/
       - title: SoftDes GitHub Repo
         url: https://github.com//sd17spring/
       - title: Think Python
         url: http://greenteapress.com/wp/think-python-2e/
+      - title: Git Help
+        url: /git-help/
+      - title: More…
+        url: /resources/
 
   - title: Administrivia
     children:
