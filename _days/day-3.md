@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-01-24'
+activity_date: 2017-01-24
 date: '2017-01-24'
 description: Exploring modular design, intro to unit testing
 published: true

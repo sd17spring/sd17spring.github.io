@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-03-09'
+activity_date: 2017-03-09
 date: '2017-03-09'
 description: Final project ideation and team formation
 published: false

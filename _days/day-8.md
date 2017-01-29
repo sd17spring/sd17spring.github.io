@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-02-09'
+activity_date: 2017-02-09
 date: '2017-02-09'
 description: Recursion practice, computational art gallery show
 published: false

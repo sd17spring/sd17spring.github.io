@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-02-22'
+activity_date: 2017-02-22
 date: '2017-02-22'
 description: Classes
 published: false

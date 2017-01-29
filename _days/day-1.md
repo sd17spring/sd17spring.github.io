@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-01-19'
+activity_date: 2017-01-19
 date: 2017-01-19
 description: The case for interdisciplinary computer science, course overview
 published: true

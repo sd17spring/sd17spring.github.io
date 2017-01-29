@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-04-13'
+activity_date: 2017-04-13
 date: '2017-04-13'
 description: Project work
 published: false

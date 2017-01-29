@@ -1,5 +1,5 @@
 ---
-activity_date: '2017-04-03'
+activity_date: 2017-04-03
 date: '2017-04-03'
 description: Exceptions and assertions
 published: false
