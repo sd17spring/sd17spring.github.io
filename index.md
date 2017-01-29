@@ -61,10 +61,9 @@ account.
 
 ## Office Hours
 
-Office hour times will be posted on
-[Piazza](({{site.course.piazza_url}})/staff). If you need help
-outside of hours and class, please fill [this](http://tinyurl.com/softdeshelp)
-out!
+Office hour times are posted on
+[Piazza](https://piazza.com/class/iy3bgqkraq97c0?cid=17). If you need help
+outside of hours and class, please use [Slack](https://olin.slack.com/messages/softdes17spring/)!
 
 
 
