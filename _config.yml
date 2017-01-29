@@ -12,6 +12,7 @@ timezone: America/New_York
 breadcrumbs: true  # disabled by default
 author:
   name   : "Olin College computing faculty"
+breadcrumbs: true  # disabled by default
 
 collections:
   assignments:
