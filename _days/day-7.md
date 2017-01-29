@@ -119,7 +119,7 @@ as drawing regular polygons) would be most useful in completing a task.
 Identifying these common primitives can help **refactor**  messy code with many
 copy-paste sections into a set of reusable functions with clean interfaces.
 From [Think
-Python](http://greenteapress.com/thinkpython/html/thinkpython005.html#toc45):
+Python](http://greenteapress.com/wp/think-python-2e/html/thinkpython2005.html#toc45):
 
 > The **interface**  of a function is a summary of how it is used: what are the
 parameters? What does the function do? And what is the return value? An

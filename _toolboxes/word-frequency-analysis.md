@@ -87,4 +87,4 @@ toolbox exercise checked off with a NINJA.
 ## Making it Cooler (optional)
 
 If you want to do some more advanced word frequency analysis, try the rest of
-the exercises in [Think Python 13.1](http://www.greenteapress.com/thinkpython2/html/thinkpython2014.html).
+the exercises in [Think Python 13.1](http://greenteapress.com/thinkpython2/html/thinkpython2014.html).

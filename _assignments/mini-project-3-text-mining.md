@@ -438,8 +438,7 @@ fancier look into using [TF-IDF features](http://en.wikipedia.org/wiki/Tf%E2%80%
 Beyond simply calculating word frequencies there are some other ways to
 summarize the words in a text. For instance, what are the top 10 words in each
 text? What are the words that appear the most in each text that don't appear
-in other texts? For some other ideas see [Chapter 13 of Think Python](http://greenteapress.com/thinkpython/html/thinkpython014.html).
-
+in other texts? For some other ideas see [Chapter 13 of Think Python](http://greenteapress.com/thinkpython2/html/thinkpython2014.html).
 
 #### Doing Linguistic Post-processing
 
@@ -589,7 +588,7 @@ learn a generative model of the text that you collect from the web and use it
 to generate new texts. You can even use it to create mashups of multiple
 texts. Two possibilities in this space would be to imitate Facebook posts by
 each of your friends, or to create literary mashups automatically. [Think
-Python chapter 13](http://greenteapress.com/thinkpython/html/thinkpython014.html) section 8
+Python chapter 13](http://greenteapress.com/thinkpython2/html/thinkpython2014.html) section 8
 called "Markov Analysis" has some detail on how to do this. Again, let the
 teaching team know if you go this route and we can provide more guidance.
 

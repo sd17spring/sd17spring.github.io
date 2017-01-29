@@ -233,7 +233,7 @@ the profiling folder. Use cProfile to determine the bottleneck(s) in execution
 and fix them.
 
 Hint: It may be useful to revisit [Think Python Appendix
-B](http://greenteapress.com/thinkpython/html/thinkpython022.html), especially
+B](http://greenteapress.com/thinkpython2/html/thinkpython2022.html), especially
 B.3 and B.4. You do not need to keep the architecture/functional organization
 of the original code if it is slowing things down.
 

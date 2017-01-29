@@ -29,7 +29,7 @@ There are many good resources to use to learn about files. Check out some of
 these resources:
 
 * [The Python documentation](https://docs.python.org/3/tutorial/inputoutput.html)
-* [Think Python Chapter 14](http://www.greenteapress.com/thinkpython/html/thinkpython015.html)
+* [Think Python Chapter 14](http://greenteapress.com/thinkpython2/html/thinkpython2015.html)
 * [This tutorial](http://www.tutorialspoint.com/python/python_files_io.htm) at TutorialsPoint
 
 ## Learn About Pickle
@@ -38,7 +38,7 @@ There are many good resources to use to learn about pickling. Check out some
 of these resources:
 
 * [The Python documentation](https://docs.python.org/3/library/pickle.html)
-* [Think Python Chapter 14](http://www.greenteapress.com/thinkpython/html/thinkpython015.html)
+* [Think Python Chapter 14](http://greenteapress.com/thinkpython2/html/thinkpython2015.html)
 * [The Python wiki](https://wiki.python.org/moin/UsingPickle)
 
 ## Implement the function update_counter
