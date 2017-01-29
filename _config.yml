@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   ongoing entities embedded in and interacting with a dynamic environment, for example: computation as it occurs in
   spreadsheets, video games, web applications, and robots.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sd17spring.github.io/" # the base hostname & protocol for your site
+url: "https://sd17spring.github.io/" # if you change this, change it in site.css too
 timezone: America/New_York
 
 # Theme settings
