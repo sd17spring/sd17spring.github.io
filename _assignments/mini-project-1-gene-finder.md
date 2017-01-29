@@ -32,7 +32,7 @@ title: 'Mini Project 1: Gene Finder'
 
 ### Biology Skills Emphasized
 
-* Gene detection in arbitrary DNA sequences (also known as "ab initio gene finding")
+* Gene detection in arbitrary DNA sequences (also known as "*ab initio* gene finding")
 * Understanding protein coding
 * Using Protein BLAST and interpreting its results
 * [for the "going beyond" part] Learning how to read research papers, regulatory mechanisms for protein synthesis
@@ -82,8 +82,8 @@ apparently simple rules that the transcriptional machinery uses: strong,
 easily recognizable signals within the genome such as open reading frames,
 consensus splice sites and nearly universal start and stop codon sequences.
 These signals are highly conserved, are relatively easy to model, and have
-been the focus of a number of algorithms trying to locate all the protein-
-coding genes in a genome using only the sequence of one or more genomes.
+been the focus of a number of algorithms trying to locate all the protein-coding
+genes in a genome using only the sequence of one or more genomes.
 > \-- "Gene Prediction: compare and CONTRAST", Paul Flicek._ Genome Biology_
 2007, **8** :233.
 
@@ -104,8 +104,7 @@ genes. You will then use your program to find genes in a sequence of DNA from
 the bacterium _Salmonella Enterica_. We suspect that this particular DNA
 sequence is related to Salmonella's role in the pathogenesis of various
 diseases such as Typhoid fever. Finally, you will use the genetic search
-engine [protein-
-BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
+engine [protein-BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 to confirm whether or not the genes predicted by your program are in fact
 genes, and if so what their functional role might be. This assignment is
 essentially the Biological equivalent of a mystery novel, and your primary
@@ -215,7 +214,7 @@ described below.
 
 ### Unit Testing Instruction
 
-For each function we have given you some unit tests (using [doctest](https://docs.python.org/2/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
+For each function we have given you some unit tests (using [doctest](https://docs.python.org/3/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
 
 Also, if you want to test a specific function (in this example we will test
 `get_complement`) rather than running all of the unit tests you can modify the
@@ -319,8 +318,8 @@ A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruc
 ### Going Beyond
 
 List comprehensions! Many of these functions can be written more succinctly
-using list comprehensions (see Section 5.1.4
-[here](https://docs.python.org/2/tutorial/datastructures.html)). Try to use
+using list comprehensions (see Section 5.1.3
+[here](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)). Try to use
 list comprehensions to rewrite some of your code. Were any of the functions
 particularly hard (or impossible) to rewrite using list comprehensions? If so,
 how come?

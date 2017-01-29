@@ -20,7 +20,7 @@ If you don't get any errors, it means everything is already there.
 
 To get started, read the first two sections (the intro and 25.3.1) of the
 python unittest documentation found
-[here](https://docs.python.org/2/library/unittest.html).
+[here](https://docs.python.org/3/library/unittest.html).
 
 ## Making your own test cases
 

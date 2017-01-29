@@ -71,7 +71,7 @@ square root table!
 There are two main ways to format strings in Python, and you're likely to see
 both in code you read.
 
-The [older method](https://docs.python.org/2/library/stdtypes.html#string-formatting) uses a format string and the percent character (same as the modulo
+The [older method](https://docs.python.org/3/library/stdtypes.html#string-formatting) uses a format string and the percent character (same as the modulo
 operator) to replace pieces of the format string. For example, to insert an
 integer, you could use:
 
@@ -80,7 +80,7 @@ integer, you could use:
 Your number is 52
 ```
 
-The [newer method](https://docs.python.org/2/library/string.html#format-string-syntax) also uses a (similar) format string, but uses an explicit
+The [newer method](https://docs.python.org/3/library/string.html#format-string-syntax) also uses a (similar) format string, but uses an explicit
 format method:
 
 ```

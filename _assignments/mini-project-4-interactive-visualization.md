@@ -383,7 +383,7 @@ Your code must be adequately documented. This includes:
 
 One way to ensure you have adequate docstrings is to generate documentation
 from them. You can do this using
-[pydoc](https://docs.python.org/2/library/pydoc.html):
+[pydoc](https://docs.python.org/3/library/pydoc.html):
 
 `$ pydoc path/to/my_project.py`
 
@@ -393,5 +393,5 @@ attach it to your writeup as an appendix.
 
 If you want to generate truly beautiful documentation, check out
 [Sphinx](http://sphinx-doc.org/) (the tool used to generate the [Python
-documentation](https://docs.python.org/2/)). Certainly not required, but you
+documentation](https://docs.python.org/3/)). Certainly not required, but you
 may want to use it in the future (think: final project)

@@ -30,7 +30,7 @@ takeaways]({{ site.data.course.urls.reading_journal_response_prefix }}Day%204%20
 ### More List Methods
 
 [Complete listing of Python's list
-methods](https://docs.python.org/2/tutorial/datastructures.html)
+methods](https://docs.python.org/3/tutorial/datastructures.html)
 
 Remember that these methods modify the (mutable) list in place rather than
 creating and returning a new list, so they generally return `None`.
