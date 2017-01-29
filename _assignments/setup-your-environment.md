@@ -1,5 +1,5 @@
 ---
-date: 2017-01-19 14:22:37 -0500
+date: 2017-01-29
 description: >
   Before we can get down to the business, we need to make sure we have the right
   tools for the job. If you follow these instructions (with help from our
@@ -171,9 +171,13 @@ Certain trivial but frequent errors (incorrect indentation, certain misspelled n
 
 ``` bash
 $ sudo pip3 install pyflakes jedi flake8 isort
-$ apm install Hydrogen atom-beautify autocomplete autocomplete-python
+$ apm install Hydrogen atom-beautify autocomplete autocomplete-python script
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
 ```
+
+[`script` was added to the instructions above on 2017-01-29.
+If you followed these instructions before that date, you need to run
+`apm install script` to get it.]
 
 If you prefer to use Sublime Text, install a _plugin manager_ (Package Control) using [these
 instructions](https://packagecontrol.io/installation#st3), and install the

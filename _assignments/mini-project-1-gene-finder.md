@@ -1,5 +1,5 @@
 ---
-date: 2017-01-21
+date: 2017-01-29
 description: >
   In this assignment you will be writing a Python program that analyzes a DNA
   sequence and outputs snippets of DNA that are likely to be protein-coding
@@ -178,7 +178,8 @@ the files:
 * `data/X73525.fa`  : a [FASTA](http://en.wikipedia.org/wiki/FASTA) file containing part of the genetic code of the Salmonella bacterium. As discussed in lecture, this part of the genetic code is responsible from some aspects of Salmonella pathogenesis.
 * `data/3300000497...`, `data/nitrogenase..`. :genetic for the metagenome Going Beyond extension
 
-The first thing to do is to open up `gene_finder.py` .The file has been
+The first thing to do is to use the Atom text editor to open up `gene_finder.py`.
+This file has been
 populated with function declarations, docstrings, and unit tests for all the
 functions you will need to complete the assignment. Start reading through the
 functions declared in the file, if you do so before we have had a chance to
