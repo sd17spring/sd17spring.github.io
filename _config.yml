@@ -7,8 +7,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://sd17spring.github.io/" # the base hostname & protocol for your site
 timezone: America/New_York
-author: github
+
+# Theme settings
 breadcrumbs: true  # disabled by default
+author:
+  name   : "Olin College computing faculty"
 
 collections:
   assignments:
