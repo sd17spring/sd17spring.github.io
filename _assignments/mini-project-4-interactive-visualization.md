@@ -171,7 +171,7 @@ _Where did my harddrive space go???_
 ![]({% link images/assignments/interactive-visualization/29.png %}){:width="304px" height="400px"}
 
 
-_ Examining the Group Debates:_
+_Examining the Group Debates:_
 ![]({% link images/assignments/interactive-visualization/37.png %}){:width="400px" height="229px"}
 
 _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](http://www.nytimes.com/interactive/2013/10/02/us/uninsured-americans-map.html)_

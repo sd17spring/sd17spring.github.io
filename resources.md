@@ -63,7 +63,7 @@ in other projects too.
 
 * [Numpy](http://www.numpy.org) scientific computing (including arrays)
 * [Pattern](http://www.clips.ua.ac.be/pattern) data mining, natural language processing, and more
-* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_ tutorials.html) image processing and computer vision
+* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) image processing and computer vision
 * [Pillow](http://python-pillow.org) image processing
 * [Pygame](http://www.pygame.org/hifi.html) realtime image display
 * [scikit-learn](http://scikit-learn.org/stable/) machine learning

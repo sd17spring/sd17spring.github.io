@@ -93,7 +93,7 @@ If you've written a program called `my_prog.py`, you can test it from the
 command line by running
 
 ``` bash
-$ python3 -m doctest [-v] my_ prog.py
+$ python3 -m doctest [-v] my_prog.py
 ```
 
 where the `[-v]` means you can either include the `-v` verbose flag or not.

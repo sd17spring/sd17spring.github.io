@@ -155,19 +155,19 @@ your code like the following:
 
 ```
 <<<<<<<HEAD
-sarah_strohkorb = pick_ the_coolest_ ninja(input_1, input_ 2)
+sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)
 =======
-sarah_strohkorb = pick_ the_coolest_ ninja()
+sarah_strohkorb = pick_the_coolest_ninja()
 >>>>>>><my-branch-name>
 ```
 
-The `sarah_strohkorb = pick_ the_coolest_ ninja(input_1, input_ 2)` line is what
-is represented on the ‘master’ branch and`sarah_strohkorb = pick_ the_coolest_ ninja()` line is what is represented on the ‘<my-branch-name>’ branch. You’ll have to pick one of them and then delete the rest of
-the information. So if I want `sarah_strohkorb = pick_ the_coolest_ ninja()`,
+The `sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)` line is what
+is represented on the ‘master’ branch and`sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the ‘<my-branch-name>’ branch. You’ll have to pick one of them and then delete the rest of
+the information. So if I want `sarah_strohkorb = pick_the_coolest_ninja()`,
 I’ll rearrange the code to get the following:
 
 ```
-sarah_strohkorb = pick_ the_coolest_ ninja()
+sarah_strohkorb = pick_the_coolest_ninja()
 ```
 
 

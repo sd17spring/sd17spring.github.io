@@ -23,7 +23,7 @@ title: Day 7
 ## Reading Journal Debrief
 
 We'll be reviewing your [compiled
-answers]({{ site.data.course.urls.reading_journal_response_prefix }}day6_ reading_journal_ responses.ipynb).
+answers]({{ site.data.course.urls.reading_journal_response_prefix }}day6_reading_journal_responses.ipynb).
 
 
 ## Recursion Practice
@@ -39,7 +39,7 @@ items from a pool of n). Your solution should be implemented recursively using
 
 ### Levenshtein Distance
 
-Write a function called `levenshtein_ distance` that takes as input two strings
+Write a function called `levenshtein_distance` that takes as input two strings
 and returns the [Levenshtein
 distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the two
 strings. Intuitively, the Levenshtein distance is the minimum number of edit
@@ -96,9 +96,9 @@ package called
 [TurtleWorld](http://www.greenteapress.com/thinkpython/swampy/turtle.html)
 that implements this sort of drawing environment in Python (the original
 concept goes way back to 1967 and the [Logo programming
-language](http://en.wikipedia.org/wiki/Logo_ %28programming_language%29)).
+language](http://en.wikipedia.org/wiki/Logo_%28programming_language%29)).
 President Obama [wrote his first line of
-code](http://www.huffingtonpost.com/2014/12/09/obama-code_ n_6294036.html) with
+code](http://www.huffingtonpost.com/2014/12/09/obama-code_n_6294036.html) with
 a similar environment.
 
 As part of your day 5 reading journal, you wrote several functions that
@@ -184,34 +184,34 @@ examples.
 Today, we will teach our turtles to draw fractal shapes using recursion. A
 very cool recursive drawing we can create is called the snowflake curve (or
 [Koch snowflake](http://en.wikipedia.org/wiki/Koch_snowflake)). To get
-started, let's write a function called`snow_ flake_side` with the following
+started, let's write a function called `snow_flake_side` with the following
 signature:
 
 ``` python
-def snow_ flake_side(turtle, length, level):`
+def snow_flake_side(turtle, length, level):`
     """ Draw a side of the snowflake curve with side length length and recursion
     depth of level """
 ```
 
-The `snow_ flake_side` function should have a base case that draws the
+The `snow_flake_side` function should have a base case that draws the
 following image:
 ![]({% link images/activities/turtle-graphics/snow_flake_1.png %})The
 recursive step should replace each of the line segments above with a
-`snow_flake_ side` with size `length/3.0` and recursion depth `level - 1`. Take
+`snow_flake_side` with size `length/3.0` and recursion depth `level - 1`. Take
 some time to work on this and then we'll discuss as a group.
 
-Once you have completed your `snow_flake_ side` function, create a function
+Once you have completed your `snow_flake_side` function, create a function
 called `snow_flake` that draws the whole snowflake.
 
 
 ### Recursive Trees
 
 Next, we will draw a tree using recursion. Define a function called
-`recursive_ tree` that takes as input a turtle, a branch length, and a
+`recursive_tree` that takes as input a turtle, a branch length, and a
 recursion depth and draws the recursive tree to the canvas.
 
 ``` python
-def recursive_tree(turtle, branch_ length, level):
+def recursive_tree(turtle, branch_length, level):
     """ Draw a tree with branch length branch_length and recursion depth of level
     """
 ```
@@ -229,12 +229,12 @@ For the recursive step, you should:
 1. Draw the line as above
 2. Clone your turtle
 3. Turn the new turtle left 30 degrees
-4. Recurse using the cloned turtle to draw a tree with branch length `branch_ length*0.6` and depth `level-1`
+4. Recurse using the cloned turtle to draw a tree with branch length `branch_length*0.6` and depth `level-1`
 5. Undraw the cloned turtle using the `undraw` method
 6. Back the original turtle up `branch_length/3.0`
 7. Clone your turtle
 8. Turn the new turtle right 40 degrees
-9. Recurse using the cloned turtle to draw a tree with branch length `branch_ length*0.64` and depth `level-1`
+9. Recurse using the cloned turtle to draw a tree with branch length `branch_length*0.64` and depth `level-1`
 10. Undraw the cloned turtle using the `undraw` method
 
 After implementing the recursive step, if you set `level` to 1 more than the
@@ -243,7 +243,7 @@ the base case), you will get the following picture:
 
 ![]({% link images/activities/turtle-graphics/snow_flake_3.png %})
 
-Once you've built your `recursive_ tree` function, try making a few
+Once you've built your `recursive_tree` function, try making a few
 enhancements:
 
 * Make the base case change the pen color for the turtle to green (this will simulate the appearance of leaves if you do a high enough depth)
@@ -266,11 +266,11 @@ _Hint 2_ : For the fractal plant you should create the following functions to
 save and then restore then Turtle's state (symbols "[" and "]" respectively):
 
 ``` python
-def save_turtle_ state(turtle_states,t):
-  turtle_ states.append((t.x,t.y,t.heading))
+def save_turtle_state(turtle_states,t):
+  turtle_states.append((t.x,t.y,t.heading))
 
-def restore_turtle_ state(turtle_states,t):
-  s = turtle_ states.pop()
+def restore_turtle_state(turtle_states,t):
+  s = turtle_states.pop()
   t.x = s[0]
   t.y = s[1]
   t.heading = s[2]
