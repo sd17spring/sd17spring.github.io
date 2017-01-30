@@ -52,7 +52,7 @@ what the heck he was thinking to you.
 
 ## Print those scores!
 
-Take a look at lines 145-148 of the code. Try commenting and uncommenting
+Take a look at lines 171-173 of the code. Try commenting and uncommenting
 lines to set COST_TO_DRAW to different values, and run the code to see the
 values that are printed in each cell when you hit the spacebar. Take a
 screenshot (Fn + Print Scrn) of each example with some lava tiles placed down,
