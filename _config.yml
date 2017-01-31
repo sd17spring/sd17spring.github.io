@@ -8,8 +8,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://sd17spring.github.io/" # if you change this, change it in site.css too
 timezone: America/New_York
 
-markdown: maruku
-
 # Theme settings
 breadcrumbs: true  # disabled by default
 author:
