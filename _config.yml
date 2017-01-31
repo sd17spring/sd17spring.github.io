@@ -11,10 +11,13 @@ timezone: America/New_York
 # Theme settings
 breadcrumbs: true  # disabled by default
 author:
-  github : sd17spring/sd17spring.github.io
+  github : sd17spring
   name   : "Olin College computing faculty"
 copyright_date: 2015-2017
 copyright_holder: Franklin W. Olin College of Engineering
+slack:
+  team: olin
+  channel: softdes17spring
 
 collections:
   assignments:

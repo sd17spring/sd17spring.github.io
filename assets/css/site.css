@@ -13,6 +13,6 @@ a[href^="http://"], a[href^="https://"] {
   padding-right: 13px;
 }
 
-a[href^="http://localhost:"], a[href^="https://sd17spring.github.io/"] {
+a[href^="http://localhost:"], a[href^="https://sd17spring.github.io/"], .social-icons a {
   background: none; padding-right: 0;
 }
