@@ -38,4 +38,5 @@ The Gene Finder project assignment was originally created by Professors Ran Libe
 The Computational Art project wan adapted from Harvey Mudd Professor Chris Stone's assignment posted at the
 [Stanford Nifty Assignments ](http://nifty.stanford.edu/) collection.
 
-This site is hosted on the GitHub Pages, using the Jekyll blogging platform and the Minimal Mistakes theme.
+This site is hosted on the GitHub Pages, using the Jekyll blogging platform, the Minimal Mistakes theme,
+and Font Awesome.
