@@ -51,9 +51,9 @@ but works for strings of differing lengths
 
 Here are some examples of these operations:
 
-1. **k** itten → **s** itten (substitution of "s" for "k")
-2. sitt**e** n → sitt**i** n (substitution of "i" for "e")
-3. sittin → sittin**g**  (insertion of "g" at the end).
+1. <tt><b><u>k</u></b>itten</tt> → <tt><b><u>s</u></b>itten</tt> (substitution of `s` for `k`)
+2. <tt>sitt<b><u>e</u></b>n</tt> → <tt>sitt<b><u>i</u></b>n</tt> (substitution of `i` for `e`)
+3. <tt>sittin</tt> → <tt>sittin<b><u>g</u></b></tt>  (insertion of `g` at the end).
 
 While this function seems initially daunting, it admits a very compact
 recursive solution. You can either work on your own to see the recursive
@@ -72,18 +72,15 @@ change can be made for n cents using the coins d.
 For example:
 
 ```
-make_change(10,[1, 5, 10]) -> 4
+make_change(10, [1, 5, 10]) -> 4
 ```
 
-Specifically,
+Specifically:
 
-10 pennies
-
-2 nickels
-
-1 nickel 5 pennies
-
-1 dime
+* 10 pennies
+* 2 nickels
+* 1 nickel 5 pennies
+* 1 dime
 
 
 ## Turtle World
@@ -229,12 +226,12 @@ For the recursive step, you should:
 1. Draw the line as above
 2. Clone your turtle
 3. Turn the new turtle left 30 degrees
-4. Recurse using the cloned turtle to draw a tree with branch length `branch_length*0.6` and depth `level-1`
+4. Recurse using the cloned turtle to draw a tree with branch length `branch_length * 0.6` and depth `level - 1`
 5. Undraw the cloned turtle using the `undraw` method
 6. Back the original turtle up `branch_length/3.0`
 7. Clone your turtle
 8. Turn the new turtle right 40 degrees
-9. Recurse using the cloned turtle to draw a tree with branch length `branch_length*0.64` and depth `level-1`
+9. Recurse using the cloned turtle to draw a tree with branch length `branch_length * 0.64` and depth `level - 1`
 10. Undraw the cloned turtle using the `undraw` method
 
 After implementing the recursive step, if you set `level` to 1 more than the
