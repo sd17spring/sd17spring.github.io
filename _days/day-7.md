@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-02-06
-date: 2017-02-06
+date: 2017-01-31
 description: Recursion, fractals in TurtleWorld
 published: false
 title: Day 7
@@ -192,9 +192,10 @@ def snow_flake_side(turtle, length, level):`
 
 The `snow_flake_side` function should have a base case that draws the
 following image:
-![]({% link images/activities/turtle-graphics/snow_flake_1.png %})The
-recursive step should replace each of the line segments above with a
-`snow_flake_side` with size `length/3.0` and recursion depth `level - 1`. Take
+![]({% link images/activities/turtle-graphics/snow_flake_1.png %})
+
+The recursive step should replace each of the line segments above with a
+`snow_flake_side` with size $length / 3.0$ and recursion depth $level - 1$. Take
 some time to work on this and then we'll discuss as a group.
 
 Once you have completed your `snow_flake_side` function, create a function
@@ -226,12 +227,12 @@ For the recursive step, you should:
 1. Draw the line as above
 2. Clone your turtle
 3. Turn the new turtle left 30 degrees
-4. Recurse using the cloned turtle to draw a tree with branch length `branch_length * 0.6` and depth `level - 1`
+4. Recurse using the cloned turtle to draw a tree with branch length $\textit{branch\_length} \times 0.6$ and depth $level - 1$
 5. Undraw the cloned turtle using the `undraw` method
-6. Back the original turtle up `branch_length/3.0`
+6. Back the original turtle up $\textit{branch\_length} / 3.0$
 7. Clone your turtle
 8. Turn the new turtle right 40 degrees
-9. Recurse using the cloned turtle to draw a tree with branch length `branch_length * 0.64` and depth `level - 1`
+9. Recurse using the cloned turtle to draw a tree with branch length $branch\_length \times 0.64$ and depth $level - 1$
 10. Undraw the cloned turtle using the `undraw` method
 
 After implementing the recursive step, if you set `level` to 1 more than the
@@ -245,7 +246,7 @@ enhancements:
 
 * Make the base case change the pen color for the turtle to green (this will simulate the appearance of leaves if you do a high enough depth)
 * Add some randomness to the degree of left turn, right turn, and scaling so that you get more naturalistic looking trees
-* Add more than 2 branches
+* Add more than two branches
 
 
 ## More Recursion
@@ -256,11 +257,11 @@ Systems](http://en.wikipedia.org/wiki/L-system)). Next, read the linked
 Wikipedia article on L-systems and try to implement Sierpinski's triangle and
 fractal plant.
 
-_Hint 1_ : For Sierpinski's triangle you will want to create a function to
+_Hint 1_: For Sierpinski's triangle you will want to create a function to
 generate both symbols A and B and have them call each other.
 
-_Hint 2_ : For the fractal plant you should create the following functions to
-save and then restore then Turtle's state (symbols "[" and "]" respectively):
+_Hint 2_: For the fractal plant you should create the following functions to
+save and then restore then Turtle's state (symbols `[` and `]` respectively):
 
 ``` python
 def save_turtle_state(turtle_states,t):
