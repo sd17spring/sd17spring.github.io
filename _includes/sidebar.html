@@ -2,12 +2,14 @@
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
-      <div id="search">
-        <form role="search" method="get" action="/search/">
-          <input id="searchString" name="searchString" type="text">
-          <input id="searchButton" name="googleSearchName" type="submit" value="Search">
-        </form>
-      </div>
+      {% if site.site_search %}
+        <div id="search">
+          <form role="search" method="get" action="/search/">
+            <input id="searchString" name="searchString" type="text">
+            <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+          </form>
+        </div>
+      {% endif %}
       {% for s in page.sidebar %}
       {% if s.image %}
         <img src=

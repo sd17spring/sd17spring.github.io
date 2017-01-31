@@ -18,6 +18,7 @@ copyright_holder: Franklin W. Olin College of Engineering
 slack:
   team: olin
   channel: softdes17spring
+# site_search: true
 
 collections:
   assignments:
