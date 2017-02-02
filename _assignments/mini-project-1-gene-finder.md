@@ -429,7 +429,9 @@ state-of-the art one, you can try out one called Glimmer3
 Submitting your assignment is a two step process:
 
 1. Complete the work and push it to your GitHub repository
-2. Submit a pull request to the upstream {{site.course.github_owner}} repository that you originally forked from
+2. Do at least one of:
+  * Submit a pull request to the upstream {{ site.course.github_owner }} repository that you originally forked from
+  * Visit a NINJA in pperson to check off week 2 of your assignment
 
 Pull requests are typically used to contribute code to someone else's project
 in the open source world. They let you send changes you've made, which the
@@ -443,6 +445,7 @@ your pull requests. Instead, we use them as:
 For the main assignment, all your code will be in `gene_finder.py`. If you
 choose to do the **Going Beyond**  portion, it is up to you how you structure
 your code for that portion.
+
 
 ## Going Beyond
 
