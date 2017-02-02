@@ -22,9 +22,10 @@ title: Software Design Spring 2017
 
 ## Meeting Times
 
-{% for section in site.data.course.sections %}
-Section {{ section.number }}: {{ section.when }} in {{ section.where }}
-{% endfor %}
+Both sections:
+
+* Meet Mon/Thu 1:30-3:10pm in AC326
+* Break-out to AC328 for more studio space
 
 
 ## Textbook
