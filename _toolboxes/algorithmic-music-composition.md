@@ -6,6 +6,8 @@ title: Algorithmic Music Composition
 
 {% include toc %}
 
+####This toolbox is currently under development. Please do not attempt to complete until further updates.
+
 For this toolbox exercise you will be creating a computer program that
 composes music! This type of programming is also known as "algorithmic music
 composition". You may think that this idea is relatively new, but the history
