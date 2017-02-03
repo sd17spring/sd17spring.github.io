@@ -1,16 +1,71 @@
 # main links
 main:
-  - title: "Activities"
-    url: /activities/
-  - title: "Assignments"
+  - title: Activities
+    url: /day/
+  - title: Assignments
     url: /assignments/
-  - title: "Calendar"
+  - title: Calendar
     url: /calendar/
-  - title: "Toolboxes"
+  - title: Toolboxes
     url: /toolboxes/
-  - title: "Resources"
+  - title: Resources
     url: /resources/
-  - title: "Policies"
+  - title: Policies
     url: /policies/
-  - title: "Git Help"
+  - title: Git Help
     url: /git-help/
+
+docs:
+  - title: Assignments
+    children:
+      - title: "Get Set"
+        url: /assignments/setup-your-environment/
+      - title: Reading Journal
+        url: https://github.com//sd17spring/ReadingJournal
+      - title: "MP1: Gene Finder"
+        url: /assignments/mini-project-1-gene-finder/
+
+  - title: Toolboxes
+    children:
+      - title: Algorithmic Music
+        url: /toolboxes/algorithmic-music-composition/
+      - title: Algorithms and AI
+        url: /toolboxes/algorithms-and-ai/
+      - title: Evolutionary Algorithms
+        url: /toolboxes/evolutionary-algorithms/
+      - title: Geocoding and Web APIs
+        url: /toolboxes/geocoding-and-web-apis/
+      - title: Image Processing
+        url: /toolboxes/image-processing/
+      - title: Machine Learning
+        url: /toolboxes/machine-learning/
+      - title: Pickling
+        url: /toolboxes/pickling/
+      - title: Unittest
+        url: /toolboxes/unittest/
+      - title: Web Apps
+        url: /toolboxes/web-apps/
+      - title: Word Frequence Analysis
+        url: /toolboxes/word-frequency-analysis/
+
+  - title: Resources
+    children:
+      - title: Piazza
+        url: https://piazza.com/class/iy3bgqkraq97c0
+      - title: Slack
+        url: https://olin.slack.com/messages/softdes17spring/
+      - title: SoftDes GitHub Repo
+        url: https://github.com//sd17spring/
+      - title: Think Python
+        url: http://greenteapress.com/wp/think-python-2e/
+      - title: Git Help
+        url: /git-help/
+      - title: More…
+        url: /resources/
+
+  - title: Administrivia
+    children:
+      - title: Calendar
+        url: /calendar/
+      - title: Course Policies
+        url: /policies/

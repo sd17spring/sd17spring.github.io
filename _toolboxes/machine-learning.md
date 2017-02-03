@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-01-29
 description: ''
 title: Machine Learning
 ---
@@ -40,12 +40,9 @@ really like this library for several reasons:
 3. It automates the process of doing fair evaluations of a machine learning algorithm (this is the part that people often get wrong).
 
 To install scikit-learn and related dependencies, execute the following
-commands:
+command:
 
-    $ sudo apt-get install build-essential python-dev python-setuptools python-
-    numpy python-scipy libatlas-dev libatlas3gf-base
-    $ sudo apt-get install python-matplotlib
-    $ sudo pip3 install -U scikit-learn
+    $ sudo pip3 install matplotlib scikit-learn scipy
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
 method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>
@@ -54,7 +51,7 @@ method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLea
 
 There are many different problem settings in machine learning. One of the most
 common is known as supervised classification. In the classification problem
-setting, the goal is to categorize an piece of data into one of several
+setting, the goal is to categorize a piece of data into one of several
 categories (or classes). This input data could be an image, a piece of text,
 or an audio clip; basically anything that can be described numerically can
 serve as the input to a classification algorithm. Here, we will investigate
@@ -66,22 +63,8 @@ To make things more concrete, let's look at one of the most well-studied
 classification problems: recognizing images of [handwritten
 digits](http://en.wikipedia.org/wiki/MNIST_database).
 
-To load the digits and display 10 of the examples, use the following code:
-
-``` python
-from sklearn.datasets import *
-import matplotlib.pyplot as plt
-import numpy
-
-digits = load_digits()
-print digits.DESCR
-fig = plt.figure()
-for i in range(10):
-    subplot = fig.add_subplot(5,2,i+1)
-    subplot.matshow(numpy.reshape(digits.data[i],(8,8)),cmap='gray')
-
-plt.show()
-```
+To load the digits and display 10 of the examples, run the `display_digits()` 
+function in the starter code.
 
 The digit database built into scikit-learn has a total of 1797 examples (there
 are many databases that are much bigger, the most famous is the [MNIST
@@ -116,8 +99,8 @@ X_train, X_test, y_train, y_test = train_test_split(data.data, data.target,
 train_size=0.5)
 model = LogisticRegression(C=10**-10)
 model.fit(X_train, y_train)
-print "Train accuracy %f" %model.score(X_train,y_train)
-print "Test accuracy %f"%model.score(X_test,y_test)
+print("Train accuracy %f" %model.score(X_train,y_train))
+print("Test accuracy %f"%model.score(X_test,y_test))
 ```
 
 ## Learning Curves
@@ -129,41 +112,8 @@ we set `train_size = 0.5` when calling `train_test_split`). For this toolbox
 you will be writing code to systematically vary the training set size versus
 the testing set size and plot the curve of the resultant performance. You will
 be repeating each value of `train_size` 10 times to smooth out variability. We
-have given you starter code for this at `machine_learning/learning_curve.py`.
-The starter code is reproduced below:
-
-``` python
-import matplotlib.pyplot as plt
-import numpy
-from sklearn.datasets import *
-from sklearn.cross_validation import train_test_split
-from sklearn.linear_model import LogisticRegression
-
-data = load_digits()
-print data.DESCR
-num_trials = 10
-train_percentages = range(5,95,5)
-test_accuracies = numpy.zeros(len(train_percentages))
-
-# train a model with training percentages between 5 and 90 (see
-train_percentages) and evaluate
-
-# the resultant accuracy.
-
-# You should repeat each training percentage num_trials times to smooth out
-variability
-
-# for consistency with the previous example use model =
-LogisticRegression(C=10**-10) for your learner
-
-# TODO: your code here
-
-fig = plt.figure()
-plt.plot(train_percentages, test_accuracies)
-plt.xlabel('Percentage of Data Used for Training')
-plt.ylabel('Accuracy on Test Set')
-plt.show()
-```
+have given you starter code for this in the `train_model` function in
+`machine_learning/learning_curve.py`.
 
 Once you have produced this curve, answer the following questions and place
 them in a text file called `questions.txt` in your `machine_learning` folder:

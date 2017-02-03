@@ -5,9 +5,20 @@ description: > # this means to ignore newlines until "baseurl:"
   ongoing entities embedded in and interacting with a dynamic environment, for example: computation as it occurs in
   spreadsheets, video games, web applications, and robots.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sd17spring.github.io/" # the base hostname & protocol for your site
+url: "https://sd17spring.github.io/" # if you change this, change it in site.css too
 timezone: America/New_York
-author: github
+
+# Theme settings
+breadcrumbs: true  # disabled by default
+author:
+  github : sd17spring
+  name   : "Olin College computing faculty"
+copyright_date: 2015-2017
+copyright_holder: Franklin W. Olin College of Engineering
+slack:
+  team: olin
+  channel: softdes17spring
+# site_search: true
 
 collections:
   assignments:
@@ -21,6 +32,11 @@ collections:
     permalink: /toolboxes/:path/
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        nav: docs
   - scope:
       path: ""
       type: assignments
@@ -45,4 +61,4 @@ course:
   entrance_survey_url: https://goo.gl/forms/6MsKDGVf5SGFyIg22
   # mid_course_feedback_survey_url: http://goo.gl/forms/n2L9ESBpCU
   # visualization_teaming_spreadsheet: https://docs.google.com/spreadsheets/d/1gPIOu22NUhF_qKQERgW3SVuFnC-rYKbUBxw43U7N7QQ/edit?usp=sharing
-  # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_ GRWZN4/edit?usp=sharing
+  # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_GRWZN4/edit?usp=sharing

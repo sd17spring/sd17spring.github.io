@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-01-29
 description: ''
 title: Word Frequency Analysis
 ---
@@ -39,7 +39,7 @@ space, tab, newline, etc., and `punctuation` which contains the punctuation
 characters. Let’s see if we can make Python swear:
 ```
     >>> import string
-    >>> print string.punctuation
+    >>> print(string.punctuation)
     !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 Also, you might consider using the string methods `strip`, `replace`,
@@ -87,4 +87,4 @@ toolbox exercise checked off with a NINJA.
 ## Making it Cooler (optional)
 
 If you want to do some more advanced word frequency analysis, try the rest of
-the exercises in [Think Python 13.1](http://www.greenteapress.com/thinkpython2/html/thinkpython2014.html).
+the exercises in [Think Python 13.1](http://greenteapress.com/thinkpython2/html/thinkpython2014.html).

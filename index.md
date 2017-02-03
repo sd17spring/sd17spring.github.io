@@ -22,9 +22,10 @@ title: Software Design Spring 2017
 
 ## Meeting Times
 
-{% for section in site.data.course.sections %}
-Section {{ section.number }}: {{ section.when }} in {{ section.where }}
-{% endfor %}
+Both sections:
+
+* Meet Mon/Thu 1:30-3:10pm in AC326
+* Break-out to AC328 for more studio space
 
 
 ## Textbook
@@ -37,9 +38,9 @@ various online retailers)
 {% if site.course.piazza_url %}
 ## Communication
 
-All communication for this class will be through [Piazza]({{site.course.piazza_url}})
-and the [#softdes17spring channel](https://olin.slack.com/messages/softdes17spring/) of the
-[Olin Slack team](https://olin.slack.edu).
+All communication for this class will be through [Piazza]({{ site.course.piazza_url }})
+and the [#softdes17spring channel](https://{{ site.slack.team }}.slack.com/messages/{{ site.slack.channel }}) of the
+[Olin Slack team](https://{{ site.slack.team }}.slack.com/).
 There is no mailing list.
 {% endif %}
 
@@ -61,10 +62,9 @@ account.
 
 ## Office Hours
 
-Office hour times will be posted on
-[Piazza](({{site.course.piazza_url}})/staff). If you need help
-outside of hours and class, please fill [this](http://tinyurl.com/softdeshelp)
-out!
+Office hour times are posted on
+[Piazza](https://piazza.com/class/iy3bgqkraq97c0?cid=17). If you need help
+outside of hours and class, please use [Slack](https://olin.slack.com/messages/softdes17spring/)!
 
 
 

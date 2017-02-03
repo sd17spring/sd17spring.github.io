@@ -1,5 +1,6 @@
 ---
-date: '2017-04-06'
+activity_date: 2017-04-06
+date: 2017-04-06
 description: Project website/README, organizing large projects
 published: false
 title: Day 21
@@ -54,7 +55,7 @@ As your Python projects grow too large to comfortably fit in a single file,
 it's helpful to introduce more organizational structure. In Python, this is
 done via modules
 
-**Read:**  [Python modules](https://docs.python.org/2/tutorial/modules.html).
+**Read:**  [Python modules](https://docs.python.org/3/tutorial/modules.html).
 
 We've created [an example](https://github.com//{{site.course.github_owner}}/python-modules) where
 we start from a single-file program and gradually add organization. You can

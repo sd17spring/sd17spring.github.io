@@ -1,5 +1,5 @@
 ---
-date: 2017-01-14 10:36:07 -0500
+date: 2017-01-30
 description: ''
 layout: single
 permalink: /git-help/
@@ -8,11 +8,13 @@ title: Git Help
 
 {% include toc %}
 
+
 ## Git Resources From Around the Web
 
 * A [fantastic visual introduction](http://pcottle.github.io/learnGitBranching/) to the high-level concepts around Git and branching. If you are at all interested in using branches, this is one is not to be missed.
 * [Great visualization](http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;) of basic Git commands for moving source around
 * [Why is Git so hard?](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) (it's not just you!)
+
 
 ## Git Tutorials From Past Semesters
 
@@ -39,12 +41,13 @@ in vim, first press “i”, then write your message, then type “:wq” for wr
 quit. Alternatively, if you just want to escape from vim’s interface without
 saving a message, just enter “:q” for quit.
 
+
 ## Pulling reading journal notebook files from class repository
 
 When the instructors have uploaded new reading assignments, you can pull them into your repository if the upstream repository is the one you originally forked from.
 
 ``` bash
-$ git remote add upstream https://github.com/sd16spring/ReadingJournal
+$ git remote add upstream https://github.com/{{ site.data.course.github_owner }}/ReadingJournal
 $ git fetch upstream
 $ git merge upstream
 ```
@@ -68,6 +71,7 @@ what pulling means is that you’re taking the code that others have pushed to
 your repository and matching what you have on your computer with that, so it
 incorporates their changes.
 
+
 ## How to stash (and what is stashing?)
 
 `$ git stash`
@@ -88,6 +92,7 @@ Git stash will store your changes locally, git pull will download the changes
 other have made to the repository, and git stash pop puts the changes that you
 made locally that conflict directly in the code. If there’s anything to merge,
 do it in the file and then commit and push your changes.
+
 
 ## How to fix a Git detached head
 
@@ -150,19 +155,19 @@ your code like the following:
 
 ```
 <<<<<<<HEAD
-sarah_strohkorb = pick_ the_coolest_ ninja(input_1, input_ 2)
+sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)
 =======
-sarah_strohkorb = pick_ the_coolest_ ninja()
+sarah_strohkorb = pick_the_coolest_ninja()
 >>>>>>><my-branch-name>
 ```
 
-The `sarah_strohkorb = pick_ the_coolest_ ninja(input_1, input_ 2)` line is what
-is represented on the ‘master’ branch and`sarah_strohkorb = pick_ the_coolest_ ninja()` line is what is represented on the ‘<my-branch-name>’ branch. You’ll have to pick one of them and then delete the rest of
-the information. So if I want `sarah_strohkorb = pick_ the_coolest_ ninja()`,
+The `sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)` line is what
+is represented on the ‘master’ branch and`sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the ‘<my-branch-name>’ branch. You’ll have to pick one of them and then delete the rest of
+the information. So if I want `sarah_strohkorb = pick_the_coolest_ninja()`,
 I’ll rearrange the code to get the following:
 
 ```
-sarah_strohkorb = pick_ the_coolest_ ninja()
+sarah_strohkorb = pick_the_coolest_ninja()
 ```
 
 

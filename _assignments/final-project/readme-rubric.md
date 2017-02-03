@@ -1,5 +1,5 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2016-12-29T18:26:01
 description: ''
 title: README rubric
 parent: final-project
@@ -66,10 +66,3 @@ A few other sections that you could choose to include:
 * Advertising "flavor text" promoting your work
 * Multi-lingual information
 * Tip jar :)
-
-
-
-
-
-
-

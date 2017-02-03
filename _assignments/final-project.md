@@ -212,7 +212,7 @@ README describing how to run your code, including any required dependencies
 
 Proper documentation is important to your final submission, and one way to
 ensure you have adequate docstrings is to generate documentation from them.
-You can do this using [pydoc](https://docs.python.org/2/library/pydoc.html):
+You can do this using [pydoc](https://docs.python.org/3/library/pydoc.html):
 
 `$ pydoc path/to/my_project.py`
 
@@ -220,7 +220,7 @@ This will open a help file based on your docstrings (use q to quit). Make sure
 the help file would be useful to someone using your code, and feel free to
 attach it to your code submission as an appendix. If you want to generate
 truly beautiful documentation, check out [Sphinx](http://sphinx-doc.org/) (the
-tool used to generate the [Python documentation](https://docs.python.org/2/)).
+tool used to generate the [Python documentation](https://docs.python.org/3/)).
 
 Make sure that your code gives appropriate attribution to external resources
 used, as per the [course policy page]({% link policies.md %}). If you have any questions

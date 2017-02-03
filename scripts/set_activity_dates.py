@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Update the dates of the _days/day-%d.md according to the Excel file in CALENDAR_XLSX.
 (See the source for where this script looks for that file.)
@@ -11,7 +12,7 @@ License: MIT
 import os
 import re
 from copy import deepcopy
-from datetime import datetime
+from datetime import date
 
 import pandas as pd
 import yaml
@@ -21,7 +22,9 @@ INSTRUCTIONAL_DAY_LABEL = 'Instructional Day'
 DAY_FILE_FMT = './_days/day-{}.md'
 DRY_RUN = False
 
-publication_date = datetime.now()  # days after this date are published
+yaml.Dumper.ignore_aliases = lambda *args: True
+
+publication_date = date.today()  # days after this date are published
 
 df = pd.read_excel(os.path.expanduser(CALENDAR_XLSX))
 
@@ -29,7 +32,10 @@ df = pd.read_excel(os.path.expanduser(CALENDAR_XLSX))
 instr_day_df = df[df[INSTRUCTIONAL_DAY_LABEL].astype(str).str.match(r'\d+')].set_index(INSTRUCTIONAL_DAY_LABEL)
 instr_day_df = instr_day_df[pd.notnull(instr_day_df.Date)]
 
-for day_no, activity_date in instr_day_df['Date'].iteritems():
+d = list(instr_day_df['Date'].dt.date)[0];d
+yaml.dump([d, d])
+
+for day_no, activity_date in instr_day_df['Date'].dt.date.iteritems():
     fname = DAY_FILE_FMT.format(day_no)
     if not os.path.exists(fname):
         print('file does not exist:', fname)
@@ -41,7 +47,7 @@ for day_no, activity_date in instr_day_df['Date'].iteritems():
         fm0 = yaml.load(fm_s)
 
     fm1 = deepcopy(fm0)
-    fm1['date'] = activity_date.strftime('%Y-%m-%d')
+    fm1['activity_date'] = activity_date
     fm1['published'] = publication_date >= activity_date
 
     if fm0 == fm1:

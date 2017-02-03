@@ -171,7 +171,7 @@ _Where did my harddrive space go???_
 ![]({% link images/assignments/interactive-visualization/29.png %}){:width="304px" height="400px"}
 
 
-_ Examining the Group Debates:_
+_Examining the Group Debates:_
 ![]({% link images/assignments/interactive-visualization/37.png %}){:width="400px" height="229px"}
 
 _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](http://www.nytimes.com/interactive/2013/10/02/us/uninsured-americans-map.html)_
@@ -383,7 +383,7 @@ Your code must be adequately documented. This includes:
 
 One way to ensure you have adequate docstrings is to generate documentation
 from them. You can do this using
-[pydoc](https://docs.python.org/2/library/pydoc.html):
+[pydoc](https://docs.python.org/3/library/pydoc.html):
 
 `$ pydoc path/to/my_project.py`
 
@@ -393,5 +393,5 @@ attach it to your writeup as an appendix.
 
 If you want to generate truly beautiful documentation, check out
 [Sphinx](http://sphinx-doc.org/) (the tool used to generate the [Python
-documentation](https://docs.python.org/2/)). Certainly not required, but you
+documentation](https://docs.python.org/3/)). Certainly not required, but you
 may want to use it in the future (think: final project)

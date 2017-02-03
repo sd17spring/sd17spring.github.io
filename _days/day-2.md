@@ -1,6 +1,8 @@
 ---
-date: '2017-01-23'
+activity_date: 2017-01-23
+date: 2017-01-23
 description: Ramping up in Python
+published: true
 title: Day 2
 ---
 
@@ -251,7 +253,7 @@ def print_num_nonnegative(x,y):
         count = 2
     else:
         count  = 0
-    print count
+    print(count)
 ```
 
 To close things out we will briefly discuss a few approaches to debugging as a class. These approaches will come up again and again throughout this course.

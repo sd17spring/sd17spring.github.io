@@ -1,5 +1,6 @@
 ---
-date: '2017-03-23'
+activity_date: 2017-03-23
+date: 2017-03-23
 description: Analysis of algorithms
 published: false
 title: Day 17

@@ -1,5 +1,6 @@
 ---
-date: '2017-04-24'
+activity_date: 2017-04-24
+date: 2017-04-24
 description: Project presentations
 published: false
 title: Day 25

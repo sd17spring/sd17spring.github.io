@@ -1,11 +1,18 @@
 /* Override main.scss settings */
 /*.page { width: inherit; padding-left: 10pt; padding-right: 10pt; }*/
+.archive a { color:#52adc8; }
+.archive a:hover, .archive a:active {text-decoration:underline }
 .page__content p, .page__content li, .page__content dl { font-size: 16px; }
-
-.page__content dd li {
-font-size: 1em;
-}
-/*font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;*/
+.page__content dd li { font-size: 1em; }
 
 /* new elements */
 iframe#course-calendar { width: 100%; height: 1000px;  }
+
+a[href^="http://"], a[href^="https://"] {
+  background: url(/images/external_link_icon.png) center right no-repeat;
+  padding-right: 13px;
+}
+
+a[href^="http://localhost:"], a[href^="https://sd17spring.github.io/"], .social-icons a {
+  background: none; padding-right: 0;
+}
