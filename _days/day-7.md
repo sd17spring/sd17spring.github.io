@@ -228,12 +228,12 @@ For the recursive step, you should:
 2. Clone your turtle
 3. Turn the new turtle left 30 degrees
 4. Recurse using the cloned turtle to draw a tree with branch length `branch_length * 0.6` and depth `level - 1
-5. Undraw the cloned turtle using the `undraw` method
+5. Hide the cloned turtle using the `hideturtle` method
 6. Back the original turtle up `branch_length / 3.0`
 7. Clone your turtle
 8. Turn the new turtle right 40 degrees
 9. Recurse using the cloned turtle to draw a tree with branch length `branch_length x 0.64` and depth `level - 1`
-10. Undraw the cloned turtle using the `undraw` method
+10. Hide the cloned turtle using the `hideturtle` method
 
 After implementing the recursive step, if you set `level` to 1 more than the
 base case (which will either be 1 or 2 depending on what level you consider
