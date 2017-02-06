@@ -8,6 +8,16 @@ title: Software Design Spring 2017
 
 {% include toc %}
 
+## News
+
+Today is [day 7]({% link _days/day-7.md %}).
+
+### Coming Up
+
+* Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
+* [Project toolbox]({% link toolboxes.md %}) exercises have been launched.
+You will do at least five in total, at least three of which must be completed before spring break.
+
 ## Instructors
 
 {% for instructor in site.data.course.instructors %}

@@ -19,7 +19,7 @@ title: Day 7
 
 * Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
 * [Project toolbox]({% link toolboxes.md %}) exercises have been launched.
-* You will do at least five in total, at least three of which must be completed before spring break.
+You will do at least five in total, at least three of which must be completed before spring break.
 
 
 ## Recursion Practice
