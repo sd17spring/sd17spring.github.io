@@ -7,22 +7,16 @@ title: Day 7
 
 ## Today
 
-* Reading Journal debrief
 * Recursion
 * Fractal drawing in Turtle World
+* Computational Art kick-off
+
 
 ## For Next Time
 
-* Computational Art mini project due Wednesday 2/17
-* Reading journal, Think Python 11, 12 due Thursday 2/18 (but starting earlier is great)
-* [Submit images]({% link _assignments/mini-project-2-computational-art.md %}#turning-in-your-assignment) by Tuesday midnight to be included in the gallery show (fun but optional)
-* [Project toolbox](/project-toolbox) exercises have been launched. You will do at least five in total, at least three of which must be completed before spring break.
-
-
-## Reading Journal Debrief
-
-We'll be reviewing your [compiled
-answers]({{ site.data.course.urls.reading_journal_response_prefix }}day6_reading_journal_responses.ipynb).
+* Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
+* [Project toolbox]({% link toolboxes.md %}) exercises have been launched.
+* You will do at least five in total, at least three of which must be completed before spring break.
 
 
 ## Recursion Practice
