@@ -24,6 +24,8 @@ docs:
         url: https://github.com//sd17spring/ReadingJournal
       - title: "MP1: Gene Finder"
         url: /assignments/mini-project-1-gene-finder/
+      - title: "MP2: Computational Art"
+        url: /assignments/mini-project-2-computational-art/
 
   - title: Toolboxes
     children:
