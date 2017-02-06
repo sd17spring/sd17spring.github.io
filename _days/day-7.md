@@ -122,7 +122,6 @@ parameters? What does the function do? And what is the return value? An
 interface is “clean” if it is “as simple as possible, but not simpler.
 (Einstein)”
 
-
 Regardless of how complex a function is to implement, its interface should be
 easy to understand. Well-designed functions do exactly what they say they will
 do without surprises.
@@ -134,30 +133,35 @@ In addition to the functions you wrote in the day 5 reading journal, there are
 a few other Turtle Tricks that may prove useful.
 
 A Turtle is a Python object, which we will learn more about next week. Turtles
-have attributes, which we can access directly to change their behavior. You've
-already seen one of these, the delay attribute, which can be used to speed up
+have methods, which we can call to inspect change their behavior. You may have
+already seen one of these, the `delay()` function, which can be used to speed up
 slowpoke Turtles.
 
 ``` python
+from turtle import Turtle
 speedy = Turtle()
-speedy.delay = 0.01
+speedy.delay(0.01)
 ```
 
-Other important Turtle attributes include `x` and `y` position, and `heading`.
-You can set these attributes directly to teleport the Turtle around the
-canvas.
+Other important Turtle methods include `xcor()` and `ycor)=()` position, and
+`heading()`.
+
+Read more about turtles [here](https://docs.python.org/3.5/library/turtle.html).
 
 Since Turtles are simple creatures, mainly defined by their current position
-and heading, we can "clone" them by copying these attributes to a new Turtle.
-
+and heading, we can "clone" them by reading these vaues and using them to
+direct a new Turtle.
 
 ``` python
 leo = Turtle()
 # Create a new Turtle with the same attributes as the first
 don = Turtle()
-don.x = leo.x
-don.y = leo.y
-don.heading = leo.heading
+don.penup()
+don.forward(leo.xcor())
+don.left(90)
+don.forward(leo.ycor())
+don.left(leo.heading() - 90)
+don.pendown()
 # don.bandana_color = "purple" # TODO: Ninja functionality not yet implemented
 ```
 
@@ -191,6 +195,7 @@ def snow_flake_side(turtle, length, level):`
 
 The `snow_flake_side` function should have a base case that draws the
 following image:
+
 ![]({% link images/activities/turtle-graphics/snow_flake_1.png %})
 
 The recursive step should replace each of the line segments above with a
@@ -212,7 +217,6 @@ def recursive_tree(turtle, branch_length, level):
     """Draw a tree with branch length branch_length and recursion depth of level
     """
 ```
-
 
 The base case is:
 
