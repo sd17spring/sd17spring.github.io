@@ -2,7 +2,6 @@
 activity_date: 2017-02-06
 date: 2017-01-31
 description: Recursion, fractals in TurtleWorld
-published: false
 title: Day 7
 ---
 
@@ -98,7 +97,7 @@ President Obama [wrote his first line of
 code](http://www.huffingtonpost.com/2014/12/09/obama-code_n_6294036.html) with
 a similar environment.
 
-As part of your day 5 reading journal, you wrote several functions that
+As part of your day 6 reading journal, you wrote several functions that
 operate on Turtles:
 
 * `square` takes as input the side length of a square and draws the square to the Turtle world canvas
@@ -186,8 +185,8 @@ signature:
 
 ``` python
 def snow_flake_side(turtle, length, level):`
-    """ Draw a side of the snowflake curve with side length length and recursion
-    depth of level """
+    """Draw a side of the snowflake curve with side length length and recursion
+    depth of level"""
 ```
 
 The `snow_flake_side` function should have a base case that draws the
@@ -210,7 +209,7 @@ recursion depth and draws the recursive tree to the canvas.
 
 ``` python
 def recursive_tree(turtle, branch_length, level):
-    """ Draw a tree with branch length branch_length and recursion depth of level
+    """Draw a tree with branch length branch_length and recursion depth of level
     """
 ```
 
@@ -265,7 +264,7 @@ save and then restore then Turtle's state (symbols `[` and `]` respectively):
 
 ``` python
 def save_turtle_state(turtle_states,t):
-  turtle_states.append((t.x,t.y,t.heading))
+  turtle_states.append((t.x, t.y, t.heading))
 
 def restore_turtle_state(turtle_states,t):
   s = turtle_states.pop()

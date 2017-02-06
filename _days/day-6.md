@@ -2,7 +2,6 @@
 activity_date: 2017-02-02
 date: 2017-02-02
 description: Turtles and Toolboxes
-published: true
 title: Day 6
 ---
 
