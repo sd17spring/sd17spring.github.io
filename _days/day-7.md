@@ -114,7 +114,7 @@ copy-paste sections into a set of reusable functions with clean interfaces.
 From [Think
 Python](http://greenteapress.com/wp/think-python-2e/html/thinkpython2005.html#toc45):
 
-> The **interface**  of a function is a summary of how it is used: what are the
+> The **interface** of a function is a summary of how it is used: what are the
 parameters? What does the function do? And what is the return value? An
 interface is “clean” if it is “as simple as possible, but not simpler.
 (Einstein)”

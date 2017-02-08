@@ -10,7 +10,7 @@ title: Software Design Spring 2017
 
 ## News
 
-Today is [day 7]({% link _days/day-7.md %}).
+Tomorrow is [day 8]({% link _days/day-8.md %}).
 
 ### Coming Up
 

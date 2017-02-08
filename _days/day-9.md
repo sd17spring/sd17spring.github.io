@@ -8,8 +8,10 @@ title: Day 9
 
 ## Today
 
-* Reading journal debrief
+* Gallery show
 * Walkthrough of pickling a dataset
+* Text mining mini-project launch
+* Work on [pickling](/project-toolbox/pickling) toolbox
 
 ## For Next Time
 
@@ -25,3 +27,10 @@ version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading
 ### Walkthrough of Creating a Pickled Dataset
 
 Oliver will lead this activity in class using an ipython notebook.
+
+## Mini-Project 3 Launch
+
+We'll do a quick slide deck on cool applications of text mining. Then, we'll
+have you get started on the project by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-
+project, and it counts towards the 5 that you have to do by the end of Spring
+break (and the 3 you have to do before Spring break starts).

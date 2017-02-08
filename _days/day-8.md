@@ -1,22 +1,20 @@
 ---
 activity_date: 2017-02-09
-date: 2017-02-09
+date: 2017-02-08
 description: Recursion practice, computational art gallery show
-published: false
 title: Day 8
 ---
 
+{% include construction %}
+
 ## Today
 
-* Gallery show
 * More recursion (Levenshtein distance and memoization).
-* Text mining mini-project launch
-* Work on [pickling](/project-toolbox/pickling) toolbox
 
 ## For Next Time
 
-* Make sure to finish your day 7 reading journal ([link](https://github.com//{{site.course.github_owner}}/ReadingJournal/blob/master/day7_reading_journal.ipynb) to original on GitHub)
-* Come up with your text mining and analysis project idea
+* Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
+
 
 ## More Recursion
 
@@ -33,12 +31,12 @@ distance is sometimes called "edit distance"). These edits can either be
 insertions, deletions, or substitutions. Note that Levenshtein distance is
 similar to [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance),
 but works for strings of differing lengths
->
+
 > Here are some examples of these operations:
 >
-> 1. **k**itten → **s**itten (substitution of "s" for "k")
-> 2. sitt**e**n → sitt**i**n (substitution of "i" for "e")
-> 3. sittin → sittin**g**  (insertion of "g" at the end).
+> 1. <tt><b><u>k</u></b>itten</tt> → <tt><b><u>s</u></b>itten</tt> (substitution of `s` for `k`)
+> 2. <tt>sitt<b><u>e</u></b>n</tt> → <tt>sitt<b><u>i</u></b>n</tt> (substitution of `i` for `e`)
+> 3. <tt>sittin</tt> → <tt>sittin<b><u>g</u></b></tt>  (insertion of `g` at the end).
 >
 > While this function seems initially daunting, it admits a very compact
 recursive solution. You can either work on your own to see the recursive
@@ -48,23 +46,23 @@ To get a better handle on this, let's consider some more examples.
 
 `levenshtein_distance('kitten', 'smitten')` -> 2 (see below for steps)
 
-1. kitten -&gt; sitten (k gets replaced by s)
-2. sitten -&gt; smitten (insert between s and i)
+1. `kitten` → `sitten` (`k` gets replaced by `s`)
+2. `sitten` → `smitten` (insert between `s` and `i`)
 
 
 `levenshtein_distance('beta', 'pedal')` -> 3 (see below for steps)
 
-1. beta -&gt; peta (b gets replaced by p)
-2. peta -&gt; petal (l gets inserted at the end)
-3. petal -&gt; pedal (t gets replaced by d)
+1. `beta` → `peta` (`b` gets replaced by `p`)
+2. `peta` → `petal` (`l` gets inserted at the end)
+3. `petal` → `pedal` (`t` gets replaced by `d`)
 
 
 `levenshtein_distance('battle', 'bet')` -> 4 (see below for steps)
 
-1. battle -&gt; bettle (a gets replaced by e)
-2. bettle -&gt; bettl (the last e gets deleted)
-3. bettl -&gt; bett (delete l)
-4. bett -&gt; bet (delete t)
+1. `battle` → `bettle` (`a` gets replaced by `e`)
+2. `bettle` → `bettl` (the last `e` gets deleted)
+3. `bettl` → `bett` (delete `l`)
+4. `bett` → `bet` (delete `t`)
 
 
 ### Base Cases
@@ -80,9 +78,9 @@ string `a` equal to the first character of string `b`. Here are the possible
 cases.
 
 * The first two characters are already equal
-* Replace the first character of string a with the first character of string b
-* Insert the first character of string b before the characters of string a
-* Delete the first character of string a
+* Replace the first character of string _a_ with the first character of string _b_
+* Insert the first character of string _b_ before the characters of string _a_
+* Delete the first character of string _a_
 
 For each of these steps we have to consider two things:
 
@@ -151,13 +149,7 @@ def recursive_function(input1, input2):
 
 Next, as a class we'll modify our function `nchoosek` to use memoization.
 
+{{ comment }}
 The call graphs of the memoized nchoosek and Levenshtein functions are
 [here](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
-
-
-## Mini-Project 3 Launch
-
-We'll do a quick slide deck on cool applications of text mining. Then, we'll
-have you get started on the project by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-
-project, and it counts towards the 5 that you have to do by the end of Spring
-break (and the 3 you have to do before Spring break starts).
+{{ endcomment }}
