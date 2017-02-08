@@ -17,6 +17,7 @@ main:
 
 docs:
   - title: Assignments
+    url: /assignments/
     children:
       - title: "Get Set"
         url: /assignments/setup-your-environment/
@@ -28,6 +29,7 @@ docs:
         url: /assignments/mini-project-2-computational-art/
 
   - title: Toolboxes
+    url: /toolboxes/
     children:
       - title: Algorithmic Music
         url: /toolboxes/algorithmic-music-composition/
@@ -51,6 +53,7 @@ docs:
         url: /toolboxes/word-frequency-analysis/
 
   - title: Resources
+    url: /resources/
     children:
       - title: Piazza
         url: https://piazza.com/class/iy3bgqkraq97c0
