@@ -20,9 +20,12 @@
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
 
-        {% if nav.children != null %}
+
+        {% if nav.collection != null %}{% assign children = site[nav.collection] %}{% endif %}
+        {% if nav.children != null %}{% assign children = nav.children %}{% endif %}
+        {% if children %}
         <ul>
-          {% for child in nav.children %}
+          {% for child in children %}
             {% comment %} internal/external URL check {% endcomment %}
             {% if child.url contains "://" %}
               {% assign domain = "" %}

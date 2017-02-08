@@ -30,27 +30,7 @@ docs:
 
   - title: Toolboxes
     url: /toolboxes/
-    children:
-      - title: Algorithmic Music
-        url: /toolboxes/algorithmic-music-composition/
-      - title: Algorithms and AI
-        url: /toolboxes/algorithms-and-ai/
-      - title: Evolutionary Algorithms
-        url: /toolboxes/evolutionary-algorithms/
-      - title: Geocoding and Web APIs
-        url: /toolboxes/geocoding-and-web-apis/
-      - title: Image Processing
-        url: /toolboxes/image-processing/
-      - title: Machine Learning
-        url: /toolboxes/machine-learning/
-      - title: Pickling
-        url: /toolboxes/pickling/
-      - title: Unittest
-        url: /toolboxes/unittest/
-      - title: Web Apps
-        url: /toolboxes/web-apps/
-      - title: Word Frequence Analysis
-        url: /toolboxes/word-frequency-analysis/
+    collection: toolboxes
 
   - title: Resources
     url: /resources/
