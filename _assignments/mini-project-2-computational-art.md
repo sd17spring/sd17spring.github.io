@@ -539,11 +539,11 @@ repo.**
 
 We will be creating an art gallery of examples from the class. If you want to
 participate in the gallery show, you should create a folder on the Olin Public
-drive at the following location: `Public/+Courses/SoftDesSp16`. For instance,
+drive at the following location: `{{ mp2_gallery_public_drive_path }}`. For instance,
 if your name is Jane Doe you would create a folder for your work at
-`Public/+Courses/SoftDesSp16/JaneDoe`. If you prefer to post your art
-anonymously, you can do so, but please put it in a separate folder, e.g.
-`Public/+Courses/SoftDesSp16/anonymousartist2`). Inside this folder, you
+`{{ mp2_gallery_public_drive_path }}/JaneDoe`. If you prefer to post your art
+anonymously, you can do so, but please put it in a separate folder, *e.g.*
+`{{ mp2_gallery_public_drive_path }}/anonymousartist2`). Inside this folder, you
 should put your art files (either images or movies) along with a brief file
 called `ARTIST_STATEMENT.txt` that contains:
 
@@ -562,4 +562,4 @@ statement can be found
 [here](http://www.saic.edu/media/saic/pdfs/lifesaic/careerco-opcenter/workingartistsseries/Handout_WorkingArtist_WritingYourArtistStatement.pdf).
 
 In order to make it into the exhibition you should have your content there no
-later than the night before the assignment is due.
+1pm the day that the assignment is due.
