@@ -27,6 +27,8 @@ docs:
         url: /assignments/mini-project-1-gene-finder/
       - title: "MP2: Computational Art"
         url: /assignments/mini-project-2-computational-art/
+      - title: "MP3: Text Mining"
+        url: /assignments/mini-project-3-text-mining/
 
   - title: Toolboxes
     url: /toolboxes/
