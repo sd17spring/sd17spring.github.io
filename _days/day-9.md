@@ -8,9 +8,7 @@ title: Day 9
 
 ## Today
 
-* Gallery show
 * Walkthrough of pickling a dataset
-* Text mining mini-project launch
 * Work on [pickling](/project-toolbox/pickling) toolbox
 
 ## For Next Time

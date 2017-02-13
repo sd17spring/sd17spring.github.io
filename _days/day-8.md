@@ -1,5 +1,5 @@
 ---
-activity_date: 2017-02-09
+activity_date: 2017-02-13
 date: 2017-02-13
 description: Recursion practice, computational art gallery show
 title: Day 8
@@ -9,11 +9,14 @@ title: Day 8
 
 ## Today
 
+* Gallery show
 * More recursion (Levenshtein distance and memoization).
+* Text mining mini-project launch
+
 
 ## For Next Time
 
-* Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
+* Reading journal, Think Python 13, 15 due Thursday
 
 
 ## More Recursion
