@@ -31,24 +31,49 @@ if you take the first letter of every word. Steganography is really handy to use
 
 ## The value of one pixel
 
-There are multiple ways to hide things within other things, but today we will be working with images. Typical images are composed of three color channels (RGB), with pixel values of 0-255 for each pixel. So a pixel with the value (255,255,255) would be entirely white while (0,0,0) would be black. The upper range is 255 because it is the largest value that can be represented by an 8 bit binary number. Binary is a base-two paradigm, in contrast to decimal which is in base-ten, which means you calculate the value of a binary number by summing the 2s exponent of each place where a 1 appears.
+There are multiple ways to hide things within other things, but today we will be working with images. A black and white image (not greyscale) is an easy thing to conceptualize, where a black pixel has a value of 1 and a white pixel as a value of 0.
+
+Color images have three color channels (RGB), with pixel values of 0-255 for each pixel. So a pixel with the value (255,255,255) would be entirely white while (0,0,0) would be black. The upper range is 255 because it is the largest value that can be represented by an 8 bit binary number. Binary is a base-two paradigm, in contrast to decimal which is in base-ten, which means you calculate the value of a binary number by summing the 2s exponent of each place where a 1 appears.
 
 So if we wanted to convert the number `10001011` from binary into decimal, it would look something like:
 
 `2^8 + 2^4 + 2^2 + 2^1 = 139`
 
-From this, you can quickly see that the leftmost bit place matters a lot more than rightmost bit because that rightmost bit only modifies the value of the number by 1. To test:
-`10001011 = 139` while `00001011 = 11`
-`10001011 = 139` while `10001010 = 138`
+From this, you can quickly see that the leftmost bit place matters a lot more than rightmost bit because that rightmost bit only modifies the value of the number by 1. To test:  
+`10001011 = 139` while `00001011 = 11`  
+`10001011 = 139` while `10001010 = 138`  
 
-Because of this, we describe the leftmost bit as the "most significant bit"(MSB) while the rightmost bit is called the "least significant bit"(LSB).
+Because of this, we describe the leftmost bit as the "most significant bit"(MSB) while the rightmost bit is called the "least significant bit"(LSB).  
 
-Since changing the LSB doesn't drastically change the overall value of the of 8 bit number, we can hide our data there without modifying a source image in any detectable sort of way. You can test this out with any [RGB color wheel](http://www.colorspire.com/rgb-color-wheel/) to get a sense of how little difference there is between a color like (150, 50, 50) and (151, 50, 50)
+We can observe that its entirely possible to hide a black and white image inside an RGB image by changing the LSB of a pixel in a single color channel to correspond to the value of the image we want to hide.  
+
+Additionally, since changing the LSB doesn't drastically change the overall value of the of 8 bit number, we can hide our data without modifying a source image in any detectable sort of way. You can test this out with any [RGB color wheel](http://www.colorspire.com/rgb-color-wheel/) to get a sense of how little difference there is between a color like (150, 50, 50) and (151, 50, 50)
 
 ## Decoding the sample image
 
-Provided in this toolbox is a picture of a cute dog.
+Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it?  
+
 ![](../images/toolboxes/image-steganography/encoded_sample.png)
+
+Provided in the starter code is a function called `decode_image()`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the decode_image pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
+
+```python
+def decode_image(file_location):
+    encoded_image = Image.open(file_location)
+    red_channel = encoded_image.split()[0]
+
+    x_size = encoded_image.size[0]
+    y_size = encoded_image.size[1]
+
+    decoded_image = Image.new("RGB", encoded_image.size)
+    pixels = decoded_image.load()
+
+    for i in range(x_size):
+        for j in range(y_size):
+            pass #TODO: Fill in decoding functionality
+
+    decoded_image.save("images/decoded_image.png")
+```
 
 ## Completing the Toolbox Exercise
 
