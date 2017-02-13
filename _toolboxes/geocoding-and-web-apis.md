@@ -6,6 +6,10 @@ title: Geocoding and Web APIs
 
 {% include toc %}
 
+{% include construction %}
+
+The Pattern library does not work with Python 3.
+
 ## Introduction
 
 In Mini Project 3, you used the Python data mining package
