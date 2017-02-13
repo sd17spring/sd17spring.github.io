@@ -1,0 +1,39 @@
+---
+date: 2017-02-12
+layout: splash
+permalink: /
+title: Software Design Spring 2017
+header:
+  overlay_color: "#444"
+  overlay_filter: "0.5"
+  # overlay_image: /assets/images/unsplash-image-1.jpg
+  # cta_label: "Download"
+  # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+# excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+---
+
+{% comment %}
+Home page modules are in _splash_modules/*
+{% endcomment %}
+
+{% assign sorted = (site.homepage_modules | sort: 'weight') %}
+{% for module in sorted %}
+  {% assign loopindex = forloop.index0 | modulo: 3 %}
+  {% if loopindex == 0 %}
+    <div class="feature__wrapper">
+  {% endif %}
+
+  <div class="feature__item"><div class="archive__item"><div class="archive__item-body">
+    <h2 class="archive__item-title">
+      {{ module.title }}
+    </h2>
+    <div class="archive__item-excerpt" markdown="1">
+      {{ module.content }}
+    </div>
+  </div></div></div>
+
+  {% if loopindex == 2 %}
+    </div><!-- feature__wrapper -->
+  {% endif %}
+{% endfor %}
