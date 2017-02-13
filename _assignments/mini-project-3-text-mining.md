@@ -10,6 +10,12 @@ toc: true
 
 {% include toc %}
 
+{% include construction %}
+
+The Pattern library does not work with Python 3.
+
+We are working on updating this assignment, and will post to Piazza when it is available.
+
 ## Introduction
 
 In this assignment you will learn how to use computational techniques to
