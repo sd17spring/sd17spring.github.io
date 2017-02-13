@@ -72,3 +72,4 @@ course:
   mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
 
 include: ["_pages"]
+exclude: ["README.md", "docker_compose.yml", "notebooks"]
