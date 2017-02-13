@@ -57,6 +57,8 @@ Provided in this toolbox is a picture of a cute dog. However, this dog is hiding
 
 Provided in the starter code is a function called `decode_image()`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the decode_image pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
 
+You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer t*o a *binary string*.
+
 ```python
 def decode_image(file_location):
     encoded_image = Image.open(file_location)
@@ -75,7 +77,10 @@ def decode_image(file_location):
     decoded_image.save("images/decoded_image.png")
 ```
 
+## Encoding a secret message
+
+Now that we can decode secret messages, its only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
+
 ## Completing the Toolbox Exercise
 
-To turn in your assignment, push your code and screenshots to GitHub and
-submit a pull request.
+To turn in your assignment, push your code, decoded_image, and a sample of an encoded secrete message to GitHub and submit a pull request.
