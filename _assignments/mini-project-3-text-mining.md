@@ -10,12 +10,6 @@ toc: true
 
 {% include toc %}
 
-{% include construction %}
-
-The Pattern library does not work with Python 3.
-
-We are working on updating this assignment, and will post to Piazza when it is available.
-
 ## Introduction
 
 In this assignment you will learn how to use computational techniques to
@@ -25,7 +19,7 @@ and create some sort of deliverable (either some interesting results from a
 text analysis, a visualization of some kind, or perhaps a computer program
 that manipulates language in some interesting way).
 
-## Skills Emphasized:
+## Skills Emphasized
 
 * Accessing information on the Internet programmatically
 * Parsing text and storing it in relevant data structures
@@ -51,7 +45,7 @@ You should read this document in a somewhat non-linear/spiral fashion:
 The goal for Part 1 is for you to get some text from the Internet with the aim
 of doing something interesting with it down the line. As you approach the
 assignment, I recommend that you get a feel for the types of text that you can
-grab using Pattern. However, before spending too much time going down a
+grab, below. However, before spending too much time going down a
 particular path on the text acquisition component, you should look ahead to
 Part 2 to understand some of the things you can do with text you are
 harvesting. The strength of your mini project will be in combining a source of
@@ -60,35 +54,27 @@ text with an appropriate technique for language analysis (see Part 2).
 ### Preliminaries
 
 You are not required to use any particular Python package to complete this
-assignment, however, there is one framework which I will strongly suggest that
-you utilize. This is the fantastic web-mining tool called
-[Pattern](http://www.clips.ua.ac.be/pattern) by Tom de Smedt. To get the
-package, run:
+assignment. However, I recommend the [Requests](http://docs.python-requests.org/en/master/)
+package to retrieve HTML pages from the web, and the [NLTK](http://www.nltk.org) package
+to analyze text, and the [Vader sentiment analysis package](https://github.com/cjhutto/vaderSentiment)
+for sentiment analysis:
 
-`$ sudo pip3 install pattern`
+    $ sudo pip3 install nltk requests vaderSentiment
 
-To make sure that Pattern is installed correctly, try these commands in
+To make sure that Requests is installed correctly, try these commands in
 Python:
 
-    >>> from pattern.web import *
-    >>> print(URL('http://google.com').download())
+    >>> import requests
+    >>> print(requests.get('http://google.com').text)
 
+If Requests is installed correctly, you should see the HTML from Google's front
+page.
 
-If Pattern is installed correctly, you should see the HTML from Google's front
-page. If you'd like to learn more about what is going on behind the scenes,
+{% comment %}
+If you'd like to learn more about what is going on behind the scenes,
 check out the [Web APIs Project Toolbox]({% link _toolboxes/geocoding-and-web-apis.md %}) assignment.
+{% endcomment %}
 
-By default, Pattern uses a common license key for every user. If you use the
-common license keys, then you will be subject to service denials if the a
-particular search engine gets hit with the same license key too many times.
-
-After you have chosen which data source you would like to use, follow the
-directions [here](http://www.clips.ua.ac.be/pages/pattern-web#license) to get
-personal license keys. When you make a Pattern query you can provide your
-personal key as an argument, e.g. `license='123ABC_MY_LICENCE...'`. To default
-to using your personal keys, you can edit `/usr/local/lib/python2.7/dist-
-packages/pattern/web/api.py` (assuming you installed with `pip`). Make sure to
-start a new Python interpreter for your changes to take effect.
 
 ### Data Source: Project Gutenberg
 
@@ -110,8 +96,8 @@ is `http://www.gutenberg.org/ebooks/730.txt.utf-8`. To download the text
 inside Python, I would use the following code:
 
 ``` python
-from pattern.web import *
-oliver_twist_full_text = URL('http://www.gutenberg.org/ebooks/730.txt.utf-8').download()
+import requests
+oliver_twist_full_text = requests.get('http://www.gutenberg.org/ebooks/730.txt.utf-8').text
 print(oliver_twist_full_text)
 ```
 
@@ -123,197 +109,89 @@ Project Gutenberg is that they impose a limit on how many texts you can
 download in a 24-hour period (which lead to me getting banned the other day).
 So, if you are analyzing say 10 texts, you might want to download them once
 and load them off disk rather than fetching them off of Project Gutenberg's
-servers every time you run your program (see the [Pickling Data](#pickling-data) section for some relevant
-information on doing this). However, there are
+servers every time you run your program (see the [Pickling Data](#pickling-data)
+section for some relevant information on doing this). However, there are
 [many](http://www.gutenberg.org/MIRRORS.ALL)
 [mirrors](http://onlinebooks.library.upenn.edu/) of the Project Gutenberg site
 if you want to get around the download restriction.
 
-### Data Source: Google
-
-Another source of data that you can easily download using Pattern is Google.
-Here is an example of searching for Olin College using Google:
-
-``` python
-from pattern.web import *
-g = Google()
-for result in g.search('Olin College'):
-print(result.url)
-print(result.text)
-```
-
-The first two lines printed out by this Python program are:
-
-```
-http://www.olin.edu/
-Official site provides news and information about the campus, academics,
-<br>admissions, scholarships, faculty, and student life.
-```
-
-Notice that the second line of output has an HTML tag (in this case `<br>`)
-mixed in (if you don't know what an HTML tag is, don't worry). If you want to
-remove HTML from any string with Pattern you can use the `plaintext` function.
-For instance, if you change the line of code `print(result.text)` to `print(plaintext(result.text))` you will get:
-
-```
-http://www.olin.edu/
-Official site provides news and information about the campus, academics,
-admissions, scholarships, faculty, and student life.
-```
-
-Besides `url` and `text`, there are some other fields you might want to
-utilize. Check out the Pattern documentation for more information. If you now
-wanted to follow the links retrieved from this Google search, you could use
-the `URL().download()` function on `result.url`.
-
 ### Data Source: Wikipedia
 
-The support in Pattern for Wikipedia is quite extensive. I won't try to
-rewrite the [official documentation on Pattern's Wikipedia
-capabilities](http://www.clips.ua.ac.be/pages/pattern-web#wikipedia), however,
-I will provide a few examples that might get your creative juices going.
+I recommend the [wikipedia package](https://pypi.python.org/pypi/wikipedia/):
 
-Here is a Python program to print out the title of every Wikipedia article:
+    pip install wikipedia
 
-``` python
-from pattern.web import *
-w = Wikipedia()
-for article_title in w.index():
-    print(article_title`)
-```
+The [official documentation](https://wikipedia.readthedocs.io/en/latest/) is here.
 
-Given that you know the particular title of the article you would like to
-access, you can fetch the article and then print out its sections using the
-following Python program:
-
-``` python
-from pattern.web import *
-w = Wikipedia()
-olin_article = w.search('Olin College')
-print(olin_article.sections)
-```
-
-Which yields the output:
+Some examples from the [Quickstart section](https://wikipedia.readthedocs.io/en/latest/quickstart.html#quickstart) of
+the documentation follow:
 
 ```
-[WikipediaSection(title=u'Franklin W. Olin College of Engineering'),
-WikipediaSection(title=u'History'), WikipediaSection(title=u'The Olin
-experiment'), WikipediaSection(title=u'Academics'),
-WikipediaSection(title=u'Accreditation'), WikipediaSection(title=u'Culture'),
-WikipediaSection(title=u'Residential life'), WikipediaSection(title=u'Honor
-Code'), WikipediaSection(title=u'Changing the Honor Code'),
-WikipediaSection(title=u'Honor Board'),
-WikipediaSection(title=u'Extracurricular activities'),
-WikipediaSection(title=u'Spontaneity and student happiness'),
-WikipediaSection(title=u'Rankings'), WikipediaSection(title=u'Mascot'),
-WikipediaSection(title=u'See also'), WikipediaSection(title=u'References'),
-WikipediaSection(title=u'Further reading')]
-```
+>>> import wikipedia
 
-The great thing about the Wikipedia API is that it returns the article in a
-highly structured format. This quality makes Wikipedia articles retrieved from
-the API very amenable to processing using Python.
+>>> wikipedia.summary("Wikipedia")
+['Franklin W. Olin College of Engineering', 'F. W. Olin Foundation', 'Franklin W. Olin',
+ 'Olin', 'Richard Miller (Olin College President)', 'Jim Olin', 'Olin J. Eggen',
+ 'Abram B. Olin', 'Steve Olin', 'Dave Olin']
+
+>>> wikipedia.summary("Olin College")
+"Olin College of Engineering (also known as Olin College or simply Olin) is a private undergraduate engineering college in Needham, Massachusetts, adjacent to Babson College. Olin College is noted in the engineering community for its youth, small size, project-based curriculum, and large endowment funded primarily by the F. W. Olin Foundation. The college covers half of each admitted student's tuition through the Olin Scholarship."
+
+>>> olin = wikipedia.page("Olin College")
+>>> olin.title
+'Franklin W. Olin College of Engineering'
+>>> olin.content
+'Olin College of Engineering (also known as Olin College or simply Olin) is a pri'
+>>> olin.images
+['https://upload.wikimedia.org/wikipedia/commons/a/a8/OlinCollege.jpg',
+ 'https://upload.wikimedia.org/wikipedia/en/9/9d/Olin_College_at_Night.jpg',
+ 'https://upload.wikimedia.org/wikipedia/en/c/c0/Olin_Center_Sunset.JPG',
+ 'https://upload.wikimedia.org/wikipedia/en/9/9b/Olin_College_Great_Lawn.jpg',
+ 'https://upload.wikimedia.org/wikipedia/en/4/4d/OlinCollege.png']
+>>> olin.links[:5]
+['A cappella',
+ 'Academic honor code',
+ 'Accreditation Board for Engineering and Technology',
+ 'American Society of Mechanical Engineers',
+ 'Amherst College']
+```
 
 ### Data Source: Twitter
 
-You can both search Twitter and listen to Twitter streams (that is print out
-Tweets in real-time that match a particular query). Here is a program that
-runs for 10 seconds and prints out any tweets that are made during those 10
-seconds that mention the hashtag `#fail`:
+Create a Twitter application [here](https://apps.twitter.com/app/new).
 
-``` python
-from pattern.web import *
-s = Twitter().stream('#fail')
-for i in range(10):
-    time.sleep(1)
-    s.update(bytes=1024)
-    print(s[-1].text if s else '')
-```
+Use your GitHub repository URL as the Website. For example, I would use
+`https://github.com/osteele/TextMining`. Leave the Callback Url blank.
 
-When I ran this program the other day I got the following output:
+Copy the Consumer Key (API Key) and Consumer Secret (API Secret).
+You will need these below.
+Click on "manage keys and access tokens" to see the Consumer Secret.
+On that page, click "Generate Access Token", and copy the
+Access Token and Access Token Secret too.
 
-```
-RT @MrRichardPena3: "@KayRockkette: @MrRichardPena3 Good vibes &amp; pizza
-after the gym. #fail #healthyeating" that's what im talking about ;)
-RT @MrRichardPena3: "@KayRockkette: @MrRichardPena3 Good vibes &amp; pizza
-after the gym. #fail #healthyeating" that's what im talking about ;)
-RT @MrRichardPena3: "@KayRockkette: @MrRichardPena3 Good vibes &amp; pizza
-after the gym. #fail #healthyeating" that's what im talking about ;)
-What a ridiculous ad! stating the benefit of buying a home as toa chance of
-meeting one of the leading bollywood celebs #fail
-What a ridiculous ad! stating the benefit of buying a home as toa chance of
-meeting one of the leading bollywood celebs #fail
-613 #wtf #fail #fails #nowplaying #youtube #funny ----
-http://t.co/Z554Ux1cZT
-```
+I recommend the (python-twitter)[https://github.com/bear/python-twitter] package.
+The documentation is [here](https://github.com/bear/python-twitter/wiki).
 
-In addition to reading Twitter streams, you can check out the topics that are
-currently trending on twitter using this Python program:
+    $ sudo pip install python-twitter
 
-``` python
-from pattern.web import *
-print(Twitter().trends())
-```
-
-Which produced the following output when I tried running the code:
+Use the following code to see tweets in a particular user's timeline, where
+`CONSUMER_KEY` etc. are the Consumer Key and other credentials that you saved above.
 
 ```
-[u'#PerfectoSeria', u'#PorUnMundo', u'#AbelEnCalafate', u'#ResistenciaVzla',
-u'#CumaSimSimi', u'Justin Bieber Kecelakaan', u'Kike Acu\xf1a', u'This
-Christmas', u'Ad\xe3o e Eva', u'G\xe9nesis Carmona']
+$ import twitter
+$ api = twitter.Api(consumer_key=CONSUMER_KEY,
+                    consumer_secret=CONSUMER_SECRET,
+                    access_token_key=ACCESS_TOKEN_KEY,
+                    access_token_secret=ACCESS_TOKEN_SECRET)
+$ api.GetUserTimeline(screen_name='gvanrossum')
+[Status(ID=830854729710186496, ScreenName=gvanrossum, Created=Sun Feb 12 19:02:58 +0000 2017, Text='@ntoll Without context this stream of 10 tweets made little sense to me. :-('),
+ Status(ID=830577788901945345, ScreenName=gvanrossum, Created=Sun Feb 12 00:42:30 +0000 2017, Text="@swhobbit @github @brettsky IIUC every developer has a full clone in their .git -- it doesn't get much better than that."),
+ Status(ID=830194194501099520, ScreenName=gvanrossum, Created=Fri Feb 10 23:18:14 +0000 2017, Text='The CPython source code has officially moved to https://t.co/0ax0UGzgLZ. Congrats @brettsky !!!'),
+ Status(ID=830187573049896960, ScreenName=gvanrossum, Created=Fri Feb 10 22:51:56 +0000 2017, Text='Micro mypy update: https://t.co/XU6N0O88g5 -- the only change is fixing the typed_ast version, to avoid a new typed_ast breaking old mypy.'),
+ Status(ID=829017268096937985, ScreenName=gvanrossum, Created=Tue Feb 07 17:21:33 +0000 2017, Text='@FieryPhoenix7 Yes, I interviewed the Dropbox engineers thoroughly. :-)')]
 ```
 
-### Data Source: Facebook
-
-**Edit 2016: Pattern doesn't work with Facebook anymore.**
-
-The interaction between Pattern and Facebook is a bit more complex since you
-actually have to use an access key to allow Pattern to access your Facebook
-data through Python. Use [this link](http://www.clips.ua.ac.be/pattern-facebook) to authorize Pattern to access your Facebook account. Once you have
-your access key (I won't include mine here to maintain my privacy!). You can
-start digging through your and your friend's Facebook content. This program
-examines my profile and prints out my basic information:
-
-``` python
-from pattern.web import *
-f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
-me = f.profile()
-print(me)
-```
-
-Which generates the output:
-
-`(u'3321475', u'Paul Ruvolo', u'04/20/1981', u'm', u'en_US', 0)`
-
-Alternatively, I could print out the number of friends that I have on
-Facebook:
-
-``` python
-from pattern.web import *
-f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
-me = f.profile()
-print(len(f.search(me[0], type=FRIENDS, count=10000)))
-```
-
-Note that `count = 10000` simply specifies the maximum number of results that
-the search can return. The results returned by `f.search` can be processed
-further. For instance, the following Python program reads through the news
-feeds of all of my friends and prints them out.
-
-``` python
-from pattern.web import *
-f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
-me = f.profile()
-my_friends = f.search(me[0], type=FRIENDS, count=10000)
-for friend in my_friends:
-    friend_news = f.search(friend.id, type=NEWS, count=10000)
-    for news in friend_news:
-        print(news.text)
-        print(news.author)
-```
-
-You can also check out your friends' comments and likes.
-
+See the [package wiki](https://github.com/bear/python-twitter/wiki) for more examples.
 
 ### Data Source: Reddit
 
@@ -321,36 +199,49 @@ At the terminal command line, install the Python
 [PRAW](https://pypi.python.org/pypi/praw) package:
 
 ``` bash
-sudo pip3 install praw
-````
+$ sudo pip3 install praw
+```
 
-Here's an example from the [PRAW docs page](https://praw.readthedocs.org/en/stable/):
+Follow the instructions [here](https://github.com/reddit/reddit/wiki/OAuth2-Quick-Start-Example)
+to create a Reddit application. The random string of letters and numbers at to the right of the
+icon is the Client Id. The *secret* beneath the icon is the Client Secret. Save these.
+
+Here's an example adapted from the [PRAW docs page](https://praw.readthedocs.org/en/stable/).
+`CLIENT_ID` and `CLIENT_SECRET` are the
 
 ``` python
 import praw
-r = praw.Reddit(user_agent='my_cool_application')
-submissions = r.get_subreddit('opensource').get_hot(limit=5)
-[str(x) for x in submissions]
+r = praw.Reddit(user_agent='text_mining', client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+submissions = r.subreddit('opensource').hot(limit=5)
+print([str(x) for x in submissions])
 ```
 
 Disclaimer: The instructors have run the example above, but haven't explored
 this package any more deeply. It's possible that you will run into a roadblock
 with it.
 
+### Data Source: HTML Pages
 
-### More Data Sources
+Much data on the web is in the form of HTML, which is a mixture of human-language text,
+and HTML markdup such as `<div>` and `<p>`. You can use the Beautiful Soup package to extract
+the text from an HTML page.
 
-There are many other data sources that can be mined using Pattern:
+`$ sudo pip install beautifulsoup4`
 
-  * Google translate
-  * Bing
-  * Flickr image search
-  * DBPedia
-  * Newsfeed
-  * ...
+```
+>>> from bs4 import BeautifulSoup
+>>> html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
+>>> html.find('p')  # find the first paragraph
+>>> str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> etc.
+```
 
-Check the [Pattern documentation](http://www.clips.ua.ac.be/pages/pattern-web)
-for a full list.
+Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded <b> etc.
+```
+>>> import re
+>>> str(re.sub(r'<.+?>', '', str(html.find('p'))))
+```
+
+[This is not a robust way to do this. A robust way involves using a recursive function.]
 
 ### Pickling Data
 
@@ -360,7 +251,6 @@ with this, you will want to save the data that you collect from these services
 so that the data can be loaded back at a later point in time. Suppose you have
 a bunch of Project Gutenberg texts in a list called `charles_dickens_texts`.
 You can save this list to disk and then reload it using the following code:
-
 
 ``` python
 import pickle
@@ -379,52 +269,13 @@ The result of running this code is that all of the texts in the list variable
 `charles_dickens_texts` will now be in the list variable
 `reloaded_copy_of_texts`. In the code that you write for this project you
 won't want to pickle and then unpickle in the same Python script. Instead, you
-might want to have a script that pulls data from the web using Pattern's APIs
-and then pickles them to disk. You can then create another program for
+might want to have a script that pulls data from the web using the APIs
+above and then pickles them to disk. You can then create another program for
 processing the data that will read the pickle file to get the data loaded into
 Python so you can perform some analysis on it.
 
 For more details and practice, check out the [Pickling Project
 Toolbox]({% link _toolboxes/pickling.md %}) assignment.
-
-
-### Troubleshooting Pattern
-
-_**Problem**_: I am able to execute Pattern API calls, however, when I execute
-a lot of them in sequence I sometimes run into errors (e.g. SSLError).
-
-**_Solution 1_**: Try reducing the throttle (for instance `f = Facebook(license="YOUR_LICENSE_HERE", throttle=0.5))`. If that doesn't work try solution 2.
-
-**_Solution 2_**: I have found that simply retrying the API call often works. You can make your Python code execute the API call repeatedly until you achieve success using the following code (in this example we will get all of my Facebook friends and then print out all of their news feeds):
-
-``` python
-from pattern.web import *
-import time
-
-
-f = Facebook(license='CAAE...S9o8bFK8ZAOTD4')
-me = f.profile()
-retry = True
-while retry:
-    try:
-        my_friends = f.search(me[0], type=FRIENDS, count=10000)
-        retry = False # we have achieved success, don't retry
-    except:
-        time.sleep(5) # sleep a little bit before retry
-
-for friend in my_friends:
-    retry = True
-    while retry:
-    try:
-        friend_news = f.search(friend.id, type=NEWS, count=10000)
-        retry = False # we have achieved success, don't retry
-    except:
-        time.sleep(5) # sleep a little bit before retry
-    for news in friend_news:
-        print(news.text)
-        print(news.author)
-```
-
 
 ## Part 2: Analyzing Your Text
 
@@ -438,7 +289,6 @@ Python would be to use a dictionary where the keys are words that appear and
 the values are frequencies of words in the text (if you want to do something
 fancier look into using [TF-IDF features](http://en.wikipedia.org/wiki/Tf%E2%80%93idf)).
 
-
 ### Computing Summary Statistics
 
 Beyond simply calculating word frequencies there are some other ways to
@@ -448,26 +298,24 @@ in other texts? For some other ideas see [Chapter 13 of Think Python](http://gre
 
 #### Doing Linguistic Post-processing
 
-Pattern provides some really cool [natural language processing
-capabilities](http://www.clips.ua.ac.be/pages/pattern-en). Some examples of
-this include: part of speech tagging, sentiment analysis, and full sentence
-parsing. Here is an example of doing [sentiment
-analysis](http://en.wikipedia.org/wiki/Sentiment_analysis):
+Vader
 
 ``` python
-from pattern.en import *
-print(sentiment('Software Design is my favorite class!'))
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+analyzer = SentimentIntensityAnalyzer()
+analyzer.polarity_scores('Software Design is my favorite class!')
 ```
 
 This program will print out:
 
 ```
-(0.625, 1.0)
+{'compound': 0.5093, 'neg': 0.0, 'neu': 0.603, 'pos': 0.397}
 ```
 
-The first part of the output indicates that the sentence has positive
-sentiment polarity and the second part of the output indicates that the
-sentiment analyzer views this as a purely subjective statement.
+NTLK provides a number of other really cool features. Some examples of
+this include: part of speech tagging, and full sentence
+parsing. You can also do sentiment analysis within NTLK by training
+a Bayesian classifier ([code](http://www.nltk.org/howto/sentiment.html)).
 
 If you perform some linguistic post processing, you may be able to say
 something interesting about the text you harvested from the web. For instance,
@@ -475,7 +323,6 @@ which of your friends on Facebook is the most negative? Which is the most
 subjective? If you listen to a particular Twitter hashtag on a political
 topic, can you gauge the mood of the country by looking at the sentiment of
 each tweet that comes by in the stream? There are tons of cool options here!
-
 
 ### Text Similarity
 
