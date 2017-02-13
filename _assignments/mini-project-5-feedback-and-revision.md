@@ -31,7 +31,7 @@ include:
 * something else awesome
 
 This exercise should not take as long as the other mini projects, and it is
-[worth about half as much]({% link policies.md %}).
+[worth about half as much]({% link _pages/policies.md %}).
 
 ## How to proceed
 

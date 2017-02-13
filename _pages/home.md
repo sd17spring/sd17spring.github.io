@@ -1,7 +1,6 @@
 ---
 date: 2017-01-21 20:46:57 -0500
 description: ''
-layout: single
 permalink: /
 title: Software Design Spring 2017
 ---
@@ -15,7 +14,7 @@ Tomorrow is [day 8]({% link _days/day-8.md %}).
 ### Coming Up
 
 * Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
-* [Project toolbox]({% link toolboxes.md %}) exercises have been launched.
+* [Project toolbox]({% link _pages/toolboxes.md %}) exercises have been launched.
 You will do at least five in total, at least three of which must be completed before spring break.
 
 ## Instructors
@@ -80,8 +79,8 @@ outside of hours and class, please use [Slack](https://olin.slack.com/messages/s
 
 ## Useful Resources
 
-Several [useful resources]({% link resources.md %}) for the class are collected
-[here]({% link resources.md %}). A few
+Several [useful resources]({% link _pages/resources.md %}) for the class are collected
+[here]({% link _pages/resources.md %}). A few
 [tutorials](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
 were also created by the NINJAs for the Spring 2014 class.[
 ](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)

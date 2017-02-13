@@ -1,7 +1,6 @@
 ---
 date: 2017-01-18 21:02:02 -0500
 description: ''
-layout: single
 permalink: /resources/
 title: Resources
 ---
@@ -29,7 +28,7 @@ to collect those resources that have already been mentioned into one place.
 
 ## Git
 
-* [Git Help (this site)]({% link git-help.md %}) – contains links to additional resources
+* [Git Help (this site)]({% link _pages/git-help.md %}) – contains links to additional resources
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)

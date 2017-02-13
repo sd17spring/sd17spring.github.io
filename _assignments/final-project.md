@@ -204,7 +204,7 @@ printed in time for the May 5th expo.
 
 _Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
-**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link policies.md %}))**
+**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link _pages/policies.md %}))**
 
 Project code must be submitted via GitHub by May 5th. You must include a
 README describing how to run your code, including any required dependencies
@@ -223,7 +223,7 @@ truly beautiful documentation, check out [Sphinx](http://sphinx-doc.org/) (the
 tool used to generate the [Python documentation](https://docs.python.org/3/)).
 
 Make sure that your code gives appropriate attribution to external resources
-used, as per the [course policy page]({% link policies.md %}). If you have any questions
+used, as per the [course policy page]({% link _pages/policies.md %}). If you have any questions
 about this, just ask.
 
 ### Final Demo / Presentation Session

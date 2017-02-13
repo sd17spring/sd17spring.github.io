@@ -1,7 +1,6 @@
 ---
 date: 2017-01-30
 description: ''
-layout: single
 permalink: /git-help/
 title: Git Help
 ---

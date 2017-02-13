@@ -49,6 +49,11 @@ defaults:
       layout: single
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: single
+  - scope:
+      path: ""
       type: toolboxes
     values:
       layout: single
@@ -62,3 +67,5 @@ course:
   # mid_course_feedback_survey_url: http://goo.gl/forms/n2L9ESBpCU
   # visualization_teaming_spreadsheet: https://docs.google.com/spreadsheets/d/1gPIOu22NUhF_qKQERgW3SVuFnC-rYKbUBxw43U7N7QQ/edit?usp=sharing
   # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_GRWZN4/edit?usp=sharing
+
+include: ["_pages"]
