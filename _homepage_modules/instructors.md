@@ -4,11 +4,11 @@ weight: 30
 ---
 
 {% for instructor in site.data.course.instructors %}
-{{ instructor.name}} <{{ instructor.email }}> ({{ instructor.office }}{% if instructor.website %}, [{{ instructor.website }}]({{ instructor.website }}){% endif %})
+{{ instructor.name}} <{{ instructor.email }}> ({{ instructor.office }}{% if instructor.website %}, [{{ instructor.website }}]({{ instructor.website }}){% endif %}). Office hours by request.
 {% endfor %}
 
-Ninjas: {{ site.data.course.assistants | map: 'name' | join: ', ' }}
+NINJAs: {{ site.data.course.assistants | map: 'name' | join: ', ' }}
 
 Ninja office hour times are posted on
 [Piazza](https://piazza.com/class/iy3bgqkraq97c0?cid=17). If you need help
-outside of hours and class, please use [Slack](https://olin.slack.com/messages/softdes17spring/)!
+outside of hours and class, please use [Slack](https://{{ site.slack.team }}.slack.com/messages/{{ site.slack.channel }})!
