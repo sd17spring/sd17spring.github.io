@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-02-09
-date: 2017-02-08
+date: 2017-02-13
 description: Recursion practice, computational art gallery show
 title: Day 8
 ---
