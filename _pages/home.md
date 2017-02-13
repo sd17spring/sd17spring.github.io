@@ -25,6 +25,8 @@ Reading journal, Think Python 11, 12 is due Monday 2/13.
 
 [Project toolbox]({% link _pages/toolboxes.md %}) exercises have been launched.
 You will do at least five in total, at least three of which must be completed before spring break.
+
+See the [Assignments]({% link _pages/assignments.html %}) page and the [course calendar]({% link _pages/calendar.md %}) for a list of all due dates.
 </div></div></div></div>
 
 <div class="feature__item"><div class="archive__item"><div class="archive__item-body">
