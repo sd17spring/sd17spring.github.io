@@ -4,6 +4,10 @@
 .archive a:hover, .archive a:active {text-decoration:underline }
 .page__content p, .page__content li, .page__content dl { font-size: 16px; }
 .page__content dd li { font-size: 1em; }
+.nav__items li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
 
 /* new elements */
 iframe#course-calendar { width: 100%; height: 1000px;  }
