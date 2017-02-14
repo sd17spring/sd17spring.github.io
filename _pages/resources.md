@@ -1,5 +1,5 @@
 ---
-date: 2017-01-18 21:02:02 -0500
+date: 2017-02-14 15:16:02 -0500
 description: ''
 permalink: /resources/
 title: Resources
@@ -46,7 +46,7 @@ to collect those resources that have already been mentioned into one place.
 * [Think Python, by Allen Downey](http://greenteapress.com/wp/think-python-2e/) – the class text
 * [Python 3.5 Documentation](https://docs.python.org/3.5/)
 * [Python 3.5 Standard Library](https://docs.python.org/3.5/library/index.html)
-* [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/)
+* [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/), especially [Writing Great Python Code](http://docs.python-guide.org/en/latest/#writing-great-python-code)
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
@@ -61,7 +61,6 @@ introduced in a particular assignment or project toolbox, but could be useful
 in other projects too.
 
 * [Numpy](http://www.numpy.org) scientific computing (including arrays)
-* [Pattern](http://www.clips.ua.ac.be/pattern) data mining, natural language processing, and more
 * [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) image processing and computer vision
 * [Pillow](http://python-pillow.org) image processing
 * [Pygame](http://www.pygame.org/hifi.html) realtime image display
