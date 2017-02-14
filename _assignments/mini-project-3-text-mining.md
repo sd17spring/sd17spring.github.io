@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-02-13
 description: >
   In this assignment you will learn how to use computational techniques to
   analyze text.
