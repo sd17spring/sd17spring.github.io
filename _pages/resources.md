@@ -60,6 +60,8 @@ This section lists libraries that are somewhat general-purpose: they're
 introduced in a particular assignment or project toolbox, but could be useful
 in other projects too.
 
+Also see [awesome-python](https://github.com/vinta/awesome-python), a curated list of Python libraries.
+
 * [Numpy](http://www.numpy.org) scientific computing (including arrays)
 * [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) image processing and computer vision
 * [Pillow](http://python-pillow.org) image processing
