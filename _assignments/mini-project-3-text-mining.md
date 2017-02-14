@@ -119,7 +119,7 @@ if you want to get around the download restriction.
 
 I recommend the [wikipedia package](https://pypi.python.org/pypi/wikipedia/):
 
-    pip install wikipedia
+    $ sudo pip3 install wikipedia
 
 The [official documentation](https://wikipedia.readthedocs.io/en/latest/) is here.
 
@@ -129,11 +129,6 @@ the documentation follow:
 ```
 >>> import wikipedia
 
->>> wikipedia.summary("Wikipedia")
-['Franklin W. Olin College of Engineering', 'F. W. Olin Foundation', 'Franklin W. Olin',
- 'Olin', 'Richard Miller (Olin College President)', 'Jim Olin', 'Olin J. Eggen',
- 'Abram B. Olin', 'Steve Olin', 'Dave Olin']
-
 >>> wikipedia.summary("Olin College")
 "Olin College of Engineering (also known as Olin College or simply Olin) is a private undergraduate engineering college in Needham, Massachusetts, adjacent to Babson College. Olin College is noted in the engineering community for its youth, small size, project-based curriculum, and large endowment funded primarily by the F. W. Olin Foundation. The college covers half of each admitted student's tuition through the Olin Scholarship."
 
@@ -141,7 +136,7 @@ the documentation follow:
 >>> olin.title
 'Franklin W. Olin College of Engineering'
 >>> olin.content
-'Olin College of Engineering (also known as Olin College or simply Olin) is a pri'
+'Olin College of Engineering (also known as Olin College or simply Olin) is a private....'
 >>> olin.images
 ['https://upload.wikimedia.org/wikipedia/commons/a/a8/OlinCollege.jpg',
  'https://upload.wikimedia.org/wikipedia/en/9/9d/Olin_College_at_Night.jpg',
@@ -172,7 +167,7 @@ Access Token and Access Token Secret too.
 I recommend the (python-twitter)[https://github.com/bear/python-twitter] package.
 The documentation is [here](https://github.com/bear/python-twitter/wiki).
 
-    $ sudo pip install python-twitter
+    $ sudo pip3 install python-twitter
 
 Use the following code to see tweets in a particular user's timeline, where
 `CONSUMER_KEY` etc. are the Consumer Key and other credentials that you saved above.
@@ -203,11 +198,10 @@ $ sudo pip3 install praw
 ```
 
 Follow the instructions [here](https://github.com/reddit/reddit/wiki/OAuth2-Quick-Start-Example)
-to create a Reddit application. The random string of letters and numbers at to the right of the
-icon is the Client Id. The *secret* beneath the icon is the Client Secret. Save these.
+to create a Reddit application. The random string of letters and numbers at to the right of the icon is the Client Id. The *secret* beneath the icon is the Client Secret. Save these.
 
 Here's an example adapted from the [PRAW docs page](https://praw.readthedocs.org/en/stable/).
-`CLIENT_ID` and `CLIENT_SECRET` are the
+`CLIENT_ID` and `CLIENT_SECRET` are the ones you saved above.
 
 ``` python
 import praw
@@ -226,10 +220,11 @@ Much data on the web is in the form of HTML, which is a mixture of human-languag
 and HTML markdup such as `<div>` and `<p>`. You can use the Beautiful Soup package to extract
 the text from an HTML page.
 
-`$ sudo pip install beautifulsoup4`
+`$ sudo pip3 install beautifulsoup4`
 
 ```
 >>> from bs4 import BeautifulSoup
+>>> import requests
 >>> html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
 >>> html.find('p')  # find the first paragraph
 >>> str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> etc.
