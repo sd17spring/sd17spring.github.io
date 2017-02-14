@@ -91,7 +91,12 @@ Also see [awesome-python](https://github.com/vinta/awesome-python), a curated li
 * [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
 {% endif %}
 
-## Atom Text Editor
+## Text Editors
 
-* [Atom documentation](https://atom.io/docs)
-* [Atom flight manual](http://flight-manual.atom.io)
+* [Atom](https://atom.io).
+    * [Atom documentation](https://atom.io/docs)
+    * [Atom flight manual](http://flight-manual.atom.io)
+* [Sublime](https://www.sublimetext.com) is an alternative to Atom. It's faster for large files, but plugins are harder and it wants a commercial license.
+* [Visual Studio Code](https://code.visualstudio.com) is the new kid on the block.
+* [PyCharm](https://www.jetbrains.com/pycharm/) is an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment).
+It does more than the text editors, and is harder to learn.
