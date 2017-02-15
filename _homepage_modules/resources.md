@@ -13,5 +13,4 @@ various online retailers. Use the second (Python 3) edition.
 
 A few
 [tutorials](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
-were also created by the NINJAs for the Spring 2014 class.[
-](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
+were also created by the NINJAs for the Spring 2014 class.
