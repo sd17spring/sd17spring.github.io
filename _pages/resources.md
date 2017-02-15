@@ -15,7 +15,7 @@ to collect those resources that have already been mentioned into one place.
 
 ## General
 
-[Stack Overflow](http://stackoverflow.com) is a community of programmers, and a knowledge base of many questions and answers about programming topics (including Python). It can be useful to search directly; it also shows up in Google search results.
+[Stack Overflow](http://stackoverflow.com) is a community of programmers, and a knowledge base of programming questions and answers. You can search it directly from its site; it also shows up in Google search results.
 
 ## Linux (Ubuntu)
 
