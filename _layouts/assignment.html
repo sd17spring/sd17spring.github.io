@@ -1,0 +1,13 @@
+---
+layout: single
+---
+
+{% if page.parts %}
+  {% for part in page.parts %}
+    <div><i><a href="#{{ part.tag }}">{{ part.name }}</a> due {{ part.due_date | date: '%a %b %-d' }}<i></div>
+  {% endfor %}
+{% elsif page.due_date %}
+  <i>Due {{ page.due_date | date: '%A, %B %d' }}</i>
+{% endif %}
+
+{{ content }}

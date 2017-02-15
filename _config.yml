@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: assignments
     values:
-      layout: single
+      layout: assignment
   - scope:
       path: ""
       type: days
