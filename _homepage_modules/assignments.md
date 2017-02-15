@@ -12,4 +12,4 @@ Wednesday Feb 22
 Monday March 13
 : First three [toolboxes]({% link _pages/toolboxes.md %}). Five are due in all.
 
-The [Assignments]({% link _pages/assignments.html %}) page and the [course calendar]({% link _pages/calendar.md %})  list of all due dates.
+The [Assignments]({% link _pages/assignments.html %}) page and the [course calendar]({% link _pages/calendar.md %}) list all due dates.

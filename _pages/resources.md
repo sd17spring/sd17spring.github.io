@@ -7,24 +7,21 @@ title: Resources
 
 {% include toc %}
 
-This page lists web sites, PDF documents, Piazza posts, IPython notebooks, and
+This page lists web sites, PDF documents, Jupyter notebooks, and
 Python packages that have been mentioned during the course.
 
 It's not an attempt to list everything related to each of those topics; just
 to collect those resources that have already been mentioned into one place.
+
+## General
+
+[Stack Overflow](http://stackoverflow.com) is a community of programmers, and a knowledge base of many questions and answers about programming topics (including Python). It can be useful to search directly; it also shows up in Google search results.
 
 ## Linux (Ubuntu)
 
 * [Get Set (this site): Install and Configure Ubuntu]({% link _assignments/setup-your-environment.md %}#step-1-install-and-configure-ubuntu)
 * [Linux at Olin (downloadable PDF)]({% link files/assignments/setup-your-environment/linux.pdf %})
 * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
-
-## Classroom collaboration tools
-
-{% if site.course.flootbits_url %}* [Floobits]({{site.course.flootbits_url}}) – code sharing{% endif %}
-* [Piazza]({{site.course.piazza_url}}) – message board
-* [GitHub](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
-* [GitHub reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
 
 ## Git
 
