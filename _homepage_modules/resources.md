@@ -1,16 +1,19 @@
 ---
 title: Resources
-position: 2
+position: 3
 ---
 
-Several useful resources for the class are collected
-[here]({% link _pages/resources.md %}). The page has sections on [Git]({% link _pages/resources.md %}#git),
+
+Particularly useful are:
+
+* [Python 3.5 Documentation](https://docs.python.org/3.5/) and [Standard Library](https://docs.python.org/3.5/library/index.html)
+* [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+* [Awesome Python](https://awesome-python.com) curated list of Python libraries
+* [Linux at Olin]({% link files/assignments/setup-your-environment/linux.pdf %})
+* [Pro Git](https://git-scm.com/book/en/v2)
+* [Atom (text editor) flight manual](http://flight-manual.atom.io)
+* [Stack Overflow](http://stackoverflow.com) programming Q &amp; A
+
+Additional resources are collected on the [Resources]({% link _pages/resources.md %}) page.
+That page has sections on [Git]({% link _pages/resources.md %}#git),
 [Python]({% link _pages/resources.md %}#python), and [Linux]({% link _pages/resources.md %}#linux-ubuntu).
-
-The class text is Allen Downey's _Think Python_. This book is available free
-[online](http://greenteapress.com/wp/think-python-2e/) or in hardcopy from
-various online retailers. Use the second (Python 3) edition.
-
-A few
-[tutorials](https://drive.google.com/folderview?id=0B6xCjnZeUlbMY3M5Y3N3aU9scGM&usp=sharing)
-were also created by the NINJAs for the Spring 2014 class.
