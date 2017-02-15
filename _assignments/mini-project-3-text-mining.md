@@ -1,5 +1,5 @@
 ---
-date: 2017-02-13
+date: 2017-02-15T09:03:00+5
 description: >
   In this assignment you will learn how to use computational techniques to
   analyze text.
@@ -39,6 +39,20 @@ You should read this document in a somewhat non-linear/spiral fashion:
 2. Scan through [Part 2](#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
 3. Choose (at least) one data source from Part 1 or elsewhere and analyze/manipulate/transform that text using technique(s) from Part 2 or elsewhere.
 4. Write a brief document about what you did ([Part 3](#part-3-project-writeup-and-reflection))
+
+## A Note on Time Management
+
+This project is divided into *three parts*, but they are all do on *the same day*.
+
+You are of course encouraged to start early and work often. Beyond that, we
+have some advice that may not be intuitive:
+
+The [Project Writeup and Reflection](#part-3-project-writeup-and-reflection)
+is described after the implementation work. However, you may find it beneficial to
+write the "Project Overview" and take a stab at the "Implementation" and "Results", early in the process. The Implementation may be vague and you will likely need
+to revise it later, and the Results can sketch what you hope to find instead
+of presenting hard data, but this kind of endpoint-first design can help
+guide your implementation work.
 
 ## Part 1: Harvesting text from the Internet
 
@@ -477,8 +491,16 @@ you succeed?
 
 ## Turning in your assignment
 
-* Push your code to GitHub
-* Submit your Project Writeup/Reflection. This can be in the form of either:
-  * a PDF document pushed to GitHub, or
-  * a [project webpage](https://pages.github.com/) (in this case make sure to include a link to this webpage in the README.md file in your repository (otherwise, we won't be able to find your website).
-* Create a pull request to the upstream repository
+1\. Submit your Project Writeup/Reflection. This can be in the form of either:
+  * a [Markdown](https://guides.github.com/features/mastering-markdown/) file, committed to your repository, or
+  * a PDF document, committed to your repository, or
+  * a [project webpage](https://pages.github.com/)
+
+Make sure to include a link to the Project Writeup/Reflection in the `README.md` file in your repository (otherwise, we won't be able to find it).
+
+2\. Push your code to GitHub
+  * Your code should submitted as a Python file (or files) that can be executed by running *e.g.* `python3 text_minig.py`. You may *work* in a Jupyter notebook,
+  in which case you should include the notebook in your repository, but you must
+  *submit* a Python text file.
+
+3\. Create a pull request to the upstream repository
