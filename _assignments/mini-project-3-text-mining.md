@@ -1,5 +1,5 @@
 ---
-date: 2017-02-15T09:03:00+5
+date: 2017-02-16T13:14:00+5
 description: >
   In this assignment you will learn how to use computational techniques to
   analyze text.
@@ -186,13 +186,18 @@ The documentation is [here](https://github.com/bear/python-twitter/wiki).
 Use the following code to see tweets in a particular user's timeline, where
 `CONSUMER_KEY` etc. are the Consumer Key and other credentials that you saved above.
 
+``` python
+import twitter
+api = twitter.Api(consumer_key=CONSUMER_KEY,
+                  consumer_secret=CONSUMER_SECRET,
+                  access_token_key=ACCESS_TOKEN_KEY,
+                  access_token_secret=ACCESS_TOKEN_SECRET)
+api.GetUserTimeline(screen_name='gvanrossum')
 ```
-$ import twitter
-$ api = twitter.Api(consumer_key=CONSUMER_KEY,
-                    consumer_secret=CONSUMER_SECRET,
-                    access_token_key=ACCESS_TOKEN_KEY,
-                    access_token_secret=ACCESS_TOKEN_SECRET)
-$ api.GetUserTimeline(screen_name='gvanrossum')
+
+This prints something like this:
+
+```
 [Status(ID=830854729710186496, ScreenName=gvanrossum, Created=Sun Feb 12 19:02:58 +0000 2017, Text='@ntoll Without context this stream of 10 tweets made little sense to me. :-('),
  Status(ID=830577788901945345, ScreenName=gvanrossum, Created=Sun Feb 12 00:42:30 +0000 2017, Text="@swhobbit @github @brettsky IIUC every developer has a full clone in their .git -- it doesn't get much better than that."),
  Status(ID=830194194501099520, ScreenName=gvanrossum, Created=Fri Feb 10 23:18:14 +0000 2017, Text='The CPython source code has officially moved to https://t.co/0ax0UGzgLZ. Congrats @brettsky !!!'),
