@@ -242,17 +242,17 @@ the text from an HTML page.
 `$ sudo pip3 install beautifulsoup4`
 
 ```
->>> from bs4 import BeautifulSoup
->>> import requests
->>> html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
->>> html.find('p')  # find the first paragraph
->>> str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> etc.
+from bs4 import BeautifulSoup
+import requests
+html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
+html.find('p')  # find the first paragraph
+str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> etc.
 ```
 
 Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded <b> etc.
 ```
->>> import re
->>> str(re.sub(r'<.+?>', '', str(html.find('p'))))
+import re
+str(re.sub(r'<.+?>', '', str(html.find('p'))))
 ```
 
 [This is not a robust way to do this. A robust way involves using a recursive function.]
