@@ -8,6 +8,9 @@ title: Algorithmic Music Composition
 
 {% include construction %}
 
+<b>Beware! This toolbox does not work with Python 3! We are planning to rewrite it with an audio synthesis library that is compatible with Python 3; probably [pyo](https://github.com/belangeo/pyo) or [PySynth](https://mdoege.github.io/PySynth/).
+When this is done it will be announced on Piazza.</b>
+
 For this toolbox exercise you will be creating a computer program that
 composes music! This type of programming is also known as "algorithmic music
 composition". You may think that this idea is relatively new, but the history
