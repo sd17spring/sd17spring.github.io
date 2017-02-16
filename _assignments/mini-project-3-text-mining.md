@@ -178,7 +178,7 @@ Click on "manage keys and access tokens" to see the Consumer Secret.
 On that page, click "Generate Access Token", and copy the
 Access Token and Access Token Secret too.
 
-I recommend the (python-twitter)[https://github.com/bear/python-twitter] package.
+I recommend the [python-twitter](https://github.com/bear/python-twitter) package.
 The documentation is [here](https://github.com/bear/python-twitter/wiki).
 
     $ sudo pip3 install python-twitter
