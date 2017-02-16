@@ -271,7 +271,7 @@ import pickle
 
 # Save data to a file (will be part of your data fetching script)
 f = open('dickens_texts.pickle','w')
-pickle.dump(charles_dickens_texts,'f')
+pickle.dump(charles_dickens_texts, f)
 f.close()
 
 # Load data from a file (will be part of your data processing script)
