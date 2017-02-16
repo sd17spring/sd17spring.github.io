@@ -270,12 +270,12 @@ You can save this list to disk and then reload it using the following code:
 import pickle
 
 # Save data to a file (will be part of your data fetching script)
-f = open('dickens_texts.pickle','w')
+f = open('dickens_texts.pickle','wb')
 pickle.dump(charles_dickens_texts, f)
 f.close()
 
 # Load data from a file (will be part of your data processing script)
-input_file = open('dickens_texts.pickle','r')
+input_file = open('dickens_texts.pickle','rb')
 reloaded_copy_of_texts = pickle.load(input_file)
 ```
 
