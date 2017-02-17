@@ -3,7 +3,7 @@ date: 2017-02-16T13:14:00+5
 description: >
   In this assignment you will learn how to use computational techniques to
   analyze text.
-due_date: 2017-02-22
+due_date: 2017-02-23
 title: 'Mini Project 3: Text Mining and Analysis'
 toc: true
 ---
