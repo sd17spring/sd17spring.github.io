@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-02-17
 description: ''
 title: Al and Algorithms
 ---
@@ -30,7 +30,7 @@ apt-get line will install the pygame library.
     $ sudo pip3 install pygame
 
 Grab the A star search starter code via the normal fork-and-clone method from
-<https://github.com//{{site.course.github_owner}}/ToolBox-AI>
+<https://github.com//{{site.course.github_owner}}/ToolBox-AI>.
 
 ## Learn about A star search
 
@@ -42,7 +42,7 @@ star have over depth-first search?
 
 ## Using the GUI
 
-To use the GUI/toy, first run python astar.py to bring up the pygame window.
+To use the GUI/toy, first run `python3 astar.py` to bring up the pygame window.
 Hit the 'l' key to switch to the 'add lava tiles' mode. Then you can click on
 any cell to add or remove a lava tile from that cell. Hit the spacebar at any
 time to have Paul plan (or replan) his path to the cake, and highlight that
@@ -56,9 +56,9 @@ Take a look at lines 171-173 of the code. Try commenting and uncommenting
 lines to set COST_TO_DRAW to different values, and run the code to see the
 values that are printed in each cell when you hit the spacebar. Take a
 screenshot (Fn + Print Scrn) of each example with some lava tiles placed down,
-and in your own words, explain what f_score, g_score, and h_score are, and why
+and in your own words, explain what `f_score`, `g_score`, and `h_score` are, and why
 you see those specific values in the screenshot. (There should be three
-screenshots, printing f values, g values, and h values).
+screenshots, printing *f* values, *g* values, and *h* values).
 
 ## Get coding!
 
