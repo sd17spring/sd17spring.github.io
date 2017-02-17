@@ -23,15 +23,15 @@ slack:
 collections:
   assignments:
     output: true
-    permalink: /assignments/:path/
+    permalink: assignments/:path/
   days:
     output: true
-    permalink: /day/:path/
+    permalink: day/:path/
   homepage_modules:
     output: false
   toolboxes:
     output: true
-    permalink: /toolboxes/:path/
+    permalink: toolboxes/:path/
 
 defaults:
   - scope:
