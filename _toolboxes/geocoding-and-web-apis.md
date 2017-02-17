@@ -50,9 +50,13 @@ Let's grab some data from the Internet!
 Here we're using [urllib.request](https://docs.python.org/3.0/library/urllib.request.html) to
 open a [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) and get
 its contents over
-[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). For a nice
+[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
+
+{% comment %}
+Broken: For a nice
 introduction to how HTTP works, check out this [olin.js
 lesson](https://github.com/olinjs/olinjs/tree/master/classes/class01#http).
+{% endcomment %}
 
 The [urlopen](https://docs.python.org/3.0/library/urllib.request.html)
 method returns a [file-like

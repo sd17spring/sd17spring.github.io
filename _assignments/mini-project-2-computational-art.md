@@ -143,7 +143,7 @@ computational art mini-project. Once you've forked the repository, clone the
 repository on your computer. If you clone the repository in your home
 directory, the starter code will be in `ComputationalArt/recursive_art.py`. In
 addition to fetching the starter code, you should also install the [Pillow
-fork](https://pillow.readthedocs.org/index.html) of the Python Imaging Library
+fork](https://pillow.readthedocs.org/) of the Python Imaging Library
 ("PIL"). To do so, execute the following command at the Linux terminal:
 
 ``` bash
