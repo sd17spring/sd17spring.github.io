@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-02-17
 description: ''
 title: Web Apps
 ---
@@ -27,14 +27,14 @@ install Flask. Run the following command:
     sudo pip3 install Flask
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/Toolbox-Flask>
+method from <https://github.com//{{site.course.github_owner}}/Toolbox-Flask>.
 
 This toolbox exercise was developed by Patrick Huston. Let him know if you
 decide to complete it; he can help with any questions that arise.
 
 ## What is Flask, really?
 
-In the introduction, we defined Flask as a 'web framework', but what does that
+In the introduction, we defined Flask as a "web framework", but what does that
 actually mean? Let's dig deeper. Before this, let's develop a better
 understanding of how the internet works.
 
@@ -86,7 +86,7 @@ What did that actually do? Let's walk through the steps.
 4. The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
 5. Finally we use the `run()` function to run the local server with our application. The `if __name__== '__main__'` makes sure the server only runs if the script is executed directly from the Python interpreter and not used as an imported module.
 
-To stop the server, hit `ctrl+c`
+To stop the server, hit `ctrl+c`.
 
 ## What's this routing business?
 
@@ -117,7 +117,7 @@ create web pages. In addition to sending back strings, Flask can send back
 HTML files to the client, which will be rendered in the browser. Let's get to
 work creating a basic HTML document.
 
-Let's start by creating a file called `index.html`
+Let's start by creating a file called `index.html`:
 
 ``` html
 <!DOCTYPE html>
@@ -170,9 +170,9 @@ And here is an example template that will work with the above snippet:
 You may have noticed something really cool that happened here. In our route
 `/hello/<name>`, we're allowing someone to make a request with an additional
 'name' parameter that can be anything. We can then use this `name` and render
-it in our html template `hello.html`. We use the {___} syntax to insert
+it in our html template `hello.html`. We use the `{___}` syntax to insert
 outside variables into the template. Additionally, we can insert pythonic flow
-logic directly into our html page - see `{ if name }`. We could go on for
+logic directly into our HTML page – see `{% raw %}{% if name %}{% endraw %}`. We could go on for
 years about all of the power of jinja templating, but I'll leave that joy to
 this [wonderful article](http://jinja.pocoo.org/docs/dev/templates/).
 
@@ -193,10 +193,8 @@ if __name__ == '__main__':
 
 And that's it! Again, follow the instructions
 
-
     $ python3 hello.py
      * Running on http://127.0.0.1:5000/
-
 
 to run the application, and head over to <http://127.0.0.1:5000/>, and you
 should see your hello world greeting. It might not look very different, but
@@ -209,9 +207,9 @@ What use is a web application if you can't get any data back from the user?
 Let's set up a simple app. Here are our end specifications:
 
 1. Upon visiting the index page at <http://127.0.0.1:5000/>, the user will be greeted by a page that says hello, and includes an input form that requests their name, age, and favorite SoftDes Ninja.
-2. Upon clicking the 'Submit' button, the data from the form will be sent via a POST request to the Flask backend at the route `POST /login`
+2. Upon clicking the 'Submit' button, the data from the form will be sent via a POST request to the Flask backend at the route `POST /login`.
 3. The Flask backend will handle the request to `POST /login` and perform some simple validation on the user input - simply check to see if they exist.
-4. If all the information is present, the app will render a 'profile' page for the user - presenting their name and age. Regardless of their input for final question, their favorite SoftDes ninja, the app will display `Patrick Huston`
+4. If all the information is present, the app will render a 'profile' page for the user - presenting their name and age. Regardless of their input for final question, their favorite SoftDes ninja, the app will display `Patrick Huston`.
 5. If all the information is not present, the app will render a simple error page, which will include some indication that they didn't include all the required information, in addition to a button that will redirect the user back to the home page.
 
 It will be up to you to make this happen. If you feel confident in your
@@ -226,7 +224,7 @@ documentation](http://flask.pocoo.org/docs/0.10/#user-s-guide) and the
 [quickstart guide](http://flask.pocoo.org/docs/0.10/quickstart/), both of
 should be pretty helpful.
 
-1. _HTML Forms_  To make forms in HTML, check out [this resource](http://www.w3schools.com/html/html_forms.asp). For even more information, check [this](http://tinyurl.com/htmlforms) out.
+1. _HTML Forms_ To make forms in HTML, check out [this resource](http://www.w3schools.com/html/html_forms.asp). For even more information, check [this](http://tinyurl.com/htmlforms) out.
 2. _Sending POST Requests_ To send the data from the form in a POST request, use an input with type `submit`, and set the action of the form to reflect the destination in your routes.
 3. _Handling POST Requests_ To learn more about handling post requests in Flask, check this resource from the [Flask documentation](http://flask.pocoo.org/docs/0.10/quickstart/#http-methods) out.
 4. \+ 5. _Accessing the Form Data_ To access the form data, check out [this documentation](http://flask.pocoo.org/docs/0.10/quickstart/#the-request-object) on using the Flask `request` utility.
@@ -239,6 +237,6 @@ pull request to get checked off.
 ## Going further
 
 1. **Learn more about [Django](https://www.djangoproject.com/)**  \- an alternative to Flask. They don't have many major differences other than some small quirks in conventions and style. See [here](https://wakatime.com/blog/25-pirates-use-flask-the-navy-uses-django) for more analysis.
-2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Laugage](https://www.codecademy.com/learn/learn-sql) to manipulate all stored, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDb, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
-3. **But HTML is so ugly!**  HTML alone **is**  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
-4. **What about making my website dynamic?**  SoftDes may be a class in Python, but we can venture out a little and use some [jQuery](http://www.w3schools.com/jquery/jquery_intro.asp). jQuery might seem scary, but you use it in a way similar to adding/linking CSS styling to your HTML. You write scripts in JavaScript (which isn't too difficult), which can allow you to add beautiful responsive and dynamic content to your web app.
+2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Language](https://www.codecademy.com/learn/learn-sql) to manipulate all stored, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)). You also may have heard some buzz about MongoDb, which uses an unstructured data format in "documents" similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
+3. **But HTML is so ugly!**  HTML alone *is*  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
+4. **What about making my website dynamic?**  SoftDes may be a class in Python, but we can venture out a little and use some [jQuery](http://www.w3schools.com/jquery/jquery_intro.asp). jQuery might seem scary, but you use it in a way similar to adding / linking CSS styling to your HTML. You write scripts in JavaScript (which isn't too difficult), which can allow you to add beautiful responsive and dynamic content to your web app.
