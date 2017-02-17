@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-02-17
 description: ''
 title: Evolutionary Algorithms
 ---
@@ -36,8 +36,8 @@ to watch it rediscover many efficient gaits found in nature.
 
 ### Example 2: Evolving cars
 
-  1. Go to <http://boxcar2d.com>
-  2. Don't forget to close your browser at some point to eat and sleep
+  1. Go to <http://boxcar2d.com>.
+  2. Don't forget to close your browser at some point to eat and sleep.
 
 This physics simulation attempts to evolve cars to successfully negotiate
 randomly generated terrain. Each car is represented by a simple "genotype" — a
@@ -81,7 +81,7 @@ In this toolbox exercise, you will implement a [genetic
 algorithm](http://en.wikipedia.org/wiki/Genetic_algorithm) (GA) to evolve an
 initial population of random strings into a specified string.
 
-**Caveat**:  Although it's a good learning exercise, this problem is not
+**Caveat**: Although it's a good learning exercise, this problem is not
 a particularly appropriate application for evolutionary algorithms, since the
 exact solution and the shape of the search space are known in advance. For
 more, check out ["When are Evolutionary Algorithms
@@ -125,7 +125,7 @@ Message and the target text.
 **Implement the `levenshtein_distance` function.**
 
 **Note:**  Check out the [Day
-9](https://sites.google.com/site/{{site.course.github_owner}}/last-year-in-class/day-9)
+8]({% link _days/day-8.md %})
 exercises. You will need the memoized version to get any reasonable
 performance.
 
@@ -216,7 +216,7 @@ your experimentation to GitHub and submit a pull request to get checked off.
 ## Going beyond
 
 * [**Genetic Programming** ](http://deap.readthedocs.org/en/master/tutorials/advanced/gp.html) \- programs that evolve other programs. Challenge problem: write a program to take Software Design for you, kick back for the rest of the semester (as always, the challenge will be the fitness function)
-* **Evolve Artwork -** Someone has written a [genetic algorithm to evolve famous artwork](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/) using only 50 transparent polygons. Challenge problem: modify your [computational art project](/assignments/mini-project-2-computational-art) to evolve a given image using function composition
+* **Evolve Artwork -** Someone has written a [genetic algorithm to evolve famous artwork](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/) using only 50 transparent polygons. Challenge problem: modify your [computational art project](/assignments/mini-project-2-computational-art) to evolve a given image using function composition.
 * **D is for [Distributed](http://deap.readthedocs.org/en/master/tutorials/basic/part4.html)**  \- If you have access to a cluster or multiprocessor system, try running a large scale evolutionary algorithm to solve a non-trivial problem.
 
 ## Further reading
