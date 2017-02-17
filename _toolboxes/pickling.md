@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-02-17
 description: ''
 title: Pickling
 ---
@@ -20,8 +20,8 @@ along with a few unit tests. If you run the Python script without any
 arguments you will execute the doctests.
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/ToolBox-Pickling>.The starter code
-will be in `counter.py`.
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-Pickling>.
+The starter code will be in `counter.py`.
 
 ## Learn About File Input and Output
 
@@ -43,8 +43,8 @@ of these resources:
 
 ## Implement the function update_counter
 
-The basic idea is to open the counter file in **r+**  (reading plus) mode if it
-exists and you are not resetting the counter, and in **w**  (writing) mode
+The basic idea is to open the counter file in **rb+**  (reading plus) mode if it
+exists and you are not resetting the counter, and in **wb**  (writing) mode
 otherwise. Once the file is open you can either initialize the counter to 0
 (if appropriate) or read the counter value (using `load`) and then increment
 it. To finish your implementation, use the `dump` function to store the
@@ -53,7 +53,7 @@ resultant counter value to the disk.
 Hints:
 
   * To see if the file already exists, you can use `os.path.exists` function which we have already imported for you as `exists`
-  * To move the file handle back to the beginning of the file (for instance after reading), use the command `f.seek(0,0)` (assuming you called your open file **f** )
+  * To move the file handle back to the beginning of the file (for instance after reading), use the command `f.seek(0, 0)` (assuming you called your open file `f`)
 
 ## Turning in your toolbox assignment
 
