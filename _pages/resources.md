@@ -48,6 +48,12 @@ to collect those resources that have already been mentioned into one place.
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
 {% endif %}
 
+### Python Style Guides
+
+* [PEP 8 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+* [PEP 257 – Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
+* [Google Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ### Python Libraries
 
 This section lists libraries that are somewhat general-purpose: they're
