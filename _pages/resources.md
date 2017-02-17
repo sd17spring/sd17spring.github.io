@@ -1,7 +1,7 @@
 ---
 date: 2017-02-14 15:16:02 -0500
 description: ''
-permalink: /resources/
+permalink: resources/
 title: Resources
 ---
 

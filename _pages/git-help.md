@@ -1,7 +1,7 @@
 ---
 date: 2017-01-30
 description: ''
-permalink: /git-help/
+permalink: git-help/
 title: Git Help
 ---
 
