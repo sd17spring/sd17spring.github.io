@@ -1,6 +1,6 @@
 ---
 activity_date: 2017-01-23
-date: 2017-01-23
+date: 2017-02-17T10:26:00 +5
 description: Ramping up in Python
 published: true
 title: Day 2
@@ -108,6 +108,9 @@ of [Hydrogen](https://atom.io/packages/hydrogen) commands.  "Hydrogen: Run All" 
 runs that command.
 
 ### Method 3: inside the Python interpreter
+
+<strong>This method is deprecated. It works, but it's not particularly useful. It's listed here because it was adapted from a Python 2 technique that
+was more useful. it will be removed from future versions of the course.</strong>
 
 You can execute Python scripts from within the Python interpreter (when running in interactive mode).  To do so execute the following command from the Python prompt.
 
