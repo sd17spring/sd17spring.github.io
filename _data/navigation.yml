@@ -36,8 +36,7 @@ docs:
     url: /toolboxes/
     collection: toolboxes
 
-  - title: Resources
-    url: /resources/
+  - title: Web Sites
     children:
       - title: Piazza
         url: https://piazza.com/class/iy3bgqkraq97c0
@@ -45,12 +44,10 @@ docs:
         url: https://olin.slack.com/messages/softdes17spring/
       - title: SoftDes GitHub Repo
         url: https://github.com//sd17spring/
+      - title: Python 3.5 Documentation
+        url: https://docs.python.org/3.5/
       - title: Think Python
         url: http://greenteapress.com/wp/think-python-2e/
-      - title: Git Help
-        url: /git-help/
-      - title: More…
-        url: /resources/
 
   - title: Administrivia
     children:
