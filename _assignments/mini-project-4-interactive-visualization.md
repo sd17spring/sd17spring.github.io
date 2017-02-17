@@ -5,7 +5,7 @@ description: >
   are run, do some computations, and spit out a result) to interactive programs
   (ones that allow the user to perform actions that change the state of the
   program).
-due_date: 2017-03-14
+due_date: 2017-03-08
 title: 'Mini Project 4: Interactive Programming'
 ---
 
@@ -52,16 +52,15 @@ write some very powerful software. Here are some ideas:
 
 Teaming Logistics:
 
-* You must work in a team of exactly two students (given an odd number of students we may have one team of three per section).
-* Your partner must be in your section (no exceptions).
+* You must work in a team of exactly two students (given an odd number of total students, we may have one team of three).
 * Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on GitHub for that repo.
 
 Teaming Guidance:
 
 * Do not thoughtlessly default to working with your friend.
 * Make sure you and your potential partner are on the same page in terms of project topic.
-* You should partner with someone that has roughly the same commitment level to the project. For instance, someone that is super gung-ho about making the most amazing SoftDes project evar should not partner with someone that is just looking to do the minimum.
-* You should be mindful of differences in level of programming experience when selecting your partner. Teams that are very closely matched in terms of programming experience should be no problem. Teams that are not closely matched on this axis can also be quite effective. However, if you and your partner are not closely matched you will want to make sure that you are both vigilant about avoiding some common pitfalls that occur with this type of team. The two most common pitfalls are: the person with more experience gets frustrated with the other team member and does all the work, and the person with more experience writes all the code while the person with less experiences watches them.
+* You should partner with someone that has roughly the same commitment level to the project. For instance, someone that is excited to clear most of their schedule to complete the most amazing SoftDes project ever should not partner with someone that is just looking to do the minimum.
+* You should be mindful of differences in level of programming experience when selecting your partner. Teams that are very closely matched in terms of programming experience should be no problem. Teams that are not closely matched on this axis can also be quite effective. However, if you and your partner are not closely matched, you will want to make sure that you are both vigilant about avoiding some common pitfalls that occur with this type of team. The two most common pitfalls are: the person with more experience gets frustrated with the other team member and does all the work, and the person with more experience writes all the code while the person with less experiences watches them.
 
 ## Recommended Libraries
 
@@ -270,8 +269,8 @@ but we hope it will be helpful at least as a jumping off point.
 
 You must find a teammate and decide on a project topic. You are required to
 have your teammate selected (and hopefully a rough idea of what you will do
-for the project) by noon on Saturday, February 27th. Use
-[this]({{site.course.visualization_teaming_spreadsheet}}) Google spreadsheet to indicate who you are
+for the project) by 2:00PM on Thursday, February 23rd. Use
+[this](https://docs.google.com/spreadsheets/d/17qS5AXqLnV2aitd0dUHXri5fjtGodrS9vd9A0c_K4x0/edit?usp=sharing) Google spreadsheet to indicate who you are
 working with. There is also a section where you can look for a teammate if you
 don't have one already.
 
@@ -285,31 +284,28 @@ There are three deliverables for this project.
 
 ### Project Proposal
 
-This coming Monday you will be meeting with us to discuss your plans for this
-project. You should come to next class with a PRINTED copy of a document that
-describes the main idea of your project. We will only have 5 minutes to meet
-with each team, so we ask that you come to the meeting without your laptop,
-but with a printed version of your document. You should designate one of the
-two team members to take notes. Here are the questions your document should
-address:
+You can begin working on a project proposal as soon as you select your partner. Part of the Thursday 2/23 class will be dedicated to approving project proposals. We encourage you to speak with NINJAs before this date during office hours (or an impromptu session arranged via Slack). By classtime on Thursday 2/23, you should be able to provide a link to a proposal document (e.g., a google doc) that
+describes the main idea of your project. The professors will review the proposals approved by NINJAs.
+
+Your proposal document should address:
 
   * What is the main idea of your project? What topics will you explore and what will you generate? What is your minimum viable product? What is a stretch goal?
-  * What are your learning goals for this project?
+  * What are your learning goals for this project (for each member)?
   * What libraries are you planning to use? (if you don't know enough yet, please outline how you will decide this question during the beginning phase of the project).
   * What do you plan to accomplish by the mid-project check-in? (See below for some generic goals; edit to suit your particular project)
   * What do you view as the biggest risks to you being successful on this project?
 
 This deliverable will not factor into your project grade. The purpose is
-purely to allow us to help shape your project in useful directions.**
+purely to allow us to help shape your project in useful directions - and potenially adapt classtime to better prepare you for your journeys.**
 **
 
-**Note: just because we will not have a chance to go over your project proposal until Monday 2/29 doesn't mean that you should wait until this meeting to actually start your project.**
+**Note: you can start your project before professors have seen your proposals**
 
 
 ### Mid-Project Checkin
 
 We are requiring a mid-project check-in for this project. You must meet with a
-NINJA by end-of-the-day Thursday March 3rd (we do not have class on that day).
+NINJA by end-of-the-day Thursday March 2nd (we do not have class on that day).
 The grading for this checkin will be 0% if you miss it or blow it off, 50% if
 you have minimal work done before the checkin, and 100% if you have made a
 sincere effort to get your project off the ground. The mid-project checkin
