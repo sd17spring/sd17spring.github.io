@@ -21,7 +21,7 @@
         {% endif %}
 
 
-        {% if nav.collection != null %}{% assign children = site[nav.collection] %}{% endif %}
+        {% if nav.collection != null %}{% assign children = site[nav.collection] | sort: 'title' %}{% endif %}
         {% if nav.children != null %}{% assign children = nav.children %}{% endif %}
         {% if children %}
         <ul>
