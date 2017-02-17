@@ -6,16 +6,9 @@ title: Geocoding and Web APIs
 
 {% include toc %}
 
-{% include construction %}
-
-The Pattern library does not work with Python 3.
-
 ## Introduction
 
-In Mini Project 3, you used the Python data mining package
-[Pattern](http://www.clips.ua.ac.be/pattern) to access information on the
-Internet. Pattern gets that information by interacting with various web
-application programming interfaces (APIs) on your behalf. In this toolbox
+In this toolbox
 exercise, you will access web APIs directly and begin to write your own
 package to connect with new data sources.
 
@@ -32,7 +25,7 @@ stop and the distance from the given place to that stop. For example:
 ## Get Set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from _<https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>_
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>.
 
 You should see `mbta_finder.py` within the toolbox folder, which has some
 optional scaffolding for this exercise.
@@ -129,7 +122,7 @@ documentation, except built from Python data types. The response data structure 
       4 Yawkey Way, Boston, MA 02215, USA
 
 
-**Note** : You might notice that I didn't provide an API key with the request. For the Google Maps API, you can actually get away without one for a small number or requests. Be sure to limit your requests (don't repeatedly make requests in a loop, or rate-limit using [time.sleep](https://docs.python.org/3/library/time.html#time.sleep)) so that Olin's IP range is not blocked.
+**Note**: You might notice that I didn't provide an API key with the request. For the Google Maps API, you can actually get away without one for a small number or requests. Be sure to limit your requests (don't repeatedly make requests in a loop, or rate-limit using [time.sleep](https://docs.python.org/3/library/time.html#time.sleep)) so that Olin's IP range is not blocked.
 
 **Write a function to extract the latitude and longitude from the JSON response.**
 
@@ -143,7 +136,7 @@ helpful guide to URL components and encoding.
 
 You can build up the URL string manually, but it's probably helpful to check
 out
-[urlencode](https://docs.python.org/3.0/library/urllib.parse.html#urllib.parse.urlencode)
+[urlencode](https://docs.python.org/3.0/library/urllib.parse.html#urllib.parse.urlencode).
 
 **Write a function that takes an address or place name as input and returns a properly encoded URL to make a Google Maps geocode request.**
 
@@ -171,8 +164,8 @@ nearest MBTA and its distance from the starting point.
 
 ## Making it cooler
 
-* Try out some other [Google Maps web services](https://developers.google.com/maps/documentation/webservices/) \- this is a really rich space and we have barely scratched the surface
-* Create and publish a Python module for accessing MBTA data
-* By default `stopsbylocation` gives all types of transportation, including buses and commuter rail. Allow the user to specify how they'd like to travel (e.g. T only)
+* Try out some other [Google Maps web services](https://developers.google.com/maps/documentation/webservices/) – this is a really rich space and we have barely scratched the surface.
+* Create and publish a Python module for accessing MBTA data.
+* By default `stopsbylocation` gives all types of transportation, including buses and commuter rail. Allow the user to specify how they'd like to travel (e.g. T only).
 * Add in the MBTA realtime arrival data to help choose what station you should walk to
 * Connect with other local services. Example: the City of Boston has [an app](http://www.cityofboston.gov/DoIT/apps/streetbump.asp) that uses a phone's GPS and accelerometer to automatically report potholes to be fixed.

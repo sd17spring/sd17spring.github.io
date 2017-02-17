@@ -29,5 +29,5 @@ to verify that this script has all if the intended functionality.
 
 A few things to keep in mind:
 
-  * methods need to be named test_something so that unittest will recognize them as tests.
-  * The setup method always runs first and the teardown method always runs last. They are not required but can be useful.
+  * methods need to be named `test_something` so that unittest will recognize them as tests.
+  * The `setup` method always runs first and the `teardown` method always runs last. They are not required but can be useful.

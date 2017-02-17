@@ -10,11 +10,15 @@ title: Machine Learning
 
 For this toolbox exercise you will learn how to teach your computer to learn!
 Machine learning is a field that sits at the intersection of statistics, data
-mining, and artificial intelligence. Tom Mitchell defines what it means for a
-computer program to learn in the following way: “A computer program is said to
+mining, and artificial intelligence.
+
+Tom Mitchell defines what it means for a
+computer program to learn in the following way:
+
+> A computer program is said to
 learn from experience E with respect to some class of tasks T and performance
 measure P, if its performance at tasks in T, as measured by P, improves with
-experience E.”
+experience E.
 
 This definition highlights a key difference between machine learning and
 classical statistical methods. That is, machine learning is chiefly concerned
@@ -45,7 +49,7 @@ command:
     $ sudo pip3 install matplotlib scikit-learn scipy
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>.
 
 ## Classification Using Scikit-Learn
 
@@ -63,7 +67,7 @@ To make things more concrete, let's look at one of the most well-studied
 classification problems: recognizing images of [handwritten
 digits](http://en.wikipedia.org/wiki/MNIST_database).
 
-To load the digits and display 10 of the examples, run the `display_digits()` 
+To load the digits and display 10 of the examples, run the `display_digits()`
 function in the starter code.
 
 The digit database built into scikit-learn has a total of 1797 examples (there
@@ -91,7 +95,6 @@ classification accuracy on the testing set.
 ``` python
 from sklearn.datasets import *
 from sklearn.cross_validation import train_test_split
-
 from sklearn.linear_model import LogisticRegression
 
 data = load_digits()
@@ -125,8 +128,8 @@ them in a text file called `questions.txt` in your `machine_learning` folder:
 
 ## Turning in Your Toolbox Exercise
 
-To turn in your toolbox, push your changes to **learning_curve.py**  and your
-writeup (**questions.txt** ) to your GitHub repo and submit a pull request to
+To turn in your toolbox, push your changes to `learning_curve.py` and your
+writeup (`questions.txt`) to your GitHub repo and submit a pull request to
 notify your friendly neighborhood NINJA to take a look.
 
 ## Further Explorations

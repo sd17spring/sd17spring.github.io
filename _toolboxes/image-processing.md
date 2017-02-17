@@ -33,7 +33,7 @@ the Python bindings.
 `$ sudo pip3 install opencv-python`
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/ToolBox-ComputerVision>
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-ComputerVision>.
 
 The starter code will be in `face_detect.py` and is very minimal for this
 toolbox, but it will be good for making sure everyone uses a standard naming
@@ -152,7 +152,7 @@ that draw the rectangle at this point.
 As a final step, you should add a second loop over the detected faces to draw
 a cartoon face on top of the original face. A few tips:
 
-1. Make use of OpenCV [drawing primitives](http://docs.opencv.org/modules/core/doc/drawing_functions.html)
+1. Make use of OpenCV [drawing primitives](http://docs.opencv.org/modules/core/doc/drawing_functions.html).
 2. Each shape you draw should be positioned and sized relative to the bounding box of the face.
 3. In the example above I drew the mouth using `cv2.ellipse` which allows you to draw portions of an ellipse rather than the full ellipse (this is is useful for generating curves).
 4. All arguments to the drawing commands should be in terms of pixels. The functions will complain if you specify floating point values, so be sure to convert your values to integers using the `int` command.
