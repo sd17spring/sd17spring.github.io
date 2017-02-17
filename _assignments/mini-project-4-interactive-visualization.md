@@ -52,12 +52,12 @@ write some very powerful software. Here are some ideas:
 
 Teaming Logistics:
 
-* You must work in a team of exactly two students (given an odd number of total students, we may have one team of three).
+* You must work in a team of exactly two students (if we end up with an odd number of total students, we may have one team of three).
 * Only one of you should fork the base repo for this assignment. The one that forks the repo should then add the other team member as a collaborator on GitHub for that repo.
 
 Teaming Guidance:
 
-* Do not default to working with your friend, think hard about what you want out of the project and how you'll work to get it and explore whether your best buddy as a partner makes the most sense.
+* Do not default to working with your friend. Think hard about what you want out of the project and how you'll work to get it, then explore whether your best buddy as a partner makes the most sense.
 * Make sure you and your potential partner are on the same page in terms of project topic.
 * You should partner with someone that has roughly the same commitment level to the project. For instance, someone that is excited to clear most of their schedule to complete the most amazing SoftDes project ever should not partner with someone that is just looking to do the minimum.
 * You should be mindful of differences in level of programming experience when selecting your partner. Teams that are very closely matched in terms of programming experience should be no problem. Teams that are not closely matched on this axis can also be quite effective. However, if you and your partner are not closely matched, you will want to make sure that you are both vigilant about avoiding some common pitfalls that occur with this type of team. The two most common pitfalls are: the person with more experience gets frustrated with the other team member and does all the work, and the person with more experience writes all the code while the person with less experiences watches them.
@@ -277,7 +277,7 @@ don't have one already.
 Feel free to try out a partner-picking process that we have used in class before (and are likely to again, if needed). Gather people, pens, and post-it notes. Have everyone sit down and write down (on post-its) their name and ideas for project topics (a classic arcade game, something that uses video input, a computer-controlled bad-guy that evolves and gets harder to beat... etc). Take the post-its to a wall. Have people explain their ideas. Cluster together ideas that sound like they're similar or can be combined. Choose a partner  who described something similar to what you want to do OR someone who excited you by their description.
 
 As part of filling out this spreadsheet, and starting the project, you should
-fork and clone the [base repo](https://github.com//{{site.course.github_owner}}/InteractiveProgramming) for this project.
+fork and clone the [base repo](https://github.com/sd17spring/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
 and then the other member should be added as a collaborator on GitHub for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.
