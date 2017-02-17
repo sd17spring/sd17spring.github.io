@@ -57,7 +57,7 @@ Teaming Logistics:
 
 Teaming Guidance:
 
-* Do not thoughtlessly default to working with your friend.
+* Do not default to working with your friend, think hard about what you want out of the project and how you'll work to get it and explore whether your best buddy as a partner makes the most sense.
 * Make sure you and your potential partner are on the same page in terms of project topic.
 * You should partner with someone that has roughly the same commitment level to the project. For instance, someone that is excited to clear most of their schedule to complete the most amazing SoftDes project ever should not partner with someone that is just looking to do the minimum.
 * You should be mindful of differences in level of programming experience when selecting your partner. Teams that are very closely matched in terms of programming experience should be no problem. Teams that are not closely matched on this axis can also be quite effective. However, if you and your partner are not closely matched, you will want to make sure that you are both vigilant about avoiding some common pitfalls that occur with this type of team. The two most common pitfalls are: the person with more experience gets frustrated with the other team member and does all the work, and the person with more experience writes all the code while the person with less experiences watches them.
@@ -273,6 +273,8 @@ for the project) by 2:00PM on Thursday, February 23rd. Use
 [this](https://docs.google.com/spreadsheets/d/17qS5AXqLnV2aitd0dUHXri5fjtGodrS9vd9A0c_K4x0/edit?usp=sharing) Google spreadsheet to indicate who you are
 working with. There is also a section where you can look for a teammate if you
 don't have one already.
+
+Feel free to try out a partner-picking process that we have used in class before (and are likely to again, if needed). Gather people, pens, and post-it notes. Have everyone sit down and write down (on post-its) their name and ideas for project topics (a classic arcade game, something that uses video input, a computer-controlled bad-guy that evolves and gets harder to beat... etc). Take the post-its to a wall. Have people explain their ideas. Cluster together ideas that sound like they're similar or can be combined. Choose a partner  who described something similar to what you want to do OR someone who excited you by their description.
 
 As part of filling out this spreadsheet, and starting the project, you should
 fork and clone the [base repo](https://github.com//{{site.course.github_owner}}/InteractiveProgramming) for this project.
