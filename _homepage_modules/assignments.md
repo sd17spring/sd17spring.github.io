@@ -3,10 +3,10 @@ title: Due Soon
 position: 1
 ---
 
-Thursday Feb 16
-: [Reading Journal](https://github.com/sd17spring/ReadingJournal) _Think Python_ chapters 13 and 15
-
 Wednesday Feb 22
+: [Reading Journal](https://github.com/sd17spring/ReadingJournal) _Think Python_ chapters 16 and 17
+
+Thursday Feb 23
 : [Mini Project 3: Text Mining]({% link _assignments/mini-project-3-text-mining.md %})
 
 Monday March 13
