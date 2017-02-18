@@ -80,7 +80,7 @@ the previous note) and a duration in beats. For example, the following line
 represents a blues lick that consists of four notes. Each note ascends the
 blues scale one note and lasts for half a beat:
 
-    licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ] ]
+    licks = [ [ [1, 0.5], [1, 0.5], [1, 0.5], [1, 0.5] ] ]
 
 Let's modify our code to repeat this lick four times by changing blues_solo.py
 in the following way:
@@ -88,7 +88,7 @@ in the following way:
 ``` python
 curr_note = 0
 add_note(solo, bass, blues_scale[curr_note], 1.0, beats_per_minute, 1.0)
-licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ] ]
+licks = [ [ [1, 0.5], [1, 0.5], [1, 0.5], [1, 0.5] ] ]
 for i in range(4):
     lick = licks[0]
 for note in lick:

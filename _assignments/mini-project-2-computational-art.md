@@ -40,20 +40,20 @@ looks like this:
 
 ![]({% link images/homeworks/homework-4/simple_surface.png %}){:width="320px" height="249px"}
 
-This is a graphical representation of the function f(x,y) = 2x + y where the
+This is a graphical representation of the function f(x, y) = 2x + y where the
 brightness of each position in the figure above represents the value of the
-function evaluated at a particular (x,y) pair (note the bar on the side that
+function evaluated at a particular (x, y) pair (note the bar on the side that
 translates between brightness and the numerical value of the function).
 
 From a visual point of view, this figure doesn't look particularly rich.
 However, for more complex functions things start to get more interesting. Here
-is a plot of the function f(x,y) = sin(10pi*xy)
+is a plot of the function f(x, y) = sin(10pi*xy)
 
 ![]({% link images/homeworks/homework-4/medium_surface.png %}){:width="320px" height="243px"}
 
 Things get even more interesting when we use the power of computation to
 generate functions by randomly composing elementary functions with each other.
-Here is a plot of the randomly generated function f(x,y) =
+Here is a plot of the randomly generated function f(x, y) =
 cos(pi*((cos(pi*sin(pi*(((x+y)/2.0*cos(pi*y))+cos(pi*cos(pi*y)))/2.0))*((((cos(pi*y)+(x*y))/2.0*(cos(pi*y)*sin(pi*x)))+sin(pi*((x+x)/2.0+cos(pi*y))/2.0))/2.0*sin(pi*sin(pi*sin(pi*(y+y)/2.0)))))+sin(pi*(cos(pi*cos(pi*cos(pi*sin(pi*x))))+sin(pi*sin(pi*((x*x)*sin(pi*y)))))/2.0))/2.0)
 
 ![]({% link images/homeworks/homework-4/complex_singlechannel_surface.png %}){:width="320px" height="244px"}
@@ -62,12 +62,12 @@ Cool! Next, we bring in the idea of color. Instead of generating one random
 function, we generate three (one for each of the color channels red, green,
 and blue). Here are 3 figures representing randomly generated functions for
 each of the color channels. (Note: in a slight change of notation we are now
-using the function avg(x,y) instead of (x+y)/2.0)
+using the function avg(x, y) instead of (x + y) / 2.0)
 
 ![]({% link images/homeworks/homework-4/complex_red_surface.png %}){:width="320px" height="239px"}
 
 ```
-red(x,y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
+red(x, y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
 sin(pi * y)))) * avg(sin(pi * (sin(pi * y) * (y * x))), cos(pi * cos(pi * (y *
 y))))) * sin(pi * (sin(pi * (sin(pi * y) * sin(pi * y))) * cos(pi * ((y * y) *
 sin(pi * y)))))) * sin(pi * avg(cos(pi * avg(((y * x) * (x * x)), sin(pi * (y
@@ -79,7 +79,7 @@ sin(pi * sin(pi * sin(pi * y)))))))))
 ![]({% link images/homeworks/homework-4/complex_green_surface.png %}){:width="320px" height="237px"}
 
 ```
-green(x,y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
+green(x, y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
 * avg(y, x)))), ((cos(pi * cos(pi * y)) * (cos(pi * x) * (x * y))) * sin(pi *
 sin(pi * avg(y, y))))), cos(pi * (avg(sin(pi * sin(pi * x)), sin(pi * sin(pi *
 x))) * sin(pi * sin(pi * (x * y)))))) * avg((avg(cos(pi * sin(pi * cos(pi *
@@ -96,7 +96,7 @@ avg(y, x)) * cos(pi * sin(pi * x)))))))))
 ![]({% link images/homeworks/homework-4/complex_blue_surface.png %}){:width="320px" height="240px"}
 
 ```
-blue(x,y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
+blue(x, y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
 y))), avg(avg((x * x), avg(y, y)), avg(cos(pi * y), cos(pi * x))))),
 avg(avg(avg((sin(pi * y) * (x * y)), sin(pi * (x * x))), avg(((x * x) * sin(pi
 * y)), (avg(x, x) * sin(pi * y)))), avg((cos(pi * sin(pi * y)) * cos(pi *
@@ -241,11 +241,11 @@ on evaluating the red, green, and blue channel functions.
 ```
 
 These lines are necessary because the functions we will be generating (as in
-the examples above) have inputs in the interval [-1,+1] and outputs in the
-interval [-1,+1]. If we were to simply input the raw pixel coordinates, these
-would go from [0,349]. The `remap_interval` function (which you will
-implement) transforms the pixel index (which is in [0,349]) to the interval we
-want ([-1,+1]).
+the examples above) have inputs in the interval [-1, +1] and outputs in the
+interval [-1, +1]. If we were to simply input the raw pixel coordinates, these
+would go from [0, 349]. The `remap_interval` function (which you will
+implement) transforms the pixel index (which is in [0, 349]) to the interval we
+want ([-1, +1]).
 
 ``` python
         pixels[i, j] = (
@@ -256,10 +256,10 @@ want ([-1,+1]).
 ```
 
 This code evaluates each the red, green, and blue channel functions to obtain
-the intensity for each color channel for the pixel (i,j). We need to use the
+the intensity for each color channel for the pixel (i, j). We need to use the
 `color_map` function (which calls your `remap_interval` function) since the
-color channel function outputs are floats in [-1,+1], but PIL expects the
-color intensity values to be integers in the range [0,255].
+color channel function outputs are floats in [-1, +1], but PIL expects the
+color intensity values to be integers in the range [0, 255].
 
 ``` python
 im.save(filename)
@@ -308,42 +308,42 @@ scheme for representing function compositions using a list:
 ["elementary function name here", argument 1 (optional), argument 2 (optional)]
 ```
 
-For instance, to represent the function f(x,y) = x we would use (you have
+For instance, to represent the function f(x, y) = x we would use (you have
 already seen this in the first part of the assignment):
 
 ``` python
 ["x"]
 ```
 
-Since the function f(x,y) = x has no additional arguments, the 2nd and 3rd
+Since the function f(x, y) = x has no additional arguments, the 2nd and 3rd
 elements of the list have been omitted. Note, that the string "x" has no
 special meaning to Python, in the first part of the assignment you had to tell
-Python how to evaluate this function for a particular input pair (x,y).
+Python how to evaluate this function for a particular input pair (x, y).
 
 Alternatively, consider the following list representation of the function
-f(x,y) = sin(pi*x)
+f(x, y) = sin(pi * x)
 
 ``` python
-["sin_pi",["x"]]
+["sin_pi", ["x"]]
 ```
 
-In contrast to the function f(x,y) = x, here we use the second list element to
+In contrast to the function f(x, y) = x, here we use the second list element to
 specify the function that we are going to compose with "sin_pi".
 
-Next, consider the following representation of the function f(x,y) = xy
+Next, consider the following representation of the function f(x, y) = xy
 
 ``` python
-["prod",["x"],["y"]]
+["prod", ["x"], ["y"]]
 ```
 
 In this example we used both the second and third element to specify the two
 arguments to the prod function.
 
 To create more complex functions we use more deeply-nested lists. For
-instance, f(x,y) = sin(pi*x)*cos(pi*x) would be represented as:
+instance, f(x, y) = sin(pi*x)*cos(pi*x) would be represented as:
 
 ``` python
-["prod",["sin_pi",["x"]],["cos_pi",["x"]]]
+["prod", ["sin_pi", ["x"]], ["cos_pi", ["x"]]]
 ```
 
 Implement the function `build_random_function` in the provided Python file
@@ -373,19 +373,19 @@ depths listed in the figure above.
 Your `build_random_function` implementation should create random functions
 from the following required building blocks:
 
-* `prod(a,b) = ab`
-* `avg(a,b) = 0.5*(a+b)`
-* `cos_pi(a) = cos(pi*a)`
-* `sin_pi(a) = sin(pi*a)`
-* `x(a,b) = a`
-* `y(a,b) = b`
+* `prod(a, b) = ab`
+* `avg(a, b) = 0.5*(a + b)`
+* `cos_pi(a) = cos(pi * a)`
+* `sin_pi(a) = sin(pi * a)`
+* `x(a, b) = a`
+* `y(a, b) = b`
 
 The key characteristic of each of these building blocks is that provided each
-of the inputs specified to the function is in the range [-1,1] then the output
-of the function will also be in the range [-1,1]. In addition to the required
+of the inputs specified to the function is in the range [-1, 1] then the output
+of the function will also be in the range [-1, 1]. In addition to the required
 functions above, **add two additional function building blocks**  that have the
-crucial property that if the inputs to the function are between [-1,1] the
-output will also be in the interval [-1,1]. As part of creating
+crucial property that if the inputs to the function are between [-1, 1] the
+output will also be in the interval [-1, 1]. As part of creating
 `build_random_function` you should add an appropriate docstring. You may also
 want to add additional doctests. Your implementation of
 `build_random_function` should make heavy use of the principle of
@@ -411,26 +411,26 @@ functions. For instance, ["cos_pi", ["prod", ["x", "y"] ] ] would be
 represented as the lambda function:
 
 ``` python
-lambda x,y: cos(pi*(lambda x,y: (lambda x,y: x)(x,y)*(lambda x,y: y)(x,y))(x,y)).
+lambda x, y: cos(pi*(lambda x, y: (lambda x, y: x)(x, y)*(lambda x, y: y)(x, y))(x, y)).
 ````
 
 Using lambda functions will allow you to return a variable of type function
 from your `build_random_function`  code. In order to evaluate the function at
-a particular (x,y) pair all you have to do is pass (x,y) into your function
+a particular (x, y) pair all you have to do is pass (x, y) into your function
 variable (this obviates the need for **evaluate_random_function** ). For
 instance,
 
 ``` python
-green = build_random_function(7,9)
-green_channel_pixel_for_x_y = green(x,y)
+green = build_random_function(7, 9)
+green_channel_pixel_for_x_y = green(x, y)
 ```
 
 
 ### Extension 2: Movies!!!
 
-Instead of building random functions of two variables (x,y) build random
-function of three variables (x,y,t) where t represents the frame number in a
-movie rescaled to the interval [-1,+1]. The easiest way to create these movies
+Instead of building random functions of two variables (x, y) build random
+function of three variables (x, y, t) where t represents the frame number in a
+movie rescaled to the interval [-1, +1]. The easiest way to create these movies
 is to output a series of image files (one for each frame of the movie) and
 then use a command line tool like **avconv** to encode them into a movie
 (note: on older version of Ubuntu, such as 12.04, you should use `ffmpeg`
@@ -487,7 +487,7 @@ volume:
 import alsaaudio
 import audioop
 
-inp = alsaaudio.PCM(alsaaudio.PCM_CAPTURE,0)
+inp = alsaaudio.PCM(alsaaudio.PCM_CAPTURE, 0)
 inp.setchannels(1)
 inp.setrate(16000)
 inp.setformat(alsaaudio.PCM_FORMAT_S16_LE)
@@ -496,7 +496,7 @@ inp.setperiodsize(160)
 while True:
     l, data = inp.read()
     if l:
-        print(audioop.rms(data,2))
+        print(audioop.rms(data, 2))
 ```
 
 

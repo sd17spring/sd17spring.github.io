@@ -102,8 +102,8 @@ X_train, X_test, y_train, y_test = train_test_split(data.data, data.target,
 train_size=0.5)
 model = LogisticRegression(C=10**-10)
 model.fit(X_train, y_train)
-print("Train accuracy %f" %model.score(X_train,y_train))
-print("Test accuracy %f"%model.score(X_test,y_test))
+print("Train accuracy %f" %model.score(X_train, y_train))
+print("Test accuracy %f"%model.score(X_test, y_test))
 ```
 
 ## Learning Curves

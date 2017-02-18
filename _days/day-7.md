@@ -264,10 +264,10 @@ _Hint 2_: For the fractal plant you should create the following functions to
 save and then restore then Turtle's state (symbols `[` and `]` respectively):
 
 ``` python
-def save_turtle_state(turtle_states,t):
+def save_turtle_state(turtle_states, t):
   turtle_states.append((t.x, t.y, t.heading))
 
-def restore_turtle_state(turtle_states,t):
+def restore_turtle_state(turtle_states, t):
   s = turtle_states.pop()
   t.x = s[0]
   t.y = s[1]

@@ -245,7 +245,7 @@ In addition to if and else, Python allows for 0 or more elif statements. The Pyt
 Here is an example.  With a partner, create a Python script with this function definition. Try calling the function with a few values. Does it do what you expect?
 
 ```
-def print_num_nonnegative(x,y):
+def print_num_nonnegative(x, y):
     """ prints 0 if both x and y are negative, 1 if one of them is non-negative, and two if they are both non-negative """
     count = 0
     if x >= 0:

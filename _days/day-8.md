@@ -110,11 +110,11 @@ def nchoosek(n, k):`
     """ returns the number of combinations of size k
     that can be made from n items.
 
-    >>> nchoosek(5,3)
+    >>> nchoosek(5, 3)
     10
-    >>> nchoosek(1,1)
+    >>> nchoosek(1, 1)
     1
-    >>> nchoosek(4,2)
+    >>> nchoosek(4, 2)
     6
     """
     if k == 0:

@@ -18,7 +18,7 @@ title: Day 9
 ### Reading Journal Debrief
 
 We'll be going over your compiled answers ([full
-version,]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses.ipynb)
+version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses.ipynb),
 [abridged
 version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses_abridged.ipynb)).
 

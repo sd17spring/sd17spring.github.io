@@ -129,7 +129,7 @@ First, at the top of your file (right after you create face_cascade) create a
 numpy matrix which controls the degree of blurring (the larger the matrix, the
 more blurring):
 
-    kernel = np.ones((21,21),'uint8')
+    kernel = np.ones((21, 21), 'uint8')
 
 Next, in the loop where you draw the rectangles over the faces, use the kernel
 to blur the image
@@ -144,7 +144,7 @@ Make sure you understand what the dilate function is doing by checking out
 [the
 documentation](http://docs.opencv.org/modules/imgproc/doc/filtering.html). You
 can modify the blurring by using a larger kernel (e.g. `kernel =
-np.ones((40,40),'uint8')`). You will probably want to comment out the code
+np.ones((40, 40), 'uint8')`). You will probably want to comment out the code
 that draw the rectangle at this point.
 
 ## Draw a face!

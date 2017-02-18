@@ -270,12 +270,12 @@ You can save this list to disk and then reload it using the following code:
 import pickle
 
 # Save data to a file (will be part of your data fetching script)
-f = open('dickens_texts.pickle','wb')
+f = open('dickens_texts.pickle', 'wb')
 pickle.dump(charles_dickens_texts, f)
 f.close()
 
 # Load data from a file (will be part of your data processing script)
-input_file = open('dickens_texts.pickle','rb')
+input_file = open('dickens_texts.pickle', 'rb')
 reloaded_copy_of_texts = pickle.load(input_file)
 ```
 
@@ -431,11 +431,11 @@ dissimilarities = 1 - S
 # compute the embedding
 coord = MDS(dissimilarity='precomputed').fit_transform(dissimilarities)
 
-plt.scatter(coord[:,0],coord[:,1])
+plt.scatter(coord[:,0], coord[:,1])
 
 # Label the points
 for i in range(coord.shape[0]):
-    plt.annotate(str(i),(coord[i,:]))
+    plt.annotate(str(i), (coord[i,:]))
 
 plt.show()
 ```
