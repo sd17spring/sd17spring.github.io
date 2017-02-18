@@ -350,7 +350,7 @@ please do the following:
 ## Step 5: Play a game?!?
 
 President Obama made
-[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code)
+[headlines](https://obamawhitehouse.archives.gov/blog/2014/12/10/president-obama-first-president-write-line-code)
 for being the first U.S. president to write a line
 of code. The code he wrote was part of the "[Hour of
 Code](http://hourofcode.com/us)" initiative which seeks to get more people to
