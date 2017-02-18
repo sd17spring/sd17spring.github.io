@@ -101,18 +101,21 @@ Hello, world!
 
 ### Method 2: through your IDE
 
-The instructions for doing this will depend on which IDE you are using, but if you are following along with Atom and the Hydrogen plug-in, all you need to do to run your program is press Control+Command+Return).
+The instructions for doing this will depend on which IDE you are using, but if you are following along with Atom and the [Hydrogen plug-in](https://atom.io/packages/hydrogen), all you need to do to run your program is press Control+Command+Return).
 
-You can use the Atom [Command Palette](http://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette) to find this command. Press Cmd+Shift+P to open the command palette, and type "hydrogen" to look for list
-of [Hydrogen](https://atom.io/packages/hydrogen) commands.  "Hydrogen: Run All" is shown with its keyboard shortcut. This means that pressing
-runs that command.
+You can use the Atom [Command Palette](http://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette) to find this command.
+Press Cmd+Shift+P to open the command palette, and type "hydrogen" to see a list of [Hydrogen](https://atom.io/packages/hydrogen) commands.
+"Hydrogen: Run All" is shown with its keyboard shortcut.
+This means that pressing that key runs that command.
 
 ### Method 3: inside the Python interpreter
 
-<strong>This method is deprecated. It works, but it's not particularly useful. It's listed here because it was adapted from a Python 2 technique that
+<strong>This method is deprecated. It works, but it's not particularly useful.
+It's listed here because it was adapted from a Python 2 technique that
 was more useful. it will be removed from future versions of the course.</strong>
 
-You can execute Python scripts from within the Python interpreter (when running in interactive mode).  To do so execute the following command from the Python prompt.
+You can execute Python scripts from within the Python interpreter (when running in interactive mode).
+To do so execute the following command from the Python prompt.
 
 ```
 >>> exec(open('hello.py').read())
@@ -240,7 +243,11 @@ else:
      # do something else
 ```
 
-In addition to if and else, Python allows for 0 or more elif statements. The Python interpreter will first check the if condition, if it is true it will execute that block of code and then jump to the end of the entire block. If it is not true it will keep checking elif statements until one of them matches. If one matches, that one will be executed and then we will jump to the end of the entire block. If none of the elifs are true, then the else branch will be executed if it exists, and if no else branch is present nothing will happen.
+In addition to if and else, Python allows for 0 or more `elif` statements.
+The Python interpreter will first check the `if` condition; if it is true it will execute that block of code and then jump to the end of the entire block.
+If it is not true it will keep checking `elif` statements until one of them matches.
+If one matches, that one will be executed and then we will jump to the end of the entire block.
+If none of the `elif`s are true, then the `else` branch will be executed if it exists, and if no `else` branch is present nothing will happen.
 
 Here is an example.  With a partner, create a Python script with this function definition. Try calling the function with a few values. Does it do what you expect?
 
