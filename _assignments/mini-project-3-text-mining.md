@@ -497,15 +497,15 @@ you succeed?
 
 ## Turning in your assignment
 
-1\. Submit your Project Writeup/Reflection. This can be in the form of either:
+1\. Submit your Project Writeup/Reflection. This can be in the form of:
   * a [Markdown](https://guides.github.com/features/mastering-markdown/) file, committed to your repository, or
   * a PDF document, committed to your repository, or
-  * a [project webpage](https://pages.github.com/)
+  * a [project webpage](https://pages.github.com/).
 
 Make sure to include a link to the Project Writeup/Reflection in the `README.md` file in your repository (otherwise, we won't be able to find it).
 
 2\. Push your code to GitHub
-  * Your code should submitted as a Python file (or files) that can be executed by running *e.g.* `python3 text_minig.py`. You may *work* in a Jupyter notebook,
+  * Your code should submitted as a Python file (or files) that can be executed by running *e.g.* `python3 text_mining.py`. You may *work* in a Jupyter notebook,
   in which case you should include the notebook in your repository, but you must
   *submit* a Python text file.
 

@@ -4,10 +4,10 @@ layout: single
 
 {% if page.parts %}
   {% for part in page.parts %}
-    <div><i><a href="#{{ part.tag }}">{{ part.name }}</a> due {{ part.due_date | date: '%a %b %-d' }}<i></div>
+    <div><small><i><a href="#{{ part.tag }}">{{ part.name }}</a> due {{ part.due_date | date: '%a %b %-d' }}</i></small></div>
   {% endfor %}
 {% elsif page.due_date %}
-  <i>Due {{ page.due_date | date: '%A, %B %d' }}</i>
+  <div><i><small>Due {{ page.due_date | date: '%A, %B %d' }}</small></i></div>
 {% endif %}
 
 {{ content }}

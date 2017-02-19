@@ -1,13 +1,23 @@
 ---
-date: 2017-01-22
+date: 2017-02-19
 description: >
   The big idea of this project will be to move from static programs (ones that
   are run, do some computations, and spit out a result) to interactive programs
   (ones that allow the user to perform actions that change the state of the
   program).
+title: 'Mini Project 4: Interactive Programming'
 start_date: 2017-02-23
 due_date: 2017-03-08
-title: 'Mini Project 4: Interactive Programming'
+parts:
+  - name: Project Proposal
+    due_date: 2017-02-23
+    tag: project-proposal
+  - name: Mid-Project Checkin
+    due_date: 2017-03-02
+    tag: mid-project-checkin
+  - name: Project Writeup and Reflection
+    due_date: 2017-03-08
+    tag: project-writeup-and-reflection
 ---
 
 {% include toc %}
@@ -15,7 +25,7 @@ title: 'Mini Project 4: Interactive Programming'
 ## Introduction
 
 In the first three mini-projects you have written Python programs that do a
-wide variety of things. You have written code to analyze data (mini-project 1
+wide variety of things. You have written code to analyze data (mini-projects 1
 and 3), you have written code to make compelling visuals (mini-project 2), and
 you have written code to automatically download information from the web
 (mini-project 3). In this project we will be combining many of these threads.
@@ -29,7 +39,7 @@ write some very powerful software. Here are some ideas:
 
 2. **Video games:** video games are a clear example of an interactive program. A possible project in this space would be to develop a Python-based adaptation of your favorite game (classic arcade games or smartphone apps make ideal candidates). We encourage you to think broadly about using non-traditional input modalities (beyond keyboard and mouse). For instance, why not control a video game based on images captured by your laptop's webcam?
 
-3. **Interactive art:**  a potential project in this space could be to create visuals or audio that is in some way responsive to the observer. The possibilities in this space are huge. One specific idea would be to create a computerized musical instrument that can be controlled through hand motions (where movements would be detected using computer vision).
+3. **Interactive art:** a potential project in this space could be to create visuals or audio that is in some way responsive to the observer. The possibilities in this space are huge. One specific idea would be to create a computerized musical instrument that can be controlled through hand motions (where movements would be detected using computer vision).
 
 
 ### Deltas from Previous Projects
@@ -75,38 +85,38 @@ will certainly try!).
 
 ### Pygame
 
-For 2-d drawing, collision detection, and simple physics in Python, **pygame**
-is a fantastic choice. Perhaps the biggest strength of **pygame**  is that it
+For 2D drawing, collision detection, and simple physics in Python, **pygame**
+is a fantastic choice. Perhaps the biggest strength of **pygame** is that it
 has many [great tutorials](http://pygame.org/wiki/tutorials) as well as sample
 games to use as starting points (for example [arcade
 games](http://www.pygame.org/tags/arcade), [puzzle
 games](http://pygame.org/tags/puzzle), and [platform
 games](http://pygame.org/tags/platformer)).
 
-Even though it might seem like odd choice, we are recommending **pygame**  as
+Even though it might seem like odd choice, we are recommending **pygame** as
 the default library for those that are doing interactive visualization
 projects. There are fancier libraries out there, however, you can build some
-very nice interactive visualizations on top of the basic 2d drawing and mouse
-and keyboard event handling components in **pygame** . Further, using a fancy
+very nice interactive visualizations on top of the basic 2D drawing and mouse
+and keyboard event handling components in **pygame**. Further, using a fancy
 library reduces the amount of object-oriented code that you have to write, and
 in this assignment we want you to get a lot of practice writing your own
 object-oriented code. Sticking with a simple framework like **pygame** will
 support this learning goal nicely. A final advantage is that we will be doing
-at least one lengthy example in class that uses **pygame. I** f you are using
-**pygame**  for your data visualization project, you will get a lot more out of
+at least one lengthy example in class that uses **pygame**. I f you are using
+**pygame** for your data visualization project, you will get a lot more out of
 this inclass activity.
 
 To install **pygame**:
 
 `$ sudo apt-get install python-pygame`
 
-How to get started with **pygame**  (these do not have to be done in this
+How to get started with **pygame** (these do not have to be done in this
 order):
 
 * [if making a game] Go through the PyMan tutorials ([part 1](http://www.learningpython.com/2006/03/12/creating-a-game-in-python-using-pygame-part-one/), [part 2](http://www.learningpython.com/2006/03/19/creating-a-game-in-python-using-pygame-part-two-creating-a-level/), [part 3](http://www.learningpython.com/2006/04/16/creating-a-game-in-python-using-pygame-part-3-adding-the-bad-guys/)). It is shows how to implement a Pacman clone in pygame (don't worry about the pre-requisites section, you should already have the pre-requisites satisfied). The strength of the tutorial is that there is lots of explanation of each part of the code. Unfortunately, the HTML formatting for parts 2 and 3 seems to be messed up, but hopefully these are still useful (let us know if you find a workaround for this formatting issue).
-* Read through the **pygame**  [documentation](http://www.pygame.org/docs/).
-* Read through the other **pygame**  [tutorials](http://pygame.org/wiki/tutorials) if you find one that seems more aligned with the project you want to create.
-* [if making a game] Make sure you understand the basics of collision detection in **pygame** . Collision detection is a surprisingly tricky thing to write on your own, so it is recommended to utilize **pygame** 's built-in features for this (see [this](http://www.pygame.org/docs/tut/SpriteIntro.html) page). If you need to do collision detection with something besides rectangles, you may have to either adapt pygame's collision detection or write your own collision detection routines.
+* Read through the **pygame** [documentation](http://www.pygame.org/docs/).
+* Read through the other **pygame** [tutorials](http://pygame.org/wiki/tutorials) if you find one that seems more aligned with the project you want to create.
+* [if making a game] Make sure you understand the basics of collision detection in **pygame**. Collision detection is a surprisingly tricky thing to write on your own, so it is recommended to utilize **pygame** 's built-in features for this (see [this](http://www.pygame.org/docs/tut/SpriteIntro.html) page). If you need to do collision detection with something besides rectangles, you may have to either adapt pygame's collision detection or write your own collision detection routines.
 
 ### OpenCV
 
@@ -123,10 +133,10 @@ and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 There are some inherent tradeoffs in using someone else's whiz-bang library
 and coding the functionality yourself. Here are some pros and cons:
 
-* **Pro:**  using a library is faster and can let you do things in a short time that would be infeasible if you coded it yourself.
-* **Pro:**  you can mashup different libraries to do amazing things.
-* **Con:**  if you are shaky on your basic understand of Python you may not learn the basics if you are relying too heavily on others libraries.
-* **Con:**  if you get too far down the path of using a library and it doesn't do something important that you need, you are in a tough spot.
+* **Pro:** using a library is faster and can let you do things in a short time that would be infeasible if you coded it yourself.
+* **Pro:** you can mashup different libraries to do amazing things.
+* **Con:** if you are shaky on your basic understand of Python you may not learn the basics if you are relying too heavily on others libraries.
+* **Con:** if you get too far down the path of using a library and it doesn't do something important that you need, you are in a tough spot.
 
 It's up to you how heavily you want to utilize others libraries. All we ask is
 that you make the decision intentionally and with consideration of these
@@ -139,12 +149,12 @@ tradeoffs.
 The first thing you will need to do is to get some data. Here are some
 sources:
 
-1. **The 538:** Nate Silver's website on data-driven journalism. They have a [github repo](https://github.com/fivethirtyeight/data) with data they use in their articles!
+1. **Fivethirtyeight:** Nate Silver's website on data-driven journalism. They have a [github repo](https://github.com/fivethirtyeight/data) with data they use in their articles!
 2. National Survey of Family Growth: Allen has a lot of examples that uses this database. To get started fork Allen's [ThinkStats2 repository](https://github.com/AllenDowney/ThinkStats2).
 3. [Data.gov](http://data.gov/): a massive repository of data provided by the U.S. government.
 4. A [very comprehensive](https://github.com/caesar0301/awesome-public-datasets) listing of sources for open data.
 5. IBM's [Big Data for Social Good Challenge](http://ibmhadoop.challengepost.com/details/data)
-6. Make your own dataset using Pattern (you should know how to do this from the last project).
+6. Make your own dataset using text mining (you should know how to do this from the last project).
 7. ??? (the possibilities are endless, e-mail us if you find an awesome trove of data that you think the class should know about post it to Piazza).
 
 Once you have the data you'll want to think about how you might using
@@ -167,9 +177,7 @@ _Examining Box Office Hits:_
 ![]({% link images/assignments/interactive-visualization/4.png %}){:width="400px" height="222px"}
 
 _Where did my harddrive space go???_
-
 ![]({% link images/assignments/interactive-visualization/29.png %}){:width="304px" height="400px"}
-
 
 _Examining the Group Debates:_
 ![]({% link images/assignments/interactive-visualization/37.png %}){:width="400px" height="229px"}
@@ -178,7 +186,6 @@ _[Examining the impact of medicaid expansion (or lack thereof) state-by-state](h
 _(source: New York Times Year in Interactive Storytelling 2013)_
 
 _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/)_:
-
 ![]({% link images/assignments/interactive-visualization/4th-down-bot.png %}){:width="400px" height="295px"}
 
 
@@ -225,7 +232,7 @@ A Q*Bert “derivative”; written by someone you know.
 
 There is a big universe out there. The pulsating music visualizer from the
 last assignment was one example. Hooking up simple color tracking using OpenCV
-to sound synthesis is also a nice one** ** (e.g. a musical instrument
+to sound synthesis is also a nice one (*e.g.* a musical instrument
 controlled by movements). Check out the [Wikipedia
 page](http://en.wikipedia.org/wiki/Interactive_art) for more ideas.
 
@@ -248,16 +255,16 @@ To make things concrete, let's think about how we might implement a Pacman
 clone. Here are the classes and the functions that you might use to implement
 your game:
 
-* **Model:**  encodes the overall game state of the Pacman game (including level, position of pellets, position of Pacman and ghosts, etc.)
+* **Model:** encodes the overall game state of the Pacman game (including level, position of pellets, position of Pacman and ghosts, etc.)
   * Provides an interface to the Controller to respond appropriately to user commands
   * Handles collisions between Pacman and ghosts as well as Pacman and small and large pellets
-* **Pacman:**  represents the player's avatar in the game (a part of the model)
+* **Pacman:** represents the player's avatar in the game (a part of the model)
   * Provides an interface to respond to player actions as communicated by the controller (e.g. Pacman's next move)
-* **Ghost:**  represents a ghost in the game (a part of the model)
-* **Small pellet:**  represents a small pellet in the game (a part of the model)
-* **Large pellet:**  represents a large pellet in the game (a part of the model)
-* **Controller:**  handles commands from the user and manipulates the model appropriately
-* **PyGameView:**  draws the game state encoded by the Model to a **pygame**  window
+* **Ghost:** represents a ghost in the game (a part of the model)
+* **Small pellet:** represents a small pellet in the game (a part of the model)
+* **Large pellet:** represents a large pellet in the game (a part of the model)
+* **Controller:** handles commands from the user and manipulates the model appropriately
+* **PyGameView:** draws the game state encoded by the Model to a **pygame** window
 
 There are many ways to implement Model-View-Controller, so this is not the
 only way to operationalize Model-View-Controller in the context of Pacman.
@@ -270,7 +277,7 @@ but we hope it will be helpful at least as a jumping off point.
 
 You must find a teammate and decide on a project topic. You are required to
 have your teammate selected (and hopefully a rough idea of what you will do
-for the project) by 2:00PM on Thursday, February 23rd. Use
+for the project) by 2:00PM on {{ page.start_date | date: '%a %b %-d' }}. Use
 [this](https://docs.google.com/spreadsheets/d/17qS5AXqLnV2aitd0dUHXri5fjtGodrS9vd9A0c_K4x0/edit?usp=sharing) Google spreadsheet to indicate who you are
 working with. There is also a section where you can look for a teammate if you
 don't have one already.
@@ -278,17 +285,19 @@ don't have one already.
 Feel free to try out a partner-picking process that we have used in class before (and are likely to again, if needed). Gather people, pens, and post-it notes. Have everyone sit down and write down (on post-its) their name and ideas for project topics (a classic arcade game, something that uses video input, a computer-controlled bad-guy that evolves and gets harder to beat... etc). Take the post-its to a wall. Have people explain their ideas. Cluster together ideas that sound like they're similar or can be combined. Choose a partner  who described something similar to what you want to do OR someone who excited you by their description.
 
 As part of filling out this spreadsheet, and starting the project, you should
-fork and clone the [base repo](https://github.com/sd17spring/InteractiveProgramming) for this project.
+fork and clone the [base repo](https://github.com/{{ site.course.github_owner }}/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
 and then the other member should be added as a collaborator on GitHub for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.
 
-There are three deliverables for this project.
+There are three deliverables for this project:
 
 ### Project Proposal
 
-You can begin working on a project proposal as soon as you select your partner. Part of the Thursday 2/23 class will be dedicated to approving project proposals. We encourage you to speak with NINJAs before this date during office hours (or an impromptu session arranged via Slack). By classtime on Thursday 2/23, you should be able to provide a link to a proposal document (e.g., a google doc) that
-describes the main idea of your project. The professors will review the proposals approved by NINJAs.
+_Due: {{ page.parts[0].due_date | date: '%a %b %-d' }}_
+
+You can begin working on a project proposal as soon as you select your partner. Part of the {{ page.parts[0].due_date | date: '%A %-m/%-d' }} class will be dedicated to approving project proposals. We encourage you to speak with NINJAs before this date during office hours (or an impromptu session arranged via Slack). By classtime on {{ page.parts[0].due_date | date: '%A %-m/%-d' }}, you should be able to provide a link to a proposal document (*e.g.*, a Google doc) that describes the main idea of your project.
+The professors will review the proposals approved by NINJAs.
 
 Your proposal document should address:
 
@@ -299,13 +308,13 @@ Your proposal document should address:
   * What do you view as the biggest risks to you being successful on this project?
 
 This deliverable will not factor into your project grade. The purpose is
-purely to allow us to help shape your project in useful directions - and potenially adapt classtime to better prepare you for your journeys.**
-**
+purely to allow us to help shape your project in useful directions - and potentially adapt classtime to better prepare you for your journeys.
 
-**Note: you can start your project before professors have seen your proposals**
-
+**Note: you can start your project before professors have seen your proposals.**
 
 ### Mid-Project Checkin
+
+_Due: {{ page.parts[1].due_date | date: '%a %b %-d' }}_
 
 We are requiring a mid-project check-in for this project. You must meet with a
 NINJA by end-of-the-day Thursday March 2nd (we do not have class on that day).
@@ -327,6 +336,8 @@ generic goals for the mid-project check-in:
 
 #### Project Writeup and Reflection
 
+_Due: {{ page.parts[2].due_date | date: '%a %b %-d' }}_
+
 Please prepare a short document (~1 page not including figures) with the
 following sections:
 
@@ -334,14 +345,13 @@ following sections:
 
 Write a short abstract describing your project.
 
-
-**Results**  _[~2-3 paragraphs + figures/examples]_
+**Results** _[~2-3 paragraphs + figures/examples]_
 
 Present what you accomplished. This will be different for each project, but
 screenshots are likely to be helpful.
 
 
-**Implementation**  _[~2-3 paragraphs + UML diagram]_
+**Implementation** _[~2-3 paragraphs + UML diagram]_
 
 Describe your implementation at a system architecture level. Include a UML
 class diagram, and talk about the major components, algorithms, data
@@ -359,26 +369,33 @@ forward? What do you wish you knew before you started that would have helped
 you succeed?
 
 Also discuss your team process in your reflection. How did you plan to divide
-the work (e.g. split by class, always pair program together, etc.) and how did
+the work (*e.g.* split by class, always pair program together, *etc.*) and how did
 it actually happen? Were there any issues that arose while working together,
 and how did you address them? What would you do differently next time?
 
 
 ### Turning in your assignment
 
-* Push your completed code to the "master" Git repository (depending on which team member's repository is being used to work on the project).
-* Submit your Project Writeup/Reflection (1 per team, not 1 per person). This can be in the form of either:
+1\. Push your completed code to the `master` Git repository (depending on which team member's repository is being used to work on the project).
+* Submit your Project Writeup/Reflection (1 per team, not 1 per person). This can be in the form of:
+  * a [Markdown](https://guides.github.com/features/mastering-markdown/) file, committed to your repository, or
   * a PDF document pushed to GitHub, or
-  * a [project webpage](https://pages.github.com/) (if you choose this route, make sure there is a link to your webpage in your **README.md**  file in your GitHub repo)
-* Open a pull request to the base InteractiveProgramming repo.
+  * a [project webpage](https://pages.github.com/) your GitHub repo)
+
+Make sure to include a link to the Project Writeup/Reflection in the `README.md` file in your repository (otherwise, we won't be able to find it).
+
+2\. Push your code to GitHub
+
+Your code should submitted as a Python file (or files) that can be executed by running *e.g.* `python3 qbert.py`
+
+3\. Open a pull request to the base `InteractiveProgramming` repo.
 
 Your code must be adequately documented. This includes:
 
 * Appropriate docstrings
 * Comments inline in your functions
 * README file that describes how to get your code to run
-
-**Automatically generated documentation**
+* Automatically generated documentation
 
 One way to ensure you have adequate docstrings is to generate documentation
 from them. You can do this using
