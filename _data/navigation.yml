@@ -16,6 +16,19 @@ main:
     url: /git-help/
 
 docs:
+  - title: Web Sites
+    children:
+      - title: Piazza
+        url: https://piazza.com/class/iy3bgqkraq97c0
+      - title: Slack
+        url: https://olin.slack.com/messages/softdes17spring/
+      - title: SoftDes GitHub Repo
+        url: https://github.com//sd17spring/
+      - title: Python 3.5 Documentation
+        url: https://docs.python.org/3.5/
+      - title: Think Python
+        url: http://greenteapress.com/wp/think-python-2e/
+
   - title: Assignments
     url: /assignments/
     children:
@@ -36,22 +49,11 @@ docs:
     url: /toolboxes/
     collection: toolboxes
 
-  - title: Web Sites
-    children:
-      - title: Piazza
-        url: https://piazza.com/class/iy3bgqkraq97c0
-      - title: Slack
-        url: https://olin.slack.com/messages/softdes17spring/
-      - title: SoftDes GitHub Repo
-        url: https://github.com//sd17spring/
-      - title: Python 3.5 Documentation
-        url: https://docs.python.org/3.5/
-      - title: Think Python
-        url: http://greenteapress.com/wp/think-python-2e/
-
   - title: Administrivia
     children:
       - title: Calendar
         url: /calendar/
       - title: Course Policies
         url: /policies/
+      - title: Timeline (β)
+        url: /timeline/
