@@ -1,0 +1,38 @@
+---
+layout: null
+permalink: timeline/
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
+  <head>
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  </head>
+  <body>
+
+    <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+    {% include scripts.html %}
+
+    <script type="text/javascript">
+      $.getJSON('/timeline.json').success(function(data) {
+        window.timelineData = data; // for debugging
+        var now = new Date;
+        data.events = _.sortBy(data.events, function(e) {
+          var d = e.start_date;
+          return new Date(d.year, d.month - 1, d.day);
+        });
+        var e = _.minBy(data.events, function(e) {
+          var d = e.due_date || e.start_date;
+          var d = new Date(d.year, d.month - 1, d.day);
+          return d < now ? Infinity : d - now;
+        });
+        options = {start_at_slide: data.events.indexOf(e) + 1};
+        new TL.Timeline('timeline-embed', data, options);
+      })
+      .fail(function(){console.warn('failed to load json')});
+    </script>
+  </body>
+</html>
