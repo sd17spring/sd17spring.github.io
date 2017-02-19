@@ -5,6 +5,7 @@ description: >
   tools for the job. If you follow these instructions (with help from our
   amazing NINJA team), your computer will be primed and ready to do some serious
   computational work.
+start_date: 2017-01-19
 due_date: 2017-01-23
 layout: single
 title: Get Set

@@ -3,6 +3,7 @@ date: 2017-01-22
 description: >
   In this assignment you will be exploring one particular
   means of using computers to generate images.
+start_date: 2017-02-06
 due_date: 2017-02-13
 title: 'Mini Project 2: Computational Art'
 ---

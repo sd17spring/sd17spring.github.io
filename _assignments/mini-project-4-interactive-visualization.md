@@ -5,6 +5,7 @@ description: >
   are run, do some computations, and spit out a result) to interactive programs
   (ones that allow the user to perform actions that change the state of the
   program).
+start_date: 2017-02-23
 due_date: 2017-03-08
 title: 'Mini Project 4: Interactive Programming'
 ---

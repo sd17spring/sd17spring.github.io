@@ -4,7 +4,8 @@ description: >
   From now until the end of the semester you will be working with a team of
   students on a group software project. The project will culminate during the
   Final Event period for this class,  with EXPO style demo / poster session.
-due_date: 2017-04-27
+start_date: 2017-03-09
+due_date: 2017-05-04
 parts:
   - name: Project Proposal
     due_date: 2017-03-20
@@ -22,7 +23,7 @@ parts:
     due_date: 2017-04-24
     tag: technical-reviews
   - name: Final Deliverables
-    due_date: 2017-04-27
+    due_date: 2017-05-04
     tag: project-website
 title: Final Project
 type: index
