@@ -27,7 +27,7 @@ collections:
   days:
     output: true
     permalink: day/:path/
-  homepage_modules:
+  homepage_boxes:
     output: false
   toolboxes:
     output: true

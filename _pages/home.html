@@ -17,7 +17,7 @@ header:
 Home page modules are in _splash_modules/*
 {% endcomment %}
 
-{% assign sorted = (site.homepage_modules | sort: 'position') %}
+{% assign sorted = (site.homepage_boxes | sort: 'position') %}
 {% for module in sorted %}
   {% assign loopindex = forloop.index0 | modulo: 3 %}
   {% if loopindex == 0 %}
