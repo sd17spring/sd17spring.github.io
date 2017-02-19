@@ -1,0 +1,52 @@
+#!/bin/bash -eu
+
+# Recreate the repos from one GitHub organization, in another organization.
+#
+# This is useful for setting up a new course repository based on a previous version of the course.
+#
+# We currently use this instead of forking the source organization in order to simplify the fork network
+# (since we use this to find student assignment forks), and in order to slightly obfuscate previous
+# year's projects.
+#
+# An alternate solution would be to use GitHub classroom and have students fork private repos.
+# This might require *two* repos for each assignment, one that they could browse before they start
+# and another that they get via the assignment URL, and it wouldn't teach GitHub community skills.
+#
+# TODO:
+# [] use GitHub API to read the list of repos
+# [] set the repo description and web site
+
+set -eu
+
+SRC_ORG=sd16spring
+DST_ORG=sd17spring
+TARGET_DIR=convert
+GITHUB_LOGIN=osteele
+
+MINPROJECT_REPOS="ComputationalArt GeneFinder InteractiveProgramming TextMining"
+TOOLBOX_REPOS="ToolBox-AI ToolBox-AlgorithmicMusic ToolBox-ComputerVision ToolBox-EvolutionaryAlgorithms\
+  Toolbox-Flask ToolBox-Geocoding ToolBox-MachineLearning ToolBox-Pickling ToolBox-WordFrequency"
+
+mkdir -p $TARGET_DIR
+
+# for repo_name in $MINPROJECT_REPOS $TOOLBOX_REPOS; do
+#   echo "cloning $SRC_ORG/$repo_name into $TARGET_DIR"
+#   git clone -q https://github.com/$SRC_ORG/$repo_name.git $TARGET_DIR/$repo
+# done
+
+# curl -u "$GITHUB_LOGIN:$GITHUB_API_TOKEN" https://api.github.com/orgs/$DST_ORG/teams
+# exit 0
+team_id=2244818
+
+# for repo_name in $MINPROJECT_REPOS $TOOLBOX_REPOS; do
+#   echo "upload $repo_name to $DST_ORG"
+#   # curl -u "$GITHUB_LOGIN:$GITHUB_API_TOKEN" https://api.github.com/orgs/$DST_ORG/repos -d '{"name":"'$repo_name'","team_id":'$team_id',"has_wiki":false}'
+#   cd $TARGET_DIR/$repo_name
+#   # rm -rf .git
+#   # git init
+#   # git add .
+#   # git commit -m "First commit"
+#   git remote add origin https://github.com/$DST_ORG/$repo_name.git
+#   git push -u origin master
+#   cd ../..
+# done
