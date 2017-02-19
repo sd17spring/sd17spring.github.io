@@ -70,6 +70,8 @@ course:
   # visualization_teaming_spreadsheet: https://docs.google.com/spreadsheets/d/1gPIOu22NUhF_qKQERgW3SVuFnC-rYKbUBxw43U7N7QQ/edit?usp=sharing
   # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_GRWZN4/edit?usp=sharing
   mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
+  dates:
+    final_expo: 2017-05-04
 
 include: ["_pages"]
 exclude: ["README.md", "docker_compose.yml", "notebooks"]

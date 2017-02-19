@@ -64,7 +64,10 @@ permalink: timeline.json
     "text": {"text": "Three Toolboxes"}, "group":"Toolboxes" },
   { "start_date": {"month":3, "day":23, "year":2017},
     "text": {"text": "Five Toolboxes"}, "group":"Toolboxes" },
-  { "start_date": {"month":5, "day":4, "year":2017},
-    "text": {"text": "Expo"}, "group":"Projects" }
+  { "start_date": {
+    "month": {{ site.course.dates.final_expo | date: "%-m" }},
+    "day": {{ site.course.dates.final_expo | date: "%-d" }},
+    "year": {{ site.course.dates.final_expo | date: "%Y" }}
+    }, "text": {"text": "Expo"}, "group":"Projects" }
   ]
 }

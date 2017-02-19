@@ -229,7 +229,7 @@ about this, just ask.
 
 ### Final Demo / Presentation Session
 
-_Date: TBD_
+_Date: {% if site.course.dates.final_expo %}{{ site.course.dates.final_expo | date: '%a %b %-d' }}{% else %}TBD{% endif %}_
 
 During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is
