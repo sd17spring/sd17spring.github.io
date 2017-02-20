@@ -220,7 +220,7 @@ above, but this will allow us to get started.
 
 ``` python
 im = Image.new("RGB", (x_size, y_size))
-`pixels = im.load()
+pixels = im.load()
 ```
 
 In this code, we are creating a new image with the given size. The input "RGB"
