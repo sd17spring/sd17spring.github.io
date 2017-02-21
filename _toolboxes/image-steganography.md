@@ -54,7 +54,7 @@ You can also test this out in your Python interpreter. Binary numbers are automa
 
 From our quick tests above, you can see that the leftmost bit place matters a lot more than rightmost bit because the rightmost bit only modifies the value of the number by 1. We saw that:
 
-`10001011 = 139` while `00001011 = 11`
+`10001011 = 139` while `00001011 = 11`  
 `10001011 = 139` while `10001010 = 138`  
 
 Because of this, we describe the leftmost bit as the "most significant bit" (MSB) while the rightmost bit is the "least significant bit" (LSB).  
