@@ -1,34 +1,21 @@
 ---
-activity_date: 2017-02-13
-date: 2017-02-13
-description: Dictionaries, tuples, saving data sets with pickle
-published: false
+activity_date: 2017-02-16
+date: 2017-02-16
+description: Keeping secrets out of the public eye, Saving data sets with pickle
+published: true
 title: Day 9
 ---
 
 ## Today
 
+* Securing secrets when working on code that goes to github.com
 * Walkthrough of pickling a dataset
 * Work on [pickling](/project-toolbox/pickling) toolbox
 
-## For Next Time
+## Choose-your-own-adventure topics
 
-* Reading journal, Think Python 13 (optional) and 15
-
-### Reading Journal Debrief
-
-We'll be going over your compiled answers ([full
-version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses.ipynb),
-[abridged
-version]({{ site.data.course.urls.reading_journal_response_prefix }}day7_reading_journal_responses_abridged.ipynb)).
-
-### Walkthrough of Creating a Pickled Dataset
-
-Oliver will lead this activity in class using an ipython notebook.
+* Various topics are written on the whiteboards, stand up and move to a board with a topic you'd like to go over
 
 ## Mini-Project 3 Launch
 
-We'll do a quick slide deck on cool applications of text mining. Then, we'll
-have you get started on the project by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-
-project, and it counts towards the 5 that you have to do by the end of Spring
-break (and the 3 you have to do before Spring break starts).
+You should consider starting MP3 by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-project, and it counts towards the 5 that you have to do by March 23rd (and the 3 you have to do before Spring break starts).
