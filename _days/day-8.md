@@ -150,9 +150,9 @@ def recursive_function(input1, input2):
     return recursive step on a smaller version of input1, input2
 ```
 
-Next, as a class we'll modify our function `nchoosek` to use memoization.
+Next, try to modify our function `nchoosek` to use memoization.
 
 {{ comment }}
 The call graphs of the memoized nchoosek and Levenshtein functions are
-[here](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
+[here](https://github.com//sd16spring/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
 {{ endcomment }}
