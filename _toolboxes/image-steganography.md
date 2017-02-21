@@ -8,7 +8,7 @@ title: Image Steganography
 
 
 # Image Steganography
-In this toolbox exercise you will delve a bit deeper into the specifics of how images are created in addition to learning about bitwise operations. This exercise was modified from [Interactive Python](http://interactivepython.org/runestone/static/everyday/2013/03/1_steganography.html), though this version encodes an image into another image instead of ASCII text.
+In this toolbox exercise you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math. This exercise was modified from [Interactive Python](http://interactivepython.org/runestone/static/everyday/2013/03/1_steganography.html), though this version encodes an image into another image instead of ASCII text.
 
 To complete this toolbox, you will need to write two functions. The first is a decoding function that can extract secret information from an image file, while the second is a function that can encode secret messages into images.
 
@@ -70,9 +70,9 @@ The concept of MSB and LSB occurs in other contexts as well. For example, [parit
 
 ## Decoding the sample image
 
-Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it?  
+Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it? This image is also included in the toolbox under images/encoded_sample.png.
 
-![](../images/toolboxes/image-steganography/encoded_sample.png)
+![]({% link images/toolboxes/image-steganography/encoded_sample.png %}){:width="400px" height="351px"}
 
 Provided in the starter code is a function called `decode_image()`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the decode_image pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
 
@@ -96,8 +96,14 @@ def decode_image(file_location):
 
 ## Encoding a secret message
 
-Now that we can decode secret messages, its only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
+Now that we can decode secret messages, it's only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
 
 ## Completing the Toolbox Exercise
 
-To turn in your assignment, push your code, decoded image the cute puppy is hiding, and a sample of an encoded secret message to GitHub and submit a pull request.
+You will need three things to complete this assignment:
+
+1. Completed steganography.py code
+2. Decoded image obtained from encoded_sample.png
+3. A sample image with some encoded message in it from your encode_image() function
+
+Commit all three things to your GitHub repo and submit a pull request to turn in this toolbox.
