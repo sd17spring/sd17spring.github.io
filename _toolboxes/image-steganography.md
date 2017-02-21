@@ -12,8 +12,8 @@ In this toolbox exercise you will delve a bit deeper into the specifics of how i
 
 To complete this toolbox, you will need to write two functions. The first is a decoding function that can extract secret information from an image file, while the second is a function that can encode secret messages into images.
 
-Grab the starter code for this toolbox exercise via the normal fork-and-clone method from <https://github.com//{{site.course.github_owner}}/ToolBox-ImageSteganography>.The starter code
-will be in `steganography.py`.
+Grab the starter code for this toolbox exercise via the normal fork-and-clone method from <https://github.com//{{site.course.github_owner}}/ToolBox-ImageSteganography>. The starter code
+is in `steganography.py`.
 
 ## Get Set
 This toolbox uses the [Python Pillow library](https://pillow.readthedocs.io/en/4.0.x/reference/Image.html). You should already have this installed on your system from the Computational Art mini-project, but go ahead and install it using pip3 if it's missing.
@@ -39,11 +39,24 @@ So if we wanted to convert the number `10001011` from binary into decimal, it wo
 
 `2^8 + 2^4 + 2^2 + 2^1 = 139`
 
-From this, you can quickly see that the leftmost bit place matters a lot more than rightmost bit because that rightmost bit only modifies the value of the number by 1. To test:  
+You can also test this out in your Python interpreter. Binary numbers are automatically converted to integers so you don't actually need to have a print statement. (It's just there for clarity.)
+
+```
+>>> print(0b10001011)
+139
+>>> type(0b10001011)
+<class 'int'>
+>>> 0b00001011
+11
+>>> 0b10001010
+138
+```
+
+From our quick tests above, you can see that the leftmost bit place matters a lot more than rightmost bit because the rightmost bit only modifies the value of the number by 1. We saw that:
 `10001011 = 139` while `00001011 = 11`  
 `10001011 = 139` while `10001010 = 138`  
 
-Because of this, we describe the leftmost bit as the "most significant bit"(MSB) while the rightmost bit is called the "least significant bit"(LSB).  
+Because of this, we describe the leftmost bit as the "most significant bit" (MSB) while the rightmost bit is the "least significant bit" (LSB).  
 
 We can observe that its entirely possible to hide a black and white image inside an RGB image by changing the LSB of a pixel in a single color channel to correspond to the value of the image we want to hide.  
 
