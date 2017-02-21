@@ -49,6 +49,9 @@ We can observe that its entirely possible to hide a black and white image inside
 
 Additionally, since changing the LSB doesn't drastically change the overall value of the of 8 bit number, we can hide our data without modifying a source image in any detectable sort of way. You can test this out with any [RGB color wheel](http://www.colorspire.com/rgb-color-wheel/) to get a sense of how little difference there is between a color like (150, 50, 50) and (151, 50, 50)
 
+**Aside**
+The concept of MSB and LSB occurs in other contexts as well. For example, [parity bits](https://en.wikipedia.org/wiki/Parity_bit) are used as a basic form of error checking. Additionally, because the LSBs will change rapidly even if the value of the bit changes a little, they are very useful for use in [hash functions](https://en.wikipedia.org/wiki/Hash_function) and [checksums](https://en.wikipedia.org/wiki/Checksum) for validation purposes.
+
 ## Decoding the sample image
 
 Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it?  
@@ -57,7 +60,7 @@ Provided in this toolbox is a picture of a cute dog. However, this dog is hiding
 
 Provided in the starter code is a function called `decode_image()`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the decode_image pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
 
-You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer t*o a *binary string*.
+You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the red_channel from the original RGB image. You can do this using the .split() function that PIL provides.
 
 ```python
 def decode_image(file_location):
@@ -70,9 +73,7 @@ def decode_image(file_location):
     decoded_image = Image.new("RGB", encoded_image.size)
     pixels = decoded_image.load()
 
-    for i in range(x_size):
-        for j in range(y_size):
-            pass #TODO: Fill in decoding functionality
+    #TODO: Fill in decoding functionality
 
     decoded_image.save("images/decoded_image.png")
 ```
@@ -83,4 +84,4 @@ Now that we can decode secret messages, its only natural that we want to encode 
 
 ## Completing the Toolbox Exercise
 
-To turn in your assignment, push your code, decoded_image, and a sample of an encoded secrete message to GitHub and submit a pull request.
+To turn in your assignment, push your code, decoded image the cute puppy is hiding, and a sample of an encoded secret message to GitHub and submit a pull request.
