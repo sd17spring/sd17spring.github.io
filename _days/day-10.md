@@ -16,8 +16,8 @@ title: Day 10
 * Reading journal
 * Mini Project 3 due Thursday
 * Optional: Submit 1-2 slides with results from your MP3 (described below)
-* [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before the end of Thursday's class)
-* [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}#project-proposal)
+* [Choose MP4 topic and partner](https://sd17spring.github.io//assignments/mini-project-4-interactive-visualization/#getting-started) (before the end of Thursday's class)
+* [MP4 project proposal](https://sd17spring.github.io//assignments/mini-project-4-interactive-visualization/#project-proposal)
 
 
 ## In-Class Exercise: Geometry Classes
