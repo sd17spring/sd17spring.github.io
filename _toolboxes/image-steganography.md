@@ -6,8 +6,6 @@ title: Image Steganography
 
 {% include toc %}
 
-
-# Image Steganography
 In this toolbox exercise you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math. This exercise was modified from [Interactive Python](http://interactivepython.org/runestone/static/everyday/2013/03/1_steganography.html), though this version encodes an image into another image instead of ASCII text.
 
 To complete this toolbox, you will need to write two functions. The first is a decoding function that can extract secret information from an image file, while the second is a function that can encode secret messages into images.
