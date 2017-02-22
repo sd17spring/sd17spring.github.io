@@ -2,7 +2,7 @@
 activity_date: 2017-02-21
 date: 2017-02-21
 description: Text mining mini-project work and making classes
-published: false
+published: true
 title: Day 10
 ---
 
