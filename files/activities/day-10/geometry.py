@@ -12,7 +12,7 @@ class Line(object):
 
         Examples:
         >>> line = Line(10, 20, 100, 200)
-        >>> print line
+        >>> print(line)
         Line(10, 20, 100, 200)
         """
         pass
@@ -117,7 +117,7 @@ class Rect(object):
     def __str__(self):
         """Examples:
         >>> rect = Rect(10, 20, 100, 200)
-        >>> print rect
+        >>> print(rect)
         Rect(10, 20, 100, 200)
         """
         pass
