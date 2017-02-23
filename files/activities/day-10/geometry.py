@@ -4,11 +4,22 @@ SoftDes Spring 2017 day 10 in-class exercise: Geometry classes
 
 
 class Line(object):
+    """A instance of this class represents a geometric line segment: a line between two points."""
+
     def __init__(self, x0, y0, x1, y1):
+        """Initialize the instance.
+
+        Examples:
+        >>> line = Line(10, 20, 100, 200)
+        >>> line.x0
+        10
+        >>> line.y0
+        20
+        """
         pass
 
     def __repr__(self):
-        """Python's `print` statement calls this method. It should return a string.
+        """Return a string representation. Python's `print` statement calls this method.
 
         Examples:
         >>> line = Line(10, 20, 100, 200)
@@ -34,7 +45,7 @@ class Line(object):
         pass
 
     def left(self):
-        """The smallest x value.
+        """Return the smallest x value.
 
         Whew.
 
@@ -47,7 +58,9 @@ class Line(object):
         pass
 
     def bottom(self):
-        """Examples:
+        """Return the y coordinate of the bottom of the shape.
+
+        Examples:
         >>> Line(10, 20, 100, 200).bottom()
         200
         >>> Line(100, 200, 10, 20).bottom()
@@ -56,7 +69,9 @@ class Line(object):
         pass
 
     def right(self):
-        """Examples:
+        """Return the x coordinate of the rightmost point.
+
+        Examples:
         >>> Line(10, 20, 100, 200).right()
         100
         >>> Line(100, 200, 10, 20).right()
@@ -65,14 +80,18 @@ class Line(object):
         pass
 
     def length(self):
-        """Examples:
+        """Return the length of the line.
+
+        Examples:
         >>> Line(10, 20, 10 + 30, 20 + 40).length()
         50.0
         """
         pass
 
     def is_horizontal(self):
-        """Examples:
+        """Return true iff the line is horizontal.
+
+        Examples:
         >>> Line(10, 20, 100, 20).is_horizontal()
         True
         >>> Line(10, 20, 10, 200).is_horizontal()
@@ -81,7 +100,9 @@ class Line(object):
         pass
 
     def is_vertical(self):
-        """Examples:
+        """Return true iff the line is vertical.
+
+        Examples:
         >>> Line(10, 20, 10, 200).is_vertical()
         True
         >>> Line(10, 20, 100, 20).is_vertical()
@@ -90,7 +111,7 @@ class Line(object):
         pass
 
     def intersection(self, other):
-        """Going Beyond: Returns the intersection of two lines.
+        """Going Beyond: Return the intersection of two lines.
 
         For this assignment, this only need work if `self` and `other` are
         both horizontal. This is already surprisingly difficult.
@@ -111,11 +132,16 @@ class Line(object):
 
 
 class Rect(object):
+    """An instance of this class represents a geometric rectangle."""
+
     def __init__(self, x0, y0, x1, y1):
+        """Initialize the instance."""
         pass
 
     def __str__(self):
-        """Examples:
+        """Return a human-readable string that describes the instance.
+
+        Examples:
         >>> rect = Rect(10, 20, 100, 200)
         >>> print(rect)
         Rect(10, 20, 100, 200)
@@ -123,7 +149,9 @@ class Rect(object):
         pass
 
     def width(self):
-        """Examples:
+        """Return the shape's width.
+
+        Examples:
         >>> Rect(10, 20, 100, 200).width()
         90
         >>> Rect(100, 200, 10, 20).width()
@@ -132,7 +160,9 @@ class Rect(object):
         pass
 
     def height(self):
-        """Examples:
+        """Return the shape's height.
+
+        Examples:
         >>> Rect(10, 20, 100, 200).height()
         180
         >>> Rect(100, 200, 10, 20).height()
@@ -141,20 +171,27 @@ class Rect(object):
         pass
 
     def area(self):
-        """Examples:
+        """Return the shape's area.
+
+        Examples:
         >>> Rect(10, 20, 100, 200).area()
         16200
         """
         pass
 
     def bbox(self):
-        """Return this shape's bounding box. This is the smallest practically-computable rectangle that contains all
+        """Return this shape's bounding box.
+
+        The bounding box is the smallest practically-computable rectangle that contains all
         the points in this shape's interior. For a rectangle, its bounding box is itself. The bounding box is a
-        fundamental graphics concept. The Going Beyond exercise illustrates one way this method is helpful."""
+        fundamental graphics concept. The Going Beyond exercise illustrates one way this method is helpful.
+        """
         return self
 
     def contains_pt(self, x0, y0):
-        """Examples:
+        """Return true iff this rectangle contains the point (x0, y0).
+
+        Examples:
         >>> Rect(10, 20, 100, 200).contains_pt(5, 5)
         False
         >>> Rect(10, 20, 100, 200).contains_pt(50, 50)
