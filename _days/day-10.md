@@ -113,7 +113,7 @@ paper, instead of covering coordinates to numbers.
 ## Submitting Text mining-project slides
 
 If you'd like to share what you discovered/created as part of your text mining
-project, please add ~1-2 slides to the appropriate class presentation
+project, please add ~1-2 slides to the class presentation
 [[SoftDes Spring 2017 spring 2017 MP3 examples]](https://docs.google.com/presentation/d/1fybuwS68fdgCHrhOMcpbDzZOfDhzUJsEiOQ_24pUQHI/edit?usp=sharing)
 We'll spend time in Thursday's class presenting your
 results.
