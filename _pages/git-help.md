@@ -26,6 +26,14 @@ title: Git Help
 * [Learn Git Branching](http://learngitbranching.js.org)
 
 
+# `.gitignore`: Ignoring Files
+
+* [GitHub documentation](https://help.github.com/articles/ignoring-files/)
+* [Tutorial from Atlassian](https://www.atlassian.com/git/tutorials/gitignore)
+* [Piazza post](https://piazza.com/class/iy3bgqkraq97c0?cid=50)
+* [`.gitignore` templates](https://www.gitignore.io)
+
+
 ## Git Tutorials From Past Semesters
 
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
