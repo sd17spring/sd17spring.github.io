@@ -1,4 +1,9 @@
-# Pygame resources with less <span style="color:green">green</span>.
+---
+date: 2017-02-22
+description: ''
+permalink: resources/pygame/
+title: PyGame Resources with less <span style="color:green">green</span>
+---
 
 ## Foreword
 

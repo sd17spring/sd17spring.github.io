@@ -65,7 +65,7 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 #### Graphics and Interactivity
 
 * [Pygame](http://www.pygame.org/hifi.html) realtime image display
-    * [Pygame cheatsheet]({% link _pages/pygame_resources.md %}), written by sofdes ninjas
+    * [Pygame cheatsheet]({% link _pages/pygame-resources.md %}), written by sofdes ninjas
 * [Matplotlib](http://matplotlib.org) graphing and plotting ([Jupiter tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)). Also see [Bokeh](http://bokeh.pydata.org/en/latest/) and [Seaboard](http://stanford.edu/~mwaskom/software/seaborn/).
 * [Seaborn](http://seaborn.pydata.org) improves the appearance of Matplotlib graphs and adds additional features
 * [Kivy](https://kivy.org/) for user interfaces
