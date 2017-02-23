@@ -11,7 +11,7 @@ title: Day 11
 * [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}#project-proposal)
 * Text mining project presentations
 
-## For Next Time
+## For next Thursday
 
 * Reading journal, Think Python 18
 

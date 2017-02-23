@@ -12,8 +12,11 @@ project, please add ~1-2 slides to the class presentation [[SoftDes Spring 2017 
 In Class:
 * [MP 4 Interactive Programming: Project Proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}#project-proposal)
 
-Monday
-* Reading Journal
+Thursday March 2
+* MP4 mid-point check-ins done
+
+Monday March 6
+* Reading Journal: TP 18
 
 Monday March 13
 * First three [toolboxes]({% link _pages/toolboxes.md %}). Five are due in all.
