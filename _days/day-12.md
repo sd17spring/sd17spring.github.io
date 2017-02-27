@@ -76,10 +76,15 @@ Files:
 
 ## Bouncy Ball
 
+I will start with a file [`bounce.py`](/files/activities/mvc/bounce.py), and refactor it to use MVC.
 
-Files:
-* [bounce.py](/files/activities/mvc/bounce.py)
+It will end going throught something like the following progression:
+
 * [bounce_mv.py](/files/activities/mvc/bounce_mv.py)
 * [bounce_mvc.py](/files/activities/mvc/bounce_mvc.py)
-* [bounce_mvc2.py](/files/activities/mvc/bounce_mvc2.py)
-* [spin.py](/files/activities/mvc/spin.py)
+* [bounce_mvc_2.py](/files/activities/mvc/bounce_mvc_2.py)
+
+**Optional exercise**
+
+Refactor [spin.py](/files/activities/mvc/spin.py) to use MVC.
+Optional optional: add some flair to it.
