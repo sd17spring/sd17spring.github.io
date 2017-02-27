@@ -1,21 +1,9 @@
 ---
-activity_date: 2017-02-23
-date: 2017-02-23
+activity_date: 2017-02-27
+date: 2017-02-27
 description: Model-View-Controller
-published: false
 title: Day 12
 ---
-
-## Today
-
-* Model-view-controller
-* In-class game implementation
-* Review project proposals
-
-## For Next Time
-
-* Reading journal day 12 (ThinkPython Chapter 18)
-* Mid-project checkin with a NINJA due this Thursday (remember there is no class that day)
 
 ### Model-View-Controller
 
@@ -63,8 +51,14 @@ modular code. This allows various components to be swapped out with minimal
 changes to the overall program. However, in order to see the full power of
 MVC, it helps to go through one cycle of using it to solve a problem.
 
+## Links
 
-### Brick Breaker
+* [Wikipedia: Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller)
+* [Coding Horror: Understanding Model-View-Controller](https://blog.codinghorror.com/understanding-model-view-controller/)
+* Advanced: MVC is a design pattern – a pattern that relates multiple classes.
+    * Design patterns: [Wikipedia](http://www.oodesign.com/); [online catalog](http://www.oodesign.com/); [book](https://en.wikipedia.org/wiki/Design_Patterns); [inspiration](https://en.wikipedia.org/wiki/Pattern_(architecture))
+
+## Brick Breaker
 
 Let's make a game!
 
