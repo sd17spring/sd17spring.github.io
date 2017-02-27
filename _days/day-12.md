@@ -60,12 +60,26 @@ MVC, it helps to go through one cycle of using it to solve a problem.
 
 ## Brick Breaker
 
-Let's make a game!
+We have spent some time getting you familiar with objects in Python. We now need to explore why they are powerful. We will build up an example project together that is in the video game space – so that you can be in a position to transfer your learning to your homework assignment.
 
-Let's start out by listing out the basic classes of our game. The easiest
-place to start is with the model and the view. We'll start there and do the
-controller last.
+Let's see how far we can get into making a game similar to a classic – **Breakout** for the Atari 2600.
 
-It will help to have a [pygame cheat
-sheet](http://inventwithpython.com/blogstatic/pygamecheatsheet.png?27f655)
-handy so that you can better follow along with the tutorial.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JRAPnuwnpRs" frameborder="0" allowfullscreen></iframe>
+
+We will utilize the [Model-View-Controller](http://en.wikipedia.org/wiki/Model–view–controller) design method, to give everyone a concrete example of the kind of architecture we expect you to produce in your homework.
+
+The code will rely upon pygame so make sure that it is installed – see the instructions for [Mini-Project 4](/projects/mini-project-4-interactive-visualization/#pygame) to get pygame set up if you have not done so.
+
+Files:
+* [brick_breaker_customize_in_class.py](/files/activities/mvc/brick_breaker_customize_in_class.py)
+* [brick_breaker_starter.py](/files/activities/mvc/brick_breaker_starter.py)
+
+## Bouncy Ball
+
+
+Files:
+* [bounce.py](/files/activities/mvc/bounce.py)
+* [bounce_mv.py](/files/activities/mvc/bounce_mv.py)
+* [bounce_mvc.py](/files/activities/mvc/bounce_mvc.py)
+* [bounce_mvc2.py](/files/activities/mvc/bounce_mvc2.py)
+* [spin.py](/files/activities/mvc/spin.py)
