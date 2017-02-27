@@ -70,9 +70,7 @@ We will utilize the [Model-View-Controller](http://en.wikipedia.org/wiki/Modelâ€
 
 The code will rely upon pygame so make sure that it is installed â€“ see the instructions for [Mini-Project 4](/projects/mini-project-4-interactive-visualization/#pygame) to get pygame set up if you have not done so.
 
-Files:
-* [brick_breaker_customize_in_class.py](/files/activities/mvc/brick_breaker_customize_in_class.py)
-* [brick_breaker_starter.py](/files/activities/mvc/brick_breaker_starter.py)
+[brickbreaker-sp17.py](/files/activities/mvc/brickbreaker-sp17.py)
 
 ## Bouncy Ball
 
