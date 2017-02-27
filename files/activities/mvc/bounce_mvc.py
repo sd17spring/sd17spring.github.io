@@ -80,7 +80,7 @@ def main():
     controller = BounceController([ball])
 
     running = True
-    while running == True:
+    while running:
         for event in pygame.event.get():
             controller.handle_event(event)
             if event.type == pygame.QUIT:

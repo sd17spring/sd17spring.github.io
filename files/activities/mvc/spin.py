@@ -7,10 +7,12 @@ License: MIT LICENSE
 """
 
 import math
+
 import pygame
 
 BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)
+
 
 class Spinner(object):
     def __init__(self):
@@ -37,7 +39,7 @@ screen = pygame.display.set_mode((640, 480))
 spinner = Spinner()
 
 running = True
-while running == True:
+while running:
     for event in pygame.event.get():
         if event.type == pygame.MOUSEBUTTONDOWN:
             if spinner.contains_pt(pygame.mouse.get_pos()):
