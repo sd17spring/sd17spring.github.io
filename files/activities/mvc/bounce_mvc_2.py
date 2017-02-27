@@ -11,6 +11,7 @@ import pygame
 BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)
 
+
 class Ball(object):
     def __init__(self):
         self.radius = 20
@@ -82,7 +83,7 @@ def main():
     controller = BounceController([ball])
 
     running = True
-    while running == True:
+    while running:
         for event in pygame.event.get():
             controller.handle_event(event)
             if event.type == pygame.QUIT:

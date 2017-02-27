@@ -1,20 +1,20 @@
-# -*- coding: utf-8 -*-
 """
 Created on Thu Feb 27 19:34:24 2014
 
 @author: pruvolo
 """
 
+import math
+import random
+import time
+
 import pygame
 from pygame.locals import *
-import random
-import math
-import time
 
 if __name__ == '__main__':
     pygame.init()
 
-    size = (640,480)
+    size = (640, 480)
     screen = pygame.display.set_mode(size)
 
     running = True

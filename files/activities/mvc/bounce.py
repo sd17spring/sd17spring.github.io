@@ -49,11 +49,11 @@ def main():
     ball = Ball()
 
     running = True
-    while running == True:
+    while running:
         for event in pygame.event.get():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if ball.contains_pt(pygame.mouse.get_pos()):
-                    print 'hit'
+                    print('hit')
                     ball.reset()
             if event.type == pygame.QUIT:
                 running = False

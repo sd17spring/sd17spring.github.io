@@ -63,7 +63,7 @@ def main():
     ball_energy_view = BallEnergyView(ball)
 
     running = True
-    while running == True:
+    while running:
         for event in pygame.event.get():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if ball.contains_pt(pygame.mouse.get_pos()):
