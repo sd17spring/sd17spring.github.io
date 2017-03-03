@@ -91,6 +91,7 @@ def decode_image(file_location):
 
     decoded_image.save("images/decoded_image.png")
 ```
+*note that files in this example are .png files. We recommend that you avoid working with .jpg files so that file compression does not make your task more difficult. 
 
 ## Encoding a secret message
 
