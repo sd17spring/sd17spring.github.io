@@ -119,7 +119,7 @@ Note, that the preceding command installs these key pieces of software:
 * **Git** is the version control system we will use this semester.
 * **python3-pip** is a Python package installer.
 * **python3-tk** is a GUI toolkit for Python.
-* **python-pip** and **python-pip** are the package installers and GUI for Python 2.
+* **python-pip** and **python-tk** are the package installers and GUI for Python 2.
 We won't be coding in Python 2 in this course, but we may use it to run student projects
 from previous years.
 
