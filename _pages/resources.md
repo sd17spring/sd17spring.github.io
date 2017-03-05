@@ -1,5 +1,5 @@
 ---
-date: 2017-02-14 15:16:02 -0500
+date: 2017-02-22 10:10:00 -0500
 description: ''
 permalink: resources/
 title: Resources
@@ -25,15 +25,7 @@ to collect those resources that have already been mentioned into one place.
 
 ## Git
 
-* [Git Help (this site)]({% link _pages/git-help.md %}) – contains links to additional resources
-* [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
-{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
-* Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
-* Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
-{% endif %}
-* [Spring 2014 NINJA tutorial: GitHub Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
-* [Spring 2014 NINJA tutorial: Introduction to Version Control](https://docs.google.com/presentation/d/15UsxsUBIDA78iplWfKsX0yZAoYIf5ofpEr7PRUE2Y28/edit#slide=id.p)
-* [Spring 2014 NINJA tutorial: Pushing to your GitHub repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
+See [Git Help]({% link _pages/git-help.md %}) on this site.
 
 ## Python
 
@@ -73,6 +65,7 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 #### Graphics and Interactivity
 
 * [Pygame](http://www.pygame.org/hifi.html) realtime image display
+    * [Pygame cheatsheet]({% link _pages/pygame-resources.md %}), written by sofdes ninjas
 * [Matplotlib](http://matplotlib.org) graphing and plotting ([Jupiter tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)). Also see [Bokeh](http://bokeh.pydata.org/en/latest/) and [Seaboard](http://stanford.edu/~mwaskom/software/seaborn/).
 * [Seaborn](http://seaborn.pydata.org) improves the appearance of Matplotlib graphs and adds additional features
 * [Kivy](https://kivy.org/) for user interfaces
@@ -93,10 +86,10 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 
 ## Text Editors
 
-* [Atom](https://atom.io).
+* [Atom](https://atom.io)
     * [Atom documentation](https://atom.io/docs)
     * [Atom flight manual](http://flight-manual.atom.io)
-* [Sublime](https://www.sublimetext.com) is an alternative to Atom. It's faster for large files, but plugins are harder and it wants a commercial license.
+* [Sublime](https://www.sublimetext.com) is an alternative to Atom. It's faster for large files, but managing plugins is more difficult and it wants a commercial license.
 * [Visual Studio Code](https://code.visualstudio.com) is the new kid on the block.
 * [PyCharm](https://www.jetbrains.com/pycharm/) is an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment).
 It does more than the text editors, and is harder to learn.

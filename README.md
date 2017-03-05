@@ -2,7 +2,7 @@
 
 Home page for Olin College Software Design Spring 2017
 
-The source to <http://softdes.website>.
+The source to <https://sd17spring.github.io>.
 
 
 ## Setup
@@ -26,7 +26,7 @@ Alternate:
 ## Publish
 
 1. git push
-2. Browse to <http://softdes.website>
+2. Browse to <https://sd17spring.github.io>
 
 ## Credits
 

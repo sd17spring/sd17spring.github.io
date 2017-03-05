@@ -58,7 +58,7 @@ lines = f.readlines()
 curr_line = 0
 while lines[curr_line].find('START OF THIS PROJECT GUTENBERG EBOOK') == -1:
   curr_line += 1
-  lines = lines[curr_line+1:]
+lines = lines[curr_line+1:]
 ```
 
 ## Get Top 100 Words

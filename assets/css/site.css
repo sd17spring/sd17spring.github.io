@@ -15,7 +15,7 @@
 iframe#course-calendar { width: 100%; height: 1000px;  }
 
 /* external link icons */
-.external-a[href^="http://"], a[href^="https://"] {
+a[href^="http://"], a[href^="https://"] {
   background: url(/assets/images/external_link_icon.png) center right no-repeat;
   padding-right: 13px;
 }
