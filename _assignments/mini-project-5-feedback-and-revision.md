@@ -1,7 +1,10 @@
 ---
 date: 2017-01-15 12:36:16 -0500
-description: ''
-due_date: '2017-04-23'
+description: >
+  Reflection and revision is an important part of the iterative feedback
+  process. In this mini project, you will select one of your first four mini
+  projects to revise/extend and resubmit.
+due_date: 2017-04-23
 title: 'Mini Project 5: Feedback and Revision'
 ---
 
@@ -28,7 +31,7 @@ include:
 * something else awesome
 
 This exercise should not take as long as the other mini projects, and it is
-[worth about half as much]({% link policies.md %}).
+[worth about half as much]({% link _pages/policies.md %}).
 
 ## How to proceed
 

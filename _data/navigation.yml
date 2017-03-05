@@ -1,16 +1,59 @@
 # main links
 main:
-  - title: "Activities"
-    url: /activities/
-  - title: "Assignments"
+  - title: Activities
+    url: /day/
+  - title: Assignments
     url: /assignments/
-  - title: "Calendar"
+  - title: Calendar
     url: /calendar/
-  - title: "Toolboxes"
+  - title: Toolboxes
     url: /toolboxes/
-  - title: "Resources"
+  - title: Resources
     url: /resources/
-  - title: "Policies"
+  - title: Policies
     url: /policies/
-  - title: "Git Help"
+  - title: Git Help
     url: /git-help/
+
+docs:
+  - title: Web Sites
+    children:
+      - title: Piazza
+        url: https://piazza.com/class/iy3bgqkraq97c0
+      - title: Slack
+        url: https://olin.slack.com/messages/softdes17spring/
+      - title: SoftDes GitHub Repo
+        url: https://github.com//sd17spring/
+      - title: Python 3.5 Documentation
+        url: https://docs.python.org/3.5/
+      - title: Think Python
+        url: http://greenteapress.com/wp/think-python-2e/
+
+  - title: Assignments
+    url: /assignments/
+    children:
+      - title: "Get Set"
+        url: /assignments/setup-your-environment/
+      - title: Reading Journal
+        url: https://github.com//sd17spring/ReadingJournal
+      - title: "MP1: Gene Finder"
+        url: /assignments/mini-project-1-gene-finder/
+      - title: "MP2: Computational Art"
+        url: /assignments/mini-project-2-computational-art/
+      - title: "MP3: Text Mining"
+        url: /assignments/mini-project-3-text-mining/
+      - title: "MP4: Interactive Visualization"
+        url: /assignments/mini-project-4-interactive-visualization/
+
+  - title: Toolboxes
+    url: /toolboxes/
+    collection: toolboxes
+
+  - title: Administrivia
+    children:
+      - title: Calendar
+        url: /calendar/
+      - title: Course Policies
+        url: /policies/
+      - title: Timeline (β)
+        url: /timeline/

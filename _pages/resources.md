@@ -1,18 +1,21 @@
 ---
-date: 2017-01-18 21:02:02 -0500
+date: 2017-02-22 10:10:00 -0500
 description: ''
-layout: single
-permalink: /resources/
+permalink: resources/
 title: Resources
 ---
 
 {% include toc %}
 
-This page lists web sites, PDF documents, Piazza posts, IPython notebooks, and
+This page lists web sites, PDF documents, Jupyter notebooks, and
 Python packages that have been mentioned during the course.
 
 It's not an attempt to list everything related to each of those topics; just
 to collect those resources that have already been mentioned into one place.
+
+## General
+
+[Stack Overflow](http://stackoverflow.com) is a community of programmers, and a knowledge base of programming questions and answers. You can search it directly from its site; it also shows up in Google search results.
 
 ## Linux (Ubuntu)
 
@@ -20,34 +23,16 @@ to collect those resources that have already been mentioned into one place.
 * [Linux at Olin (downloadable PDF)]({% link files/assignments/setup-your-environment/linux.pdf %})
 * [Spring 2014 NINJA tutorial: Wireless issues on Ubuntu](https://docs.google.com/document/d/1uRRyjQhWyoffL_FNpRHNn8geblh9h0mfvAjjZ0fOtRc/edit)
 
-## Classroom collaboration tools
-
-{% if site.course.flootbits_url %}* [Floobits]({{site.course.flootbits_url}}) – code sharing{% endif %}
-* [Piazza]({{site.course.piazza_url}}) – message board
-* [GitHub](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb) – assignments
-* [GitHub reading journal assignments](https://github.com//{{site.course.github_owner}}/ReadingJournal)
-
 ## Git
 
-* [Git Help (this site)]({% link git-help.md %}) – contains links to additional resources
-* [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
-{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
-* Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
-* Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
-{% endif %}
-{% if site.course.github_url == 'sd17spring' %}
-* [SoftDes16 GitHub page](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
-{% endif %}
-* [Spring 2014 NINJA tutorial: GitHub Help](https://docs.google.com/document/d/12mYDk2Bto-8a4LEq3tL9gvNO_8uehsyaV5WMg2-WNj4/edit)
-* [Spring 2014 NINJA tutorial: Introduction to Version Control](https://docs.google.com/presentation/d/15UsxsUBIDA78iplWfKsX0yZAoYIf5ofpEr7PRUE2Y28/edit#slide=id.p)
-* [Spring 2014 NINJA tutorial: Pushing to your GitHub repository](https://docs.google.com/document/d/1faRvcK33bIetPkgBH5Vw3Vlz8vl6jdPFKvtowT6Q1xw/edit)
+See [Git Help]({% link _pages/git-help.md %}) on this site.
 
 ## Python
 
 * [Think Python, by Allen Downey](http://greenteapress.com/wp/think-python-2e/) – the class text
 * [Python 3.5 Documentation](https://docs.python.org/3.5/)
 * [Python 3.5 Standard Library](https://docs.python.org/3.5/library/index.html)
-* Python Style
+* [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/), especially [Writing Great Python Code](http://docs.python-guide.org/en/latest/#writing-great-python-code)
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
 {% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
@@ -55,29 +40,56 @@ to collect those resources that have already been mentioned into one place.
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
 {% endif %}
 
+### Python Style Guides
+
+* [PEP 8 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+* [PEP 257 – Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
+* [Google Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ### Python Libraries
 
 This section lists libraries that are somewhat general-purpose: they're
 introduced in a particular assignment or project toolbox, but could be useful
 in other projects too.
 
-* [Numpy](http://www.numpy.org) scientific computing (including arrays)
-* [Pattern](http://www.clips.ua.ac.be/pattern) data mining, natural language processing, and more
-* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_ tutorials.html) image processing and computer vision
-* [Pillow](http://python-pillow.org) image processing
-* [Pygame](http://www.pygame.org/hifi.html) realtime image display
-* [scikit-learn](http://scikit-learn.org/stable/) machine learning
-* [Matplotlib](http://matplotlib.org) graphing and plotting ([Jupiter tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)). Also see [Bokeh](http://bokeh.pydata.org/en/latest/) and [Seaboard](http://stanford.edu/~mwaskom/software/seaborn/).
+Also see [Awesome-Python](https://awesome-python.com), a curated list of Python libraries.
 
+#### Data Processing and Scientific Computing
+
+* [Pandas](http://pandas.pydata.org) tables (like Excel) as a data type
+* [Numpy](http://www.numpy.org) scientific computing (including arrays)
+* [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) image processing and computer vision
+* [Pillow](http://python-pillow.org) image processing
+* [scikit-learn](http://scikit-learn.org/stable/) machine learning
+
+#### Graphics and Interactivity
+
+* [Pygame](http://www.pygame.org/hifi.html) realtime image display
+    * [Pygame cheatsheet]({% link _pages/pygame-resources.md %}), written by sofdes ninjas
+* [Matplotlib](http://matplotlib.org) graphing and plotting ([Jupiter tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)). Also see [Bokeh](http://bokeh.pydata.org/en/latest/) and [Seaboard](http://stanford.edu/~mwaskom/software/seaborn/).
+* [Seaborn](http://seaborn.pydata.org) improves the appearance of Matplotlib graphs and adds additional features
+* [Kivy](https://kivy.org/) for user interfaces
+
+#### HTML and the Web
+
+* [Flask](http://flask.pocoo.org) web applications (sofware that runs on a server and serves HTML pages to browsers)
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) parses HTML pages
+* [Requests](http://docs.python-requests.org/en/latest/) retrieves HTML pages
+
+{% if site.course.github_url == 'sd16spring' %}
 ### IPython Notebooks
 
-{% if site.course.github_url == 'sd17spring' %}
 * [Iteration strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
 * [Performance strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
 * [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
 {% endif %}
 
-## Atom Text Editor
+## Text Editors
 
-* [Atom documentation](https://atom.io/docs)
-* [Atom flight manual](http://flight-manual.atom.io)
+* [Atom](https://atom.io)
+    * [Atom documentation](https://atom.io/docs)
+    * [Atom flight manual](http://flight-manual.atom.io)
+* [Sublime](https://www.sublimetext.com) is an alternative to Atom. It's faster for large files, but managing plugins is more difficult and it wants a commercial license.
+* [Visual Studio Code](https://code.visualstudio.com) is the new kid on the block.
+* [PyCharm](https://www.jetbrains.com/pycharm/) is an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment).
+It does more than the text editors, and is harder to learn.

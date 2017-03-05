@@ -1,7 +1,6 @@
 ---
 date: 2017-01-19 13:27:25 -0500
-layout: single
-permalink: /policies/
+permalink: policies/
 title: Policies
 ---
 

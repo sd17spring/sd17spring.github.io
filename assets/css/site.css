@@ -1,6 +1,57 @@
 /* Override main.scss settings */
 /*.page { width: inherit; padding-left: 10pt; padding-right: 10pt; }*/
+.archive a { color:#52adc8; }
+.archive a:hover, .archive a:active {text-decoration:underline }
 .page__content p, .page__content li, .page__content dl { font-size: 16px; }
+.page__content dd li { font-size: 1em; }
+.nav__items li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.page__content dd { font-size: 16px !important; }
+.archive__item-excerpt li { line-heighxt: 26px; margin-bottom: 2px; }
 
 /* new elements */
 iframe#course-calendar { width: 100%; height: 1000px;  }
+
+/* external link icons */
+a[href^="http://"], a[href^="https://"] {
+  background: url(/assets/images/external_link_icon.png) center right no-repeat;
+  padding-right: 13px;
+}
+
+a[href^="http://localhost:"], a[href^="https://sd17spring.github.io/"], .social-icons a {
+  background: none;
+  padding-right: 0;
+}
+
+/*a[href^="https://piazza.com"] {
+  background: url(/assets/images/piazza_link_icon_inverse.png) center right no-repeat;
+  padding-right: 17px;
+}*/
+
+/*a[href^="https://github.com"], a[href*="slack.com"] {
+  background: none;
+  padding-right: 0;
+}
+
+a[href^="https://github.com"]:after {
+  content: "\f09b";
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: gray;
+}
+
+a[href*="slack.com/"]:after {
+  content: "\f198";
+  padding-left: 2px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: gray;
+}
+
+a[href$=".pdf"]:after {
+  content: "\f1c1";
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: gray;
+}*/

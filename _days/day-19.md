@@ -1,5 +1,6 @@
 ---
-date: '2017-03-30'
+activity_date: 2017-03-30
+date: 2017-03-30
 description: Debugging and profiling
 published: false
 title: Day 19
@@ -59,7 +60,7 @@ with either a crashed or running program. The Python DeBugger (pdb) can be
 used in roughly these two modes: postmortem analysis and live execution. Today
 we will only be covering the usage in live execution mode (for a discussion of
 using pdb for postmortem analysis check out the [pdb
-documentation](https://docs.python.org/2/library/pdb.html) under "analyzing a
+documentation](https://docs.python.org/3/library/pdb.html) under "analyzing a
 crashed program").
 
 There are a variety of approaches to using PDB in this capacity. One method is
@@ -142,12 +143,12 @@ sys 0m0.012s
 ```
 
 2) To measure at a finer granularity, you can use [Python time
-module](https://docs.python.org/2/library/time.html) to measure the time
+module](https://docs.python.org/3/library/time.html) to measure the time
 before and after a function call as we did in the [Day 17](/in-class-exercises/day-17) exercises.
 
 3) You may have noticed some variability in your results on the Day 17
 exercises. To run many experimental trials of a small snippet of code, you can
-use the [Python timeit module](https://docs.python.org/2/library/timeit.html).
+use the [Python timeit module](https://docs.python.org/3/library/timeit.html).
 `timeit` takes a string representing the code you want to time and runs it
 repeatedly to get an average result.
 
@@ -177,7 +178,7 @@ Once you've determined that your program is too slow for your requirements,
 it's time to figure out precisely why.
 
 For this, we can use the [Python profile and cProfile
-modules](https://docs.python.org/2/library/profile.html). For our purposes
+modules](https://docs.python.org/3/library/profile.html). For our purposes
 these are equivalent, so we will use the faster cProfile module.
 
 ``` bash
@@ -207,7 +208,7 @@ You can sort by any of these columns by providing a -s [sort_order] flag
 (default is function name). You can also dump the profiling results to a data
 file, so that you can run the program once and study the results at your
 leisure. Full details are at the [profile
-documentation.](https://docs.python.org/2/library/profile.html)
+documentation.](https://docs.python.org/3/library/profile.html)
 
 
 ### Exercise
@@ -232,7 +233,7 @@ the profiling folder. Use cProfile to determine the bottleneck(s) in execution
 and fix them.
 
 Hint: It may be useful to revisit [Think Python Appendix
-B](http://greenteapress.com/thinkpython/html/thinkpython022.html), especially
+B](http://greenteapress.com/thinkpython2/html/thinkpython2022.html), especially
 B.3 and B.4. You do not need to keep the architecture/functional organization
 of the original code if it is slowing things down.
 

@@ -6,6 +6,11 @@ title: Algorithmic Music Composition
 
 {% include toc %}
 
+{% include construction %}
+
+<b>Beware! This toolbox does not work with Python 3! We are planning to rewrite it with an audio synthesis library that is compatible with Python 3; probably [pyo](https://github.com/belangeo/pyo) or [PySynth](https://mdoege.github.io/PySynth/).
+When this is done it will be announced on Piazza.</b>
+
 For this toolbox exercise you will be creating a computer program that
 composes music! This type of programming is also known as "algorithmic music
 composition". You may think that this idea is relatively new, but the history
@@ -75,7 +80,7 @@ the previous note) and a duration in beats. For example, the following line
 represents a blues lick that consists of four notes. Each note ascends the
 blues scale one note and lasts for half a beat:
 
-    licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ] ]
+    licks = [ [ [1, 0.5], [1, 0.5], [1, 0.5], [1, 0.5] ] ]
 
 Let's modify our code to repeat this lick four times by changing blues_solo.py
 in the following way:
@@ -83,7 +88,7 @@ in the following way:
 ``` python
 curr_note = 0
 add_note(solo, bass, blues_scale[curr_note], 1.0, beats_per_minute, 1.0)
-licks = [ [ [1,0.5], [1,0.5], [1, 0.5], [1, 0.5] ] ]
+licks = [ [ [1, 0.5], [1, 0.5], [1, 0.5], [1, 0.5] ] ]
 for i in range(4):
     lick = licks[0]
 for note in lick:

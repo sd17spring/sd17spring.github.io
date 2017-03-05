@@ -8,10 +8,7 @@ title: Geocoding and Web APIs
 
 ## Introduction
 
-In Mini Project 3, you used the Python data mining package
-[Pattern](http://www.clips.ua.ac.be/pattern) to access information on the
-Internet. Pattern gets that information by interacting with various web
-application programming interfaces (APIs) on your behalf. In this toolbox
+In this toolbox
 exercise, you will access web APIs directly and begin to write your own
 package to connect with new data sources.
 
@@ -28,7 +25,7 @@ stop and the distance from the given place to that stop. For example:
 ## Get Set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from _<https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>_
+method from <https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>.
 
 You should see `mbta_finder.py` within the toolbox folder, which has some
 optional scaffolding for this exercise.
@@ -37,8 +34,8 @@ optional scaffolding for this exercise.
 
 Let's grab some data from the Internet!
 
-    >>> import urllib2
-    >>> f = urllib2.urlopen("http://www.olin.edu")
+    >>> from urllib.request import urlopen
+    >>> f = urlopen("http://www.olin.edu")
     >>> print(f.read(400))
     <!DOCTYPE html>
     <html>
@@ -50,16 +47,20 @@ Let's grab some data from the Internet!
     href="http://www.olin.edu/rss.xml" />
     <title>Olin College</title>
 
-Here we're using [urllib2](https://docs.python.org/2/library/urllib2.html) to
+Here we're using [urllib.request](https://docs.python.org/3.0/library/urllib.request.html) to
 open a [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) and get
 its contents over
-[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). For a nice
+[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
+
+{% comment %}
+Broken: For a nice
 introduction to how HTTP works, check out this [olin.js
 lesson](https://github.com/olinjs/olinjs/tree/master/classes/class01#http).
+{% endcomment %}
 
-The [urlopen](https://docs.python.org/2/library/urllib2.html#urllib2.urlopen)
+The [urlopen](https://docs.python.org/3.0/library/urllib.request.html)
 method returns a [file-like
-object](https://docs.python.org/2/library/stdtypes.html#file-objects), from
+object](https://docs.python.org/3/glossary.html#term-file-object), from
 which we read and print the first 400 bytes. The result is the HTML code that
 your browser uses to display the `olin.edu` homepage.
 
@@ -105,30 +106,27 @@ quite good) through "Geocoding Responses".
 
 Back? Ok cool, let's try it out in Python. We're going to request the response
 in JSON format, which we can decode using Python's
-[json](https://docs.python.org/2/library/json.html) module.
+[json](https://docs.python.org/3/library/json.html) module.
 
-    >>> import urllib2, json
+    >>> from urllib.request import urlopen
+    >>> import json
     >>> from pprint import pprint
     >>> url = "https://maps.googleapis.com/maps/api/geocode/json?address=Fenway%20Park"
-    >>> f = urllib2.urlopen(url)
+    >>> f = urlopen(url)
     >>> response_text = f.read()
-    >>> response_data = json.loads(response_text)
+    >>> response_data = json.loads(str(response_text, "utf-8"))
     >>> pprint(response_data)
 
-We used the [pprint](https://docs.python.org/2/library/pprint.html) module to
+We used the [pprint](https://docs.python.org/3/library/pprint.html) module to
 "pretty print" the response data structure with indentation so it's easier to
 visualize. You should see something similar to the JSON response from the
-documentation, except built from Python data types. A few notes about the
-response data structure:
-
-* It is built from nested dictionaries and lists, and you can step through it to access the fields you want.
+documentation, except built from Python data types. The response data structure is built from nested dictionaries and lists, and you can step through it to access the fields you want.
 
       >>> print(response_data["results"][0]["formatted_address"])
-      Fenway Park, 4 Yawkey Way, Boston, MA 02215, USA
+      4 Yawkey Way, Boston, MA 02215, USA
 
-* The strings (e.g. `u'results'`) are [Unicode](https://docs.python.org/2/howto/unicode.html), which for the purposes of this assignment should behave like normal strings.
 
-**Note** : You might notice that I didn't provide an API key with the request. For the Google Maps API, you can actually get away without one for a small number or requests. Be sure to limit your requests (don't repeatedly make requests in a loop, or rate-limit using [time.sleep](https://docs.python.org/2/library/time.html#time.sleep)) so that Olin's IP range is not blocked.
+**Note**: You might notice that I didn't provide an API key with the request. For the Google Maps API, you can actually get away without one for a small number or requests. Be sure to limit your requests (don't repeatedly make requests in a loop, or rate-limit using [time.sleep](https://docs.python.org/3/library/time.html#time.sleep)) so that Olin's IP range is not blocked.
 
 **Write a function to extract the latitude and longitude from the JSON response.**
 
@@ -142,8 +140,7 @@ helpful guide to URL components and encoding.
 
 You can build up the URL string manually, but it's probably helpful to check
 out
-[urlencode](https://docs.python.org/2/library/urllib.html#urllib.urlencode)
-from urllib (**_not_** urllib2) and its examples.
+[urlencode](https://docs.python.org/3.0/library/urllib.parse.html#urllib.parse.urlencode).
 
 **Write a function that takes an address or place name as input and returns a properly encoded URL to make a Google Maps geocode request.**
 
@@ -171,8 +168,8 @@ nearest MBTA and its distance from the starting point.
 
 ## Making it cooler
 
-* Try out some other [Google Maps web services](https://developers.google.com/maps/documentation/webservices/) \- this is a really rich space and we have barely scratched the surface
-* Create and publish a Python module for accessing MBTA data
-* By default `stopsbylocation` gives all types of transportation, including buses and commuter rail. Allow the user to specify how they'd like to travel (e.g. T only)
+* Try out some other [Google Maps web services](https://developers.google.com/maps/documentation/webservices/) – this is a really rich space and we have barely scratched the surface.
+* Create and publish a Python module for accessing MBTA data.
+* By default `stopsbylocation` gives all types of transportation, including buses and commuter rail. Allow the user to specify how they'd like to travel (e.g. T only).
 * Add in the MBTA realtime arrival data to help choose what station you should walk to
 * Connect with other local services. Example: the City of Boston has [an app](http://www.cityofboston.gov/DoIT/apps/streetbump.asp) that uses a phone's GPS and accelerometer to automatically report potholes to be fixed.

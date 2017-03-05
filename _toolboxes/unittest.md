@@ -20,7 +20,7 @@ If you don't get any errors, it means everything is already there.
 
 To get started, read the first two sections (the intro and 25.3.1) of the
 python unittest documentation found
-[here](https://docs.python.org/2/library/unittest.html).
+[here](https://docs.python.org/3/library/unittest.html).
 
 ## Making your own test cases
 
@@ -29,5 +29,5 @@ to verify that this script has all if the intended functionality.
 
 A few things to keep in mind:
 
-  * methods need to be named test_something so that unittest will recognize them as tests.
-  * The setup method always runs first and the teardown method always runs last. They are not required but can be useful.
+  * methods need to be named `test_something` so that unittest will recognize them as tests.
+  * The `setup` method always runs first and the `teardown` method always runs last. They are not required but can be useful.

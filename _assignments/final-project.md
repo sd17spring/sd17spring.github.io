@@ -1,7 +1,30 @@
 ---
 date: 2017-01-15 13:01:52 -0500
-description: ''
-due_date: '2017-03-20'
+description: >
+  From now until the end of the semester you will be working with a team of
+  students on a group software project. The project will culminate during the
+  Final Event period for this class,  with EXPO style demo / poster session.
+start_date: 2017-03-09
+due_date: 2017-05-04
+parts:
+  - name: Project Proposal
+    due_date: 2017-03-20
+    tag: project-proposal
+  - name: TR1 Preparation Document
+    due_date: 2017-03-27
+    tag: technical-reviews
+  - name: TR1 Reflection Document
+    due_date: 2017-03-30
+    tag: technical-reviews
+  - name: TR2 Preparation Document
+    due_date: 2017-04-20
+    tag: technical-reviews
+  - name: TR2 Reflection Document
+    due_date: 2017-04-24
+    tag: technical-reviews
+  - name: Final Deliverables
+    due_date: 2017-05-04
+    tag: project-website
 title: Final Project
 type: index
 ---
@@ -11,9 +34,8 @@ type: index
 ## Overview
 
 From now until the end of the semester you will be working with a team of
-students on a group software project. <!--The project will culminate on Thursday,
-May 5th with EXPO style demo / poster session (8am-11am). Both sections will
-be present concurrently for this session.-->
+students on a group software project. The project will culminate during the
+Final Event period for this class,  with EXPO style demo / poster session.
 
 ## Project Topic
 
@@ -69,7 +91,7 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-### Technical Reviews (3/31 and 4/21)
+### Technical Reviews
 
 _Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
 
@@ -84,18 +106,6 @@ framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
 See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
-
-### Code Review
-
-_Due: 4/14_
-
-**The code review is worth 10% of the project grade**
-
-On April 14th we will hold an in-class code review session. This is an
-opportunity for you to give and receive detailed feedback from your peer teams
-about ways to improve your project code.
-
-See the [Code Reviews]({% link _assignments/final-project/code-reviews.md %}) page for full details about the assignment.
 
 ### Not-Quite-Mid-Project Presentation
 
@@ -195,7 +205,7 @@ printed in time for the May 5th expo.
 
 _Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
-**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link policies.md %}))**
+**Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link _pages/policies.md %}))**
 
 Project code must be submitted via GitHub by May 5th. You must include a
 README describing how to run your code, including any required dependencies
@@ -203,7 +213,7 @@ README describing how to run your code, including any required dependencies
 
 Proper documentation is important to your final submission, and one way to
 ensure you have adequate docstrings is to generate documentation from them.
-You can do this using [pydoc](https://docs.python.org/2/library/pydoc.html):
+You can do this using [pydoc](https://docs.python.org/3/library/pydoc.html):
 
 `$ pydoc path/to/my_project.py`
 
@@ -211,15 +221,15 @@ This will open a help file based on your docstrings (use q to quit). Make sure
 the help file would be useful to someone using your code, and feel free to
 attach it to your code submission as an appendix. If you want to generate
 truly beautiful documentation, check out [Sphinx](http://sphinx-doc.org/) (the
-tool used to generate the [Python documentation](https://docs.python.org/2/)).
+tool used to generate the [Python documentation](https://docs.python.org/3/)).
 
 Make sure that your code gives appropriate attribution to external resources
-used, as per the [course policy page]({% link policies.md %}). If you have any questions
+used, as per the [course policy page]({% link _pages/policies.md %}). If you have any questions
 about this, just ask.
 
 ### Final Demo / Presentation Session
 
-_Date: TBD_
+_Date: {% if site.course.dates.final_expo %}{{ site.course.dates.final_expo | date: '%a %b %-d' }}{% else %}TBD{% endif %}_
 
 During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is

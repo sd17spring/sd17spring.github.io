@@ -1,7 +1,19 @@
 ---
-date: 2017-01-21
-description: ''
-due_date: '2017-01-26'
+date: 2017-01-29
+description: >
+  In this assignment you will be writing a Python program that analyzes a DNA
+  sequence and outputs snippets of DNA that are likely to be protein-coding
+  genes. You will then use your program to find genes in a sequence of DNA from
+  the bacterium Salmonella Enterica.
+start_date: 2017-01-23
+due_date: 2017-02-06
+parts:
+  - name: Week 1
+    tag: week-1
+    due_date: 2017-01-30
+  - name: Week 2
+    tag: week-2
+    due_date: 2017-02-06
 title: 'Mini Project 1: Gene Finder'
 ---
 
@@ -21,7 +33,7 @@ title: 'Mini Project 1: Gene Finder'
 
 ### Biology Skills Emphasized
 
-* Gene detection in arbitrary DNA sequences (also known as "ab initio gene finding")
+* Gene detection in arbitrary DNA sequences (also known as "*ab initio* gene finding")
 * Understanding protein coding
 * Using Protein BLAST and interpreting its results
 * [for the "going beyond" part] Learning how to read research papers, regulatory mechanisms for protein synthesis
@@ -71,8 +83,8 @@ apparently simple rules that the transcriptional machinery uses: strong,
 easily recognizable signals within the genome such as open reading frames,
 consensus splice sites and nearly universal start and stop codon sequences.
 These signals are highly conserved, are relatively easy to model, and have
-been the focus of a number of algorithms trying to locate all the protein-
-coding genes in a genome using only the sequence of one or more genomes.
+been the focus of a number of algorithms trying to locate all the protein-coding
+genes in a genome using only the sequence of one or more genomes.
 > \-- "Gene Prediction: compare and CONTRAST", Paul Flicek._ Genome Biology_
 2007, **8** :233.
 
@@ -90,11 +102,10 @@ this understanding better treatments).
 In this assignment you will be writing a Python program that analyzes a DNA
 sequence and outputs snippets of DNA that are likely to be protein-coding
 genes. You will then use your program to find genes in a sequence of DNA from
-the bacterium _Salmonella Enterica._ We suspect that this particular DNA
+the bacterium _Salmonella Enterica_. We suspect that this particular DNA
 sequence is related to Salmonella's role in the pathogenesis of various
 diseases such as Typhoid fever. Finally, you will use the genetic search
-engine [protein-
-BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
+engine [protein-BLAST](http://www.ncbi.nlm.nih.gov/blast/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 to confirm whether or not the genes predicted by your program are in fact
 genes, and if so what their functional role might be. This assignment is
 essentially the Biological equivalent of a mystery novel, and your primary
@@ -153,6 +164,8 @@ next section explains the purpose of each of these files.
 
 ## Week 1
 
+**Due {{ page.parts[0].due_date | date: '%A, %B %d' }}**
+
 ### Getting the Lay of the Land
 
 The last step of the previous section had you listing the contents of the
@@ -165,7 +178,8 @@ the files:
 * `data/X73525.fa`  : a [FASTA](http://en.wikipedia.org/wiki/FASTA) file containing part of the genetic code of the Salmonella bacterium. As discussed in lecture, this part of the genetic code is responsible from some aspects of Salmonella pathogenesis.
 * `data/3300000497...`, `data/nitrogenase..`. :genetic for the metagenome Going Beyond extension
 
-The first thing to do is to open up `gene_finder.py` .The file has been
+The first thing to do is to use the Atom text editor to open up `gene_finder.py`.
+This file has been
 populated with function declarations, docstrings, and unit tests for all the
 functions you will need to complete the assignment. Start reading through the
 functions declared in the file, if you do so before we have had a chance to
@@ -201,7 +215,7 @@ described below.
 
 ### Unit Testing Instruction
 
-For each function we have given you some unit tests (using [doctest](https://docs.python.org/2/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
+For each function we have given you some unit tests (using [doctest](https://docs.python.org/3/library/doctest.html)). You will want to add additional unit tests (again using doctest). For each unit test you add, write a sentence(ish) explaining your rationale for including the unit test. If you think the unit tests that we have given you are sufficient, please explain why this is the case. This additional text should be included in the docstring of the function immediately before the relevant unit test.
 
 Also, if you want to test a specific function (in this example we will test
 `get_complement`) rather than running all of the unit tests you can modify the
@@ -222,7 +236,6 @@ If you want to see verbose output of your doctests, set the verbose flag to True
 ``` python
 doctest.run_docstring_examples(get_complement, globals(), verbose=True)
 ```
-
 
 For this part of the assignment you will write code that takes a DNA sequence
 and returns a list of all open reading frames in that sequence. Recall that an
@@ -306,8 +319,8 @@ A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruc
 ### Going Beyond
 
 List comprehensions! Many of these functions can be written more succinctly
-using list comprehensions (see Section 5.1.4
-[here](https://docs.python.org/2/tutorial/datastructures.html)). Try to use
+using list comprehensions (see Section 5.1.3
+[here](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)). Try to use
 list comprehensions to rewrite some of your code. Were any of the functions
 particularly hard (or impossible) to rewrite using list comprehensions? If so,
 how come?
@@ -323,6 +336,8 @@ You will not be turning in your code for this assignment. However, you are requi
 The check in will be worth 20% of the final grade for this assignment.
 
 ## Week 2
+
+**Due {{ page.parts[1].due_date | date: '%A, %B %d' }}**
 
 This week you will be implementing the rest of the functions necessary to
 create your gene finder. Once you have done that, you will be using your code
@@ -415,7 +430,9 @@ state-of-the art one, you can try out one called Glimmer3
 Submitting your assignment is a two step process:
 
 1. Complete the work and push it to your GitHub repository
-2. Submit a pull request to the upstream {{site.course.github_owner}} repository that you originally forked from
+2. Do at least one of:
+  * Submit a pull request to the upstream {{ site.course.github_owner }} repository that you originally forked from
+  * Visit a NINJA in pperson to check off week 2 of your assignment
 
 Pull requests are typically used to contribute code to someone else's project
 in the open source world. They let you send changes you've made, which the
@@ -429,6 +446,7 @@ your pull requests. Instead, we use them as:
 For the main assignment, all your code will be in `gene_finder.py`. If you
 choose to do the **Going Beyond**  portion, it is up to you how you structure
 your code for that portion.
+
 
 ## Going Beyond
 

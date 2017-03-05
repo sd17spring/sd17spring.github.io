@@ -1,0 +1,12 @@
+---
+permalink: day/
+title: In-Class Activities
+layout: archive
+---
+
+<ul>
+{% assign days = (site.days | sort: 'activity_date') %}
+{% for day in days %}
+  <li><a href="{{ day.url }}">{{ day.title }} – {{ day.description}}</a> ({{ day.activity_date | date: '%a, %b %d' }})</li>
+{% endfor %}
+</ul>

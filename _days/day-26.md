@@ -1,5 +1,6 @@
 ---
-date: '2017-04-27'
+activity_date: 2017-04-27
+date: 2017-04-27
 description: Final deliverables, where to go next
 published: false
 title: Day 26

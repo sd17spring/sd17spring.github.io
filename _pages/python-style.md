@@ -1,6 +1,5 @@
 ---
-date: '2016-12-29T18:26:01'
-description: ''
+date: 2016-12-29T18:26:01
 title: Python Style
 ---
 
@@ -57,4 +56,3 @@ do something with i and c
 Related links:
 
   * [PEP 0008 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-

@@ -1,5 +1,5 @@
 ---
-date: 2017-01-22
+date: 2017-01-29
 description: ''
 title: Word Frequency Analysis
 ---
@@ -20,7 +20,7 @@ The starter code will be in `frequency.py`.
 
 ## Download your favorite book
 
-Go to Project Gutenberg (`<http://gutenberg.org>`) and download your favorite
+Go to [Project Gutenberg](http://gutenberg.org) and download your favorite
 out-of-copyright book in plain text format. The file `pg32325.txt` has
 been placed in the `word_frequency_analysis` directory to give you an example of
 the type of file you should download.
@@ -37,13 +37,13 @@ Hints:
 "The `string` module provides strings named `whitespace`, which contains
 space, tab, newline, etc., and `punctuation` which contains the punctuation
 characters. Let’s see if we can make Python swear:
-
+```
     >>> import string
-    >>> print string.punctuation
+    >>> print(string.punctuation)
     !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-
+```
 Also, you might consider using the string methods `strip`, `replace`,
-`split`, and `translate`. -- Think Python 12.1.
+`split`, and `translate`. Find documentation for those methods [here](https://docs.python.org/3.1/library/stdtypes.html#string-methods).
 
 _More Hints:_
 
@@ -53,12 +53,12 @@ variable called `lines`. Make sure you understand what it is doing, and modify
 it if you need to:
 
 ``` python
-f = open(file_name,'r')
+f = open(file_name, 'r')
 lines = f.readlines()
 curr_line = 0
 while lines[curr_line].find('START OF THIS PROJECT GUTENBERG EBOOK') == -1:
   curr_line += 1
-  lines = lines[curr_line+1:]
+lines = lines[curr_line+1:]
 ```
 
 ## Get Top 100 Words
@@ -84,7 +84,7 @@ occurring words, and print the word list out. Once you have done this, push
 your finished code to your repository and submit a pull request to get your
 toolbox exercise checked off with a NINJA.
 
-## (optional) Making it Cooler
+## Making it Cooler (optional)
 
 If you want to do some more advanced word frequency analysis, try the rest of
-the exercises in Think Python 13.1.
+the exercises in [Think Python 13.1](http://greenteapress.com/thinkpython2/html/thinkpython2014.html).

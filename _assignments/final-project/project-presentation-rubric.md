@@ -1,5 +1,5 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2016-12-29T18:26:01
 description: ''
 title: Project Presentation Rubric
 parent: final-project
@@ -64,4 +64,3 @@ your presentation should not be be jokey at the expense of being clear,
 informative, and earnest. Also, inappropriate jokes are inappropriate! A good
 rule of thumb is to shoot for something that you would be proud to present to
 your parents.
-

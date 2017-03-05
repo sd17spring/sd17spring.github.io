@@ -1,7 +1,12 @@
 ---
-date: 2017-01-19 14:22:37 -0500
-description: ''
-due_date: '2017-01-23'
+date: 2017-01-29
+description: >
+  Before we can get down to the business, we need to make sure we have the right
+  tools for the job. If you follow these instructions (with help from our
+  amazing NINJA team), your computer will be primed and ready to do some serious
+  computational work.
+start_date: 2017-01-19
+due_date: 2017-01-23
 layout: single
 title: Get Set
 ---
@@ -167,9 +172,13 @@ Certain trivial but frequent errors (incorrect indentation, certain misspelled n
 
 ``` bash
 $ sudo pip3 install pyflakes jedi flake8 isort
-$ apm install Hydrogen atom-beautify autocomplete autocomplete-python
+$ apm install Hydrogen atom-beautify autocomplete autocomplete-python script
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
 ```
+
+[`script` was added to the instructions above on 2017-01-29.
+If you followed these instructions before that date, you need to run
+`apm install script` to get it.]
 
 If you prefer to use Sublime Text, install a _plugin manager_ (Package Control) using [these
 instructions](https://packagecontrol.io/installation#st3), and install the
@@ -342,7 +351,7 @@ please do the following:
 ## Step 5: Play a game?!?
 
 President Obama made
-[headlines](http://www.whitehouse.gov/blog/2014/12/10/president-obama-first-president-write-line-code)
+[headlines](https://obamawhitehouse.archives.gov/blog/2014/12/10/president-obama-first-president-write-line-code)
 for being the first U.S. president to write a line
 of code. The code he wrote was part of the "[Hour of
 Code](http://hourofcode.com/us)" initiative which seeks to get more people to

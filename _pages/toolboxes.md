@@ -1,9 +1,9 @@
 ---
-date: '2016-12-29T18:26:01'
+date: 2016-12-29T18:26:01
 description: ''
 title: Toolboxes
-permalink: /toolboxes/
-layout: single
+permalink: toolboxes/
+layout: archive
 ---
 
 Software Design and Python are wide worlds, and we'll only explore part of
@@ -29,21 +29,14 @@ them for a lifetime!
 ### Tips for success:
 
   * **Don't suffer in silence.** Many of these exercises require installing new packages, which can sometimes come with hiccups. If you're struggling with something, let us know about it on Piazza so we can fix it for you and everyone else.
-  * **Start early** . The project toolbox can be a great source of inspiration for your final project, but only if you try them in time.
-  * **Have fun**  and follow your own learning goals.
+  * **Start early**. The project toolbox can be a great source of inspiration for your final project, but only if you try them in time.
+  * **Have fun** and follow your own learning goals.
 
 
-## Exercise List
+## Toolboxes
 
-* [AI and Algorithms]({% link _toolboxes/algorithms-and-ai.md %})
-* [Algorithmic Music Composition]({% link _toolboxes/algorithmic-music-composition.md %})
-* [Evolutionary Algorithms]({% link _toolboxes/evolutionary-algorithms.md %})
-* [Geocoding and Web APIs]({% link _toolboxes/geocoding-and-web-apis.md %})
-* [Image Processing and Computer Vision]({% link _toolboxes/image-processing.md %})
-* [Machine Learning]({% link _toolboxes/machine-learning.md %})
-* [Persistent Data Storage with `pickle`]({% link _toolboxes/pickling.md %})
-* [Web Apps using Flask]({% link _toolboxes/web-apps.md %})
-* [Word Frequency Analysis]({% link _toolboxes/word-frequency-analysis.md %})
+{% for toolbox in site.toolboxes %}
+* [{{ toolbox.title }}]({{ toolbox.url }}){% endfor %}
 
 
 ## Submitting exercises

@@ -1,5 +1,6 @@
 ---
-date: '2017-03-20'
+activity_date: 2017-03-20
+date: 2017-03-20
 description: Review project proposals
 published: false
 title: Day 16

@@ -1,20 +1,9 @@
 ---
-date: '2017-02-23'
+activity_date: 2017-02-27
+date: 2017-02-27
 description: Model-View-Controller
-published: false
 title: Day 12
 ---
-
-## Today
-
-* Model-view-controller
-* In-class game implementation
-* Review project proposals
-
-## For Next Time
-
-* Reading journal day 12 (ThinkPython Chapter 18)
-* Mid-project checkin with a NINJA due this Thursday (remember there is no class that day)
 
 ### Model-View-Controller
 
@@ -62,15 +51,38 @@ modular code. This allows various components to be swapped out with minimal
 changes to the overall program. However, in order to see the full power of
 MVC, it helps to go through one cycle of using it to solve a problem.
 
+## Links
 
-### Brick Breaker
+* [Wikipedia: Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller)
+* [Coding Horror: Understanding Model-View-Controller](https://blog.codinghorror.com/understanding-model-view-controller/)
+* Advanced: MVC is a design pattern – a pattern that relates multiple classes.
+    * Design patterns: [Wikipedia](http://www.oodesign.com/); [online catalog](http://www.oodesign.com/); [book](https://en.wikipedia.org/wiki/Design_Patterns); [inspiration](https://en.wikipedia.org/wiki/Pattern_(architecture))
 
-Let's make a game!
+## Brick Breaker
 
-Let's start out by listing out the basic classes of our game. The easiest
-place to start is with the model and the view. We'll start there and do the
-controller last.
+We have spent some time getting you familiar with objects in Python. We now need to explore why they are powerful. We will build up an example project together that is in the video game space – so that you can be in a position to transfer your learning to your homework assignment.
 
-It will help to have a [pygame cheat
-sheet](http://inventwithpython.com/blogstatic/pygamecheatsheet.png?27f655)
-handy so that you can better follow along with the tutorial.
+Let's see how far we can get into making a game similar to a classic – **Breakout** for the Atari 2600.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JRAPnuwnpRs" frameborder="0" allowfullscreen></iframe>
+
+We will utilize the [Model-View-Controller](http://en.wikipedia.org/wiki/Model–view–controller) design method, to give everyone a concrete example of the kind of architecture we expect you to produce in your homework.
+
+The code will rely upon pygame so make sure that it is installed – see the instructions for [Mini-Project 4](/projects/mini-project-4-interactive-visualization/#pygame) to get pygame set up if you have not done so.
+
+[brickbreaker-sp17.py](/files/activities/mvc/brickbreaker-sp17.py)
+
+## Bouncy Ball
+
+I will start with a file [`bounce.py`](/files/activities/mvc/bounce.py), and refactor it to use MVC.
+
+It will end going throught something like the following progression:
+
+* [bounce_mv.py](/files/activities/mvc/bounce_mv.py)
+* [bounce_mvc.py](/files/activities/mvc/bounce_mvc.py)
+* [bounce_mvc_2.py](/files/activities/mvc/bounce_mvc_2.py)
+
+**Optional exercise**
+
+Refactor [spin.py](/files/activities/mvc/spin.py) to use MVC.
+Optional optional: add some flair to it.
