@@ -7,7 +7,7 @@ title: Day 13
 
 ## Today
 
-* Inheritance intro via bouncing balls and books
+* Inheritance intro via bouncing balls and a [book selling example](/files/activities/day-13/sellBooks.py)
 * Class diagrams
 * MP4 open studio work time
 
