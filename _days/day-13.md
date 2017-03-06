@@ -18,3 +18,9 @@ title: Day 13
 ## For Next Time
 
 * No new reading journal assigned
+
+## Files
+
+* [ball-1-before.py]({% link files/activities/day-13/ball-1-before.py %})
+* [ball-2-inheritance.py]({% link files/activities/day-13/ball-2-inheritance.py %})
+* [ball-3-property.py]({% link files/activities/day-13/ball-3-property.py %})
