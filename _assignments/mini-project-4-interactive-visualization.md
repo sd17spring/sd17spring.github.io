@@ -108,7 +108,11 @@ this inclass activity.
 
 To install **pygame**:
 
-`$ sudo apt-get install python-pygame`
+``` bash
+$ sudo apt-get build-dep python-pygame
+$ sudo apt-get install python-dev
+$ sudo pip3 install pygame
+```
 
 How to get started with **pygame** (these do not have to be done in this
 order):
