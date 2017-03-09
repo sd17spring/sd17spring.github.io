@@ -3,7 +3,6 @@ title: Resources
 position: 3
 ---
 
-
 Particularly useful are:
 
 * [Think Python](http://greenteapress.com/wp/think-python-2e/)
@@ -14,6 +13,8 @@ Particularly useful are:
 * [Linux at Olin]({% link files/assignments/setup-your-environment/linux.pdf %})
 * [Atom (text editor) flight manual](http://flight-manual.atom.io)
 * [Stack Overflow](http://stackoverflow.com) programming Q &amp; A
+
+---
 
 Additional resources are collected on the [Resources]({% link _pages/resources.md %}) page.
 That page has sections on [Git]({% link _pages/resources.md %}#git),
