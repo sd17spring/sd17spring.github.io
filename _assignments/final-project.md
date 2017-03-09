@@ -103,11 +103,11 @@ See the [Technical Reviews]({% link _assignments/final-project/technical-reviews
 
 ### Not-Quite-Mid-Project Presentation
 
-_Date: {{site.data.dates.mid_project_presentation | date: '%B %d' }}_
+_Date: {{site.data.dates.project_presentation | date: '%B %d' }}_
 
 **The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
-On {{site.data.dates.mid_project_presentation | date: '%B %d' }} your team will present the progress with the project to the
+On {{site.data.dates.project_presentation | date: '%B %d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
 this activity will be around successful and professional communication. There
 will be limited time for feedback in class, but you can communicate your
