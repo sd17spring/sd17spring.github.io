@@ -1,5 +1,5 @@
 ---
-title: Course Web Sites
+title: Web Sites
 position: 4
 ---
 
