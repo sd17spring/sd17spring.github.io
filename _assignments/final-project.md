@@ -10,17 +10,11 @@ parts:
   - name: Project Proposal
     due_date: 2017-03-20
     tag: project-proposal
-  - name: TR1 Preparation Document
+  - name: TR Preparation Document
     due_date: 2017-03-27
     tag: technical-reviews
-  - name: TR1 Reflection Document
+  - name: TR Reflection Document
     due_date: 2017-03-30
-    tag: technical-reviews
-  - name: TR2 Preparation Document
-    due_date: 2017-04-20
-    tag: technical-reviews
-  - name: TR2 Reflection Document
-    due_date: 2017-04-24
     tag: technical-reviews
   - name: Final Deliverables
     due_date: 2017-05-04
@@ -91,9 +85,9 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-### Technical Reviews
+### Technical Review
 
-_Dates: {{site.data.dates.tr1 | date: '%B %d' }} and {{site.data.dates.tr2 | date: '%B %d' }}_
+_Date: {{site.data.dates.tr1 | date: '%B %d' }}_
 
 **Each technical review is worth 10% of the project grade (20% for both together) ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
 
