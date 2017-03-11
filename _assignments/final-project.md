@@ -10,12 +10,12 @@ parts:
   - name: Project Proposal
     due_date: 2017-03-20
     tag: project-proposal
-  - name: TR Preparation Document
+  - name: AR Preparation Document
     due_date: 2017-03-27
-    tag: technical-reviews
-  - name: TR Reflection Document
+    tag: architectural-review
+  - name: AR Reflection Document
     due_date: 2017-03-30
-    tag: technical-reviews
+    tag: architectural-review
   - name: Final Deliverables
     due_date: 2017-05-04
     tag: project-website
@@ -50,8 +50,8 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 ### Requirements
 
-* You are required to work on a team of 2-4 students.
-* Your team must consist entirely of students from the same section of SoftDes. In other words, teams across section 1 and section 2 are not allowed.
+* You are required to work on a team of 4-5 students. A limited number of 3-student teams may be permitted, upon instructor approval.
+
 
 ### Team Formation Advice
 
@@ -65,7 +65,7 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 _Due {{site.data.dates.final_proposal | date: '%B %d' }}_
 
-**The project proposal is worth 5% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
+**The project proposal is worth 10% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
 
 You should come to class with a document that describes the main idea of your
 project. We will have about 10 minutes to meet with each team, so we ask that
@@ -85,27 +85,26 @@ team (both during our face-to-face meeting and after the fact):
 6. **Risks:** What do you view as the biggest risks to the success of this project?
 7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
 
-### Technical Review
+### Architectural Review
 
 _Date: {{site.data.dates.tr1 | date: '%B %d' }}_
 
-**Each technical review is worth 10% of the project grade (20% for both together) ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
+**The Architectural review is worth 15% of the project grade ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
 
-We will be holding two technical reviews during class time. Each review will
-have groups of three or four teams taking turns presenting their plans for
+We will be holding an architectural review which will entail groups of three or four teams taking turns presenting their plans for
 their project. This review is intended to very interactive, and will focus on
 soliciting useful/actionable feedback rather than being a one-way brain dump.
 In addition to the in-person component of this activity, there will be a
 framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
-See the [Technical Reviews]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
+See the [Architectural Review]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
 
-### Not-Quite-Mid-Project Presentation
+### Project Presentation
 
 _Date: {{site.data.dates.project_presentation | date: '%B %d' }}_
 
-**The not-quite-mid-project presentation is worth 10% of the project grade** **(see [not-quite-mid-project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
+**The Project Presentation is worth 10% of the project grade** **(see [project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
 On {{site.data.dates.project_presentation | date: '%B %d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
@@ -117,7 +116,7 @@ feedback using the online form.
 
 _Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
 
-**The final website is worth 10% of the project grade**
+**The final website is worth 15% of the project grade**
 
 Your project website is the lasting record of what you have accomplished over
 the course of this project, and hopefully a valuable contribution to your
@@ -183,7 +182,7 @@ will still be around in the future!
 
 _Printed before {{site.data.dates.final_deliverables | date: '%B %d' }} at 8am_
 
-**The poster is worth 5% of the project grade.**
+**The poster is worth 10% of the project grade.**
 
 Each team will create a poster to accompany the final demonstration session.
 Your poster will contain similar information to your website, but reformatted
