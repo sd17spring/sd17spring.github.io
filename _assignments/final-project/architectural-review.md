@@ -2,16 +2,16 @@
 date: 2017-01-14 10:36:07 -0500
 description: ''
 parent: final-project
-title: Technical Reviews
+title: Architectural Review
 ---
 
 {% include toc %}
 
 ## Overview
 
-During the course of the final project, your team will complete two technical
-peer reviews. The first will likely focus on high-level design decisions, and
-by the second you will be able to get more into detailed code architecture.
+During the course of the final project, your team will complete an Arcitectural
+peer review. This review will focus on high-level design decisions, and will give your team
+opportunity to present ideas of how the architecture of the code will be.
 
 **What it is**
 
@@ -28,9 +28,9 @@ For more tips and guidelines, check out the [information on SCOPE Technical
 Reviews](/project/Technical_Review_Deliverable_and_Rubric.pdf)
 given to students at the beginning of the year.
 
-## Before the Technical Review
+## Before the Architectural Review
 
-The core of the technical review is a constructive discussion between the
+The core of the architectural review is a constructive discussion between the
 presenting team and the audience. In order to get the most out of this
 conversation, you must prepare a Preparation and Framing document ahead of
 time.
@@ -67,7 +67,7 @@ The Preparation and Framing document must be posted as
 place. You should also post any additional materials (e.g. slides, handouts)
 that you use during the technical review.
 
-## Day of the Technical Review
+## Day of the Architectural Review
 
 Teams are organized into groups of three or four (see groupings below). These
 groups will stay together for both technical reviews, and the other teams in
@@ -93,7 +93,7 @@ you are expected to contribute fully to each.
 * Be respectful and constructive in your feedback.
 * Don't be playing on your laptop or phone during the technical review. Focus all attention on the presenters.
 
-## After the Technical Review
+## After the Architectural Review
 
 The best advice in the world is useless if you don't do anything with it!
 After the technical review, you must prepare a Reflection and Synthesis
@@ -118,8 +118,7 @@ more effective technical review?
 
 ## Grading rubric
 
-Each of the technical reviews is worth 10% of your total grade (10% technical
-review #1 + 10% technical review #2).
+The architectural review is worth 15% of your total grade.
 
 ### Before: Preparation and Framing
 
@@ -246,30 +245,6 @@ team GitHub repository before the next class after the review.
 
 ### Schedule
 
-Also posted on the [course calendar](/calendar).
+Will be posted 1 week prior to presentations on the course page.
 
-**Technical Review #1**
 
-* [Optional] Pre-reading sent to peer teams in group: March 30 [24 hours before technical review]
-* Technical Review, Preparation and Framing document posted to GitHub: March 31
-* Reflection and Synthesis document posted to GitHub: April 4
-
-**Technical Review #2**
-
-* [Optional] Pre-reading sent to peer teams in group: April 20 [24 hours before technical review]
-* Technical Review, Preparation and Framing document posted to GitHub: April 21
-* Reflection and Synthesis document posted to GitHub: April 25
-
-### Team groupings
-
-**Group A**  \- Bioinformatics, Natural Genetics, Spectrum Analysis (Carl + Ian)
-
-**Group B**  \- Billiards, Music Composition, SSTSSOPE!
-
-**Group C**  \- Calendar Visualization, SlAIdes, Spectrum Analysis (Ariana + Harper + Paige)
-
-**Group D**  \- Dueling Association, Dungeon Crawler, Interactive Math, Some Sort of Game
-
-**Group E**  \- Course Paths, Data Analysis/Visualization, Data Vis, NewsBox
-
-**Group F**  \- BACLaudio, Big Chickens, computer generated sculptures, Procedurally generated terrain
