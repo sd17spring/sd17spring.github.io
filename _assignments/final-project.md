@@ -89,7 +89,7 @@ team (both during our face-to-face meeting and after the fact):
 
 _Date: {{site.data.dates.tr1 | date: '%B %d' }}_
 
-**The Architectural review is worth 15% of the project grade ([rubric]({% link _assignments/final-project/technical-reviews.md %})).**
+**The Architectural review is worth 15% of the project grade ([rubric]({% link _assignments/final-project/architectural-review.md %})).**
 
 We will be holding an architectural review which will entail groups of three or four teams taking turns presenting their plans for
 their project. This review is intended to very interactive, and will focus on
@@ -98,7 +98,7 @@ In addition to the in-person component of this activity, there will be a
 framing/agenda setting document due before the review and a
 reflection/synthesis document due after.
 
-See the [Architectural Review]({% link _assignments/final-project/technical-reviews.md %}) page for full details about the assignment.
+See the [Architectural Review]({% link _assignments/final-project/architectural-review.md %}) page for full details about the assignment.
 
 ### Project Presentation
 
