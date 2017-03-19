@@ -1,5 +1,5 @@
 ---
-date: 2017-03-16
+date: 2017-03-18
 description: ''
 title: Algorithmic Music Composition
 ---
@@ -41,14 +41,15 @@ from <https://github.com//{{site.course.github_owner}}/ToolBox-AlgorithmicMusic>
 Open up the file `blues_solo.py` in your editor. Take a minute to read
 through the file and make sure you understand the basic steps that are
 happening.
+
 When you are comfortable with the given starter code, go ahead and run the
-Python script. To play back your composition, open a terminal and execute:
+Python script. Launch **Sonic Pi**, and then open a terminal and execute:
 
     $ python3 blues_solo.py
 
 You should hear a _very_ short blues "solo" that consists of one very low note
-held for 1 beat (by default we are playing at 45 beats per minute, so the
-duration in seconds is 1 1/3 seconds).
+held for 1 beat. (By default we are playing at 45 beats per minute, so the
+duration in seconds is 1 1/3 seconds.)
 
 ## Blues Licks
 
@@ -73,7 +74,7 @@ in the following way:
 curr_note = 0
 play_note(blues_scale[curr_note], 1, beats_per_minute)
 licks = [[(1, 0.5), (1, 0.5), (1, 0.5), (1, 0.5)]]
-for i in range(4):
+for _ in range(4):
     lick = licks[0]
     for note in lick:
         curr_note += note[0]
