@@ -1,8 +1,7 @@
 ---
-activity_date: 2017-03-09
-date: 2017-03-09
+activity_date: 2017-03-20
+date: 2017-03-20
 description: Final project Team formation and Project Proposals
-published: true
 title: Day 15
 ---
 
@@ -21,4 +20,3 @@ By the end of today's class, your team should be [registered on the team Final P
 spreadsheet](https://docs.google.com/spreadsheets/d/1qr068qhurZSSAcj67rtdQ1qCWML5WymOZYrl3cDzNIc/edit#gid=0).
 You can also use this sheet to facilitate searching for additional team members. Highlight your name in green once you've
 signed on with a team.
-
