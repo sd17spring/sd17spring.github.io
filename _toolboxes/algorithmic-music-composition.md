@@ -78,7 +78,7 @@ for _ in range(4):
     lick = licks[0]
     for note in lick:
         curr_note += note[0]
-        add_note(blues_scale[curr_note], note[1], beats_per_minute)
+        play_note(blues_scale[curr_note], note[1], beats_per_minute)
 ```
 
 Go ahead and try it! You will hear part of a blues scale!
