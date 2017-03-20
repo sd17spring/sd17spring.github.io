@@ -28,8 +28,10 @@ Before you can get started with this exercise, you will need to download
 [Sonic Pi](http://sonic-pi.net) music synthesis program, and
 (2) a [Python library](https://github.com/gkvoelkl/python-sonic) that lets you control **Sonic Pi** from Python.
 
-First, open up a terminal and execute the following commands:
+First, open up a terminal and execute the following commands. Answer "yes" to questions.
 
+    $ sudo add-apt-repository ppa:sonic-pi/ppa
+    $ sudo apt-get update
     $ sudo apt-get install sonic-pi
     $ sudo pip3 install python-sonic
 
