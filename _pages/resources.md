@@ -1,8 +1,8 @@
 ---
-date: 2017-02-22 10:10:00 -0500
-description: ''
-permalink: resources/
 title: Resources
+date: 2017-02-22 10:10:00 -05:00
+permalink: resources/
+description: ''
 ---
 
 {% include toc %}

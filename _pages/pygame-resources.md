@@ -1,8 +1,8 @@
 ---
-date: 2017-02-22
-description: ''
-permalink: resources/pygame/
 title: PyGame Resources with less <span style="color:green">green</span>
+date: 2017-02-22 00:00:00 -05:00
+permalink: resources/pygame/
+description: ''
 ---
 
 ## Foreword

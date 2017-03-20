@@ -1,7 +1,7 @@
 ---
-date: 2017-01-22
-description: ''
 title: Image Processing
+date: 2017-01-22 00:00:00 -05:00
+description: ''
 ---
 
 {% include toc %}

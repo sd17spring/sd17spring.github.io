@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-04-24
-date: 2017-04-24
-description: Project presentations
-published: false
 title: Day 25
+date: 2017-04-24 00:00:00 -04:00
+published: false
+activity_date: 2017-04-23 20:00:00 -04:00
+description: Project presentations
 ---
 
 ## Today

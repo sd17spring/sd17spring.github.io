@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-04-27
-date: 2017-04-27
-description: Final deliverables, where to go next
-published: false
 title: Day 26
+date: 2017-04-27 00:00:00 -04:00
+published: false
+activity_date: 2017-04-26 20:00:00 -04:00
+description: Final deliverables, where to go next
 ---
 
 ## Today

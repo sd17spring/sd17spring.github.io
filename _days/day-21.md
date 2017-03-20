@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-04-06
-date: 2017-04-06
-description: Project website/README, organizing large projects
-published: false
 title: Day 21
+date: 2017-04-06 00:00:00 -04:00
+published: false
+activity_date: 2017-04-05 20:00:00 -04:00
+description: Project website/README, organizing large projects
 ---
 
 ## Today

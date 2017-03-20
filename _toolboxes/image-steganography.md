@@ -1,7 +1,7 @@
 ---
-date: 2017-02-14
-description: ''
 title: Image Steganography
+date: 2017-02-14 00:00:00 -05:00
+description: ''
 ---
 
 {% include toc %}

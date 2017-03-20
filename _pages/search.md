@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Search
 permalink: search/
+layout: default
 sitemap: false
 ---
 

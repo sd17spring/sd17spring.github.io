@@ -1,23 +1,23 @@
 ---
-date: 2017-02-19
-description: >
-  The big idea of this project will be to move from static programs (ones that
-  are run, do some computations, and spit out a result) to interactive programs
-  (ones that allow the user to perform actions that change the state of the
-  program).
 title: 'Mini Project 4: Interactive Programming'
-start_date: 2017-02-23
-due_date: 2017-03-08
+date: 2017-02-19 00:00:00 -05:00
+description: 'The big idea of this project will be to move from static programs (ones
+  that are run, do some computations, and spit out a result) to interactive programs
+  (ones that allow the user to perform actions that change the state of the program).
+
+'
+start_date: 2017-02-22 19:00:00 -05:00
+due_date: 2017-03-07 19:00:00 -05:00
 parts:
-  - name: Project Proposal
-    due_date: 2017-02-23
-    tag: project-proposal
-  - name: Mid-Project Checkin
-    due_date: 2017-03-02
-    tag: mid-project-checkin
-  - name: Project Writeup and Reflection
-    due_date: 2017-03-08
-    tag: project-writeup-and-reflection
+- name: Project Proposal
+  due_date: 2017-02-22 19:00:00 -05:00
+  tag: project-proposal
+- name: Mid-Project Checkin
+  due_date: 2017-03-01 19:00:00 -05:00
+  tag: mid-project-checkin
+- name: Project Writeup and Reflection
+  due_date: 2017-03-07 19:00:00 -05:00
+  tag: project-writeup-and-reflection
 ---
 
 {% include toc %}

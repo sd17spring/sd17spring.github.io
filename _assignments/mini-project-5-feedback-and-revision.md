@@ -1,11 +1,12 @@
 ---
-date: 2017-01-15 12:36:16 -0500
-description: >
-  Reflection and revision is an important part of the iterative feedback
-  process. In this mini project, you will select one of your first four mini
-  projects to revise/extend and resubmit.
-due_date: 2017-04-23
 title: 'Mini Project 5: Feedback and Revision'
+date: 2017-01-15 12:36:16 -05:00
+description: 'Reflection and revision is an important part of the iterative feedback
+  process. In this mini project, you will select one of your first four mini projects
+  to revise/extend and resubmit.
+
+'
+due_date: 2017-04-22 20:00:00 -04:00
 ---
 
 ## Introduction

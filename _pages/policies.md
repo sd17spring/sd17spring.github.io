@@ -1,7 +1,7 @@
 ---
-date: 2017-01-19 13:27:25 -0500
-permalink: policies/
 title: Policies
+date: 2017-01-19 13:27:25 -05:00
+permalink: policies/
 ---
 
 ## Course Components

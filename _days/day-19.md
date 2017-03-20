@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-03-30
-date: 2017-03-30
-description: Debugging and profiling
-published: false
 title: Day 19
+date: 2017-03-30 00:00:00 -04:00
+published: false
+activity_date: 2017-03-29 20:00:00 -04:00
+description: Debugging and profiling
 ---
 
 {% include toc %}

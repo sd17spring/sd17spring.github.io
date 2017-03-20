@@ -1,7 +1,8 @@
 ---
-layout: null
 permalink: timeline.json
+layout: 
 ---
+
 {
   "title": {
     "text": {"headline": "SoftDes Assignments"}

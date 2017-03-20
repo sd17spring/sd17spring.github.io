@@ -1,77 +1,83 @@
-# Site settings
-title: "Software Design Spring 2017"
-description: > # this means to ignore newlines until "baseurl:"
-  This course is an introduction to software design. It focuses on a model of computation as a set of simultaneous
-  ongoing entities embedded in and interacting with a dynamic environment, for example: computation as it occurs in
-  spreadsheets, video games, web applications, and robots.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sd17spring.github.io/" # if you change this, change it in site.css too
+---
+title: Software Design Spring 2017
 timezone: America/New_York
+collections:
+  assignments:
+    title: Assignments
+    output: true
+    permalink: assignments/:path/
+  days:
+    title: Days
+    output: true
+    permalink: day/:path/
+  homepage_boxes:
+    title: Homepage Boxes
+    output: false
+  posts:
+    title: Posts
+    output: true
+  toolboxes:
+    title: Toolboxes
+    output: true
+    permalink: toolboxes/:path/
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    sidebar:
+      nav: docs
+- scope:
+    path: ''
+    type: assignments
+  values:
+    layout: assignment
+- scope:
+    path: ''
+    type: days
+  values:
+    layout: single
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: single
+- scope:
+    path: ''
+    type: toolboxes
+  values:
+    layout: single
+description: 'This course is an introduction to software design. It focuses on a model
+  of computation as a set of simultaneous ongoing entities embedded in and interacting
+  with a dynamic environment, for example: computation as it occurs in spreadsheets,
+  video games, web applications, and robots.
 
-# Theme settings
-breadcrumbs: true  # disabled by default
+'
+baseurl: ''
+url: https://sd17spring.github.io/
+breadcrumbs: true
 author:
-  github : sd17spring
-  name   : "Olin College computing faculty"
+  github: sd17spring
+  name: Olin College computing faculty
 copyright_date: 2015-2017
 copyright_holder: Franklin W. Olin College of Engineering
 slack:
   team: olin
   channel: softdes17spring
-# site_search: true
-
-collections:
-  assignments:
-    output: true
-    permalink: assignments/:path/
-  days:
-    output: true
-    permalink: day/:path/
-  homepage_boxes:
-    output: false
-  toolboxes:
-    output: true
-    permalink: toolboxes/:path/
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      sidebar:
-        nav: docs
-  - scope:
-      path: ""
-      type: assignments
-    values:
-      layout: assignment
-  - scope:
-      path: ""
-      type: days
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: toolboxes
-    values:
-      layout: single
-
 course:
   github_owner: sd17spring
   calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
-  piazza_url: 'https://piazza.com/olin/spring2017/engr2510'
-  # flootbits_url: https://floobits.com/sd17spring
+  piazza_url: https://piazza.com/olin/spring2017/engr2510
   entrance_survey_url: https://goo.gl/forms/6MsKDGVf5SGFyIg22
   mid_course_feedback_survey_url: https://goo.gl/forms/G13HYHhW8EYARRyz1
-  # visualization_teaming_spreadsheet: https://docs.google.com/spreadsheets/d/1gPIOu22NUhF_qKQERgW3SVuFnC-rYKbUBxw43U7N7QQ/edit?usp=sharing
-  # final_project_proposal_spreadsheet: https://docs.google.com/spreadsheets/d/1CwGwmxU_yvaH7iFTmoLtX4ehRtiwSls9nrcT_GRWZN4/edit?usp=sharing
   mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
   dates:
-    final_expo: 2017-05-04
-
-include: ["_pages"]
-exclude: ["README.md", "docker_compose.yml", "notebooks"]
+    final_expo: 2017-05-04 00:00:00.000000000 Z
+include:
+- _pages
+exclude:
+- README.md
+- docker_compose.yml
+- notebooks

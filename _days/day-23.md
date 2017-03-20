@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-04-13
-date: 2017-04-13
-description: Project work
-published: false
 title: Day 23
+date: 2017-04-13 00:00:00 -04:00
+published: false
+activity_date: 2017-04-12 20:00:00 -04:00
+description: Project work
 ---
 
 ## Today

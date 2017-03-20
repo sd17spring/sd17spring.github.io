@@ -1,25 +1,26 @@
 ---
-date: 2017-01-15 13:01:52 -0500
-description: >
-  From now until the end of the semester you will be working with a team of
-  students on a group software project. The project will culminate during the
-  Final Event period for this class,  with EXPO style demo / poster session.
-start_date: 2017-03-09
-due_date: 2017-05-04
-parts:
-  - name: Project Proposal
-    due_date: 2017-03-20
-    tag: project-proposal
-  - name: AR Preparation Document
-    due_date: 2017-03-27
-    tag: architectural-review
-  - name: AR Reflection Document
-    due_date: 2017-03-30
-    tag: architectural-review
-  - name: Final Deliverables
-    due_date: 2017-05-04
-    tag: project-website
 title: Final Project
+date: 2017-01-15 13:01:52 -05:00
+description: 'From now until the end of the semester you will be working with a team
+  of students on a group software project. The project will culminate during the Final
+  Event period for this class,  with EXPO style demo / poster session.
+
+'
+start_date: 2017-03-08 19:00:00 -05:00
+due_date: 2017-05-03 20:00:00 -04:00
+parts:
+- name: Project Proposal
+  due_date: 2017-03-19 20:00:00 -04:00
+  tag: project-proposal
+- name: AR Preparation Document
+  due_date: 2017-03-26 20:00:00 -04:00
+  tag: architectural-review
+- name: AR Reflection Document
+  due_date: 2017-03-29 20:00:00 -04:00
+  tag: architectural-review
+- name: Final Deliverables
+  due_date: 2017-05-03 20:00:00 -04:00
+  tag: project-website
 type: index
 ---
 

@@ -1,7 +1,7 @@
 ---
-date: 2017-03-18
-description: ''
 title: Algorithmic Music Composition
+date: 2017-03-18 00:00:00 -04:00
+description: ''
 ---
 
 {% include toc %}

@@ -1,9 +1,8 @@
 ---
-activity_date: 2017-01-23
-date: 2017-02-17T10:26:00 +5
-description: Ramping up in Python
-published: true
 title: Day 2
+date: 2017-02-17 00:26:00 -05:00
+activity_date: 2017-01-22 19:00:00 -05:00
+description: Ramping up in Python
 ---
 
 ## Today

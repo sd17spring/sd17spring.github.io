@@ -1,8 +1,8 @@
 ---
-date: 2017-01-14 10:36:07 -0500
+title: Architectural Review
+date: 2017-01-14 10:36:07 -05:00
 description: ''
 parent: final-project
-title: Architectural Review
 ---
 
 {% include toc %}

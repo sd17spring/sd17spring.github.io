@@ -1,9 +1,9 @@
 ---
-activity_date: 2017-04-20
-date: 2017-04-20
-description: Technical Review 2
-published: false
 title: Day 24
+date: 2017-04-20 00:00:00 -04:00
+published: false
+activity_date: 2017-04-19 20:00:00 -04:00
+description: Technical Review 2
 ---
 
 ## Today

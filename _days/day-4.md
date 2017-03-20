@@ -1,9 +1,8 @@
 ---
-activity_date: 2017-01-26
-date: 2017-01-26
-description: String formatting
-published: true
 title: Day 4
+date: 2017-01-26 00:00:00 -05:00
+activity_date: 2017-01-25 19:00:00 -05:00
+description: String formatting
 ---
 
 ## Today

@@ -1,9 +1,8 @@
 ---
-activity_date: 2017-01-24
-date: 2017-01-24
-description: Exploring modular design, intro to unit testing
-published: true
 title: Day 3
+date: 2017-01-24 00:00:00 -05:00
+activity_date: 2017-01-23 19:00:00 -05:00
+description: Exploring modular design, intro to unit testing
 ---
 
 ## Today

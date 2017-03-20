@@ -1,8 +1,8 @@
 ---
-date: 2017-02-22
-description: ''
-permalink: resources/git/
 title: Git Help
+date: 2017-02-22 00:00:00 -05:00
+permalink: resources/git/
+description: ''
 ---
 
 {% include toc %}

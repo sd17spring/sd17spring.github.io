@@ -1,7 +1,7 @@
 ---
-date: 2016-12-29T18:26:01
-description: ''
 title: Project Proposal Rubric
+date: 2016-12-29 13:26:01 -05:00
+description: ''
 ---
 
 100%

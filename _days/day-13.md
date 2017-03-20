@@ -1,8 +1,8 @@
 ---
-activity_date: 2017-03-06
-date: 2017-03-06
-description: Classes, UML diagrams
 title: Day 13
+date: 2017-03-06 00:00:00 -05:00
+activity_date: 2017-03-05 19:00:00 -05:00
+description: Classes, UML diagrams
 ---
 
 ## Today

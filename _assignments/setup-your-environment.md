@@ -1,14 +1,15 @@
 ---
-date: 2017-01-29
-description: >
-  Before we can get down to the business, we need to make sure we have the right
-  tools for the job. If you follow these instructions (with help from our
-  amazing NINJA team), your computer will be primed and ready to do some serious
-  computational work.
-start_date: 2017-01-19
-due_date: 2017-01-23
-layout: single
 title: Get Set
+date: 2017-01-29 00:00:00 -05:00
+description: 'Before we can get down to the business, we need to make sure we have
+  the right tools for the job. If you follow these instructions (with help from our
+  amazing NINJA team), your computer will be primed and ready to do some serious computational
+  work.
+
+'
+start_date: 2017-01-18 19:00:00 -05:00
+due_date: 2017-01-22 19:00:00 -05:00
+layout: single
 ---
 
 {% include toc %}

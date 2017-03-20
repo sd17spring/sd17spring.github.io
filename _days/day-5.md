@@ -1,8 +1,8 @@
 ---
-activity_date: 2017-01-30
-date: 2017-01-30
-description: GitHub pull requests; loops
 title: Day 5
+date: 2017-01-30 00:00:00 -05:00
+activity_date: 2017-01-29 19:00:00 -05:00
+description: GitHub pull requests; loops
 ---
 
 ## Today
