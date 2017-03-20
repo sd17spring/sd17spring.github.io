@@ -3,8 +3,6 @@ title: Web Sites
 position: 4
 ---
 
-This course has (we've heard!) a confusing number of web sites! Here's all of them:
-
 [Course web site](https://sd17spring.github.io)
 : **What**: The main course site. (You're looking at it.)
 : **Used for**: Assignment descriptions, resources, syllabus, calendar, policies.
