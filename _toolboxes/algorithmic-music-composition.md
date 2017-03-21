@@ -6,8 +6,6 @@ description: ''
 
 {% include toc %}
 
-**Warning: Nobody except Oliver has yet got this to produce sound on their computer!**
-
 For this toolbox exercise you will be creating a computer program that
 composes music! This type of programming is also known as "algorithmic music
 composition". You may think that this idea is relatively new, but the history
@@ -30,11 +28,40 @@ Before you can get started with this exercise, you will need to download
 [Sonic Pi](http://sonic-pi.net) music synthesis program, and
 (2) a [Python library](https://github.com/gkvoelkl/python-sonic) that lets you control **Sonic Pi** from Python.
 
+### Install Sonic Pi
+
 First, open up a terminal and execute the following commands. Answer "yes" to questions.
 
     $ sudo add-apt-repository ppa:sonic-pi/ppa
     $ sudo apt-get update
     $ sudo apt-get install sonic-pi
+
+### Test Sonic Pi
+
+Launch the **Sonic Pi** program. Click on the Search icon at the top of the Ubuntu tool bar.
+
+![]({% link files/toolboxes/algorithmic-music-composition/ubuntu-search-icon.png %})
+
+
+Type "Sonic Pi" into the search dialog and click on the **Sonic Pi** icon.
+
+![]({% link files/toolboxes/algorithmic-music-composition/search-dialog.png %})
+
+Now, enter <kbd>play 60</kbd> into the text area in the upper left pane (beneath the <code># Welcome to Sonic Pi</code>
+text), and press the "Run" button. ![]({% link files/toolboxes/algorithmic-music-composition/sonic-pi-play.png %})
+
+*If you hear a tone*, you are good to go. Proceed to the next section "Get Set with Python".
+
+If you do *not* hear a tone, verify that your volume is turned up.
+If that doesn't work, follow the instructions in
+[this Stack Overflow answer](http://stackoverflow.com/a/12768031/220667).
+[These are the instructions that start with `sudo lshw -c multimedia`, and end with `jackd -R -d alsa`.]
+Then test **Sonic Pi** again.
+
+### Get Set with Python
+
+First, open up a terminal and execute the following command:
+
     $ sudo pip3 install python-sonic
 
 Grab the starter code for this toolbox via the normal fork-and-clone method
