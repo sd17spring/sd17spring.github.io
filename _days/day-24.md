@@ -2,7 +2,7 @@
 title: Day 24
 date: 2017-04-20 00:00:00 -04:00
 published: false
-activity_date: 2017-04-24
+activity_date: 2017-04-23 20:00:00 -04:00
 description: Technical Review 2
 ---
 
