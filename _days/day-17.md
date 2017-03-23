@@ -1,7 +1,6 @@
 ---
 title: Day 17
 date: 2017-03-23 00:00:00 -04:00
-published: false
 activity_date: 2017-03-22 20:00:00 -04:00
 description: Analysis of algorithms
 ---

@@ -1,7 +1,6 @@
 ---
 title: Day 16
 date: 2017-03-20 00:00:00 -04:00
-published: false
 activity_date: 2017-03-19 20:00:00 -04:00
 description: Review project proposals
 ---
@@ -12,8 +11,8 @@ description: Review project proposals
 
 ## For Next Time
 
-* Reading journal day 16 (Think Python Appendix B)
-* All 5 project toolboxes due Monday
+* Reading journal day 15 (Think Python Appendix B)
+* All 5 project toolboxes due Tuesday
 * Collaboration in git tutorial: Sunday 6-8 office hours and Wednesday at SLAC
 
 
