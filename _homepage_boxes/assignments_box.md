@@ -3,13 +3,11 @@ title: Due Soon
 position: 1
 ---
 
-**Monday March 20**
-
-* [Final Project Proposals]({% link _assignments/final-project.md %}#project-proposal)
-* Enter your team in the [Final Team spreadsheet](https://docs.google.com/spreadsheets/d/1qr068qhurZSSAcj67rtdQ1qCWML5WymOZYrl3cDzNIc/edit#gid=0)
-
 **Thursday March 23**
 * [Reading Journal Day 15](https://github.com/sd17spring/ReadingJournal/blob/master/day15_reading_journal.ipynb)
+
+**Monday March 27**
+* Final Project: [Architectural Review]({% link _assignments/final-project/architectural-review.md %})
 
 **Tuesday March 28**
 * All five project toolboxes.
