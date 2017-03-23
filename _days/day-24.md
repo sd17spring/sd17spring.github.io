@@ -2,7 +2,7 @@
 title: Day 24
 date: 2017-04-20 00:00:00 -04:00
 published: false
-activity_date: 2017-04-19 20:00:00 -04:00
+activity_date: 2017-04-24
 description: Technical Review 2
 ---
 
@@ -22,6 +22,3 @@ Groups C+F: AC126
 
 * TR #2 reflection document due Monday
 * Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details]({% link _assignments/final-project/project-presentation-rubric.md %}).
-
-
-

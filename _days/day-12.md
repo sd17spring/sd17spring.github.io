@@ -1,7 +1,7 @@
 ---
 title: Day 12
 date: 2017-02-27 00:00:00 -05:00
-activity_date: 2017-02-26 19:00:00 -05:00
+activity_date: 2017-02-27
 description: Model-View-Controller
 ---
 
