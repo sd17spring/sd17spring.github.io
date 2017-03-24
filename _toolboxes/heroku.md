@@ -1,6 +1,6 @@
 ---
-title: 'Web Deployment'
-date: 2017-03-24 00:00:00 -05:00
+title: Web Deployment
+date: 2017-03-24 01:00:00 -04:00
 description: Use Heroku to run a web application at a publically accessible URL.
 ---
 
