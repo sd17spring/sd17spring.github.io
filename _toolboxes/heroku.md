@@ -13,8 +13,11 @@ description: Use Heroku to run a web application at a publically accessible URL.
 In this toolbox, you will deploy a Flask application to the cloud, so that users can visit it at a public
 URL.
 
-To start, you will need a Flask application. If you don't have one, first complete the [Web Apps Toolbox]({% link _toolboxes/web-apps.md %}) to create a web application.
+You will learn how to use `git push` to deploy to the Heroku hosting service, how to configure a Flask application to accept external requests, how and why to configure a Flask application to listen on different TCP/IP ports.
 
+## Prerequisites
+
+To start, you will need a Flask application that runs on your laptop. If you don't have one, complete the [Web Apps Toolbox]({% link _toolboxes/web-apps.md %}) and then return to this toolbox.
 
 ## Get Set
 
