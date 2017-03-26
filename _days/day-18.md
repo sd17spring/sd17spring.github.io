@@ -1,15 +1,17 @@
 ---
 title: Day 18
 date: 2017-03-27 00:00:00 -04:00
-published: false
-activity_date: 2017-03-29 20:00:00 -04:00
-description: Technical Review 1
+published: true
+activity_date: 2017-03-27 20:00:00 -04:00
+description: Architectural Review
 ---
 
 ## Today
 
-* Technical review 1
+* Architectural Review
+* [View the schedule](https://docs.google.com/spreadsheets/d/1uzT4UIbA-dGVnvxw5YQ36xo4uDCLLsCuBYf0JanX9eU/edit?usp=sharing)
+
 
 ## For Next Time
 
-* Post technical review 1 reflection document
+* Post Architectural Review reflection document
