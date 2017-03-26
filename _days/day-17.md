@@ -1,7 +1,6 @@
 ---
 title: Day 17
 date: 2017-03-27 00:00:00 -04:00
-published: true
 activity_date: 2017-03-27 20:00:00 -04:00
 description: Architectural Review
 ---
