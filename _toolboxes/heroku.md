@@ -106,11 +106,13 @@ Create the following three files, with these contents:
 
 **runtime.txt**:
 
-    python-3.5.`
+    python-3.6.1
 
 **requirements.txt**:
 
     Flask
+
+sUse `git add` to add these files to the repository, and commit them.
 
 Test your `Procfile` locally:
 
