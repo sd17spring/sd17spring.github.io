@@ -8,8 +8,6 @@ description: Use Heroku to run a web application at a publically accessible URL.
 
 ## Introduction
 
-{% include construction %}
-
 In this toolbox, you will deploy a Flask application to the cloud, so that users can visit it at a public
 URL.
 
@@ -35,12 +33,11 @@ To start, you will need a Flask application that runs on your laptop. If you don
     Password (typing will be hidden):
     ```
 
-
 ## Create a Heroku application
 
 Run `heroku apps:create` to create a Heroku **application**:
 
-```
+``` bash
 $ heroku apps:create                                                                              web-app
 Creating app... done, boiling-brushlands-71788
 https://boiling-brushlands-71788.herokuapp.com/ | https://git.heroku.com/boiling-brushlands-71788.git
@@ -52,7 +49,7 @@ among all Heroku applications (for all users). For example, `heroku app:create o
 
 ## Publish Your Application to Heroku
 
-```
+``` bash
 $ cd /path/to/web-app
 $ heroku git:remote -a my-heroku-app-name
 $ git push heroku master
@@ -91,47 +88,52 @@ therefore doesn't know how to run it.
 You need to add three files to your repository in order to tell Heroku
 how to [provision a server](https://en.wikipedia.org/wiki/Provisioning#Server_provisioning):
 
-* `requirements.txt` is a list of Python packages. This tells Heroku that your application is a Python
+`requirements.txt`
+: is a list of Python packages. This tells Heroku that your application is a Python
   program, and which packages to install.
-* `Procfile` lists the command and arguments that starts your program.
-  (This is also in the README: `python server.py`.)
-* `runtime.txt` specifies the Python version. Without this, Heroku assumes Python 2.7.
-  The toolbox Python 3, so it is necessary to override this.
 
-Create the following three files, with these contents:
+`Procfile`
+: lists the command and arguments that starts your program.
 
-**Procfile**:
+`runtime.txt`
+: specifies the Python version. Without this file, Heroku will use Python 2.7.
+The toolboxes use Python 3, so it is necessary to override this.
 
-    web: python3 hello.py
+1. Create the following three files, with these contents:
 
-**runtime.txt**:
+    **`Procfile`**
 
-    python-3.6.1
+        web: python3 hello.py
 
-**requirements.txt**:
+    **`runtime.txt`**
 
-    Flask
+        python-3.6.1
 
-sUse `git add` to add these files to the repository, and commit them.
+    **`requirements.txt`**
 
-Test your `Procfile` locally:
+        Flask
 
+2. Use `git add` to add the new files to the repository, and commit them.
+
+3. Test your `Procfile` locally:
+
+    ``` bash
     $ heroku local web
+    ```
 
-Running `heroku local` has the same effect as just running  `python hello.py`, but it uses the same `Procfile` that Heroku use. It's therefore a better test, on your development laptop, of what will happen “in production”. (See [The Twelve-Factor App: Dev/prod parity](https://12factor.net/dev-prod-parity).)
+      [Running `heroku local` has the same effect as just running  `python hello.py`, but it uses the same `Procfile` that Heroku use. It's therefore a better test, on your development laptop, of what will happen “in production”. (See [The Twelve-Factor App: Dev/prod parity](https://12factor.net/dev-prod-parity).)]
 
-Now `git push heroku master` again. This time the deploy should succeed:
+4. Now `git push heroku master` again. This time the deploy should succeed:
 
-```
-$ git push heroku master
-[…]
-remote: -----> Launching...
-remote:        Released v18
-remote:        https://my-heroku-app-name.com/ deployed to Heroku
-remote: Verifying deploy.... done.
-To https://git.heroku.com/my-heroku-app-name.git
-```
-
+    ``` bash
+    $ git push heroku master
+    […]
+    remote: -----> Launching...
+    remote:        Released v18
+    remote:        https://my-heroku-app-name.com/ deployed to Heroku
+    remote: Verifying deploy.... done.
+    To https://git.heroku.com/my-heroku-app-name.git
+    ```
 
 ## Open Your App in a Browser
 
@@ -161,23 +163,29 @@ Internally, Heroku expects your app to accept an HTTP connection on some port th
 
 Fix these two problems (using `0.0.0.0`, and reading the port number from an environment variable) as follows:
 
-Define `HOST ` and `PORT` as below. Then add `host` and `port` arguments to the `app.run` function. Commit the change, `git push` to Heroku again, and test again. You should see your web page.
+1. Add this line to the top of your file:
 
-```
+    ``` python
+    import os.environ
+    ```
+
+2. Define `HOST ` and `PORT` as below. Then add `host` and `port` arguments to the `app.run` function. Commit the change, `git push` to Heroku again, and test again. You should see your web page.
+
+    ``` python
     HOST = '0.0.0.0' if 'PORT' in os.environ else '127.0.0.1'
     PORT = int(os.environ.get('PORT', 5000)))
     app.run(host=HOST, port=PORT)
-```
+    ```
 
 
 ## Whitelist the Domain
 
-Problem: Olin's DNS provider blocks some new sites from the Olin network after a 1-3 day grace period.
+**Problem:** Olin's [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) provider blocks some new sites from the Olin network after a 1-3 day grace period.
 Your app may work for a while, and then stop working with the message below:
 
 ![](/images/toolboxes/heroku/it_security_message.png)
 
-Solution: Send a message to <helpdesk@olin.edu>: “I am using the domain name myapp.herokuapp.com for a class project, and need access to it from within the Olin network. Please configure DNS so that it does not block this site.”
+**Solution:** Send a message to <helpdesk@olin.edu>: “I am using the domain name myapp.herokuapp.com for a class project, and need access to it from within the Olin network. Please configure DNS so that it does not block this site.”
 
 ## What to Turn In
 
