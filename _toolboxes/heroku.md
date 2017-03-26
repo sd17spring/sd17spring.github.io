@@ -1,6 +1,6 @@
 ---
 title: Web Deployment
-date: 2017-03-24 01:00:00 -04:00
+date: 2017-03-26 14:58:00 -04:00
 description: Use Heroku to run a web application at a publically accessible URL.
 ---
 
@@ -98,6 +98,8 @@ how to [provision a server](https://en.wikipedia.org/wiki/Provisioning#Server_pr
 `runtime.txt`
 : specifies the Python version. Without this file, Heroku will use Python 2.7.
 The toolboxes use Python 3, so it is necessary to override this.
+
+Here's what to do:
 
 1. Create the following three files, with these contents:
 
