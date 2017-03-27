@@ -9,12 +9,19 @@ header:
   overlay_image: "/assets/images/splash-banner.png"
 ---
 
+{% assign latest_day = (site.days | sort: 'activity_date' | last ) %}
+
+{% if latest_day.homepage_message %}
+<h1 align="center" style="text-align: center"><big>{{ latest_day.title }} – {{ latest_day.activity_date | date: '%a, %b %d' }}</big></h1>
+<div style="text-align: center"><big>{{ latest_day.homepage_message }}</big></div>
+{% endif %}
+
 {% comment %}
 Home page modules are in _splash_modules/*
 {% endcomment %}
 
-{% assign sorted = (site.homepage_boxes | sort: 'position') %}
-{% for module in sorted %}
+{% assign modules = (site.homepage_boxes | sort: 'position') %}
+{% for module in modules %}
   {% assign loopindex = forloop.index0 | modulo: 3 %}
   {% if loopindex == 0 %}
     <div class="feature__wrapper">
