@@ -1,5 +1,5 @@
 ---
-title: Teaching Team
+title: Teaching Tea
 position: 5
 ---
 

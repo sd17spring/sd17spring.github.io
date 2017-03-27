@@ -1,7 +1,9 @@
 ---
-title: Web Sites
+title: Communications
 position: 4
 ---
+
+If you need help outside of class and office hours, use [Slack](https://{{ site.slack.team }}.slack.com/messages/{{ site.slack.channel }}) or [Piazza]({{ site.course.piazza_url }}).
 
 [Course web site](https://sd17spring.github.io)
 : **What**: The main course site. (You're looking at it.)
