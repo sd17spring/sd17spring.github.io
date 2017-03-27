@@ -1,13 +1,14 @@
 /* Override main.scss settings */
 /*.page { width: inherit; padding-left: 10pt; padding-right: 10pt; }*/
 .archive a { color:#52adc8; }
-.archive a:hover, .archive a:active {text-decoration:underline }
+.archive a:hover, .archive a:active { text-decoration: underline }
 .page__content p, .page__content li, .page__content dl { font-size: 16px; }
 .page__content dd li { font-size: 1em; }
 .nav__items li {
   padding-left: 1em;
   text-indent: -1em;
 }
+.nav__list .nav__items a:hover { text-decoration: underline; }
 .page__content dd { font-size: 16px !important; }
 .archive__item-excerpt li { line-heighxt: 26px; margin-bottom: 2px; }
 
