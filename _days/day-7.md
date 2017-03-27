@@ -1,7 +1,7 @@
 ---
 title: Day 7
 date: 2017-01-31 00:00:00 -05:00
-activity_date: 2017-02-06
+activity_date: 2017-02-05 19:00:00 -05:00
 description: Recursion, fractals in TurtleWorld
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Day 9
 date: 2017-02-16 00:00:00 -05:00
-activity_date: 2017-02-16
+activity_date: 2017-02-15 19:00:00 -05:00
 description: Keeping secrets out of the public eye, Saving data sets with pickle
 ---
 

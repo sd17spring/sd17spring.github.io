@@ -1,7 +1,7 @@
 ---
 title: Day 11
 date: 2017-02-23 00:00:00 -05:00
-activity_date: 2017-02-23
+activity_date: 2017-02-22 19:00:00 -05:00
 description: Classes
 ---
 
