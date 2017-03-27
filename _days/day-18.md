@@ -7,6 +7,4 @@ description: Architectural Review
 
 ## Today
 
-Post Architectural Review reflection document
-
-## For Next Time
+* Post your [Architectural Review reflection document]({% link _assignments/final-project/architectural-review.md %}#after-the-architectural-review)

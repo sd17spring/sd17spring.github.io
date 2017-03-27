@@ -3,9 +3,6 @@ title: Due Dates
 position: 1
 ---
 
-Monday March 27
-: [Final Project: Architectural Review]({% link _assignments/final-project/architectural-review.md %})
-
 Tuesday March 28
 : All five [project toolboxes]({% link _pages/toolboxes.md %}).
 
