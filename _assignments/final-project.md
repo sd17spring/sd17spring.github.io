@@ -64,7 +64,7 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 ### Project Proposal
 
-_Due {{site.data.dates.final_proposal | date: '%B %d' }}_
+_Due {{site.data.dates.final_proposal | date: '%B %-d' }}_
 
 **The project proposal is worth 10% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
 
@@ -82,7 +82,7 @@ The teaching team will either approve you to post your proposal to your projects
 
 ### Architectural Review
 
-_Date: {{site.data.dates.tr1 | date: '%B %d' }}_
+_Date: {{site.data.dates.tr1 | date: '%B %-d' }}_
 
 **The Architectural review is worth 15% of the project grade ([rubric]({% link _assignments/final-project/architectural-review.md %})).**
 
@@ -97,11 +97,11 @@ See the [Architectural Review]({% link _assignments/final-project/architectural-
 
 ### Project Presentation
 
-_Date: {{site.data.dates.project_presentation | date: '%B %d' }}_
+_Date: {{site.data.dates.project_presentation | date: '%B %-d' }}_
 
 **The Project Presentation is worth 10% of the project grade** **(see [project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
-On {{site.data.dates.project_presentation | date: '%B %d' }} your team will present the progress with the project to the
+On {{site.data.dates.project_presentation | date: '%B %-d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
 this activity will be around successful and professional communication. There
 will be limited time for feedback in class, but you can communicate your
@@ -109,7 +109,7 @@ feedback using the online form.
 
 ### Project Website
 
-_Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
+_Due: {{site.data.dates.final_deliverables | date: '%B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 
@@ -175,7 +175,7 @@ will still be around in the future!
 
 ### Demo Session Poster
 
-_Printed before {{site.data.dates.final_deliverables | date: '%B %d' }} at 8am_
+_Printed before {{site.data.dates.final_deliverables | date: '%B %-d' }} at 8am_
 
 **The poster is worth 10% of the project grade.**
 
@@ -191,7 +191,7 @@ printed in time for the May 5th expo.
 
 #### Code submission
 
-_Due: {{site.data.dates.final_deliverables | date: '%B %d' }}_
+_Due: {{site.data.dates.final_deliverables | date: '%B %-d' }}_
 
 **Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link _pages/policies.md %}))**
 

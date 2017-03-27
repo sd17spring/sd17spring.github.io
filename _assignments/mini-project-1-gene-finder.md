@@ -165,7 +165,7 @@ next section explains the purpose of each of these files.
 
 ## Week 1
 
-**Due {{ page.parts[0].due_date | date: '%A, %B %d' }}**
+**Due {{ page.parts[0].due_date | date: '%a, %b %-d' }}**
 
 ### Getting the Lay of the Land
 
@@ -338,7 +338,7 @@ The check in will be worth 20% of the final grade for this assignment.
 
 ## Week 2
 
-**Due {{ page.parts[1].due_date | date: '%A, %B %d' }}**
+**Due {{ page.parts[1].due_date | date: '%a, %b %-d' }}**
 
 This week you will be implementing the rest of the functions necessary to
 create your gene finder. Once you have done that, you will be using your code
