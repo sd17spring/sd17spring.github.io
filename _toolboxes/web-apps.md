@@ -1,6 +1,6 @@
 ---
 title: Web Apps
-date: 2017-02-17 00:00:00 -05:00
+date: 2017-03-04 21:03:00 -05:00
 description: ''
 ---
 
@@ -237,7 +237,9 @@ pull request to get checked off.
 
 ## Going further
 
-1. **Learn more about [Django](https://www.djangoproject.com/)**  \- an alternative to Flask. They don't have many major differences other than some small quirks in conventions and style. See [here](https://wakatime.com/blog/25-pirates-use-flask-the-navy-uses-django) for more analysis.
-2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Language](https://www.codecademy.com/learn/learn-sql) to manipulate all stored, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDb, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
-3. **But HTML is so ugly!**  HTML alone **is**  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
+1. **Learn more about [Django](https://www.djangoproject.com/)** – an alternative to Flask. They don't have many major differences other than some small quirks in conventions and style. See [here](https://wakatime.com/blog/25-pirates-use-flask-the-navy-uses-django) for more analysis.
+2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Language](https://www.codecademy.com/learn/learn-sql) to manipulate stored data, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDb, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
+3. **But HTML is so ugly!**  HTML alone *is*  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
 4. **What about making my website dynamic?**  SoftDes may be a class in Python, but we can venture out a little and use some [jQuery](http://www.w3schools.com/jquery/jquery_intro.asp). jQuery might seem scary, but you use it in a way similar to adding/linking CSS styling to your HTML. You write scripts in JavaScript (which isn't too difficult), which can allow you to add beautiful responsive and dynamic content to your web app.
+5. You can also use [D3](https://d3js.org) to display graphical dat in a web page.
+6. **Deploying to the cloud.**  Want to run your application on a server in the cloud, with a public URL? Try the [Web Deployment]({% link _toolboxes/heroku.md %}) toolbox next.
