@@ -3,14 +3,14 @@ title: Due Dates
 position: 1
 ---
 
-**Monday March 27**
-* [Final Project: Architectural Review]({% link _assignments/final-project/architectural-review.md %})
+Monday March 27
+: [Final Project: Architectural Review]({% link _assignments/final-project/architectural-review.md %})
 
-**Tuesday March 28**
-* All five project toolboxes.
+Tuesday March 28
+: All five [project toolboxes]({% link _pages/toolboxes.md %}).
 
-**Monday April 3**
-* [Reading Journal Day 18](https://github.com/sd17spring/ReadingJournal/blob/master/day18_reading_journal.ipynb)
+Monday April 3
+: [Reading Journal Day 18](https://github.com/sd17spring/ReadingJournal/blob/master/day18_reading_journal.ipynb)
 
 ---
 
