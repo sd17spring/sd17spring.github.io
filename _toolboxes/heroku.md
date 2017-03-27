@@ -1,6 +1,6 @@
 ---
 title: Web Deployment
-date: 2017-03-26 14:58:00 -04:00
+date: 2017-03-26 21:03:00 -04:00
 description: Use Heroku to run a web application at a publically accessible URL.
 ---
 
@@ -11,11 +11,11 @@ description: Use Heroku to run a web application at a publically accessible URL.
 In this toolbox, you will deploy a Flask application to the cloud, so that users can visit it at a public
 URL.
 
-You will learn how to use `git push` to deploy to the Heroku hosting service, how to configure a Flask application to accept external requests, how and why to configure a Flask application to listen on different TCP/IP ports.
+You will learn how to use `git push` to deploy to the Heroku hosting service, how to configure a Flask application to accept external requests, and how and why to configure a Flask application to listen on different TCP/IP ports.
 
 ## Prerequisites
 
-To start, you will need a Flask application that runs on your laptop. If you don't have one, complete the [Web Apps Toolbox]({% link _toolboxes/web-apps.md %}) and then return to this toolbox.
+To start, you will need a Flask application that runs on your laptop. If you don't have such an application, complete the [Web Apps Toolbox]({% link _toolboxes/web-apps.md %}) and then return to this toolbox.
 
 ## Get Set
 
@@ -45,7 +45,8 @@ https://boiling-brushlands-71788.herokuapp.com/ | https://git.heroku.com/boiling
 
 `heroku apps:create` selects a random name (above, "boiling-brushlands-71788")
 for your application. You can also *specify* a name, so long as it is unique
-among all Heroku applications (for all users). For example, `heroku app:create osteele-toolbox` makes my application available at <https://osteele-toolbox.herokuapp.com>.
+among all Heroku applications (for all users).
+For example, `heroku app:create osteele-toolbox` makes my application available at `https://osteele-toolbox.herokuapp.com`.
 
 ## Publish Your Application to Heroku
 
@@ -82,7 +83,7 @@ error: failed to push some refs to 'https://git.heroku.com/my-heroku-app-name.gi
 
 If you Google around and spend some time learning what a "buildpack" is
 (not required for this toolbox), you will eventually learn that Heroku
-doesn't recognize what language your application is written in, and
+can't figure out what programming language your application is written in, and
 therefore doesn't know how to run it.
 
 You need to add three files to your repository in order to tell Heroku
@@ -115,15 +116,17 @@ Here's what to do:
 
         Flask
 
-2. Use `git add` to add the new files to the repository, and commit them.
+2. Use `git add` to add the new files to the repository. `git commit` them.
 
-3. Test your `Procfile` locally:
+3. Test the `Procfile` on your laptop:
 
     ``` bash
     $ heroku local web
     ```
 
-      [Running `heroku local` has the same effect as just running  `python hello.py`, but it uses the same `Procfile` that Heroku use. It's therefore a better test, on your development laptop, of what will happen “in production”. (See [The Twelve-Factor App: Dev/prod parity](https://12factor.net/dev-prod-parity).)]
+    Running `heroku local` has the same effect as running `python3 hello.py`, but it uses the same `Procfile` that Heroku will use.
+    Running therefore `herokku local` tests more of what will happen “in production” than running `python3 hello.py` does.
+    (See [The Twelve-Factor App: Dev/prod parity](https://12factor.net/dev-prod-parity).
 
 4. Now `git push heroku master` again. This time the deploy should succeed:
 
@@ -191,7 +194,7 @@ Your app may work for a while, and then stop working with the message below:
 
 ## What to Turn In
 
-1. Add more functionality to the application. ([Seaborn](http://seaborn.pydata.org)? [D3](https://d3js.org)?)
+1. Add more functionality to the application. For example, another of the items from the "Going further" section of the [Web App]({% link _toolboxes/web-apps.md %}) toolbox.
 
 2. Add a link from your GitHub repo to your (Heroku) application URL.
 
@@ -212,5 +215,5 @@ Your app may work for a while, and then stop working with the message below:
 
 Some things you can do to learn more and/or have more fun:
 
-* Add more functionality to the application. ([Seaborn](http://seaborn.pydata.org)? [D3](https://d3js.org)?)
-* Add an `app.json` file, and a ![](https://www.herokucdn.com/deploy/button.svg) button. [Instructions](https://devcenter.heroku.com/articles/heroku-button).
+* Add an `app.json` file, and a ![](https://www.herokucdn.com/deploy/button.svg) button. The instructions are [here](https://devcenter.heroku.com/articles/heroku-button).
+* Learn about [gunicorn](https://devcenter.heroku.com/articles/python-gunicorn). Use this to deploy a web application that can serve more than one HTTP request at a time.
