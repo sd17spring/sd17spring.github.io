@@ -3,7 +3,8 @@ title: Day 17
 date: 2017-03-27 00:00:00 -04:00
 activity_date: 2017-03-27 20:00:00 -04:00
 description: Architectural Review
-homepage_message: Find your team on the <a href="https://docs.google.com/spreadsheets/d/1uzT4UIbA-dGVnvxw5YQ36xo4uDCLLsCuBYf0JanX9eU/edit?usp=sharing">review schedule</a>.
+homepage_message: Find your team on the <a href="https://docs.google.com/spreadsheets/d/1uzT4UIbA-dGVnvxw5YQ36xo4uDCLLsCuBYf0JanX9eU/edit?usp=sharing">review
+  schedule</a>.
 ---
 
 ## Today
