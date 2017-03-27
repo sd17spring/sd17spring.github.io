@@ -20,22 +20,23 @@ teach themselves as lifelong learners. In each, you'll:
   3. Extend it in ways that are interesting to you
 
 The basic part of each exercise is intended to be relatively quick, taking an
-hour or so (if you find yourself taking significantly longer, be sure to ask
-for help). There are also lots of opportunities to take things further - many
+hour or so. (If you find yourself taking significantly longer, be sure to ask
+for help.) There are also lots of opportunities to take things further – many
 of the topics are active research areas, and you could easily work on some of
 them for a lifetime!
 
 
-### Tips for success:
+### Tips for success
 
   * **Don't suffer in silence.** Many of these exercises require installing new packages, which can sometimes come with hiccups. If you're struggling with something, let us know about it on Piazza so we can fix it for you and everyone else.
-  * **Start early**. The project toolbox can be a great source of inspiration for your final project, but only if you try them in time.
+  * **Start early**. The project toolbox can be a great source of inspiration for your final project – but only if you try them in time.
   * **Have fun** and follow your own learning goals.
 
 
 ## Toolboxes
 
-{% for toolbox in site.toolboxes %}
+{% assign toolboxes = site.toolboxes | sort: 'title' %}
+{% for toolbox in toolboxes %}
 * [{{ toolbox.title }}]({{ toolbox.url }}){% endfor %}
 
 
@@ -48,7 +49,7 @@ may want to schedule a brief demo with a NINJA.
 
 You will complete at least five Project Toolbox exercises. At least three must
 be done before Spring Break (due by March 13th), and the remaining exercises
-can be completed during the first week of the final project (due by March
+can be completed during the second week of the final project (due by March
 28th).
 
 If you get through the Project Toolbox exercises and you have a great idea for
