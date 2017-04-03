@@ -1,7 +1,7 @@
 ---
 title: Day 15
 date: 2017-03-20 00:00:00 -04:00
-activity_date: 2017-03-19 20:00:00 -04:00
+activity_date: 2017-03-20
 description: Final project Team formation and Project Proposals
 ---
 

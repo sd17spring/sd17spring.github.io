@@ -1,7 +1,7 @@
 ---
 title: Day 10
 date: 2017-02-21 00:00:00 -05:00
-activity_date: 2017-02-21 19:00:00 -05:00
+activity_date: 2017-02-22
 description: Text mining mini-project work and making classes
 ---
 

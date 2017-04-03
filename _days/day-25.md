@@ -2,7 +2,7 @@
 title: Day 25
 date: 2017-04-24 00:00:00 -04:00
 published: false
-activity_date: 2017-04-26 20:00:00 -04:00
+activity_date: 2017-04-27
 description: Project presentations
 ---
 
