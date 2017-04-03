@@ -1,20 +1,14 @@
 ---
 title: Day 20
 date: 2017-04-03 00:00:00 -04:00
-published: false
-activity_date: 2017-04-05 20:00:00 -04:00
+published: true
+activity_date: 2017-04-03 20:00:00 -04:00
 description: Exceptions and assertions
 ---
 
 ## Today
 
 * Exceptions and Assertions
-
-## For Next Time
-
-* [MP5 details]({% link _assignments/mini-project-5-feedback-and-revision.md %}) posted, due 4/19
-* Code review in class next Thursday
-* No reading journal assigned
 
 ## Helpful references
 
