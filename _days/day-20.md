@@ -1,7 +1,6 @@
 ---
 title: Day 20
 date: 2017-04-03 00:00:00 -04:00
-published: true
 activity_date: 2017-04-03 20:00:00 -04:00
 description: Exceptions and assertions
 ---
