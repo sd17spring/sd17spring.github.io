@@ -5,8 +5,8 @@ description: 'In this assignment you will learn how to use computational techniq
   to analyze text.
 
 '
-start_date: 2017-02-12 19:00:00 -05:00
-due_date: 2017-02-22 19:00:00 -05:00
+start_date: 2017-02-13
+due_date: 2017-02-23
 toc: true
 ---
 

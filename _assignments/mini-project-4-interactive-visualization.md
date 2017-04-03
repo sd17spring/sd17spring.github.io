@@ -6,17 +6,17 @@ description: 'The big idea of this project will be to move from static programs 
   (ones that allow the user to perform actions that change the state of the program).
 
 '
-start_date: 2017-02-22 19:00:00 -05:00
-due_date: 2017-03-07 19:00:00 -05:00
+start_date: 2017-02-23
+due_date: 2017-03-08
 parts:
 - name: Project Proposal
-  due_date: 2017-02-22 19:00:00 -05:00
+  due_date: 2017-02-23
   tag: project-proposal
 - name: Mid-Project Checkin
-  due_date: 2017-03-01 19:00:00 -05:00
+  due_date: 2017-03-02
   tag: mid-project-checkin
 - name: Project Writeup and Reflection
-  due_date: 2017-03-07 19:00:00 -05:00
+  due_date: 2017-03-08
   tag: project-writeup-and-reflection
 ---
 

@@ -5,8 +5,8 @@ description: 'In this assignment you will be exploring one particular means of u
   computers to generate images.
 
 '
-start_date: 2017-02-05 19:00:00 -05:00
-due_date: 2017-02-12 19:00:00 -05:00
+start_date: 2017-02-06
+due_date: 2017-02-13
 ---
 
 {% include toc %}

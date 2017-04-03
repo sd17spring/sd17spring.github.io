@@ -7,15 +7,15 @@ description: 'In this assignment you will be writing a Python program that analy
   bacterium Salmonella Enterica.
 
 '
-start_date: 2017-01-22 19:00:00 -05:00
-due_date: 2017-02-05 19:00:00 -05:00
+start_date: 2017-01-23
+due_date: 2017-02-06
 parts:
 - name: Week 1
   tag: week-1
-  due_date: 2017-01-29 19:00:00 -05:00
+  due_date: 2017-01-30
 - name: Week 2
   tag: week-2
-  due_date: 2017-02-05 19:00:00 -05:00
+  due_date: 2017-02-06
 ---
 
 {% include toc %}
