@@ -1,9 +1,9 @@
 ---
 title: Day 21
 date: 2017-04-06 00:00:00 -04:00
-published: false
-activity_date: 2017-04-10
-description: Project website/README, organizing large projects
+published: true
+activity_date: 2017-04-06
+description: Project website/README, organizing large projects, code review demo
 ---
 
 ## Today
@@ -11,12 +11,15 @@ description: Project website/README, organizing large projects
 * README files
 * Project websites
 * Organizing large Python projects
+* Code review demo
+* Code review signup
+* Mini-Project 5 tips
 
 ## For Next Time
 
 * Start your project website and link to it from your GitHub repository
 * Create/update your README file
-* Ensure your code so far is checked in and ready for the code review
+* Ensure your code so far is checked in and ready for the (encouraged, yet optional) code review on Monday
 * No reading journal assigned
 
 
@@ -69,4 +72,4 @@ do the same thing from the command line.
 2. Clone the project to your computer.
 3. Explore around the project history.  Commands you should definitely practice include `git log`, `git diff`, `git history`, `git whatchanged`, and `git checkout`
 
-**Exercise:**  (optional) Refactor and organize your code for mini project 5 into separate classes, files, and modules.
+**Exercise:**  (recommendation) As part of your Mini-Project 5 work, refactor and organize code from a previous submission (project or toolbox) into separate classes, files, and modules.
