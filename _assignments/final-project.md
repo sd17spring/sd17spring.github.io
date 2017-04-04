@@ -109,7 +109,7 @@ feedback using the online form.
 
 ### Project Website
 
-_Due: {{site.data.dates.final_deliverables | date: '%B %-d' }}_
+_Due: {{site.data.dates.final_website | date: '%B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 
