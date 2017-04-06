@@ -10,7 +10,7 @@ The following list of final project websites is from Software Design in Spring
 
 _Note_: In 2015, the technical review deliverables were submitted via the
 project website, so you will likely see that material on many of these sites.
-We do not have this requirement in 2016, though you will likely use content
+We do not have this requirement in 2017, though you will likely use content
 from those deliverables to help create your site.
 
 * [Dineamics](https://sites.google.com/site/dineamicsapp/)

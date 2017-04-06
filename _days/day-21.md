@@ -1,7 +1,6 @@
 ---
 title: Day 21
 date: 2017-04-06 00:00:00 -04:00
-published: true
 activity_date: 2017-04-06
 description: Project website/README, organizing large projects, code review demo
 ---
@@ -38,19 +37,19 @@ Each team will be creating a [project website]({% link _assignments/final-projec
 project. Today in class, we'll help you get started building your website
 using [GitHub pages](https://pages.github.com/).
 
-For inspiration, you can look at some of the [project websites from last
-year]({% link _assignments/final-project/2015-project-websites.md %}).
+For inspiration, you can look at some of the [2015 project websites]({% link _assignments/final-project/2015-project-websites.md %}).
 
+{% comment %}
 The example Rocco developed in class can be found at
 <http://rdiverdi.github.io/GitExample> and
 <https://github.com/rdiverdi/GitExample>
+{% endcomment %}
 
 For creating a single-page website with multiple sections, you can use the
 GitHub automatic page creator/editor. If you'd like to expand to multiple
-pages things get trickier, but fortunately Patrick and Franton have written
+pages things get trickier. Fortunately Spring 2016 NINJAs Patrick and Franton have written
 [an example and guide to multi-page GitHub websites using
 Markdown](http://phuston.github.io/patrickandfrantonarethebestninjas/howto).
-
 
 ## Organizing large Python projects
 
