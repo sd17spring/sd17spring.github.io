@@ -37,7 +37,7 @@ Each team will be creating a [project website]({% link _assignments/final-projec
 project. Today in class, we'll help you get started building your website
 using [GitHub pages](https://pages.github.com/).
 
-For inspiration, you can look at some of the [2015 project websites]({% link _assignments/final-project/2015-project-websites.md %}).
+For inspiration, you can look at some of the [2016 project websites]({% link _assignments/final-project/2016-project-websites.md %}).
 
 {% comment %}
 The example Rocco developed in class can be found at

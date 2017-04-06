@@ -1,6 +1,6 @@
 ---
 title: Past Project Websites
-date: 2017-04-06 13:22:00 -05:00
+date: 2017-04-06 13:22:00 -04:00
 description: ''
 parent: final-project
 ---
