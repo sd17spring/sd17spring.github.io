@@ -17,7 +17,7 @@ projects to revise/extend and resubmit.
 
 The basis for the revision comes from several places:
 
-1. For each of the mini projects in this class, you received detailed feedback comments from the NINJAs via [Reviewable](https://reviewable.io/)
+1. For each of the mini projects in this class, you received detailed feedback comments from the NINJAs via email and / or GitHub pull requests.
 2. You (hopefully) know much more Python now than when we started
 3. There may be extensions or alternate directions you wanted to pursue but didn't have time
 
