@@ -3,13 +3,14 @@ title: Due Dates
 position: 1
 ---
 
-# Thursday, April 6
+# Thursday, April 10
 
-* Activity materials are [here]({% link _days/day-21.md %})
+* Code Review sessions.
+* Studio time
 
 # Thursday, April 13
 
-* [Mini-Project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %})
+* [Mini-Project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %}) is due.
 
 ---
 
