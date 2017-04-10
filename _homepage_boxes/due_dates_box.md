@@ -3,7 +3,7 @@ title: Due Dates
 position: 1
 ---
 
-# Thursday, April 10
+# Monday, April 10
 
 * Code Review sessions.
 * Studio time
