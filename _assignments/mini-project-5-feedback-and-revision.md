@@ -17,7 +17,7 @@ projects to revise/extend and resubmit.
 
 The basis for the revision comes from several places:
 
-1. For each of the mini projects in this class, you received detailed feedback comments from the NINJAs via email and / or GitHub pull requests.
+1. For each of the mini projects (and toolboxes) in this class, you received detailed feedback comments from the NINJAs via email and / or GitHub pull requests.
 2. You (hopefully) know much more Python now than when we started
 3. There may be extensions or alternate directions you wanted to pursue but didn't have time
 
@@ -29,6 +29,7 @@ include:
 * finding and improving performance bottlenecks using [algorithm analysis\]
 {% comment %}({% link _days/day-17.md %}) and/or [code profiling]({% link _days/day-19.md %}){% endcomment %}
 * pursuing one of the "Going Beyond" options
+* taking a toolbox to the next level
 * something else awesome
 
 This exercise should not take as long as the other mini projects, and it is
@@ -42,6 +43,10 @@ Select which mini project you would like to revise. You may individually
 revise MP4. If you and your partner want to work together on MP4, you must
 each make a significant contribution. Send us a proposal (see below) if you
 choose this option.
+
+In most cases, doing a "going beyond" on a toolbox you submitted can satisfy this assignment.
+If you would like to do a toolbox that you did not do as part of your 5 required toolboxes,
+send a note to the teaching team to explain why doing a new toolbox will serve you the best for MP5.
 
 _[Optional]_  If you'd like some feedback on your proposed technical
 improvement or help coming up with one, send a short (1-2 sentences is OK)
@@ -69,5 +74,5 @@ Complete your revision and improvement and push your work to GitHub.
 ### Turn it in
 
 Create a pull request from your master branch to your release branch. Submit
-your work by [filling out this form](http://goo.gl/forms/joIEF3IZjP) with the
+your work by [filling out this form](https://docs.google.com/forms/d/e/1FAIpQLSe4uGI5NMrYr0UfDWM9VXuH3guv0SZZIpD1XQa25nFj361GDQ/viewform?usp=sf_link) with the
 URL of your pull request.
