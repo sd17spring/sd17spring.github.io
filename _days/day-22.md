@@ -8,10 +8,10 @@ description: Code review
 
 ## Room AC326
 * announcements
-* Open project work
+* open project work
 
 ## Room AC328
-* One instructor, one NINJA
+* one instructor, one NINJA
 * code review, for teams that signed up on Friday
 * 1:35 - 1:55 Super Shoppers present, Grocery Helpers additional reviewers
 * 2:00 - 2:20 Grocery Helpers present, Super Shopper additional reviewers
