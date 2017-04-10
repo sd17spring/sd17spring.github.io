@@ -7,11 +7,10 @@ description: Exceptions and assertions
 
 ## Today
 
-* Exceptions and Assertions
+* Code review demo
+* Code review signup
+* Mini-Project 5 tips
 
-## Helpful references
+## For Next Time
 
-* [Exceptions tutorial](https://docs.python.org/3/tutorial/errors.html)
-* [List of built-in exception types](https://docs.python.org/3/library/exceptions.html)
-* [Using assertions effectively](https://wiki.python.org/moin/UsingAssertionsEffectively)
-* [Assertion statement implementation details](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement)
+* Ensure your code so far is checked in and ready for the (encouraged, yet optional) code review on Monday

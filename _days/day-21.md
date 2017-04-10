@@ -2,6 +2,7 @@
 title: Day 21
 date: 2017-04-06 00:00:00 -04:00
 activity_date: 2017-04-06
+published: false
 description: Project website/README, organizing large projects, code review demo
 ---
 
@@ -10,17 +11,12 @@ description: Project website/README, organizing large projects, code review demo
 * README files
 * Project websites
 * Organizing large Python projects
-* Code review demo
-* Code review signup
-* Mini-Project 5 tips
 
 ## For Next Time
 
 * Start your project website and link to it from your GitHub repository
 * Create/update your README file
-* Ensure your code so far is checked in and ready for the (encouraged, yet optional) code review on Monday
 * No reading journal assigned
-
 
 ## README files
 
