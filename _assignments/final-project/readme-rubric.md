@@ -26,7 +26,7 @@ of a good README include:
 **Getting Started**
 
 * Download instructions, optionally including versioning information and/or checksums.
-* Installation instructions, including any required dependencies. You may assume that users start with the same environment you had on day 1 of the class. A good approach here is to provide a list of required packages/programs, along with a helpful `sudo apt-get install x y z` one-liner.
+* Installation instructions, including any required dependencies. You may assume that users start with the same environment you had on day 1 of the class. If your code depends on additional Ubuntu packages that are installed via `apt-get install`, include a `sudo apt-get install x y z` one-liner in the README. If you installed additional Python packages, list these in a [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files) file, and include a `sudo pip install -r requirements.txt` one-liner in the README.
 
 **Usage**
 
