@@ -23,4 +23,4 @@ case you want to refer back to these instructions, they are available
 1. Read [Think Python](http://greenteapress.com/wp/think-python-2e/) Ch. 1-3, 5.1-5.7;
 Linux at Olin Chapter 1 ([PDF download]({% link files/assignments/setup-your-environment/linux.pdf %}));
 and [Amgit Chapter 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown).
-2. Submit the [Day 1 Reading Journal](step-4-do-some-reading-and-write-some-python).
+2. Submit the [Day 1 Reading Journal](https://github.com/{{site.course.github_owner}}/ReadingJournal).

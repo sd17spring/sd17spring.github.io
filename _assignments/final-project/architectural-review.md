@@ -25,7 +25,7 @@ opportunity to present ideas of how the architecture of the code will be.
 * One-way presentation
 
 For more tips and guidelines, check out the [information on SCOPE Technical
-Reviews](/project/Technical_Review_Deliverable_and_Rubric.pdf)
+Reviews]({% link files/final-project/Technical_Review_Deliverable_and_Rubric.pdf %})
 given to students at the beginning of the year.
 
 ## Before the Architectural Review
@@ -246,5 +246,3 @@ team GitHub repository before the next class after the review.
 ### Schedule
 
 Will be posted 1 week prior to presentations on the course page.
-
-

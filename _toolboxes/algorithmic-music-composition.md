@@ -139,7 +139,7 @@ longer solo.
 
 ## Tips to Make it Cooler
 
-_Make it [swing](http://en.wikipedia.org/wiki/Swing_%28jazz_performance_style%29#Rhythm):_
+_Make it [swing](http://en.wikipedia.org/wiki/Swing_%28jazz_performance_style%29#Swing_as_a_rhythmic_style):_
 alternate slightly longer and slightly shorter notes in your blues lick to
 give it a swing feel (*e.g.*
 `[(1, 0.5 * 1.1), (1, 0.5 * 0.9), (1, 0.5 * 1.1), (1, 0.5 * 0.9)]`)

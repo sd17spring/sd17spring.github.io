@@ -9,7 +9,7 @@ description: Keeping secrets out of the public eye, Saving data sets with pickle
 
 * Securing secrets when working on code that goes to github.com
 * Walkthrough of pickling a dataset
-* Work on [pickling](/project-toolbox/pickling) toolbox
+* Work on [pickling]({% link _toolboxes/pickling.md %}) toolbox
 
 ## Choose-your-own-adventure topics
 
@@ -17,4 +17,4 @@ description: Keeping secrets out of the public eye, Saving data sets with pickle
 
 ## Mini-Project 3 Launch
 
-You should consider starting MP3 by doing the [Pickling toolbox](/project-toolbox/pickling). This toolbox will be especially useful in this mini-project, and it counts towards the 5 that you have to do by March 23rd (and the 3 you have to do before Spring break starts).
+You should consider starting MP3 by doing the [Pickling toolbox]({% link _toolboxes/pickling.md %}). This toolbox will be especially useful in this mini-project, and it counts towards the 5 that you have to do by March 23rd (and the 3 you have to do before Spring break starts).

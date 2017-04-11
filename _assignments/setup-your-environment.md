@@ -63,7 +63,7 @@ reading!
 ## Step 1: Install and Configure Ubuntu
 
 The officially supported OS for SoftDes is Ubuntu 16.04.1 64-bit (ISO
-available [here](http://releases.ubuntu.com/xenial/ubuntu-16.04.1-desktop-amd64.iso)).
+available [here](http://releases.ubuntu.com/xenial/ubuntu-16.04.2-desktop-amd64.iso)).
 The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
 bootable installer for Ubuntu 16.04.1. In order to go forward with the
@@ -183,10 +183,10 @@ If you followed these instructions before that date, you need to run
 
 If you prefer to use Sublime Text, install a _plugin manager_ (Package Control) using [these
 instructions](https://packagecontrol.io/installation#st3), and install the
-[Anaconda](http://damnwidget.github.io/anaconda/#) plugin using [these
+[Anaconda](http://damnwidget.github.io/anaconda/) plugin using [these
 instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation).
 This plugin can also provide additional programming aids; for more information, see the
-[Anaconda](http://damnwidget.github.io/anaconda/#) web site.
+[Anaconda](http://damnwidget.github.io/anaconda/) web site.
 
 {% if site.course.flootbits_url %}
 ## Optional: Setup Floobits

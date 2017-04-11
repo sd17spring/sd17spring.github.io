@@ -68,7 +68,7 @@ Let's see how far we can get into making a game similar to a classic – **Break
 
 We will utilize the [Model-View-Controller](http://en.wikipedia.org/wiki/Model–view–controller) design method, to give everyone a concrete example of the kind of architecture we expect you to produce in your homework.
 
-The code will rely upon pygame so make sure that it is installed – see the instructions for [Mini-Project 4](/projects/mini-project-4-interactive-visualization/#pygame) to get pygame set up if you have not done so.
+The code will rely upon pygame so make sure that it is installed – see the instructions for [Mini-Project 4]({% link _assignments/mini-project-4-interactive-visualization.md %}#pygame) to get Pygame set up if you have not done so.
 
 [brickbreaker-sp17.py](/files/activities/mvc/brickbreaker-sp17.py)
 
