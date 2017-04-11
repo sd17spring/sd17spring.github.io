@@ -7,9 +7,7 @@ layout: default
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+  {% include breadcrumbs.html %}
 {% endif %}
 
 <div id="main" role="main">

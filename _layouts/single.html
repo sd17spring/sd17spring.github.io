@@ -7,9 +7,7 @@ layout: default
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+  {% include breadcrumbs.html %}
 {% endif %}
 
 <div id="main" role="main">
@@ -49,8 +47,6 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
     </div>
 
     {% if site.comments.provider and page.comments %}
