@@ -8,7 +8,9 @@ position: 1
 * Code Review sessions.
 * Studio time
 
-# Thursday, April 13
+# April 20 or 23
+
+[The calendar and web site disagree on this. We'll update this page and make an announcement with the final date…]
 
 * [Mini-Project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %}) is due.
 
