@@ -85,6 +85,9 @@ include:
 - _pages
 
 exclude:
+- Gemfile
+- Gemfile.lock
 - README.md
 - docker_compose.yml
 - notebooks
+- scripts

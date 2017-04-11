@@ -7,14 +7,15 @@ The source to <https://sd17spring.github.io>.
 
 ## Setup
 
-[Install Jekyll](https://jekyllrb.com/docs/installation/)
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
+2. `bundle install`
 
 Alternate: Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 
 ## Develop
 
-1. `jekyll serve`
+1. `bundle exec jekyll serve`
 2. Browse to [localhost:4000](http://localhost:4000)
 
 Alternate:
@@ -23,10 +24,16 @@ Alternate:
 2. Browse to [localhost:4000](http://localhost:4000)
 
 
+## Check HTML and Links
+
+`./scripts/check-html`
+
+
 ## Publish
 
-1. git push
+1. `git push` to GitHub
 2. Browse to <https://sd17spring.github.io>
+
 
 ## Credits
 
