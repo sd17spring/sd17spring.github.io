@@ -1,6 +1,6 @@
 ---
-title: Day 21
-date: 2017-04-06 00:00:00 -04:00
+title: Day 22
+date: 2017-04-13 00:00:00 -04:00
 activity_date: 2017-04-13
 description: Project website/README, organizing large projects
 ---

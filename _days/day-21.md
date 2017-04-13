@@ -1,8 +1,8 @@
 ---
-title: Day 22
+title: Day 21
 date: 2017-04-10 00:00:00 -04:00
 activity_date: 2017-04-10
-description: Code review
+description: Code Review
 ---
 
 ## Room AC326
