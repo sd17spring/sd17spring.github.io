@@ -69,7 +69,7 @@ history](https://github.com//{{site.course.github_owner}}/python-modules/commits
 Looking at project history on GitHub is nice, but you should also be able to
 do the same thing from the command line.
 
-1. Read about [Viewing Old Commits](https://www.atlassian.com/git/tutorials/viewing-old-commits/) in git.
+1. Read about [Viewing Old Commits](https://de.atlassian.com/git/tutorials/viewing-old-commits/) in git.
 2. Clone the project to your computer.
 3. Explore around the project history.  Commands you should definitely practice include `git log`, `git diff`, `git history`, `git whatchanged`, and `git checkout`
 
