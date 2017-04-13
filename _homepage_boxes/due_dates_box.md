@@ -1,13 +1,16 @@
 ---
-title: Due Dates
+title: Activities
 position: 1
 ---
 
-# April 23
+# Thursday, April 13
 
-[*Not* 4/13 or 4/20 -- the site and calendar had several different dates; we've changed them all to the latest date.]
+Today we will cover:
+* README files
+* Project websites
+* Breakout session: Overview of the E:C plan of study
 
-* [Mini-Project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %}) is due.
+See the [day 22 activity page]({% link _days/day-22.md %}) for details.
 
 ---
 
