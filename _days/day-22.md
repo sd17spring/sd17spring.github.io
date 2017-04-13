@@ -2,7 +2,6 @@
 title: Day 21
 date: 2017-04-06 00:00:00 -04:00
 activity_date: 2017-04-13
-published: false
 description: Project website/README, organizing large projects
 ---
 
@@ -11,6 +10,7 @@ description: Project website/README, organizing large projects
 * README files
 * Project websites
 * Organizing large Python projects
+* Breakout session: Overview of the E:C plan of study. How to plan your time at Olin, for prospective E/C students.
 
 ## For Next Time
 
