@@ -47,6 +47,12 @@ pages things get trickier. Fortunately Spring 2016 NINJAs Patrick and Franton ha
 [an example and guide to multi-page GitHub websites using
 Markdown](http://phuston.github.io/patrickandfrantonarethebestninjas/howto).
 
+## Personal portfolios
+
+For the class project, you are contributing to a repository that may not be associated with your github account. Having a portfolio that points to projects that you have contributed to will serve you well (eventually, if not right away). We have the start of an example page that you can use as a reference point. Note that listing your individual contribution to a group project is important. Adding photos to projects is a bonus. Learning how to tag repos that you have contributed to will be a helpful skill when you pull together your personal portfolio. We give you space in SoftDes to start this process. 
+
+[Example individual portfolio of projects](https://sd17spring.github.io/portfolio-example/)
+
 ## Organizing large Python projects
 
 As your Python projects grow too large to comfortably fit in a single file,
