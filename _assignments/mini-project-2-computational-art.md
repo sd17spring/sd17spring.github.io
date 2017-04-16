@@ -2,9 +2,7 @@
 title: 'Mini Project 2: Computational Art'
 date: 2017-01-22 00:00:00 -05:00
 description: 'In this assignment you will be exploring one particular means of using
-  computers to generate images.
-
-'
+  computers to generate images.'
 start_date: 2017-02-06
 due_date: 2017-02-13
 ---
@@ -16,7 +14,7 @@ due_date: 2017-02-13
 ## Acknowledgments
 
 This assignment has been adapted from Harvey Mudd Professor Chris Stone's assignment posted at the
-[Stanford Nifty Assignments ](http://nifty.stanford.edu/) collection.
+[Stanford Nifty Assignments](http://nifty.stanford.edu/) collection.
 
 ### Skills Emphasized
 
@@ -68,7 +66,7 @@ using the function avg(x, y) instead of (x + y) / 2.0)
 
 ![]({% link images/homeworks/homework-4/complex_red_surface.png %}){:width="320px" height="239px"}
 
-```
+``` python
 red(x, y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
 sin(pi * y)))) * avg(sin(pi * (sin(pi * y) * (y * x))), cos(pi * cos(pi * (y *
 y))))) * sin(pi * (sin(pi * (sin(pi * y) * sin(pi * y))) * cos(pi * ((y * y) *
@@ -80,7 +78,7 @@ sin(pi * sin(pi * sin(pi * y)))))))))
 
 ![]({% link images/homeworks/homework-4/complex_green_surface.png %}){:width="320px" height="237px"}
 
-```
+``` python
 green(x, y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
 * avg(y, x)))), ((cos(pi * cos(pi * y)) * (cos(pi * x) * (x * y))) * sin(pi *
 sin(pi * avg(y, y))))), cos(pi * (avg(sin(pi * sin(pi * x)), sin(pi * sin(pi *
@@ -97,7 +95,7 @@ avg(y, x)) * cos(pi * sin(pi * x)))))))))
 
 ![]({% link images/homeworks/homework-4/complex_blue_surface.png %}){:width="320px" height="240px"}
 
-```
+``` python
 blue(x, y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
 y))), avg(avg((x * x), avg(y, y)), avg(cos(pi * y), cos(pi * x))))),
 avg(avg(avg((sin(pi * y) * (x * y)), sin(pi * (x * x))), avg(((x * x) * sin(pi
@@ -506,7 +504,7 @@ To display images in real-time (as opposed to using an image viewer to
 checkout the images after you have saved them to a file), I recommend using
 **pygame** .
 
-```
+``` python
 $ sudo pip3 install pygame
 ```
 
@@ -514,7 +512,7 @@ We are not including detailed instructions on this, but it shouldn't be too
 hard for you to figure out using Google and the **pygame**  documentation. You
 may also have to install some dependencies using **apt-get** :
 
-```
+``` python
 $ sudo apt-get install mercurial python-dev python-numpy ffmpeg libsdl- image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev
 ```
 

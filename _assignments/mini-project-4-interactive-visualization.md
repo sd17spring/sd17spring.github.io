@@ -3,9 +3,7 @@ title: 'Mini Project 4: Interactive Programming'
 date: 2017-02-19 00:00:00 -05:00
 description: 'The big idea of this project will be to move from static programs (ones
   that are run, do some computations, and spit out a result) to interactive programs
-  (ones that allow the user to perform actions that change the state of the program).
-
-'
+  (ones that allow the user to perform actions that change the state of the program).'
 start_date: 2017-02-23
 due_date: 2017-03-08
 parts:
@@ -305,11 +303,11 @@ The professors will review the proposals approved by NINJAs.
 
 Your proposal document should address:
 
-  * What is the main idea of your project? What topics will you explore and what will you generate? What is your minimum viable product? What is a stretch goal?
-  * What are your learning goals for this project (for each member)?
-  * What libraries are you planning to use? (if you don't know enough yet, please outline how you will decide this question during the beginning phase of the project).
-  * What do you plan to accomplish by the mid-project check-in? (See below for some generic goals; edit to suit your particular project)
-  * What do you view as the biggest risks to you being successful on this project?
+* What is the main idea of your project? What topics will you explore and what will you generate? What is your minimum viable product? What is a stretch goal?
+* What are your learning goals for this project (for each member)?
+* What libraries are you planning to use? (if you don't know enough yet, please outline how you will decide this question during the beginning phase of the project).
+* What do you plan to accomplish by the mid-project check-in? (See below for some generic goals; edit to suit your particular project)
+* What do you view as the biggest risks to you being successful on this project?
 
 This deliverable will not factor into your project grade. The purpose is
 purely to allow us to help shape your project in useful directions - and potentially adapt classtime to better prepare you for your journeys.

@@ -40,7 +40,9 @@ the file:
 doctest.testmod()
 # doctest.run_docstringexamples(Line.__repr_, globals())
 ```
+
 →
+
 ``` python
 # doctest.testmod()
 doctest.rundocstring_examples(Line._repr_, globals())

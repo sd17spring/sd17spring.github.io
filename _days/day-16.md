@@ -1,7 +1,7 @@
 ---
 title: Day 16
 date: 2017-03-23 00:00:00 -04:00
-activity_date: 2017-03-23 
+activity_date: 2017-03-23
 description: Analysis of algorithms
 ---
 
@@ -29,9 +29,9 @@ Suppose we are given two python functions `do_procedure_f1` and
 (what these programs do is unimportant for this exercise). We are told that
 the order of growth of these procedures is:
 
-* `do_procedure_f1`  is `O(n)` (where n is the length of the input list `L`)
+* `do_procedure_f1` is `O(n)` (where n is the length of the input list `L`)
 
-* `do_procedure_f2`  is `O(1)` (where n is the length of the input list `L`)
+* `do_procedure_f2` is `O(1)` (where n is the length of the input list `L`)
 
 What are the order of growths of the following computations?
 
@@ -93,4 +93,4 @@ Python data structures. Here are some key points:
 Next, we will be doing an exercise to:
 
 1. Practice the application of order of growth analysis to actual Python code
-2. Explore how this analysis squares with an empirical analysis of the running time of Python code. The exercises for this portion of class can be found in the repository **https://github.com//{{site.data.course.github_owner}}/ClassNotes**  under **AnalysisOfAlgorithms.ipynb** .
+2. Explore how this analysis squares with an empirical analysis of the running time of Python code. The exercises for this portion of class can be found in the repository <https://github.com//{{site.data.course.github_owner}}/ClassNotes> under **AnalysisOfAlgorithms.ipynb** .

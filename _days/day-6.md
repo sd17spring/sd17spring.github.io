@@ -23,7 +23,7 @@ One of the reasons that you are beginning to work with turtles is because they h
 
 See this example of turtle-flavored recursion used in one of the interactivepython.org lessons:
 
-```
+``` python
 import turtle
 
 myTurtle = turtle.Turtle()
@@ -40,6 +40,7 @@ myWin.exitonclick()
 ```
 
 ## Toolbox Time
+
 There is a chance that you will finish your Gene Finder Mini-Project before it is officially due. You can use the time that you have before Mini-Project 2 is kicked off on Monday to explore the Toolbox aspect of the class. Based on what you have done so far, you can start working on some of the Toolboxes listed (while others require some concepts we will be introducing soon).
 
 [Toolboxes page]({% link _pages/toolboxes.md %})

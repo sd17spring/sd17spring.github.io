@@ -14,9 +14,11 @@ Grab the starter code for this toolbox exercise via the normal fork-and-clone me
 is in `steganography.py`.
 
 ## Get Set
+
 This toolbox uses the [Python Pillow library](https://pillow.readthedocs.io/en/4.0.x/reference/Image.html). You should already have this installed on your system from the Computational Art mini-project, but go ahead and install it using pip3 if it's missing.
 
 ## What is steganography?
+
 In a nutshell, the main goal of [steganography](https://en.wikipedia.org/wiki/Steganography) is to hide information within data that doesn't appear to be secret at a glance. For example, this sentence:
 
 `Since everyone can read, encoding text in neutral sentences is definitely effective`
@@ -39,7 +41,7 @@ So if we wanted to convert the number `10001011` from binary into decimal, it wo
 
 You can also test this out in your Python interpreter. Binary numbers are automatically converted to integers so you don't actually need to have a print statement. (It's just there for clarity.)
 
-```
+``` python
 >>> print(0b10001011)
 139
 >>> type(0b10001011)
@@ -52,15 +54,14 @@ You can also test this out in your Python interpreter. Binary numbers are automa
 
 From our quick tests above, you can see that the leftmost bit place matters a lot more than rightmost bit because the rightmost bit only modifies the value of the number by 1. We saw that:
 
-`10001011 = 139` while `00001011 = 11`  
-`10001011 = 139` while `10001010 = 138`  
+`10001011 = 139` while `00001011 = 11`
+`10001011 = 139` while `10001010 = 138`
 
-Because of this, we describe the leftmost bit as the "most significant bit" (MSB) while the rightmost bit is the "least significant bit" (LSB).  
+Because of this, we describe the leftmost bit as the "most significant bit" (MSB) while the rightmost bit is the "least significant bit" (LSB).
 
-We can observe that its entirely possible to hide a black and white image inside an RGB image by changing the LSB of a pixel in a single color channel to correspond to the value of the image we want to hide.  
+We can observe that its entirely possible to hide a black and white image inside an RGB image by changing the LSB of a pixel in a single color channel to correspond to the value of the image we want to hide.
 
 Additionally, since changing the LSB doesn't drastically change the overall value of the of 8 bit number, we can hide our data without modifying a source image in any detectable sort of way. You can test this out with any [RGB color wheel](http://www.colorspire.com/rgb-color-wheel/) to get a sense of how little difference there is between a color like (150, 50, 50) and (151, 50, 50)
-
 
 **Aside**
 
@@ -76,7 +77,7 @@ Provided in the starter code is a function called `decode_image()`. The secret i
 
 You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the red_channel from the original RGB image. You can do this using the .split() function that PIL provides.
 
-```python
+``` python
 def decode_image(file_location):
     encoded_image = Image.open(file_location)
     red_channel = encoded_image.split()[0]
@@ -91,7 +92,8 @@ def decode_image(file_location):
 
     decoded_image.save("images/decoded_image.png")
 ```
-*note that files in this example are .png files. We recommend that you avoid working with .jpg files so that file compression does not make your task more difficult. 
+
+* Note that files in this example are .png files. We recommend that you avoid working with .jpg files so that file compression does not make your task more difficult.
 
 ## Encoding a secret message
 

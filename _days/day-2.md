@@ -14,6 +14,7 @@ description: Ramping up in Python
 * Going Beyond: do the work below on this page
 
 ## For Next time you Should
+
 * Read TP Ch. 6.1-6.4 and Ch. 7
 * Finish [setting up your environment]({% link _assignments/setup-your-environment.md %})
 * Complete Day 2 (and Day 1) Reading Journal before noon on 1/24
@@ -65,7 +66,7 @@ This is what you've been using for the reading journals.
 
 In the bash command line, enter:
 
-```
+``` bash
 $ jupyter notebook
 ```
 
@@ -76,7 +77,7 @@ or create new ones.
 
 First, we'll create a simple Python script and save it in a file called `hello.py`.
 
-```
+``` python
 """
 My first Python program!!
 
@@ -88,15 +89,13 @@ print("Hello, world!")
 
 In order to execute our new program we open a terminal, navigate (using Linux commands such as `cd` and `ls`) to the directory (folder) where we saved `hello.py`, and then execute the command:
 
-```
+``` bash
 $ python3 hello.py
 ```
 
 Executing this command should produce the following output.
 
-```
-Hello, world!
-```
+    Hello, world!
 
 ### Method 2: through your IDE
 
@@ -116,7 +115,7 @@ was more useful. it will be removed from future versions of the course.</strong>
 You can execute Python scripts from within the Python interpreter (when running in interactive mode).
 To do so execute the following command from the Python prompt.
 
-```
+``` python
 >>> exec(open('hello.py').read())
 ```
 
@@ -130,7 +129,7 @@ In general ipython is a superior option to the basic python interpreter if you w
 
 Variables are one of the most fundamental concepts in programming because they let you put a name to a value. Once you give something a name, you can refer to it in other parts of your code! A great way to understand variables is to draw a state diagram. Let's do a quick example on the board that will help us understand how variables work, and will also give us practice with state diagrams.
 
-```
+``` python
 x = 5
 y = 4
 print(x)
@@ -143,7 +142,7 @@ z = 5
 
 Here is another program that solves the problem above.  It also demonstrates some good use of commenting.  Let's draw the state diagram after each line of the program.
 
-```
+``` python
 # Compute start time of the run in hours since midnight
 current_time = 6 + 52/60.0
 easy_pace = 8 + 15/60.0 # minutes / mile
@@ -166,7 +165,7 @@ Python has a multitude of [built-in functions](https://docs.python.org/3.5/libra
 
 While there are quite a bit of great Python functions that we can easily incorporate into our program, we are very quickly going have the need for writing our own functions (for instance on the first mini-project).  Let's create our first function.
 
-```
+``` python
 def multiply_by_two(x):
     """ Multiplies the input value by 2 and prints the result
 
@@ -186,7 +185,7 @@ With a partner try TP Exercise 3.1. If you finish that, try TP Exercise 3.2 and 
 
 Conditionals allow you to execute various blocks of code depending on whether a condition is true or false. Note, for more details on Boolean expressions and logic you should consult the reading. Here is an example:
 
-```
+``` python
 def print_absolute_value(x):
     """ prints the absolute value of the input value x """
 
@@ -198,7 +197,7 @@ def print_absolute_value(x):
 
 The key thing to keep in mind is that the expressions x >= 0 and x < 0 evaluate to either True or False (depending on what the value of x is). If the expression given to the if statement evaluates to true, then the block of code is executed. A common mistake that programming beginners make is to use the following more verbose form:
 
-```
+``` python
 def print_absolute_value(x):
     """ prints the absolute value of the input value x """
 
@@ -212,7 +211,7 @@ The `== True` is unnecessary, but it will have the same effect. How come?
 
 Optionally, an if statement can have a corresponding else statement. Using this we could rewrite our function as:
 
-```
+``` python
 def print_absolute_value(x):
     """ prints the absolute value of the input value x """
 
@@ -226,7 +225,7 @@ These are both correct. Is one better than the other?  How come? Is it the case 
 
 Program 1:
 
-```
+``` python
 if x >= 0:
      # do something
 if x < 0:
@@ -235,7 +234,7 @@ if x < 0:
 
 Program 2:
 
-```
+``` python
 if x >= 0:
      # do something
 else:
@@ -250,7 +249,7 @@ If none of the `elif`s are true, then the `else` branch will be executed if it e
 
 Here is an example.  With a partner, create a Python script with this function definition. Try calling the function with a few values. Does it do what you expect?
 
-```
+``` python
 def print_num_nonnegative(x, y):
     """ prints 0 if both x and y are negative, 1 if one of them is non-negative, and two if they are both non-negative """
     count = 0

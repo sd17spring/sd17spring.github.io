@@ -14,13 +14,11 @@ description: Recursion, fractals in TurtleWorld
 * Fractal drawing in Turtle World
 * Optional: Loading new DNA
 
-
 ## For Next Time
 
 * Reading journal, Think Python 11, 12 due Monday 2/9 (but starting earlier is great)
 * [Project toolbox]({% link _pages/toolboxes.md %}) exercises have been launched.
 You will do at least five in total, at least three of which must be completed before spring break.
-
 
 ## Recursion Practice
 
@@ -31,7 +29,6 @@ the number of ways to choose k items from a set of n (this is also known as
 the number of [combinations](https://en.wikipedia.org/wiki/Combination) of k
 items from a pool of n). Your solution should be implemented recursively using
 [Pascal's rule.](https://en.wikipedia.org/wiki/Pascal%27s_rule)
-
 
 ### Levenshtein Distance
 
@@ -58,7 +55,6 @@ solution, or use the recursive solution given in the Wikipedia article.
 We will be memoizing this function in the next reading journal to make it more
 computationally efficient.
 
-
 #### Making change
 
 Write a program that takes as input a number of cents, n, along with the
@@ -67,7 +63,7 @@ change can be made for n cents using the coins d.
 
 For example:
 
-```
+``` python
 make_change(10, [1, 5, 10]) -> 4
 ```
 
@@ -77,7 +73,6 @@ Specifically:
 * 2 nickels
 * 1 nickel 5 pennies
 * 1 dime
-
 
 ## Turtle World
 
@@ -100,7 +95,7 @@ operate on Turtles:
 * `square` takes as input the side length of a square and draws the square to the Turtle world canvas
 * `polygon` takes as input the side length and the number of sides of a regular polygon
 * `circle` takes as input the radius of a circle, which it draws by approximating a circle as a regular polygon with a large number of sides
-* `arc `extends `circle `with an extra angle parameter that controls what fraction of the circle to draw in degrees
+* `arc` extends `circle` with an extra angle parameter that controls what fraction of the circle to draw in degrees
 
 Each of these functions is a **generalization** of the previous function. You
 also went on to draw flowers, pies, letters, spirals, or something else
@@ -122,7 +117,6 @@ interface is “clean” if it is “as simple as possible, but not simpler.
 Regardless of how complex a function is to implement, its interface should be
 easy to understand. Well-designed functions do exactly what they say they will
 do without surprises.
-
 
 ### Teleportation, Cloning, and Other Unethical Experiments on Turtles
 
@@ -162,10 +156,9 @@ don.pendown()
 # don.bandana_color = "purple" # TODO: Ninja functionality not yet implemented
 ```
 
-As an exercise, encapsulate this functionality in a `clone `function that
-takes a Turtle argument and returns a **new** Turtle with the same position
+As an exercise, encapsulate this functionality in a `clone` function that
+takes a Turtle argument and returns a *new* Turtle with the same position
 and heading, leaving the original Turtle untouched.
-
 
 ## Fractals
 

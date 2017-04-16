@@ -4,9 +4,7 @@ date: 2017-01-29 00:00:00 -05:00
 description: 'Before we can get down to the business, we need to make sure we have
   the right tools for the job. If you follow these instructions (with help from our
   amazing NINJA team), your computer will be primed and ready to do some serious computational
-  work.
-
-'
+  work.'
 start_date: 2017-01-19
 due_date: 2017-01-23
 layout: single
@@ -140,7 +138,7 @@ $ sudo apt-get install atom
 
 To verify that Python 3 is installed, run:
 
-```
+``` bash
 $ python3
 ```
 
@@ -189,6 +187,7 @@ This plugin can also provide additional programming aids; for more information, 
 [Anaconda](http://damnwidget.github.io/anaconda/) web site.
 
 {% if site.data.course.urls.floobits %}
+
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
@@ -371,6 +370,7 @@ might want to ponder as you play the game:
 * Any other interesting observations?
 
 {% if site.data.course.urls.entrance_survey %}
+
 ## Tell Us More About Yourself!
 
 As a final step for both turning in your reading journal, and so that we can

@@ -59,7 +59,8 @@ for event in pygame.event.get():
     * `event.key`: the name of the key pressed.
         * If you want to see if a user pressed a certain key (such as the
             letter 'a'), you can write:
-            ```python
+
+            ``` python
             if event.key == pygame.K_a:
             ```
 
@@ -71,9 +72,11 @@ for event in pygame.event.get():
             under the list of key constants on
             [this page](https://www.pygame.org/docs/ref/key.html)
         * To check if, for example, 'a' and 'ctrl' are held down, use
+
             ```python
             if (event.key == pygame.K_a) and (event.mod & pygame.KMOD_CTRL):
             ```
+
         * I won't get into bitwise operations, but if you really want to
             know, [here is a resource](http://stackoverflow.com/questions/31575691/what-is-a-bitmask-and-a-mask).
 * `pygame.KEYUP`
@@ -123,6 +126,7 @@ for event in pygame.event.get():
         `rect.x`, `rect.y`, `rect.width`, `rect.height`
 
 ### Drawing shapes:
+
 * Line
     * `pygame.draw.line(screen, color, start_pos, end_pos, width=1)`
     * `start_pos` and `end_pos` are tuples like `(x, y)`; they are the pixel

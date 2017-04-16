@@ -156,17 +156,15 @@ def hello(name=None):
 
 And here is an example template that will work with the above snippet:
 
-{% raw %}
 ``` html
-<!doctype html>
+{% raw %}<!doctype html>
 <title>Hello from Flask</title>
 {% if name %}
     <h1>Hello {{ name }}!</h1>
 {% else %}
     <h1>Hello World!</h1>
-{% endif %}
+{% endif %}{% endraw %}
 ```
-{% endraw %}
 
 You may have noticed something really cool that happened here. In our route
 `/hello/<name>`, we're allowing someone to make a request with an additional

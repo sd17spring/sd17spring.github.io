@@ -210,7 +210,7 @@ for things to try:
 
 ## What to turn in
 
-Push both your `evolve_text.py `and a `results.txt` with the findings from
+Push both your `evolve_text.py` and a `results.txt` with the findings from
 your experimentation to GitHub and submit a pull request to get checked off.
 
 ## Going beyond

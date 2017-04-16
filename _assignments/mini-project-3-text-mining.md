@@ -2,9 +2,7 @@
 title: 'Mini Project 3: Text Mining and Analysis'
 date: 2017-02-16 03:14:00 -05:00
 description: 'In this assignment you will learn how to use computational techniques
-  to analyze text.
-
-'
+  to analyze text.'
 start_date: 2017-02-13
 due_date: 2017-02-23
 toc: true
@@ -142,7 +140,7 @@ The [official documentation](https://wikipedia.readthedocs.io/en/latest/) is her
 Some examples from the [Quickstart section](https://wikipedia.readthedocs.io/en/latest/quickstart.html#quickstart) of
 the documentation follow:
 
-```
+``` python
 >>> import wikipedia
 
 >>> wikipedia.summary("Olin College")
@@ -199,7 +197,7 @@ api.GetUserTimeline(screen_name='gvanrossum')
 
 This prints something like this:
 
-```
+``` python
 [Status(ID=830854729710186496, ScreenName=gvanrossum, Created=Sun Feb 12 19:02:58 +0000 2017, Text='@ntoll Without context this stream of 10 tweets made little sense to me. :-('),
  Status(ID=830577788901945345, ScreenName=gvanrossum, Created=Sun Feb 12 00:42:30 +0000 2017, Text="@swhobbit @github @brettsky IIUC every developer has a full clone in their .git -- it doesn't get much better than that."),
  Status(ID=830194194501099520, ScreenName=gvanrossum, Created=Fri Feb 10 23:18:14 +0000 2017, Text='The CPython source code has officially moved to https://t.co/0ax0UGzgLZ. Congrats @brettsky !!!'),
@@ -243,7 +241,7 @@ the text from an HTML page.
 
 `$ sudo pip3 install beautifulsoup4`
 
-```
+``` python
 from bs4 import BeautifulSoup
 import requests
 html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
@@ -252,7 +250,8 @@ str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> e
 ```
 
 Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded <b> etc.
-```
+
+``` python
 import re
 str(re.sub(r'<.+?>', '', str(html.find('p'))))
 ```
@@ -324,7 +323,7 @@ analyzer.polarity_scores('Software Design is my favorite class!')
 
 This program will print out:
 
-```
+``` python
 {'compound': 0.5093, 'neg': 0.0, 'neu': 0.603, 'pos': 0.397}
 ```
 
@@ -360,7 +359,7 @@ I tried this on some Project Gutenberg texts from two authors: Charles Dickens
 and Charles Darwin. The table below shows the pair-wise similarities between
 the Charles Dickens texts (note that 1 is perfect similarity):
 
-```
+``` python
 [[ 1. 0.90850572 0.96451312 0.97905034]
  [ 0.90850572 1. 0.95769915 0.95030073]
  [ 0.96451312 0.95769915 1. 0.98230284]
@@ -370,7 +369,7 @@ the Charles Dickens texts (note that 1 is perfect similarity):
 The pairwise similarities between Dickens and Darwin (I just used one Darwin
 text) are:
 
-```
+``` python
 [[ 0.78340575]
  [ 0.87322494]
  [ 0.83381607]
@@ -386,7 +385,7 @@ friends has authored a particular post!
 These similarity values can be assembled into a similarity matrix that
 compares each work with all other works.
 
-```
+``` python
 [[ 1., 0.90850572, 0.96451312, 0.97905034, 0.78340575],
  [ 0.90850572, 1., 0.95769915, 0.95030073, 0.87322494],
  [ 0.96451312, 0.95769915, 1., 0.98230284, 0.83381607],

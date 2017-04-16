@@ -117,14 +117,14 @@ evolutionary history of the bacteria that causes the disease).
 The story of Typhoid Mary is a fascinating one. It is fascinating on both
 scientific, legal, and philosophical levels. Rather than trying to reproduce
 it here, we invite you to check out the [wikipedia
-page](http://en.wikipedia.org/wiki/Typhoid_Mary) on Typhoid Mary.
+page](http://en.wikipedia.org/wiki/Typhoid Mary) on Typhoid Mary.
 Additionally, you may also want to listen to the fantastic [RadioLab podcast
 called "Patient Zero"](http://www.radiolab.org/story/169879-patient-zero/).
 The podcast discusses a number of topics, but the first segment of the podcast
 is about Typhoid Mary (although, you really should listen to the whole thing;
 you will not be disappointed).
 
-![]({% link images/assignments/gene-finder/mary-nyamerican.jpg%})
+![]({% link images/assignments/gene-finder/mary-nyamerican.jpg %})
 
 Image source: <http://en.wikipedia.org/wiki/Typhoid_Mary>
 
@@ -248,7 +248,7 @@ functions described below:
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> get_complement("A")
  'T'
 >>> get_complement("C")
@@ -260,7 +260,7 @@ To help you get started here are some unit tests (make sure you have read the
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> get_reverse_complement("ATGCCCGCTTT")
  'AAAGCGGGCAT'
 >>> get_reverse_complement("CCGCGTTCA")
@@ -271,7 +271,7 @@ To help you get started here are some unit tests (make sure you have read the
 
 Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> rest_of_ORF("ATGTGAA")
  'ATG'
 >>> rest_of_ORF("ATGAGATAGG")
@@ -282,14 +282,14 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> find_all_ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
  ['ATGCATGAATGTAGA', 'ATGTGCCC']
 ```
 
 * `find_all_ORFs`: this function should find all open reading frames in any of the 3 possible frames in a given sequence of DNA and return them as a list of strings. Note that this means that you need to check for ORFs in all three possible frames (i.e. with 0, 1, and 2 offset from the beginning of the sequence). For example, you would want to consider the following codon groupings when looking for all ORFs (groups of +++ or --- indicate that the nucleotides above are considered as a single codon).
 
-```
+``` python
 ATGTGAAGATTA
 +++---+++---
 -+++---+++--
@@ -301,7 +301,7 @@ function should heavily utilize `find_all_ORFs_oneframe` .
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> find_all_ORFs("ATGCATGAATGTAG")
  ['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 ```
@@ -310,7 +310,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruction)?) ;-)
 
-```
+``` python
 >>> find_all_ORFs_both_strands("ATGCGAATGTAGCATCAAA")
 ['ATGCGAATG', 'ATGCTACATTCGCAT']
 ```
@@ -346,7 +346,7 @@ to analyze a real DNA sequence suspected to play a role in Typhoid fever.
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> longest_ORF("ATGCGAATGTAGCATCAAA")
  'ATGCTACATTCGCAT'
 ```
@@ -386,7 +386,7 @@ If you wanted to implement your own lookup, you could use the lists `aa` and
 
 Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-```
+``` python
 >>> coding_strand_to_AA("ATGCGA")
  'MR'
 >>> coding_strand_to_AA("ATGCCCGCTTT")
@@ -466,7 +466,7 @@ file that will help you get started. The first loads a sequence of DNA that is
 known to code for Nitrogenase (an enzyme crucial in the Nitrogen fixation
 process).
 
-```
+``` python
 >>> from load import load_nitrogenase_seq
 >>> nitrogenase = load_nitrogenase_seq()
 >>> print(nitrogenase)
@@ -477,7 +477,7 @@ process).
 The second step is to load the meta-genome. Again, there is a function in the
 `load.py` file loads the meta-genome for you.
 
-```
+``` python
 >>> from load import load_metagenome
 >>> metagenome = load_metagenome()
 >>> print(metagenome[0])

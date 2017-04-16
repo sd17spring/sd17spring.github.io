@@ -3,7 +3,7 @@ title: Next
 position: 1
 ---
 
-# Thursday, April 13
+# Thursday, April 20
 
 Today we will cover:
 * README files

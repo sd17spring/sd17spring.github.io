@@ -11,7 +11,6 @@ description: ''
 
 * [Pro Git](https://github.com/AllenDowney/amgit/tree/master/en) (Allen Downey's modification)
 
-
 ## Visualizations
 
 * A [fantastic visual introduction](http://pcottle.github.io/learnGitBranching/) to the high-level concepts around Git and branching. If you are at all interested in using branches, this is one is not to be missed.
@@ -19,12 +18,10 @@ description: ''
 * [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 * [Why is Git so hard?](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) (it's not just you!)
 
-
 ## Interactive Tutorials
 
 * [Try Git](https://try.github.io/levels/1/challenges/1)
 * [Learn Git Branching](http://learngitbranching.js.org)
-
 
 # `.gitignore`: Ignoring Files
 
@@ -32,7 +29,6 @@ description: ''
 * [Tutorial from Atlassian](https://www.atlassian.com/git/tutorials/gitignore)
 * [Piazza post](https://piazza.com/class/iy3bgqkraq97c0?cid=50)
 * [`.gitignore` templates](https://www.gitignore.io)
-
 
 ## Git Tutorials From Past Semesters
 
@@ -49,7 +45,6 @@ presentation](https://docs.google.com/presentation/d/1NpeHiQKs-y2PKp_XrUgzhSSXXB
 (thanks: Chris)
 
 [One-page cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) (PDF, thanks: Celine)
-
 
 ## How to get the stuff from my computer to GitHub
 
@@ -68,7 +63,6 @@ in vim, first press “i”, then write your message, then type “:wq” for wr
 quit. Alternatively, if you just want to escape from vim's interface without
 saving a message, just enter “:q” for quit.
 
-
 ## Pulling reading journal notebook files from class repository
 
 When the instructors have uploaded new reading assignments, you can pull them into your repository if the upstream repository is the one you originally forked from.
@@ -82,7 +76,6 @@ $ git merge upstream
 This will fetch files from the remote "upstream" which is set to the original
 course repository, and will merge the changes in upstream to your own
 repository.
-
 
 ## How to pull changes from GitHub
 
@@ -98,7 +91,6 @@ what pulling means is that you're taking the code that others have pushed to
 your repository and matching what you have on your computer with that, so it
 incorporates their changes.
 
-
 ## How to stash (and what is stashing?)
 
 `$ git stash`
@@ -109,17 +101,16 @@ have made. Often, you'll be prompted to stash before pulling or merging with
 others. Now that you've stashed, how do you get your stuff back? You'll
 probably do the following:
 
-`$ git stash`
-
-`$ git pull`
-
-`$ git stash pop`
+``` bash
+$ git stash
+$ git pull
+$ git stash pop
+```
 
 Git stash will store your changes locally, git pull will download the changes
 other have made to the repository, and git stash pop puts the changes that you
 made locally that conflict directly in the code. If there's anything to merge,
 do it in the file and then commit and push your changes.
-
 
 ## How to fix a Git detached head
 
@@ -128,7 +119,6 @@ do it in the file and then commit and push your changes.
 If this doesn't work, try:
 
 `$ git checkout origin/master`
-
 
 ## What is branching on Git?
 
@@ -147,7 +137,6 @@ And you can tell what branch you're on by doing the command:
 
 `$ git branch`
 
-
 ## How to make a new branch
 
 `$ git fetch origin`
@@ -158,11 +147,9 @@ This branch will exist on your computer, in order to push it to git and have
 it be visible by others, you'll have to push your local branch to be a remote
 branch (see below)
 
-
 ## How to push your local branch to be a remote branch
 
 `$ git push -u origin <your-branch-name>`
-
 
 ## How to checkout a branch
 
@@ -174,29 +161,23 @@ $ git fetch origin
 $ git checkout <branch-name>
 ```
 
-
 ## How to merge changes
 
 If you get to a point where you are merging changes, you'll see something in
 your code like the following:
 
-```
-<<<<<<<HEAD
-sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)
-=======
-sarah_strohkorb = pick_the_coolest_ninja()
->>>>>>><my-branch-name>
-```
+    <<<<<<<HEAD
+    sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)
+    =======
+    sarah_strohkorb = pick_the_coolest_ninja()
+    >>>>>>><my-branch-name>
 
 The `sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)` line is what
 is represented on the 'master' branch and`sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the '<my-branch-name>' branch. You'll have to pick one of them and then delete the rest of
 the information. So if I want `sarah_strohkorb = pick_the_coolest_ninja()`,
 I'll rearrange the code to get the following:
 
-```
-sarah_strohkorb = pick_the_coolest_ninja()
-```
-
+    sarah_strohkorb = pick_the_coolest_ninja()
 
 ## How to merge one branch into another
 
@@ -205,7 +186,7 @@ been modifying the 'master' branch. You want to merge your changes in the
 'master' branch into the 'dev' branch, so that your 'dev' branch is up to
 date. What you want to do is first get into the 'dev' branch, then:
 
-```
+``` bash
 $ git fetch origin
 $ git merge origin/master
 ```

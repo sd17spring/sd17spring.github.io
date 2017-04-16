@@ -1,6 +1,5 @@
 ---
 permalink: timeline.json
-layout: 
 ---
 
 {

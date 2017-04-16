@@ -10,16 +10,14 @@ Your evaluated work in this course will include:
 
 Activity | Approx Weight
 ---------- | ----
-Active Reading|  10%
-Mini-Projects|  40%
-Project Toolbox|  15%
-Final Project|  30%
-Participation and Professionalism|  5%
-
+Active Reading | 10%
+Mini-Projects | 40%
+Project Toolbox | 15%
+Final Project | 30%
+Participation and Professionalism | 5%
 
 Each will be described in more detail below, as well as on the individual
 assignment pages.
-
 
 ### Active Reading
 
@@ -35,15 +33,16 @@ Reading journals are primarily developmental, so they are not evaluated based
 on the correctness of your solutions. Journals will be assessed using the
 following rubric:
 
-  * 2 - submitted, all exercises attempted
-  * 1 - submitted with serious deficiencies, exercises not attempted or very minimal effort
-  * 0 - not submitted
+ |
+-- | --
+2 | submitted, all exercises attempted
+1 | submitted with serious deficiencies, exercises not attempted or very minimal effort
+0 | not submitted
 
 Reading journals must be submitted by pushing to GitHub before noon on the day
 of the class in which they are due to be considered for credit. We will review
 work from journals in the next class, so it is not practical to get behind.
 You are allowed one "free pass" missed submission with no questions asked.
-
 
 ### Mini-Projects
 
@@ -57,7 +56,6 @@ by revisiting one of your earlier mini-project assignments. Using what you
 learned in the intervening time, you will reflect upon, make corrections, and
 extend your previous work. This revision exercise accounts for 5% of your
 final grade.
-
 
 ### Late Submissions
 
@@ -84,7 +82,6 @@ Every file you turn in must have a top-level comment identifying you as the
 author and listing anyone who made a substantial contribution. This comment is
 your assertion that the mini-project represents your own work.
 
-
 ### Project Toolbox
 
 The purpose of the Project Toolbox exercises is to introduce you to a range of
@@ -101,14 +98,12 @@ be done before Spring Break (due by March 13th), and the remaining exercises
 can be completed during the first week of the final project (due by March
 28th).
 
-
 ### Final Project
 
 During the second half of the semester you will work will a small team on a
 project of your design. At the end of the semester you will present your
 project to the class and turn in your code and a final report. We will provide
 details as we go along.
-
 
 ### Participation and Professionalism
 
@@ -132,7 +127,6 @@ Some things you can do to help:
 8. Be generous with your ideas and your time. Help each other.
 9. Be reflective. Think about what's working and what's not, and take responsibility for making the class work for you.
 10. Have fun!
-
 
 ## Use of Code From External Sources
 
@@ -159,7 +153,6 @@ your own is a violation of engineering ethics and Olin's Honor Code.
 Every code example you turn in must have a top-level comment identifying you
 as the author and listing anyone who made a substantial contribution. This
 comment is your assertion that the code represents your own work.
-
 
 ## General Grading Rubric
 

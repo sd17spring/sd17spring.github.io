@@ -77,6 +77,7 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 * [Requests](http://docs.python-requests.org/en/latest/) retrieves HTML pages
 
 {% if site.course.github_url == 'sd16spring' %}
+
 ### IPython Notebooks
 
 * [Iteration strategies](https://github.com//{{site.data.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)

@@ -8,8 +8,7 @@ description: Project presentations
 
 ## Today
 
-  * Project presentations
-
+* Project presentations
 
 ## Project presentation guidelines
 

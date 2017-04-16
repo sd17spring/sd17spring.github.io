@@ -37,11 +37,13 @@ Hints:
 "The `string` module provides strings named `whitespace`, which contains
 space, tab, newline, etc., and `punctuation` which contains the punctuation
 characters. Let’s see if we can make Python swear:
+
+``` python
+>>> import string
+>>> print(string.punctuation)
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
-    >>> import string
-    >>> print(string.punctuation)
-    !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-```
+
 Also, you might consider using the string methods `strip`, `replace`,
 `split`, and `translate`. Find documentation for those methods [here](https://docs.python.org/3.1/library/stdtypes.html#string-methods).
 

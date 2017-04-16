@@ -19,14 +19,15 @@ description: String formatting
 * Review [Linux at Olin](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzZDE1c3ByaW5nfGd4OmMyNzcyOTBjYThlMTM1Mg) if you didn't get a chance previously
 
 {% comment %}
+
 ## Reading Journal Debrief
 
 We'll be available to go over the
 [compiled reading journal answers]({{ site.data.course.urls.reading_journal_response_prefix }}day3_reading_journal_responses.ipynb).
+
 {% endcomment %}
-
-
 {% comment %}
+
 ## Sharing Lessons Learned on Unit Testing
 
 As a class, we will have a discussion on unit testing.
@@ -37,7 +38,6 @@ As a class, we will have a discussion on unit testing.
 4. Any lessons or best practices to share with the class?
 {% nocomment %}
 {% endcomment %}
-
 
 ## String Formatting
 
@@ -50,7 +50,7 @@ ways to manipulate strings:
 * Slicing `[]`
 * String methods (e.g. `split`, `upper`)
 
-```
+``` python
 >>> excited = "Software " + "Design" + "!"*10
 >>> print(excited)
 Software Design!!!!!!!!!!
@@ -74,7 +74,7 @@ The [older method](https://docs.python.org/3/library/stdtypes.html#printf-style-
 operator) to replace pieces of the format string. For example, to insert an
 integer, you could use:
 
-```
+``` python
 >>> print("Your number is %d" % 52)
 Your number is 52
 ```
@@ -82,7 +82,7 @@ Your number is 52
 The [newer method](https://docs.python.org/3/library/string.html#format-string-syntax) also uses a (similar) format string, but uses an explicit
 format method:
 
-```
+``` python
 >>> print("Your number is {:d}".format(52))
 Your number is 52
 ```
@@ -93,22 +93,19 @@ often clearer and can be far more powerful.
 The documentation for each can be a bit dense, but fortunately there is a
 great cheat sheet with useful tasks at <https://pyformat.info>
 
-
 **Exercise: cheap is $33, free is $34 !**
 
 You walk into a store where each item is priced according to the letters in
 its name: 'a' costs $1, 'b' is $2, and so on. Write a program that prints a
 receipt for this wacky store:
 
-```
-bananas $52
-rice $35
-paprika $72
-potato chips $78
-------------------------
+    bananas $52
+    rice $35
+    paprika $72
+    potato chips $78
+    ------------------------
 
-Total $237
-```
+    Total $237
 
 What helper functions would be useful in creating this receipt program?
 

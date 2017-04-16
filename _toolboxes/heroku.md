@@ -27,18 +27,16 @@ To start, you will need a Flask application that runs on your laptop. If you don
 
 3. Run `heroku login` with the credentials you created in step 1:
 
-    ```
     Enter your Heroku credentials.
     Email: frankly.olin@olin.edu
     Password (typing will be hidden):
-    ```
 
 ## Create a Heroku application
 
 Run `heroku apps:create` to create a Heroku **application**:
 
 ``` bash
-$ heroku apps:create                                                                              web-app
+$ heroku apps:create web-app
 Creating app... done, boiling-brushlands-71788
 https://boiling-brushlands-71788.herokuapp.com/ | https://git.heroku.com/boiling-brushlands-71788.git
 ```
@@ -60,24 +58,21 @@ where `my-heroku-app-name` is the name of your Heroku application.
 
 You should see an error message:
 
-```
-Total 0 (delta 0), reused 0 (delta 0)
-remote: Compressing source files... done.
-remote: Building source:
-remote:
-remote: -----> Failed to detect set buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/python.tgz
-remote: More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
-remote:
-remote:  !     Push failed
-remote: Verifying deploy....
-remote:
-remote: !	Push rejected to my-heroku-app-name.
-remote:
-To https://git.heroku.com/my-heroku-app-name.git
- ! [remote rejected] 7039fff -> master (pre-receive hook declined)
-error: failed to push some refs to 'https://git.heroku.com/my-heroku-app-name.git'
-```
-
+    Total 0 (delta 0), reused 0 (delta 0)
+    remote: Compressing source files... done.
+    remote: Building source:
+    remote:
+    remote: -----> Failed to detect set buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/python.tgz
+    remote: More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
+    remote:
+    remote:  !     Push failed
+    remote: Verifying deploy....
+    remote:
+    remote: !  Push rejected to my-heroku-app-name.
+    remote:
+    To https://git.heroku.com/my-heroku-app-name.git
+    ! [remote rejected] 7039fff -> master (pre-receive hook declined)
+    error: failed to push some refs to 'https://git.heroku.com/my-heroku-app-name.git'
 
 ## Why Doesn't it Work (pt. 1 of 2)? – Setting Your Repo Up for Heroku
 
@@ -152,7 +147,6 @@ Do you do this in one two ways:
 
 You should see an “Application Error” page.
 
-
 ## Why Doesn't it Work (pt. 2 of 2)? Configuring Your Server to Accept Remote Connections
 
 By default, your application only accepts HTTP requests from the same machine.
@@ -174,14 +168,13 @@ Fix these two problems (using `0.0.0.0`, and reading the port number from an env
     import os.environ
     ```
 
-2. Define `HOST ` and `PORT` as below. Then add `host` and `port` arguments to the `app.run` function. Commit the change, `git push` to Heroku again, and test again. You should see your web page.
+2. Define `HOST` and `PORT` as below. Then add `host` and `port` arguments to the `app.run` function. Commit the change, `git push` to Heroku again, and test again. You should see your web page.
 
     ``` python
     HOST = '0.0.0.0' if 'PORT' in os.environ else '127.0.0.1'
     PORT = int(os.environ.get('PORT', 5000)))
     app.run(host=HOST, port=PORT)
     ```
-
 
 ## Whitelist the Domain
 
