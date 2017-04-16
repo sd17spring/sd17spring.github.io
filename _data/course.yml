@@ -1,5 +1,5 @@
-title: "Spring 2017 Software Design"
-number: ENGR3520
+# title: "Spring 2017 Software Design"
+# number: ENGR3520
 
 instructors:
 - name: Amon Millner
@@ -30,10 +30,20 @@ assistants:
 - name: Sungwoo Park
   email: Sungwoo.Park@students.olin.edu
 
+mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
+
 github_owner: sd17spring
+
+slack:
+  team: olin
+  channel: softdes17spring
 
 urls:
   reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
+  calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
+  piazza: https://piazza.com/olin/spring2017/engr2510
+  entrance_survey: https://goo.gl/forms/6MsKDGVf5SGFyIg22
+  mid_course_feedback_survey: https://goo.gl/forms/G13HYHhW8EYARRyz1
 
 sections:
   - number: 1

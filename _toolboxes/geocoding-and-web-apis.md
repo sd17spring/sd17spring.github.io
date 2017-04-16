@@ -25,7 +25,7 @@ stop and the distance from the given place to that stop. For example:
 ## Get Set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/ToolBox-Geocoding>.
+method from <https://github.com//{{site.data.course.github_owner}}/ToolBox-Geocoding>.
 
 You should see `mbta_finder.py` within the toolbox folder, which has some
 optional scaffolding for this exercise.

@@ -289,7 +289,7 @@ don't have one already.
 Feel free to try out a partner-picking process that we have used in class before (and are likely to again, if needed). Gather people, pens, and post-it notes. Have everyone sit down and write down (on post-its) their name and ideas for project topics (a classic arcade game, something that uses video input, a computer-controlled bad-guy that evolves and gets harder to beat... etc). Take the post-its to a wall. Have people explain their ideas. Cluster together ideas that sound like they're similar or can be combined. Choose a partner  who described something similar to what you want to do OR someone who excited you by their description.
 
 As part of filling out this spreadsheet, and starting the project, you should
-fork and clone the [base repo](https://github.com/{{ site.course.github_owner }}/InteractiveProgramming) for this project.
+fork and clone the [base repo](https://github.com/{{ site.data.course.github_owner }}/InteractiveProgramming) for this project.
 Remember, that you will want to have only one of your teammates fork the repo,
 and then the other member should be added as a collaborator on GitHub for that
 repo. Be sure to add a link to your repo to the shared Google spreadsheet.

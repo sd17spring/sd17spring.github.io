@@ -35,8 +35,8 @@ See [Git Help]({% link _pages/git-help.md %}) on this site.
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/), especially [Writing Great Python Code](http://docs.python-guide.org/en/latest/#writing-great-python-code)
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
-{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
-* Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
+{% if site.data.course.urls.piazza == 'https://piazza.com/olin/spring2016/engr2510' %}
+* Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.data.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
 {% endif %}
 
@@ -79,9 +79,9 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 {% if site.course.github_url == 'sd16spring' %}
 ### IPython Notebooks
 
-* [Iteration strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
-* [Performance strategies](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
-* [Drawing call graphs](https://github.com//{{site.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
+* [Iteration strategies](https://github.com//{{site.data.course.github_owner}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
+* [Performance strategies](https://github.com//{{site.data.course.github_owner}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
+* [Drawing call graphs](https://github.com//{{site.data.course.github_owner}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
 {% endif %}
 
 ## Text Editors

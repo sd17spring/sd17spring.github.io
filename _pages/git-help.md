@@ -36,7 +36,7 @@ description: ''
 
 ## Git Tutorials From Past Semesters
 
-{% if site.course.piazza_url == 'https://piazza.com/olin/spring2016/engr2510' %}
+{% if site.data.course.urls.piazza == 'https://piazza.com/olin/spring2016/engr2510' %}
 * Piazza post: [GitHub merge conflicts and other issues](https://piazza.com/class/ijkborva8jk70v?cid=57)
 * Piazza post: [Teaching git to ignore files](https://piazza.com/class/ijkborva8jk70v?cid=97)
 {% endif %}

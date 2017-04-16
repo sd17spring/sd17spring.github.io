@@ -19,7 +19,7 @@ description: GitHub pull requests; loops
 Submitting your Gene Finder mini project is a two step process:
 
 1. Complete the work and push it to your GitHub repository
-2. Submit a pull request to the upstream {{site.course.github_owner}} repository that you originally forked from
+2. Submit a pull request to the upstream {{site.data.course.github_owner}} repository that you originally forked from
 
 Pull requests are typically used to contribute code to someone else's project
 in the open source world. They let you send changes you've made, which the

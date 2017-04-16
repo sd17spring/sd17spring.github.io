@@ -49,7 +49,7 @@ command:
     $ sudo pip3 install matplotlib scikit-learn scipy
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.course.github_owner}}/ToolBox-MachineLearning>.
+method from <https://github.com//{{site.data.course.github_owner}}/ToolBox-MachineLearning>.
 
 ## Classification Using Scikit-Learn
 

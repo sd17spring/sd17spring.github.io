@@ -2,7 +2,7 @@
 title: README rubric
 date: 2016-12-29 13:26:01 -05:00
 description: ''
-parent: final-project
+parent: final-project/
 ---
 
 Every software project should include a README, to give context for the

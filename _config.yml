@@ -1,14 +1,15 @@
-title: Software Design Spring 2017
+# jekyll settings
 timezone: America/New_York
+
+# theme settings
+url: https://sd17spring.github.io/
+title: Software Design Spring 2017
+breadcrumbs: true
 
 description: 'This course is an introduction to software design. It focuses on a model
   of computation as a set of simultaneous ongoing entities embedded in and interacting
   with a dynamic environment, for example: computation as it occurs in spreadsheets,
   video games, web applications, and robots.'
-
-baseurl: ''
-url: https://sd17spring.github.io/
-breadcrumbs: true
 
 author:
   github: sd17spring
@@ -18,18 +19,10 @@ copyright_date: 2015-2017
 copyright_holder: Franklin W. Olin College of Engineering
 
 course:
-  github_owner: sd17spring
-  calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
-  piazza_url: https://piazza.com/olin/spring2017/engr2510
-  entrance_survey_url: https://goo.gl/forms/6MsKDGVf5SGFyIg22
-  mid_course_feedback_survey_url: https://goo.gl/forms/G13HYHhW8EYARRyz1
-  mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
   dates:
     final_expo: 2017-05-04 00:00:00.000000000 Z
 
-slack:
-  team: olin
-  channel: softdes17spring
+# more Jekyll settings (from here to end of file)
 
 collections:
   assignments:

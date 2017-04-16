@@ -188,7 +188,7 @@ instructions](http://damnwidget.github.io/anaconda/#using-anaconda-installation)
 This plugin can also provide additional programming aids; for more information, see the
 [Anaconda](http://damnwidget.github.io/anaconda/) web site.
 
-{% if site.course.flootbits_url %}
+{% if site.data.course.urls.floobits %}
 ## Optional: Setup Floobits
 
 Occasionally, we (the instructors) will be coding in front of the class. In
@@ -285,7 +285,7 @@ Since there's reading due next class, you will need to perform the steps below
 to setup your personal `ReadingJournal` repository.
 
 Navigate to the SoftDes reading journal base repository by clicking on this
-[link](https://github.com/{{site.course.github_owner}}/ReadingJournal). Next, click the "Fork"
+[link](https://github.com/{{site.data.course.github_owner}}/ReadingJournal). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
 GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
@@ -346,7 +346,7 @@ If you are having trouble getting your environment setup for whatever reason,
 please do the following:
 
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
-2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
+2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.data.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
 
 
 ## Step 5: Play a game?!?
@@ -370,10 +370,10 @@ might want to ponder as you play the game:
 * Did your approach to the previous two events change as you got more experience playing the game?
 * Any other interesting observations?
 
-{% if site.course.entrance_survey_url %}
+{% if site.data.course.urls.entrance_survey %}
 ## Tell Us More About Yourself!
 
 As a final step for both turning in your reading journal, and so that we can
 learn more about you, your background, and your learning goals, please fill
-out the [course entrance survey]({{site.course.entrance_survey_url}}).
+out the [course entrance survey]({{site.data.course.urls.entrance_survey}}).
 {% endif %}
