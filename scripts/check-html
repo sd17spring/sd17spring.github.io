@@ -1,12 +1,19 @@
 #!/usr/bin/env bash -e
 
 bundle exec jekyll build
+
 bundle exec htmlproofer \
   --alt-ignore /images/HtL_Banner.svg \
   --assume-extension \
-  --check-external-hash \
   --check-html \
   --empty-alt-ignore \
   --report-missing-names \
   --report-script-embeds \
+  --url-ignore https://apps.twitter.com/app/new,http://wikis.olin.edu/linux/doku.php,http://127.0.0.1:5000 \
   ./_site
+
+# It would be nice to --check-external-hash, but these fail because the
+# has is parsed by the page script.
+#   https://docs.google.com/.../edit#gid=0
+#   https://packagecontrol.io/installation#st3
+#   http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;
