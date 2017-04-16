@@ -466,7 +466,7 @@ loudness changes as picked up by your computer's microphone. This can be used
 to have a visual that pulses along to the music (or your voice).
 
 In order to process audio from the microphone, check out
-[pyalsaaudio](http://pyalsaaudio.sourceforge.net/pyalsaaudio.html). To use the
+[pyalsaaudio](http://larsimmisch.github.io/pyalsaaudio/). To use the
 library you will need to install both the **pyalsaaudio**  package and some
 libraries that it depends on. Here are the install commands:
 
