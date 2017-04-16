@@ -7,4 +7,18 @@ bundle exec mdl \
   --style scripts/mdl-style.rb \
   .
 
-./scripts/check-html
+bundle exec jekyll build
+
+# This differs from the invocation in scripts/check-html in
+# that this command skips external links. Some such links
+# always fail on Travis (and could be added to --url-ignore);
+# more fail intermittently.
+bundle exec htmlproofer \
+  --alt-ignore /images/HtL_Banner.svg \
+  --assume-extension \
+  --check-html \
+  --disable-external \
+  --empty-alt-ignore \
+  --report-missing-names \
+  --report-script-embeds \
+  ./_site
