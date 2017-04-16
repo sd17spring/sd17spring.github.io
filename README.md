@@ -1,5 +1,7 @@
 # Spring 2017 SoftDes Web Site
 
+[![Build Status](https://travis-ci.org/sd17spring/sd17spring.github.io.svg?branch=master)](https://travis-ci.org/sd17spring/sd17spring.github.io)
+
 Home page for Olin College Software Design Spring 2017
 
 The source to <https://sd17spring.github.io>.
