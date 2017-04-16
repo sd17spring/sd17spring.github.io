@@ -1,10 +1,12 @@
 language: ruby
 rvm:
-- 2.4.1
+- 2.4.0
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: bash scripts/check-html
+script: ./scripts/cibuild
+
+cache:
+  directories:
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 env:
   global:

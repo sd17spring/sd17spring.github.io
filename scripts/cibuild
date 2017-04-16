@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e # halt script on error
+
+bundle exec mdl --style scripts/mdl-style.rb .
+
+./scripts/check-html
