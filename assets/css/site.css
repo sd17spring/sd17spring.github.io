@@ -21,7 +21,11 @@ a[href^="http://"], a[href^="https://"] {
   padding-right: 13px;
 }
 
-a[href^="http://localhost:"], a[href^="https://sd17spring.github.io/"], .social-icons a {
+a[href^="http://localhost:"],
+a[href^="http://0.0.0.0/"],
+a[href^="https://127.0.0.1/"],
+a[href^="https://sd17spring.github.io/"],
+.social-icons a {
   background: none;
   padding-right: 0;
 }
