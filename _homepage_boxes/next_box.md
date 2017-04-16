@@ -1,16 +1,13 @@
 ---
-title: Next
+title: Coming Up
 position: 1
 ---
 
-# Thursday, April 20
+## Monday, April 17
 
-Today we will cover:
-* README files
-* Project websites
-* Breakout session: Overview of the E:C plan of study
+…is a holiday. Enjoy Patriot's Day!
 
-See the [day 22 activity page]({% link _days/day-22.md %}) for details.
+## Thursday, April 20
 
 ---
 
