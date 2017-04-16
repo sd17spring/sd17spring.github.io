@@ -4,7 +4,7 @@ services:
   jekyll:
     build: .
     container_name: softdes-web
-    command: serve --host 0.0.0.0 --watch --incremental --destination /tmp/jekyll-pages
+    command: serve --host 0.0.0.0 --watch --destination /tmp/jekyll-pages
     ports:
       - 4000:4000
     volumes:
