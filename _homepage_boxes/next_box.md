@@ -1,5 +1,5 @@
 ---
-title: Activities
+title: Next
 position: 1
 ---
 
