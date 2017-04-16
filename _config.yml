@@ -84,3 +84,4 @@ exclude:
 - docker_compose.yml
 - notebooks
 - scripts
+- vendor  # for travis
