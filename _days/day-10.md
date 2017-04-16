@@ -24,7 +24,7 @@ In this exercise, you will define methods for `Line` and `Rect` geometry
 classes.
 
 Save the file
-[geometry.py]({% link _activities/day-10/geometry.py %})
+[geometry.py]({% link files/activities/day-10/geometry.py %})
 to your file system, and modify it so that the doctests pass:
 
 ``` bash
