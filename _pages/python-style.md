@@ -1,6 +1,7 @@
 ---
 title: Python Style
 date: 2016-12-29 13:26:01 -05:00
+permalink: resources/python-style
 ---
 
 Program Python like a pro! Code in the right-hand column better to employers

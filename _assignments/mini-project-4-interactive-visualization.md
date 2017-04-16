@@ -125,7 +125,7 @@ find the computer vision library OpenCV useful. The idea here would be to
 capture images from a camera (probably the webcam on your laptop) and use
 those to control some aspect of your program. To get started check out the
 SoftDes [project toolbox exercise on OpenCV]({% link _toolboxes/image-processing.md %}). Next, read through the [OpenCV Python
-tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_tutorials.html)
+tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
 ### To Implement, or not to Implement, that is the question!

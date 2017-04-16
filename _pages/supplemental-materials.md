@@ -1,6 +1,7 @@
 ---
 title: Supplemental Materials
 date: 2016-12-29 18:26:01 -05:00
+permalink: resources/supplemental-materials
 description: ''
 ---
 

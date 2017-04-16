@@ -93,4 +93,4 @@ Python data structures. Here are some key points:
 Next, we will be doing an exercise to:
 
 1. Practice the application of order of growth analysis to actual Python code
-2. Explore how this analysis squares with an empirical analysis of the running time of Python code. The exercises for this portion of class can be found in the repository <https://github.com//{{site.data.course.github_owner}}/ClassNotes> under **AnalysisOfAlgorithms.ipynb** .
+2. Explore how this analysis squares with an empirical analysis of the running time of Python code. The exercises for this portion of class can be found in the repository <https://github.com/sd16spring/ClassNotes> under **AnalysisOfAlgorithms.ipynb** .

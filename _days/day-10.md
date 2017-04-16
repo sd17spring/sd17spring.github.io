@@ -67,7 +67,7 @@ directions. Any of these can be done independently of the others.
 ### Going Beyond 1: Duck Typing Skills emphasized: object-oriented programming (classes); polymorphism (“duck typing”).
 
 Save the file
-[geometry_beyond_1.py](https://raw.githubusercontent.com/sd17spring/{{ site.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_1.py),
+[geometry_beyond_1.py](https://raw.githubusercontent.com/{{ site.data.course.github_owner }}/{{ site.data.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_1.py),
 implement the methods of the `Circle` class, and implement the function `stochastic_area`.
 `stochastic_area` should work on either a Rect or a Circle.
 
@@ -81,7 +81,7 @@ Some things to think about:
 ### Going Beyond 2: PyGame – Skill emphasized: computer graphics
 
 Save the file
-[geometry_beyond_2.py](https://raw.githubusercontent.com/{{ site.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_2.py),
+[geometry_beyond_2.py](https://raw.githubusercontent.com/{{ site.data.course.github_owner }}/{{ site.data.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_2.py),
 and modify the implementation of `draw_shapes` to attend to its argument (a
 list of shapes).
 

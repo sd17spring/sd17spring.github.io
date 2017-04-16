@@ -44,7 +44,7 @@ description: ''
 presentation](https://docs.google.com/presentation/d/1NpeHiQKs-y2PKp_XrUgzhSSXXBrhTv5DHU4vjQoF99Y/edit?usp=sharing)
 (thanks: Chris)
 
-[One-page cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) (PDF, thanks: Celine)
+[One-page cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) (PDF, thanks: Celine)
 
 ## How to get the stuff from my computer to GitHub
 
