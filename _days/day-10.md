@@ -15,8 +15,8 @@ description: Text mining mini-project work and making classes
 * Reading journal
 * Mini Project 3 due Thursday
 * Optional: Submit 1-2 slides with results from your MP3 (described below)
-* [Choose MP4 topic and partner](https://sd17spring.github.io//assignments/mini-project-4-interactive-visualization/#getting-started) (before the end of Thursday's class)
-* [MP4 project proposal](https://sd17spring.github.io//assignments/mini-project-4-interactive-visualization/#project-proposal)
+* [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before the end of Thursday's class)
+* [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}/#project-proposal)
 
 
 ## In-Class Exercise: Geometry Classes
@@ -25,7 +25,7 @@ In this exercise, you will define methods for `Line` and `Rect` geometry
 classes.
 
 Save the file
-[geometry.py](https://github.com/sd17spring/sd17spring.github.io/blob/master/files/activities/day-10/geometry.py)
+[geometry.py]({% link _activities/day-10/geometry.py %})
 to your file system, and modify it so that the doctests pass:
 
 ``` bash
@@ -66,7 +66,7 @@ directions. Any of these can be done independently of the others.
 ### Going Beyond 1: Duck Typing Skills emphasized: object-oriented programming (classes); polymorphism (“duck typing”).
 
 Save the file
-[geometry_beyond_1.py](https://raw.githubusercontent.com/sd17spring/sd17spring.github.io/master/files/activities/day-10/geometry_beyond_1.py),
+[geometry_beyond_1.py](https://raw.githubusercontent.com/sd17spring/{{ site.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_1.py),
 implement the methods of the `Circle` class, and implement the function `stochastic_area`.
 `stochastic_area` should work on either a Rect or a Circle.
 
@@ -80,7 +80,7 @@ Some things to think about:
 ### Going Beyond 2: PyGame – Skill emphasized: computer graphics
 
 Save the file
-[geometry_beyond_2.py](https://raw.githubusercontent.com/sd17spring/sd17spring.github.io/master/files/activities/day-10/geometry_beyond_2.py),
+[geometry_beyond_2.py](https://raw.githubusercontent.com/{{ site.course.github_owner }}.github.io/master/files/activities/day-10/geometry_beyond_2.py),
 and modify the implementation of `draw_shapes` to attend to its argument (a
 list of shapes).
 

@@ -5,7 +5,7 @@ position: 4
 
 If you need help outside of class and office hours, use [Slack](https://{{ site.data.course.slack.team }}.slack.com/messages/{{ site.data.course.slack.channel }}) or [Piazza]({{ site.data.course.urls.piazza }}).
 
-[Course web site](https://sd17spring.github.io)
+[Course web site]({{ site.url }})
 : **What**: The main course site. (You're looking at it.)
 : **Used for**: Assignment descriptions, resources, syllabus, calendar, policies.
 

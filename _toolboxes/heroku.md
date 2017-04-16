@@ -188,7 +188,7 @@ Fix these two problems (using `0.0.0.0`, and reading the port number from an env
 **Problem:** Olin's [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) provider blocks some new sites from the Olin network after a 1-3 day grace period.
 Your app may work for a while, and then stop working with the message below:
 
-![](/images/toolboxes/heroku/it_security_message.png)
+![]({% link images/toolboxes/heroku/it_security_message.png %})
 
 **Solution:** Send a message to <helpdesk@olin.edu>: “I am using the domain name myapp.herokuapp.com for a class project, and need access to it from within the Olin network. Please configure DNS so that it does not block this site.”
 
