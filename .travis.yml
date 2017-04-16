@@ -5,6 +5,7 @@ rvm:
 script: ./scripts/cibuild
 
 cache:
+  bundler: true
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
