@@ -125,7 +125,6 @@ documentation, except built from Python data types. The response data structure 
       >>> print(response_data["results"][0]["formatted_address"])
       4 Yawkey Way, Boston, MA 02215, USA
 
-
 **Note**: You might notice that I didn't provide an API key with the request. For the Google Maps API, you can actually get away without one for a small number or requests. Be sure to limit your requests (don't repeatedly make requests in a loop, or rate-limit using [time.sleep](https://docs.python.org/3/library/time.html#time.sleep)) so that Olin's IP range is not blocked.
 
 **Write a function to extract the latitude and longitude from the JSON response.**

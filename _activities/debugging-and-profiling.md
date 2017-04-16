@@ -4,7 +4,6 @@ For today's purposes, we'll define "good code" to be correct and fast. There
 are other equally important considerations, such as good documentation and
 organization, but these are harder to measure quantitatively.
 
-
 ### Is the code correct?
 
 If your code doesn't do what it is supposed to, then nothing else matters.
@@ -12,14 +11,12 @@ We've discussed and practiced strategies for ensuring this, such as unit
 testing. In situations when getting to "correct" proves difficult, it may be
 helpful to employ more advance debugging strategies.
 
-
 ### Is the code fast enough?
 
 If the code is doing what it should, the next question is whether it runs fast
 enough. There are several tools we can use to probe execution performance. The
 answer to this question depends on context, but if the answer is "no" then we
 need to dig deeper.
-
 
 ### Why not?
 
@@ -31,7 +28,6 @@ execution so that they can be fixed.
 never acceptable without specific evidence. Faster hardware can sometimes
 help, but buying a shiny new machine is not the solution when a poor algorithm
 is the core of the problem (and much cheaper to fix).
-
 
 ## Something's not correct... Tools for debugging
 
@@ -91,7 +87,6 @@ only to find the bugs (you can probably do that without the debugger), but
 instead to practice using the debugger as one of the debugging tools in your
 arsenal.
 
-
 ### WinPDB
 
 WinPDB is an advanced Python debugger. One nice thing that it has is a
@@ -105,7 +100,6 @@ to the extracted folder, and run `sudo python setup.py install -f`.
 Once you have installed winpdb, try it out by running the following command:
 
 `$ winpdb ~/ClassNotes/pdb_practice/debugging_exercise_1.py`
-
 
 ## Fast enough? Tools for benchmarking execution
 
@@ -150,11 +144,9 @@ It can also be run from within a Python program (there is an example at
 `timeit` is best used for testing very small sections of code (e.g. a single
 line). For understanding larger programs, you should consider code profiling.
 
-
 ### Exercise
 
 Use `timeit` to compare `reverse_complement_1` and `reverse_complement_2` from
 Day 17. Do the results match your analytical understanding?
-
 
 * open time to work on projects

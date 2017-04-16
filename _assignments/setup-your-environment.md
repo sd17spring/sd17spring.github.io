@@ -29,7 +29,6 @@ this toolset as the semester progresses. In other words, you should think of
 learning the toolset as a process and not something that you need to do all at
 once.
 
-
 ### A note about variations on the instructions
 
 The instructions below will allow you to setup the "officially supported"
@@ -37,7 +36,6 @@ environment for SoftDes. Some deviations from the setup below are okay while
 others are not (when in doubt please ask). That being said, it will likely be
 more difficult for us to help you debug problems with your setup if you have a
 nonstandard environment.
-
 
 ### A note about "`$`"
 
@@ -56,7 +54,6 @@ In this case you would open a Linux terminal and type the characters "`ls ~`"
 and then hit the enter key (notice that you don't actually type the "`$`" at any
 time). If you don't know what a Linux terminal is yet, that is okay! Keep
 reading!
-
 
 ## Step 1: Install and Configure Ubuntu
 
@@ -162,7 +159,6 @@ To verify that Atom is installed, run:
 $ atom
 ```
 
-
 ## Optional: Set Up Your Integrated Development Environment (IDE)
 
 You've now got all you need to start editing code with Atom, but you may want your development environment to be a little fancier. Beyond a simple text editor, an IDE also contains a suite of tools that will help you debug while you code instead of discovering the errors at runtime.
@@ -215,7 +211,6 @@ instructions to configure the plugin.
 
 Read Chapter 1 of Linux at Olin (available [here]({% link files/assignments/setup-your-environment/linux.pdf %})).
 
-
 ## Step 3: Get Started with Git
 
 ### The Basic Idea
@@ -225,7 +220,6 @@ Git? That's totally fine (and totally expected)! Before we do some course
 specific Git stuff, take some time to read [Chapter
 1](https://github.com/AllenDowney/amgit/blob/master/en/01-introduction/01-chapter1.markdown)
 of Allen's excellent online book called AmGit.
-
 
 ### Create a GitHub Account
 
@@ -271,7 +265,6 @@ look at your GitHub repositories.
 > It is probably a good idea to think of everything you do on GitHub as part
 of your public professional reputation.
 
-
 ### Find and Fork the ReadingJournal Repo
 
 We will be using GitHub for a number of use cases in the class.
@@ -288,7 +281,6 @@ Navigate to the SoftDes reading journal base repository by clicking on this
 button in the upper right hand corner of the page. If you are not signed into
 GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
-
 
 ## Step 4: Do Some Reading (and write Some Python)!
 
@@ -338,7 +330,6 @@ you followed all of the instructions outlined above, that's it!
 
 **Note: just for this time, there is one last step to turning in your reading assignment. This additional step will happen when you fill out the course entrance survey (see below).**
 
-
 ### Contingency Plan if You Are Having Problems With Your Setup
 
 If you are having trouble getting your environment setup for whatever reason,
@@ -346,7 +337,6 @@ please do the following:
 
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
 2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.data.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
-
 
 ## Step 5: Play a game?!?
 

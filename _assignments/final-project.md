@@ -53,7 +53,6 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 * You are required to work on a team of 4-5 students. A limited number of 3-student teams may be permitted, upon instructor approval.
 
-
 ### Team Formation Advice
 
 * Try to **work with people because you share a common interest**  rather than simply working with your friends (we will do a structured activity to help with this aspect of team formation).

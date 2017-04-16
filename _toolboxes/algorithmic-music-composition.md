@@ -20,7 +20,6 @@ blues solo. Here is an example by one of the best (humans) in the biz:
 
 <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/MpRIYi721WE" frameborder="0" allowfullscreen></iframe>
 
-
 ## Get Set
 
 Before you can get started with this exercise, you will need to download
@@ -41,7 +40,6 @@ First, open up a terminal and execute the following commands. Answer "yes" to qu
 Launch the **Sonic Pi** program. Click on the Search icon at the top of the Ubuntu tool bar.
 
 ![]({% link files/toolboxes/algorithmic-music-composition/ubuntu-search-icon.png %})
-
 
 Type "Sonic Pi" into the search dialog and click on the **Sonic Pi** icon.
 

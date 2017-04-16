@@ -37,7 +37,6 @@ of a good README include:
 
 * Your final project represents a fair amount of your hard work, so you should think a bit about the terms on which you want to release it into the world. Check out <http://choosealicense.com>
 
-
 ## Developer-centric options
 
 If you want others to contribute to your code, consider adding some of these
@@ -55,7 +54,6 @@ additional sections:
 
 * How the code works at a more detailed level.
 * Description of files, data structures, etc. that it is important for new developers to be familiar with.
-
 
 ### Other options
 

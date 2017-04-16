@@ -10,7 +10,6 @@ description: Model-View-Controller
 Model-View-Controller is what is known as a [software design
 pattern](https://en.wikipedia.org/wiki/Software_design_pattern).
 
-
 > In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a **[design
 pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern")**  is
 a general reusable solution to a commonly occurring problem within a given

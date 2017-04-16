@@ -30,14 +30,12 @@ feedback. You will be able to communicate feedback to the presenters using a
 Google form (link to be posted). So, make sure to have your laptop charged and
 ready to go.
 
-
 ## Rubric
 
 **The Big Idea (25%)**
 
 Clearly and succinctly communicate the motivation for your project providing
 context to appropriately target your audience.
-
 
 **Implementation and Design Details (25%)**
 
@@ -46,7 +44,6 @@ detail appropriate for the audience and the time frame of the presentation.
 These details might include the libraries you are using, the algorithms you
 are implementing, or the object-oriented architecture you have employed.
 
-
 **Project status (25%)**
 
 Communicate the status of your project including:
@@ -54,7 +51,6 @@ Communicate the status of your project including:
 * what you have done so far (possibly including screenshots or a video demo)
 * current work
 * future work /reach goals
-
 
 **Professionalism**  (25%)
 

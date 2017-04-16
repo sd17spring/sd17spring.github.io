@@ -13,7 +13,6 @@ homepage_message: Find your team on the <a href="https://docs.google.com/spreads
 * [View the schedule](https://docs.google.com/spreadsheets/d/1uzT4UIbA-dGVnvxw5YQ36xo4uDCLLsCuBYf0JanX9eU/edit?usp=sharing)
 * The rest of the class time is project studio.
 
-
 ## For Next Time
 
 * Post your [Architectural Review reflection document]({% link _assignments/final-project/architectural-review.md %}#after-the-architectural-review)

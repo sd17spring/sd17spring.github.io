@@ -11,7 +11,6 @@ description: Interactive Programming demos
 * Final project kickoff
 * UML?
 
-
 ## For Next Time
 
 * Think of final project ideas

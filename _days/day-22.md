@@ -26,7 +26,6 @@ guidelines that we generated together formed the basis of the [README
 rubric]({% link _assignments/final-project/readme-rubric.md %}) for the
 final project.
 
-
 ## Project websites
 
 Each team will be creating a [project website]({% link _assignments/final-project.md %}#project-website) as part of the final

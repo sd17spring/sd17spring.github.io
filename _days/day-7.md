@@ -195,7 +195,6 @@ some time to work on this and then we'll discuss as a group.
 Once you have completed your `snow_flake_side` function, create a function
 called `snow_flake` that draws the whole snowflake.
 
-
 ### Recursive Trees
 
 Next, we will draw a tree using recursion. Define a function called
@@ -241,7 +240,6 @@ enhancements:
 * Add some randomness to the degree of left turn, right turn, and scaling so that you get more naturalistic looking trees
 * Add more than two branches
 
-
 ## More Recursion
 
 The Koch snowflake and our recursive tree are both part of a more general
@@ -258,13 +256,13 @@ save and then restore then Turtle's state (symbols `[` and `]` respectively):
 
 ``` python
 def save_turtle_state(turtle_states, t):
-  turtle_states.append((t.x, t.y, t.heading))
+    turtle_states.append((t.x, t.y, t.heading))
 
 def restore_turtle_state(turtle_states, t):
-  s = turtle_states.pop()
-  t.x = s[0]
-  t.y = s[1]
-  t.heading = s[2]
+    s = turtle_states.pop()
+    t.x = s[0]
+    t.y = s[1]
+    t.heading = s[2]
 ```
 
 ## Loading new DNA

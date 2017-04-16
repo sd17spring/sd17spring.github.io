@@ -89,7 +89,6 @@ If you'd like to learn more about what is going on behind the scenes,
 check out the [Web APIs Project Toolbox]({% link _toolboxes/geocoding-and-web-apis.md %}) assignment.
 {% endcomment %}
 
-
 ### Data Source: Project Gutenberg
 
 [Project Gutenberg](http://www.gutenberg.org/) is a website that has 42,000
@@ -448,7 +447,6 @@ labeled 4 is the work by Charles Darwin.
 
 ![]({% link images/assignments/text-mining/figure_1.png %}){:width="400px" height="300px"}
 
-
 ### Markov Text Synthesis
 
 You can use [Markov](http://en.wikipedia.org/wiki/Markov_chain) analysis to
@@ -459,7 +457,6 @@ each of your friends, or to create literary mashups automatically. [Think
 Python chapter 13](http://greenteapress.com/thinkpython2/html/thinkpython2014.html) section 8
 called "Markov Analysis" has some detail on how to do this. Again, let the
 teaching team know if you go this route and we can provide more guidance.
-
 
 ## Part 3: Project Writeup and Reflection
 

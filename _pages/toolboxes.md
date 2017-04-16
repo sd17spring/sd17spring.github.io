@@ -25,20 +25,17 @@ for help.) There are also lots of opportunities to take things further – many
 of the topics are active research areas, and you could easily work on some of
 them for a lifetime!
 
-
 ### Tips for success
 
-  * **Don't suffer in silence.** Many of these exercises require installing new packages, which can sometimes come with hiccups. If you're struggling with something, let us know about it on Piazza so we can fix it for you and everyone else.
-  * **Start early**. The project toolbox can be a great source of inspiration for your final project – but only if you try them in time.
-  * **Have fun** and follow your own learning goals.
-
+* **Don't suffer in silence.** Many of these exercises require installing new packages, which can sometimes come with hiccups. If you're struggling with something, let us know about it on Piazza so we can fix it for you and everyone else.
+* **Start early**. The project toolbox can be a great source of inspiration for your final project – but only if you try them in time.
+* **Have fun** and follow your own learning goals.
 
 ## Toolboxes
 
 {% assign toolboxes = site.toolboxes | sort: 'title' %}
 {% for toolbox in toolboxes %}
 * [{{ toolbox.title }}]({{ toolbox.url }}){% endfor %}
-
 
 ## Submitting exercises
 

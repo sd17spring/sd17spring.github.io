@@ -41,7 +41,6 @@ decides is most readable and most flexible.
 In a surprise move, your manager has asked you to implement two new features
 for your program.
 
-
 1\. Write a function that draws the following grid
 
     + - - - - + - - - - + - - - - + - - - - + - - - - +

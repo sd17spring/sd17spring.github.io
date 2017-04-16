@@ -18,7 +18,6 @@ description: Text mining mini-project work and making classes
 * [Choose MP4 topic and partner]({% link _assignments/mini-project-4-interactive-visualization.md %}#getting-started) (before the end of Thursday's class)
 * [MP4 project proposal]({% link _assignments/mini-project-4-interactive-visualization.md %}/#project-proposal)
 
-
 ## In-Class Exercise: Geometry Classes
 
 In this exercise, you will define methods for `Line` and `Rect` geometry
@@ -86,7 +85,6 @@ Save the file
 and modify the implementation of `draw_shapes` to attend to its argument (a
 list of shapes).
 
-
 ### Going Beyond 3: Geometry algorithms
 
 _Skill emphasized: computation geometry and computer algorithms._
@@ -98,7 +96,6 @@ Think about:
 
 * What should `Line.intersection` and `Rect.intersection` do when the two lines or rectangles don't intersect? Can you think of several answers? – what are their pro and cons?
 
-
 ### Going Beyond 4: Test Case Design
 
 _Skill emphasized: software engineering._
@@ -109,7 +106,6 @@ would you add?
 
 You may do this exercise by drawing lines, squares, and points on a piece of
 paper, instead of covering coordinates to numbers.
-
 
 ## Submitting Text mining-project slides
 

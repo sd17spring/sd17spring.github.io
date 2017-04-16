@@ -133,9 +133,7 @@ team GitHub repository before the review takes place.
 * Clear agenda and plan for the review session are included
 * [_Optional_] Appropriate amount of useful pre-reading provided to peer teams 24 hours before review
 
-
 ---|---
-
 
 **75%** |
 
@@ -143,12 +141,9 @@ team GitHub repository before the review takes place.
 * Key questions may be either obvious or too vague
 * Writing may be less clear, and some key concepts or terms may not be adequately explained
 
-
 **50%** |  A significant component of the document is missing
 **25%** | The document is very unclear and missing multiple key elements
 **0%** | You didn't turn in anything, or you clearly didn't put any effort into creating the document
-
-
 
 ### During: At the technical review session
 
@@ -159,14 +154,12 @@ beforehand.
 
 **Presenting team**
 
-
 **100%** |
 
 * Set a clear agenda for the review and share it with the audience
 * Provide an appropriate level of context without going into unnecessary detail
 * Effectively guide the conversation and solicit contributions from the audience
 * Take notes on the discussion
-
 
 ---|---
 
@@ -176,21 +169,17 @@ beforehand.
 * One-way presentation rather than dialog
 * Failure to take notes and record audience contributions
 
-
 **0%** |
 
 * Minimal effort or unexcused absence
 
-
 **Audience member**
-
 
 **100%** |
 
 * Practice active, engaged listening
 * Contribute thoughtful questions and comments directed at the presenting group's identified key questions
 * Come prepared with background reading (if applicable)
-
 
 ---|---
 
@@ -199,22 +188,14 @@ beforehand.
 * Divided attention (laptop use other than research or note-taking)
 * Derailing or severely off-topic questions or comments
 
-
 **0%** |
 
 * Minimal effort or unexcused absence
-
-
 
 ### After: Reflection and Synthesis
 
 Your team must post a Reflection and Synthesis document as Markdown to your
 team GitHub repository before the next class after the review.
-
-
-
-
-
 
 **100%** |
 
@@ -223,9 +204,7 @@ team GitHub repository before the next class after the review.
 * Includes concrete plan for moving forward incorporating lessons learned from the technical review
 * Reflection on review process is thoughtful and contains actionable lessons for next time
 
-
 ---|---
-
 
 **75%** |
 
@@ -233,13 +212,9 @@ team GitHub repository before the next class after the review.
 * Audience feedback may be listed, but not processed or synthesized
 * Writing may be less clear, and some key concepts or terms may not be adequately explained
 
-
 **50%** |  A significant component of the document is missing
 **25%** | The document is very unclear and missing multiple key elements
 **0%** | You didn't turn in anything, or you clearly didn't put any effort into creating the document
-
-
-
 
 ## Team groupings and schedule
 

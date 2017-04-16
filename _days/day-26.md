@@ -42,13 +42,11 @@ well.
 
 [Guidelines]({% link _assignments/final-project.md %}#code-submission)
 
-
 ## Communicating with your audience
 
 The work you've done in this class is potentially of interest to several
 different groups of people. This exercise is intended to help you select what
 content to include and prioritize in your website and other deliverables.
-
 
 In groups at your tables:
 

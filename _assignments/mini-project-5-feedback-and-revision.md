@@ -50,7 +50,6 @@ _[Optional]_  If you'd like some feedback on your proposed technical
 improvement or help coming up with one, send a short (1-2 sentences is OK)
 proposal to the instructors via Piazza
 
-
 ### Branch out
 
 In this mini-project, we'll model a git workflow (one of many possible) in
@@ -63,11 +62,9 @@ or on the [command line](https://git-scm.com/book/en/v2/Git-Branching-Basic-Bran
 branch will point to your original mini project submission, and you will make
 all the new revisions in the `master` branch.
 
-
 ### Get it done
 
 Complete your revision and improvement and push your work to GitHub.
-
 
 ### Turn it in
 

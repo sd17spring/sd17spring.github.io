@@ -55,7 +55,6 @@ extension is not worth any extra points, but it will quite interesting (and
 isn't knowledge its own reward?!?). The extension is focused around exploring
 both computational and biological content.
 
-
 ## Motivation and Introduction
 
 Computational approaches for analyzing biological data have revolutionized
@@ -132,7 +131,6 @@ In this assignment we will be building a gene finding program that can
 accurately determine regions of the Salmonella bacterium's DNA that code for
 proteins. For a quick (and relatively entertaining) overview of the approach
 you will be using, check out this MIT OpenCourseWare video.
-
 
 ## Getting Set
 
@@ -365,7 +363,6 @@ you think of a different method of unit testing that would be appropriate for
 this function? Are there any other methods you might use to build confidence
 that your implementation is correct? (These are rhetorical questions.)
 
-
 * `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in **amino_acids.py**  or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
 
 You can convert a three nucleotide string (also called a triplet codon) into
@@ -423,7 +420,6 @@ Also, if you are interested in comparing the results of your gene finder to a
 state-of-the art one, you can try out one called Glimmer3
 [here](http://www.ncbi.nlm.nih.gov/genomes/MICROBES/glimmer_3.cgi).
 
-
 ### Turning in Week 2 Assignment
 
 Submitting your assignment is a two step process:
@@ -445,7 +441,6 @@ your pull requests. Instead, we use them as:
 For the main assignment, all your code will be in `gene_finder.py`. If you
 choose to do the **Going Beyond**  portion, it is up to you how you structure
 your code for that portion.
-
 
 ## Going Beyond
 
@@ -523,7 +518,6 @@ this longest match.
 
 1. Use [pypy](http://pypy.org) to execute your program (a modified Python interpreter that excels when executing Python programs that depend heavily on loops). To install this run `sudo apt-get install pypy`. I got a 30 fold speedup when using the simple approach to longest common substring described above.
 2. Implement a smarter algorithm for longest common substring (the [dynamic programming solution](https://en.wikipedia.org/wiki/Longest_common_substring_problem#Dynamic_programming) is the next logical one to try).
-
 
 ### Suggestion 2: Building a better gene finder
 

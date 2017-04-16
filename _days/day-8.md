@@ -13,11 +13,9 @@ description: Recursion practice, computational art gallery show
 * More recursion (Levenshtein distance and memoization).
 * Text mining mini-project launch
 
-
 ## For Next Time
 
 * Reading journal, Think Python 13, 15 due Thursday
-
 
 ## More Recursion
 
@@ -52,13 +50,11 @@ To get a better handle on this, let's consider some more examples.
 1. `kitten` → `sitten` (`k` gets replaced by `s`)
 2. `sitten` → `smitten` (insert between `s` and `i`)
 
-
 `levenshtein_distance('beta', 'pedal')` -> 3 (see below for steps)
 
 1. `beta` → `peta` (`b` gets replaced by `p`)
 2. `peta` → `petal` (`l` gets inserted at the end)
 3. `petal` → `pedal` (`t` gets replaced by `d`)
-
 
 `levenshtein_distance('battle', 'bet')` -> 4 (see below for steps)
 
@@ -67,12 +63,10 @@ To get a better handle on this, let's consider some more examples.
 3. `bettl` → `bett` (delete `l`)
 4. `bett` → `bet` (delete `t`)
 
-
 ### Base Cases
 
 Let's consider the base cases when one of the two strings is empty. What
 should the Levenshtein distance be in this case?
-
 
 ### Recursive Step
 
@@ -91,7 +85,6 @@ For each of these steps we have to consider two things:
 2. How much does it cost to make the rest of the two strings equal to each other
 
 We'll work on this together as a class.
-
 
 ## Memoization
 

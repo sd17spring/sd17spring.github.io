@@ -15,7 +15,6 @@ description: Classes
 
 * Reading journal, Think Python 18
 
-
 ## Text mining project presentations
 
 If you'd like to share what you discovered/created as part of your text mining

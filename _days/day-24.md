@@ -16,8 +16,6 @@ Groups B+E: AC113
 
 Groups C+F: AC126
 
-
-
 ## For Next Time
 
 * TR #2 reflection document due Monday

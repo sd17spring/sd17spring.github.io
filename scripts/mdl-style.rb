@@ -31,5 +31,4 @@ exclude_rule 'MD007' # Unordered list indentation
 exclude_rule 'MD032' # Lists should be surrounded by blank lines
 
 # Might tighten up these up later:
-exclude_rule 'MD012' # Multiple consecutive blank lines
 exclude_rule 'MD036' # Emphasis used instead of a header

@@ -6,7 +6,6 @@ description: ''
 
 **Relevant Research Papers**
 
-
 While the material we are covering in this class is designed to give you the
 basic tools of software design, many times in the course we will bump up
 against topics that are currently at the forefront of computational science.

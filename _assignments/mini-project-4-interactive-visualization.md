@@ -39,13 +39,11 @@ write some very powerful software. Here are some ideas:
 
 3. **Interactive art:** a potential project in this space could be to create visuals or audio that is in some way responsive to the observer. The possibilities in this space are huge. One specific idea would be to create a computerized musical instrument that can be controlled through hand motions (where movements would be detected using computer vision).
 
-
 ### Deltas from Previous Projects
 
 1. You will be working with a partner on this project (a single team of 3 will be permitted if a section has an odd number of students).
 2. This project is more open-ended than previous projects. In the last mini-project you could choose the data and analysis tool that you wanted to explore. Here, not only do you have these choices, but you can also choose to make a very different thing (e.g. a video game versus an interactive data visualization).
 3. You have more time to work on this project (2 weeks, versus 1 week for the last project).
-
 
 ### Computational Skills Emphasized
 
@@ -190,7 +188,6 @@ _(source: New York Times Year in Interactive Storytelling 2013)_
 _[Fourth down bot](http://www.nytimes.com/newsgraphics/2013/11/28/fourth-downs/)_:
 ![]({% link images/assignments/interactive-visualization/4th-down-bot.png %}){:width="400px" height="295px"}
 
-
 ### Arcade Games
 
 If you decide to create a game, you should probably choose one that has
@@ -237,7 +234,6 @@ last assignment was one example. Hooking up simple color tracking using OpenCV
 to sound synthesis is also a nice one (*e.g.* a musical instrument
 controlled by movements). Check out the [Wikipedia
 page](http://en.wikipedia.org/wiki/Interactive_art) for more ideas.
-
 
 ### Design Guidelines
 
@@ -352,7 +348,6 @@ Write a short abstract describing your project.
 Present what you accomplished. This will be different for each project, but
 screenshots are likely to be helpful.
 
-
 **Implementation** _[~2-3 paragraphs + UML diagram]_
 
 Describe your implementation at a system architecture level. Include a UML
@@ -360,7 +355,6 @@ class diagram, and talk about the major components, algorithms, data
 structures and how they fit together. You should also discuss at least one
 design decision where you had to choose between multiple alternatives, and
 explain why you made the choice you did.
-
 
 **Reflection** _[~2 paragraphs]_
 
@@ -374,7 +368,6 @@ Also discuss your team process in your reflection. How did you plan to divide
 the work (*e.g.* split by class, always pair program together, *etc.*) and how did
 it actually happen? Were there any issues that arose while working together,
 and how did you address them? What would you do differently next time?
-
 
 ### Turning in your assignment
 
