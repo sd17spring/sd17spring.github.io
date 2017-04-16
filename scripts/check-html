@@ -11,8 +11,15 @@ bundle exec htmlproofer \
   --empty-alt-ignore \
   --report-missing-names \
   --report-script-embeds \
-  --url-ignore https://apps.twitter.com/app/new,http://wikis.olin.edu/linux/doku.php,http://127.0.0.1:5000 \
+  --url-ignore https://apps.twitter.com/app/new,http://wikis.olin.edu/linux/doku.php,http://127.0.0.1:5000,https://obamawhitehouse.archives.gov/\*,https://www.researchgate.net/\* \
   ./_site
+
+# URL ignore:
+# - 127.0.0.1 is an example; it works when the student is following the setup instructions
+# - apps.twitter.com works when signed in
+# - obamawhitehouse.archives.gov works locally; probably blocks Travis
+# - www.researchgate.net works locally
+# - wikis.olin.edu works inside the Olin intranet
 
 # It would be nice to --check-external-hash, but these fail because the
 # has is parsed by the page script.
