@@ -15,6 +15,9 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+        {% if page.site_search %}
+          <iframe src="https://duckduckgo.com/search.html?site=sd17spring.github.io&prefill=Search this site" style="overflow:hidden;margin:0;padding:0;width:250px;height:40px;" frameborder="0"></iframe>
+        {% endif %}
       </nav>
     </div>
   </div>
