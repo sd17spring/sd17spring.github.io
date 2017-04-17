@@ -25,13 +25,17 @@ Alternative:
 
 ## Testing
 
-Lint the markdown:
+Lint Markdown files:
 
-`./scripts/lint-markdown`
+```bash
+$ mdl .
+```
 
 Check HTML and Links:
 
-`./scripts/check-html`
+```bash
+$ ./scripts/check-html
+```
 
 ## Publish
 
