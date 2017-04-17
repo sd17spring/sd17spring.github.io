@@ -92,7 +92,7 @@ idiosyncracies of that training set). Here is some code for splitting the data
 into two sets, training on one, testing on the other, and then reporting the
 classification accuracy on the testing set.
 
-``` python
+```python
 from sklearn.datasets import *
 from sklearn.cross_validation import train_test_split
 from sklearn.linear_model import LogisticRegression

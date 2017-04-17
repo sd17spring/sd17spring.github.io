@@ -85,7 +85,7 @@ reported, or in verbose mode, which reports results from all tests.
 If you've written a program called `my_prog.py`, you can test it from the
 command line by running
 
-``` bash
+```bash
 $ python3 -m doctest [-v] my_prog.py
 ```
 
@@ -93,7 +93,7 @@ where the `[-v]` means you can either include the `-v` verbose flag or not.
 
 You can also run doctests from inside your program, by including:
 
-``` python
+```python
 import doctest
 doctest.testmod(verbose=True)
 ```

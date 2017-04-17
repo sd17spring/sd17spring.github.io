@@ -35,7 +35,7 @@ To start, you will need a Flask application that runs on your laptop. If you don
 
 Run `heroku apps:create` to create a Heroku **application**:
 
-``` bash
+```bash
 $ heroku apps:create web-app
 Creating app... done, boiling-brushlands-71788
 https://boiling-brushlands-71788.herokuapp.com/ | https://git.heroku.com/boiling-brushlands-71788.git
@@ -48,7 +48,7 @@ For example, `heroku app:create osteele-toolbox` makes my application available 
 
 ## Publish Your Application to Heroku
 
-``` bash
+```bash
 $ cd /path/to/web-app
 $ heroku git:remote -a my-heroku-app-name
 $ git push heroku master
@@ -115,7 +115,7 @@ Here's what to do:
 
 3. Test the `Procfile` on your laptop:
 
-    ``` bash
+    ```bash
     $ heroku local web
     ```
 
@@ -125,7 +125,7 @@ Here's what to do:
 
 4. Now `git push heroku master` again. This time the deploy should succeed:
 
-    ``` bash
+    ```bash
     $ git push heroku master
     […]
     remote: -----> Launching...
@@ -164,13 +164,13 @@ Fix these two problems (using `0.0.0.0`, and reading the port number from an env
 
 1. Add this line to the top of your file:
 
-    ``` python
+    ```python
     import os.environ
     ```
 
 2. Define `HOST` and `PORT` as below. Then add `host` and `port` arguments to the `app.run` function. Commit the change, `git push` to Heroku again, and test again. You should see your web page.
 
-    ``` python
+    ```python
     HOST = '0.0.0.0' if 'PORT' in os.environ else '127.0.0.1'
     PORT = int(os.environ.get('PORT', 5000)))
     app.run(host=HOST, port=PORT)

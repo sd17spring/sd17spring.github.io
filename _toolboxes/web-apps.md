@@ -52,7 +52,7 @@ is made for one of your routes (e.g. `www.mycoolwebsite.com/home`)
 Let's write some Flask. A simple Hello World application written in Flask can
 be as simple as this:
 
-``` python
+```python
 from flask import Flask
 app = Flask(__name__)
 
@@ -96,7 +96,7 @@ incoming requests for `GET /` will run the function we called
 
 Here are a couple more quick examples -
 
-``` python
+```python
 @app.route('/')
 def index():
     return 'Index Page'
@@ -118,7 +118,7 @@ work creating a basic HTML document.
 
 Let's start by creating a file called `index.html`:
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -145,7 +145,7 @@ to do is provide the name of the template and the variables you want to pass
 to the template engine as keyword arguments. Here’s a simple example of how to
 render a template:
 
-``` python
+```python
 from flask import render_template
 
 @app.route('/hello/')
@@ -156,7 +156,7 @@ def hello(name=None):
 
 And here is an example template that will work with the above snippet:
 
-``` html
+```html
 {% raw %}<!doctype html>
 <title>Hello from Flask</title>
 {% if name %}
@@ -178,7 +178,7 @@ this [wonderful article](http://jinja.pocoo.org/docs/dev/templates/).
 Getting back to our simple Hello World app, let's add in a route to display
 our `index.html` we created above.
 
-``` python
+```python
 from flask import Flask
 app = Flask(__name__)
 

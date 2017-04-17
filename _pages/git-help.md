@@ -48,7 +48,7 @@ presentation](https://docs.google.com/presentation/d/1NpeHiQKs-y2PKp_XrUgzhSSXXB
 
 ## How to get the stuff from my computer to GitHub
 
-``` bash
+```bash
 $ git add <filename>
 $ git commit -m "<commit-message>"
 $ git push
@@ -67,7 +67,7 @@ saving a message, just enter “:q” for quit.
 
 When the instructors have uploaded new reading assignments, you can pull them into your repository if the upstream repository is the one you originally forked from.
 
-``` bash
+```bash
 $ git remote add upstream https://github.com/{{ site.data.course.github_owner }}/ReadingJournal
 $ git fetch upstream
 $ git merge upstream
@@ -101,7 +101,7 @@ have made. Often, you'll be prompted to stash before pulling or merging with
 others. Now that you've stashed, how do you get your stuff back? You'll
 probably do the following:
 
-``` bash
+```bash
 $ git stash
 $ git pull
 $ git stash pop
@@ -156,7 +156,7 @@ branch (see below)
 'Checking out' a branch is when you pull another person's branch (or teleport
 to another branch), you do it by doing:
 
-``` bash
+```bash
 $ git fetch origin
 $ git checkout <branch-name>
 ```
@@ -186,7 +186,7 @@ been modifying the 'master' branch. You want to merge your changes in the
 'master' branch into the 'dev' branch, so that your 'dev' branch is up to
 date. What you want to do is first get into the 'dev' branch, then:
 
-``` bash
+```bash
 $ git fetch origin
 $ git merge origin/master
 ```

@@ -99,7 +99,7 @@ blues scale one note and lasts for half a beat:
 Let's modify our code to repeat this lick four times by changing `blues_solo.py`
 in the following way:
 
-``` python
+```python
 curr_note = 0
 play_note(blues_scale[curr_note], 1, beats_per_minute)
 licks = [[(1, 0.5), (1, 0.5), (1, 0.5), (1, 0.5)]]
@@ -152,7 +152,7 @@ _Add a backing track_: **Sonic Pi** can mix together various audio streams.
 In order to add a backing track to your solo, add this to the beginning of
 your program:
 
-``` python
+```python
 BACKING_TRACK = os.path.join(SAMPLES_DIR, "backing.wav")
 sample(BACKING_TRACK, amp=2)
 sleep(2.25)  # delay the solo to match up with backing track

@@ -35,31 +35,31 @@ the order of growth of these procedures is:
 
 What are the order of growths of the following computations?
 
-``` python
+```python
 def run_computation_1(L):
    do_procedure_f1(L)
    do_procedure_f2(L)
 ```
 
-``` python
+```python
 def run_computation_2(L):
    do_procedure_f1(L[0:5])
    do_procedure_f2(L)
 ```
 
-``` python
+```python
 def run_computation_3(L):
    for i in range(len(L)):
       do_procedure_f1(L)
 ```
 
-``` python
+```python
 def run_computation_4(L):
   for i in range(len(L)):
       do_procedure_f2(L)
 ```
 
-``` python
+```python
 def run_computation_5(L):
     if len(L) % 2 == 0:
         do_procedure_f1(L)
@@ -67,7 +67,7 @@ def run_computation_5(L):
         do_procedure_f2(L)
 ```
 
-``` python
+```python
 def run_computation_6(L):
     if len(L) == 1:
         return 1

@@ -27,7 +27,7 @@ Save the file
 [geometry.py]({% link files/activities/day-10/geometry.py %})
 to your file system, and modify it so that the doctests pass:
 
-``` bash
+```bash
 python geometry.py
 ```
 
@@ -35,14 +35,14 @@ In order to run the doctests for a _single method, comment out
 `doctest.testmod` and uncomment `doctest.run_docstringexamples` at the end of
 the file:
 
-``` python
+```python
 doctest.testmod()
 # doctest.run_docstringexamples(Line.__repr_, globals())
 ```
 
 →
 
-``` python
+```python
 # doctest.testmod()
 doctest.rundocstring_examples(Line._repr_, globals())
 ```

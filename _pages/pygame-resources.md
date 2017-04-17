@@ -60,7 +60,7 @@ for event in pygame.event.get():
         * If you want to see if a user pressed a certain key (such as the
             letter 'a'), you can write:
 
-            ``` python
+            ```python
             if event.key == pygame.K_a:
             ```
 

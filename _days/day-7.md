@@ -63,7 +63,7 @@ change can be made for n cents using the coins d.
 
 For example:
 
-``` python
+```python
 make_change(10, [1, 5, 10]) -> 4
 ```
 
@@ -128,7 +128,7 @@ have methods, which we can call to inspect change their behavior. You may have
 already seen one of these, the `delay()` function, which can be used to speed up
 slowpoke Turtles.
 
-``` python
+```python
 from turtle import Turtle
 speedy = Turtle()
 speedy.delay(0.01)
@@ -143,7 +143,7 @@ Since Turtles are simple creatures, mainly defined by their current position
 and heading, we can "clone" them by reading these vaues and using them to
 direct a new Turtle.
 
-``` python
+```python
 leo = Turtle()
 # Create a new Turtle with the same attributes as the first
 don = Turtle()
@@ -177,7 +177,7 @@ very cool recursive drawing we can create is called the snowflake curve (or
 started, let's write a function called `snow_flake_side` with the following
 signature:
 
-``` python
+```python
 def snow_flake_side(turtle, length, level):`
     """Draw a side of the snowflake curve with side length length and recursion
     depth of level"""
@@ -201,7 +201,7 @@ Next, we will draw a tree using recursion. Define a function called
 `recursive_tree` that takes as input a turtle, a branch length, and a
 recursion depth and draws the recursive tree to the canvas.
 
-``` python
+```python
 def recursive_tree(turtle, branch_length, level):
     """Draw a tree with branch length branch_length and recursion depth of level
     """
@@ -254,7 +254,7 @@ generate both symbols A and B and have them call each other.
 _Hint 2_: For the fractal plant you should create the following functions to
 save and then restore then Turtle's state (symbols `[` and `]` respectively):
 
-``` python
+```python
 def save_turtle_state(turtle_states, t):
     turtle_states.append((t.x, t.y, t.heading))
 
@@ -269,7 +269,7 @@ def restore_turtle_state(turtle_states, t):
 
 To load the new DNA contigs for our in-class activity:
 
-``` python
+```python
 >>> from load import load_contigs
 >>> contigs = load_contigs()
 ```
@@ -279,7 +279,7 @@ The first element of the tuple is the name of the contig, and the second element
 
 To access the elements of *e.g.* the 5th contig, you could unpack the tuple into separate variables:
 
-``` python
+```python
 >>> name = contigs[5][0]
 >>> dna_sequence = contigs[5][1]
 >>> print(name)
@@ -296,6 +296,6 @@ You may also want to shorten the length of your DNA sequence so that your gene f
 
 If you are finding that the output of your program is longer than the amount of text that can fit in the terminal, you can redirect the output to a file.
 
-``` bash
+```bash
 $ python gene_finder.py > output.txt
 ```

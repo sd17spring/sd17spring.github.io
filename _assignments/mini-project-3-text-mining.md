@@ -108,7 +108,7 @@ engine. Next, I would copy the link from the portion of the page that says
 is `http://www.gutenberg.org/ebooks/730.txt.utf-8`. To download the text
 inside Python, I would use the following code:
 
-``` python
+```python
 import requests
 oliver_twist_full_text = requests.get('http://www.gutenberg.org/ebooks/730.txt.utf-8').text
 print(oliver_twist_full_text)
@@ -139,7 +139,7 @@ The [official documentation](https://wikipedia.readthedocs.io/en/latest/) is her
 Some examples from the [Quickstart section](https://wikipedia.readthedocs.io/en/latest/quickstart.html#quickstart) of
 the documentation follow:
 
-``` python
+```python
 >>> import wikipedia
 
 >>> wikipedia.summary("Olin College")
@@ -185,7 +185,7 @@ The documentation is [here](https://github.com/bear/python-twitter/wiki).
 Use the following code to see tweets in a particular user's timeline, where
 `CONSUMER_KEY` etc. are the Consumer Key and other credentials that you saved above.
 
-``` python
+```python
 import twitter
 api = twitter.Api(consumer_key=CONSUMER_KEY,
                   consumer_secret=CONSUMER_SECRET,
@@ -196,7 +196,7 @@ api.GetUserTimeline(screen_name='gvanrossum')
 
 This prints something like this:
 
-``` python
+```python
 [Status(ID=830854729710186496, ScreenName=gvanrossum, Created=Sun Feb 12 19:02:58 +0000 2017, Text='@ntoll Without context this stream of 10 tweets made little sense to me. :-('),
  Status(ID=830577788901945345, ScreenName=gvanrossum, Created=Sun Feb 12 00:42:30 +0000 2017, Text="@swhobbit @github @brettsky IIUC every developer has a full clone in their .git -- it doesn't get much better than that."),
  Status(ID=830194194501099520, ScreenName=gvanrossum, Created=Fri Feb 10 23:18:14 +0000 2017, Text='The CPython source code has officially moved to https://t.co/0ax0UGzgLZ. Congrats @brettsky !!!'),
@@ -211,7 +211,7 @@ See the [package wiki](https://github.com/bear/python-twitter/wiki) for more exa
 At the terminal command line, install the Python
 [PRAW](https://pypi.python.org/pypi/praw) package:
 
-``` bash
+```bash
 $ sudo pip3 install praw
 ```
 
@@ -221,7 +221,7 @@ to create a Reddit application. The random string of letters and numbers at to t
 Here's an example adapted from the [PRAW docs page](https://praw.readthedocs.org/en/stable/).
 `CLIENT_ID` and `CLIENT_SECRET` are the ones you saved above.
 
-``` python
+```python
 import praw
 r = praw.Reddit(user_agent='text_mining', client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 submissions = r.subreddit('opensource').hot(limit=5)
@@ -240,7 +240,7 @@ the text from an HTML page.
 
 `$ sudo pip3 install beautifulsoup4`
 
-``` python
+```python
 from bs4 import BeautifulSoup
 import requests
 html = BeautifulSoup(requests.get('https://en.wikipedia.org/wiki/Franklin_W._Olin_College_of_Engineering').text, 'lxml')
@@ -250,7 +250,7 @@ str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> e
 
 Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded <b> etc.
 
-``` python
+```python
 import re
 str(re.sub(r'<.+?>', '', str(html.find('p'))))
 ```
@@ -266,7 +266,7 @@ so that the data can be loaded back at a later point in time. Suppose you have
 a bunch of Project Gutenberg texts in a list called `charles_dickens_texts`.
 You can save this list to disk and then reload it using the following code:
 
-``` python
+```python
 import pickle
 
 # Save data to a file (will be part of your data fetching script)
@@ -314,7 +314,7 @@ in other texts? For some other ideas see [Chapter 13 of Think Python](http://gre
 
 Vader
 
-``` python
+```python
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
 analyzer.polarity_scores('Software Design is my favorite class!')
@@ -322,7 +322,7 @@ analyzer.polarity_scores('Software Design is my favorite class!')
 
 This program will print out:
 
-``` python
+```python
 {'compound': 0.5093, 'neg': 0.0, 'neu': 0.603, 'pos': 0.397}
 ```
 
@@ -358,7 +358,7 @@ I tried this on some Project Gutenberg texts from two authors: Charles Dickens
 and Charles Darwin. The table below shows the pair-wise similarities between
 the Charles Dickens texts (note that 1 is perfect similarity):
 
-``` python
+```python
 [[ 1. 0.90850572 0.96451312 0.97905034]
  [ 0.90850572 1. 0.95769915 0.95030073]
  [ 0.96451312 0.95769915 1. 0.98230284]
@@ -368,7 +368,7 @@ the Charles Dickens texts (note that 1 is perfect similarity):
 The pairwise similarities between Dickens and Darwin (I just used one Darwin
 text) are:
 
-``` python
+```python
 [[ 0.78340575]
  [ 0.87322494]
  [ 0.83381607]
@@ -384,7 +384,7 @@ friends has authored a particular post!
 These similarity values can be assembled into a similarity matrix that
 compares each work with all other works.
 
-``` python
+```python
 [[ 1., 0.90850572, 0.96451312, 0.97905034, 0.78340575],
  [ 0.90850572, 1., 0.95769915, 0.95030073, 0.87322494],
  [ 0.96451312, 0.95769915, 1., 0.98230284, 0.83381607],
@@ -413,7 +413,7 @@ Here is some code that uses the similarity matrix defined in the previous
 section to create a 2-dimensional embedding of the four Charles Dickens and 1
 Charles Darwin texts.
 
-``` python
+```python
 import numpy as np
 from sklearn.manifold import MDS
 import matplotlib.pyplot as plt

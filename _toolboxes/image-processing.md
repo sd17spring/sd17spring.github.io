@@ -49,7 +49,7 @@ video file.
 
 When you are done you should end up with code that looks something like this:
 
-``` python
+```python
 import numpy as np
 import cv2
 
@@ -101,7 +101,7 @@ the face detector. Use the filepath of where you put the XML file, the location 
 After grabbing each frame, run the face detector to get a list of faces in the
 image and then draw a red box around each detected face:
 
-``` python
+```python
 ret, frame = cap.read()
 faces = face_cascade.detectMultiScale(frame, scaleFactor=1.2, minSize=(20, 20))
 for (x, y, w, h) in faces:
@@ -134,7 +134,7 @@ more blurring):
 Next, in the loop where you draw the rectangles over the faces, use the kernel
 to blur the image
 
-``` python
+```python
 for (x, y, w, h) in faces:
     frame[y:y+h, x:x+w, :] = cv2.dilate(frame[y:y+h, x:x+w, :], kernel)
     cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255))

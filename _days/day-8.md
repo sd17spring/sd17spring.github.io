@@ -98,7 +98,7 @@ items from a pool of n). Your solution should be implemented recursively using
 
 Here is a sample solution:
 
-``` python
+```python
 def nchoosek(n, k):`
     """ returns the number of combinations of size k
     that can be made from n items.
@@ -134,7 +134,7 @@ skeleton of a memoized recursive function (we are being a little fast and
 loose with the mixing pseudo code and Python, but this should become clear
 when we do a concrete example.
 
-``` python
+```python
 def recursive_function(input1, input2):
     if input1, input2 is a base case:
         return base case result

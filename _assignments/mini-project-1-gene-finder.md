@@ -146,7 +146,7 @@ reading journal. For your reference, here are the steps again:
 5. You should now be at the page that shows your fork of the SoftDes repository. Copy the URL in the box labeled "HTTPS Clone URL".
 6. Open up a terminal and execute the following commands (note: these commands will clone your `GeneFinder` repository in your home directory, please modify the first line to cd to a different directory if you'd rather clone somewhere else).
 
-``` bash
+```bash
 $ cd ~
 $ git clone https://github.com/yourgithubusernamehere/GeneFinder.git #the https URL will be the URL copied in step 5)
 $ cd GeneFinder
@@ -218,19 +218,19 @@ Also, if you want to test a specific function (in this example we will test
 `get_complement`) rather than running all of the unit tests you can modify the
 line at the end of the program from:
 
-``` python
+```python
 doctest.testmod()
 ```
 
 to:
 
-``` python
+```python
 doctest.run_docstring_examples(get_complement, globals())
 ```
 
 If you want to see verbose output of your doctests, set the verbose flag to True:
 
-``` python
+```python
 doctest.run_docstring_examples(get_complement, globals(), verbose=True)
 ```
 
@@ -246,7 +246,7 @@ functions described below:
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> get_complement("A")
  'T'
 >>> get_complement("C")
@@ -258,7 +258,7 @@ To help you get started here are some unit tests (make sure you have read the
 To help you get started here are some unit tests (make sure you have read the
 [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> get_reverse_complement("ATGCCCGCTTT")
  'AAAGCGGGCAT'
 >>> get_reverse_complement("CCGCGTTCA")
@@ -269,7 +269,7 @@ To help you get started here are some unit tests (make sure you have read the
 
 Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> rest_of_ORF("ATGTGAA")
  'ATG'
 >>> rest_of_ORF("ATGAGATAGG")
@@ -280,14 +280,14 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> find_all_ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
  ['ATGCATGAATGTAGA', 'ATGTGCCC']
 ```
 
 * `find_all_ORFs`: this function should find all open reading frames in any of the 3 possible frames in a given sequence of DNA and return them as a list of strings. Note that this means that you need to check for ORFs in all three possible frames (i.e. with 0, 1, and 2 offset from the beginning of the sequence). For example, you would want to consider the following codon groupings when looking for all ORFs (groups of +++ or --- indicate that the nucleotides above are considered as a single codon).
 
-``` python
+```python
 ATGTGAAGATTA
 +++---+++---
 -+++---+++--
@@ -299,7 +299,7 @@ function should heavily utilize `find_all_ORFs_oneframe` .
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> find_all_ORFs("ATGCATGAATGTAG")
  ['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 ```
@@ -308,7 +308,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruction)?) ;-)
 
-``` python
+```python
 >>> find_all_ORFs_both_strands("ATGCGAATGTAGCATCAAA")
 ['ATGCGAATG', 'ATGCTACATTCGCAT']
 ```
@@ -344,7 +344,7 @@ to analyze a real DNA sequence suspected to play a role in Typhoid fever.
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> longest_ORF("ATGCGAATGTAGCATCAAA")
  'ATGCTACATTCGCAT'
 ```
@@ -368,7 +368,7 @@ that your implementation is correct? (These are rhetorical questions.)
 You can convert a three nucleotide string (also called a triplet codon) into
 the appropriate amino acid in the following manner.
 
-``` python
+```python
 amino_acid = aa_table['CGA']
 ```
 
@@ -383,7 +383,7 @@ If you wanted to implement your own lookup, you could use the lists `aa` and
 
 Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
-``` python
+```python
 >>> coding_strand_to_AA("ATGCGA")
  'MR'
 >>> coding_strand_to_AA("ATGCCCGCTTT")
@@ -392,7 +392,7 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 
 * `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
 
-``` python
+```python
 threshold = longest_ORF_noncoding(dna, 1500)
 ```
 
@@ -407,7 +407,7 @@ analyze. Included in the `data` folder is a FASTA file containing a sequence
 of DNA from Salmonella Enterica believed to be related its pathogenesis. To
 load the sequence as a FASTA file, use the provided `load_seq`  function.
 
-``` python
+```python
 >>> from load import load_seq
 >>> dna = load_seq("./data/X73525.fa")
 ```
@@ -461,7 +461,7 @@ file that will help you get started. The first loads a sequence of DNA that is
 known to code for Nitrogenase (an enzyme crucial in the Nitrogen fixation
 process).
 
-``` python
+```python
 >>> from load import load_nitrogenase_seq
 >>> nitrogenase = load_nitrogenase_seq()
 >>> print(nitrogenase)
@@ -472,7 +472,7 @@ process).
 The second step is to load the meta-genome. Again, there is a function in the
 `load.py` file loads the meta-genome for you.
 
-``` python
+```python
 >>> from load import load_metagenome
 >>> metagenome = load_metagenome()
 >>> print(metagenome[0])

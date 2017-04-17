@@ -66,7 +66,7 @@ using the function avg(x, y) instead of (x + y) / 2.0)
 
 ![]({% link images/homeworks/homework-4/complex_red_surface.png %}){:width="320px" height="239px"}
 
-``` python
+```python
 red(x, y) = sin(pi * avg((((cos(pi * (sin(pi * cos(pi * y)) * avg(avg(x, x),
 sin(pi * y)))) * avg(sin(pi * (sin(pi * y) * (y * x))), cos(pi * cos(pi * (y *
 y))))) * sin(pi * (sin(pi * (sin(pi * y) * sin(pi * y))) * cos(pi * ((y * y) *
@@ -78,7 +78,7 @@ sin(pi * sin(pi * sin(pi * y)))))))))
 
 ![]({% link images/homeworks/homework-4/complex_green_surface.png %}){:width="320px" height="237px"}
 
-``` python
+```python
 green(x, y) = sin(pi * ((avg(avg(cos(pi * (cos(pi * cos(pi * x)) * (cos(pi * x)
 * avg(y, x)))), ((cos(pi * cos(pi * y)) * (cos(pi * x) * (x * y))) * sin(pi *
 sin(pi * avg(y, y))))), cos(pi * (avg(sin(pi * sin(pi * x)), sin(pi * sin(pi *
@@ -95,7 +95,7 @@ avg(y, x)) * cos(pi * sin(pi * x)))))))))
 
 ![]({% link images/homeworks/homework-4/complex_blue_surface.png %}){:width="320px" height="240px"}
 
-``` python
+```python
 blue(x, y) = avg(sin(pi * (avg(cos(pi * avg((cos(pi * (x * x)) * cos(pi * (x *
 y))), avg(avg((x * x), avg(y, y)), avg(cos(pi * y), cos(pi * x))))),
 avg(avg(avg((sin(pi * y) * (x * y)), sin(pi * (x * x))), avg(((x * x) * sin(pi
@@ -145,7 +145,7 @@ addition to fetching the starter code, you should also install the [Pillow
 fork](https://pillow.readthedocs.org/) of the Python Imaging Library
 ("PIL"). To do so, execute the following command at the Linux terminal:
 
-``` bash
+```bash
 $ sudo pip3 install Pillow
 ```
 
@@ -174,7 +174,7 @@ First, make sure you are familiar with the starter code and how it utilizes
 the PIL library to generate a simple image. The relevant code is in the
 `generate_art` function:
 
-``` python
+```python
 # Functions for red, green, and blue channels - where the magic happens!
  red_function = ["x"]
  green_function = ["y"]
@@ -204,7 +204,7 @@ to 350.
 Let's look at the code line-by-line and make sure we understand what is
 happening
 
-``` python
+```python
 red_function = ["x"]
 green_function = ["y"]
 blue_function = ["x"]
@@ -215,7 +215,7 @@ function x, the green channel with the function y, and the blue channel with
 the function x. Eventually we will do more complex things as in the examples
 above, but this will allow us to get started.
 
-``` python
+```python
 im = Image.new("RGB", (x_size, y_size))
 pixels = im.load()
 ```
@@ -225,7 +225,7 @@ indicates that the image has three color channels which are in order "red",
 "green", and "blue". The `im.load` command returns a pixel access object that
 we can use to set the color values in our new image.
 
-``` python
+```python
 for i in range(x_size):
     for j in range(y_size):
 ```
@@ -233,7 +233,7 @@ for i in range(x_size):
 These lines create a nested loop in which we will set each pixel value based
 on evaluating the red, green, and blue channel functions.
 
-``` python
+```python
         x = remap_interval(i, 0, x_size, -1, 1)
         y = remap_interval(j, 0, y_size, -1, 1)
 ```
@@ -245,7 +245,7 @@ would go from [0, 349]. The `remap_interval` function (which you will
 implement) transforms the pixel index (which is in [0, 349]) to the interval we
 want ([-1, +1]).
 
-``` python
+```python
         pixels[i, j] = (
             color_map(evaluate_random_function(red_function, x, y)),
             color_map(evaluate_random_function(green_function, x, y)),
@@ -259,7 +259,7 @@ the intensity for each color channel for the pixel (i, j). We need to use the
 color channel function outputs are floats in [-1, +1], but PIL expects the
 color intensity values to be integers in the range [0, 255].
 
-``` python
+```python
 im.save(filename)
 ```
 
@@ -292,7 +292,7 @@ and blue in the body of generate_art with random functions generated with
 minimum depth 7 and maximum depth 9 (definitely play around with other depths
 for really cool effects though). The modified code should look like this:
 
-``` python
+```python
 red_function = build_random_function(7, 9)
 green_function = build_random_function(7, 9)
 blue_function = build_random_function(7, 9)
@@ -301,14 +301,14 @@ blue_function = build_random_function(7, 9)
 We will be representing function composition using nested lists. Here is a
 scheme for representing function compositions using a list:
 
-``` python
+```python
 ["elementary function name here", argument 1 (optional), argument 2 (optional)]
 ```
 
 For instance, to represent the function f(x, y) = x we would use (you have
 already seen this in the first part of the assignment):
 
-``` python
+```python
 ["x"]
 ```
 
@@ -320,7 +320,7 @@ Python how to evaluate this function for a particular input pair (x, y).
 Alternatively, consider the following list representation of the function
 f(x, y) = sin(pi * x)
 
-``` python
+```python
 ["sin_pi", ["x"]]
 ```
 
@@ -329,7 +329,7 @@ specify the function that we are going to compose with "sin_pi".
 
 Next, consider the following representation of the function f(x, y) = xy
 
-``` python
+```python
 ["prod", ["x"], ["y"]]
 ```
 
@@ -339,7 +339,7 @@ arguments to the prod function.
 To create more complex functions we use more deeply-nested lists. For
 instance, f(x, y) = sin(pi*x)*cos(pi*x) would be represented as:
 
-``` python
+```python
 ["prod", ["sin_pi", ["x"]], ["cos_pi", ["x"]]]
 ```
 
@@ -406,7 +406,7 @@ should replace the list representation of nested functions with lambda
 functions. For instance, ["cos_pi", ["prod", ["x", "y"] ] ] would be
 represented as the lambda function:
 
-``` python
+```python
 lambda x, y: cos(pi*(lambda x, y: (lambda x, y: x)(x, y)*(lambda x, y: y)(x, y))(x, y)).
 ````
 
@@ -416,7 +416,7 @@ a particular (x, y) pair all you have to do is pass (x, y) into your function
 variable (this obviates the need for **evaluate_random_function** ). For
 instance,
 
-``` python
+```python
 green = build_random_function(7, 9)
 green_channel_pixel_for_x_y = green(x, y)
 ```
@@ -435,7 +435,7 @@ For instance, if you created images `frame001.png`, `frame002.png`, ...,
 `frame100.png` you could encode these images into a movie using the following
 command in Linux (assuming you have already installed **avconv**  via `apt-get`).
 
-``` bash
+```bash
 $ avconv -i frame%03d.png -vb 20M mymovie.avi
 ```
 
@@ -470,7 +470,7 @@ In order to process audio from the microphone, check out
 library you will need to install both the **pyalsaaudio**  package and some
 libraries that it depends on. Here are the install commands:
 
-``` bash
+```bash
 $ sudo apt-get install libasound2-dev
 $ sudo pip3 install pyalsaaudio
 ```
@@ -478,7 +478,7 @@ $ sudo pip3 install pyalsaaudio
 Here is some simple code for getting audio from the mic and displaying the
 volume:
 
-``` python
+```python
 import alsaaudio
 import audioop
 
@@ -498,7 +498,7 @@ To display images in real-time (as opposed to using an image viewer to
 checkout the images after you have saved them to a file), I recommend using
 **pygame** .
 
-``` python
+```python
 $ sudo pip3 install pygame
 ```
 
@@ -506,7 +506,7 @@ We are not including detailed instructions on this, but it shouldn't be too
 hard for you to figure out using Google and the **pygame**  documentation. You
 may also have to install some dependencies using **apt-get** :
 
-``` python
+```python
 $ sudo apt-get install mercurial python-dev python-numpy ffmpeg libsdl- image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev
 ```
 

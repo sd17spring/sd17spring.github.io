@@ -46,7 +46,7 @@ the context should make it clear whether a command is a Linux command or a
 Python command). For instance, we might instruct you to run the following
 command.
 
-``` bash
+```bash
 $ ls ~
 ```
 
@@ -97,7 +97,7 @@ You can set up the other things later if you want to.
 Once everything is configured, execute the following commands at the Linux
 terminal:
 
-``` bash
+```bash
 $ sudo add-apt-repository ppa:webupd8team/atom
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -105,7 +105,7 @@ $ sudo apt-get upgrade
 
 Next, install some additional Python packages using the following commands:
 
-``` bash
+```bash
 $ sudo apt-get install -y python python-pip python-tk python-dev git build-essential
 $ sudo apt-get install -y python3 python3-pip python3-tk python3-dev
 ```
@@ -122,26 +122,26 @@ from previous years.
 Next, we'll install Jupyter notebook which you'll be using for pre-class
 exercises:
 
-``` bash
+```bash
 $ pip3 install --upgrade pip
 $ sudo pip3 install jupyter
 ```
 
 We'll be using Atom as default text editor for the course. Go ahead and install it:
 
-``` bash
+```bash
 $ sudo apt-get install atom
 ```
 
 To verify that Python 3 is installed, run:
 
-``` bash
+```bash
 $ python3
 ```
 
 Then type the following at the Python prompt:
 
-``` python
+```python
 >>> import turtle
 >>> turtle.Turtle()
 >>> quit()
@@ -155,7 +155,7 @@ Since you'll need to switch back to the terminal window to continue interacting 
 
 To verify that Atom is installed, run:
 
-``` bash
+```bash
 $ atom
 ```
 
@@ -165,7 +165,7 @@ You've now got all you need to start editing code with Atom, but you may want yo
 
 Certain trivial but frequent errors (incorrect indentation, certain misspelled names) can be detected earlier. We'll transform Atom into a pseudo-IDE by installing some development tools that let you see these errors in the editor as you type.
 
-``` bash
+```bash
 $ sudo pip3 install pyflakes jedi flake8 isort
 $ apm install Hydrogen atom-beautify autocomplete autocomplete-python script
 $ apm install linter linter-flake8 python-indent python-isort python-tools trailing-spaces
@@ -298,14 +298,14 @@ instructions assume that you want to put the Reading Journal in your home
 directory. If not, make sure to modify the first line to change to the
 directory where you want your reading journal to reside.
 
-``` bash
+```bash
 $ cd ~
 $ git clone https://github.com/paulruvolo/ReadingJournal.git
 ```
 
 Next, you can fire up Jupyter notebook and load the reading journal for today.
 
-``` bash
+```bash
 $ cd ~/ReadingJournal
 $ jupyter notebook day1_reading_journal.ipynb
 ```
@@ -318,7 +318,7 @@ Once you have completed your reading journal (not just the reading exercises,
 but also your notes as well as any comments you want to give to us), you can
 turn in your work by running the following commands:
 
-``` bash
+```bash
 $ cd ~/ReadingJournal
 $ git add day1_reading_journal.ipynb
 $ git commit -m "Turning in my reading journal for day 1"

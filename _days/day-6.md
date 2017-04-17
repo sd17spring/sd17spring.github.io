@@ -23,7 +23,7 @@ One of the reasons that you are beginning to work with turtles is because they h
 
 See this example of turtle-flavored recursion used in one of the interactivepython.org lessons:
 
-``` python
+```python
 import turtle
 
 myTurtle = turtle.Turtle()

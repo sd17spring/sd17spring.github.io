@@ -50,7 +50,7 @@ ways to manipulate strings:
 * Slicing `[]`
 * String methods (e.g. `split`, `upper`)
 
-``` python
+```python
 >>> excited = "Software " + "Design" + "!"*10
 >>> print(excited)
 Software Design!!!!!!!!!!
@@ -74,7 +74,7 @@ The [older method](https://docs.python.org/3/library/stdtypes.html#printf-style-
 operator) to replace pieces of the format string. For example, to insert an
 integer, you could use:
 
-``` python
+```python
 >>> print("Your number is %d" % 52)
 Your number is 52
 ```
@@ -82,7 +82,7 @@ Your number is 52
 The [newer method](https://docs.python.org/3/library/string.html#format-string-syntax) also uses a (similar) format string, but uses an explicit
 format method:
 
-``` python
+```python
 >>> print("Your number is {:d}".format(52))
 Your number is 52
 ```

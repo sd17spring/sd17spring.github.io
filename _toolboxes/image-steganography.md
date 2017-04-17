@@ -41,7 +41,7 @@ So if we wanted to convert the number `10001011` from binary into decimal, it wo
 
 You can also test this out in your Python interpreter. Binary numbers are automatically converted to integers so you don't actually need to have a print statement. (It's just there for clarity.)
 
-``` python
+```python
 >>> print(0b10001011)
 139
 >>> type(0b10001011)
@@ -77,7 +77,7 @@ Provided in the starter code is a function called `decode_image()`. The secret i
 
 You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the red_channel from the original RGB image. You can do this using the .split() function that PIL provides.
 
-``` python
+```python
 def decode_image(file_location):
     encoded_image = Image.open(file_location)
     red_channel = encoded_image.split()[0]

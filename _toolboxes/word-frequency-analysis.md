@@ -38,7 +38,7 @@ Hints:
 space, tab, newline, etc., and `punctuation` which contains the punctuation
 characters. Let’s see if we can make Python swear:
 
-``` python
+```python
 >>> import string
 >>> print(string.punctuation)
 !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
@@ -54,7 +54,7 @@ is some code that does just this and stores the resultant list of lines in a
 variable called `lines`. Make sure you understand what it is doing, and modify
 it if you need to:
 
-``` python
+```python
 f = open(file_name, 'r')
 lines = f.readlines()
 curr_line = 0

@@ -48,7 +48,7 @@ There are a variety of approaches to using PDB in this capacity. One method is
 to add the `pdb.set_trace` command to your program to tell the debugger to
 pause execution at a particular location and enter interactive mode.
 
-``` python
+```python
 import pdb
 
 def factorial(n):
@@ -114,7 +114,7 @@ scientifically answer the question of how fast your program runs.
 1) You can time how long a Linux command takes using the [time
 utility](http://manpages.ubuntu.com/manpages/trusty/man1/date.1.html):
 
-``` bash
+```bash
 $ time python gene_finder.py
 real 0m13.334s
 user 0m12.493s
@@ -133,7 +133,7 @@ repeatedly to get an average result.
 
 `timeit` can be run from the command line (like the Linux time utility):
 
-``` bash
+```bash
 $ python3 -m timeit '"-".join([str(n) for n in range(100)])'
 10000 loops, best of 3: 33.4 usec per loop
 ```
