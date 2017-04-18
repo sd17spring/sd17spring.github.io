@@ -59,6 +59,7 @@ defaults:
     type: assignments
   values:
     layout: assignment
+    edit_link: true
 - scope:
     path: ''
     type: days
@@ -69,11 +70,13 @@ defaults:
     type: pages
   values:
     layout: single
+    edit_link: true
 - scope:
     path: ''
     type: toolboxes
   values:
     layout: single
+    edit_link: true
 
 include:
 - _pages
