@@ -28,7 +28,7 @@ Alternative:
 Lint Markdown files:
 
 ```bash
-$ mdl .
+$ bundle exec mdl .
 ```
 
 Check HTML and Links:

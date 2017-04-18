@@ -7,7 +7,6 @@ bundle exec jekyll build
 bundle exec htmlproofer \
   --alt-ignore /images/HtL_Banner.svg \
   --assume-extension \
-  --check-external-hash \
   --check-html \
   --empty-alt-ignore \
   --report-missing-names \
@@ -15,13 +14,14 @@ bundle exec htmlproofer \
   --url-ignore https://apps.twitter.com/app/new,http://wikis.olin.edu/linux/doku.php,http://127.0.0.1:5000 \
   ./_site
 
-# These external links are ignored:
+# External links are ignored for the following reasons:
 # - 127.0.0.1 is an example; it works when the student is following the setup instructions
 # - apps.twitter.com works when signed into Twitter
 # - wikis.olin.edu only works inside the Olin intranet
 
-# These external hashes are expected to fail, because they don't
-# name internal anchors but are instead parsed by the page script.
+# --check-external-hash is omitted because the following URLS don't
+# name internal anchors, but are instead parsed by the page script.
 # - https://docs.google.com/.../edit#gid=0
+# - https://docs.google.com/.../edit#bookmark=...
 # - https://packagecontrol.io/installation#st3
 # - http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;
