@@ -1,0 +1,10 @@
+# The following mirrors a subset of the data provided at
+# site.data.github by the GitHub Pages gem. It's baked in
+# to make the site easier to build locally.
+#
+# ref: https://help.github.com/articles/repository-metadata-on-github-pages/
+owner_name: sd17spring
+owner_url: https://github.com/sd17spring
+repository_url: "https://github.com/sd17spring/sd17spring.github.io"
+repository_nwo: sd17spring/sd17spring.github.io
+repository_name: sd17spring.github.io

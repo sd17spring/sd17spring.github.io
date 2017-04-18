@@ -12,6 +12,7 @@ description: 'This course is an introduction to software design. It focuses on a
   video games, web applications, and robots.'
 
 author:
+  # TODO retire author.github -> data.github.owner_name
   github: sd17spring
   name: Olin College computing faculty
 

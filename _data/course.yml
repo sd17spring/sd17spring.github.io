@@ -32,7 +32,15 @@ assistants:
 
 mp2_gallery_public_drive_path: Public/+Courses/SoftDesSp17
 
+# TODO retire this in favor of github.owner_name
 github_owner: sd17spring
+github:
+  owner_name: sd17spring
+  owner_url: https://github.com/sd17spring
+  repository_url: "https://github.com/sd17spring/sd17spring.github.io"
+  repository_nwo: sd17spring/sd17spring.github.io
+  repository_name: sd17spring.github.io
+
 
 slack:
   team: olin
