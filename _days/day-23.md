@@ -1,17 +1,14 @@
 ---
 title: Day 23
-date: 2017-04-13 00:00:00 -04:00
-published: false
+date: 2017-04-20 00:10:00 -04:00
 activity_date: 2017-04-20
-description: Project work
+description: Project studio
 ---
 
 ## Today
 
 * Project studio work time
-* MP5 due (don't forget to [fill out the form to submit](http://goo.gl/forms/joIEF3IZjP))
 
-## For Next Time
+## Before Next Time
 
-* Thursday: [Technical Review #2]({% link _assignments/final-project/architectural-review.md %}). Go directly to same room as last time: A+D in AC326; B+E in AC113; C+F in AC126.
-* Monday: [Project Presentations]({% link _assignments/final-project/project-presentation-rubric.md %})
+* [Mini-project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %}) is due by midnight Sunday 4/23.

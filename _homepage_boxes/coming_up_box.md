@@ -3,11 +3,13 @@ title: Coming Up
 position: 1
 ---
 
-## Monday, April 17
-
-…is a holiday. Enjoy Patriot's Day!
-
 ## Thursday, April 20
+
+* Project studio
+
+## Sunday, April 23
+
+* [Mini-project 5]({% link _assignments/mini-project-5-feedback-and-revision.md %}) is due by midnight.
 
 ---
 
