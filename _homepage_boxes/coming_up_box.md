@@ -5,7 +5,8 @@ position: 1
 
 ## Thursday, April 20
 
-* Project studio
+* Before class: upload your slides to the [shared Google Drive folder](https://drive.google.com/drive/folders/0B-kMZWl84ibOaUZONFE3TFE1Z28?usp=sharing)
+* During class: [Project presentations]({% link _assignments/final-project/project-presentation-rubric.md %})
 
 ## Sunday, April 23
 
