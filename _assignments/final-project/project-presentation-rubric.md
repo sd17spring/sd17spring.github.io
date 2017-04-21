@@ -1,6 +1,6 @@
 ---
 title: Project Presentation Rubric
-date: 2016-12-29 13:26:01 -05:00
+date: 2017-04-24 13:26:01 -05:00
 description: ''
 parent: final-project
 ---
@@ -15,8 +15,8 @@ your presentation to tell the audience about the current state of your project
 in a smooth, engaging, and professional manner. Here are some bullet points to
 keep in mind:
 
-* You will have 7 minutes to present. If we are running ahead of schedule, we can field a question or two per presentation.
-* Everyone will be presenting on the same laptop. You should upload your slides to the [shared Google Drive folder](https://drive.google.com/folderview?id=0B9WhE_eKaHEbUEhROTY1MEZYbGs&usp=sharing) beforehand. Acceptable formats are Powerpoint, PDF, and Google presentation.
+* You will have ~7 minutes to present and ~1.5 minutes to answer a quick question or two per presentation.
+* Everyone will be presenting from one laptop (one set up in AC326, and one set up in AC328) the same laptop. You should upload your slides to the [shared Google Drive folder](https://drive.google.com/drive/folders/0B-kMZWl84ibOaUZONFE3TFE1Z28?usp=sharing) beforehand. Acceptable formats are Powerpoint, PDF, and Google presentation.
 * As a consequence of the previous point, no live demos! As an alternative, we suggest using a screen capture program (such as [this](http://www.maartenbaert.be/simplescreenrecorder/) one) to highlight what your software can do so far. You should then upload your screen capture to YouTube so that it can be shown during your presentation.
 * Not everyone knows about your project! Your presentation should provide motivation and context for your project.
 * If you are using algorithms, libraries, or technologies that were not explicitly taught as part of the class, make sure to properly explain them. Given the duration of the presentation, you might have to gloss over some details (this is okay!). Be strategic about how deeply you explain various aspects of your system.
@@ -29,6 +29,10 @@ As an audience member, your job is to be engaged and provide presentation
 feedback. You will be able to communicate feedback to the presenters using a
 Google form (link to be posted). So, make sure to have your laptop charged and
 ready to go.
+
+## Schedule
+
+[Found here](https://docs.google.com/spreadsheets/d/1NO3IaTktBpu0X6IW0RmoxukhsNwQRt3cWAikq0dJ6ls/edit?usp=sharing)
 
 ## Rubric
 
