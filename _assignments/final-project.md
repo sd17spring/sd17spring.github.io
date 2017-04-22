@@ -62,7 +62,7 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 ### Project Proposal
 
-_Due {{site.data.dates.final_proposal | date: '%B %-d' }}_
+_Due {{site.data.dates.final_proposal | date: '%A, %B %-d' }}_
 
 **The project proposal is worth 10% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
 
@@ -80,7 +80,7 @@ The teaching team will either approve you to post your proposal to your projects
 
 ### Architectural Review
 
-_Date: {{site.data.dates.tr1 | date: '%B %-d' }}_
+_Date: {{site.data.dates.tr1 | date: '%A, %B %-d' }}_
 
 **The Architectural review is worth 15% of the project grade ([rubric]({% link _assignments/final-project/architectural-review.md %})).**
 
@@ -95,11 +95,11 @@ See the [Architectural Review]({% link _assignments/final-project/architectural-
 
 ### Project Presentation
 
-_Date: {{site.data.dates.project_presentation | date: '%B %-d' }}_
+_Date: {{site.data.dates.project_presentation | date: '%A, %B %-d' }}_
 
 **The Project Presentation is worth 10% of the project grade** **(see [project presentation rubric]({% link _assignments/final-project/project-presentation-rubric.md %}))**
 
-On {{site.data.dates.project_presentation | date: '%B %-d' }} your team will present the progress with the project to the
+On {{site.data.dates.project_presentation | date: '%A, %B %-d' }} your team will present the progress with the project to the
 class. This is intended to be a formal / polished presentation. The focus of
 this activity will be around successful and professional communication. There
 will be limited time for feedback in class, but you can communicate your
@@ -107,7 +107,7 @@ feedback using the online form.
 
 ### Project Website
 
-_Due: {{site.data.dates.final_website | date: '%B %-d' }}_
+_Due: {{site.data.dates.final_website | date: '%A, %B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 
@@ -173,7 +173,7 @@ will still be around in the future!
 
 ### Demo Session Poster
 
-_Printed before {{site.data.dates.final_deliverables | date: '%B %-d' }} at 8am_
+_Printed before 8 AM on {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
 
 **The poster is worth 10% of the project grade.**
 
@@ -189,7 +189,7 @@ printed in time for the {{ site.data.dates.final_expo | date: '%b %-d' }} expo.
 
 #### Code submission
 
-_Due: {{site.data.dates.final_deliverables | date: '%B %-d' }}_
+_Due: {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
 
 **Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link _pages/policies.md %}))**
 
@@ -215,7 +215,7 @@ about this, just ask.
 
 ### Final Demo / Presentation Session
 
-_Date: {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}_
+_Date: {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}_
 
 During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is
