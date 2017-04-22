@@ -1,11 +1,10 @@
 ---
 title: Final Project
-date: 2017-01-15 13:01:52 -05:00
-description: 'From now until the end of the semester you will be working with a team
+date: 2017-04-22 12:01:00 -04:00
+description: |
+  From now until the end of the semester you will be working with a team
   of students on a group software project. The project will culminate during the Final
   Event period for this class,  with EXPO style demo / poster session.
-
-'
 start_date: 2017-03-09
 due_date: 2017-05-04
 parts:
@@ -186,7 +185,7 @@ and selectively edited for a different context:
 * **Website** - one-way communication, allows for more complete/in-depth coverage
 
 Posters must be submitted electronically via GitHub or project website, and
-printed in time for the May 5th expo.
+printed in time for the {{ site.data.dates.final_expo | date: '%b %-d' }} expo.
 
 #### Code submission
 
@@ -216,7 +215,7 @@ about this, just ask.
 
 ### Final Demo / Presentation Session
 
-_Date: {% if site.course.dates.final_expo %}{{ site.course.dates.final_expo | date: '%a %b %-d' }}{% else %}TBD{% endif %}_
+_Date: {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}_
 
 During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is

@@ -19,10 +19,6 @@ author:
 copyright_date: 2015-2017
 copyright_holder: Franklin W. Olin College of Engineering
 
-course:
-  dates:
-    final_expo: 2017-05-04 00:00:00.000000000 Z
-
 # more Jekyll settings (from here to end of file)
 
 collections:
