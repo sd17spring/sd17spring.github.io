@@ -7,7 +7,9 @@ description: Project presentations
 
 ## Today
 
-Project presentations. See the presentation schedule [here]({{ site.data.course.urls.final_project_schedule }}) for your room assignment and presentation time slot.
+Project presentations. See the presentation schedule below for your room assignment and presentation time slot.
+
+<iframe src="{{ site.data.course.urls.final_project_schedule_embed }}" style="width:400px;height:285px"></iframe>
 
 ## Project presentation guidelines
 
