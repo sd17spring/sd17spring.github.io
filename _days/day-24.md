@@ -1,22 +1,26 @@
 ---
 title: Day 24
-date: 2017-04-20 00:00:00 -04:00
-published: false
+date: 2017-04-23 11:34:00 -04:00
 activity_date: 2017-04-24
-description: Technical Review 2
+description: Project presentations
 ---
 
 ## Today
 
-* Technical Review #2. Please report directly to your assigned rooms.
+Project presentations. See the presentation schedule [here]({{ site.data.course.urls.final_project_schedule }}) for your room assignment and presentation time slot.
 
-Groups A+D: AC326
+## Project presentation guidelines
 
-Groups B+E: AC113
+Presentations will all happen on a single shared laptop. Each team will have
+approximately 7 minutes to present. Your slides should have been posted to the
+[shared Google Drive
+folder]({{ site.data.course.urls.final_project_shared_folder }})
+in advance.
 
-Groups C+F: AC126
+{% comment %}
+As an audience member, your role is to listen attentively and provide feedback
+to the presenting team using the online survey forms below.
 
-## For Next Time
-
-* TR #2 reflection document due Monday
-* Project presentations in class Monday. Slides must be posted beforehand; see the [guidelines and rubric for details]({% link _assignments/final-project/project-presentation-rubric.md %}).
+* [Section 1](http://goo.gl/forms/KJkpyJh784)
+* [Section 2](http://goo.gl/forms/0Ctf0A1IbR)
+{% endcomment %}

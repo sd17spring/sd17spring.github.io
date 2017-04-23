@@ -52,6 +52,8 @@ urls:
   piazza: https://piazza.com/olin/spring2017/engr2510
   entrance_survey: https://goo.gl/forms/6MsKDGVf5SGFyIg22
   mid_course_feedback_survey: https://goo.gl/forms/G13HYHhW8EYARRyz1
+  final_project_shared_folder: https://drive.google.com/drive/folders/0B-kMZWl84ibOaUZONFE3TFE1Z28?usp=sharing
+  final_project_schedule: https://docs.google.com/spreadsheets/d/1NO3IaTktBpu0X6IW0RmoxukhsNwQRt3cWAikq0dJ6ls/edit?usp=sharing
 
 sections:
   - number: 1
