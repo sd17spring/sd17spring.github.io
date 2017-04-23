@@ -17,10 +17,8 @@ approximately 7 minutes to present. Your slides should have been posted to the
 folder]({{ site.data.course.urls.final_project_shared_folder }})
 in advance.
 
-{% comment %}
 As an audience member, your role is to listen attentively and provide feedback
-to the presenting team using the online survey forms below.
+to the presenting team using the online survey forms below:
 
-* [Section 1](http://goo.gl/forms/KJkpyJh784)
-* [Section 2](http://goo.gl/forms/0Ctf0A1IbR)
-{% endcomment %}
+{% for survey in site.data.course.urls.final_project_presentation_surveys %}
+* [{{ survey[0] }} presentation feedback survey]({{ survey[1] }}){% endfor %}

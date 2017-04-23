@@ -9,8 +9,11 @@ position: 1
 
 ## [Monday, April 24]({% link _days/day-24.md %})
 
-* Before class: upload your slides to the [shared Google Drive folder]({{ site.data.course.urls.final_project_shared_folder }})
-* During class: [Project presentations]({% link _assignments/final-project/project-presentation-rubric.md %})
+* Before class:
+   * Upload your slides to the [shared Google Drive folder]({{ site.data.course.urls.final_project_shared_folder }})
+* During class:
+   * [Project presentations]({% link _assignments/final-project/project-presentation-rubric.md %})
+   * Provide feedback using the online survey forms linked from the [class activity page]({% link _days/day-24.md %})
 
 ## {{site.data.dates.final_website | date: '%A, %B %-d' }}
 
