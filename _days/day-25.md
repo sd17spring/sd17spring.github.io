@@ -1,9 +1,9 @@
 ---
-title: Day 26
-date: 2017-04-27 00:00:00 -04:00
+title: Day 25
+date: 2017-04-23 11:30:00 -04:00
 published: false
 activity_date: 2017-04-27
-description: Final deliverables, where to go next
+description: Final deliverables; where to go next
 ---
 
 ## Today
@@ -13,7 +13,7 @@ description: Final deliverables, where to go next
 
 ## For Next Time
 
-* SoftDes final project expo, ~~8~~ 9-11am Thursday 5/5
+* SoftDes final project expo, {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}
 
 ## Final project deliverables
 
@@ -22,22 +22,22 @@ cool code, and worked together with your peers to help each other improve. The
 remaining deliverables are intended for you to share that work with various
 audiences.
 
-### Poster
-
-_Due date_ : Must be printed and posted electronically to your GitHub and/or
-website before the SoftDes final project Expo 5/5
-
-[Guidelines]({% link _assignments/final-project.md %}#demo-session-poster)
-
 ### Website
 
-_Due date_ : End of day Thursday 5/5
+_Due date_: End of day {{site.data.dates.final_website | date: '%A, %B %-d' }}
 
 [Guidelines]({% link _assignments/final-project.md %}#project-website)
 
+### Poster
+
+_Due date_: Must be printed and posted electronically to your GitHub and/or
+website before the SoftDes final project Expo {{ site.data.dates.final_expo | sdate: '%A, %b %-d' }}
+
+[Guidelines]({% link _assignments/final-project.md %}#demo-session-poster)
+
 ### Code
 
-_Due date_: End of day Thursday 5/5. Be sure to update your README file as
+_Due date_: End of day {{ site.data.dates.final_expo | sdate: '%A, %b %-d' }}. Be sure to update your README file as
 well.
 
 [Guidelines]({% link _assignments/final-project.md %}#code-submission)
@@ -52,7 +52,7 @@ In groups at your tables:
 
 1. Select three potential audiences you would like your work to reach. Examples include future employers, potential users, other developers continuing your work, SoftDes staff, students learning programming, media outlets, etc.
 2. For each of the three groups you've chosen, discuss at your table what sort of information that audience wants to see. Make a list of their priorities.
-3. Below are several of the final project websites from last year. Randomly choose at least three of them, visit each putting yourself in the shoes of each of your audience groups, and take notes on what you find. Were the details you were looking for easy to find? What was missing? Where did it excel and where could it be better?
+3. Below are several of the final project websites from a previous year. Randomly choose at least three of them, visit each putting yourself in the shoes of each of your audience groups, and take notes on what you find. Were the details you were looking for easy to find? What was missing? Where did it excel and where could it be better?
 
 * [Aztex](https://sites.google.com/site/aztexeditor/)
 * [CricketHoneyKale](https://sites.google.com/site/crickethoneykale/)
