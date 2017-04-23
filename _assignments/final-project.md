@@ -17,6 +17,12 @@ parts:
 - name: AR Reflection Document
   due_date: 2017-03-30
   tag: architectural-review
+- name: Project Presentation
+  due_date: 2017-04-24
+  tag: project-presentation
+- name: Project Website
+  due_date: 2017-04-27
+  tag: project-website
 - name: Final Deliverables
   due_date: 2017-05-04
   tag: project-website
