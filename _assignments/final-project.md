@@ -25,7 +25,7 @@ parts:
   tag: project-website
 - name: Final Deliverables
   due_date: 2017-05-04
-  tag: project-website
+  tag: demo-session-poster
 type: index
 ---
 

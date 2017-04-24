@@ -3,18 +3,14 @@ title: Coming Up
 position: 1
 ---
 
-## [Monday, April 24]({% link _days/day-24.md %})
-
-* Before class:
-   * Upload your slides to the [shared Google Drive folder]({{ site.data.course.urls.final_project_shared_folder }})
-* Come to the room shown on the [schedule]({% link _days/day-24.md %})
-* During class:
-   * [Project presentations]({% link _assignments/final-project/project-presentation-rubric.md %})
-   * Provide feedback using the online survey forms linked from the [class activity page]({% link _days/day-24.md %})
-
 ## {{site.data.dates.final_website | date: '%A, %B %-d' }}
 
-* [Final Project: Web Site]({% link _assignments/final-project.md %}#project-website)
+* [Final Project Web Site]({% link _assignments/final-project.md %}#project-website) is due by the end of the day.
+
+## {{site.data.dates.final_expo | date: '%A, %B %-d' }}
+
+* [Final Deliverables]({% link _assignments/final-project.md %}#demo-session-poster) are due by 8 AM {{ site.data.dates.final_expo | date: '%A, %b %-d' }}
+* [Final Demo  Presentation Session]({% link _assignments/final-project.md %}#final-demo--presentation-session) {{ site.data.dates.final_expo | date: '%H:%M %p' }}–{{ site.data.dates.final-expo-end | date: '%H:%M %p' }}
 
 ---
 
