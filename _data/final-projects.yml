@@ -1,0 +1,83 @@
+sp2016:
+  - name: '#GetReal Augmented Reality'
+    website: 'http://kevinwzhang.com/AugmentedReality/'
+  - name: Algorithmic Music Composition
+    website: 'http://bwerth.github.io/InteractiveProgramming-1/'
+  - name: BACLaudio
+    website: 'http://audreywl.github.io/baclaudio/'
+  - name: Bioinformatics
+    website: 'http://rebeccagettys.github.io/NitrogenaseFinder/'
+  - name: Bull--itPoint
+    website: 'http://nielsenlouise.github.io/bull--itpoint/'
+  - name: Computer Generated Sculptures
+    website: 'https://sites.google.com/site/suisg2016/home'
+  - name: Course Paths
+    website: 'http://efunkhouser.github.io/CoursePaths/'
+  - name: Dueling Association
+    website: 'https://sites.google.com/site/theduelingassociation/'
+  - name: Elapse
+    website: 'https://elapseapp.herokuapp.com/'
+  - name: 'Graval: Company Valuation Visualizer'
+    website: 'http://kuannie1.github.io/DataAnalysis/'
+  - name: Interactive Calculus
+    website: 'http://xiaozhengxu.github.io/Interactive-Calculus/index'
+  - name: ItHappens
+    website: 'https://sites.google.com/site/ithappenssoftdes/home'
+  - name: Music Visualizer
+    website: 'http://arianaolson419.github.io/SpectrumAnalysis/index.html'
+  - name: Natural Evolution
+    website: 'http://duncandhall.github.io/NaturalEvolution/'
+  - name: NewsBox
+    website: 'http://sungwoopark.github.io/NewsBox/'
+  - name: Pool Assistant
+    website: 'https://dhzbill.github.io/SofDesFinal-Pool/'
+  - name: Procedurally Generated Terrain
+    website: 'https://sammyers.github.io/PythonCraft/'
+  - name: 'Project Echo: Interactive Projected Art'
+    website: 'https://sites.google.com/site/interactiveprojectedart/'
+  - name: Spectrum Analyzer
+    website: 'http://ianolin.github.io/Softdes-Final-project'
+  - name: Symbiosis
+    website: 'https://sites.google.com/site/symbiosisthegame/home'
+
+sp2015:
+  - name: Dineamics
+    website: 'https://sites.google.com/site/dineamicsapp/'
+  - name: On the Right Course
+    website: 'http://aditisjoshi.github.io/On-The-Right-Course/'
+  - name: hubwayPredict
+    website: 'https://hubwaypredict.wordpress.com/'
+  - name: Play God!
+    website: 'http://greenlightrj.github.io/playgod/'
+  - name: NapCAD
+    website: 'http://ctada.github.io/napCAD'
+  - name: Kill Kill Evolution
+    website: 'http://conwaysbattleroyale.github.io/BattleRoyale/'
+  - name: Pacman-AI
+    website: 'http://pdemetci.github.io/PacManAI/'
+  - name: Scrabble Solver
+    website: 'http://shrutiyer.github.io/ScrabbleAIs/'
+  - name: CircuitSim
+    website: 'http://brennamanning.github.io/SoftDesFinalProject/'
+  - name: Firecracker
+    website: 'http://joeylmaalouf.github.io/firecracker/'
+  - name: aztex
+    website: 'https://sites.google.com/site/aztexeditor/'
+  - name: UploadX
+    website: 'http://daniel6.github.io/softdes2015finalproject/'
+  - name: Funfetti Chicken
+    website: 'http://buttegab.github.io/Funfetti-Chicken/'
+  - name: DJ Phat Enchantah
+    website: 'https://sites.google.com/site/phatenchantah/'
+  - name: The Beastie Bot
+    website: 'https://sites.google.com/site/projectbeastiebot/'
+  - name: Olin Organizer
+    website: 'https://sites.google.com/site/softdeso2/home'
+  - name: Cricket Honey Kale
+    website: 'https://sites.google.com/site/crickethoneykale/'
+  - name: Rapid Recipes
+    website: 'http://aconsilvio.github.io/recipe_program/'
+  - name: Check Yourself
+    website: 'http://internetprivacy.wix.com/checkyourself'
+  - name: Shallow Red
+    website: 'http://rdiverdi.github.io/shallowRed'
