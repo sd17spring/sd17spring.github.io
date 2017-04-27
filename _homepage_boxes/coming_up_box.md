@@ -9,8 +9,11 @@ position: 1
 
 ## {{site.data.dates.final_expo | date: '%A, %B %-d' }}
 
-* [Final Deliverables]({% link _assignments/final-project.md %}#demo-session-poster) are due by 8 AM {{ site.data.dates.final_expo | date: '%A, %b %-d' }}
-* [Final Demo  Presentation Session]({% link _assignments/final-project.md %}#final-demo--presentation-session) {{ site.data.dates.final_expo | date: '%H:%M %p' }}–{{ site.data.dates.final-expo-end | date: '%H:%M %p' }}
+{{ site.data.dates.final_deliverables | date: '%-H:%M %p' }}
+: [Final Deliverables]({% link _assignments/final-project.md %}#demo-session-poster) are due
+
+{{ site.data.dates.final_expo | date: '%-H:%M' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}
+: [Final Demo Presentation Session]({% link _assignments/final-project.md %}#final-demo--presentation-session) in AC326 and AC328
 
 ---
 

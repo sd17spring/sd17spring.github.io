@@ -179,7 +179,7 @@ will still be around in the future!
 
 ### Demo Session Poster
 
-_Printed before 8 AM on {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
+_Printed before {{ site.data.dates.final_deliverables | date: '%-H:%M %p' }} on {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
 
 **The poster is worth 10% of the project grade.**
 
