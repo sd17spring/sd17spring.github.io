@@ -23,6 +23,9 @@ parts:
 - name: Project Website
   due_date: 2017-04-27
   tag: project-website
+- name: Project Website, feedback addressed
+  due_date: 2017-04-30
+  tag: project-website
 - name: Final Deliverables
   due_date: 2017-05-04
   tag: demo-session-poster
@@ -114,6 +117,8 @@ feedback using the online form.
 ### Project Website
 
 _Due: {{site.data.dates.final_website | date: '%A, %B %-d' }}_
+
+_Feedback addressed: {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 

@@ -8,6 +8,10 @@ position: 1
 * See [Day 25]({% link _days/day-25.md %}) for today's activity.
 * [Final Project Web Site]({% link _assignments/final-project.md %}#project-website) is due by the end of the day.
 
+## {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}
+
+* [Final Project Web Site]({% link _assignments/final-project.md %}#project-website) feedback addressed.
+
 ## {{site.data.dates.final_expo | date: '%A, %B %-d' }}
 
 {{ site.data.dates.final_deliverables | date: '%-H:%M %p' }}
