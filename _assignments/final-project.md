@@ -118,7 +118,7 @@ feedback using the online form.
 
 _Due: {{site.data.dates.final_website | date: '%A, %B %-d' }}_
 
-_Feedback addressed: {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
+_Revision that incorporates instructor feedback due_: {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 
