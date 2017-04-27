@@ -5,6 +5,7 @@ position: 1
 
 ## {{site.data.dates.final_website | date: '%A, %B %-d' }}
 
+* See [Day 25]({% link _days/day-25.md %}) for today's activity.
 * [Final Project Web Site]({% link _assignments/final-project.md %}#project-website) is due by the end of the day.
 
 ## {{site.data.dates.final_expo | date: '%A, %B %-d' }}

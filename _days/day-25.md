@@ -1,15 +1,13 @@
 ---
 title: Day 25
-date: 2017-04-23 11:30:00 -04:00
-published: false
+date: 2017-04-27 08:12:00 -04:00
 activity_date: 2017-04-27
-description: Final deliverables; where to go next
+description: Final deliverables
 ---
 
 ## Today
 
 * Final project deliverables
-* Where to go next
 
 ## For Next Time
 
@@ -54,15 +52,11 @@ In groups at your tables:
 2. For each of the three groups you've chosen, discuss at your table what sort of information that audience wants to see. Make a list of their priorities.
 3. Below are several of the final project websites from a previous year. Randomly choose at least three of them, visit each putting yourself in the shoes of each of your audience groups, and take notes on what you find. Were the details you were looking for easy to find? What was missing? Where did it excel and where could it be better?
 
-* [Aztex](https://sites.google.com/site/aztexeditor/)
-* [CricketHoneyKale](https://sites.google.com/site/crickethoneykale/)
-* [DJ Phat Enchantah](https://sites.google.com/site/phatenchantah/)
-* [FireCracker](http://joeylmaalouf.github.io/firecracker/)
-* [hubwayPredict](https://hubwaypredict.wordpress.com/)
-* [napCAD](http://celineta.com/napCAD/)
-* [Olin Organizer](https://sites.google.com/site/softdeso2/home)
-* [On the Right Course](http://aditisjoshi.github.io/On-The-Right-Course/)
-* [PacManAI](http://pdemetci.github.io/PacManAI/)
-* [Rapid Recipes](http://aconsilvio.github.io/recipe_program/)
-* [shallowRed](http://rdiverdi.github.io/shallowRed/)
-* [The Beastie Bot](https://sites.google.com/site/projectbeastiebot/)
+<ul>
+{% for project in site.data['final-projects'].sp2016 %}
+{% assign mod = forloop.index | modulo: 2 %}
+{% if mod == 1 %}
+<li><a href="{{ project.website }}">{{ project.name }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
