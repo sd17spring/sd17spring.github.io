@@ -29,13 +29,13 @@ _Due date_: End of day {{site.data.dates.final_website | date: '%A, %B %-d' }}
 ### Poster
 
 _Due date_: Must be printed and posted electronically to your GitHub and/or
-website before the SoftDes final project Expo {{ site.data.dates.final_expo | sdate: '%A, %b %-d' }}
+website before the SoftDes final project Expo {{ site.data.dates.final_expo | date: '%A, %b %-d' }}
 
 [Guidelines]({% link _assignments/final-project.md %}#demo-session-poster)
 
 ### Code
 
-_Due date_: End of day {{ site.data.dates.final_expo | sdate: '%A, %b %-d' }}. Be sure to update your README file as
+_Due date_: End of day {{ site.data.dates.final_expo | date: '%A, %b %-d' }}. Be sure to update your README file as
 well.
 
 [Guidelines]({% link _assignments/final-project.md %}#code-submission)
