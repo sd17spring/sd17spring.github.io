@@ -68,7 +68,7 @@ saving a message, just enter “:q” for quit.
 When the instructors have uploaded new reading assignments, you can pull them into your repository if the upstream repository is the one you originally forked from.
 
 ```bash
-$ git remote add upstream https://github.com/{{ site.data.course.github_owner }}/ReadingJournal
+$ git remote add upstream https://github.com/{{ site.data.course.github.owner_name }}/ReadingJournal
 $ git fetch upstream
 $ git merge upstream
 ```

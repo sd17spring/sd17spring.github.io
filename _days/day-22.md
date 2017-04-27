@@ -60,10 +60,10 @@ done via modules
 
 **Read:**  [Python modules](https://docs.python.org/3/tutorial/modules.html).
 
-We've created [an example](https://github.com//{{site.data.course.github_owner}}/python-modules) where
+We've created [an example](https://github.com//{{site.data.course.github.owner_name}}/python-modules) where
 we start from a single-file program and gradually add organization. You can
 trace the evolution of the project by following along in the [git
-history](https://github.com//{{site.data.course.github_owner}}/python-modules/commits/master).
+history](https://github.com//{{site.data.course.github.owner_name}}/python-modules/commits/master).
 
 Looking at project history on GitHub is nice, but you should also be able to
 do the same thing from the command line.

@@ -30,7 +30,7 @@ apt-get line will install the pygame library.
     $ sudo pip3 install pygame
 
 Grab the A star search starter code via the normal fork-and-clone method from
-<https://github.com//{{site.data.course.github_owner}}/ToolBox-AI>.
+<https://github.com//{{site.data.course.github.owner_name}}/ToolBox-AI>.
 
 ## Learn about A star search
 

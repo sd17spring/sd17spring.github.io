@@ -59,7 +59,7 @@ would ever come up with.
 ## Get set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.data.course.github_owner}}/ToolBox-EvolutionaryAlgorithms>
+method from <https://github.com//{{site.data.course.github.owner_name}}/ToolBox-EvolutionaryAlgorithms>
 
 You should see `evolve_text.py` within the toolbox folder.
 

@@ -135,13 +135,13 @@ you will be using, check out this MIT OpenCourseWare video.
 ## Getting Set
 
 The first step to getting started on this assignment is to fork the
-[{{site.data.course.github_owner}}/GeneFinder](https://github.com//{{site.data.course.github_owner}}/GeneFinder) repository.
+[{{site.data.course.github.owner_name}}/GeneFinder](https://github.com//{{site.data.course.github.owner_name}}/GeneFinder) repository.
 The steps to do this are the same as the ones you went through to create your
 reading journal. For your reference, here are the steps again:
 
 1. Open up a new browser window, and navigate to <https://github.com>
 2. If you are not already logged in, login to your GitHub account by clicking the "sign in" button at the top left of the page
-3. Copy and paste the following URL into the URL bar of the window that you used to login to GitHub [https://github.com//{{site.data.course.github_owner}}/GeneFinder](https://github.com//{{site.data.course.github_owner}}/GeneFinder)
+3. Copy and paste the following URL into the URL bar of the window that you used to login to GitHub [https://github.com//{{site.data.course.github.owner_name}}/GeneFinder](https://github.com//{{site.data.course.github.owner_name}}/GeneFinder)
 4. Fork the `GeneFinder` repository by clicking on the "Fork" button in the upper right of the window. If prompted for where you should fork the repository, select @yourgithubusername.
 5. You should now be at the page that shows your fork of the SoftDes repository. Copy the URL in the box labeled "HTTPS Clone URL".
 6. Open up a terminal and execute the following commands (note: these commands will clone your `GeneFinder` repository in your home directory, please modify the first line to cd to a different directory if you'd rather clone somewhere else).
@@ -150,12 +150,12 @@ reading journal. For your reference, here are the steps again:
 $ cd ~
 $ git clone https://github.com/yourgithubusernamehere/GeneFinder.git #the https URL will be the URL copied in step 5)
 $ cd GeneFinder
-$ git remote add upstream https://github.com//{{site.data.course.github_owner}}/GeneFinder.git
+$ git remote add upstream https://github.com//{{site.data.course.github.owner_name}}/GeneFinder.git
 $ ls *
 ```
 
 The `git remote`  line is needed in case you need to grab any changes to the
-`{{site.data.course.github_owner}}/GeneFinder.git` repository after your initial fork. The last
+`{{site.data.course.github.owner_name}}/GeneFinder.git` repository after your initial fork. The last
 command will show you all of the files in the `GeneFinder` repository. The
 next section explains the purpose of each of these files.
 
@@ -426,7 +426,7 @@ Submitting your assignment is a two step process:
 
 1. Complete the work and push it to your GitHub repository
 2. Do at least one of:
-  * Submit a pull request to the upstream {{ site.data.course.github_owner }} repository that you originally forked from
+  * Submit a pull request to the upstream {{ site.data.course.github.owner_name }} repository that you originally forked from
   * Visit a NINJA in pperson to check off week 2 of your assignment
 
 Pull requests are typically used to contribute code to someone else's project

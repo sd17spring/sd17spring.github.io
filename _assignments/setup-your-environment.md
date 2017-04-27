@@ -277,7 +277,7 @@ Since there's reading due next class, you will need to perform the steps below
 to setup your personal `ReadingJournal` repository.
 
 Navigate to the SoftDes reading journal base repository by clicking on this
-[link](https://github.com/{{site.data.course.github_owner}}/ReadingJournal). Next, click the "Fork"
+[link](https://github.com/{{site.data.course.github.owner_name}}/ReadingJournal). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
 GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
@@ -336,7 +336,7 @@ If you are having trouble getting your environment setup for whatever reason,
 please do the following:
 
 1. Tell us about it immediately! The teaching team (NINJAs and faculty) can help you (the best way to contact the whole teaching team is through Piazza).
-2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.data.course.github_owner}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
+2. Don't fall behind on the reading in ThinkPython. In order to make sure this doesn't happen, we have put up a hosted version of the Jupyter journal notebooks. You can access it [here](http://mybinder.org/repo/{{site.data.course.github.owner_name}}/ReadingJournal). Please note that your work will not be saved on the sever as you fill the notebook out. If you want to get a snapshot of your work, it is important to download the notebook file to your computer (the download command is under the file menu). It's probably best to think of this as a scratch pad, and not as the sole place to store your work.
 
 ## Step 5: Play a game?!?
 
