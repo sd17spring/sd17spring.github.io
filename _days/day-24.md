@@ -22,5 +22,5 @@ in advance.
 As an audience member, your role is to listen attentively and provide feedback
 to the presenting team using the online survey forms below:
 
-{% for survey in site.data.course.urls.final_project_presentation_surveys %}
+{% for survey in site.data.course.surveys.final_project_presentation %}
 * [{{ survey[0] }} presentation feedback survey]({{ survey[1] }}){% endfor %}

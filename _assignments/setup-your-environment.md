@@ -359,11 +359,11 @@ might want to ponder as you play the game:
 * Did your approach to the previous two events change as you got more experience playing the game?
 * Any other interesting observations?
 
-{% if site.data.course.urls.entrance_survey %}
+{% if site.data.course.surveys.entrance_survey %}
 
 ## Tell Us More About Yourself!
 
 As a final step for both turning in your reading journal, and so that we can
 learn more about you, your background, and your learning goals, please fill
-out the [course entrance survey]({{site.data.course.urls.entrance_survey}}).
+out the [course entrance survey]({{site.data.course.surveys.entrance_survey}}).
 {% endif %}
