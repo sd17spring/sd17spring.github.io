@@ -1,6 +1,6 @@
 ---
 title: Day 25
-date: 2017-04-27 08:12:00 -04:00
+date: 2017-04-30 19:21:00 -04:00
 activity_date: 2017-04-27
 description: Final deliverables
 ---
@@ -22,7 +22,9 @@ audiences.
 
 ### Website
 
-_Due date_: End of day {{site.data.dates.final_website | date: '%A, %B %-d' }}
+_Due: end of day {{site.data.dates.final_website | date: '%A, %B %-d' }}_
+
+_Final revision, incorporates instructor feedback, due_: end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
 
 [Guidelines]({% link _assignments/final-project.md %}#project-website)
 

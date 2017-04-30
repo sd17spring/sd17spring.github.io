@@ -73,7 +73,7 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 _Due {{site.data.dates.final_proposal | date: '%A, %B %-d' }}_
 
-**The project proposal is worth 10% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %}))** .
+**The project proposal is worth 10% of the project grade ([rubric]({% link _assignments/final-project/project-proposal-rubric.md %})).**
 
 By 11:59PM on the due date above, one member of your team should have submitted a response to the Project Proposal Questionnaire. When you go the link, be prepared to type up responses to the prompts below. More detailed answers give us an ability to give you better feedback to start the project (or revise your proposal). [Project Proposal Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSf-q_NToMi2VXNSzsH-NsI47HrFt85BtHZJLm-PYkrRMPc0mA/viewform).
 
@@ -116,9 +116,9 @@ feedback using the online form.
 
 ### Project Website
 
-_Due: {{site.data.dates.final_website | date: '%A, %B %-d' }}_
+_Due: end of day {{site.data.dates.final_website | date: '%A, %B %-d' }}_
 
-_Revision that incorporates instructor feedback due_: {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
+_Final revision, that incorporates instructor feedback, due_: end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}
 
 **The final website is worth 15% of the project grade**
 
