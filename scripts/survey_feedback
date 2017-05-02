@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Survey feedback feedback grouper.
+
+Usage:
+  survey_feedback CSV_FILE
+
+Groups the entries in a project feedback survey by team, and creates
+an HTML file for each team. The formatted text in each HTML file is
+intended for distribution to that team.
+"""
+
+import os
+from collections import OrderedDict
+
+import pandas as pd
+from docopt import docopt
+from jinja2 import Environment
+
+args = docopt(__doc__)
+
+TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), 'survey_feedback.html')
+TPL = Environment().from_string(open(TEMPLATE_PATH).read())
+
+df = pd.read_csv(args['CSV_FILE'])
+questions = df.columns[3:]
+
+for team_name in set(df['Presenting Team']):
+    dft = df[df['Presenting Team'] == team_name]
+    responses = OrderedDict([q, sorted(dft[q].dropna(), key=lambda s: len(s))]
+                            for q in questions)
+    summary_file = '{} Feedback.html'.format(team_name)
+    print("Writing", summary_file)
+    with open(summary_file, 'w') as f:
+        f.write(TPL.render(team=team_name, response_sets=responses))
