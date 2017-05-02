@@ -3,10 +3,6 @@ title: Coming Up
 position: 1
 ---
 
-## {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}
-
-* [Final Project Web Site]({% link _assignments/final-project.md %}#project-website) revision, that incorporates instructor feedback, is due by the end of the day
-
 ## {{site.data.dates.final_expo | date: '%A, %B %-d' }}
 
 {{ site.data.dates.final_deliverables | date: '%-H:%M %p' }}
