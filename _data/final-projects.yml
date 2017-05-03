@@ -1,43 +1,68 @@
 sp2016:
   - name: '#GetReal Augmented Reality'
+    repo: 'https://github.com/kzhang8850/AugmentedReality'
     website: 'http://kevinwzhang.com/AugmentedReality/'
   - name: Algorithmic Music Composition
+    repo: 'https://github.com/bwerth/InteractiveProgramming-1'
     website: 'http://bwerth.github.io/InteractiveProgramming-1/'
   - name: BACLaudio
+    repo: 'https://github.com/audreywl/baclaudio'
     website: 'http://audreywl.github.io/baclaudio/'
   - name: Bioinformatics
+    repo: 'https://github.com/rebeccagettys/NitrogenaseFinder'
     website: 'http://rebeccagettys.github.io/NitrogenaseFinder/'
   - name: Bull--itPoint
+    repo: 'https://github.com/nielsenlouise/bull--itpoint'
     website: 'http://nielsenlouise.github.io/bull--itpoint/'
   - name: Computer Generated Sculptures
+    repo: 'https://github.com/ClaireKincaid/Simple-User-Input-Sculpture-Generation'
     website: 'https://sites.google.com/site/suisg2016/home'
   - name: Course Paths
+    repo: 'https://github.com/efunkhouser/CoursePaths'
     website: 'http://efunkhouser.github.io/CoursePaths/'
   - name: Dueling Association
+    repo: 'https://github.com/Oktober13/FinalProject'
     website: 'https://sites.google.com/site/theduelingassociation/'
+  - name: Dungeon Crawler
+    repo: 'https://github.com/abuchele/DungeonCrawler'
+    website: 'https://abuchele.github.io/DungeonCrawler'
   - name: Elapse
+    repo: 'https://github.com/aehoppe/Elapse.git'
     website: 'https://elapseapp.herokuapp.com/'
   - name: 'Graval: Company Valuation Visualizer'
+    repo: 'https://github.com/kuannie1/DataAnalysis.git'
     website: 'http://kuannie1.github.io/DataAnalysis/'
   - name: Interactive Calculus
+    repo: 'https://github.com/xiaozhengxu/Interactive-Calculus'
     website: 'http://xiaozhengxu.github.io/Interactive-Calculus/index'
   - name: ItHappens
+    repo: 'https://github.com/KatieButler/Final-Project.git'
     website: 'https://sites.google.com/site/ithappenssoftdes/home'
   - name: Music Visualizer
+    repo: 'https://github.com/arianaolson419/SpectrumAnalysis'
     website: 'http://arianaolson419.github.io/SpectrumAnalysis/index.html'
   - name: Natural Evolution
+    repo: 'https://github.com/DuncanDHall/NaturalEvolution.git'
     website: 'http://duncandhall.github.io/NaturalEvolution/'
   - name: NewsBox
+    repo: 'https://github.com/SungwooPark/NewsBox'
     website: 'http://sungwoopark.github.io/NewsBox/'
   - name: Pool Assistant
+    repo: 'https://github.com/DHZBill/SofDesFinal-Pool'
     website: 'https://dhzbill.github.io/SofDesFinal-Pool/'
   - name: Procedurally Generated Terrain
+    repo: 'https://github.com/sammyers/PythonCraft'
     website: 'https://sammyers.github.io/PythonCraft/'
   - name: 'Project Echo: Interactive Projected Art'
     website: 'https://sites.google.com/site/interactiveprojectedart/'
   - name: Spectrum Analyzer
+    repo: 'https://github.com/IanOlin/Softdes-Final-project'
     website: 'http://ianolin.github.io/Softdes-Final-project'
+  - name: SSTSSOPE!
+    repo: 'https://github.com/rachelyang02/sd16finalproject'
+    website: 'https://sites.google.com/site/interactiveprojectedart/'
   - name: Symbiosis
+    repo: 'https://github.com/SeanFoley123/bug-free-spork'
     website: 'https://sites.google.com/site/symbiosisthegame/home'
 
 sp2015:
