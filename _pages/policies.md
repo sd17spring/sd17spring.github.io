@@ -4,6 +4,8 @@ date: 2017-01-19 13:27:25 -05:00
 permalink: policies/
 ---
 
+{% include toc %}
+
 ## Course Components
 
 Your evaluated work in this course will include:
