@@ -71,8 +71,10 @@ Flask itself.
     $ python3 hello.py
      * Running on http://127.0.0.1:5000/
 
+<p class="data-proofer-ignore" markdown="1">
 Now head over to <http://127.0.0.1:5000/>, and you should see your hello world
 greeting.
+</p>
 
 In case you're curious `127.0.0.1` points to your local computer, and `5000`
 is the port it's listening on.

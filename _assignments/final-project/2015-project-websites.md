@@ -1,5 +1,5 @@
 ---
-title: Past Project Websites
+title: 2015 Project Websites
 date: 2016-12-29 13:26:01 -05:00
 description: ''
 parent: final-project
@@ -13,5 +13,9 @@ project website, so you will likely see that material on many of these sites.
 We do not have this requirement in 2017, though you will likely use content
 from those deliverables to help create your site.
 
+<div class="data-proofer-ignore" markdown="1">
+
 {% for project in site.data['final-projects'].sp2015 %}
 * [{{ project.name }}]({{ project.website }}){% endfor %}
+
+</div>

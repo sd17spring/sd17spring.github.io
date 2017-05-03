@@ -45,7 +45,7 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if page.edit_link %}
-          <a href="{{ site.data.github.repository_url }}/blob/master/{{ page.path }}" class="fa fa-github"> Edit on GitHub</a>
+          <a href="{{ site.data.github.repository_url }}/blob/master/{{ page.path }}" class="fa fa-github data-proofer-ignore"> Edit on GitHub</a>
         {% endif %}
       </footer>
 
