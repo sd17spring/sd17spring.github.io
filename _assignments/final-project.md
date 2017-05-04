@@ -1,6 +1,6 @@
 ---
 title: Final Project
-date: 2017-05-04 8:07:00 -04:00
+date: 2017-05-04 9:16:00 -04:00
 description: |
   From now until the end of the semester you will be working with a team
   of students on a group software project. The project will culminate during the Final
@@ -205,7 +205,7 @@ _Due: {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
 
 **Project code is worth 40% of the project grade (see code rubric on the [course policy page]({% link _pages/policies.md %}))**
 
-Project code must be submitted via GitHub by May 5th. You must include a
+Project code must be submitted via GitHub by {{site.data.dates.final_deliverables | date: '%B %-d' }}. You must include a
 README describing how to run your code, including any required dependencies
 (e.g. libraries to install) and any input files ([README rubric]({% link _assignments/final-project/readme-rubric.md %})).
 
