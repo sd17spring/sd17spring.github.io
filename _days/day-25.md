@@ -11,7 +11,7 @@ description: Final deliverables
 
 ## For Next Time
 
-* SoftDes final project expo, {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}
+* SoftDes final project expo, {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %-H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%-H:%M %p' }}{% else %}TBD{% endif %}
 
 ## Final project deliverables
 

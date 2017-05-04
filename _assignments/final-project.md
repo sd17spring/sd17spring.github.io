@@ -226,7 +226,7 @@ about this, just ask.
 
 ### Final Demo / Presentation Session
 
-_Date: {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%H:%M %p' }}{% else %}TBD{% endif %}_
+_Date: {% if site.data.dates.final_expo %}{{ site.data.dates.final_expo | date: '%A, %b %-d, %-H:%M %p' }}–{{ site.data.dates.final_expo_end | date: '%-H:%M %p' }}{% else %}TBD{% endif %}_
 
 During the Final Event, both sections of SoftDes will meet in AC326
 for an EXPO style poster/demo session of your final projects. This session is
