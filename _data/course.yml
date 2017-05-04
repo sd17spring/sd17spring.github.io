@@ -54,6 +54,7 @@ urls:
   reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
   calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
   piazza: https://piazza.com/olin/spring2017/engr2510
+  final_project_team_survey: https://docs.google.com/spreadsheets/d/1qr068qhurZSSAcj67rtdQ1qCWML5WymOZYrl3cDzNIc/edit#gid=0
   final_project_shared_folder: https://drive.google.com/drive/folders/0B-kMZWl84ibOaUZONFE3TFE1Z28?usp=sharing
   final_project_schedule: https://docs.google.com/spreadsheets/d/1NO3IaTktBpu0X6IW0RmoxukhsNwQRt3cWAikq0dJ6ls/edit?usp=sharing
   final_project_schedule_embed: https://docs.google.com/spreadsheets/d/1NO3IaTktBpu0X6IW0RmoxukhsNwQRt3cWAikq0dJ6ls/pubhtml?gid=0&single=true

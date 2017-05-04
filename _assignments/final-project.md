@@ -1,6 +1,6 @@
 ---
 title: Final Project
-date: 2017-04-22 12:01:00 -04:00
+date: 2017-05-04 8:07:00 -04:00
 description: |
   From now until the end of the semester you will be working with a team
   of students on a group software project. The project will culminate during the Final
@@ -118,7 +118,7 @@ feedback using the online form.
 
 _Due: end of day {{site.data.dates.final_website | date: '%A, %B %-d' }}_
 
-_Final revision, that incorporates instructor feedback, due_: end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}
+_Final revision, that incorporates instructor feedback, due end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
 
 **The final website is worth 15% of the project grade**
 
@@ -177,10 +177,12 @@ If you'd like to make a GitHub site with multiple pages using Markdown,
 Patrick and Franton have written a [helpful
 guide](http://phuston.github.io/patrickandfrantonarethebestninjas/howto).
 
-Whatever implementation option you choose, you **must**  include a link to your
+Whatever implementation option you choose, you **must** include a link to your
 project website from your GitHub repository. Remember that this is part of
-your professional portfolio as you select a platform - choose something that
+your professional portfolio as you select a platform -- choose something that
 will still be around in the future!
+
+**Submission mechanics**: Your project's GitHub repo page should link to your web site. This means either the README, or the Website that is optionally displayed in the upper right corner of your GitHub repo page, should contain this link.
 
 ### Demo Session Poster
 
@@ -195,10 +197,9 @@ and selectively edited for a different context:
 * **Poster** - large form factor, tool to support your demo (content need not stand alone without explanation)
 * **Website** - one-way communication, allows for more complete/in-depth coverage
 
-Posters must be submitted electronically via GitHub or project website, and
-printed in time for the {{ site.data.dates.final_expo | date: '%b %-d' }} expo.
+**Submission mechanics**: (1) Your project README or project web site must link to your poster file. (2) Your poster must also be printed in time for the {{ site.data.dates.final_expo | date: '%b %-d' }} expo.
 
-#### Code submission
+### Code submission
 
 _Due: {{site.data.dates.final_deliverables | date: '%A, %B %-d' }}_
 
@@ -223,6 +224,8 @@ tool used to generate the [Python documentation](https://docs.python.org/3/)).
 Make sure that your code gives appropriate attribution to external resources
 used, as per the [course policy page]({% link _pages/policies.md %}). If you have any questions
 about this, just ask.
+
+**Submission mechanics**: Verify that the link in the [Final Project Team Survey]({{ site.data.course.urls.final_project_team_survey }}) is correct. Check that you have git pushed your final changes to GitHub.
 
 ### Final Demo / Presentation Session
 
