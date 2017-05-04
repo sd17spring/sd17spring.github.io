@@ -49,6 +49,7 @@ surveys:
   final_project_presentation_surveys:
     AC326: https://goo.gl/forms/8KQXR9BgPLhB2pkq1
     AC328: https://goo.gl/forms/ROBdtVov5DixMxvC3
+  exit_survey: https://goo.gl/forms/T0l9Gb7jD6vnAJi53
 
 urls:
   reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
