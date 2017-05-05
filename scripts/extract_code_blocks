@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+"""Extra the Python code blocks from a Jekyll site, into a single file.
+
+Usage:
+  extract_code_blocks [DIR]
+
+DIR defaults to ./_site.
+
+This can be used to check the style of Python blocks in the site
+pages:
+
+    $ jekyll build
+    $ ./scripts/extract_code_blocks > blocks.py
+    $ flake8 blocks.py --ignore=E402,H101,W391 --max-line-length=100
+"""
+
+import os
+import re
+
+import lxml.html
+from docopt import docopt
+
+JEKYLL_PYTHON_CODE_CSS_SELECTOR = '.language-python > pre'
+
+args = docopt(__doc__)
+site_dir = args['DIR'] or '_site'
+
+
+def iter_files(dirname, filter_pattern=None):
+    """Yield files recursively in dirname, that match filter_pattern."""
+    for root, _, filenames in os.walk(dirname):
+        for fname in filenames:
+            if not filter_pattern or re.match(filter_pattern, fname):
+                yield os.path.join(root, fname)
+
+
+for fname in iter_files(site_dir, r'.*\.html$'):
+    doc = lxml.html.parse(fname)
+
+    doc.getroot().cssselect(JEKYLL_PYTHON_CODE_CSS_SELECTOR)
+
+    for i, e in enumerate(doc.getroot().cssselect('.language-python > pre')):
+        print("# {}\n# File: {}\n# Code block #{}\n".format('-' * 75, fname, i + 1))
+        block = ''.join(x for x in e.itertext())
+        block = re.compile(r'^>>> ', re.M).sub('', block, )
+        print(block)
