@@ -99,16 +99,16 @@ items from a pool of n). Your solution should be implemented recursively using
 Here is a sample solution:
 
 ```python
-def nchoosek(n, k):`
-    """ returns the number of combinations of size k
-    that can be made from n items.
+def nchoosek(n, k):
+    """Return the number of combinations of size k that can be made from n items.
 
-    >>> nchoosek(5, 3)
-    10
-    >>> nchoosek(1, 1)
-    1
-    >>> nchoosek(4, 2)
-    6
+    Examples:
+      >>> nchoosek(5, 3)
+      10
+      >>> nchoosek(1, 1)
+      1
+      >>> nchoosek(4, 2)
+      6
     """
     if k == 0:
         return 1

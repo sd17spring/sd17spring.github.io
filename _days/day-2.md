@@ -167,11 +167,10 @@ While there are quite a bit of great Python functions that we can easily incorpo
 
 ```python
 def multiply_by_two(x):
-    """ Multiplies the input value by 2 and prints the result
+    """Multiply the input value by 2 and print the result.
 
         x: the value to multiply by 2
     """
-
     print(2*x)
 ```
 
@@ -187,8 +186,7 @@ Conditionals allow you to execute various blocks of code depending on whether a 
 
 ```python
 def print_absolute_value(x):
-    """ prints the absolute value of the input value x """
-
+    """Print the absolute value of the input value x."""
     if x >= 0:
         print(x)
     if x < 0:
@@ -199,8 +197,7 @@ The key thing to keep in mind is that the expressions x >= 0 and x < 0 evaluate 
 
 ```python
 def print_absolute_value(x):
-    """ prints the absolute value of the input value x """
-
+    """Print the absolute value of the input value x."""
     if x >= 0 == True:
         print(x)
     if x < 0 == True:
@@ -213,8 +210,7 @@ Optionally, an if statement can have a corresponding else statement. Using this 
 
 ```python
 def print_absolute_value(x):
-    """ prints the absolute value of the input value x """
-
+    """Prints the absolute value of the input value x."""
     if x >= 0:
         print(x)
     else:
@@ -251,7 +247,7 @@ Here is an example.  With a partner, create a Python script with this function d
 
 ```python
 def print_num_nonnegative(x, y):
-    """ prints 0 if both x and y are negative, 1 if one of them is non-negative, and two if they are both non-negative """
+    """Print 0 if both x and y are negative, 1 if one of them is non-negative, and two if they are both non-negative."""
     count = 0
     if x >= 0:
         count = 1
@@ -264,4 +260,5 @@ def print_num_nonnegative(x, y):
     print(count)
 ```
 
-To close things out we will briefly discuss a few approaches to debugging as a class. These approaches will come up again and again throughout this course.
+To close things out we will briefly discuss a few approaches to debugging as a class.
+These approaches will come up again and again throughout this course.

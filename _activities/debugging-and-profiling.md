@@ -52,7 +52,7 @@ pause execution at a particular location and enter interactive mode.
 import pdb
 
 def factorial(n):
- """ Computes the factorial of the non-negative input integer n """
+ """Compute the factorial of the non-negative input integer n."""
  return_val = 1
  pdb.set_trace()
  for i in range(n):

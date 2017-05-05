@@ -3,15 +3,15 @@ Created on Mon February 27, 2017
 
 author: Amon Millner, building upon examples built by previous
 SoftDes instructors, such as Paul Ruvolo and Ben Hill.
-
 """
+import time
 
 import pygame
-import time
 
 
 class BrickBreakerModel:
-    """ Encodes the game state """
+    """Encodes the game state."""
+
     def __init__(self):
         self.bricks = []
         for x in range(20, 620, 150):
@@ -21,7 +21,8 @@ class BrickBreakerModel:
 
 
 class Brick:
-    """ Encodes the state of a brick in the game """
+    """Encodes the state of a brick in the game."""
+
     def __init__(self, color, height, width, x, y):
         self.color = color
         self.height = height
@@ -31,7 +32,8 @@ class Brick:
 
 
 class Paddle:
-    """ Encodes the state of the paddle in the game """
+    """Encode the state of the paddle in the game."""
+
     def __init__(self, color, height, width, x, y):
         self.color = color
         self.height = height
@@ -41,7 +43,8 @@ class Paddle:
 
 
 class PyGameWindowView:
-    """ A view of brick breaker rendered in a Pygame window """
+    """A view of brick breaker rendered in a Pygame window."""
+
     def __init__(self, model, screen):
         self.model = model
         self.screen = screen
