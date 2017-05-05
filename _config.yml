@@ -82,6 +82,7 @@ exclude:
 - Gemfile.lock
 - README.md
 - docker_compose.yml
+- docs
 - notebooks
 - scripts
 - vendor  # for travis

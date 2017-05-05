@@ -5,13 +5,6 @@ Usage:
   extract_code_blocks [DIR]
 
 DIR defaults to ./_site.
-
-This can be used to check the style of Python blocks in the site
-pages:
-
-    $ jekyll build
-    $ ./scripts/extract_code_blocks > blocks.py
-    $ flake8 blocks.py --ignore=E402,H101,W391 --max-line-length=100
 """
 
 import os
