@@ -176,11 +176,11 @@ the PIL library to generate a simple image. The relevant code is in the
 
 ```python
 # Functions for red, green, and blue channels - where the magic happens!
- red_function = ["x"]
- green_function = ["y"]
- blue_function = ["x"]
+red_function = ["x"]
+green_function = ["y"]
+blue_function = ["x"]
 
- # Create image and loop over all pixels
+# Create image and loop over all pixels
 im = Image.new("RGB", (x_size, y_size))
 pixels = im.load()
 for i in range(x_size):
@@ -190,8 +190,7 @@ for i in range(x_size):
         pixels[i, j] = (
             color_map(evaluate_random_function(red_function, x, y)),
             color_map(evaluate_random_function(green_function, x, y)),
-            color_map(evaluate_random_function(blue_function, x, y))
-            )
+            color_map(evaluate_random_function(blue_function, x, y)))
 
 im.save(filename)
 ```
@@ -249,8 +248,7 @@ want ([-1, +1]).
         pixels[i, j] = (
             color_map(evaluate_random_function(red_function, x, y)),
             color_map(evaluate_random_function(green_function, x, y)),
-            color_map(evaluate_random_function(blue_function, x, y))
-            )
+            color_map(evaluate_random_function(blue_function, x, y)))
 ```
 
 This code evaluates each the red, green, and blue channel functions to obtain
@@ -407,7 +405,7 @@ functions. For instance, ["cos_pi", ["prod", ["x", "y"] ] ] would be
 represented as the lambda function:
 
 ```python
-lambda x, y: cos(pi*(lambda x, y: (lambda x, y: x)(x, y)*(lambda x, y: y)(x, y))(x, y)).
+lambda x, y: cos(pi * (lambda x, y: (lambda x, y: x)(x, y) * (lambda x, y: y)(x, y))(x, y)).
 ````
 
 Using lambda functions will allow you to return a variable of type function
@@ -498,7 +496,7 @@ To display images in real-time (as opposed to using an image viewer to
 checkout the images after you have saved them to a file), I recommend using
 **pygame** .
 
-```python
+```bash
 $ sudo pip3 install pygame
 ```
 
@@ -506,7 +504,7 @@ We are not including detailed instructions on this, but it shouldn't be too
 hard for you to figure out using Google and the **pygame**  documentation. You
 may also have to install some dependencies using **apt-get** :
 
-```python
+```bash
 $ sudo apt-get install mercurial python-dev python-numpy ffmpeg libsdl- image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev
 ```
 

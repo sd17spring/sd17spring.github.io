@@ -248,9 +248,9 @@ To help you get started here are some unit tests (make sure you have read the
 
 ```python
 >>> get_complement("A")
- 'T'
+'T'
 >>> get_complement("C")
- 'G'
+'G'
 ```
 
 * `get_reverse_complement`: this function should return the reverse complementary DNA sequence for the input DNA sequence.
@@ -260,9 +260,9 @@ To help you get started here are some unit tests (make sure you have read the
 
 ```python
 >>> get_reverse_complement("ATGCCCGCTTT")
- 'AAAGCGGGCAT'
+'AAAGCGGGCAT'
 >>> get_reverse_complement("CCGCGTTCA")
- 'TGAACGCGG'
+'TGAACGCGG'
 ```
 
 * `rest_of_ORF`: Takes an input sequence of DNA that is assumed to begin with a start codon, and returns the snippet of DNA from the beginning of the string up to, but not including, the first in frame stop codon. If there is no in frame stop codon, the whole string is returned.
@@ -271,9 +271,9 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 
 ```python
 >>> rest_of_ORF("ATGTGAA")
- 'ATG'
+'ATG'
 >>> rest_of_ORF("ATGAGATAGG")
- 'ATGAGA'
+'ATGAGA'
 ```
 
 * `find_all_ORFs_oneframe`: this function should find all open reading frames in a given sequence of DNA and return them as a list of strings. You should only check for ORFs that start on multiples of 3 from the start of the string. Your function should not return ORFs that are nested within another ORF. In order to accomplish this, once you find an ORF and add it to your list, you should skip ahead in the DNA sequence to the end of that ORF. You will find a `while` loop to be useful for this purpose. Make sure to utilize your `rest_of_ORF` function when coding this part.
@@ -282,17 +282,15 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 ```python
 >>> find_all_ORFs_oneframe("ATGCATGAATGTAGATAGATGTGCCC")
- ['ATGCATGAATGTAGA', 'ATGTGCCC']
+['ATGCATGAATGTAGA', 'ATGTGCCC']
 ```
 
 * `find_all_ORFs`: this function should find all open reading frames in any of the 3 possible frames in a given sequence of DNA and return them as a list of strings. Note that this means that you need to check for ORFs in all three possible frames (i.e. with 0, 1, and 2 offset from the beginning of the sequence). For example, you would want to consider the following codon groupings when looking for all ORFs (groups of +++ or --- indicate that the nucleotides above are considered as a single codon).
 
-```python
-ATGTGAAGATTA
-+++---+++---
--+++---+++--
---+++---+++-
-```
+    ATGTGAAGATTA
+    +++---+++---
+    -+++---+++--
+    --+++---+++-
 
 As in above, don't include ORFs that are nested within other ORFs. Your
 function should heavily utilize `find_all_ORFs_oneframe` .
@@ -301,7 +299,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 ```python
 >>> find_all_ORFs("ATGCATGAATGTAG")
- ['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
+['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 ```
 
 * `find_all_ORFs_both_strands`: this should do exactly the same thing as `find_all_ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
@@ -346,7 +344,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 
 ```python
 >>> longest_ORF("ATGCGAATGTAGCATCAAA")
- 'ATGCTACATTCGCAT'
+'ATGCTACATTCGCAT'
 ```
 
 * `longest_ORF_noncoding` : this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length**  of the longest ORF that was found across all random trials (that is the output of `longest_ORF_noncoding` is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
@@ -385,9 +383,9 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 
 ```python
 >>> coding_strand_to_AA("ATGCGA")
- 'MR'
+'MR'
 >>> coding_strand_to_AA("ATGCCCGCTTT")
- 'MPA
+'MPA
 ```
 
 * `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
@@ -478,7 +476,7 @@ The second step is to load the meta-genome. Again, there is a function in the
 >>> print(metagenome[0])
 
 ('Incfw_1000001',
-'AACAGCGGGGAATCGTCGACGCAATGCGCGGCATACAGCGTGCCGGCGAGCCCGGCCGACAGAAGACCGGCGAGCGCCCCGGCGAGCGCCGGGCGCGACGGCGCGCCGCGGCGCAGGCCCATCAGCGCGGCACCGAGGAACGGTAGCGACAGCACCGGGATCGAGCCGAGACACAGCAGCGAGTTGTGACCGAGCAGCCGCGTCATCGCCGAGGTTCGATGCGGCAGCATCGCTTCGGCGCCGATCGCGAGGCCGAGGATCGCCAGCGGCGCCAGCAGCAGCAGGCGCCAGCCTTTCGCCGTCGCCTCCGGGCGCGACAGATGCAGCGCGACGATGATCGC')
+ 'AACAGCGGGGAATCGTCGACGCAATGCGCGGCATACAGCGTGCCGGCGAGCCCGGCCGACAGAAGACCGGCGAGCGCCCCGGCGAGCGCCGGGCGCGACGGCGCGCCGCGGCGCAGGCCCATCAGCGCGGCACCGAGGAACGGTAGCGACAGCACCGGGATCGAGCCGAGACACAGCAGCGAGTTGTGACCGAGCAGCCGCGTCATCGCCGAGGTTCGATGCGGCAGCATCGCTTCGGCGCCGATCGCGAGGCCGAGGATCGCCAGCGGCGCCAGCAGCAGCAGGCGCCAGCCTTTCGCCGTCGCCTCCGGGCGCGACAGATGCAGCGCGACGATGATCGC')
 ```
 
 The variable metagenome contains a list of tuples. Each tuple consists of the

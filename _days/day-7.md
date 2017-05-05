@@ -64,7 +64,7 @@ change can be made for n cents using the coins d.
 For example:
 
 ```python
-make_change(10, [1, 5, 10]) -> 4
+make_change(10, [1, 5, 10])  # -> 4
 ```
 
 Specifically:
@@ -178,7 +178,7 @@ started, let's write a function called `snow_flake_side` with the following
 signature:
 
 ```python
-def snow_flake_side(turtle, length, level):`
+def snow_flake_side(turtle, length, level):
     """Draw a side of the snowflake curve with side length length and recursion
     depth of level"""
 ```
