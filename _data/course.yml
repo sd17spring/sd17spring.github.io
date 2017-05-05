@@ -52,9 +52,13 @@ surveys:
   exit_survey: https://goo.gl/forms/T0l9Gb7jD6vnAJi53
 
 urls:
-  reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
   calendar_url: https://docs.google.com/spreadsheets/d/1AwW8O0UQmDItCDn7DnJbW40tY1HrDggt8pWpVqG-HiE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
   piazza: https://piazza.com/olin/spring2017/engr2510
+  intro_lecture:
+    pdf: https://drive.google.com/file/d/0B0UHkPLHsgyoeWFQRkViT0tvREE/view?usp=sharing
+    ppt: https://drive.google.com/file/d/0B0UHkPLHsgyodHlnLV9uVjkyUEk/view?usp=sharing
+  reading_journal_repo: httpsx://github.com/sd17spring/ReadingJournal
+  reading_journal_response_prefix: 'https://github.com/sd17spring/ReadingJournalResponses/blob/master/'
   final_project_team_survey: https://docs.google.com/spreadsheets/d/1qr068qhurZSSAcj67rtdQ1qCWML5WymOZYrl3cDzNIc/edit#gid=0
   final_project_shared_folder: https://drive.google.com/drive/folders/0B-kMZWl84ibOaUZONFE3TFE1Z28?usp=sharing
   final_project_schedule: https://docs.google.com/spreadsheets/d/1NO3IaTktBpu0X6IW0RmoxukhsNwQRt3cWAikq0dJ6ls/edit?usp=sharing

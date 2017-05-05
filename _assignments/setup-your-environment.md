@@ -277,7 +277,7 @@ Since there's reading due next class, you will need to perform the steps below
 to setup your personal `ReadingJournal` repository.
 
 Navigate to the SoftDes reading journal base repository by clicking on this
-[link](https://github.com/{{site.data.course.github.owner_name}}/ReadingJournal). Next, click the "Fork"
+[link]({{ data.course.urls.reading_journal_repo }}). Next, click the "Fork"
 button in the upper right hand corner of the page. If you are not signed into
 GitHub, you will be prompted to sign in. Read on for instructions on
 downloading and then turning in your reading exercises.
