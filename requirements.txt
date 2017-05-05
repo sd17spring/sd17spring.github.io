@@ -1,0 +1,13 @@
+cssselect>=1.0.1
+docopt>=0.6.2
+Jinja2>=2.8
+lxml>=3.6.0
+numpy>=1.11.1
+pandas>=0.19.2
+python-dateutil>=2.5.3
+PyYAML>=3.11
+
+flake8^=3.3.0
+flake8-bugbear^=17.4.0
+flake8-builtins^=0.2
+flake8-docstrings^=1.0.3
