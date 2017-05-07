@@ -12,7 +12,6 @@ bundle exec jekyll build
 # always fail on Travis (and could be added to --url-ignore);
 # more fail intermittently.
 bundle exec htmlproofer \
-  --alt-ignore /images/HtL_Banner.svg \
   --assume-extension \
   --check-html \
   --disable-external \
@@ -20,3 +19,7 @@ bundle exec htmlproofer \
   --report-missing-names \
   --report-script-embeds \
   ./_site
+
+# TODO:
+# remove --disable-external
+# add --only-4xx--timeframe 1w
