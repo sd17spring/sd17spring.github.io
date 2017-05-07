@@ -124,7 +124,7 @@ them in a text file called `questions.txt` in your `machine_learning` folder:
 1. What is the general trend in the curve?
 2. Are there parts of the curve that appear to be noisier than others? Why?
 3. How many trials do you need to get a smooth curve?
-4. Try different values for C (by changing `LogisticRegression(C=10** -10)`). What happens? If you want to know why this happens, see [this](http://en.wikipedia.org/wiki/Tikhonov_regularization) Wikipedia page as well as [the documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) for `LogisticRegression` in **scikit-learn** .
+4. Try different values for C (by changing `LogisticRegression(C=10** -10)`). What happens? If you want to know why this happens, see [this](http://en.wikipedia.org/wiki/Tikhonov_regularization) Wikipedia page as well as [the documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) for `LogisticRegression` in **scikit-learn**.
 
 ## Turning in Your Toolbox Exercise
 
@@ -134,7 +134,7 @@ notify your friendly neighborhood NINJA to take a look.
 
 ## Further Explorations
 
-If you want to explore more of the features of **scikit-learn**  and of machine
+If you want to explore more of the features of **scikit-learn** and of machine
 learning in general. I recommend you take a look at this [Jupyter
 notebook](https://github.com/paulruvolo/DataScienceMaterials/tree/master/machine_learning_lecture_2).
 If you are still interested, please contact the teaching team... we will be

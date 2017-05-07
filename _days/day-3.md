@@ -79,7 +79,7 @@ compose the grid. For instance,
 
 ## Running doctests
 
-Doctests can be run in normal mode, in which only _failing_  tests will be
+Doctests can be run in normal mode, in which only _failing_ tests will be
 reported, or in verbose mode, which reports results from all tests.
 
 If you've written a program called `my_prog.py`, you can test it from the
@@ -100,4 +100,4 @@ doctest.testmod(verbose=True)
 
 at the bottom.
 
-**Exercise** : Add doctests to your `is_triangle` function from the Day 1 reading journal and verify your implementation.
+**Exercise**: Add doctests to your `is_triangle` function from the Day 1 reading journal and verify your implementation.

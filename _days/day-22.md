@@ -58,7 +58,7 @@ As your Python projects grow too large to comfortably fit in a single file,
 it's helpful to introduce more organizational structure. In Python, this is
 done via modules
 
-**Read:**  [Python modules](https://docs.python.org/3/tutorial/modules.html).
+**Read:** [Python modules](https://docs.python.org/3/tutorial/modules.html).
 
 We've created [an example](https://github.com//{{site.data.course.github.owner_name}}/python-modules) where
 we start from a single-file program and gradually add organization. You can
@@ -72,4 +72,4 @@ do the same thing from the command line.
 2. Clone the project to your computer.
 3. Explore around the project history.  Commands you should definitely practice include `git log`, `git diff`, `git history`, `git whatchanged`, and `git checkout`
 
-**Exercise:**  (recommendation) As part of your Mini-Project 5 work, refactor and organize code from a previous submission (project or toolbox) into separate classes, files, and modules.
+**Exercise:** (recommendation) As part of your Mini-Project 5 work, refactor and organize code from a previous submission (project or toolbox) into separate classes, files, and modules.

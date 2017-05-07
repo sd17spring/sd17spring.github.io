@@ -35,7 +35,7 @@ on your computer.
 
 You should read this document in a somewhat non-linear/spiral fashion:
 
-1. Scan through [Part 1](#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not**  need to try all the data sources.
+1. Scan through [Part 1](#part-1-harvesting-text-from-the-internet) to get a sense of what data sources are available. Try grabbing text from one of the sources that interests you. You **do not** need to try all the data sources.
 2. Scan through [Part 2](#part-2-analyzing-your-text) to see a bunch of cool examples for what you can do with your text.
 3. Choose (at least) one data source from Part 1 or elsewhere and analyze/manipulate/transform that text using technique(s) from Part 2 or elsewhere.
 4. Write a brief document about what you did ([Part 3](#part-3-project-writeup-and-reflection))
@@ -101,7 +101,7 @@ computational processing to process in Python.
 
 In order to download a book from Project Gutenberg you should first use their
 search engine to find a link to a book that you are interested in analyzing.
-For instance, if I decide that I want to analyze _Oliver Twist_  I would click
+For instance, if I decide that I want to analyze _Oliver Twist_ I would click
 on this [link](http://www.gutenberg.org/ebooks/730) from the Gutenberg search
 engine. Next, I would copy the link from the portion of the page that says
 "Plain Text UTF-8". It turns out that the link to the text of _Oliver Twist_
@@ -466,16 +466,16 @@ following sections:
 What data source(s) did you use and what technique(s) did you use
 analyze/process them? What did you hope to learn/create?
 
-**Implementation**  _[~2-3 paragraphs]_
+**Implementation** _[~2-3 paragraphs]_
 
 Describe your implementation at a system architecture level. You should
-**NOT**  walk through your code line by line, or explain every function (we can
+**NOT** walk through your code line by line, or explain every function (we can
 get that from your docstrings). Instead, talk about the major components,
 algorithms, data structures and how they fit together. You should also discuss
 at least one design decision where you had to choose between multiple
 alternatives, and explain why you made the choice you did.
 
-**Results**  _[~2-3 paragraphs + figures/examples]_
+**Results** _[~2-3 paragraphs + figures/examples]_
 
 Present what you accomplished:
 

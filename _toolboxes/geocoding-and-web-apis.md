@@ -20,7 +20,7 @@ stop and the distance from the given place to that stop. For example:
     >>> mbta_finder.find_stop_near("Fenway Park")
     Yawkey is 0.13 miles from Fenway Park
 
-**Note** : There are already [a few Python packages](https://wiki.python.org/moin/GIS/Web_services) that interface with mapping services, but part of this exercise is seeing how you might write your own such package from scratch.
+**Note**: There are already [a few Python packages](https://wiki.python.org/moin/GIS/Web_services) that interface with mapping services, but part of this exercise is seeing how you might write your own such package from scratch.
 
 ## Get Set
 

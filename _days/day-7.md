@@ -102,9 +102,9 @@ also went on to draw flowers, pies, letters, spirals, or something else
 altogether! Thinking about how to break up large problems like these into
 logical smaller pieces is one of the most fun challenges in software design.
 
-It's often useful to think about what low-level **primitive**  functions (such
+It's often useful to think about what low-level **primitive** functions (such
 as drawing regular polygons) would be most useful in completing a task.
-Identifying these common primitives can help **refactor**  messy code with many
+Identifying these common primitives can help **refactor** messy code with many
 copy-paste sections into a set of reusable functions with clean interfaces.
 From [Think
 Python](http://greenteapress.com/thinkpython2/html/thinkpython2005.html#sec47):

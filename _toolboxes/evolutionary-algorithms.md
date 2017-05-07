@@ -71,7 +71,7 @@ both by running:
     $ sudo pip3 install deap
     $ sudo pip3 install numpy
 
-**Note:**  The problem we will tackle in this exercise is simple enough that
+**Note:** The problem we will tackle in this exercise is simple enough that
 we could implement it from scratch with no framework, but DEAP is a powerful
 set of tools that you might find useful in the future.
 
@@ -109,7 +109,7 @@ Let's take a deeper look at each of these steps, and implement each in turn.
 The individuals in our population are represented as `Message` objects, each
 of which hold a text string.
 
-**Design decision:**  Why is this implemented with a list of characters
+**Design decision:** Why is this implemented with a list of characters
 instead of a string?
 
 ### Evaluating fitness
@@ -124,7 +124,7 @@ Message and the target text.
 
 **Implement the `levenshtein_distance` function.**
 
-**Note:**  Check out the [Day
+**Note:** Check out the [Day
 8]({% link _days/day-8.md %})
 exercises. You will need the memoized version to get any reasonable
 performance.
@@ -145,7 +145,7 @@ This crossover is intended to model [homologous
 recombination](http://en.wikipedia.org/wiki/Homologous_recombination) of
 chromosomes that occurs during sexual reproduction.
 
-**Skills check:**  We are using the
+**Skills check:** We are using the
 [`tools.cxTwoPoints`](http://deap.readthedocs.org/en/master/api/tools.html#deap.tools.cxTwoPoint)
 function built into DEAP. Implement your own crossover function, and update
 the "mate" alias in `get_toolbox` to use your version.
@@ -217,9 +217,9 @@ your experimentation to GitHub and submit a pull request to get checked off.
 
 * [**Genetic Programming** ](http://deap.readthedocs.org/en/master/tutorials/advanced/gp.html) \- programs that evolve other programs. Challenge problem: write a program to take Software Design for you, kick back for the rest of the semester (as always, the challenge will be the fitness function)
 * **Evolve Artwork -** Someone has written a [genetic algorithm to evolve famous artwork](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/) using only 50 transparent polygons. Challenge problem: modify your [computational art project](/assignments/mini-project-2-computational-art) to evolve a given image using function composition.
-* **D is for [Distributed](http://deap.readthedocs.org/en/master/tutorials/basic/part4.html)**  \- If you have access to a cluster or multiprocessor system, try running a large scale evolutionary algorithm to solve a non-trivial problem.
+* **D is for [Distributed](http://deap.readthedocs.org/en/master/tutorials/basic/part4.html)** \- If you have access to a cluster or multiprocessor system, try running a large scale evolutionary algorithm to solve a non-trivial problem.
 
 ## Further reading
 
-* _Evolutionary Computation_ , by David Fogel, Thomas Bèack, and Zbigniew Michalewicz [[Olin College library ebook]](http://web.b.ebscohost.com/ehost/detail/detail?sid=3086a330-6951-4213-8e0b-b4ccc62f3035%40sessionmgr110&vid=1&hid=109&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=nlebk&AN=32720)
+* _Evolutionary Computation_, by David Fogel, Thomas Bèack, and Zbigniew Michalewicz [[Olin College library ebook]](http://web.b.ebscohost.com/ehost/detail/detail?sid=3086a330-6951-4213-8e0b-b4ccc62f3035%40sessionmgr110&vid=1&hid=109&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=nlebk&AN=32720)
 * [Rosetta Code](http://rosettacode.org/wiki/Evolutionary_algorithm) \- Evolving strings in every programming language you can think of

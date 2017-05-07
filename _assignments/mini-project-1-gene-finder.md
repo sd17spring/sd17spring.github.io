@@ -50,7 +50,7 @@ SoftDes is one of those courses where there is a wide range of prior-
 programming experience level among students. This class is designed to provide
 the best possible learning experience for all, therefore, if you are one of
 those folks that is on the higher end of this range, you will want to take
-advantage of the **Going Beyond**  extension for this assignment. This
+advantage of the **Going Beyond** extension for this assignment. This
 extension is not worth any extra points, but it will quite interesting (and
 isn't knowledge its own reward?!?). The extension is focused around exploring
 both computational and biological content.
@@ -84,7 +84,7 @@ These signals are highly conserved, are relatively easy to model, and have
 been the focus of a number of algorithms trying to locate all the protein-coding
 genes in a genome using only the sequence of one or more genomes.
 > \-- "Gene Prediction: compare and CONTRAST", Paul Flicek._ Genome Biology_
-2007, **8** :233.
+2007, **8**:233.
 
 One reason why this problem is so fundamental for the field, is that once one
 knows where the protein-coding genes are, one can begin to decode the form and
@@ -154,7 +154,7 @@ $ git remote add upstream https://github.com//{{site.data.course.github.owner_na
 $ ls *
 ```
 
-The `git remote`  line is needed in case you need to grab any changes to the
+The `git remote` line is needed in case you need to grab any changes to the
 `{{site.data.course.github.owner_name}}/GeneFinder.git` repository after your initial fork. The last
 command will show you all of the files in the `GeneFinder` repository. The
 next section explains the purpose of each of these files.
@@ -169,10 +169,10 @@ The last step of the previous section had you listing the contents of the
 `gene_finder` subdirectory of your SoftDes repo. Here is a description each of
 the files:
 
-* `gene_finder.py`  : this is where you will put your code for this assignment.
-* `amino_acids.py`  : some predefined variables that will help you write code to translate from DNA sequences to amino acid sequences.
-* `load.py`  : some utility functions for parsing and then loading the files in the data directory.
-* `data/X73525.fa`  : a [FASTA](http://en.wikipedia.org/wiki/FASTA) file containing part of the genetic code of the Salmonella bacterium. As discussed in lecture, this part of the genetic code is responsible from some aspects of Salmonella pathogenesis.
+* `gene_finder.py`: this is where you will put your code for this assignment.
+* `amino_acids.py`: some predefined variables that will help you write code to translate from DNA sequences to amino acid sequences.
+* `load.py`: some utility functions for parsing and then loading the files in the data directory.
+* `data/X73525.fa`: a [FASTA](http://en.wikipedia.org/wiki/FASTA) file containing part of the genetic code of the Salmonella bacterium. As discussed in lecture, this part of the genetic code is responsible from some aspects of Salmonella pathogenesis.
 * `data/3300000497...`, `data/nitrogenase..`. :genetic for the metagenome Going Beyond extension
 
 The first thing to do is to use the Atom text editor to open up `gene_finder.py`.
@@ -207,7 +207,7 @@ We could start by trying to implement any particular box in this diagram. Howeve
 
 For the first part of the assignment you will be creating some utility
 functions that will help you build your gene finder. Open up
-`gene_finder.py`  and fill in your own implementations of the functions
+`gene_finder.py` and fill in your own implementations of the functions
 described below.
 
 ### Unit Testing Instruction
@@ -238,7 +238,7 @@ For this part of the assignment you will write code that takes a DNA sequence
 and returns a list of all open reading frames in that sequence. Recall that an
 open reading frame is a sequence of DNA that starts with the start codon (ATG)
 and extends up to (but not including) the first in frame stop codon (TAG, TAA,
-or TGA). Open up `gene_finder.py`  and fill in your own implementation of the
+or TGA). Open up `gene_finder.py` and fill in your own implementation of the
 functions described below:
 
 * `get_complement`: this function should take a nucleotide as input and return the complementary nucleotide.
@@ -293,7 +293,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
     --+++---+++-
 
 As in above, don't include ORFs that are nested within other ORFs. Your
-function should heavily utilize `find_all_ORFs_oneframe` .
+function should heavily utilize `find_all_ORFs_oneframe`.
 
 A unit test (make sure you have read the [Unit Testing Instructions](#unit-testing-instruction)):
 
@@ -302,7 +302,7 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 ['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 ```
 
-* `find_all_ORFs_both_strands`: this should do exactly the same thing as `find_all_ORFs`  except it should find ORFs on both the original DNA sequence and its reverse complement.
+* `find_all_ORFs_both_strands`: this should do exactly the same thing as `find_all_ORFs` except it should find ORFs on both the original DNA sequence and its reverse complement.
 
 A unit test (have you read the [Unit Testing Instructions](#unit-testing-instruction)?) ;-)
 
@@ -347,21 +347,21 @@ A unit test (make sure you have read the [Unit Testing Instructions](#unit-testi
 'ATGCTACATTCGCAT'
 ```
 
-* `longest_ORF_noncoding` : this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length**  of the longest ORF that was found across all random trials (that is the output of `longest_ORF_noncoding` is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
+* `longest_ORF_noncoding`: this function takes as input a DNA sequence and an integer indicating how many random trials should be performed. For each random trial, the DNA sequence should be shuffled and the longest ORF should be computed. The output of the function should be **the length** of the longest ORF that was found across all random trials (that is the output of `longest_ORF_noncoding` is an integer). In order to test this code you may find it useful to use the provided Salmonella DNA sequence (see part 4). For example, if you find a longest ORF of 700, 600, and 300 on your three random trials, this function should output 700.
 
 Note 1: In order to randomly shuffle a string you should use the provided
-`shuffle_string`  function. If you wanted to implement this function
+`shuffle_string` function. If you wanted to implement this function
 yourself, you could take the following approach: First convert the string to a
-list using the `list`  function. Once you have a list, you can shuffle the
-list using the built-in python function `list.shuffle` . To reassemble the
-shuffled list back to a string you can use string `join`  function.
+list using the `list` function. Once you have a list, you can shuffle the
+list using the built-in python function `list.shuffle`. To reassemble the
+shuffled list back to a string you can use string `join` function.
 
 Note 2: We are not going to create unit tests for this function. Why not? Can
 you think of a different method of unit testing that would be appropriate for
 this function? Are there any other methods you might use to build confidence
 that your implementation is correct? (These are rhetorical questions.)
 
-* `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in `amino_acids.py` or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
+* `coding_strand_to_AA`: this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in `amino_acids.py` or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
 
 You can convert a three nucleotide string (also called a triplet codon) into
 the appropriate amino acid in the following manner.
@@ -388,7 +388,7 @@ Some unit tests (make sure you have read the [Unit Testing Instructions](#unit-t
 'MPA
 ```
 
-* `gene_finder`  : this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding`  on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding`  for 1500 trials. For instance, the first line of your `gene_finder` function might be:
+* `gene_finder`: this function takes as input a sequence of DNA. First, use your `longest_ORF_noncoding` on the input DNA sequence to compute a conservative threshold for distinguishing between genes and non-genes by running `longest_ORF_noncoding` for 1500 trials. For instance, the first line of your `gene_finder` function might be:
 
 ```python
 threshold = longest_ORF_noncoding(dna, 1500)
@@ -396,14 +396,14 @@ threshold = longest_ORF_noncoding(dna, 1500)
 
 Next, find all open reading frames on both strands, and then return a list
 containing the amino acid sequence encoded by any open reading frames that are
-longer than the threshold computed above using `longest_ORF_noncoding` .
+longer than the threshold computed above using `longest_ORF_noncoding`.
 
 To tie it all together you will actually be applying the `gene_finder` program
 that you wrote to some real DNA! It is this type of computational sleuthing
 that has helped unlock many secrets. The first step is to get some DNA to
 analyze. Included in the `data` folder is a FASTA file containing a sequence
 of DNA from Salmonella Enterica believed to be related its pathogenesis. To
-load the sequence as a FASTA file, use the provided `load_seq`  function.
+load the sequence as a FASTA file, use the provided `load_seq` function.
 
 ```python
 >>> from load import load_seq
@@ -437,7 +437,7 @@ your pull requests. Instead, we use them as:
 2. A mechanism for us to provide written feedback on your code
 
 For the main assignment, all your code will be in `gene_finder.py`. If you
-choose to do the **Going Beyond**  portion, it is up to you how you structure
+choose to do the **Going Beyond** portion, it is up to you how you structure
 your code for that portion.
 
 ## Going Beyond

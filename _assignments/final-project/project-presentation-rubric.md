@@ -56,7 +56,7 @@ Communicate the status of your project including:
 * current work
 * future work /reach goals
 
-**Professionalism**  (25%)
+**Professionalism** (25%)
 
 Communicate with your audience in a professional manner. Since this is not a
 super-formal presentation, jokes and fun are certainly fair game, however,

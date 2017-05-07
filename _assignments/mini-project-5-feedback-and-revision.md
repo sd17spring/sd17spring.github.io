@@ -46,7 +46,7 @@ In most cases, doing a "going beyond" on a toolbox you submitted can satisfy thi
 If you would like to do a toolbox that you did not do as part of your 5 required toolboxes,
 send a note to the teaching team to explain why doing a new toolbox will serve you the best for MP5.
 
-_[Optional]_  If you'd like some feedback on your proposed technical
+_[Optional]_ If you'd like some feedback on your proposed technical
 improvement or help coming up with one, send a short (1-2 sentences is OK)
 proposal to the instructors via Piazza
 

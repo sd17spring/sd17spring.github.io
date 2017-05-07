@@ -7,8 +7,8 @@ permalink: resources/python-style
 Program Python like a pro! Code in the right-hand column better to employers
 and other places you might send your code. It also helps avoid some common
 pitfalls. Finally, most of the code you see will use the patterns in the
-right-column; practice _writing_  code this way will help you understand code
-that you _read_ , when you work on a team or with code from cookbooks and other
+right-column; practice _writing_ code this way will help you understand code
+that you _read_, when you work on a team or with code from cookbooks and other
 projects.
 
 | **Anti-Patterns** | **Patterns**

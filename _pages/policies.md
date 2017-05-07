@@ -71,7 +71,7 @@ such as project proposals). The one exception to this rule is that if you are
 5 days late with an assignment (so you would receive a 0% without late penalty
 forgiveness), you will still receive a 0% on that assignment.
 
-_Example 1:_  All mini-projects are on time except mini-project 1 which was 2
+_Example 1:_ All mini-projects are on time except mini-project 1 which was 2
 days late and mini-project 2 which was 3 days late. When we calculate your
 final grade the fact that you were 3 days late on mini-project 2 will be
 disregarded.

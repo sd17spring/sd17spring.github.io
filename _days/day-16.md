@@ -25,7 +25,7 @@ At your table, discuss the following questions:
 ## Practice with Order of Growth
 
 Suppose we are given two python functions `do_procedure_f1` and
-`do_procedure_f2`. Each function processes a list `L`  in some fashion
+`do_procedure_f2`. Each function processes a list `L` in some fashion
 (what these programs do is unimportant for this exercise). We are told that
 the order of growth of these procedures is:
 

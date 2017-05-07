@@ -63,9 +63,9 @@ Final Event period for this class,  with EXPO style demo / poster session.
 
 ### Team Formation Advice
 
-* Try to **work with people because you share a common interest**  rather than simply working with your friends (we will do a structured activity to help with this aspect of team formation).
-* **Work with people that want to devote similar amounts of time to the project.**  For instance, if you want to devote your life to making the best most awesomest SoftDes project EVAR, you should probably work with other people that share your ambition!
-* **Work with people that envision a similar style of work on the project.**  For instance, if you really want to pair-program the entire project, but your teammates prefer to divvy up the work and work independently, that is probably not a good situation.
+* Try to **work with people because you share a common interest** rather than simply working with your friends (we will do a structured activity to help with this aspect of team formation).
+* **Work with people that want to devote similar amounts of time to the project.** For instance, if you want to devote your life to making the best most awesomest SoftDes project EVAR, you should probably work with other people that share your ambition!
+* **Work with people that envision a similar style of work on the project.** For instance, if you really want to pair-program the entire project, but your teammates prefer to divvy up the work and work independently, that is probably not a good situation.
 
 ## Project Activities / Deliverables
 
@@ -77,13 +77,13 @@ _Due {{site.data.dates.final_proposal | date: '%A, %B %-d' }}_
 
 By 11:59 PM on the due date above, one member of your team should have submitted a response to the Project Proposal Questionnaire. When you go the link, be prepared to type up responses to the prompts below. More detailed answers give us an ability to give you better feedback to start the project (or revise your proposal). [Project Proposal Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSf-q_NToMi2VXNSzsH-NsI47HrFt85BtHZJLm-PYkrRMPc0mA/viewform).
 
-1. **The Big Idea:**  What is the main idea of your project? What topics will you explore and what will you generate? What is your **minimum viable product** ? What is a **stretch goal** ?
+1. **The Big Idea:** What is the main idea of your project? What topics will you explore and what will you generate? What is your **minimum viable product**? What is a **stretch goal**?
 2. **Learning Goals:** What are your individual learning goals for this project?
-3. **Implementation Plan:** This will probably be pretty vague initially. Perhaps at this early juncture you will have identified a library or a framework that you think will be useful for your project**.**  If you don't have any idea how you will implement your project, provide a rough plan for how you will determine this information.
+3. **Implementation Plan:** This will probably be pretty vague initially. Perhaps at this early juncture you will have identified a library or a framework that you think will be useful for your project. If you don't have any idea how you will implement your project, provide a rough plan for how you will determine this information.
 4. **Project schedule:** You have 6 weeks (roughly) to finish the project. Sketch out a rough schedule for completing the project. Depending on your project, you may be able to do this in great specificity or you may only be able to give a broad outline. Additionally, longer projects come with increased uncertainty, and this schedule will likely need to be refined along the way.
 5. **Collaboration plan:** How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. [agile development](http://en.wikipedia.org/wiki/Agile_software_development)). Make sure to make clear why you are choosing this particular organizational structure.
 6. **Risks:** What do you view as the biggest risks to the success of this project?
-7. **Additional Course Content:**  What are some topics that we might cover in class that you think would be especially helpful for your project?
+7. **Additional Course Content:** What are some topics that we might cover in class that you think would be especially helpful for your project?
 
 The teaching team will either approve you to post your proposal to your project's GitHub repo and begin working or ask you to make revisions to your questionnaire response.
 

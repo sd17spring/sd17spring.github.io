@@ -11,7 +11,7 @@ Model-View-Controller is what is known as a [software design
 pattern](https://en.wikipedia.org/wiki/Software_design_pattern).
 
 > In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a **[design
-pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern")**  is
+pattern](https://en.wikipedia.org/wiki/Design_pattern "Design pattern")** is
 a general reusable solution to a commonly occurring problem within a given
 context in [software design](https://en.wikipedia.org/wiki/Software_design). A design pattern is not a finished design that can be
 transformed directly into [source](https://en.wikipedia.org/wiki/Source_code) or [machine](https://en.wikipedia.org/wiki/Machine_code) code. It is a description or template for how to solve a

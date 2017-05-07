@@ -37,17 +37,17 @@ time.
 
 You should identify concrete things that you want to get from your audience
 and make sure you structure your review to elicit the information that you are
-looking for. Your technical review should **always**  start with a discussion
+looking for. Your technical review should **always** start with a discussion
 of what you hope to get out of it.
 
 There are many potential structures you can use for a review, and you should
 feel free to choose whichever structure makes the most sense for your team and
 where you are in the project. Some examples:
 
-* **Collaborative ideation** : get some post-its and Sharpies and do an ideation activity with the other teams (note: if you need supplies for your technical review, it is your responsibility to let us know in advance so that we can help you get what you need.)
-* **Technical discussion** : bring some particularly difficult technical problem to the technical review (_e.g._  choosing the right algorithm to solve some problem). Discuss potential solutions and pros and cons. Ask the other teams which solution sounds best and if there are other potential solutions that you should consider.
-* **Prototype feedback** : have the other teams use a prototype of your software (make sure to bring a few laptops with the software ready to go) and give you feedback on your interface and features.
-* **Software architecture discussion** : discuss some aspect of your software architecture (_e.g._  how you are structuring the various classes that make up your program). Present a particularly difficult aspect of your software architecture, and ask the other teams if they have any advice/feedback.
+* **Collaborative ideation**: get some post-its and Sharpies and do an ideation activity with the other teams (note: if you need supplies for your technical review, it is your responsibility to let us know in advance so that we can help you get what you need.)
+* **Technical discussion**: bring some particularly difficult technical problem to the technical review (_e.g._ choosing the right algorithm to solve some problem). Discuss potential solutions and pros and cons. Ask the other teams which solution sounds best and if there are other potential solutions that you should consider.
+* **Prototype feedback**: have the other teams use a prototype of your software (make sure to bring a few laptops with the software ready to go) and give you feedback on your interface and features.
+* **Software architecture discussion**: discuss some aspect of your software architecture (_e.g._ how you are structuring the various classes that make up your program). Present a particularly difficult aspect of your software architecture, and ask the other teams if they have any advice/feedback.
 * Combination of the above, or something else entirely
 
 Your Preparation and Framing document should have (at least) the following
@@ -89,7 +89,7 @@ you are expected to contribute fully to each.
 
 ### Being a good audience member
 
-* Focus your feedback on what the presenters ask for (_i.e._  if they want feedback on their software architecture, don't tell them you don't like the feature set they are implementing).
+* Focus your feedback on what the presenters ask for (_i.e._ if they want feedback on their software architecture, don't tell them you don't like the feature set they are implementing).
 * Be respectful and constructive in your feedback.
 * Don't be playing on your laptop or phone during the technical review. Focus all attention on the presenters.
 
