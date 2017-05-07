@@ -13,7 +13,7 @@ main:
   - title: Policies
     url: /policies/
   - title: Git Help
-    url: /git-help/
+    url: /resources/git/
 
 docs:
   - title: Final Project
