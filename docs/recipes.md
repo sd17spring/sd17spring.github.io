@@ -1,3 +1,11 @@
+## Spell-check
+
+Install hunspell. On macOS with Homebrew: `brew install hunspell`.
+
+```bash
+$ mdspell --en-us -n -x **/*.md
+```
+
 ## Find hard-coded dates
 
 Install [ripgrep](https://github.com/BurntSushi/ripgrep).
