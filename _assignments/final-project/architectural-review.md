@@ -9,8 +9,8 @@ parent: final-project
 
 ## Overview
 
-During the course of the final project, your team will complete an Arcitectural
-peer review. This review will focus on high-level design decisions, and will give your team
+During the course of the final project, your team will complete an Architectural
+Peer Review. This review will focus on high-level design decisions, and will give your team
 opportunity to present ideas of how the architecture of the code will be.
 
 **What it is**
@@ -44,7 +44,7 @@ There are many potential structures you can use for a review, and you should
 feel free to choose whichever structure makes the most sense for your team and
 where you are in the project. Some examples:
 
-* **Collaborative ideation** : get some post-its and sharpies and do an ideation activity with the other teams (note: if you need supplies for your technical review, it is your responsibility to let us know in advance so that we can help you get what you need.)
+* **Collaborative ideation** : get some post-its and Sharpies and do an ideation activity with the other teams (note: if you need supplies for your technical review, it is your responsibility to let us know in advance so that we can help you get what you need.)
 * **Technical discussion** : bring some particularly difficult technical problem to the technical review (_e.g._  choosing the right algorithm to solve some problem). Discuss potential solutions and pros and cons. Ask the other teams which solution sounds best and if there are other potential solutions that you should consider.
 * **Prototype feedback** : have the other teams use a prototype of your software (make sure to bring a few laptops with the software ready to go) and give you feedback on your interface and features.
 * **Software architecture discussion** : discuss some aspect of your software architecture (_e.g._  how you are structuring the various classes that make up your program). Present a particularly difficult aspect of your software architecture, and ask the other teams if they have any advice/feedback.

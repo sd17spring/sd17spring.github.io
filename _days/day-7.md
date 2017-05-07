@@ -140,7 +140,7 @@ Other important Turtle methods include `xcor()` and `ycor)=()` position, and
 Read more about turtles [here](https://docs.python.org/3.5/library/turtle.html).
 
 Since Turtles are simple creatures, mainly defined by their current position
-and heading, we can "clone" them by reading these vaues and using them to
+and heading, we can "clone" them by reading these values and using them to
 direct a new Turtle.
 
 ```python

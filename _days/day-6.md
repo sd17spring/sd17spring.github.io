@@ -17,11 +17,11 @@ description: Turtles and Toolboxes
 
 ## Turtle Tales
 
-As part of your work in the reading journals, you have now had opportunities to tell a graphical turtle named Bob to move around in a graphical window. To understand where TurtleWorld() drew its inspiration, see [the turtle's ancestry](http://el.media.mit.edu/logo-foundation/what_is_logo/logo_primer.html).
+As part of your work in the reading journals, you have now had opportunities to tell a graphical turtle named Bob to move around in a graphical window. To understand where TurtleWorld drew its inspiration, see [the turtle's ancestry](http://el.media.mit.edu/logo-foundation/what_is_logo/logo_primer.html).
 
 One of the reasons that you are beginning to work with turtles is because they have been helpful for visualizing recursion (which is a topic we will cover in the next class session).
 
-See this example of turtle-flavored recursion used in one of the interactivepython.org lessons:
+See this example of turtle-flavored recursion used in one of the [Interactive Python](http://interactivepython.org/runestone/default/user/login?_next=/runestone/default/index) lessons:
 
 ```python
 import turtle

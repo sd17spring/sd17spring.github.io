@@ -41,10 +41,10 @@ of these resources:
 * [Think Python Chapter 14](http://greenteapress.com/thinkpython2/html/thinkpython2015.html)
 * [The Python wiki](https://wiki.python.org/moin/UsingPickle)
 
-## Implement the function update_counter
+## Implement the function `update_counter`
 
-The basic idea is to open the counter file in **rb+**  (reading plus) mode if it
-exists and you are not resetting the counter, and in **wb**  (writing) mode
+The basic idea is to open the counter file in `rb+` (reading plus) mode if it
+exists and you are not resetting the counter, and in `wb` (writing) mode
 otherwise. Once the file is open you can either initialize the counter to 0
 (if appropriate) or read the counter value (using `load`) and then increment
 it. To finish your implementation, use the `dump` function to store the

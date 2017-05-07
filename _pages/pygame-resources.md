@@ -15,7 +15,6 @@ slack.
 ```python
 import pygame
 
-
 if __name__ == "__main__":
     pygame.init()
     screen = pygame.display.set_mode((800, 600)) # window size, as a tuple
@@ -104,7 +103,7 @@ for event in pygame.event.get():
         * 4: scroll up
         * 5: scroll down
 * There are lots of other pygame events, but they won't be used as much
-    (especially in sofdes).
+    (especially in SofDes).
 * [Official Pygame event documentation](https://www.pygame.org/docs/ref/event.html)
 * [Pygame's official input handling tutorial](http://pygame.org/ftp/contrib/input.html)
 
@@ -194,4 +193,4 @@ screen.blit(label, (x, y))
 * To see the list of fonts available to you, you can run
     `print(pygame.font.get_fonts())`.
 * You can also download a font as a file, and then use that by saying
-    `font = pygame.font.Font(filename, size)` where `size` is the fontsize
+    `font = pygame.font.Font(filename, size)` where `size` is the font size

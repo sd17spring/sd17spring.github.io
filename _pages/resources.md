@@ -57,22 +57,22 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 #### Data Processing and Scientific Computing
 
 * [Pandas](http://pandas.pydata.org) tables (like Excel) as a data type
-* [Numpy](http://www.numpy.org) scientific computing (including arrays)
+* [NumPy](http://www.numpy.org) scientific computing (including arrays)
 * [OpenCV-Python](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) image processing and computer vision
 * [Pillow](http://python-pillow.org) image processing
 * [scikit-learn](http://scikit-learn.org/stable/) machine learning
 
 #### Graphics and Interactivity
 
-* [Pygame](http://www.pygame.org/hifi.html) realtime image display
-    * [Pygame cheatsheet]({% link _pages/pygame-resources.md %}), written by sofdes ninjas
+* [Pygame](http://www.pygame.org/hifi.html) real-time image display
+    * [Pygame cheat sheet]({% link _pages/pygame-resources.md %}), written by sofdes ninjas
 * [Matplotlib](http://matplotlib.org) graphing and plotting ([Jupiter tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)). Also see [Bokeh](http://bokeh.pydata.org/en/latest/) and [Seaboard](http://stanford.edu/~mwaskom/software/seaborn/).
 * [Seaborn](http://seaborn.pydata.org) improves the appearance of Matplotlib graphs and adds additional features
 * [Kivy](https://kivy.org/) for user interfaces
 
 #### HTML and the Web
 
-* [Flask](http://flask.pocoo.org) web applications (sofware that runs on a server and serves HTML pages to browsers)
+* [Flask](http://flask.pocoo.org) web applications (software that runs on a server and serves HTML pages to browsers)
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) parses HTML pages
 * [Requests](http://docs.python-requests.org/en/latest/) retrieves HTML pages
 

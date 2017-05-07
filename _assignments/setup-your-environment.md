@@ -63,7 +63,7 @@ The preferred method for installation is to use one of the
 provided SoftDes thumb drives. These thumb drives have been pre-loaded with a
 bootable installer for Ubuntu 16.04.1. In order to go forward with the
 installation you need to insert the thumb drive, reboot your computer, and
-hold the F12 key before your computer starts to load Windows. You will now be
+hold the <kbd>F12</kbd> key before your computer starts to load Windows. You will now be
 at your computer's BIOS menu. Use the arrow keys to select boot from "USB
 Storage Device". If everything has gone properly, the Ubuntu installer will
 start. You may find IT's [instructions](http://wikis.olin.edu/linux/doku.php)
@@ -112,10 +112,10 @@ $ sudo apt-get install -y python3 python3-pip python3-tk python3-dev
 
 Note, that the preceding command installs these key pieces of software:
 
-* **Git** is the version control system we will use this semester.
-* **python3-pip** is a Python package installer.
-* **python3-tk** is a GUI toolkit for Python.
-* **python-pip** and **python-tk** are the package installers and GUI for Python 2.
+* `git` is the version control system we will use this semester.
+* `python3-pip` is a Python package installer.
+* `python3-tk` is a GUI toolkit for Python.
+* `python-pip` and `python-tk` are the package installers and GUI for Python 2.
 We won't be coding in Python 2 in this course, but we may use it to run student projects
 from previous years.
 
@@ -265,7 +265,7 @@ look at your GitHub repositories.
 > It is probably a good idea to think of everything you do on GitHub as part
 of your public professional reputation.
 
-### Find and Fork the ReadingJournal Repo
+### Find and Fork the `ReadingJournal` Repo
 
 We will be using GitHub for a number of use cases in the class.
 

@@ -24,7 +24,7 @@ audiences.
 
 _Due: end of day {{site.data.dates.final_website | date: '%A, %B %-d' }}_
 
-_Final revision, incorporates instructor feedback, due_: end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
+_Final revision, incorporates instructor feedback, due: end of day {{site.data.dates.final_website_feedback_addressed | date: '%A, %B %-d' }}_
 
 [Guidelines]({% link _assignments/final-project.md %}#project-website)
 

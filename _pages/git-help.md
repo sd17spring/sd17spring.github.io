@@ -59,7 +59,7 @@ of the files in your folder and put a message on them, all in one command!
 
 If you forget to include `-m` in your commit, git will open a text-editor called
 vim so that you can enter a commit message there. To write your commit message
-in vim, first press “i”, then write your message, then type “:wq” for write-
+in vim, first press “i”, then write your message, then type <kbd>:wq</kbd> for write-
 quit. Alternatively, if you just want to escape from vim's interface without
 saving a message, just enter “:q” for quit.
 
@@ -123,7 +123,7 @@ If this doesn't work, try:
 ## What is branching on Git?
 
 Branches on Git are very similar to branches on trees. The tree trunk is
-represented as the 'master' branch and the branches that come off of the
+represented as the `master` branch and the branches that come off of the
 master branch you can name whatever you want. These branches will start at
 whatever state master was at the time you made the branch. The master branch
 can continue changing independently of the branch that you created. You can
@@ -173,7 +173,7 @@ your code like the following:
     >>>>>>><my-branch-name>
 
 The `sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)` line is what
-is represented on the 'master' branch and`sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the '<my-branch-name>' branch. You'll have to pick one of them and then delete the rest of
+is represented on the `master` branch and `sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the '<my-branch-name>' branch. You'll have to pick one of them and then delete the rest of
 the information. So if I want `sarah_strohkorb = pick_the_coolest_ninja()`,
 I'll rearrange the code to get the following:
 
@@ -181,10 +181,10 @@ I'll rearrange the code to get the following:
 
 ## How to merge one branch into another
 
-Let's say that you've been working on a branch called 'dev' and you have also
-been modifying the 'master' branch. You want to merge your changes in the
-'master' branch into the 'dev' branch, so that your 'dev' branch is up to
-date. What you want to do is first get into the 'dev' branch, then:
+Let's say that you've been working on a branch called `dev` and you have also
+been modifying the `master` branch. You want to merge your changes in the
+`master` branch into the `dev` branch, so that your `dev` branch is up to
+date. What you want to do is first get into the `dev` branch, then:
 
 ```bash
 $ git fetch origin

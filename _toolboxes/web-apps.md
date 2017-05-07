@@ -17,7 +17,7 @@ pages with a small amount of dynamic content. While Flask can be used for
 building complex, database-driven websites, starting with mostly static pages
 will be useful to introduce a workflow, which you can then generalize to make
 more complex pages in the future. Upon completion, you'll be able to use this
-sequence of steps to jumpstart your next Flask app.
+sequence of steps to jump-start your next Flask app.
 
 ## Get Set
 
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 ```
 
 Write this, save it as something like `hello.py`, and run it in terminal. Make
-sure to not call your application flask.py because this would conflict with
+sure to not call your application `flask.py` because this would conflict with
 Flask itself.
 
     $ python3 hello.py
@@ -171,7 +171,7 @@ And here is an example template that will work with the above snippet:
 You may have noticed something really cool that happened here. In our route
 `/hello/<name>`, we're allowing someone to make a request with an additional
 'name' parameter that can be anything. We can then use this `name` and render
-it in our html template `hello.html`. We use the `{___}` syntax to insert
+it in our HTML template `hello.html`. We use the `{___}` syntax to insert
 outside variables into the template. Additionally, we can insert pythonic flow
 logic directly into our HTML page – see `{% raw %}{% if name %}{% endraw %}`. We could go on for
 years about all of the power of jinja templating, but I'll leave that joy to
@@ -210,7 +210,7 @@ Let's set up a simple app. Here are our end specifications:
 1. Upon visiting the index page at <http://127.0.0.1:5000/>, the user will be greeted by a page that says hello, and includes an input form that requests their name, age, and favorite SoftDes Ninja.
 2. Upon clicking the 'Submit' button, the data from the form will be sent via a POST request to the Flask backend at the route `POST /login`.
 3. The Flask backend will handle the request to `POST /login` and perform some simple validation on the user input - simply check to see if they exist.
-4. If all the information is present, the app will render a 'profile' page for the user - presenting their name and age. Regardless of their input for final question, and regardless of whether Patrick is a SotDes Ninja, the app will display `Patrick Huston`
+4. If all the information is present, the app will render a 'profile' page for the user - presenting their name and age. Regardless of their input for final question, and regardless of whether Patrick is a SofDes Ninja, the app will display `Patrick Huston`
 5. If all the information is not present, the app will render a simple error page, which will include some indication that they didn't include all the required information, in addition to a button that will redirect the user back to the home page.
 
 It will be up to you to make this happen. If you feel confident in your
@@ -238,7 +238,7 @@ pull request to get checked off.
 ## Going further
 
 1. **Learn more about [Django](https://www.djangoproject.com/)** – an alternative to Flask. They don't have many major differences other than some small quirks in conventions and style. See [here](https://wakatime.com/blog/25-pirates-use-flask-the-navy-uses-django) for more analysis.
-2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Language](https://www.codecademy.com/learn/learn-sql) to manipulate stored data, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDb, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intellengently in a relational table can be much more effective and less of a headache later on.
+2. **Want to keep track of some data in your web app?**  Instead of using a .txt file or a pickle file, it's common practice in nearly any web app to use a database. A few especially well-known database choices are MySql, SQLite, or PostgreSQL (which all use [Structured Query Language](https://www.codecademy.com/learn/learn-sql) to manipulate stored data, as do many other common [relational databases](https://en.wikipedia.org/wiki/Relational_database)) You also may have heard some buzz about MongoDB, which uses an unstructured data format in`documents` similar to JSON. Mongo is stupidly easy to set up and use, but I'd stop and think first before jumping right in. It may be the easy choice, but representing your data intelligently in a relational table can be much more effective and less of a headache later on.
 3. **But HTML is so ugly!**  HTML alone *is*  very ugly. That's why we use CSS (Cascading Style Sheets) to add some extra flair and style to our HTML. You can change pretty much anything about HTML - colors, shapes, sizes, placement, etc. with CSS rules. It's also pretty simple to write. Check [this resource](http://www.w3schools.com/css/css_intro.asp) out to learn more about CSS.
 4. **What about making my website dynamic?**  SoftDes may be a class in Python, but we can venture out a little and use some [jQuery](http://www.w3schools.com/jquery/jquery_intro.asp). jQuery might seem scary, but you use it in a way similar to adding/linking CSS styling to your HTML. You write scripts in JavaScript (which isn't too difficult), which can allow you to add beautiful responsive and dynamic content to your web app.
 5. You can also use [D3](https://d3js.org) to display graphical dat in a web page.

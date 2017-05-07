@@ -88,7 +88,7 @@ known as the testing set, will be used to evaluate our classifier on data that
 it has not been trained on. The reason we need these two sets, is that
 evaluating the performance of the classifier on the data it was trained on may
 be misleadingly high (since the classifier may be overfitting to the
-idiosyncracies of that training set). Here is some code for splitting the data
+idiosyncrasies of that training set). Here is some code for splitting the data
 into two sets, training on one, testing on the other, and then reporting the
 classification accuracy on the testing set.
 
@@ -135,7 +135,7 @@ notify your friendly neighborhood NINJA to take a look.
 ## Further Explorations
 
 If you want to explore more of the features of **scikit-learn**  and of machine
-learning in general. I recommend you take a look at this [ipython
+learning in general. I recommend you take a look at this [Jupyter
 notebook](https://github.com/paulruvolo/DataScienceMaterials/tree/master/machine_learning_lecture_2).
 If you are still interested, please contact the teaching team... we will be
 happy to give more pointers.

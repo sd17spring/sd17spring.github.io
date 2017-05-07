@@ -16,7 +16,7 @@ in a smooth, engaging, and professional manner. Here are some bullet points to
 keep in mind:
 
 * You will have ~7 minutes to present and ~1.5 minutes to answer a quick question or two per presentation.
-* Everyone will be presenting from one laptop (one set up in AC326, and one set up in AC328) the same laptop. You should upload your slides to the [shared Google Drive folder]({{ site.data.course.urls.final_project_shared_folder }}) beforehand. Acceptable formats are Powerpoint, PDF, and Google presentation.
+* Everyone will be presenting from one laptop (one set up in AC326, and one set up in AC328) the same laptop. You should upload your slides to the [shared Google Drive folder]({{ site.data.course.urls.final_project_shared_folder }}) beforehand. Acceptable formats are PowerPoint, PDF, and Google presentation.
 * As a consequence of the previous point, no live demos! As an alternative, we suggest using a screen capture program (such as [this](http://www.maartenbaert.be/simplescreenrecorder/) one) to highlight what your software can do so far. You should then upload your screen capture to YouTube so that it can be shown during your presentation.
 * Not everyone knows about your project! Your presentation should provide motivation and context for your project.
 * If you are using algorithms, libraries, or technologies that were not explicitly taught as part of the class, make sure to properly explain them. Given the duration of the presentation, you might have to gloss over some details (this is okay!). Be strategic about how deeply you explain various aspects of your system.

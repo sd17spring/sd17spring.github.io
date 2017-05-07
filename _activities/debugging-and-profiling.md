@@ -67,19 +67,21 @@ Let's debug this one together.
 
 Some important commands for pdb:
 
-* c - continue until next set_trace or breakpoint
-* n - next line in current function
-* s - step until first opportunity to stop (either in current function or a called function)
-* l - source code listing
-* a - arguments of function
-* d - down a level in the stack diagram
-* u - up a level in the stack diagram
-* p - print the value of an expression
-* w - where are you in the stack
+* <kbd>c</kbd> - continue until next `set_trace` or breakpoint
+* <kbd>n</kbd> - next line in current function
+* <kbd>s</kbd> - step until first opportunity to stop (either in current function or a called function)
+* <kbd>l</kbd> - source code listing
+* <kbd>a</kbd> - arguments of function
+* <kbd>d</kbd> - down a level in the stack diagram
+* <kbd>u</kbd> - up a level in the stack diagram
+* <kbd>p</kbd> - print the value of an expression
+* <kbd>w</kbd> - where are you in the stack
 
 For more practice, pull the latest changes from the `ClassNotes` repo.
 
-`git pull upstream master`
+```bash
+$ git pull upstream master
+```
 
 Navigate to the directory `ClassNotes/pdb_practice` and try to use the
 Python debugger to debug each of the four Python programs. The goal is not
@@ -87,17 +89,17 @@ only to find the bugs (you can probably do that without the debugger), but
 instead to practice using the debugger as one of the debugging tools in your
 arsenal.
 
-### WinPDB
+### Winpdb
 
-WinPDB is an advanced Python debugger. One nice thing that it has is a
+Winpdb is an advanced Python debugger. One nice thing that it has is a
 graphical user-interface that makes the process of debugging more scaffolded.
-You can install winpdb by running: `sudo apt-get install winpdb`
+You can install Winpdb by running: `sudo apt-get install winpdb`
 
 Alternate installation from source: First, download the source
-[here](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/winpdb/winpdb-1.4.8.tar.gz). Next, extract it, cd
+[here](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/winpdb/winpdb-1.4.8.tar.gz). Next, extract it, `cd`
 to the extracted folder, and run `sudo python setup.py install -f`.
 
-Once you have installed winpdb, try it out by running the following command:
+Once you have installed Winpdb, try it out by running the following command:
 
 `$ winpdb ~/ClassNotes/pdb_practice/debugging_exercise_1.py`
 
@@ -127,7 +129,7 @@ before and after a function call as we did in the [Day 17](/in-class-exercises/d
 
 3) You may have noticed some variability in your results on the Day 17
 exercises. To run many experimental trials of a small snippet of code, you can
-use the [Python timeit module](https://docs.python.org/3/library/timeit.html).
+use the [Python `timeit` module](https://docs.python.org/3/library/timeit.html).
 `timeit` takes a string representing the code you want to time and runs it
 repeatedly to get an average result.
 

@@ -130,7 +130,7 @@ if you want to get around the download restriction.
 
 ### Data Source: Wikipedia
 
-I recommend the [wikipedia package](https://pypi.python.org/pypi/wikipedia/):
+I recommend the [`wikipedia` package](https://pypi.python.org/pypi/wikipedia/):
 
     $ sudo pip3 install wikipedia
 
@@ -169,7 +169,7 @@ the documentation follow:
 Create a Twitter application [here](https://apps.twitter.com/app/new).
 
 Use your GitHub repository URL as the Website. For example, I would use
-`https://github.com/osteele/TextMining`. Leave the Callback Url blank.
+`https://github.com/osteele/TextMining`. Leave the Callback URL blank.
 
 Copy the Consumer Key (API Key) and Consumer Secret (API Secret).
 You will need these below.
@@ -207,7 +207,7 @@ See the [package wiki](https://github.com/bear/python-twitter/wiki) for more exa
 ### Data Source: Reddit
 
 At the terminal command line, install the Python
-[PRAW](https://pypi.python.org/pypi/praw) package:
+[`PRAW`](https://pypi.python.org/pypi/praw) package:
 
 ```bash
 $ sudo pip3 install praw
@@ -233,7 +233,7 @@ with it.
 ### Data Source: HTML Pages
 
 Much data on the web is in the form of HTML, which is a mixture of human-language text,
-and HTML markdup such as `<div>` and `<p>`. You can use the Beautiful Soup package to extract
+and HTML markup such as `<div>` and `<p>`. You can use the Beautiful Soup package to extract
 the text from an HTML page.
 
 `$ sudo pip3 install beautifulsoup4`
@@ -324,9 +324,9 @@ This program will print out:
 {'compound': 0.5093, 'neg': 0.0, 'neu': 0.603, 'pos': 0.397}
 ```
 
-NTLK provides a number of other really cool features. Some examples of
+NLTK provides a number of other really cool features. Some examples of
 this include: part of speech tagging, and full sentence
-parsing. You can also do sentiment analysis within NTLK by training
+parsing. You can also do sentiment analysis within NLTK by training
 a Bayesian classifier ([code](http://www.nltk.org/howto/sentiment.html)).
 
 If you perform some linguistic post processing, you may be able to say
@@ -405,7 +405,7 @@ paper).
 ![](http://newsroom.unl.edu/releases/downloadables/photo/20120828macro-american.jpg)
 
 In order to apply MDS to your data, you can use the machine learning toolkit
-scikit-learn (to install it consult the [machine learning toolbox)]({% link _toolboxes/machine-learning.md %}).
+`scikit-learn`. (To install it, consult the [machine learning toolbox)]({% link _toolboxes/machine-learning.md %}.)
 
 Here is some code that uses the similarity matrix defined in the previous
 section to create a 2-dimensional embedding of the four Charles Dickens and 1

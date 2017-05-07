@@ -41,7 +41,7 @@ Creating app... done, boiling-brushlands-71788
 https://boiling-brushlands-71788.herokuapp.com/ | https://git.heroku.com/boiling-brushlands-71788.git
 ```
 
-`heroku apps:create` selects a random name (above, "boiling-brushlands-71788")
+`heroku apps:create` selects a random name (above, `boiling-brushlands-71788`)
 for your application. You can also *specify* a name, so long as it is unique
 among all Heroku applications (for all users).
 For example, `heroku app:create osteele-toolbox` makes my application available at `https://osteele-toolbox.herokuapp.com`.
@@ -209,4 +209,4 @@ Your app may work for a while, and then stop working with the message below:
 Some things you can do to learn more and/or have more fun:
 
 * Add an `app.json` file, and a ![](https://www.herokucdn.com/deploy/button.svg) button. The instructions are [here](https://devcenter.heroku.com/articles/heroku-button).
-* Learn about [gunicorn](https://devcenter.heroku.com/articles/python-gunicorn). Use this to deploy a web application that can serve more than one HTTP request at a time.
+* Learn about [Gunicorn](https://devcenter.heroku.com/articles/python-gunicorn). Use this to deploy a web application that can serve more than one HTTP request at a time.

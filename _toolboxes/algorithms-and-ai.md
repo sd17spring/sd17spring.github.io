@@ -45,7 +45,7 @@ star have over depth-first search?
 To use the GUI/toy, first run `python3 astar.py` to bring up the pygame window.
 Hit the 'l' key to switch to the 'add lava tiles' mode. Then you can click on
 any cell to add or remove a lava tile from that cell. Hit the spacebar at any
-time to have Paul plan (or replan) his path to the cake, and highlight that
+time to have Paul plan (or re-plan) his path to the cake, and highlight that
 path. Feel free to reach out at any time about problems, this code certainly
 isn't the most robust or well structured, so Dennis would be happy to explain
 what the heck he was thinking to you.
@@ -53,9 +53,9 @@ what the heck he was thinking to you.
 ## Print those scores!
 
 Take a look at lines 171-173 of the code. Try commenting and uncommenting
-lines to set COST_TO_DRAW to different values, and run the code to see the
+lines to set `COST_TO_DRAW` to different values, and run the code to see the
 values that are printed in each cell when you hit the spacebar. Take a
-screenshot (Fn + Print Scrn) of each example with some lava tiles placed down,
+screenshot (<kbd>Fn + Print Scrn</kbd>) of each example with some lava tiles placed down,
 and in your own words, explain what `f_score`, `g_score`, and `h_score` are, and why
 you see those specific values in the screenshot. (There should be three
 screenshots, printing *f* values, *g* values, and *h* values).
@@ -97,12 +97,12 @@ Moving into a swamp tile will cost 3 additional movement points, so Paul
 should really avoid moving through swamp tiles unless he has to. Note that
 this means that moving to an adjacent swamp tile will cost 4 points, since
 moving adjacent one square costs 1 point, and the swamp adds 3. Moving into a
-diagonal swamp tile will cost 6 points. A swamp.jpg file has been provided for
+diagonal swamp tile will cost 6 points. A `swamp.jpg` file has been provided for
 you in the /images folder. You will probably have to make some changes to
-pygame's main_loop to detect key presses, and you'll have to implement the
+pygame's `main_loop` to detect key presses, and you'll have to implement the
 empty `_add_swamp()` function. Take a look at `_add_lava()` for inspiration, and
 note the `terrain_cost` and `is_unpassable` arguments that are passed to the
-ObstacleTile constructor when a lava tile is made!
+`ObstacleTile` constructor when a lava tile is made!
 
 ## Completing the Toolbox Exercise
 

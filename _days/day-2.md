@@ -35,12 +35,12 @@ exercises will vary considerably.  In my experience, these differences diminish
 as the course goes on, but at the beginning of the semester it can be quite
 dramatic.  If you get done early, we have often given other exercises you can
 try.  However, if you find yourself with nothing to do, then try to find other
-exercises from ThinkPython, make up your own exercise, or think of interesting
+exercises from Think Python, make up your own exercise, or think of interesting
 questions to ask the instructors!  (Just don't be bored).
 
 ## Introduction to Python!
 
-Let's start with the obligatory Python XKCD comic.
+Let's start with the obligatory Python **xkcd comic**.
 
 ![](http://imgs.xkcd.com/comics/python.png)
 
@@ -58,7 +58,7 @@ _Python as a Calculator_
 
 ## Executing Python Scripts
 
-Learning how to write our first Python program is easy (in fact, all you have to do is read the XKCD comic and the code for Hello World is right there!).  What we need to do next is to understand how to run (or execute our Python code).  There are quite a few methods for executing Python code, and it helps to be familiar with all of them.  Depending on the situation, you may choose a different route for running your program.
+Learning how to write our first Python program is easy (in fact, all you have to do is read the xkcd comic and the code for Hello World is right there!).  What we need to do next is to understand how to run (or execute our Python code).  There are quite a few methods for executing Python code, and it helps to be familiar with all of them.  Depending on the situation, you may choose a different route for running your program.
 
 ### Method 0: In the browser as a Jupyter Notebook
 
@@ -119,9 +119,9 @@ To do so execute the following command from the Python prompt.
 >>> exec(open('hello.py').read())
 ```
 
-### Method 4: inside the iPython interpreter
+### Method 4: inside the IPython interpreter
 
-In general ipython is a superior option to the basic python interpreter if you want to execute Python in interactive mode.  There are lots of advantages to ipython ([here](http://www.ifh.de/~middell/public/pyroot/ipython.html) is a good list), but one of my favorites is tab completion. Open up ipython by executing the command ipython. At the ipython command prompt type "run he" and then hit the tab key. iPython should complete the command to run hello.py. Now if you press enter, the code will execute (as in Method 3).
+In general IPython is a superior option to the basic python interpreter if you want to execute Python in interactive mode.  There are lots of advantages to IPython ([here](http://www.ifh.de/~middell/public/pyroot/ipython.html) is a good list), but one of my favorites is tab completion. Open up IPython by executing the command `ipython`. At the IPython command prompt type "run he" and then hit the <kbd>tab</kbd> key. IPython should complete the command to run `hello.py`. Now if you press <kbd>Enter</kbd>, the code will execute (as in Method 3).
 
 **Exercise for the class**: Now that you have seen these methods of invoking Python code, convert your solution to TP Exercise 2.4 into a Python script, and then execute the Python script using at least two of the methods above.
 

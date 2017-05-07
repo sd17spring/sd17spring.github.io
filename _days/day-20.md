@@ -8,7 +8,7 @@ description: Code Review Demo
 ## Today
 
 * Code review demo
-* Code review signup
+* Code review sign up
 * Mini-Project 5 tips
 
 ## For Next Time

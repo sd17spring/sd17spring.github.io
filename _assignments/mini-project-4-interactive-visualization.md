@@ -98,9 +98,9 @@ library reduces the amount of object-oriented code that you have to write, and
 in this assignment we want you to get a lot of practice writing your own
 object-oriented code. Sticking with a simple framework like **pygame** will
 support this learning goal nicely. A final advantage is that we will be doing
-at least one lengthy example in class that uses **pygame**. I f you are using
+at least one lengthy example in class that uses **pygame**. If you are using
 **pygame** for your data visualization project, you will get a lot more out of
-this inclass activity.
+this in-class activity.
 
 To install **pygame**:
 
@@ -113,7 +113,7 @@ $ sudo pip3 install pygame
 How to get started with **pygame** (these do not have to be done in this
 order):
 
-* [if making a game] Go through the PyMan tutorials ([part 1](http://www.learningpython.com/2006/03/12/creating-a-game-in-python-using-pygame-part-one/), [part 2](http://www.learningpython.com/2006/03/19/creating-a-game-in-python-using-pygame-part-two-creating-a-level/), [part 3](http://www.learningpython.com/2006/04/16/creating-a-game-in-python-using-pygame-part-3-adding-the-bad-guys/)). It is shows how to implement a Pacman clone in pygame (don't worry about the prerequisites section, you should already have the prerequisites satisfied). The strength of the tutorial is that there is lots of explanation of each part of the code. Unfortunately, the HTML formatting for parts 2 and 3 seems to be messed up, but hopefully these are still useful (let us know if you find a workaround for this formatting issue).
+* [if making a game] Go through the PyMan tutorials ([part 1](http://www.learningpython.com/2006/03/12/creating-a-game-in-python-using-pygame-part-one/), [part 2](http://www.learningpython.com/2006/03/19/creating-a-game-in-python-using-pygame-part-two-creating-a-level/), [part 3](http://www.learningpython.com/2006/04/16/creating-a-game-in-python-using-pygame-part-3-adding-the-bad-guys/)). It is shows how to implement a Pac-Man clone in pygame (don't worry about the prerequisites section, you should already have the prerequisites satisfied). The strength of the tutorial is that there is lots of explanation of each part of the code. Unfortunately, the HTML formatting for parts 2 and 3 seems to be messed up, but hopefully these are still useful (let us know if you find a workaround for this formatting issue).
 * Read through the **pygame** [documentation](http://www.pygame.org/docs/).
 * Read through the other **pygame** [tutorials](http://pygame.org/wiki/tutorials) if you find one that seems more aligned with the project you want to create.
 * [if making a game] Make sure you understand the basics of collision detection in **pygame**. Collision detection is a surprisingly tricky thing to write on your own, so it is recommended to utilize **pygame** 's built-in features for this (see [this](http://www.pygame.org/docs/tut/SpriteIntro.html) page). If you need to do collision detection with something besides rectangles, you may have to either adapt pygame's collision detection or write your own collision detection routines.
@@ -130,7 +130,7 @@ and [API reference](http://docs.opencv.org/2.4.9/modules/refman.html)).
 
 ### To Implement, or not to Implement, that is the question!
 
-There are some inherent tradeoffs in using someone else's whiz-bang library
+There are some inherent trade-offs in using someone else's whiz-bang library
 and coding the functionality yourself. Here are some pros and cons:
 
 * **Pro:** using a library is faster and can let you do things in a short time that would be infeasible if you coded it yourself.
@@ -140,7 +140,7 @@ and coding the functionality yourself. Here are some pros and cons:
 
 It's up to you how heavily you want to utilize others libraries. All we ask is
 that you make the decision intentionally and with consideration of these
-tradeoffs.
+trade-offs.
 
 ## Project Ideas
 
@@ -149,8 +149,8 @@ tradeoffs.
 The first thing you will need to do is to get some data. Here are some
 sources:
 
-1. **Fivethirtyeight:** Nate Silver's website on data-driven journalism. They have a [github repo](https://github.com/fivethirtyeight/data) with data they use in their articles!
-2. National Survey of Family Growth: Allen has a lot of examples that uses this database. To get started fork Allen's [ThinkStats2 repository](https://github.com/AllenDowney/ThinkStats2).
+1. **FiveThirtyEight:** Nate Silver's website on data-driven journalism. They have a [GitHub repo](https://github.com/fivethirtyeight/data) with data they use in their articles!
+2. National Survey of Family Growth: Allen has a lot of examples that uses this database. To get started fork Allen's [`ThinkStats2` repository](https://github.com/AllenDowney/ThinkStats2).
 3. [Data.gov](http://data.gov/): a massive repository of data provided by the U.S. government.
 4. A [very comprehensive](https://github.com/caesar0301/awesome-public-datasets) listing of sources for open data.
 5. IBM's [Big Data for Social Good Challenge](http://ibmhadoop.challengepost.com/details/data)
@@ -176,7 +176,7 @@ _(source: New York Times Year in Interactive Storytelling 2013)_
 _Examining Box Office Hits:_
 ![]({% link images/assignments/interactive-visualization/4.png %}){:width="400px" height="222px"}
 
-_Where did my harddrive space go???_
+_Where did my hard drive space go???_
 ![]({% link images/assignments/interactive-visualization/29.png %}){:width="304px" height="400px"}
 
 _Examining the Group Debates:_
@@ -204,7 +204,7 @@ Pac-Man ([Wikipedia](https://en.wikipedia.org/wiki/Pac-Man))
 
 <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/3-C7lHLFLU8?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
 
-Skyroads ([Wikipedia](https://en.wikipedia.org/wiki/SkyRoads_(video_game))).
+SkyRoads ([Wikipedia](https://en.wikipedia.org/wiki/SkyRoads_(video_game))).
 Considerably more complex than the others, but maybe a simple version could be constructed.
 
 <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/F6Rovi9QSDk?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
@@ -217,7 +217,7 @@ enhancements).
 ![](http://nifty.stanford.edu/2008/leyzberg-simon-asteroids/game.jpg)
 
 Q*Bert ([Wikipedia](https://en.wikipedia.org/wiki/Q*bert)).
-A popular arcade game in the 80's; referenced in the movies _[Wreck it Ralph](https://www.youtube.com/watch?v=0yrhee8W7II)_
+A popular arcade game in the '80s; referenced in the movies _[Wreck it Ralph](https://www.youtube.com/watch?v=0yrhee8W7II)_
 and Pixel.
 
 <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/karPYs22ACc?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
@@ -249,23 +249,23 @@ View-Controller and how they interact:
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1000px-MVC-Process.svg.png)
 
-To make things concrete, let's think about how we might implement a Pacman
+To make things concrete, let's think about how we might implement a Pac-Man
 clone. Here are the classes and the functions that you might use to implement
 your game:
 
-* **Model:** encodes the overall game state of the Pacman game (including level, position of pellets, position of Pacman and ghosts, etc.)
+* `Model`: encodes the overall game state of the Pac-Man game (including level, position of pellets, position of Pac-Man and ghosts, etc.)
   * Provides an interface to the Controller to respond appropriately to user commands
-  * Handles collisions between Pacman and ghosts as well as Pacman and small and large pellets
-* **Pacman:** represents the player's avatar in the game (a part of the model)
-  * Provides an interface to respond to player actions as communicated by the controller (e.g. Pacman's next move)
-* **Ghost:** represents a ghost in the game (a part of the model)
-* **Small pellet:** represents a small pellet in the game (a part of the model)
-* **Large pellet:** represents a large pellet in the game (a part of the model)
-* **Controller:** handles commands from the user and manipulates the model appropriately
-* **PyGameView:** draws the game state encoded by the Model to a **pygame** window
+  * Handles collisions between Pac-Man and ghosts as well as Pac-Man and small and large pellets
+* `PacMan`: represents the player's avatar in the game (a part of the model)
+  * Provides an interface to respond to player actions as communicated by the controller (e.g. Pac-Man's next move)
+* `Ghost`: represents a ghost in the game (a part of the model)
+* `Small pellet`: represents a small pellet in the game (a part of the model)
+* `Large pellet`: represents a large pellet in the game (a part of the model)
+* `Controller`: handles commands from the user and manipulates the model appropriately
+* `PyGameView`: draws the game state encoded by the Model to a **pygame** window
 
 There are many ways to implement Model-View-Controller, so this is not the
-only way to operationalize Model-View-Controller in the context of Pacman.
+only way to operationalize Model-View-Controller in the context of Pac-Man.
 Remember, this is not the only way to structure your object-oriented design,
 but we hope it will be helpful at least as a jumping off point.
 
@@ -275,7 +275,7 @@ but we hope it will be helpful at least as a jumping off point.
 
 You must find a teammate and decide on a project topic. You are required to
 have your teammate selected (and hopefully a rough idea of what you will do
-for the project) by 2:00PM on {{ page.start_date | date: '%a %b %-d' }}. Use
+for the project) by 2:00 PM on {{ page.start_date | date: '%a %b %-d' }}. Use
 [this](https://docs.google.com/spreadsheets/d/17qS5AXqLnV2aitd0dUHXri5fjtGodrS9vd9A0c_K4x0/edit?usp=sharing) Google spreadsheet to indicate who you are
 working with. There is also a section where you can look for a teammate if you
 don't have one already.
@@ -327,7 +327,7 @@ checkin. We will have the opportunity to provide guidance around this when we
 meet with you at the project proposal. However, here are a list of fairly
 generic goals for the mid-project check-in:
 
-* You should have good sense of the major classes that you will need to create for your project. A UML diagram (see ThinkPython) will be a useful thing to have as well.
+* You should have good sense of the major classes that you will need to create for your project. A UML diagram (see Think Python) will be a useful thing to have as well.
 * You should have a clear implementation plan. This includes how you will divide (or not divide) up the programming tasks among you and your partner.
 * If you are planning to use a library that you read about, you should have verified that you can install it and that it can be used for the purpose that you want.
 * You should have a good start on implementing some of the classes for your project.

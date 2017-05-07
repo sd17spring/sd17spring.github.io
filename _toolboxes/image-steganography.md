@@ -15,7 +15,7 @@ is in `steganography.py`.
 
 ## Get Set
 
-This toolbox uses the [Python Pillow library](https://pillow.readthedocs.io/en/4.0.x/reference/Image.html). You should already have this installed on your system from the Computational Art mini-project, but go ahead and install it using pip3 if it's missing.
+This toolbox uses the [Python Pillow library](https://pillow.readthedocs.io/en/4.0.x/reference/Image.html). You should already have this installed on your system from the Computational Art mini-project, but go ahead and install it using `pip3` if it's missing.
 
 ## What is steganography?
 
@@ -31,7 +31,7 @@ if you take the first letter of every word. Steganography is really handy to use
 
 ## The value of one pixel
 
-There are multiple ways to hide things within other things, but today we will be working with images. A black and white image (not greyscale) is an easy thing to conceptualize, where a black pixel has a value of 1 and a white pixel as a value of 0.
+There are multiple ways to hide things within other things, but today we will be working with images. A black and white image (not grayscale) is an easy thing to conceptualize, where a black pixel has a value of 1 and a white pixel as a value of 0.
 
 Color images have three color channels (RGB), with pixel values of 0-255 for each pixel. So a pixel with the value (255,255,255) would be entirely white while (0,0,0) would be black. The upper range is 255 because it is the largest value that can be represented by an 8 bit binary number. Binary is a base-two paradigm, in contrast to decimal which is in base-ten, which means you calculate the value of a binary number by summing the 2s exponent of each place where a 1 appears.
 
@@ -69,13 +69,13 @@ The concept of MSB and LSB occurs in other contexts as well. For example, [parit
 
 ## Decoding the sample image
 
-Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it? This image is also included in the toolbox under images/encoded_sample.png.
+Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message... can you decode it? This image is also included in the toolbox under `images/encoded_sample.png`.
 
 ![]({% link images/toolboxes/image-steganography/encoded_sample.png %}){:width="400px" height="351px"}
 
-Provided in the starter code is a function called `decode_image()`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the decode_image pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
+Provided in the starter code is a function called `decode_image`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the `decode_image` pixel to be (0, 0, 0) or (255, 255, 255) depending on the value of that LSB.
 
-You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the red_channel from the original RGB image. You can do this using the .split() function that PIL provides.
+You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the `red_channel` from the original RGB image. You can do this using the `.split()` method that PIL provides.
 
 ```python
 def decode_image(file_location):
@@ -103,8 +103,8 @@ Now that we can decode secret messages, it's only natural that we want to encode
 
 You will need three things to complete this assignment:
 
-1. Completed steganography.py code
-2. Decoded image obtained from encoded_sample.png
-3. A sample image with some encoded message in it from your encode_image() function
+1. Completed `steganography.py` code
+2. Decoded image obtained from `encoded_sample.png`
+3. A sample image with some encoded message in it from your `encode_image()` function
 
 Commit all three things to your GitHub repo and submit a pull request to turn in this toolbox.

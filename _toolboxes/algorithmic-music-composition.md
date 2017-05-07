@@ -125,7 +125,7 @@ later).
 
 Once you have added a new lick, modify the line of code `lick = licks[0]` to
 choose the lick at random using the function `random.choice` (note that the
-function random.choice has already been imported for you in the starter code
+function `random.choice` has already been imported for you in the starter code
 as `choice`). Before running your code, you will want to make sure that the
 variable `curr_note` doesn't get too high or too low. Make sure you create a
 series of if statements to keep the variable from getting less than `0` or

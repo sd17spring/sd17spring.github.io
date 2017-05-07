@@ -108,14 +108,14 @@ to confirm whether or not the genes predicted by your program are in fact
 genes, and if so what their functional role might be. This assignment is
 essentially the Biological equivalent of a mystery novel, and your primary
 tools in this case will be computational ones! More concretely, given an
-unannotated text file of seemingly random symbols, you will write a Python
+un-annotated text file of seemingly random symbols, you will write a Python
 program that will shed light on the nature of these symbols and gain insight
 into Typhoid fever (including aspects of how it is caused as well as the
 evolutionary history of the bacteria that causes the disease).
 
 The story of Typhoid Mary is a fascinating one. It is fascinating on both
 scientific, legal, and philosophical levels. Rather than trying to reproduce
-it here, we invite you to check out the [wikipedia
+it here, we invite you to check out the [Wikipedia
 page](http://en.wikipedia.org/wiki/Typhoid Mary) on Typhoid Mary.
 Additionally, you may also want to listen to the fantastic [RadioLab podcast
 called "Patient Zero"](http://www.radiolab.org/story/169879-patient-zero/).
@@ -142,7 +142,7 @@ reading journal. For your reference, here are the steps again:
 1. Open up a new browser window, and navigate to <https://github.com>
 2. If you are not already logged in, login to your GitHub account by clicking the "sign in" button at the top left of the page
 3. Copy and paste the following URL into the URL bar of the window that you used to login to GitHub [https://github.com//{{site.data.course.github.owner_name}}/GeneFinder](https://github.com//{{site.data.course.github.owner_name}}/GeneFinder)
-4. Fork the `GeneFinder` repository by clicking on the "Fork" button in the upper right of the window. If prompted for where you should fork the repository, select @yourgithubusername.
+4. Fork the `GeneFinder` repository by clicking on the "Fork" button in the upper right of the window. If prompted for where you should fork the repository, select `@yourgithubusername`.
 5. You should now be at the page that shows your fork of the SoftDes repository. Copy the URL in the box labeled "HTTPS Clone URL".
 6. Open up a terminal and execute the following commands (note: these commands will clone your `GeneFinder` repository in your home directory, please modify the first line to cd to a different directory if you'd rather clone somewhere else).
 
@@ -166,7 +166,7 @@ next section explains the purpose of each of these files.
 ### Getting the Lay of the Land
 
 The last step of the previous section had you listing the contents of the
-gene_finder subdirectory of your SoftDes repo. Here is a description each of
+`gene_finder` subdirectory of your SoftDes repo. Here is a description each of
 the files:
 
 * `gene_finder.py`  : this is where you will put your code for this assignment.
@@ -361,7 +361,7 @@ you think of a different method of unit testing that would be appropriate for
 this function? Are there any other methods you might use to build confidence
 that your implementation is correct? (These are rhetorical questions.)
 
-* `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in **amino_acids.py**  or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
+* `coding_strand_to_AA` : this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in `amino_acids.py` or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
 
 You can convert a three nucleotide string (also called a triplet codon) into
 the appropriate amino acid in the following manner.
@@ -398,7 +398,7 @@ Next, find all open reading frames on both strands, and then return a list
 containing the amino acid sequence encoded by any open reading frames that are
 longer than the threshold computed above using `longest_ORF_noncoding` .
 
-To tie it all together you will actually be applying the gene_finder program
+To tie it all together you will actually be applying the `gene_finder` program
 that you wrote to some real DNA! It is this type of computational sleuthing
 that has helped unlock many secrets. The first step is to get some DNA to
 analyze. Included in the `data` folder is a FASTA file containing a sequence
@@ -425,7 +425,7 @@ Submitting your assignment is a two step process:
 1. Complete the work and push it to your GitHub repository
 2. Do at least one of:
   * Submit a pull request to the upstream {{ site.data.course.github.owner_name }} repository that you originally forked from
-  * Visit a NINJA in pperson to check off week 2 of your assignment
+  * Visit a NINJA in person to check off week 2 of your assignment
 
 Pull requests are typically used to contribute code to someone else's project
 in the open source world. They let you send changes you've made, which the
@@ -514,7 +514,7 @@ this longest match.
 
 #### Tips for speeding up your program
 
-1. Use [pypy](http://pypy.org) to execute your program (a modified Python interpreter that excels when executing Python programs that depend heavily on loops). To install this run `sudo apt-get install pypy`. I got a 30 fold speedup when using the simple approach to longest common substring described above.
+1. Use [PyPy](http://pypy.org) to execute your program (a modified Python interpreter that excels when executing Python programs that depend heavily on loops). To install this run `sudo apt-get install pypy`. I got a 30 fold speedup when using the simple approach to longest common substring described above.
 2. Implement a smarter algorithm for longest common substring (the [dynamic programming solution](https://en.wikipedia.org/wiki/Longest_common_substring_problem#Dynamic_programming) is the next logical one to try).
 
 ### Suggestion 2: Building a better gene finder

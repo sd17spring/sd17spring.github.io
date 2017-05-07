@@ -7,7 +7,7 @@ description: Keeping secrets out of the public eye, Saving data sets with pickle
 
 ## Today
 
-* Securing secrets when working on code that goes to github.com
+* Securing secrets when working on code that goes on GitHub
 * Walkthrough of pickling a dataset
 * Work on [pickling]({% link _toolboxes/pickling.md %}) toolbox
 

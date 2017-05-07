@@ -146,6 +146,6 @@ def recursive_function(input1, input2):
 Next, try to modify our function `nchoosek` to use memoization.
 
 {{ comment }}
-The call graphs of the memoized nchoosek and Levenshtein functions are
+The call graphs of the memoized `nchoosek` and Levenshtein functions are
 [here](https://github.com//sd16spring/ClassNotes/blob/master/Call%20Graphs%202.ipynb).
 {{ endcomment }}

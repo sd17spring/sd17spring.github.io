@@ -123,10 +123,10 @@ Note that the bounding box of the face is specified for each face by:
 ## Blurring Faces
 
 Next, you will use OpenCV's filtering routines to blur out the face.
-Specifically you will be using the function cv2.dilate to blur out the face.
+Specifically you will be using the function `cv2.dilate` to blur out the face.
 
-First, at the top of your file (right after you create face_cascade) create a
-numpy matrix which controls the degree of blurring (the larger the matrix, the
+First, at the top of your file (right after you create `face_cascade`) create a
+NumPy matrix which controls the degree of blurring (the larger the matrix, the
 more blurring):
 
     kernel = np.ones((21, 21), 'uint8')

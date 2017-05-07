@@ -24,14 +24,14 @@ In this exercise, you will define methods for `Line` and `Rect` geometry
 classes.
 
 Save the file
-[geometry.py]({% link files/activities/day-10/geometry.py %})
+[`geometry.py`]({% link files/activities/day-10/geometry.py %})
 to your file system, and modify it so that the doctests pass:
 
 ```bash
 python geometry.py
 ```
 
-In order to run the doctests for a _single method, comment out
+In order to run the doctests for a _single_ method, comment out
 `doctest.testmod` and uncomment `doctest.run_docstringexamples` at the end of
 the file:
 
@@ -67,21 +67,21 @@ directions. Any of these can be done independently of the others.
 ### Going Beyond 1: Duck Typing Skills emphasized: object-oriented programming (classes); polymorphism (“duck typing”).
 
 Save the file
-[geometry_beyond_1.py](https://raw.githubusercontent.com/{{ site.data.course.github.owner_name }}/{{ site.data.course.github.owner_name }}.github.io/master/files/activities/day-10/geometry_beyond_1.py),
+[`geometry_beyond_1.py`](https://raw.githubusercontent.com/{{ site.data.course.github.owner_name }}/{{ site.data.course.github.owner_name }}.github.io/master/files/activities/day-10/geometry_beyond_1.py),
 implement the methods of the `Circle` class, and implement the function `stochastic_area`.
 `stochastic_area` should work on either a Rect or a Circle.
 
 Some things to think about:
 
-* How close is stochastic_area's return value to Rect and Circle's area methods?
-* What needs to be true of a class for stochastic_area to work on it?
+* How close is `stochastic_area`'s return value to Rect and Circle's area methods?
+* What needs to be true of a class for `stochastic_area` to work on it?
 * Are there additional classes that would be simple to implement, that you could apply stochastic_area to?
-* When would you use stochastic_area instead of just `area`?
+* When would you use `stochastic_area` instead of just `area`?
 
 ### Going Beyond 2: PyGame – Skill emphasized: computer graphics
 
 Save the file
-[geometry_beyond_2.py](https://raw.githubusercontent.com/{{ site.data.course.github.owner_name }}/{{ site.data.course.github.owner_name }}.github.io/master/files/activities/day-10/geometry_beyond_2.py),
+[`geometry_beyond_2`.py](https://raw.githubusercontent.com/{{ site.data.course.github.owner_name }}/{{ site.data.course.github.owner_name }}.github.io/master/files/activities/day-10/geometry_beyond_2.py),
 and modify the implementation of `draw_shapes` to attend to its argument (a
 list of shapes).
 

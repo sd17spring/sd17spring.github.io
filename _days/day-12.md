@@ -69,19 +69,19 @@ We will utilize the [Model-View-Controller](http://en.wikipedia.org/wiki/Modelâ€
 
 The code will rely upon pygame so make sure that it is installed â€“ see the instructions for [Mini-Project 4]({% link _assignments/mini-project-4-interactive-visualization.md %}#pygame) to get Pygame set up if you have not done so.
 
-[brickbreaker-sp17.py]({% link files/activities/mvc/brickbreaker-sp17.py %})
+[`brickbreaker-sp17.py`]({% link files/activities/mvc/brickbreaker-sp17.py %})
 
 ## Bouncy Ball
 
 I will start with a file [`bounce.py`]({% link files/activities/mvc/bounce.py %}), and refactor it to use MVC.
 
-It will end going throught something like the following progression:
+It will end going through something like the following progression:
 
-* [bounce_mv.py]({% link files/activities/mvc/bounce_mv.py %})
-* [bounce_mvc.py]({% link files/activities/mvc/bounce_mvc.py %})
-* [bounce_mvc_2.py]({% link files/activities/mvc/bounce_mvc_2.py %})
+* [`bounce_mv.py`]({% link files/activities/mvc/bounce_mv.py %})
+* [`bounce_mvc.py`]({% link files/activities/mvc/bounce_mvc.py %})
+* [`bounce_mvc_2.py`]({% link files/activities/mvc/bounce_mvc_2.py %})
 
 **Optional exercise**
 
-Refactor [spin.py]({% link files/activities/mvc/spin.py %}) to use MVC.
+Refactor [`spin.py`]({% link files/activities/mvc/spin.py %}) to use MVC.
 Optional optional: add some flair to it.

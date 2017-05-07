@@ -109,6 +109,6 @@ receipt for this wacky store:
 
 What helper functions would be useful in creating this receipt program?
 
-Hint: the [built-in 'ord' and
-'chr'](https://docs.python.org/3/library/functions.html) functions may be
+Hint: the [built-in `ord` and
+`chr`](https://docs.python.org/3/library/functions.html) functions may be
 useful. If you use these, pay attention to how case affects the result.
