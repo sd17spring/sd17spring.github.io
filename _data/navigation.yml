@@ -23,7 +23,7 @@ docs:
   - title: Assignments
     url: /assignments/
     children:
-      - title: "Get Set"
+      - title: Get Set
         url: /assignments/setup-your-environment/
       - title: Reading Journal
         url: https://github.com//sd17spring/ReadingJournal
@@ -37,7 +37,7 @@ docs:
         url: /assignments/mini-project-4-interactive-visualization/
       - title: "MP5: Feedback and Revision"
         url: /assignments/mini-project-5-feedback-and-revision/
-      - title: "Final Project"
+      - title: Final Project
         url: /assignments/final-project/
 
   - title: Toolboxes
