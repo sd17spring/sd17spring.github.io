@@ -78,6 +78,7 @@ include:
 - _pages
 
 exclude:
+- config
 - Gemfile
 - Gemfile.lock
 - README.md

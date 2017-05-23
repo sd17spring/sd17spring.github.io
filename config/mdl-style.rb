@@ -1,4 +1,4 @@
-# This is a file for mdl.
+# This is a configuration file for mdl.
 
 all
 
