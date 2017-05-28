@@ -27,7 +27,7 @@ install Flask. Run the following command:
     sudo pip3 install Flask
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.data.course.github.owner_name}}/Toolbox-Flask>.
+method from <https://github.com//{{site.github.owner_name}}/Toolbox-Flask>.
 
 This toolbox exercise was developed by Patrick Huston.
 

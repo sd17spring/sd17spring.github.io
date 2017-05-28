@@ -63,7 +63,7 @@ First, open up a terminal and execute the following command:
     $ sudo pip3 install python-sonic
 
 Grab the starter code for this toolbox via the normal fork-and-clone method
-from <https://github.com//{{site.data.course.github.owner_name}}/ToolBox-AlgorithmicMusic>.
+from <https://github.com//{{site.github.owner_name}}/ToolBox-AlgorithmicMusic>.
 
 ## Synthesizing Your First Note
 

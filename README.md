@@ -11,6 +11,9 @@ The source to <https://sd17spring.github.io>.
 1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
 2. `bundle install`
 
+Optional: Create a [GitHub personal access token](https://github.com/settings/tokens),
+and add `export JEKYLL_GITHUB_TOKEN=…` to your `.bashrc` or `.zshenv`.
+
 Alternative: Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Develop

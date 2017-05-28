@@ -10,7 +10,7 @@ In this toolbox exercise you will delve a bit deeper into the specifics of how i
 
 To complete this toolbox, you will need to write two functions. The first is a decoding function that can extract secret information from an image file, while the second is a function that can encode secret messages into images.
 
-Grab the starter code for this toolbox exercise via the normal fork-and-clone method from <https://github.com//{{site.data.course.github.owner_name}}/ToolBox-ImageSteganography>. The starter code
+Grab the starter code for this toolbox exercise via the normal fork-and-clone method from <https://github.com//{{site.github.owner_name}}/ToolBox-ImageSteganography>. The starter code
 is in `steganography.py`.
 
 ## Get Set

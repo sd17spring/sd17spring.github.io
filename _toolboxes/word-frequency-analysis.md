@@ -14,7 +14,7 @@ a bit about reading files.
 ## Get Set
 
 Grab the starter code for this toolbox exercise via the normal fork-and-clone
-method from <https://github.com//{{site.data.course.github.owner_name}}/ToolBox-WordFrequency>
+method from <https://github.com//{{site.github.owner_name}}/ToolBox-WordFrequency>
 
 The starter code will be in `frequency.py`.
 

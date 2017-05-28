@@ -29,7 +29,7 @@ that manipulates language in some interesting way).
 ## How to proceed
 
 In order to get started on the assignment, you should fork the [base
-repository](https://github.com//{{site.data.course.github.owner_name}}/TextMining) for the text mining and
+repository](https://github.com//{{site.github.owner_name}}/TextMining) for the text mining and
 analysis mini-project. Once you've forked the repository, clone the repository
 on your computer.
 

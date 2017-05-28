@@ -9,7 +9,7 @@ If you need help outside of class and office hours, use [Slack](https://{{ site.
 : **What**: The main course site. (You're looking at it.)
 : **Used for**: Assignment descriptions, resources, syllabus, calendar, policies.
 
-[GitHub repositories](https://github.com/{{ site.data.course.github.owner_name }})
+[GitHub repositories](https://github.com/{{ site.github.owner_name }})
 : **What**: Course GitHub repositories
 : **Used for**: Reading Journal; Mini-Project and Toolbox scaffold repos.
 

@@ -141,7 +141,7 @@ $ python3 -m timeit '"-".join([str(n) for n in range(100)])'
 ```
 
 It can also be run from within a Python program (there is an example at
-<https://github.com//{{site.data.course.github.owner_name}}/ClassNotes> in the profiling folder).
+<https://github.com//{{site.github.owner_name}}/ClassNotes> in the profiling folder).
 
 `timeit` is best used for testing very small sections of code (e.g. a single
 line). For understanding larger programs, you should consider code profiling.

@@ -36,7 +36,7 @@ See [Git Help]({% link _pages/git-help.md %}) on this site.
 * [Spring 2014 NINJA tutorial: Python exercises](https://docs.google.com/document/d/1k-JU9cPokJ58ur4ubpbhLAxC26aAx9bCUcianobBLFE/edit)
 * [Lambda functions](http://www.secnetix.de/%7Eolli/Python/lambda_functions.hawk)
 {% if site.data.course.urls.piazza == 'https://piazza.com/olin/spring2016/engr2510' %}
-* Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.data.course.github.owner_name}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
+* Piazza post: [Python performance strategies](https://piazza.com/class/ijkborva8jk70v?cid=105) ([notebook](https://github.com//{{site.github.owner_name}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb))
 * Piazza post: [Testing functions that call random](https://piazza.com/class/ijkborva8jk70v?cid=103)
 {% endif %}
 
@@ -80,9 +80,9 @@ Also see [Awesome-Python](https://awesome-python.com), a curated list of Python 
 
 ### IPython Notebooks
 
-* [Iteration strategies](https://github.com//{{site.data.course.github.owner_name}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
-* [Performance strategies](https://github.com//{{site.data.course.github.owner_name}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
-* [Drawing call graphs](https://github.com//{{site.data.course.github.owner_name}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
+* [Iteration strategies](https://github.com//{{site.github.owner_name}}/ClassNotes/blob/master/Day5_Iteration.ipynb)
+* [Performance strategies](https://github.com//{{site.github.owner_name}}/ClassNotes/blob/master/Python%20Performance%20Strategies.ipynb)
+* [Drawing call graphs](https://github.com//{{site.github.owner_name}}/ClassNotes/blob/master/Call%20Graphs.ipynb)
 {% endif %}
 
 ## Text Editors
