@@ -83,7 +83,7 @@ consensus splice sites and nearly universal start and stop codon sequences.
 These signals are highly conserved, are relatively easy to model, and have
 been the focus of a number of algorithms trying to locate all the protein-coding
 genes in a genome using only the sequence of one or more genomes.
-> \-- "Gene Prediction: compare and CONTRAST", Paul Flicek._ Genome Biology_
+> \-- "Gene Prediction: compare and CONTRAST", Paul Flicek. _Genome Biology_
 2007, **8**:233.
 
 One reason why this problem is so fundamental for the field, is that once one
