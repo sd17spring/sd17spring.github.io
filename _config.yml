@@ -79,12 +79,13 @@ include:
 
 exclude:
   - config
+  - docker-compose.yml
   - Dockerfile
+  - docs
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - docker_compose.yml
-  - docs
   - notebooks
+  - README.md
+  - requirements.txt
   - scripts
   - vendor  # for travis
