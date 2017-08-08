@@ -31,6 +31,8 @@ collections:
   homepage_boxes:
     title: Homepage Boxes
     output: false
+  pages:
+    output: true
   posts:
     title: Posts
     output: true
@@ -76,12 +78,13 @@ include:
 - _pages
 
 exclude:
-- config
-- Gemfile
-- Gemfile.lock
-- README.md
-- docker_compose.yml
-- docs
-- notebooks
-- scripts
-- vendor  # for travis
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docker_compose.yml
+  - docs
+  - notebooks
+  - scripts
+  - vendor  # for travis
