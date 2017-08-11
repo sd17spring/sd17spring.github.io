@@ -10,7 +10,7 @@ header:
   overlay_image: "/assets/images/splash-banner.png"
 ---
 
-{% assign latest_day = (site.days | sort: 'activity_date' | last ) %}
+{% assign latest_day = site.days | sort: 'activity_date' | last %}
 
 {% if latest_day.homepage_message %}
 <h1 align="center" style="text-align: center"><big>{{ latest_day.title }} – {{ latest_day.activity_date | date: '%a, %b %-d' }}</big></h1>
