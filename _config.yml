@@ -74,8 +74,8 @@ defaults:
       layout: single
       edit_link: true
 
-include:
-- _pages
+gems:
+  - jekyll-github-metadata
 
 exclude:
   - config
