@@ -173,7 +173,7 @@ your code like the following:
     >>>>>>><my-branch-name>
 
 The `sarah_strohkorb = pick_the_coolest_ninja(input_1, input_2)` line is what
-is represented on the `master` branch and `sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the '<my-branch-name>' branch. You'll have to pick one of them and then delete the rest of
+is represented on the `master` branch and `sarah_strohkorb = pick_the_coolest_ninja()` line is what is represented on the '&lt;my-branch-name&gt;' branch. You'll have to pick one of them and then delete the rest of
 the information. So if I want `sarah_strohkorb = pick_the_coolest_ninja()`,
 I'll rearrange the code to get the following:
 

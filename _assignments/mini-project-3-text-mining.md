@@ -246,7 +246,7 @@ html.find('p')  # find the first paragraph
 str(html.find('p'))  # the first paragraph, as a string. Includes embedded <b> etc.
 ```
 
-Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded <b> etc.
+Use Python [regular expressions](https://docs.python.org/3/library/re.html) to remove the embedded &lt;b&gt; etc.
 
 ```python
 import re
