@@ -359,7 +359,7 @@ shuffled list back to a string you can use string `join` function.
 Note 2: We are not going to create unit tests for this function. Why not? Can
 you think of a different method of unit testing that would be appropriate for
 this function? Are there any other methods you might use to build confidence
-that your implementation is correct? (These are rhetorical questions.)
+that your implementation is correct? (These are not rhetorical questions.)
 
 * `coding_strand_to_AA`: this function converts from a string containing a DNA sequence to a sequence of amino acids. The function should read triplets of DNA nucleotides (codons), look up the appropriate amino acid (either using the provided variables in `amino_acids.py` or by encoding this information yourself), concatenate the amino acids into a string, and then return the amino acid sequence from the function.
 
